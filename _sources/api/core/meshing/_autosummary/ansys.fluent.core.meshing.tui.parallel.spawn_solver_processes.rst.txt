@@ -1,0 +1,6 @@
+spawn\_solver\_processes
+========================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: parallel.spawn_solver_processes

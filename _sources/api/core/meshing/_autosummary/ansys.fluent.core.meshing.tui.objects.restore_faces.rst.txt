@@ -1,0 +1,6 @@
+restore\_faces
+==============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.restore_faces

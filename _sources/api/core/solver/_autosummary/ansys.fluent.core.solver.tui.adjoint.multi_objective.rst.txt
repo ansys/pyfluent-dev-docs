@@ -1,0 +1,6 @@
+multi\_objective
+================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: adjoint.multi_objective

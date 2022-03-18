@@ -1,0 +1,6 @@
+add\_custom\_vector
+===================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: display.add_custom_vector

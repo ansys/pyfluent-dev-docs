@@ -1,0 +1,6 @@
+count\_unused\_nodes
+====================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.count_unused_nodes

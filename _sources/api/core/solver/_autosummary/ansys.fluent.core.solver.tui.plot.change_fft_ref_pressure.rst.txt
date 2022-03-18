@@ -1,0 +1,6 @@
+change\_fft\_ref\_pressure
+==========================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: plot.change_fft_ref_pressure

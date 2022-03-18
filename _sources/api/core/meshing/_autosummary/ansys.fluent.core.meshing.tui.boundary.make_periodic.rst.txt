@@ -1,0 +1,6 @@
+make\_periodic
+==============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.make_periodic

@@ -1,0 +1,70 @@
+﻿ansys.fluent.core.solver.tui.report
+===================================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. autoclass:: report
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      report.dpm_extended_summary
+      
+      
+      report.dpm_sample
+      
+      
+      report.dpm_sample_output_udf
+      
+      
+      report.dpm_sample_sort_file
+      
+      
+      report.dpm_summary
+      
+      
+      report.dpm_zone_summaries_per_injection
+      
+      
+      report.element_mass_flow
+      
+      
+      report.mphase_summary
+      
+      
+      report.particle_summary
+      
+      
+      report.path_line_summary
+      
+      
+      report.print_histogram
+      
+      
+      report.projected_surface_area
+      
+      
+      report.species_mass_flow
+      
+      
+      report.summary
+      
+      
+      report.uds_flow
+      
+      
+      report.write_histogram
+      
+   
+   
+
+   
+   
+   

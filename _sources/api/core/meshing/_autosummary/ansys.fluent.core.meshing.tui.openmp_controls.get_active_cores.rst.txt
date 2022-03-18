@@ -1,0 +1,6 @@
+get\_active\_cores
+==================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: openmp_controls.get_active_cores

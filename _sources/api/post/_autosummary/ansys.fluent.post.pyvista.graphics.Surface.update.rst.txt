@@ -1,0 +1,6 @@
+update
+======
+
+.. currentmodule:: ansys.fluent.post.pyvista.graphics
+
+.. automethod:: Surface.update

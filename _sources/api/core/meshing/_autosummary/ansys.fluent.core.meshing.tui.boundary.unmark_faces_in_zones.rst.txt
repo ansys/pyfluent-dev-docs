@@ -1,0 +1,6 @@
+unmark\_faces\_in\_zones
+========================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.unmark_faces_in_zones

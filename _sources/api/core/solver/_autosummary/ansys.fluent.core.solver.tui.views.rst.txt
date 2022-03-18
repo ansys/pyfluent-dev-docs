@@ -1,0 +1,52 @@
+﻿ansys.fluent.core.solver.tui.views
+==================================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. autoclass:: views
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      views.auto_scale
+      
+      
+      views.default_view
+      
+      
+      views.delete_view
+      
+      
+      views.last_view
+      
+      
+      views.list_views
+      
+      
+      views.next_view
+      
+      
+      views.read_views
+      
+      
+      views.restore_view
+      
+      
+      views.save_view
+      
+      
+      views.write_views
+      
+   
+   
+
+   
+   
+   

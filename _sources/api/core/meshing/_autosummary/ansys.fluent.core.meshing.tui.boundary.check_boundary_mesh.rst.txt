@@ -1,0 +1,6 @@
+check\_boundary\_mesh
+=====================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.check_boundary_mesh

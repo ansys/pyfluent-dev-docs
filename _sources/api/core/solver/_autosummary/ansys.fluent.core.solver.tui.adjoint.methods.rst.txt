@@ -1,0 +1,6 @@
+methods
+=======
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: adjoint.methods

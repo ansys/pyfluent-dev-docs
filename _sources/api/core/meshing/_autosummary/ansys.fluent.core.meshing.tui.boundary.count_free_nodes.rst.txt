@@ -1,0 +1,6 @@
+count\_free\_nodes
+==================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.count_free_nodes

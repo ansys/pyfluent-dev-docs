@@ -1,0 +1,6 @@
+residuals\_set
+==============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: plot.residuals_set

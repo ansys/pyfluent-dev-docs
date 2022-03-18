@@ -1,0 +1,6 @@
+boundary\_cell\_quality
+=======================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: report.boundary_cell_quality

@@ -1,0 +1,6 @@
+mark\_face\_proximity
+=====================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.mark_face_proximity

@@ -1,0 +1,6 @@
+clear\_undo\_stack
+==================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: mesh.clear_undo_stack

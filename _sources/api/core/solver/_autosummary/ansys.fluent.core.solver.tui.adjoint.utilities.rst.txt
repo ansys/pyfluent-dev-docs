@@ -1,0 +1,6 @@
+utilities
+=========
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: adjoint.utilities

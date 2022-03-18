@@ -1,0 +1,6 @@
+print\_histogram
+================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: report.print_histogram

@@ -1,0 +1,6 @@
+cutcell
+=======
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: mesh.cutcell

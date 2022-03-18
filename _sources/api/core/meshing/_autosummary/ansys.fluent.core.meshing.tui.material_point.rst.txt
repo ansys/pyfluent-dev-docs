@@ -1,0 +1,34 @@
+﻿ansys.fluent.core.meshing.tui.material\_point
+=============================================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. autoclass:: material_point
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      material_point.create_material_point
+      
+      
+      material_point.delete_all_material_points
+      
+      
+      material_point.delete_material_point
+      
+      
+      material_point.list_material_points
+      
+   
+   
+
+   
+   
+   

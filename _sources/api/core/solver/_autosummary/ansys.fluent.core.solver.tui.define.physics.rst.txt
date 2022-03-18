@@ -1,0 +1,6 @@
+physics
+=======
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: define.physics

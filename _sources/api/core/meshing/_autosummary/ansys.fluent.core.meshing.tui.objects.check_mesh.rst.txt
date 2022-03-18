@@ -1,0 +1,6 @@
+check\_mesh
+===========
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.check_mesh

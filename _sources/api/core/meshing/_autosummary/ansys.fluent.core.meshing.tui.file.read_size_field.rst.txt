@@ -1,0 +1,6 @@
+read\_size\_field
+=================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: file.read_size_field

@@ -1,0 +1,38 @@
+﻿ansys.fluent.post.pyvista.graphics.Mesh
+=======================================
+
+.. currentmodule:: ansys.fluent.post.pyvista.graphics
+
+.. autoclass:: Mesh
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      Mesh.display
+      
+      
+      Mesh.update
+      
+   
+   
+
+   
+   
+   .. rubric:: Attributes
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      Mesh.parent
+      
+   
+   

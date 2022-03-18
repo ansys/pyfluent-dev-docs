@@ -1,0 +1,6 @@
+parent
+======
+
+.. currentmodule:: ansys.fluent.post.pyvista.graphics
+
+.. autoattribute:: Contour.parent

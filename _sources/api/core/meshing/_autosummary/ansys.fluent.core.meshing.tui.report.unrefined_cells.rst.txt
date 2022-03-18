@@ -1,0 +1,6 @@
+unrefined\_cells
+================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: report.unrefined_cells

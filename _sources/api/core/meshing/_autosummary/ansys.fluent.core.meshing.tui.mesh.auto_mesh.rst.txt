@@ -1,0 +1,6 @@
+auto\_mesh
+==========
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: mesh.auto_mesh

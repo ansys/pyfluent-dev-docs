@@ -1,0 +1,6 @@
+merge\_edges
+============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.merge_edges

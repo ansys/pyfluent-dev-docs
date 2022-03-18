@@ -1,0 +1,6 @@
+face\_skewness
+==============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.face_skewness

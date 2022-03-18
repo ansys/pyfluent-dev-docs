@@ -1,0 +1,103 @@
+﻿ansys.fluent.core.meshing.tui.report
+====================================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. autoclass:: report
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      report.boundary_cell_quality
+      
+      
+      report.cell_distribution
+      
+      
+      report.cell_quality_limits
+      
+      
+      report.cell_size_limits
+      
+      
+      report.cell_zone_at_location
+      
+      
+      report.cell_zone_volume
+      
+      
+      report.edge_size_limits
+      
+      
+      report.enhanced_orthogonal_quality
+      
+      
+      report.face_distribution
+      
+      
+      report.face_node_degree_distribution
+      
+      
+      report.face_quality_limits
+      
+      
+      report.face_size_limits
+      
+      
+      report.face_zone_area
+      
+      
+      report.face_zone_at_location
+      
+      
+      report.list_cell_quality
+      
+      
+      report.memory_usage
+      
+      
+      report.mesh_size
+      
+      
+      report.mesh_statistics
+      
+      
+      report.meshing_time
+      
+      
+      report.neighborhood_quality
+      
+      
+      report.number_meshed
+      
+      
+      report.print_info
+      
+      
+      report.quality_method
+      
+      
+      report.spy_level
+      
+      
+      report.unrefined_cells
+      
+      
+      report.update_bounding_box
+      
+      
+      report.verbosity_level
+      
+   
+   
+
+   
+   
+   

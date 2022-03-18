@@ -1,0 +1,6 @@
+ice
+===
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: icing.ice

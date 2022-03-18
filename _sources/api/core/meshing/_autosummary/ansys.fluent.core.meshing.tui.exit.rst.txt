@@ -1,0 +1,6 @@
+﻿exit
+====
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. autofunction:: exit

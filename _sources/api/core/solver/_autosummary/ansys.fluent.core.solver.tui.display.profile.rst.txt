@@ -1,0 +1,6 @@
+profile
+=======
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: display.profile

@@ -1,0 +1,6 @@
+delete
+======
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: size_functions.delete

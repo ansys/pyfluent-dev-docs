@@ -1,0 +1,6 @@
+create\_objects
+===============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: cad_assemblies.create_objects

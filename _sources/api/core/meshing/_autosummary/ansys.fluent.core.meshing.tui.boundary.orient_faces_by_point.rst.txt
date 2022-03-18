@@ -1,0 +1,6 @@
+orient\_faces\_by\_point
+========================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.orient_faces_by_point

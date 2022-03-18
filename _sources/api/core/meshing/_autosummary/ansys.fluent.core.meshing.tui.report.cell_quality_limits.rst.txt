@@ -1,0 +1,6 @@
+cell\_quality\_limits
+=====================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: report.cell_quality_limits

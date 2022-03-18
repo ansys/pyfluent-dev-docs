@@ -1,0 +1,49 @@
+﻿ansys.fluent.core.solver.tui.parametric\_study
+==============================================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. autoclass:: parametric_study
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      parametric_study.delete_study
+      
+      
+      parametric_study.duplicate_study
+      
+      
+      parametric_study.export_design_table
+      
+      
+      parametric_study.import_design_table
+      
+      
+      parametric_study.initialize
+      
+      
+      parametric_study.list_studies
+      
+      
+      parametric_study.rename_study
+      
+      
+      parametric_study.set_as_current_study
+      
+      
+      parametric_study.use_base_data
+      
+   
+   
+
+   
+   
+   

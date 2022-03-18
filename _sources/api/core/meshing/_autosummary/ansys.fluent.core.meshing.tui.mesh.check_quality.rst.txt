@@ -1,0 +1,6 @@
+check\_quality
+==============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: mesh.check_quality

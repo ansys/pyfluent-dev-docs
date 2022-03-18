@@ -1,0 +1,22 @@
+﻿ansys.fluent.core.meshing.tui.preferences
+=========================================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. autoclass:: preferences
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+   
+   
+
+   
+   
+   

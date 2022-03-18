@@ -1,0 +1,6 @@
+neighborhood\_quality
+=====================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: report.neighborhood_quality

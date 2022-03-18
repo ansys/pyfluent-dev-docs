@@ -1,0 +1,46 @@
+﻿ansys.fluent.core.meshing.tui.reference\_frames
+===============================================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. autoclass:: reference_frames
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      reference_frames.add
+      
+      
+      reference_frames.delete
+      
+      
+      reference_frames.display
+      
+      
+      reference_frames.display_edit
+      
+      
+      reference_frames.edit
+      
+      
+      reference_frames.hide
+      
+      
+      reference_frames.list
+      
+      
+      reference_frames.list_properties
+      
+   
+   
+
+   
+   
+   

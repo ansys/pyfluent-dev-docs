@@ -1,0 +1,6 @@
+clear\_marked\_nodes
+====================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.clear_marked_nodes

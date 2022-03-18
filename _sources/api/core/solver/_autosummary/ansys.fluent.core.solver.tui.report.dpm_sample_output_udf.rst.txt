@@ -1,0 +1,6 @@
+dpm\_sample\_output\_udf
+========================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: report.dpm_sample_output_udf

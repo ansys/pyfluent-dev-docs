@@ -1,0 +1,6 @@
+show\_connectivity
+==================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: parallel.show_connectivity

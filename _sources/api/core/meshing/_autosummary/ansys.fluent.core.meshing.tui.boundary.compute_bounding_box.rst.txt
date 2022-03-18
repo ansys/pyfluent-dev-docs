@@ -1,0 +1,6 @@
+compute\_bounding\_box
+======================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.compute_bounding_box

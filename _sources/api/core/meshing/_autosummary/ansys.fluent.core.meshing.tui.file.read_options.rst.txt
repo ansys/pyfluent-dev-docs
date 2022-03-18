@@ -1,0 +1,6 @@
+read\_options
+=============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: file.read_options

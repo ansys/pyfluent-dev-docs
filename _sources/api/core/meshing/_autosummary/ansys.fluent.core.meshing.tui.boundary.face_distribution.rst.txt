@@ -1,0 +1,6 @@
+face\_distribution
+==================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.face_distribution

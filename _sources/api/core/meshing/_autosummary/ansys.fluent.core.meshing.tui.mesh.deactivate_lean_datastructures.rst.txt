@@ -1,0 +1,6 @@
+deactivate\_lean\_datastructures
+================================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: mesh.deactivate_lean_datastructures

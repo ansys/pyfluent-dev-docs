@@ -1,0 +1,6 @@
+list\_material\_points
+======================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: material_point.list_material_points

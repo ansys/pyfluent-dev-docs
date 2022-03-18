@@ -1,0 +1,6 @@
+read\_macros
+============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: file.read_macros

@@ -1,0 +1,6 @@
+scale\_nodes
+============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.scale_nodes

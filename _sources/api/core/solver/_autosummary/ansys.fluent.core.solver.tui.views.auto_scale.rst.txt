@@ -1,0 +1,6 @@
+auto\_scale
+===========
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: views.auto_scale

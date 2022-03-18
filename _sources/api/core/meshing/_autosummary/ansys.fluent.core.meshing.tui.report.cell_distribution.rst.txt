@@ -1,0 +1,6 @@
+cell\_distribution
+==================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: report.cell_distribution

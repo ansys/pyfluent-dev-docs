@@ -1,0 +1,6 @@
+replace\_mesh
+=============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: file.replace_mesh

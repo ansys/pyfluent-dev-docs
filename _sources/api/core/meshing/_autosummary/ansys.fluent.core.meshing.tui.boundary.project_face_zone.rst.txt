@@ -1,0 +1,6 @@
+project\_face\_zone
+===================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.project_face_zone

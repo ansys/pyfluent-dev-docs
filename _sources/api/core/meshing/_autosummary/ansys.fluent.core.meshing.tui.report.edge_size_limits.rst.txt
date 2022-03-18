@@ -1,0 +1,6 @@
+edge\_size\_limits
+==================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: report.edge_size_limits

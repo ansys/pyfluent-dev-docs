@@ -1,0 +1,6 @@
+write\_report
+=============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: turbo_post.write_report

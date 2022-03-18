@@ -1,0 +1,6 @@
+selective\_mesh\_check
+======================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: mesh.selective_mesh_check

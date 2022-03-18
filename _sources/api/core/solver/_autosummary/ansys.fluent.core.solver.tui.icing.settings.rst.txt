@@ -1,0 +1,6 @@
+settings
+========
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: icing.settings

@@ -1,0 +1,6 @@
+particle\_summary
+=================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: report.particle_summary

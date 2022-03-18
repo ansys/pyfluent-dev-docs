@@ -1,0 +1,6 @@
+create\_intersection\_loops
+===========================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.create_intersection_loops

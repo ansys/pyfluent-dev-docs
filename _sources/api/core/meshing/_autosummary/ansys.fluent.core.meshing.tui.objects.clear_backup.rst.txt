@@ -1,0 +1,6 @@
+clear\_backup
+=============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.clear_backup

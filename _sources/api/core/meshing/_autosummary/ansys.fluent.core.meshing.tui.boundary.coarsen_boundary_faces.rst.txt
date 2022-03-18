@@ -1,0 +1,6 @@
+coarsen\_boundary\_faces
+========================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.coarsen_boundary_faces

@@ -1,0 +1,6 @@
+read\_profile
+=============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: file.read_profile

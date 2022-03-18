@@ -1,0 +1,6 @@
+translate
+=========
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.translate

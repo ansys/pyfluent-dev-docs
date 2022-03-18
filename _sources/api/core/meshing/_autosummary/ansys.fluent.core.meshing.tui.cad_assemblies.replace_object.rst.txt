@@ -1,0 +1,6 @@
+replace\_object
+===============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: cad_assemblies.replace_object

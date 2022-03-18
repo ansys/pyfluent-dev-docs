@@ -1,0 +1,6 @@
+merge\_nodes
+============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.merge_nodes

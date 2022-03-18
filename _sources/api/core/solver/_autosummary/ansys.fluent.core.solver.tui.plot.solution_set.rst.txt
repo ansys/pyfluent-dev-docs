@@ -1,0 +1,6 @@
+solution\_set
+=============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: plot.solution_set

@@ -1,0 +1,6 @@
+patch
+=====
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: solve.patch

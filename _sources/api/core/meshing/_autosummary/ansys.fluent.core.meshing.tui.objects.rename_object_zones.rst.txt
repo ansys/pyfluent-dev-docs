@@ -1,0 +1,6 @@
+rename\_object\_zones
+=====================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.rename_object_zones

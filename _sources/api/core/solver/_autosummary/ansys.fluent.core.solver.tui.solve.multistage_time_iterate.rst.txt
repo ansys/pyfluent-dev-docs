@@ -1,0 +1,6 @@
+multistage\_time\_iterate
+=========================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: solve.multistage_time_iterate

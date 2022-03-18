@@ -1,0 +1,106 @@
+﻿ansys.fluent.core.solver.tui.display
+====================================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. autoclass:: display
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      display.add_custom_vector
+      
+      
+      display.annotate
+      
+      
+      display.clear_annotations
+      
+      
+      display.close_window
+      
+      
+      display.close_window_by_name
+      
+      
+      display.contour
+      
+      
+      display.display_custom_vector
+      
+      
+      display.graphics_window_layout
+      
+      
+      display.hsf_file
+      
+      
+      display.mesh
+      
+      
+      display.mesh_outline
+      
+      
+      display.mesh_partition_boundary
+      
+      
+      display.multigrid_coarsening
+      
+      
+      display.open_window
+      
+      
+      display.profile
+      
+      
+      display.re_render
+      
+      
+      display.re_scale
+      
+      
+      display.reacting_channel_curves
+      
+      
+      display.save_picture
+      
+      
+      display.set_list_tree_separator
+      
+      
+      display.set_window
+      
+      
+      display.set_window_by_name
+      
+      
+      display.surface_cells
+      
+      
+      display.surface_mesh
+      
+      
+      display.update_layout
+      
+      
+      display.vector
+      
+      
+      display.velocity_vector
+      
+      
+      display.zone_mesh
+      
+   
+   
+
+   
+   
+   

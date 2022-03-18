@@ -1,0 +1,6 @@
+binary\_legacy\_files
+=====================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: file.binary_legacy_files

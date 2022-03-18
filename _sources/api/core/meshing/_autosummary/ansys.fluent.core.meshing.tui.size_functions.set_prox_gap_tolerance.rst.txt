@@ -1,0 +1,6 @@
+set\_prox\_gap\_tolerance
+=========================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: size_functions.set_prox_gap_tolerance

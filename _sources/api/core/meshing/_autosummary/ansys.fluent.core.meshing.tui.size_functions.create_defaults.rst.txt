@@ -1,0 +1,6 @@
+create\_defaults
+================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: size_functions.create_defaults

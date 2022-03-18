@@ -1,0 +1,6 @@
+sew
+===
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.sew

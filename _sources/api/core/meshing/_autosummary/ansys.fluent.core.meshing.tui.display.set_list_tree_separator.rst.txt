@@ -1,0 +1,6 @@
+set\_list\_tree\_separator
+==========================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: display.set_list_tree_separator

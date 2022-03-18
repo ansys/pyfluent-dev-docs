@@ -1,0 +1,6 @@
+filter\_options
+===============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: file.filter_options

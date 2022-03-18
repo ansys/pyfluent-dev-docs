@@ -1,0 +1,6 @@
+list\_mesh\_parameter
+=====================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: mesh.list_mesh_parameter

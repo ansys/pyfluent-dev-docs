@@ -1,0 +1,6 @@
+async\_optimize
+===============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: file.async_optimize

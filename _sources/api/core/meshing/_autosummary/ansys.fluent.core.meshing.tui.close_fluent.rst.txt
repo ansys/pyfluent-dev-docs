@@ -1,0 +1,6 @@
+﻿close\_fluent
+=============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. autofunction:: close_fluent

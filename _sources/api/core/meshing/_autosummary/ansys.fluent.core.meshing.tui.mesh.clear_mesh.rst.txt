@@ -1,0 +1,6 @@
+clear\_mesh
+===========
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: mesh.clear_mesh

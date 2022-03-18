@@ -1,0 +1,6 @@
+auto\_partition
+===============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: parallel.auto_partition

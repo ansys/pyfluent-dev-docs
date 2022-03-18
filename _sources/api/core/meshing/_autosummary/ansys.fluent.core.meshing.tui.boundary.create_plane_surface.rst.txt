@@ -1,0 +1,6 @@
+create\_plane\_surface
+======================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.create_plane_surface

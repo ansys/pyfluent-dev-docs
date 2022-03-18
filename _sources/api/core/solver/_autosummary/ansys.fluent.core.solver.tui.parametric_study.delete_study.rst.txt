@@ -1,0 +1,6 @@
+delete\_study
+=============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: parametric_study.delete_study

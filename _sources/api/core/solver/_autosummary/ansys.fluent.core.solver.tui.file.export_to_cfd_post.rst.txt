@@ -1,0 +1,6 @@
+export\_to\_cfd\_post
+=====================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: file.export_to_cfd_post

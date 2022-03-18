@@ -1,0 +1,6 @@
+delete\_free\_edge\_faces
+=========================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.delete_free_edge_faces

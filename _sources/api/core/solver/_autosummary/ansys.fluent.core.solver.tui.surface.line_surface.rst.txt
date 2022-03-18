@@ -1,0 +1,6 @@
+line\_surface
+=============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: surface.line_surface

@@ -1,0 +1,6 @@
+mesh\_size
+==========
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: report.mesh_size

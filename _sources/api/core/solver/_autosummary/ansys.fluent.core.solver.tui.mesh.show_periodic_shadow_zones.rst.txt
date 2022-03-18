@@ -1,0 +1,6 @@
+show\_periodic\_shadow\_zones
+=============================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: mesh.show_periodic_shadow_zones

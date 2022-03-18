@@ -1,0 +1,6 @@
+list
+====
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: scoped_sizing.list

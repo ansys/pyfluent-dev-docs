@@ -1,0 +1,6 @@
+print\_connected\_clients
+=========================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: server.print_connected_clients

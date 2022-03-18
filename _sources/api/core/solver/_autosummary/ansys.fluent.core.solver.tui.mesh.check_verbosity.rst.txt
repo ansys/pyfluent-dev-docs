@@ -1,0 +1,6 @@
+check\_verbosity
+================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: mesh.check_verbosity

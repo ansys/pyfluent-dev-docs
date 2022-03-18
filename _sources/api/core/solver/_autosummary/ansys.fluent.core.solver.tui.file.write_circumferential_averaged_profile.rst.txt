@@ -1,0 +1,6 @@
+write\_circumferential\_averaged\_profile
+=========================================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: file.write_circumferential_averaged_profile

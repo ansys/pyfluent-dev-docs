@@ -1,0 +1,193 @@
+﻿ansys.fluent.core.solver.tui.file
+=================================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. autoclass:: file
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      file.async_optimize
+      
+      
+      file.binary_legacy_files
+      
+      
+      file.cff_files
+      
+      
+      file.close_without_save
+      
+      
+      file.confirm_overwrite
+      
+      
+      file.data_file_options
+      
+      
+      file.define_macro
+      
+      
+      file.execute_macro
+      
+      
+      file.export_to_cfd_post
+      
+      
+      file.load_act_tool
+      
+      
+      file.read_case
+      
+      
+      file.read_case_data
+      
+      
+      file.read_data
+      
+      
+      file.read_field_functions
+      
+      
+      file.read_injections
+      
+      
+      file.read_isat_table
+      
+      
+      file.read_journal
+      
+      
+      file.read_macros
+      
+      
+      file.read_pdf
+      
+      
+      file.read_profile
+      
+      
+      file.read_rays
+      
+      
+      file.read_settings
+      
+      
+      file.read_surface_clusters
+      
+      
+      file.read_transient_table
+      
+      
+      file.read_viewfactors
+      
+      
+      file.reload_setup
+      
+      
+      file.replace_mesh
+      
+      
+      file.set_batch_options
+      
+      
+      file.set_idle_timeout
+      
+      
+      file.set_target_reference_frame_for_write_profiles
+      
+      
+      file.set_tui_version
+      
+      
+      file.show_configuration
+      
+      
+      file.single_precision_coordinates
+      
+      
+      file.start_journal
+      
+      
+      file.start_transcript
+      
+      
+      file.stop_journal
+      
+      
+      file.stop_macro
+      
+      
+      file.stop_transcript
+      
+      
+      file.sync_workbench
+      
+      
+      file.write_boundary_mesh
+      
+      
+      file.write_case
+      
+      
+      file.write_case_data
+      
+      
+      file.write_circumferential_averaged_profile
+      
+      
+      file.write_cleanup_script
+      
+      
+      file.write_currently_defined_profiles
+      
+      
+      file.write_data
+      
+      
+      file.write_fan_profile
+      
+      
+      file.write_field_functions
+      
+      
+      file.write_flamelet
+      
+      
+      file.write_injections
+      
+      
+      file.write_isat_table
+      
+      
+      file.write_macros
+      
+      
+      file.write_merge_profiles
+      
+      
+      file.write_pdat
+      
+      
+      file.write_pdf
+      
+      
+      file.write_profile
+      
+      
+      file.write_settings
+      
+   
+   
+
+   
+   
+   

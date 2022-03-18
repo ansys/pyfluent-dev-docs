@@ -1,0 +1,6 @@
+get\_max\_cores
+===============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: openmp_controls.get_max_cores

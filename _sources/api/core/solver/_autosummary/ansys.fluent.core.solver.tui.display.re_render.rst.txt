@@ -1,0 +1,6 @@
+re\_render
+==========
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: display.re_render

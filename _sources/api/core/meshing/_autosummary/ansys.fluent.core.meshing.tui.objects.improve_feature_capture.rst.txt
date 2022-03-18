@@ -1,0 +1,6 @@
+improve\_feature\_capture
+=========================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.improve_feature_capture

@@ -1,0 +1,6 @@
+delete\_all\_geom
+=================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.delete_all_geom

@@ -1,0 +1,6 @@
+list\_periodicity\_filter
+=========================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: size_functions.list_periodicity_filter

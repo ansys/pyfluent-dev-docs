@@ -1,0 +1,6 @@
+dpm\_update
+===========
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: solve.dpm_update

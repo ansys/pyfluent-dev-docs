@@ -1,0 +1,6 @@
+delete\_view
+============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: views.delete_view

@@ -1,0 +1,40 @@
+﻿ansys.fluent.core.solver.tui.icing
+==================================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. autoclass:: icing
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      icing.drop
+      
+      
+      icing.file
+      
+      
+      icing.flow
+      
+      
+      icing.ice
+      
+      
+      icing.multishot
+      
+      
+      icing.settings
+      
+   
+   
+
+   
+   
+   

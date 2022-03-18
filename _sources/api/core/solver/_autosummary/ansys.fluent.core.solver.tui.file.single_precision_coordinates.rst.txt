@@ -1,0 +1,6 @@
+single\_precision\_coordinates
+==============================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: file.single_precision_coordinates

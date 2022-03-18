@@ -1,0 +1,6 @@
+delete\_all
+===========
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: scoped_sizing.delete_all

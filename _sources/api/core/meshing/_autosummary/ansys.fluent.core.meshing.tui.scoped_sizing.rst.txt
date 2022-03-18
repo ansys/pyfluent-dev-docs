@@ -1,0 +1,55 @@
+﻿ansys.fluent.core.meshing.tui.scoped\_sizing
+============================================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. autoclass:: scoped_sizing
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      scoped_sizing.compute
+      
+      
+      scoped_sizing.create
+      
+      
+      scoped_sizing.delete
+      
+      
+      scoped_sizing.delete_all
+      
+      
+      scoped_sizing.delete_size_field
+      
+      
+      scoped_sizing.list
+      
+      
+      scoped_sizing.list_zones_uncovered_by_controls
+      
+      
+      scoped_sizing.modify
+      
+      
+      scoped_sizing.read
+      
+      
+      scoped_sizing.validate
+      
+      
+      scoped_sizing.write
+      
+   
+   
+
+   
+   
+   

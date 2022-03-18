@@ -1,0 +1,127 @@
+﻿ansys.fluent.core.solver.tui.surface
+====================================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. autoclass:: surface
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      surface.circle_slice
+      
+      
+      surface.cone_slice
+      
+      
+      surface.create_imprint_surface
+      
+      
+      surface.delete_surface
+      
+      
+      surface.edit_surface
+      
+      
+      surface.ellipsoid_slice
+      
+      
+      surface.expression_volume
+      
+      
+      surface.group_surfaces
+      
+      
+      surface.iso_clip
+      
+      
+      surface.iso_surface
+      
+      
+      surface.line_slice
+      
+      
+      surface.line_surface
+      
+      
+      surface.list_surfaces
+      
+      
+      surface.mouse_line
+      
+      
+      surface.mouse_plane
+      
+      
+      surface.mouse_rake
+      
+      
+      surface.multiple_iso_surfaces
+      
+      
+      surface.multiple_plane_surfaces
+      
+      
+      surface.multiple_zone_surfaces
+      
+      
+      surface.partition_surface
+      
+      
+      surface.plane
+      
+      
+      surface.plane_slice
+      
+      
+      surface.plane_surface
+      
+      
+      surface.point_array
+      
+      
+      surface.point_surface
+      
+      
+      surface.quadric_slice
+      
+      
+      surface.rake_surface
+      
+      
+      surface.rename_surface
+      
+      
+      surface.reset_zone_surfaces
+      
+      
+      surface.sphere_slice
+      
+      
+      surface.structural_point_surface
+      
+      
+      surface.surface_cells
+      
+      
+      surface.transform_surface
+      
+      
+      surface.ungroup_surface
+      
+      
+      surface.zone_surface
+      
+   
+   
+
+   
+   
+   

@@ -1,0 +1,6 @@
+update
+======
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.update

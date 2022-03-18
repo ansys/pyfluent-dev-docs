@@ -1,0 +1,6 @@
+auto\_mesh\_multiple\_objects
+=============================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: mesh.auto_mesh_multiple_objects

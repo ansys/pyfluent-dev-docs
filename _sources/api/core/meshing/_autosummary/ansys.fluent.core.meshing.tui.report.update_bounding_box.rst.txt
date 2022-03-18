@@ -1,0 +1,6 @@
+update\_bounding\_box
+=====================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: report.update_bounding_box

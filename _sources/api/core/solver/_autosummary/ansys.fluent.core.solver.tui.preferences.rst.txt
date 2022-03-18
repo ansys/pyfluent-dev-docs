@@ -1,0 +1,22 @@
+﻿ansys.fluent.core.solver.tui.preferences
+========================================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. autoclass:: preferences
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+   
+   
+
+   
+   
+   

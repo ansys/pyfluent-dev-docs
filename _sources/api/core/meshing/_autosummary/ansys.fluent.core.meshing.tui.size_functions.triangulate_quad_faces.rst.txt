@@ -1,0 +1,6 @@
+triangulate\_quad\_faces
+========================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: size_functions.triangulate_quad_faces

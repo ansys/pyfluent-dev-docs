@@ -1,0 +1,6 @@
+group\_surfaces
+===============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: surface.group_surfaces

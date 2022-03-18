@@ -1,0 +1,6 @@
+execute\_macro
+==============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: file.execute_macro

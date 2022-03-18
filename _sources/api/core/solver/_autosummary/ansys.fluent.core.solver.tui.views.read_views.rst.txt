@@ -1,0 +1,6 @@
+read\_views
+===========
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: views.read_views

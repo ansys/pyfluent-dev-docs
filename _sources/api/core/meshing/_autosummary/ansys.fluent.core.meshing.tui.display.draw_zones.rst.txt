@@ -1,0 +1,6 @@
+draw\_zones
+===========
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: display.draw_zones

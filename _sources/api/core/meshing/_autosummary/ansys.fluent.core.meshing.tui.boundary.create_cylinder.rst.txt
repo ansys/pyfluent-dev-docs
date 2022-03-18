@@ -1,0 +1,6 @@
+create\_cylinder
+================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.create_cylinder

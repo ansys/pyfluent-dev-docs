@@ -1,0 +1,178 @@
+﻿ansys.fluent.core.meshing.tui.boundary
+======================================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. autoclass:: boundary
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      boundary.auto_slit_faces
+      
+      
+      boundary.check_boundary_mesh
+      
+      
+      boundary.check_duplicate_geom
+      
+      
+      boundary.clear_marked_faces
+      
+      
+      boundary.clear_marked_nodes
+      
+      
+      boundary.coarsen_boundary_faces
+      
+      
+      boundary.compute_bounding_box
+      
+      
+      boundary.count_free_nodes
+      
+      
+      boundary.count_marked_faces
+      
+      
+      boundary.count_unused_bound_node
+      
+      
+      boundary.count_unused_faces
+      
+      
+      boundary.count_unused_nodes
+      
+      
+      boundary.create_bounding_box
+      
+      
+      boundary.create_cylinder
+      
+      
+      boundary.create_plane_surface
+      
+      
+      boundary.create_revolved_surface
+      
+      
+      boundary.create_swept_surface
+      
+      
+      boundary.delete_all_dup_faces
+      
+      
+      boundary.delete_duplicate_faces
+      
+      
+      boundary.delete_free_edge_faces
+      
+      
+      boundary.delete_island_faces
+      
+      
+      boundary.delete_unconnected_faces
+      
+      
+      boundary.delete_unused_faces
+      
+      
+      boundary.delete_unused_nodes
+      
+      
+      boundary.edge_limits
+      
+      
+      boundary.expand_marked_faces_by_rings
+      
+      
+      boundary.face_distribution
+      
+      
+      boundary.face_skewness
+      
+      
+      boundary.fix_mconnected_edges
+      
+      
+      boundary.improve_surface_mesh
+      
+      
+      boundary.jiggle_boundary_nodes
+      
+      
+      boundary.make_periodic
+      
+      
+      boundary.mark_bad_quality_faces
+      
+      
+      boundary.mark_duplicate_nodes
+      
+      
+      boundary.mark_face_intersection
+      
+      
+      boundary.mark_face_proximity
+      
+      
+      boundary.mark_faces_in_region
+      
+      
+      boundary.merge_nodes
+      
+      
+      boundary.merge_small_face_zones
+      
+      
+      boundary.orient_faces_by_point
+      
+      
+      boundary.print_info
+      
+      
+      boundary.project_face_zone
+      
+      
+      boundary.recover_periodic_surfaces
+      
+      
+      boundary.reset_element_type
+      
+      
+      boundary.resolve_face_intersection
+      
+      
+      boundary.scale_nodes
+      
+      
+      boundary.set_periodicity
+      
+      
+      boundary.slit_boundary_face
+      
+      
+      boundary.smooth_marked_faces
+      
+      
+      boundary.unmark_faces_in_zones
+      
+      
+      boundary.unmark_selected_faces
+      
+      
+      boundary.wrapper
+      
+   
+   
+
+   
+   
+   

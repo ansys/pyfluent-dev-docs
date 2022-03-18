@@ -1,0 +1,6 @@
+stop\_transcript
+================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: file.stop_transcript

@@ -1,0 +1,6 @@
+memory\_usage
+=============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: report.memory_usage

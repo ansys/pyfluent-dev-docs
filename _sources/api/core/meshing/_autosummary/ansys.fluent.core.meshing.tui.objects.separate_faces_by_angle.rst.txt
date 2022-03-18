@@ -1,0 +1,6 @@
+separate\_faces\_by\_angle
+==========================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.separate_faces_by_angle

@@ -1,0 +1,6 @@
+load\_act\_tool
+===============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: file.load_act_tool

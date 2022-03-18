@@ -1,0 +1,6 @@
+annotate
+========
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: display.annotate

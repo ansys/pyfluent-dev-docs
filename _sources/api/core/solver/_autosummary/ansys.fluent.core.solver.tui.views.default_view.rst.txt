@@ -1,0 +1,6 @@
+default\_view
+=============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: views.default_view

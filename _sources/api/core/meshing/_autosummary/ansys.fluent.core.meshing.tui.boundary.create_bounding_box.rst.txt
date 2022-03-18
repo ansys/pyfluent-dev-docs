@@ -1,0 +1,6 @@
+create\_bounding\_box
+=====================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.create_bounding_box

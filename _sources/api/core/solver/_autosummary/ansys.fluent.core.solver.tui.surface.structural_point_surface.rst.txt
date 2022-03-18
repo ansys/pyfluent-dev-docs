@@ -1,0 +1,6 @@
+structural\_point\_surface
+==========================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: surface.structural_point_surface

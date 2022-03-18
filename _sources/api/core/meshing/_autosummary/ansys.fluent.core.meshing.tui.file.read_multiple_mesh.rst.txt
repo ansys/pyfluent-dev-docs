@@ -1,0 +1,6 @@
+read\_multiple\_mesh
+====================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: file.read_multiple_mesh

@@ -1,0 +1,6 @@
+hide
+====
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: reference_frames.hide

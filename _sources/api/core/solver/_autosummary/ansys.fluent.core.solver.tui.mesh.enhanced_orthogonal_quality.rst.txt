@@ -1,0 +1,6 @@
+enhanced\_orthogonal\_quality
+=============================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: mesh.enhanced_orthogonal_quality

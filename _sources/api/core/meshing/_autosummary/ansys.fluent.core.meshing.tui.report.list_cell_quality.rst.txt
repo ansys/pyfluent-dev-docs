@@ -1,0 +1,6 @@
+list\_cell\_quality
+===================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: report.list_cell_quality

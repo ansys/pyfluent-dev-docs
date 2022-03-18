@@ -1,0 +1,6 @@
+rename\_object
+==============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.rename_object

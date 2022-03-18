@@ -1,0 +1,6 @@
+mark\_duplicate\_nodes
+======================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.mark_duplicate_nodes

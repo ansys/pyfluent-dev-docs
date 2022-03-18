@@ -1,0 +1,6 @@
+label\_alignment
+================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: plot.label_alignment

@@ -1,0 +1,6 @@
+create\_groups
+==============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.create_groups

@@ -1,0 +1,6 @@
+delete\_unused\_nodes
+=====================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.delete_unused_nodes

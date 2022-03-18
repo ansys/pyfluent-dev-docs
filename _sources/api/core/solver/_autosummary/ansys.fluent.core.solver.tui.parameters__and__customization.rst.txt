@@ -1,0 +1,22 @@
+﻿ansys.fluent.core.solver.tui.parameters\_\_and\_\_customization
+===============================================================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. autoclass:: parameters__and__customization
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+   
+   
+
+   
+   
+   

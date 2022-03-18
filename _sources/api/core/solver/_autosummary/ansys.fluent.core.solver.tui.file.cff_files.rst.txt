@@ -1,0 +1,6 @@
+cff\_files
+==========
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: file.cff_files

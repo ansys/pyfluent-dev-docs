@@ -1,0 +1,6 @@
+expand\_marked\_faces\_by\_rings
+================================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.expand_marked_faces_by_rings

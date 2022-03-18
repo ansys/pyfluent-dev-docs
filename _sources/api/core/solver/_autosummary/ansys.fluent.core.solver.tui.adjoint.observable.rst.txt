@@ -1,0 +1,6 @@
+observable
+==========
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: adjoint.observable

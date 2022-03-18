@@ -1,0 +1,22 @@
+﻿ansys.fluent.core.solver.tui.solution
+=====================================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. autoclass:: solution
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+   
+   
+
+   
+   
+   

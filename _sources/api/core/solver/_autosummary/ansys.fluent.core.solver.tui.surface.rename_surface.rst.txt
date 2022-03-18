@@ -1,0 +1,6 @@
+rename\_surface
+===============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: surface.rename_surface

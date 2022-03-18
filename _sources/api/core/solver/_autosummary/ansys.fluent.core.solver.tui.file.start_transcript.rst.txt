@@ -1,0 +1,6 @@
+start\_transcript
+=================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: file.start_transcript

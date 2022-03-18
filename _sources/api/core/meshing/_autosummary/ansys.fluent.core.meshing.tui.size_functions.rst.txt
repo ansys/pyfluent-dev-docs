@@ -1,0 +1,67 @@
+﻿ansys.fluent.core.meshing.tui.size\_functions
+=============================================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. autoclass:: size_functions
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+      
+      size_functions.compute
+      
+      
+      size_functions.create
+      
+      
+      size_functions.create_defaults
+      
+      
+      size_functions.delete
+      
+      
+      size_functions.delete_all
+      
+      
+      size_functions.disable_periodicity_filter
+      
+      
+      size_functions.enable_periodicity_filter
+      
+      
+      size_functions.list
+      
+      
+      size_functions.list_periodicity_filter
+      
+      
+      size_functions.reset_global_controls
+      
+      
+      size_functions.set_global_controls
+      
+      
+      size_functions.set_prox_gap_tolerance
+      
+      
+      size_functions.set_scaling_filter
+      
+      
+      size_functions.triangulate_quad_faces
+      
+      
+      size_functions.use_cad_imported_curvature
+      
+   
+   
+
+   
+   
+   

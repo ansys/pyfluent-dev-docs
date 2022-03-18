@@ -1,0 +1,6 @@
+current\_topology
+=================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: turbo_post.current_topology

@@ -1,0 +1,6 @@
+run
+===
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: adjoint.run

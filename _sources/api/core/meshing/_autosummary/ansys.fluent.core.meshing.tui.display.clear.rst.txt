@@ -1,0 +1,6 @@
+clear
+=====
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: display.clear

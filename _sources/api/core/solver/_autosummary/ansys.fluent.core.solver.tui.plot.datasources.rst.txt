@@ -1,0 +1,6 @@
+datasources
+===========
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: plot.datasources

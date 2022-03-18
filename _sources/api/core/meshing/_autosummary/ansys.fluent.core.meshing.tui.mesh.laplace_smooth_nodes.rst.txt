@@ -1,0 +1,6 @@
+laplace\_smooth\_nodes
+======================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: mesh.laplace_smooth_nodes

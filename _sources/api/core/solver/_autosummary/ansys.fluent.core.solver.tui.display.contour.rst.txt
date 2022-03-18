@@ -1,0 +1,6 @@
+contour
+=======
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: display.contour

@@ -1,0 +1,6 @@
+xy\_plot\_avg
+=============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: turbo_post.xy_plot_avg

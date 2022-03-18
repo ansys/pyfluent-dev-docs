@@ -1,0 +1,6 @@
+reset\_mesh
+===========
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: mesh.reset_mesh

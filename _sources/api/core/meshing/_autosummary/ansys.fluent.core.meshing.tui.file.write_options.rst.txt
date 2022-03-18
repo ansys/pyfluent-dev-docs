@@ -1,0 +1,6 @@
+write\_options
+==============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: file.write_options

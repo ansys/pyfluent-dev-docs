@@ -1,0 +1,6 @@
+jiggle\_boundary\_nodes
+=======================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.jiggle_boundary_nodes

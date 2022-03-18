@@ -1,0 +1,6 @@
+edit\_surface
+=============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: surface.edit_surface

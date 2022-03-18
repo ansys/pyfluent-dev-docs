@@ -1,0 +1,6 @@
+restore\_view
+=============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: views.restore_view

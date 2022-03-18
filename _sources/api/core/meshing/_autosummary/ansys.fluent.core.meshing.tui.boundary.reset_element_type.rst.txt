@@ -1,0 +1,6 @@
+reset\_element\_type
+====================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.reset_element_type

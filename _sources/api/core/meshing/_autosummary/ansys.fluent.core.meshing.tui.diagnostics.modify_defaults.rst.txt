@@ -1,0 +1,6 @@
+modify\_defaults
+================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: diagnostics.modify_defaults

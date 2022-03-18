@@ -1,0 +1,6 @@
+mouse\_line
+===========
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: surface.mouse_line

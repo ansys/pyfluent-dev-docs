@@ -1,0 +1,6 @@
+size\_info
+==========
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: mesh.size_info

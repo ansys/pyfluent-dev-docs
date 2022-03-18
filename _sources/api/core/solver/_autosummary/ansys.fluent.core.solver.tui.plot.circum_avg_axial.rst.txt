@@ -1,0 +1,6 @@
+circum\_avg\_axial
+==================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: plot.circum_avg_axial

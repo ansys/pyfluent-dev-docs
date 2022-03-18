@@ -1,0 +1,6 @@
+create\_swept\_surface
+======================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.create_swept_surface

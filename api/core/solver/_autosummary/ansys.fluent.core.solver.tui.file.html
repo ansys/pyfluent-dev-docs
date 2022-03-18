@@ -1,0 +1,979 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>ansys.fluent.core.solver.tui.file &#8212; PyFluent</title>
+    
+  <link href="../../../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/css/blank.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/thebelab.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/sg_gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/sg_gallery-binder.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/sg_gallery-dataframe.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../_static/sg_gallery-rendered-html.css" />
+    
+  <link rel="preload" as="script" href="../../../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../../../" id="documentation_options" src="../../../../_static/documentation_options.js"></script>
+    <script src="../../../../_static/jquery.js"></script>
+    <script src="../../../../_static/underscore.js"></script>
+    <script src="../../../../_static/doctools.js"></script>
+    <script src="../../../../_static/thebelab-helper.js"></script>
+    <script src="../../../../_static/clipboard.min.js"></script>
+    <script src="../../../../_static/copybutton.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.0/dist/embed-amd.js"></script>
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="async_optimize" href="ansys.fluent.core.solver.tui.file.async_optimize.html" />
+    <link rel="prev" title="units" href="ansys.fluent.core.solver.tui.define.units.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><style>
+    .navbar-light {
+        background-color: black !important;
+    }
+</style>
+
+<div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="https://docs.pyansys.com/">
+  <img src="../../../../_static/pyansys-logo-black-cropped.png" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" >
+      <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+    </span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../../getting_started/index.html">
+  Introduction
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../../users_guide/index.html">
+  User’s Guide
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="../../../index.html">
+  API Reference
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../../examples/index.html">
+  Examples
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../../contributing.html">
+  Contributing
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/pyansys/pyfluent" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="../../index.html">
+   Core
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../launcher.html">
+     Launching Fluent
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+    <label for="toctree-checkbox-2">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../_autosummary/ansys.fluent.core.launcher.launcher.launch_fluent.html">
+       launch_fluent
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../meshing/index.html">
+     Meshing
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+    <label for="toctree-checkbox-3">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../meshing/meshing.html">
+       Meshing TUI and workflow example
+      </a>
+     </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../../meshing/tui.html">
+       Meshing (TUI)
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+      <label for="toctree-checkbox-4">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.beta_feature_access.html">
+         beta_feature_access
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.close_fluent.html">
+         close_fluent
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.exit.html">
+         exit
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.switch_to_solution_mode.html">
+         switch_to_solution_mode
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.print_license_usage.html">
+         print_license_usage
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.file.html">
+         ansys.fluent.core.meshing.tui.file
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.boundary.html">
+         ansys.fluent.core.meshing.tui.boundary
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.cad_assemblies.html">
+         ansys.fluent.core.meshing.tui.cad_assemblies
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.preferences.html">
+         ansys.fluent.core.meshing.tui.preferences
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.size_functions.html">
+         ansys.fluent.core.meshing.tui.size_functions
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.scoped_sizing.html">
+         ansys.fluent.core.meshing.tui.scoped_sizing
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.objects.html">
+         ansys.fluent.core.meshing.tui.objects
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.diagnostics.html">
+         ansys.fluent.core.meshing.tui.diagnostics
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.material_point.html">
+         ansys.fluent.core.meshing.tui.material_point
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.mesh.html">
+         ansys.fluent.core.meshing.tui.mesh
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.display.html">
+         ansys.fluent.core.meshing.tui.display
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.report.html">
+         ansys.fluent.core.meshing.tui.report
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.parallel.html">
+         ansys.fluent.core.meshing.tui.parallel
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.openmp_controls.html">
+         ansys.fluent.core.meshing.tui.openmp_controls
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../meshing/_autosummary/ansys.fluent.core.meshing.tui.reference_frames.html">
+         ansys.fluent.core.meshing.tui.reference_frames
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 current active has-children">
+    <a class="reference internal" href="../index.html">
+     Solver
+    </a>
+    <input checked="" class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+    <label for="toctree-checkbox-5">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul class="current">
+     <li class="toctree-l3">
+      <a class="reference internal" href="../settings.html">
+       Settings Objects
+      </a>
+     </li>
+     <li class="toctree-l3 current active has-children">
+      <a class="reference internal" href="../tui.html">
+       Solver TUI
+      </a>
+      <input checked="" class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+      <label for="toctree-checkbox-6">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul class="current">
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.adjoint.html">
+         ansys.fluent.core.solver.tui.adjoint
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.display.html">
+         ansys.fluent.core.solver.tui.display
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.define.html">
+         ansys.fluent.core.solver.tui.define
+        </a>
+       </li>
+       <li class="toctree-l4 current active">
+        <a class="current reference internal" href="#">
+         ansys.fluent.core.solver.tui.file
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.icing.html">
+         ansys.fluent.core.solver.tui.icing
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.mesh.html">
+         ansys.fluent.core.solver.tui.mesh
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.parameters__and__customization.html">
+         ansys.fluent.core.solver.tui.parameters__and__customization
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.parallel.html">
+         ansys.fluent.core.solver.tui.parallel
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.plot.html">
+         ansys.fluent.core.solver.tui.plot
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.preferences.html">
+         ansys.fluent.core.solver.tui.preferences
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.report.html">
+         ansys.fluent.core.solver.tui.report
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.results.html">
+         ansys.fluent.core.solver.tui.results
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.solution.html">
+         ansys.fluent.core.solver.tui.solution
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.solve.html">
+         ansys.fluent.core.solver.tui.solve
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.setup.html">
+         ansys.fluent.core.solver.tui.setup
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.surface.html">
+         ansys.fluent.core.solver.tui.surface
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.server.html">
+         ansys.fluent.core.solver.tui.server
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.turbo_post.html">
+         ansys.fluent.core.solver.tui.turbo_post
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.views.html">
+         ansys.fluent.core.solver.tui.views
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.parametric_study.html">
+         ansys.fluent.core.solver.tui.parametric_study
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="ansys.fluent.core.solver.tui.turbo_workflow.html">
+         ansys.fluent.core.solver.tui.turbo_workflow
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../../parametric.html">
+   Parameters
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.DesignPoint.html">
+     ansys.fluent.parametric.DesignPoint
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+    <label for="toctree-checkbox-8">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.DesignPoint.capture_simulation_report_data_enabled.html">
+       capture_simulation_report_data_enabled
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.DesignPoint.input_parameters.html">
+       input_parameters
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.DesignPoint.output_parameters.html">
+       output_parameters
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.DesignPoint.write_data_enabled.html">
+       write_data_enabled
+      </a>
+     </li>
+    </ul>
+   </li>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.html">
+     ansys.fluent.parametric.ParametricStudy
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+    <label for="toctree-checkbox-9">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.add_design_point.html">
+       add_design_point
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.clear_generated_data.html">
+       clear_generated_data
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.delete.html">
+       delete
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.delete_design_points.html">
+       delete_design_points
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.duplicate.html">
+       duplicate
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.duplicate_design_point.html">
+       duplicate_design_point
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.export_design_table.html">
+       export_design_table
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.get_all_studies.html">
+       get_all_studies
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.import_design_table.html">
+       import_design_table
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.initialize.html">
+       initialize
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.load_current_design_point_case_data.html">
+       load_current_design_point_case_data
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.rename.html">
+       rename
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.save_journals.html">
+       save_journals
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.set_as_current.html">
+       set_as_current
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.update_all_design_points.html">
+       update_all_design_points
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.update_current_design_point.html">
+       update_current_design_point
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.update_selected_design_points.html">
+       update_selected_design_points
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.use_base_data.html">
+       use_base_data
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.current_design_point.html">
+       current_design_point
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.current_study_name.html">
+       current_study_name
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../_autosummary/ansys.fluent.parametric.ParametricStudy.is_current.html">
+       is_current
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../../../post/index.html">
+   Postprocessing
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-10" name="toctree-checkbox-10" type="checkbox"/>
+  <label for="toctree-checkbox-10">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2 has-children">
+    <a class="reference internal" href="../../../post/graphics.html">
+     Graphics
+    </a>
+    <input class="toctree-checkbox" id="toctree-checkbox-11" name="toctree-checkbox-11" type="checkbox"/>
+    <label for="toctree-checkbox-11">
+     <i class="fas fa-chevron-down">
+     </i>
+    </label>
+    <ul>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../../../post/_autosummary/ansys.fluent.post.pyvista.graphics.Graphics.html">
+       ansys.fluent.post.pyvista.graphics.Graphics
+      </a>
+     </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../../../post/_autosummary/ansys.fluent.post.pyvista.graphics.Mesh.html">
+       ansys.fluent.post.pyvista.graphics.Mesh
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-12" name="toctree-checkbox-12" type="checkbox"/>
+      <label for="toctree-checkbox-12">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../../post/_autosummary/ansys.fluent.post.pyvista.graphics.Mesh.display.html">
+         display
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../../post/_autosummary/ansys.fluent.post.pyvista.graphics.Mesh.update.html">
+         update
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../../post/_autosummary/ansys.fluent.post.pyvista.graphics.Mesh.parent.html">
+         parent
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../../../post/_autosummary/ansys.fluent.post.pyvista.graphics.Surface.html">
+       ansys.fluent.post.pyvista.graphics.Surface
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-13" name="toctree-checkbox-13" type="checkbox"/>
+      <label for="toctree-checkbox-13">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../../post/_autosummary/ansys.fluent.post.pyvista.graphics.Surface.display.html">
+         display
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../../post/_autosummary/ansys.fluent.post.pyvista.graphics.Surface.update.html">
+         update
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../../post/_autosummary/ansys.fluent.post.pyvista.graphics.Surface.parent.html">
+         parent
+        </a>
+       </li>
+      </ul>
+     </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../../../post/_autosummary/ansys.fluent.post.pyvista.graphics.Contour.html">
+       ansys.fluent.post.pyvista.graphics.Contour
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-14" name="toctree-checkbox-14" type="checkbox"/>
+      <label for="toctree-checkbox-14">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../../post/_autosummary/ansys.fluent.post.pyvista.graphics.Contour.display.html">
+         display
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../../post/_autosummary/ansys.fluent.post.pyvista.graphics.Contour.update.html">
+         update
+        </a>
+       </li>
+       <li class="toctree-l4">
+        <a class="reference internal" href="../../../post/_autosummary/ansys.fluent.post.pyvista.graphics.Contour.parent.html">
+         parent
+        </a>
+       </li>
+      </ul>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+
+<nav id="bd-toc-nav">
+    
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section id="ansys-fluent-core-solver-tui-file">
+<h1>ansys.fluent.core.solver.tui.file<a class="headerlink" href="#ansys-fluent-core-solver-tui-file" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.file">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.tui.</span></span><span class="sig-name descname"><span class="pre">file</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">service</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.file" title="Permalink to this definition">¶</a></dt>
+<dd><p>Enter the file menu.</p>
+<p class="rubric">Methods</p>
+<table class="longtable table autosummary">
+<colgroup>
+<col style="width: 10%" />
+<col style="width: 90%" />
+</colgroup>
+<tbody>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.async_optimize.html#ansys.fluent.core.solver.tui.file.async_optimize" title="ansys.fluent.core.solver.tui.file.async_optimize"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.async_optimize</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Choose whether to optimize file IO using scratch disks and asynchronous operations.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.binary_legacy_files.html#ansys.fluent.core.solver.tui.file.binary_legacy_files" title="ansys.fluent.core.solver.tui.file.binary_legacy_files"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.binary_legacy_files</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Indicate whether to write binary or text format case and data files.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.cff_files.html#ansys.fluent.core.solver.tui.file.cff_files" title="ansys.fluent.core.solver.tui.file.cff_files"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.cff_files</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Indicate whether to write ANSYS common fluids format (CFF) files or legacy case and data files.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.close_without_save.html#ansys.fluent.core.solver.tui.file.close_without_save" title="ansys.fluent.core.solver.tui.file.close_without_save"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.close_without_save</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Exit without save.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.confirm_overwrite.html#ansys.fluent.core.solver.tui.file.confirm_overwrite" title="ansys.fluent.core.solver.tui.file.confirm_overwrite"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.confirm_overwrite</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Indicate whether or not to confirm attempts to overwrite existing files.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.data_file_options.html#ansys.fluent.core.solver.tui.file.data_file_options" title="ansys.fluent.core.solver.tui.file.data_file_options"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.data_file_options</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Set derived quantities to be written in data file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.define_macro.html#ansys.fluent.core.solver.tui.file.define_macro" title="ansys.fluent.core.solver.tui.file.define_macro"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.define_macro</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Save input to a named macro.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.execute_macro.html#ansys.fluent.core.solver.tui.file.execute_macro" title="ansys.fluent.core.solver.tui.file.execute_macro"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.execute_macro</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Run a previously defined macro.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.export_to_cfd_post.html#ansys.fluent.core.solver.tui.file.export_to_cfd_post" title="ansys.fluent.core.solver.tui.file.export_to_cfd_post"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.export_to_cfd_post</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Export to CFD-Post compabitble data file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.load_act_tool.html#ansys.fluent.core.solver.tui.file.load_act_tool" title="ansys.fluent.core.solver.tui.file.load_act_tool"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.load_act_tool</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Load ACT Start Page.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_case.html#ansys.fluent.core.solver.tui.file.read_case" title="ansys.fluent.core.solver.tui.file.read_case"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_case</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read a case file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_case_data.html#ansys.fluent.core.solver.tui.file.read_case_data" title="ansys.fluent.core.solver.tui.file.read_case_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_case_data</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read a case and a data file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_data.html#ansys.fluent.core.solver.tui.file.read_data" title="ansys.fluent.core.solver.tui.file.read_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_data</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read a data file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_field_functions.html#ansys.fluent.core.solver.tui.file.read_field_functions" title="ansys.fluent.core.solver.tui.file.read_field_functions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_field_functions</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read custom field-function definitions from a file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_injections.html#ansys.fluent.core.solver.tui.file.read_injections" title="ansys.fluent.core.solver.tui.file.read_injections"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_injections</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read all DPM injections from a file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_isat_table.html#ansys.fluent.core.solver.tui.file.read_isat_table" title="ansys.fluent.core.solver.tui.file.read_isat_table"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_isat_table</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read an ISAT table.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_journal.html#ansys.fluent.core.solver.tui.file.read_journal" title="ansys.fluent.core.solver.tui.file.read_journal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_journal</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read a journal file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_macros.html#ansys.fluent.core.solver.tui.file.read_macros" title="ansys.fluent.core.solver.tui.file.read_macros"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_macros</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read macro definitions from a file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_pdf.html#ansys.fluent.core.solver.tui.file.read_pdf" title="ansys.fluent.core.solver.tui.file.read_pdf"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_pdf</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read a PDF file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_profile.html#ansys.fluent.core.solver.tui.file.read_profile" title="ansys.fluent.core.solver.tui.file.read_profile"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_profile</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read boundary profile data (*.prof, *.csv).</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_rays.html#ansys.fluent.core.solver.tui.file.read_rays" title="ansys.fluent.core.solver.tui.file.read_rays"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_rays</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read a DTRM rays file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_settings.html#ansys.fluent.core.solver.tui.file.read_settings" title="ansys.fluent.core.solver.tui.file.read_settings"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_settings</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read and set boundary conditions from specified file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_surface_clusters.html#ansys.fluent.core.solver.tui.file.read_surface_clusters" title="ansys.fluent.core.solver.tui.file.read_surface_clusters"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_surface_clusters</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read an S2S file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_transient_table.html#ansys.fluent.core.solver.tui.file.read_transient_table" title="ansys.fluent.core.solver.tui.file.read_transient_table"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_transient_table</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read a table of transient boundary profile data.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.read_viewfactors.html#ansys.fluent.core.solver.tui.file.read_viewfactors" title="ansys.fluent.core.solver.tui.file.read_viewfactors"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.read_viewfactors</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Read an S2S file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.reload_setup.html#ansys.fluent.core.solver.tui.file.reload_setup" title="ansys.fluent.core.solver.tui.file.reload_setup"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.reload_setup</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Reload case and settings from last saved state.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.replace_mesh.html#ansys.fluent.core.solver.tui.file.replace_mesh" title="ansys.fluent.core.solver.tui.file.replace_mesh"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.replace_mesh</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Replace the mesh with a new one while preserving settings.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.set_batch_options.html#ansys.fluent.core.solver.tui.file.set_batch_options" title="ansys.fluent.core.solver.tui.file.set_batch_options"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.set_batch_options</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Set the batch options.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.set_idle_timeout.html#ansys.fluent.core.solver.tui.file.set_idle_timeout" title="ansys.fluent.core.solver.tui.file.set_idle_timeout"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.set_idle_timeout</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Set the idle timeout.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.set_target_reference_frame_for_write_profiles.html#ansys.fluent.core.solver.tui.file.set_target_reference_frame_for_write_profiles" title="ansys.fluent.core.solver.tui.file.set_target_reference_frame_for_write_profiles"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.set_target_reference_frame_for_write_profiles</span></code></a>(...)</p></td>
+<td><p>Set reference frame options, which will be used for position transformation during writing of profiles.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.set_tui_version.html#ansys.fluent.core.solver.tui.file.set_tui_version" title="ansys.fluent.core.solver.tui.file.set_tui_version"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.set_tui_version</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Set the version of the TUI commands.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.show_configuration.html#ansys.fluent.core.solver.tui.file.show_configuration" title="ansys.fluent.core.solver.tui.file.show_configuration"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.show_configuration</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Display current release and version information.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.single_precision_coordinates.html#ansys.fluent.core.solver.tui.file.single_precision_coordinates" title="ansys.fluent.core.solver.tui.file.single_precision_coordinates"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.single_precision_coordinates</span></code></a>(*args, ...)</p></td>
+<td><p>Indicate whether to write nodal coordinates in single precision.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.start_journal.html#ansys.fluent.core.solver.tui.file.start_journal" title="ansys.fluent.core.solver.tui.file.start_journal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.start_journal</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Start recording all input in a file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.start_transcript.html#ansys.fluent.core.solver.tui.file.start_transcript" title="ansys.fluent.core.solver.tui.file.start_transcript"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.start_transcript</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Start recording input and output in a file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.stop_journal.html#ansys.fluent.core.solver.tui.file.stop_journal" title="ansys.fluent.core.solver.tui.file.stop_journal"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.stop_journal</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Stop recording input and close the journal file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.stop_macro.html#ansys.fluent.core.solver.tui.file.stop_macro" title="ansys.fluent.core.solver.tui.file.stop_macro"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.stop_macro</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Stop recording input to a macro.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.stop_transcript.html#ansys.fluent.core.solver.tui.file.stop_transcript" title="ansys.fluent.core.solver.tui.file.stop_transcript"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.stop_transcript</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Stop recording input and output and close the transcript file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.sync_workbench.html#ansys.fluent.core.solver.tui.file.sync_workbench" title="ansys.fluent.core.solver.tui.file.sync_workbench"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.sync_workbench</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Sync Fluent changes with WorkBench.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_boundary_mesh.html#ansys.fluent.core.solver.tui.file.write_boundary_mesh" title="ansys.fluent.core.solver.tui.file.write_boundary_mesh"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_boundary_mesh</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Write the boundary mesh to a file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_case.html#ansys.fluent.core.solver.tui.file.write_case" title="ansys.fluent.core.solver.tui.file.write_case"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_case</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Write a case file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_case_data.html#ansys.fluent.core.solver.tui.file.write_case_data" title="ansys.fluent.core.solver.tui.file.write_case_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_case_data</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Write a case and a data file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_circumferential_averaged_profile.html#ansys.fluent.core.solver.tui.file.write_circumferential_averaged_profile" title="ansys.fluent.core.solver.tui.file.write_circumferential_averaged_profile"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_circumferential_averaged_profile</span></code></a>(...)</p></td>
+<td><p>Write surface data as a boundary profile file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_cleanup_script.html#ansys.fluent.core.solver.tui.file.write_cleanup_script" title="ansys.fluent.core.solver.tui.file.write_cleanup_script"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_cleanup_script</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Write the cleanup-script-file for Fluent.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_currently_defined_profiles.html#ansys.fluent.core.solver.tui.file.write_currently_defined_profiles" title="ansys.fluent.core.solver.tui.file.write_currently_defined_profiles"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_currently_defined_profiles</span></code></a>(*args, ...)</p></td>
+<td><p>Write currently defined profiles.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_data.html#ansys.fluent.core.solver.tui.file.write_data" title="ansys.fluent.core.solver.tui.file.write_data"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_data</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Write a data file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_fan_profile.html#ansys.fluent.core.solver.tui.file.write_fan_profile" title="ansys.fluent.core.solver.tui.file.write_fan_profile"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_fan_profile</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Compute radial profiles for a fan zone and write them to a profile file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_field_functions.html#ansys.fluent.core.solver.tui.file.write_field_functions" title="ansys.fluent.core.solver.tui.file.write_field_functions"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_field_functions</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Write the currently defined custom field functions to a file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_flamelet.html#ansys.fluent.core.solver.tui.file.write_flamelet" title="ansys.fluent.core.solver.tui.file.write_flamelet"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_flamelet</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Write a flamelet file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_injections.html#ansys.fluent.core.solver.tui.file.write_injections" title="ansys.fluent.core.solver.tui.file.write_injections"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_injections</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Write out selected DPM injections to a file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_isat_table.html#ansys.fluent.core.solver.tui.file.write_isat_table" title="ansys.fluent.core.solver.tui.file.write_isat_table"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_isat_table</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Write an ISAT table.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_macros.html#ansys.fluent.core.solver.tui.file.write_macros" title="ansys.fluent.core.solver.tui.file.write_macros"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_macros</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Write the currently defined macros to a file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_merge_profiles.html#ansys.fluent.core.solver.tui.file.write_merge_profiles" title="ansys.fluent.core.solver.tui.file.write_merge_profiles"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_merge_profiles</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Write multiple zones surface data as a single boundary profile file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_pdat.html#ansys.fluent.core.solver.tui.file.write_pdat" title="ansys.fluent.core.solver.tui.file.write_pdat"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_pdat</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Indicate whether to attempt to save pdat files.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_pdf.html#ansys.fluent.core.solver.tui.file.write_pdf" title="ansys.fluent.core.solver.tui.file.write_pdf"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_pdf</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Write a pdf file.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_profile.html#ansys.fluent.core.solver.tui.file.write_profile" title="ansys.fluent.core.solver.tui.file.write_profile"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_profile</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Write surface data as a boundary profile file.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.tui.file.write_settings.html#ansys.fluent.core.solver.tui.file.write_settings" title="ansys.fluent.core.solver.tui.file.write_settings"><code class="xref py py-obj docutils literal notranslate"><span class="pre">file.write_settings</span></code></a>(*args, **kwargs)</p></td>
+<td><p>Write out current boundary conditions in use.</p></td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</section>
+
+
+              </div>
+              
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../../../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright (c) 2022 ANSYS, Inc. All rights reserved.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

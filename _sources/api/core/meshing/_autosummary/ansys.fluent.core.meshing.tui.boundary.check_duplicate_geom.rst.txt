@@ -1,0 +1,6 @@
+check\_duplicate\_geom
+======================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.check_duplicate_geom

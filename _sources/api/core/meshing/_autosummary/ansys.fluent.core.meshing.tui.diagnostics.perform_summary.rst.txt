@@ -1,0 +1,6 @@
+perform\_summary
+================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: diagnostics.perform_summary

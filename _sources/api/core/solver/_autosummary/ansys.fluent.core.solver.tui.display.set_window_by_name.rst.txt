@@ -1,0 +1,6 @@
+set\_window\_by\_name
+=====================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: display.set_window_by_name

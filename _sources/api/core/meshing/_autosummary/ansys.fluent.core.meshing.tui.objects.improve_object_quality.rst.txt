@@ -1,0 +1,6 @@
+improve\_object\_quality
+========================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: objects.improve_object_quality

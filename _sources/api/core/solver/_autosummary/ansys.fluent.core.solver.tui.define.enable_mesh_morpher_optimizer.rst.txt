@@ -1,0 +1,6 @@
+enable\_mesh\_morpher\_optimizer
+================================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: define.enable_mesh_morpher_optimizer

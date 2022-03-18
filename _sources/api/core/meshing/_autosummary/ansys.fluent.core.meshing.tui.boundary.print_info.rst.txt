@@ -1,0 +1,6 @@
+print\_info
+===========
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: boundary.print_info

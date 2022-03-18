@@ -1,0 +1,6 @@
+initialize
+==========
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: parametric_study.initialize

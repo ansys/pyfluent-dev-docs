@@ -1,0 +1,6 @@
+draw
+====
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: cad_assemblies.draw

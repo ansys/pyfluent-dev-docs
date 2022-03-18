@@ -1,0 +1,6 @@
+read\_domains
+=============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: file.read_domains

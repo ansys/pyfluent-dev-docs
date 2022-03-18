@@ -1,0 +1,6 @@
+element\_mass\_flow
+===================
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: report.element_mass_flow

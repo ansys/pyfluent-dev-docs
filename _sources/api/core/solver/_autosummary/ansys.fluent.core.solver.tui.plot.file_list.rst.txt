@@ -1,0 +1,6 @@
+file\_list
+==========
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: plot.file_list

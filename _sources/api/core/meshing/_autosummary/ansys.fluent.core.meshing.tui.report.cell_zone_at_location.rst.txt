@@ -1,0 +1,6 @@
+cell\_zone\_at\_location
+========================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: report.cell_zone_at_location

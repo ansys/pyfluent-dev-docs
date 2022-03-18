@@ -1,0 +1,6 @@
+file\_format
+============
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: file.file_format

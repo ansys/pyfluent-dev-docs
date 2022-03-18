@@ -1,0 +1,6 @@
+center\_view\_on
+================
+
+.. currentmodule:: ansys.fluent.core.meshing.tui
+
+.. automethod:: display.center_view_on

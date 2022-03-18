@@ -1,0 +1,6 @@
+update\_layout
+==============
+
+.. currentmodule:: ansys.fluent.core.solver.tui
+
+.. automethod:: display.update_layout
