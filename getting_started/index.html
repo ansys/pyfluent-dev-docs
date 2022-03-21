@@ -221,8 +221,13 @@
   </a>
   <ul class="visible nav section-nav flex-column">
    <li class="toc-h2 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#advanced-features">
-     Advanced Features
+    <a class="reference internal nav-link" href="#features">
+     Features
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#beta-features">
+     Beta Features
     </a>
    </li>
   </ul>
@@ -250,31 +255,32 @@
                 
   <section id="introduction">
 <span id="getting-started"></span><h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
-<p>Python is a portable, dynamically typed, interpreted programming language that is easy to learn,
-read, and write. It is free to use and distribute and is supported by a vast support library of
-thousands of available packages.</p>
-<p>PyFluent is part of a growing Ansys Python environment that
-lets you use Ansys Fluent within or alongside any other Python environment, whether it
-is in conjunction with other Ansys Python libraries and packages or with other external
-Python products.</p>
-<p>PyFluent launches or connects with a running Fluent process as a server using gRPC interfaces,
-but all you need to interact with is the Python interface of Ansys Fluent.</p>
-<p>You can use PyFluent to programmatically create, interact with and control an Ansys Fluent session to
-create your own customized workspace. In addition, you can use PyFluent to enhance your
-productivity with highly configurable, customized scripts.</p>
+<p>Python is a portable, dynamically typed, interpreted programming language that
+is easy to learn, read, and write. It is free to use and distribute and is
+supported by a vast support library of thousands of available packages.</p>
+<p>PyFluent is part of the growing Ansys Python ecosystem that lets you use Ansys
+Fluent within or alongside any other Python environment, whether it is in
+conjunction with other Ansys Python libraries and packages or with other
+external Python products.</p>
+<p>PyFluent launches or connects with a running Fluent process as a server using
+gRPC interfaces, but all you need to interact with is the Python interface of
+Ansys Fluent.</p>
+<p>You can use PyFluent to programmatically create, interact with and control an
+Ansys Fluent session to create your own customized workspace. In addition, you
+can use PyFluent to enhance your productivity with highly configurable,
+customized scripts.</p>
 </section>
 <section id="installation">
 <h1>Installation<a class="headerlink" href="#installation" title="Permalink to this headline">¶</a></h1>
-<p>To use PyFluent, you need to have a local installation of Ansys.
-The version of Ansys installed will dictate the interface and features
-available to you.</p>
-<p>Visit <a class="reference external" href="https://www.ansys.com/">Ansys</a> for more information on
-getting a licensed copy of Ansys.</p>
-<p>To install a local version of PyFluent, you need to clone the PyFluent repository through
-GitHub Enterprise (<a class="reference external" href="https://github.com/pyansys/pyfluent">https://github.com/pyansys/pyfluent</a>). Other Ansys Python
-packages are also available here or through www.pypi.org.</p>
-<p>Once you have access to a cloned repository,
-you can install the pyfluent library by using</p>
+<p>To use PyFluent, you need to have a local installation of Ansys. The version of
+Ansys installed will dictate the interface and features available to you.</p>
+<p>Visit <a class="reference external" href="https://www.ansys.com/">Ansys</a> for more information on getting a
+licensed copy of Ansys.</p>
+<p>To install a local version of PyFluent, you need to clone the PyFluent
+repository through GitHub Enterprise (<a class="reference external" href="https://github.com/pyansys/pyfluent">https://github.com/pyansys/pyfluent</a>).
+Other Ansys Python packages are also available here or through www.pypi.org.</p>
+<p>Once you have access to a cloned repository, you can install the pyfluent
+library by using</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">pyansys</span><span class="o">/</span><span class="n">pyfluent</span><span class="o">.</span><span class="n">git</span>
 <span class="n">cd</span> <span class="n">pyfluent</span>
 <span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">e</span> <span class="o">.</span>
@@ -283,8 +289,8 @@ you can install the pyfluent library by using</p>
 </section>
 <section id="starting-fluent">
 <h1>Starting Fluent<a class="headerlink" href="#starting-fluent" title="Permalink to this headline">¶</a></h1>
-<p>To see and interact with the Fluent graphical user interface,
-set the following environment variable:</p>
+<p>To see and interact with the Fluent graphical user interface, set the following
+environment variable:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">PYFLUENT_SHOW_SERVER_GUI</span><span class="o">=</span><span class="mi">1</span>
 </pre></div>
 </div>
@@ -296,14 +302,26 @@ set the following environment variable:</p>
 <span class="go">DNW: What comes out here?</span>
 </pre></div>
 </div>
-<p>Fluent is now active and you can send commands to it as a genuine
-Python class.  For example, if we wanted to … &lt;add a basic example&gt;:</p>
+<p>Fluent is now active and you can send commands to it as a genuine Python class.
+For example, if we wanted to … &lt;add a basic example&gt;:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="nb">type</span> <span class="n">some</span> <span class="n">commands</span> <span class="n">here</span><span class="o">&gt;</span>
 </pre></div>
 </div>
-<section id="advanced-features">
-<h2>Advanced Features<a class="headerlink" href="#advanced-features" title="Permalink to this headline">¶</a></h2>
-<p>Maybe give some basic example here for each API.</p>
+<section id="features">
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<p>TUI and meshing workflows from Fluent meshing are available. See the
+<a class="reference internal" href="../api/core/meshing/index.html#ref-meshing"><span class="std std-ref">Meshing</span></a> module for examples and more information.</p>
+<p>Post processing Fluent results is possible using either Fluent directly or the
+PyVista module.  See the <a class="reference internal" href="../api/post/index.html#ref-postprocessing"><span class="std std-ref">Postprocessing</span></a> module for more information
+and examples.</p>
+</section>
+<section id="beta-features">
+<h2>Beta Features<a class="headerlink" href="#beta-features" title="Permalink to this headline">¶</a></h2>
+<p>The settings object interface provides a more Pythonic way to access and modify
+settings than the TUI command interface.  These API calls group Fluent settings
+into a tree of objects where individal settings for material properties,
+boundary conditions are accessible without the need to pass parameter lists.</p>
+<p>More information is available in the <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects (Beta)</span></a> module documentation.</p>
 </section>
 </section>
 

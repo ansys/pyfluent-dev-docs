@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Settings Objects &#8212; PyFluent</title>
+    <title>Settings Objects (Beta) &#8212; PyFluent</title>
     
     
   <link href="../../../_static/css/theme.css" rel="stylesheet">
@@ -170,7 +170,7 @@
           <li class="nav-item nav-item-1"><a href="../../index.html" >API Reference</a> » </li>
           <li class="nav-item nav-item-2"><a href="../index.html" >Core</a> » </li>
           <li class="nav-item nav-item-3"><a href="index.html" accesskey="U">Solver</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">Settings Objects</a></li> 
+        <li class="nav-item nav-item-this"><a href="">Settings Objects (Beta)</a></li> 
       </ul>
     </div>
         </div>
@@ -227,11 +227,6 @@
      </i>
     </label>
     <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../meshing/meshing.html">
-       Meshing TUI and workflow example
-      </a>
-     </li>
      <li class="toctree-l3 has-children">
       <a class="reference internal" href="../meshing/tui.html">
        Meshing (TUI)
@@ -358,7 +353,7 @@
     <ul class="current">
      <li class="toctree-l3 current active">
       <a class="current reference internal" href="#">
-       Settings Objects
+       Settings Objects (Beta)
       </a>
      </li>
      <li class="toctree-l3 has-children">
@@ -829,17 +824,17 @@
               
               <div>
                 
-  <section id="settings-objects">
-<h1>Settings Objects<a class="headerlink" href="#settings-objects" title="Permalink to this headline">¶</a></h1>
+  <section id="settings-objects-beta">
+<span id="ref-settings"></span><h1>Settings Objects (Beta)<a class="headerlink" href="#settings-objects-beta" title="Permalink to this headline">¶</a></h1>
 <section id="introduction">
 <h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
-<p>Settings objects provide a natural way to access and modify Fluent settings
-and issue commands with a hierarchy of objects.</p>
+<p>Settings objects provide a natural way to access and modify Fluent settings and
+issue commands with a hierarchy of objects.</p>
 </section>
 <section id="top-level-objects">
 <h2>Top-level Objects<a class="headerlink" href="#top-level-objects" title="Permalink to this headline">¶</a></h2>
-<p>The top-level settings object can be accessed by
-executing the <code class="docutils literal notranslate"><span class="pre">get_settings_root</span></code> method on a session object.</p>
+<p>The top-level settings object can be accessed by executing the
+<code class="docutils literal notranslate"><span class="pre">get_settings_root</span></code> method on a session object.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">()</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">root</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">get_settings_root</span><span class="p">()</span>
@@ -851,8 +846,8 @@ roughly mirror the outline view in Fluent.</p>
 </section>
 <section id="types-of-settings-objects">
 <h2>Types of Settings Objects<a class="headerlink" href="#types-of-settings-objects" title="Permalink to this headline">¶</a></h2>
-<p>A settings object can be one of the primitive types like <code class="docutils literal notranslate"><span class="pre">Integer</span></code>,
-<code class="docutils literal notranslate"><span class="pre">Real</span></code>, <code class="docutils literal notranslate"><span class="pre">String</span></code> and <code class="docutils literal notranslate"><span class="pre">Boolean</span></code> or a container object.</p>
+<p>A settings object can be one of the primitive types like <code class="docutils literal notranslate"><span class="pre">Integer</span></code>, <code class="docutils literal notranslate"><span class="pre">Real</span></code>,
+<code class="docutils literal notranslate"><span class="pre">String</span></code> and <code class="docutils literal notranslate"><span class="pre">Boolean</span></code> or a container object.</p>
 <p>There are three types of container objects: <code class="docutils literal notranslate"><span class="pre">Group</span></code>, <code class="docutils literal notranslate"><span class="pre">NamedObject</span></code> and
 <code class="docutils literal notranslate"><span class="pre">ListObject</span></code>.</p>
 <p>A <code class="docutils literal notranslate"><span class="pre">Group</span></code> object is a static container with pre-defined child objects which
@@ -862,20 +857,20 @@ names of the child objects of a group can be accessed with the <code class="docu
 attribute of a <code class="docutils literal notranslate"><span class="pre">Group</span></code> object.</p>
 <p>A <code class="docutils literal notranslate"><span class="pre">NamedObject</span></code> is a container holding dynamically created named objects of
 its specified child type (accessible via <code class="docutils literal notranslate"><span class="pre">child_object_type</span></code> attribute)
-similar to a dictionary. A specified named object
-can be accessed using the index operator. For example,
+similar to a dictionary. A specified named object can be accessed using the
+index operator. For example,
 <code class="docutils literal notranslate"><span class="pre">root.setup.boundary_conditions.velocity_inlet['inlet2']</span></code> refers to the
 <code class="docutils literal notranslate"><span class="pre">velocity_object</span></code> object with name <code class="docutils literal notranslate"><span class="pre">inlet2</span></code>. The current list of named
 object children can be accessed with the <code class="docutils literal notranslate"><span class="pre">get_object_names()</span></code> function of the
 container class.</p>
 <p>A <code class="docutils literal notranslate"><span class="pre">ListObject</span></code> is a container holding dynamically created unnamed objects of
-its specified child type (accessible via <code class="docutils literal notranslate"><span class="pre">child_object_type</span></code> attribute)
-in a list. Children of <code class="docutils literal notranslate"><span class="pre">ListObject</span></code> can be accessed
-using the index operator. For example,
+its specified child type (accessible via <code class="docutils literal notranslate"><span class="pre">child_object_type</span></code> attribute) in a
+list. Children of <code class="docutils literal notranslate"><span class="pre">ListObject</span></code> can be accessed using the index operator. For
+example,
 <code class="docutils literal notranslate"><span class="pre">root.setup.cell_zone_conditions.fluid['fluid-1'].source_terms['mass'][2]</span></code>
-refers to the third (starting from index 0) mass source entry for the fluid
-zone named <code class="docutils literal notranslate"><span class="pre">fluid-1</span></code>. The current number of child objects can be accessed via
-the <code class="docutils literal notranslate"><span class="pre">get_size()</span></code> function.</p>
+refers to the third (starting from index 0) mass source entry for the fluid zone
+named <code class="docutils literal notranslate"><span class="pre">fluid-1</span></code>. The current number of child objects can be accessed via the
+<code class="docutils literal notranslate"><span class="pre">get_size()</span></code> function.</p>
 </section>
 <section id="setting-and-modifying-state">
 <h2>Setting and Modifying State<a class="headerlink" href="#setting-and-modifying-state" title="Permalink to this headline">¶</a></h2>
@@ -942,10 +937,10 @@ the application. For example, the <code class="docutils literal notranslate"><sp
 <code class="docutils literal notranslate"><span class="pre">solution.initialization</span></code> initializes the solution using the hybrid
 initialization method. The <code class="docutils literal notranslate"><span class="pre">command_names</span></code> attribute of a settings object
 provides the names of its commands.</p>
-<p>If needed, commands can be passed keyword arguments, and the list of
-valid arguments can be accessed using the <code class="docutils literal notranslate"><span class="pre">arguments</span></code> attribute.  If an
-argument is not specified, its default value is used. Arguments are also
-settings objects and can be either primitive type or container type.</p>
+<p>If needed, commands can be passed keyword arguments, and the list of valid
+arguments can be accessed using the <code class="docutils literal notranslate"><span class="pre">arguments</span></code> attribute.  If an argument is
+not specified, its default value is used. Arguments are also settings objects
+and can be either primitive type or container type.</p>
 </section>
 <section id="additional-metadata">
 <h2>Additional Metadata<a class="headerlink" href="#additional-metadata" title="Permalink to this headline">¶</a></h2>
@@ -956,15 +951,16 @@ at a particular state for the viscous model can be accessed as follows:</p>
 <span class="go">[&#39;inviscid&#39;, &#39;laminar&#39;, &#39;k-epsilon-standard&#39;, &#39;k-omega-standard&#39;, &#39;mixing-length&#39;, &#39;spalart-allmaras&#39;, &#39;k-kl-w&#39;, &#39;transition-sst&#39;, &#39;reynolds-stress&#39;, &#39;scale-adaptive-simulation&#39;, &#39;detached-eddy-simulation&#39;, &#39;large-eddy-simulation&#39;]</span>
 </pre></div>
 </div>
-<p>Attributes are dynamic and the values can change depending on the application state.</p>
+<p>Attributes are dynamic and the values can change depending on the application
+state.</p>
 </section>
 <section id="active-objects-and-commands">
 <h2>Active Objects and Commands<a class="headerlink" href="#active-objects-and-commands" title="Permalink to this headline">¶</a></h2>
 <p>Objects and commands can be active or inactive based on the application state.
-application. The <code class="docutils literal notranslate"><span class="pre">is_active()</span></code> method returns <code class="docutils literal notranslate"><span class="pre">True</span></code> if an object or
-command is active at a particular time. <code class="docutils literal notranslate"><span class="pre">get_active_child_names</span></code> returns
-the list of active children. <code class="docutils literal notranslate"><span class="pre">get_active_command_names</span></code> returns the list of
-active commands.</p>
+application. The <code class="docutils literal notranslate"><span class="pre">is_active()</span></code> method returns <code class="docutils literal notranslate"><span class="pre">True</span></code> if an object or command
+is active at a particular time. <code class="docutils literal notranslate"><span class="pre">get_active_child_names</span></code> returns the list of
+active children. <code class="docutils literal notranslate"><span class="pre">get_active_command_names</span></code> returns the list of active
+commands.</p>
 </section>
 </section>
 

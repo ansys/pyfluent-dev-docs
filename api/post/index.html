@@ -225,11 +225,6 @@
      </i>
     </label>
     <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="../core/meshing/meshing.html">
-       Meshing TUI and workflow example
-      </a>
-     </li>
      <li class="toctree-l3 has-children">
       <a class="reference internal" href="../core/meshing/tui.html">
        Meshing (TUI)
@@ -356,7 +351,7 @@
     <ul>
      <li class="toctree-l3">
       <a class="reference internal" href="../core/solver/settings.html">
-       Settings Objects
+       Settings Objects (Beta)
       </a>
      </li>
      <li class="toctree-l3 has-children">
@@ -765,9 +760,24 @@
               
               <div class="toc-item">
                 
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
 <nav id="bd-toc-nav">
-    
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#fluent">
+   Fluent
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pyvista-example">
+   PyVista Example
+  </a>
+ </li>
+</ul>
+
 </nav>
               </div>
               
@@ -789,6 +799,80 @@
                 
   <section id="postprocessing">
 <span id="ref-postprocessing"></span><h1>Postprocessing<a class="headerlink" href="#postprocessing" title="Permalink to this headline">¶</a></h1>
+<p>Post processing Fluent results can be done with either Fluent in-built post
+processing capabilities or with the PyVista integration.</p>
+<section id="fluent">
+<h2>Fluent<a class="headerlink" href="#fluent" title="Permalink to this headline">¶</a></h2>
+<p>Here visualization objects are constructed within Fluent.  Graphics can be
+written to a file using standard Fluent commands.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">contour</span><span class="p">[</span><span class="s1">&#39;contour-1&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;boundary_values&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">&#39;color_map&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;color&#39;</span><span class="p">:</span> <span class="s1">&#39;field-velocity&#39;</span><span class="p">,</span> <span class="s1">&#39;font_automatic&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">&#39;font_name&#39;</span><span class="p">:</span> <span class="s1">&#39;Helvetica&#39;</span><span class="p">,</span> <span class="s1">&#39;font_size&#39;</span><span class="p">:</span> <span class="mf">0.032</span><span class="p">,</span> <span class="s1">&#39;format&#39;</span><span class="p">:</span> <span class="s1">&#39;</span><span class="si">%0.2e</span><span class="s1">&#39;</span><span class="p">,</span> <span class="s1">&#39;length&#39;</span><span class="p">:</span> <span class="mf">0.54</span><span class="p">,</span> <span class="s1">&#39;log_scale&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span> <span class="s1">&#39;position&#39;</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">&#39;show_all&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">&#39;size&#39;</span><span class="p">:</span> <span class="mi">100</span><span class="p">,</span> <span class="s1">&#39;user_skip&#39;</span><span class="p">:</span> <span class="mi">9</span><span class="p">,</span> <span class="s1">&#39;visible&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">&#39;width&#39;</span><span class="p">:</span> <span class="mf">6.0</span><span class="p">},</span> <span class="s1">&#39;coloring&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;smooth&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">},</span> <span class="s1">&#39;contour_lines&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span> <span class="s1">&#39;display_state_name&#39;</span><span class="p">:</span> <span class="s1">&#39;None&#39;</span><span class="p">,</span> <span class="s1">&#39;draw_mesh&#39;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span> <span class="s1">&#39;field&#39;</span><span class="p">:</span> <span class="s1">&#39;pressure&#39;</span><span class="p">,</span> <span class="s1">&#39;filled&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">&#39;mesh_object&#39;</span><span class="p">:</span> <span class="s1">&#39;&#39;</span><span class="p">,</span> <span class="s1">&#39;node_values&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span> <span class="s1">&#39;range_option&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;auto_range_on&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;global_range&#39;</span><span class="p">:</span> <span class="kc">True</span><span class="p">}},</span> <span class="s1">&#39;surfaces_list&#39;</span><span class="p">:</span> <span class="p">[</span><span class="mi">2</span><span class="p">,</span> <span class="mi">5</span><span class="p">]}</span>
+<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">contour</span><span class="p">[</span><span class="s1">&#39;contour-1&#39;</span><span class="p">]()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">contour</span><span class="p">[</span><span class="s1">&#39;contour-1&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">field</span><span class="o">.</span><span class="n">set_state</span><span class="p">(</span><span class="s1">&#39;velocity-magnitude&#39;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">contour</span><span class="p">[</span><span class="s1">&#39;contour-1&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">field</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">contour</span><span class="p">[</span><span class="s1">&#39;contour-1&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">color_map</span><span class="o">.</span><span class="n">size</span><span class="o">.</span><span class="n">set_state</span><span class="p">(</span><span class="mf">80.0</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">contour</span><span class="p">[</span><span class="s1">&#39;contour-1&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">color_map</span><span class="o">.</span><span class="n">size</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">contour</span><span class="p">[</span><span class="s1">&#39;contour-1&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">rename</span><span class="p">(</span><span class="s1">&#39;my-contour&#39;</span><span class="p">)</span>
+<span class="k">del</span> <span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">contour</span><span class="p">[</span><span class="s1">&#39;my-contour&#39;</span><span class="p">]</span>
+</pre></div>
+</div>
+</section>
+<section id="pyvista-example">
+<h2>PyVista Example<a class="headerlink" href="#pyvista-example" title="Permalink to this headline">¶</a></h2>
+<p>Here the field data is extracted from the Fluent session into the Python
+environment and PyVista is used to visualze the extracted data.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># import module</span>
+<span class="kn">import</span> <span class="nn">ansys.fluent.post.pyvista</span> <span class="k">as</span> <span class="nn">pv</span>
+
+<span class="c1"># get the graphics objects for the session</span>
+
+<span class="n">graphics_session1</span> <span class="o">=</span> <span class="n">pv</span><span class="o">.</span><span class="n">Graphics</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
+<span class="n">mesh1</span> <span class="o">=</span> <span class="n">graphics_session1</span><span class="o">.</span><span class="n">Meshes</span><span class="p">[</span><span class="s2">&quot;mesh-1&quot;</span><span class="p">]</span>
+<span class="n">contour1</span> <span class="o">=</span> <span class="n">graphics_session1</span><span class="o">.</span><span class="n">Contours</span><span class="p">[</span><span class="s2">&quot;contour-1&quot;</span><span class="p">]</span>
+<span class="n">contour2</span> <span class="o">=</span> <span class="n">graphics_session1</span><span class="o">.</span><span class="n">Contours</span><span class="p">[</span><span class="s2">&quot;contour-2&quot;</span><span class="p">]</span>
+<span class="n">surface1</span> <span class="o">=</span> <span class="n">graphics_session1</span><span class="o">.</span><span class="n">Surfaces</span><span class="p">[</span><span class="s2">&quot;surface-1&quot;</span><span class="p">]</span>
+
+<span class="c1"># set graphics objects properties</span>
+
+<span class="c1"># mesh</span>
+<span class="n">mesh1</span><span class="o">.</span><span class="n">show_edges</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">mesh1</span><span class="o">.</span><span class="n">surfaces_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;symmetry&#39;</span><span class="p">]</span>
+
+<span class="c1"># contour</span>
+<span class="n">contour1</span><span class="o">.</span><span class="n">field</span> <span class="o">=</span> <span class="s2">&quot;velocity-magnitude&quot;</span>
+<span class="n">contour1</span><span class="o">.</span><span class="n">surfaces_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;symmetry&#39;</span><span class="p">]</span>
+
+<span class="n">contour2</span><span class="o">.</span><span class="n">field</span> <span class="o">=</span> <span class="s2">&quot;temperature&quot;</span>
+<span class="n">contour2</span><span class="o">.</span><span class="n">surfaces_list</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;symmetry&#39;</span><span class="p">,</span> <span class="s1">&#39;wall&#39;</span><span class="p">]</span>
+
+<span class="c1"># copy</span>
+<span class="n">graphics_session1</span><span class="o">.</span><span class="n">Contours</span><span class="p">[</span><span class="s2">&quot;contour-3&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="n">contour2</span><span class="p">()</span>
+
+<span class="c1"># update</span>
+<span class="n">contour3</span> <span class="o">=</span> <span class="n">graphics_session1</span><span class="o">.</span><span class="n">Contours</span><span class="p">[</span><span class="s2">&quot;contour-3&quot;</span><span class="p">]</span>
+<span class="n">contour3</span><span class="o">.</span><span class="n">update</span><span class="p">(</span><span class="n">contour1</span><span class="p">())</span>
+
+<span class="c1"># delete</span>
+<span class="k">del</span> <span class="n">graphics_session1</span><span class="o">.</span><span class="n">Contours</span><span class="p">[</span><span class="s2">&quot;contour-3&quot;</span><span class="p">]</span>
+
+<span class="c1"># loop</span>
+<span class="k">for</span> <span class="n">name</span><span class="p">,</span> <span class="n">_</span> <span class="ow">in</span> <span class="n">graphics_session1</span><span class="o">.</span><span class="n">Contours</span><span class="o">.</span><span class="n">items</span><span class="p">():</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
+
+<span class="c1"># iso surface</span>
+<span class="n">surface1</span><span class="o">.</span><span class="n">surface_type</span><span class="o">.</span><span class="n">iso_surface</span><span class="o">.</span><span class="n">field</span><span class="o">=</span> <span class="s2">&quot;velocity-magnitude&quot;</span>
+<span class="n">surface1</span><span class="o">.</span><span class="n">surface_type</span><span class="o">.</span><span class="n">iso_surface</span><span class="o">.</span><span class="n">rendering</span><span class="o">=</span> <span class="s2">&quot;contour&quot;</span>
+
+<span class="c1"># display in default plotter</span>
+<span class="n">contour1</span><span class="o">.</span><span class="n">display</span><span class="p">()</span>
+<span class="n">mesh1</span><span class="o">.</span><span class="n">display</span><span class="p">()</span>
+<span class="n">surface1</span><span class="o">.</span><span class="n">display</span><span class="p">()</span>
+
+<span class="c1"># display in seprate plotter e.g. plotter-2</span>
+<span class="n">contour1</span><span class="o">.</span><span class="n">display</span><span class="p">(</span><span class="s2">&quot;plotter-2&quot;</span><span class="p">)</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
+</pre></div>
+</div>
 <table class="longtable table autosummary">
 <colgroup>
 <col style="width: 10%" />
@@ -799,6 +883,7 @@
 </table>
 <div class="toctree-wrapper compound">
 </div>
+</section>
 </section>
 
 

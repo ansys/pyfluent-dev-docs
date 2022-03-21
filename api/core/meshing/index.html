@@ -50,7 +50,7 @@
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Meshing TUI and workflow example" href="meshing.html" />
+    <link rel="next" title="Meshing (TUI)" href="tui.html" />
     <link rel="prev" title="launch_fluent" href="../_autosummary/ansys.fluent.core.launcher.launcher.launch_fluent.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -226,11 +226,6 @@
      </i>
     </label>
     <ul>
-     <li class="toctree-l3">
-      <a class="reference internal" href="meshing.html">
-       Meshing TUI and workflow example
-      </a>
-     </li>
      <li class="toctree-l3 has-children">
       <a class="reference internal" href="tui.html">
        Meshing (TUI)
@@ -357,7 +352,7 @@
     <ul>
      <li class="toctree-l3">
       <a class="reference internal" href="../solver/settings.html">
-       Settings Objects
+       Settings Objects (Beta)
       </a>
      </li>
      <li class="toctree-l3 has-children">
@@ -766,9 +761,24 @@
               
               <div class="toc-item">
                 
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
 <nav id="bd-toc-nav">
-    
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#workflow-example">
+   Workflow Example
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tui-commands-example">
+   TUI Commands Example
+  </a>
+ </li>
+</ul>
+
 </nav>
               </div>
               
@@ -790,6 +800,31 @@
                 
   <section id="meshing">
 <span id="ref-meshing"></span><h1>Meshing<a class="headerlink" href="#meshing" title="Permalink to this headline">¶</a></h1>
+<p>This module allows you to use Fluent meshing capabilities from Python.  Both
+the meshing workflows and meshing TUI commands are available.</p>
+<section id="workflow-example">
+<h2>Workflow Example<a class="headerlink" href="#workflow-example" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
+<span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">start_transcript</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">InitializeWorkflow</span><span class="p">(</span><span class="n">WorkflowType</span><span class="o">=</span><span class="s1">&#39;Watertight Geometry&#39;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Import Geometry&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span><span class="n">FileName</span><span class="o">=</span><span class="s1">&#39;cylinder.agdb&#39;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Import Geometry&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">check_mesh</span><span class="p">()</span>
+<span class="n">exit</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="tui-commands-example">
+<h2>TUI Commands Example<a class="headerlink" href="#tui-commands-example" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
+<span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="s2">&quot;elbow.cas.gz&quot;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">switch_to_solution_mode</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">unsteady_2nd_order</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
+<span class="n">exit</span><span class="p">()</span>
+</pre></div>
+</div>
 <table class="longtable table autosummary">
 <colgroup>
 <col style="width: 10%" />
@@ -800,6 +835,7 @@
 </table>
 <div class="toctree-wrapper compound">
 </div>
+</section>
 </section>
 
 

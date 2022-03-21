@@ -233,13 +233,13 @@
                 
   <section id="user-s-guide">
 <span id="user-guide"></span><h1>User’s Guide<a class="headerlink" href="#user-s-guide" title="Permalink to this headline">¶</a></h1>
-<p>This guide contains pertinent information regarding using Ansys PyFluent
-and its constituent modules and components.</p>
+<p>This guide contains pertinent information regarding using Ansys PyFluent and its
+constituent modules and components.</p>
 <section id="understanding-the-pyfluent-modules">
 <h2>Understanding the PyFluent Modules<a class="headerlink" href="#understanding-the-pyfluent-modules" title="Permalink to this headline">¶</a></h2>
-<p>Session objects are the main entry point when using the PyFluent library,
-where one or more Fluent client sessions can be launched simulateously from
-the server. For example:</p>
+<p>Session objects are the main entry point when using the PyFluent library, where
+one or more Fluent client sessions can be launched simulateously from the
+server. For example:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -247,42 +247,50 @@ the server. For example:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">meshing_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Each session object provides access to multiple services, such as boundary contitions,
-meshing workflows, field data properties, and so forth.</p>
-<p>PyFluent contains several basic service modules that provide access to core Fluent
-capabilities.</p>
+<p>Each session object provides access to multiple services, such as boundary
+contitions, meshing workflows, field data properties, and so forth.</p>
+<p>PyFluent contains several basic service modules that provide access to core
+Fluent capabilities.</p>
 <blockquote>
 <div><ul>
 <li><p>General command and query services are encompassed in three modules:</p>
 <blockquote>
 <div><ul class="simple">
-<li><p>The ‘tui’ modules are a collection of Python wrappers around the Fluent’s traditional Text User Interface (TUI) command-based infrastructure.</p></li>
+<li><p>The ‘tui’ modules are a collection of Python wrappers around the
+Fluent’s traditional Text User Interface (TUI) command-based
+infrastructure.</p></li>
 </ul>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">unsteady_2nd_order</span><span class="p">(</span><span class="s1">&#39;yes’)​</span>
 </pre></div>
 </div>
 <ul class="simple">
-<li><p>The ‘settings’ module is a Pythonic interface to access Fluent’s setup and solution objects, where you can, for instance, enable a physics-based model for your simulation.</p></li>
+<li><p>The ‘settings’ module is a Pythonic interface to access Fluent’s setup
+and solution objects, where you can, for instance, enable a
+physics-based model for your simulation.</p></li>
 </ul>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">settings</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">get_settings_root</span><span class="p">()</span>
 <span class="n">settings</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">enabled</span> <span class="o">=</span> <span class="kc">True</span>
 </pre></div>
 </div>
 <ul class="simple">
-<li><p>The ‘datamodel’ module is a Python interface to access the datamodel-driven aspects of Fluent, such as the meshing workflows.</p></li>
+<li><p>The ‘datamodel’ module is a Python interface to access the
+datamodel-driven aspects of Fluent, such as the meshing workflows.</p></li>
 </ul>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">import_geometry</span><span class="o">.</span><span class="n">arguments</span><span class="o">.</span><span class="n">update_dict</span><span class="p">({</span><span class="s1">&#39;AppendMesh&#39;</span><span class="p">:</span><span class="kc">True</span><span class="p">})</span>
 </pre></div>
 </div>
 </div></blockquote>
 </li>
-<li><p>Surface field and mesh data services are available using the ‘field_data’ module, such as obtaining surface data for a specified surface.</p></li>
+<li><p>Surface field and mesh data services are available using the ‘field_data’
+module, such as obtaining surface data for a specified surface.</p></li>
 </ul>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>surface_data = field_data.get_surfaces(surface_ids)​
 </pre></div>
 </div>
 <ul class="simple">
-<li><p>There are general modules available, such as ‘health_check’, ‘transcript’, and ‘events’ that provide access to generic features that are useful to running your simulation. For instance,</p></li>
+<li><p>There are general modules available, such as ‘health_check’, ‘transcript’,
+and ‘events’ that provide access to generic features that are useful to
+running your simulation. For instance,</p></li>
 </ul>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>health_check_service.check_health()​​
 </pre></div>
@@ -296,7 +304,8 @@ capabilities.</p>
 </pre></div>
 </div>
 <ul class="simple">
-<li><p>Finally, there is a ‘scheme_eval’ module that provides access to Scheme function evaluation. For instance,</p></li>
+<li><p>Finally, there is a ‘scheme_eval’ module that provides access to Scheme
+function evaluation. For instance,</p></li>
 </ul>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span>scheme_eval.string_eval(&quot;(rp-unsteady?)&quot;)​
 </pre></div>
