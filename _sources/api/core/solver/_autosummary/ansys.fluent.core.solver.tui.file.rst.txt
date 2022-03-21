@@ -51,6 +51,9 @@
       file.read_case_data
       
       
+      file.read_case_info
+      
+      
       file.read_data
       
       
