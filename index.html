@@ -50,7 +50,7 @@
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Introduction" href="getting_started/index.html" />
+    <link rel="next" title="Installation" href="getting_started/index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -98,7 +98,7 @@
         <ul id="navbar-main-elements" class="navbar-nav">
     <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="getting_started/index.html">
-  Introduction
+  Installation
  </a>
 </li>
 
@@ -206,13 +206,21 @@
   <a class="reference internal nav-link" href="#introduction">
    Introduction
   </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#project-index">
-     Project Index
-    </a>
-   </li>
-  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#features">
+   Features
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#beta-features">
+   Beta Features
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#project-index">
+   Project Index
+  </a>
  </li>
 </ul>
 
@@ -244,14 +252,50 @@
 <p>Ansys Fluent is a state-of-the-art computational fluid dynamics (CFD) software
 package for modeling fluid flow, heat transfer, and chemical reactions in
 complex geometries.</p>
-<p>PyFluent is a Python-based application programming interface for the Ansys
-Fluent CFD solver.</p>
+<p>Python is a portable, dynamically typed, interpreted programming language that
+is easy to learn, read, and write. It is free to use and distribute and is
+supported by a vast support library of thousands of available packages.</p>
+<p>PyFluent is part of the growing <a class="reference external" href="https://docs.pyansys.com">PyAnsys</a> ecosystem
+that lets you use Ansys Fluent within or alongside any other Python environment,
+whether it is in conjunction with other Ansys Python libraries and packages or
+with other external Python products.</p>
+<p>PyFluent launches or connects with a running Fluent process as a server using
+gRPC interfaces, but all you need to interact with is the Python interface.</p>
+<p>You can use PyFluent to programmatically create, interact with and control an
+Ansys Fluent session to create your own customized workspace. In addition, you
+can use PyFluent to enhance your productivity with highly configurable,
+customized scripts.</p>
+</section>
+<section id="features">
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<p>The primary package, <code class="docutils literal notranslate"><span class="pre">ansys-fluent</span></code>, provides features such as:</p>
+<ul class="simple">
+<li><p>Scripting of Fluent’s meshing capabilities. See the <a class="reference internal" href="api/core/meshing/index.html#ref-meshing"><span class="std std-ref">Meshing</span></a> module
+for more information.</p></li>
+<li><p>Scripting using Fluent’s TUI commands. See the <a class="reference internal" href="api/core/solver/tui.html#ref-solver-tui"><span class="std std-ref">Solver TUI</span></a>  module for
+more information about the available commands.</p></li>
+<li><p>Script post processing using Fluent’s in-built post processing capabilities.
+See the <a class="reference internal" href="api/post/index.html#ref-postprocessing"><span class="std std-ref">Postprocessing</span></a> module for more information.</p></li>
+<li><p>Plotting of Fluent geometry and meshes using <a class="reference external" href="https://docs.pyvista.org">PyVista</a> from within a Python script or an
+interactive <a class="reference external" href="https://jupyter.org/">Jupyter notebook</a>.</p></li>
+<li><p>Access to Fluent surface based field data as Python objects via <a class="reference external" href="https://numpy.org/">NumPy</a> arrays</p></li>
+<li><p>and more…</p></li>
+</ul>
+</section>
+<section id="beta-features">
+<h2>Beta Features<a class="headerlink" href="#beta-features" title="Permalink to this headline">¶</a></h2>
+<p>The settings object interface provides a more Pythonic way to access and modify
+Fluent settings than the TUI command interface.  These API calls group Fluent
+settings into a tree of objects where individal settings for material
+properties, boundary conditions are accessible without the need to pass
+parameter lists.</p>
+<p>More information is available in the <a class="reference internal" href="api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects (Beta)</span></a> module documentation.</p>
+</section>
 <section id="project-index">
-<h3>Project Index<a class="headerlink" href="#project-index" title="Permalink to this headline">¶</a></h3>
+<h2>Project Index<a class="headerlink" href="#project-index" title="Permalink to this headline">¶</a></h2>
 <ul class="simple">
 <li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
 </ul>
-</section>
 </section>
 </section>
 
