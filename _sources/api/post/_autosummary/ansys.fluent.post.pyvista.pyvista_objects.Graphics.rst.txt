@@ -1,0 +1,22 @@
+﻿ansys.fluent.post.pyvista.pyvista\_objects.Graphics
+===================================================
+
+.. currentmodule:: ansys.fluent.post.pyvista.pyvista_objects
+
+.. autoclass:: Graphics
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+      :toctree:
+   
+      
+   
+   
+
+   
+   
+   

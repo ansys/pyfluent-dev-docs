@@ -1,7 +1,7 @@
-﻿ansys.fluent.post.pyvista.graphics.Contour
-==========================================
+﻿ansys.fluent.post.pyvista.pyvista\_objects.Contour
+==================================================
 
-.. currentmodule:: ansys.fluent.post.pyvista.graphics
+.. currentmodule:: ansys.fluent.post.pyvista.pyvista_objects
 
 .. autoclass:: Contour
 

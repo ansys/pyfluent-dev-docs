@@ -1,0 +1,6 @@
+update
+======
+
+.. currentmodule:: ansys.fluent.post.pyvista.pyvista_objects
+
+.. automethod:: Mesh.update
