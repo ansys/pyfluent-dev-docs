@@ -35,6 +35,48 @@ Full Examples Using PyFluent
 ============================
 These examples demonstrate how to use Fluent solver capabilities from Python.
 
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates how to do the following:">
+
+.. only:: html
+
+ .. figure:: /examples/00-fluent/images/thumb/sphx_glr_mixing_elbow_settings_api_thumb.png
+     :alt: Fluid Flow and Heat Transfer in a Mixing Elbow
+
+     :ref:`sphx_glr_examples_00-fluent_mixing_elbow_settings_api.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/00-fluent/mixing_elbow_settings_api
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates how to do the following:">
+
+.. only:: html
+
+ .. figure:: /examples/00-fluent/images/thumb/sphx_glr_mixing_elbow_tui_api_thumb.png
+     :alt: Fluid Flow and Heat Transfer in a Mixing Elbow
+
+     :ref:`sphx_glr_examples_00-fluent_mixing_elbow_tui_api.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/00-fluent/mixing_elbow_tui_api
 .. raw:: html
 
     <div class="sphx-glr-clear"></div>
