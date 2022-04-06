@@ -31,8 +31,5 @@
       :toctree:
    
       
-      
-      Contour.parent
-      
    
    

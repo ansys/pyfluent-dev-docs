@@ -31,8 +31,5 @@
       :toctree:
    
       
-      
-      Mesh.parent
-      
    
    

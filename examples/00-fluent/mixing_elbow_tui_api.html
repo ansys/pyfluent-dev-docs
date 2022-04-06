@@ -277,7 +277,8 @@ with a warmer fluid at 40 deg C that enters through a smaller inlet located at
 the elbow. The pipe dimensions are in inches and the fluid properties and
 boundary conditions are given in SI units. The Reynolds number for the flow at
 the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># First, connect with a Fluent server</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># First, download the geometry file and start Fluent as a service with</span>
+<span class="c1"># Meshing Mode, Double Precision, Number of Processors 4</span>
 
 <span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
@@ -286,7 +287,10 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 <a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_filename</span></a> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">download_file</span><span class="p">(</span>
     <span class="s2">&quot;mixing_elbow.pmdb&quot;</span><span class="p">,</span> <span class="s2">&quot;pyfluent/mixing_elbow&quot;</span>
 <span class="p">)</span>
-<span class="n">s</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">start_instance</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+
+<span class="n">s</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
+    <span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="s2">&quot;4&quot;</span>
+<span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Select the Watertight Geometry Meshing Workflow</span>
@@ -294,7 +298,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f1e819bbc10 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f73bdc78bb0 state=running&gt;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Import the CAD geometry. For Length Units, select &quot;in&quot;.</span>
@@ -308,7 +312,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f1e819b7a90 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f73bf132370 state=running&gt;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Add local sizing:</span>
@@ -322,7 +326,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f1e819b7d90 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f73a9b9ddc0 state=running&gt;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Generate the surface mesh:</span>
@@ -337,7 +341,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f1e819bbf40 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f73bf12e040 state=running&gt;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Describe the geometry:</span>
@@ -360,7 +364,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f1e819b3f40 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f73bf12c550 state=running&gt;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Update Boundaries Task:</span>
@@ -377,7 +381,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f1e819b10d0 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f73bf12c040 state=running&gt;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Update your regions:</span>
@@ -388,7 +392,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f1e819b3e80 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f73bf12ef70 state=running&gt;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Add Boundary Layers:</span>
@@ -405,7 +409,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f1e819b55e0 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f73bf12eb20 state=running&gt;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Generate the volume mesh:</span>
@@ -422,7 +426,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f1e819b19d0 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f73bf12ad60 state=running&gt;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Check the mesh in Meshing mode</span>
@@ -557,7 +561,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f1e819a9100 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f73bf129b50 state=running&gt;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create a surface report definition of average temperature at the outlet</span>
@@ -711,7 +715,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f1e819a99d0 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7f73bf127eb0 state=running&gt;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create and display velocity vectors on the symmetry-xyplane plane:</span>
@@ -779,7 +783,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 <span class="c1"># s.tui.solver.file.write_case_data(&quot;mixing_elbow2_tui.cas.h5&quot;).result()</span>
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 2 minutes  7.564 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 1 minutes  41.237 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-00-fluent-mixing-elbow-tui-api-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/4b4f03cf363b62ad46289a86440390ff/mixing_elbow_tui_api.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">mixing_elbow_tui_api.py</span></code></a></p>

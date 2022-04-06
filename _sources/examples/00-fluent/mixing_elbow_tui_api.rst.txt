@@ -53,12 +53,13 @@ the elbow. The pipe dimensions are in inches and the fluid properties and
 boundary conditions are given in SI units. The Reynolds number for the flow at
 the larger inlet is 50, 800, so a turbulent flow model will be required.
 
-.. GENERATED FROM PYTHON SOURCE LINES 40-52
+.. GENERATED FROM PYTHON SOURCE LINES 40-56
 
 .. code-block:: default
 
 
-    # First, connect with a Fluent server
+    # First, download the geometry file and start Fluent as a service with
+    # Meshing Mode, Double Precision, Number of Processors 4
 
     import ansys.fluent.core as pyfluent
     from ansys.fluent.core import examples
@@ -67,7 +68,10 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
     import_filename = examples.download_file(
         "mixing_elbow.pmdb", "pyfluent/mixing_elbow"
     )
-    s = pyfluent.launch_fluent(start_instance=False)
+
+    s = pyfluent.launch_fluent(
+        meshing_mode=True, precision="double", processor_count="4"
+    )
 
 
 
@@ -76,7 +80,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 53-58
+.. GENERATED FROM PYTHON SOURCE LINES 57-62
 
 .. code-block:: default
 
@@ -96,11 +100,11 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f1e819bbc10 state=running>
+    <Future at 0x7f73bdc78bb0 state=running>
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 59-69
+.. GENERATED FROM PYTHON SOURCE LINES 63-73
 
 .. code-block:: default
 
@@ -125,11 +129,11 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f1e819b7a90 state=running>
+    <Future at 0x7f73bf132370 state=running>
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 70-80
+.. GENERATED FROM PYTHON SOURCE LINES 74-84
 
 .. code-block:: default
 
@@ -154,11 +158,11 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f1e819b7d90 state=running>
+    <Future at 0x7f73a9b9ddc0 state=running>
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 81-92
+.. GENERATED FROM PYTHON SOURCE LINES 85-96
 
 .. code-block:: default
 
@@ -184,11 +188,11 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f1e819bbf40 state=running>
+    <Future at 0x7f73bf12e040 state=running>
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 93-112
+.. GENERATED FROM PYTHON SOURCE LINES 97-116
 
 .. code-block:: default
 
@@ -222,11 +226,11 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f1e819b3f40 state=running>
+    <Future at 0x7f73bf12c550 state=running>
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 113-126
+.. GENERATED FROM PYTHON SOURCE LINES 117-130
 
 .. code-block:: default
 
@@ -254,11 +258,11 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f1e819b10d0 state=running>
+    <Future at 0x7f73bf12c040 state=running>
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 127-134
+.. GENERATED FROM PYTHON SOURCE LINES 131-138
 
 .. code-block:: default
 
@@ -280,11 +284,11 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f1e819b3e80 state=running>
+    <Future at 0x7f73bf12ef70 state=running>
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 135-148
+.. GENERATED FROM PYTHON SOURCE LINES 139-152
 
 .. code-block:: default
 
@@ -312,11 +316,11 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f1e819b55e0 state=running>
+    <Future at 0x7f73bf12eb20 state=running>
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 149-162
+.. GENERATED FROM PYTHON SOURCE LINES 153-166
 
 .. code-block:: default
 
@@ -344,11 +348,11 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f1e819b19d0 state=running>
+    <Future at 0x7f73bf12ad60 state=running>
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 163-167
+.. GENERATED FROM PYTHON SOURCE LINES 167-171
 
 .. code-block:: default
 
@@ -363,7 +367,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 168-172
+.. GENERATED FROM PYTHON SOURCE LINES 172-176
 
 .. code-block:: default
 
@@ -378,7 +382,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 173-181
+.. GENERATED FROM PYTHON SOURCE LINES 177-185
 
 .. code-block:: default
 
@@ -397,7 +401,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 182-191
+.. GENERATED FROM PYTHON SOURCE LINES 186-195
 
 .. code-block:: default
 
@@ -417,7 +421,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 192-201
+.. GENERATED FROM PYTHON SOURCE LINES 196-205
 
 .. code-block:: default
 
@@ -437,7 +441,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 202-206
+.. GENERATED FROM PYTHON SOURCE LINES 206-210
 
 .. code-block:: default
 
@@ -452,7 +456,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 207-211
+.. GENERATED FROM PYTHON SOURCE LINES 211-215
 
 .. code-block:: default
 
@@ -467,7 +471,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 212-241
+.. GENERATED FROM PYTHON SOURCE LINES 216-245
 
 .. code-block:: default
 
@@ -507,7 +511,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 242-265
+.. GENERATED FROM PYTHON SOURCE LINES 246-269
 
 .. code-block:: default
 
@@ -541,7 +545,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 266-287
+.. GENERATED FROM PYTHON SOURCE LINES 270-291
 
 .. code-block:: default
 
@@ -573,7 +577,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 288-300
+.. GENERATED FROM PYTHON SOURCE LINES 292-304
 
 .. code-block:: default
 
@@ -596,7 +600,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 301-305
+.. GENERATED FROM PYTHON SOURCE LINES 305-309
 
 .. code-block:: default
 
@@ -615,11 +619,11 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f1e819a9100 state=running>
+    <Future at 0x7f73bf129b50 state=running>
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 306-320
+.. GENERATED FROM PYTHON SOURCE LINES 310-324
 
 .. code-block:: default
 
@@ -644,7 +648,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 321-346
+.. GENERATED FROM PYTHON SOURCE LINES 325-350
 
 .. code-block:: default
 
@@ -680,7 +684,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 347-386
+.. GENERATED FROM PYTHON SOURCE LINES 351-390
 
 .. code-block:: default
 
@@ -730,7 +734,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 387-391
+.. GENERATED FROM PYTHON SOURCE LINES 391-395
 
 .. code-block:: default
 
@@ -745,7 +749,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 392-396
+.. GENERATED FROM PYTHON SOURCE LINES 396-400
 
 .. code-block:: default
 
@@ -760,7 +764,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 397-401
+.. GENERATED FROM PYTHON SOURCE LINES 401-405
 
 .. code-block:: default
 
@@ -775,7 +779,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 402-409
+.. GENERATED FROM PYTHON SOURCE LINES 406-413
 
 .. code-block:: default
 
@@ -793,7 +797,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 410-414
+.. GENERATED FROM PYTHON SOURCE LINES 414-418
 
 .. code-block:: default
 
@@ -808,7 +812,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 415-440
+.. GENERATED FROM PYTHON SOURCE LINES 419-444
 
 .. code-block:: default
 
@@ -844,7 +848,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 441-465
+.. GENERATED FROM PYTHON SOURCE LINES 445-469
 
 .. code-block:: default
 
@@ -883,11 +887,11 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f1e819a99d0 state=running>
+    <Future at 0x7f73bf127eb0 state=running>
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 466-490
+.. GENERATED FROM PYTHON SOURCE LINES 470-494
 
 .. code-block:: default
 
@@ -922,7 +926,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 491-498
+.. GENERATED FROM PYTHON SOURCE LINES 495-502
 
 .. code-block:: default
 
@@ -940,11 +944,11 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 499-500
+.. GENERATED FROM PYTHON SOURCE LINES 503-504
 
 s.tui.solver.file.write_case_data("mixing_elbow1_tui.cas.h5").result()
 
-.. GENERATED FROM PYTHON SOURCE LINES 500-529
+.. GENERATED FROM PYTHON SOURCE LINES 504-533
 
 .. code-block:: default
 
@@ -984,7 +988,7 @@ s.tui.solver.file.write_case_data("mixing_elbow1_tui.cas.h5").result()
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 530-534
+.. GENERATED FROM PYTHON SOURCE LINES 534-538
 
 .. code-block:: default
 
@@ -1002,7 +1006,7 @@ s.tui.solver.file.write_case_data("mixing_elbow1_tui.cas.h5").result()
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 2 minutes  7.564 seconds)
+   **Total running time of the script:** ( 1 minutes  41.237 seconds)
 
 
 .. _sphx_glr_download_examples_00-fluent_mixing_elbow_tui_api.py:
