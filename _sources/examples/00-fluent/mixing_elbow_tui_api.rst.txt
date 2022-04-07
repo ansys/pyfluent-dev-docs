@@ -100,7 +100,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f73bdc78bb0 state=running>
+    <Future at 0x7fd2c23faf70 state=running>
 
 
 
@@ -129,7 +129,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f73bf132370 state=running>
+    <Future at 0x7fd2e044d670 state=running>
 
 
 
@@ -158,7 +158,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f73a9b9ddc0 state=running>
+    <Future at 0x7fd2c2927550 state=running>
 
 
 
@@ -188,7 +188,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f73bf12e040 state=running>
+    <Future at 0x7fd2c2927970 state=running>
 
 
 
@@ -226,7 +226,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f73bf12c550 state=running>
+    <Future at 0x7fd2c29291c0 state=running>
 
 
 
@@ -258,7 +258,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f73bf12c040 state=running>
+    <Future at 0x7fd2c2927820 state=running>
 
 
 
@@ -284,7 +284,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f73bf12ef70 state=running>
+    <Future at 0x7fd2c2929af0 state=running>
 
 
 
@@ -316,7 +316,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f73bf12eb20 state=running>
+    <Future at 0x7fd2c291f160 state=running>
 
 
 
@@ -348,7 +348,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f73bf12ad60 state=running>
+    <Future at 0x7fd2c2921d30 state=running>
 
 
 
@@ -619,7 +619,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f73bf129b50 state=running>
+    <Future at 0x7fd2c291fe50 state=running>
 
 
 
@@ -887,7 +887,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    <Future at 0x7f73bf127eb0 state=running>
+    <Future at 0x7fd2c29252b0 state=running>
 
 
 
@@ -1006,7 +1006,7 @@ s.tui.solver.file.write_case_data("mixing_elbow1_tui.cas.h5").result()
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 1 minutes  41.237 seconds)
+   **Total running time of the script:** ( 2 minutes  12.776 seconds)
 
 
 .. _sphx_glr_download_examples_00-fluent_mixing_elbow_tui_api.py:

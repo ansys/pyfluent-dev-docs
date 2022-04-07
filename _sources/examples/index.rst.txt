@@ -90,6 +90,69 @@ Parametric Examples
 These examples demonstrate how to use the the parametric package to perform
 parametric studies with Fluent.
 
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="- Reads a case file and data file - Creates input and output parameters - Instantiates a design...">
+
+.. only:: html
+
+ .. figure:: /examples/01-parametric/images/thumb/sphx_glr_parametric_static_mixer_1_thumb.png
+     :alt: Parametric Study Workflow
+
+     :ref:`sphx_glr_examples_01-parametric_parametric_static_mixer_1.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/01-parametric/parametric_static_mixer_1
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="- Instantiates a parametric study from a Fluent session - Reads the previously saved project - ...">
+
+.. only:: html
+
+ .. figure:: /examples/01-parametric/images/thumb/sphx_glr_parametric_static_mixer_2_thumb.png
+     :alt: Parametric Project-Based Workflow
+
+     :ref:`sphx_glr_examples_01-parametric_parametric_static_mixer_2.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/01-parametric/parametric_static_mixer_2
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="- Launches a parametric session using the hopper/mixer case file - Prints the input parameters ...">
+
+.. only:: html
+
+ .. figure:: /examples/01-parametric/images/thumb/sphx_glr_parametric_static_mixer_3_thumb.png
+     :alt: Parametric Session Workflow
+
+     :ref:`sphx_glr_examples_01-parametric_parametric_static_mixer_3.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/01-parametric/parametric_static_mixer_3
 .. raw:: html
 
     <div class="sphx-glr-clear"></div>

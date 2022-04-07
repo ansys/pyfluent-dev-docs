@@ -849,8 +849,8 @@ environment and PyVista is used to visualze the extracted data.</p>
     <span class="nb">print</span><span class="p">(</span><span class="n">name</span><span class="p">)</span>
 
 <span class="c1"># iso surface</span>
-<span class="n">surface1</span><span class="o">.</span><span class="n">surface_type</span><span class="o">.</span><span class="n">iso_surface</span><span class="o">.</span><span class="n">field</span><span class="o">=</span> <span class="s2">&quot;velocity-magnitude&quot;</span>
-<span class="n">surface1</span><span class="o">.</span><span class="n">surface_type</span><span class="o">.</span><span class="n">iso_surface</span><span class="o">.</span><span class="n">rendering</span><span class="o">=</span> <span class="s2">&quot;contour&quot;</span>
+<span class="n">surface1</span><span class="o">.</span><span class="n">surface</span><span class="o">.</span><span class="n">iso_surface</span><span class="o">.</span><span class="n">field</span><span class="o">=</span> <span class="s2">&quot;velocity-magnitude&quot;</span>
+<span class="n">surface1</span><span class="o">.</span><span class="n">surface</span><span class="o">.</span><span class="n">iso_surface</span><span class="o">.</span><span class="n">rendering</span><span class="o">=</span> <span class="s2">&quot;contour&quot;</span>
 
 <span class="c1"># display</span>
 <span class="n">contour1</span><span class="o">.</span><span class="n">display</span><span class="p">()</span>
@@ -867,13 +867,13 @@ environment and PyVista is used to visualze the extracted data.</p>
 <p>Here the plot data is extracted from the Fluent session into the Python
 environment and data is plotted in MatplotLib.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># import module</span>
-<span class="kn">from</span> <span class="nn">ansys.fluent.post.matplotlib</span> <span class="kn">import</span> <span class="n">XYPlots</span>
+<span class="kn">from</span> <span class="nn">ansys.fluent.post.matplotlib</span> <span class="kn">import</span> <span class="n">Plots</span>
 
-<span class="c1"># get the xyplots object for the session</span>
-<span class="n">xyplots_session1</span> <span class="o">=</span> <span class="n">XYPlots</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
+<span class="c1"># get the plots object for the session</span>
+<span class="n">plots_session1</span> <span class="o">=</span> <span class="n">Plots</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
 
-<span class="c1">#get plot object</span>
-<span class="n">plot1</span><span class="o">=</span><span class="n">xyplots_session1</span><span class="p">[</span><span class="s2">&quot;plot-1&quot;</span><span class="p">]</span>
+<span class="c1">#get xyplot object</span>
+<span class="n">plot1</span><span class="o">=</span><span class="n">plots_session1</span><span class="o">.</span><span class="n">XYPlots</span><span class="p">[</span><span class="s2">&quot;plot-1&quot;</span><span class="p">]</span>
 
 <span class="c1">#set properties</span>
 <span class="n">plot1</span><span class="o">.</span><span class="n">surfaces_list</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;symmetry&quot;</span><span class="p">]</span>
