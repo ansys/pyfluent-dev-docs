@@ -276,7 +276,7 @@ the junction.</p>
 <dt>Use the Watertight Geometry guided workflow to:</dt><dd><ul>
 <li><p>Import a CAD geometry</p></li>
 <li><p>Generate a surface mesh</p></li>
-<li><p>Decribe the geometry</p></li>
+<li><p>Describe the geometry</p></li>
 <li><p>Generate a volume mesh</p></li>
 </ul>
 </dd>
@@ -304,7 +304,6 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 <span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
 
-
 <a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_filename</span></a> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">download_file</span><span class="p">(</span>
     <span class="s2">&quot;mixing_elbow.pmdb&quot;</span><span class="p">,</span> <span class="s2">&quot;pyfluent/mixing_elbow&quot;</span>
 <span class="p">)</span>
@@ -319,7 +318,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2c23faf70 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>True
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Import the CAD geometry. For Length Units, select &quot;in&quot;.</span>
@@ -333,7 +332,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2e044d670 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&#39;menu-processing?&#39;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Add local sizing:</span>
@@ -347,7 +346,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2c2927550 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&#39;menu-processing?&#39;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Generate the surface mesh:</span>
@@ -362,7 +361,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2c2927970 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&#39;menu-processing?&#39;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Describe the geometry:</span>
@@ -385,7 +384,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2c29291c0 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&#39;menu-processing?&#39;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Update Boundaries Task:</span>
@@ -402,7 +401,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2c2927820 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&#39;menu-processing?&#39;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Update your regions:</span>
@@ -413,7 +412,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2c2929af0 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&#39;menu-processing?&#39;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Add Boundary Layers:</span>
@@ -430,7 +429,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2c291f160 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&#39;menu-processing?&#39;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Generate the volume mesh:</span>
@@ -447,11 +446,11 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2c2921d30 state=running&gt;
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&#39;menu-processing?&#39;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Check the mesh in Meshing mode</span>
-<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">check_mesh</span><span class="p">()</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">check_mesh</span><span class="p">()</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Save the mesh file (mixing_elbow.msh.h5)</span>
@@ -463,7 +462,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 <span class="c1"># mode, you can now switch to solver mode to complete the setup of the</span>
 <span class="c1"># simulation. We have just checked the mesh, so select Yes to switch to</span>
 <span class="c1"># solution mode.</span>
-<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">switch_to_solution_mode</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">switch_to_solution_mode</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Check the mesh in Solver mode:</span>
@@ -472,7 +471,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 <span class="c1"># mesh features that are checked. Any errors in the mesh will be reported at</span>
 <span class="c1"># this time. Ensure that the minimum volume is not negative, since Ansys Fluent</span>
 <span class="c1"># cannot begin a calculation when this is the case.</span>
-<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">check</span><span class="p">()</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">check</span><span class="p">()</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Set the working units for the mesh:</span>
@@ -481,15 +480,15 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 <span class="c1"># to change any other units in this problem. If you want a different working</span>
 <span class="c1"># unit for length, other than inches (for example, millimeters), make the</span>
 <span class="c1"># appropriate change.</span>
-<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">units</span><span class="p">(</span><span class="s2">&quot;length&quot;</span><span class="p">,</span> <span class="s2">&quot;in&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">units</span><span class="p">(</span><span class="s2">&quot;length&quot;</span><span class="p">,</span> <span class="s2">&quot;in&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Enable heat transfer by activating the energy equation.</span>
-<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create a new material called water-liquid.</span>
-<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">materials</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="s2">&quot;fluid&quot;</span><span class="p">,</span> <span class="s2">&quot;water-liquid&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">materials</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="s2">&quot;fluid&quot;</span><span class="p">,</span> <span class="s2">&quot;water-liquid&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Set up the cell zone conditions for the fluid zone (elbow-fluid). Select</span>
@@ -518,7 +517,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
     <span class="s2">&quot;no&quot;</span><span class="p">,</span>
     <span class="s2">&quot;no&quot;</span><span class="p">,</span>
     <span class="s2">&quot;no&quot;</span><span class="p">,</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Set up the boundary conditions for the inlets, outlet, and walls for your CFD</span>
@@ -529,19 +528,19 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;vmag&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;ke-spec&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;yes&quot;</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-intensity&quot;</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-hydraulic-diam&quot;</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;temperature&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="mf">293.15</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># hot inlet (hot-inlet), Setting: Value:</span>
@@ -550,19 +549,19 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;hot-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;vmag&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="mf">1.2</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;hot-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;ke-spec&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;yes&quot;</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;hot-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-intensity&quot;</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;hot-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-hydraulic-diam&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;hot-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;temperature&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="mf">313.15</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># pressure outlet (outlet), Setting: Value:</span>
@@ -571,18 +570,14 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">pressure_outlet</span><span class="p">(</span>
     <span class="s2">&quot;outlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-intensity&quot;</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">pressure_outlet</span><span class="p">(</span>
     <span class="s2">&quot;outlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-viscosity-ratio&quot;</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Enable the plotting of residuals during the calculation.</span>
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">monitors</span><span class="o">.</span><span class="n">residual</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2c291fe50 state=running&gt;
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create a surface report definition of average temperature at the outlet</span>
@@ -596,7 +591,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
     <span class="s2">&quot;outlet&quot;</span><span class="p">,</span>
     <span class="s2">&quot;()&quot;</span><span class="p">,</span>
     <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create a surface report file called outlet-temp-avg-rfile using</span>
@@ -621,7 +616,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 <span class="c1">#    &quot;run-index&quot;,</span>
 <span class="c1">#    &quot;0&quot;,</span>
 <span class="c1">#    &quot;quit&quot;,</span>
-<span class="c1"># ).result()</span>
+<span class="c1"># )</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create a convergence condition for outlet-temp-avg:</span>
@@ -659,20 +654,20 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
     <span class="s2">&quot;frequency&quot;</span><span class="p">,</span>
     <span class="s2">&quot;3&quot;</span><span class="p">,</span>
     <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
-<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">convergence_conditions</span><span class="p">(</span><span class="s2">&quot;frequency&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
+<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">convergence_conditions</span><span class="p">(</span><span class="s2">&quot;frequency&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Initialize the flow field using the Hybrid Initialization</span>
-<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">initialize</span><span class="o">.</span><span class="n">hyb_initialization</span><span class="p">()</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">initialize</span><span class="o">.</span><span class="n">hyb_initialization</span><span class="p">()</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Save the case file (mixing_elbow1.cas.h5).</span>
-<span class="c1"># s.tui.solver.file.write_case(&#39;mixing_elbow1.cas.h5&#39;).result()</span>
+<span class="c1"># s.tui.solver.file.write_case(&#39;mixing_elbow1.cas.h5&#39;)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Solve for 150 Iterations.</span>
-<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">iterate</span><span class="p">(</span><span class="mi">150</span><span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">iterate</span><span class="p">(</span><span class="mi">150</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Examine the mass flux report for convergence: Select cold-inlet, hot-inlet,</span>
@@ -683,7 +678,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Save the data file (mixing_elbow1.dat.h5).</span>
-<span class="c1"># s.tui.solver.file.write_data(&#39;mixing_elbow1.dat.h5&#39;).result()</span>
+<span class="c1"># s.tui.solver.file.write_data(&#39;mixing_elbow1.dat.h5&#39;)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create and display a definition for velocity magnitude contours on the</span>
@@ -707,8 +702,8 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
     <span class="s2">&quot;coloring&quot;</span><span class="p">,</span>
     <span class="s2">&quot;banded&quot;</span><span class="p">,</span>
     <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
-<span class="c1"># s.tui.solver.display.objects.display(&quot;contour-vel&quot;).result()</span>
+<span class="p">)</span>
+<span class="c1"># s.tui.solver.display.objects.display(&quot;contour-vel&quot;)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create and display a definition for temperature contours on the symmetry</span>
@@ -732,11 +727,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
     <span class="s2">&quot;smooth&quot;</span><span class="p">,</span>
     <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
 <span class="p">)</span>
-<span class="c1"># s.tui.solver.display.objects.display(&quot;contour-temp&quot;).result()</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2c29252b0 state=running&gt;
+<span class="c1"># s.tui.solver.display.objects.display(&quot;contour-temp&quot;)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create and display velocity vectors on the symmetry-xyplane plane:</span>
@@ -759,18 +750,18 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
     <span class="s2">&quot;skip&quot;</span><span class="p">,</span>
     <span class="s2">&quot;2&quot;</span><span class="p">,</span>
     <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
-<span class="c1"># s.tui.solver.display.objects.display(&quot;vector-vel&quot;).result()</span>
+<span class="p">)</span>
+<span class="c1"># s.tui.solver.display.objects.display(&quot;vector-vel&quot;)</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Create an iso-surface representing the intersection of the plane z=0 and the</span>
 <span class="c1"># surface outlet. Name: z=0_outlet</span>
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">surface</span><span class="o">.</span><span class="n">iso_surface</span><span class="p">(</span>
     <span class="s2">&quot;z-coordinate&quot;</span><span class="p">,</span> <span class="s2">&quot;z=0_outlet&quot;</span><span class="p">,</span> <span class="s2">&quot;outlet&quot;</span><span class="p">,</span> <span class="s2">&quot;()&quot;</span><span class="p">,</span> <span class="s2">&quot;()&quot;</span><span class="p">,</span> <span class="s2">&quot;0&quot;</span><span class="p">,</span> <span class="s2">&quot;()&quot;</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="p">)</span>
 </pre></div>
 </div>
-<p>s.tui.solver.file.write_case_data(“mixing_elbow1_tui.cas.h5”).result()</p>
+<p>s.tui.solver.file.write_case_data(“mixing_elbow1_tui.cas.h5”)</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Display and save an XY plot of the temperature profile across the centerline</span>
 <span class="c1"># of the outlet for the initial solution</span>
 <span class="n">s</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
@@ -782,8 +773,8 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
     <span class="s2">&quot;z=0_outlet&quot;</span><span class="p">,</span>
     <span class="s2">&quot;()&quot;</span><span class="p">,</span>
     <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
-<span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
-<span class="c1"># s.tui.solver.display.objects.display(&quot;xy-outlet-temp&quot;).result()</span>
+<span class="p">)</span>
+<span class="c1"># s.tui.solver.display.objects.display(&quot;xy-outlet-temp&quot;)</span>
 <span class="c1"># s.tui.solver.plot.plot(</span>
 <span class="c1">#    &quot;yes&quot;,</span>
 <span class="c1">#    &quot;temp-1.xy&quot;,</span>
@@ -797,14 +788,14 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.</p>
 <span class="c1">#    &quot;0&quot;,</span>
 <span class="c1">#    &quot;z=0_outlet&quot;,</span>
 <span class="c1">#    &quot;()&quot;,</span>
-<span class="c1"># ).result()</span>
+<span class="c1"># )</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Write final case and data.</span>
-<span class="c1"># s.tui.solver.file.write_case_data(&quot;mixing_elbow2_tui.cas.h5&quot;).result()</span>
+<span class="c1"># s.tui.solver.file.write_case_data(&quot;mixing_elbow2_tui.cas.h5&quot;)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 2 minutes  12.776 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 3 minutes  23.517 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-00-fluent-mixing-elbow-tui-api-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/4b4f03cf363b62ad46289a86440390ff/mixing_elbow_tui_api.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">mixing_elbow_tui_api.py</span></code></a></p>

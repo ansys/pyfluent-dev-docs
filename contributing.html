@@ -273,7 +273,7 @@ directory of the repository:</p>
 <span class="n">make</span> <span class="n">html</span>
 </pre></div>
 </div>
-<p>After the build completes the html documentaion is located in the
+<p>After the build completes the html documentation is located in the
 <code class="docutils literal notranslate"><span class="pre">_builds/html</span></code> directory and you can load the <code class="docutils literal notranslate"><span class="pre">index.html</span></code> into a web
 browser.  To clean the documentation you can execute this command:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">make</span> <span class="n">clean</span>
@@ -287,7 +287,21 @@ submit questions, report bugs, and request new features.</p>
 </section>
 <section id="code-style">
 <h2>Code Style<a class="headerlink" href="#code-style" title="Permalink to this headline">¶</a></h2>
-<p>PyFluent follows PEP8 standard as outlined in the <a class="reference external" href="https://dev.docs.pyansys.com">PyAnsys Development Guide</a> and implements style checking using <a class="reference external" href="https://flake8.pycqa.org/">flake8</a>.</p>
+<p>PyFluent is compliant with <a class="reference external" href="https://dev.docs.pyansys.com/coding_style/index.html">PyAnsys Development Code Style Guide</a>.  Code style is checked
+by making use of <a class="reference external" href="https://pre-commit.com/">pre-commit</a>. Install this tool and
+activate it executing the following commands:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python -m pip install pre-commit
+pre-commit install
+</pre></div>
+</div>
+<p>Then, you can use the <code class="docutils literal notranslate"><span class="pre">style</span></code> rule defined in the <code class="docutils literal notranslate"><span class="pre">Makefile</span></code>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make style
+</pre></div>
+</div>
+<p>Or directly execute <a class="reference external" href="https://pre-commit.com/">pre-commit</a>:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>pre-commit run --all-files --show-diff-on-failure
+</pre></div>
+</div>
 </section>
 </section>
 

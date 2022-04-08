@@ -1,5 +1,4 @@
-"""
-.. _ref_mixing_elbow_settings_api:
+""".. _ref_mixing_elbow_settings_api:
 
 Fluid Flow and Heat Transfer in a Mixing Elbow
 ----------------------------------------------
@@ -15,7 +14,7 @@ This example demonstrates how to do the following:
 - Use the Watertight Geometry guided workflow to:
     - Import a CAD geometry
     - Generate a surface mesh
-    - Decribe the geometry
+    - Describe the geometry
     - Generate a volume mesh
 - Launch Ansys Fluent.
 - Read an existing mesh file into Ansys Fluent.
@@ -33,7 +32,6 @@ with a warmer fluid at 40 deg C that enters through a smaller inlet located at
 the elbow. The pipe dimensions are in inches and the fluid properties and
 boundary conditions are given in SI units. The Reynolds number for the flow at
 the larger inlet is 50, 800, so a turbulent flow model will be required.
-
 """
 
 
@@ -44,7 +42,6 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 import ansys.fluent.core as pyfluent
 from ansys.fluent.core import examples
-
 
 import_filename = examples.download_file(
     "mixing_elbow.pmdb", "pyfluent/mixing_elbow"
@@ -400,17 +397,17 @@ s.tui.solver.solve.convergence_conditions(
     "3",
     "quit",
 )
-s.tui.solver.solve.convergence_conditions("frequency", "3", "quit").result()
+s.tui.solver.solve.convergence_conditions("frequency", "3", "quit")
 
 ###############################################################################
 
 # Initialize the flow field using the Hybrid Initialization
-s.tui.solver.solve.initialize.hyb_initialization().result()
+s.tui.solver.solve.initialize.hyb_initialization()
 
 ###############################################################################
 
 # Solve for 150 Iterations.
-s.tui.solver.solve.iterate(150).result()
+s.tui.solver.solve.iterate(150)
 
 ###############################################################################
 
@@ -482,7 +479,7 @@ root.results.graphics.vector["vector-vel"].style = "arrow"
 # surface outlet. Name: z=0_outlet
 s.tui.solver.surface.iso_surface(
     "z-coordinate", "z=0_outlet", "outlet", "()", "()", "0", "()"
-).result()
+)
 
 # Create Contour on the iso-surface
 root.results.graphics.contour["contour-z_0_outlet"] = {}
@@ -494,7 +491,7 @@ root.results.graphics.contour["contour-z_0_outlet"].surfaces_list = [
 # root.results.graphics.contour["contour-z_0_outlet"].display()
 
 ###############################################################################
-# s.tui.solver.file.write_case_data("mixing_elbow1_set.cas.h5").result()
+# s.tui.solver.file.write_case_data("mixing_elbow1_set.cas.h5")
 
 # Display and save an XY plot of the temperature profile across the centerline
 # of the outlet for the initial solution
@@ -508,8 +505,8 @@ s.tui.solver.display.objects.create(
     "z=0_outlet",
     "()",
     "quit",
-).result()
-# s.tui.solver.display.objects.display("xy-outlet-temp").result()
+)
+# s.tui.solver.display.objects.display("xy-outlet-temp")
 # s.tui.solver.plot.plot(
 #    "yes",
 #    "temp-1.xy",
@@ -523,11 +520,11 @@ s.tui.solver.display.objects.create(
 #    "0",
 #    "z=0_outlet",
 #    "()",
-#).result()
+# )
 
 ###############################################################################
 
 # Write final case and data.
-# s.tui.solver.file.write_case_data('mixing_elbow2_set.cas.h5').result()
+# s.tui.solver.file.write_case_data('mixing_elbow2_set.cas.h5')
 
 ###############################################################################

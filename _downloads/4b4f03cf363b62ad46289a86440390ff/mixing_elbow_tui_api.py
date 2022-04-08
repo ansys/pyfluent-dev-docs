@@ -1,5 +1,4 @@
-"""
-.. _ref_mixing_elbow_tui_api:
+""".. _ref_mixing_elbow_tui_api:
 
 Fluid Flow and Heat Transfer in a Mixing Elbow
 ----------------------------------------------
@@ -15,7 +14,7 @@ This example demonstrates how to do the following:
 - Use the Watertight Geometry guided workflow to:
     - Import a CAD geometry
     - Generate a surface mesh
-    - Decribe the geometry
+    - Describe the geometry
     - Generate a volume mesh
 - Launch Ansys Fluent.
 - Read an existing mesh file into Ansys Fluent.
@@ -33,7 +32,6 @@ with a warmer fluid at 40 deg C that enters through a smaller inlet located at
 the elbow. The pipe dimensions are in inches and the fluid properties and
 boundary conditions are given in SI units. The Reynolds number for the flow at
 the larger inlet is 50, 800, so a turbulent flow model will be required.
-
 """
 
 ###############################################################################
@@ -43,7 +41,6 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 import ansys.fluent.core as pyfluent
 from ansys.fluent.core import examples
-
 
 import_filename = examples.download_file(
     "mixing_elbow.pmdb", "pyfluent/mixing_elbow"
@@ -166,7 +163,7 @@ s.workflow.TaskObject["Generate the Volume Mesh"].Execute()
 ###############################################################################
 
 # Check the mesh in Meshing mode
-s.tui.meshing.mesh.check_mesh().result()
+s.tui.meshing.mesh.check_mesh()
 
 ###############################################################################
 
@@ -180,7 +177,7 @@ s.tui.meshing.mesh.check_mesh().result()
 # mode, you can now switch to solver mode to complete the setup of the
 # simulation. We have just checked the mesh, so select Yes to switch to
 # solution mode.
-s.tui.meshing.switch_to_solution_mode("yes").result()
+s.tui.meshing.switch_to_solution_mode("yes")
 
 ###############################################################################
 
@@ -190,7 +187,7 @@ s.tui.meshing.switch_to_solution_mode("yes").result()
 # mesh features that are checked. Any errors in the mesh will be reported at
 # this time. Ensure that the minimum volume is not negative, since Ansys Fluent
 # cannot begin a calculation when this is the case.
-s.tui.solver.mesh.check().result()
+s.tui.solver.mesh.check()
 
 ###############################################################################
 
@@ -200,17 +197,17 @@ s.tui.solver.mesh.check().result()
 # to change any other units in this problem. If you want a different working
 # unit for length, other than inches (for example, millimeters), make the
 # appropriate change.
-s.tui.solver.define.units("length", "in").result()
+s.tui.solver.define.units("length", "in")
 
 ###############################################################################
 
 # Enable heat transfer by activating the energy equation.
-s.tui.solver.define.models.energy("yes", ", ", ", ", ", ", ", ").result()
+s.tui.solver.define.models.energy("yes", ", ", ", ", ", ", ", ")
 
 ###############################################################################
 
 # Create a new material called water-liquid.
-s.tui.solver.define.materials.copy("fluid", "water-liquid").result()
+s.tui.solver.define.materials.copy("fluid", "water-liquid")
 
 ###############################################################################
 
@@ -240,7 +237,7 @@ s.tui.solver.define.boundary_conditions.fluid(
     "no",
     "no",
     "no",
-).result()
+)
 
 ###############################################################################
 
@@ -252,19 +249,19 @@ s.tui.solver.define.boundary_conditions.fluid(
 
 s.tui.solver.define.boundary_conditions.set.velocity_inlet(
     "cold-inlet", [], "vmag", "no", 0.4, "quit"
-).result()
+)
 s.tui.solver.define.boundary_conditions.set.velocity_inlet(
     "cold-inlet", [], "ke-spec", "no", "no", "no", "yes", "quit"
-).result()
+)
 s.tui.solver.define.boundary_conditions.set.velocity_inlet(
     "cold-inlet", [], "turb-intensity", 5, "quit"
-).result()
+)
 s.tui.solver.define.boundary_conditions.set.velocity_inlet(
     "cold-inlet", [], "turb-hydraulic-diam", 4, "quit"
-).result()
+)
 s.tui.solver.define.boundary_conditions.set.velocity_inlet(
     "cold-inlet", [], "temperature", "no", 293.15, "quit"
-).result()
+)
 
 ###############################################################################
 
@@ -274,19 +271,19 @@ s.tui.solver.define.boundary_conditions.set.velocity_inlet(
 
 s.tui.solver.define.boundary_conditions.set.velocity_inlet(
     "hot-inlet", [], "vmag", "no", 1.2, "quit"
-).result()
+)
 s.tui.solver.define.boundary_conditions.set.velocity_inlet(
     "hot-inlet", [], "ke-spec", "no", "no", "no", "yes", "quit"
-).result()
+)
 s.tui.solver.define.boundary_conditions.set.velocity_inlet(
     "hot-inlet", [], "turb-intensity", 5, "quit"
-).result()
+)
 s.tui.solver.define.boundary_conditions.set.velocity_inlet(
     "hot-inlet", [], "turb-hydraulic-diam", 1, "quit"
-).result()
+)
 s.tui.solver.define.boundary_conditions.set.velocity_inlet(
     "hot-inlet", [], "temperature", "no", 313.15, "quit"
-).result()
+)
 
 ###############################################################################
 
@@ -296,10 +293,10 @@ s.tui.solver.define.boundary_conditions.set.velocity_inlet(
 
 s.tui.solver.define.boundary_conditions.set.pressure_outlet(
     "outlet", [], "turb-intensity", 5, "quit"
-).result()
+)
 s.tui.solver.define.boundary_conditions.set.pressure_outlet(
     "outlet", [], "turb-viscosity-ratio", 4, "quit"
-).result()
+)
 
 ###############################################################################
 
@@ -319,7 +316,7 @@ s.tui.solver.solve.report_definitions.add(
     "outlet",
     "()",
     "quit",
-).result()
+)
 
 ###############################################################################
 
@@ -345,7 +342,7 @@ s.tui.solver.solve.report_definitions.add(
 #    "run-index",
 #    "0",
 #    "quit",
-# ).result()
+# )
 
 ###############################################################################
 
@@ -384,23 +381,23 @@ s.tui.solver.solve.convergence_conditions(
     "frequency",
     "3",
     "quit",
-).result()
-s.tui.solver.solve.convergence_conditions("frequency", "3", "quit").result()
+)
+s.tui.solver.solve.convergence_conditions("frequency", "3", "quit")
 
 ###############################################################################
 
 # Initialize the flow field using the Hybrid Initialization
-s.tui.solver.solve.initialize.hyb_initialization().result()
+s.tui.solver.solve.initialize.hyb_initialization()
 
 ###############################################################################
 
 # Save the case file (mixing_elbow1.cas.h5).
-# s.tui.solver.file.write_case('mixing_elbow1.cas.h5').result()
+# s.tui.solver.file.write_case('mixing_elbow1.cas.h5')
 
 ###############################################################################
 
 # Solve for 150 Iterations.
-s.tui.solver.solve.iterate(150).result()
+s.tui.solver.solve.iterate(150)
 
 ###############################################################################
 
@@ -413,7 +410,7 @@ s.tui.solver.solve.iterate(150).result()
 ###############################################################################
 
 # Save the data file (mixing_elbow1.dat.h5).
-# s.tui.solver.file.write_data('mixing_elbow1.dat.h5').result()
+# s.tui.solver.file.write_data('mixing_elbow1.dat.h5')
 
 ###############################################################################
 
@@ -438,8 +435,8 @@ s.tui.solver.display.objects.create(
     "coloring",
     "banded",
     "quit",
-).result()
-# s.tui.solver.display.objects.display("contour-vel").result()
+)
+# s.tui.solver.display.objects.display("contour-vel")
 
 ###############################################################################
 
@@ -464,7 +461,7 @@ s.tui.solver.display.objects.create(
     "smooth",
     "quit",
 )
-# s.tui.solver.display.objects.display("contour-temp").result()
+# s.tui.solver.display.objects.display("contour-temp")
 
 ###############################################################################
 
@@ -488,8 +485,8 @@ s.tui.solver.display.objects.create(
     "skip",
     "2",
     "quit",
-).result()
-# s.tui.solver.display.objects.display("vector-vel").result()
+)
+# s.tui.solver.display.objects.display("vector-vel")
 
 ###############################################################################
 
@@ -497,10 +494,10 @@ s.tui.solver.display.objects.create(
 # surface outlet. Name: z=0_outlet
 s.tui.solver.surface.iso_surface(
     "z-coordinate", "z=0_outlet", "outlet", "()", "()", "0", "()"
-).result()
+)
 
 ###############################################################################
-# s.tui.solver.file.write_case_data("mixing_elbow1_tui.cas.h5").result()
+# s.tui.solver.file.write_case_data("mixing_elbow1_tui.cas.h5")
 
 # Display and save an XY plot of the temperature profile across the centerline
 # of the outlet for the initial solution
@@ -513,8 +510,8 @@ s.tui.solver.display.objects.create(
     "z=0_outlet",
     "()",
     "quit",
-).result()
-# s.tui.solver.display.objects.display("xy-outlet-temp").result()
+)
+# s.tui.solver.display.objects.display("xy-outlet-temp")
 # s.tui.solver.plot.plot(
 #    "yes",
 #    "temp-1.xy",
@@ -528,11 +525,11 @@ s.tui.solver.display.objects.create(
 #    "0",
 #    "z=0_outlet",
 #    "()",
-# ).result()
+# )
 
 ###############################################################################
 
 # Write final case and data.
-# s.tui.solver.file.write_case_data("mixing_elbow2_tui.cas.h5").result()
+# s.tui.solver.file.write_case_data("mixing_elbow2_tui.cas.h5")
 
 ###############################################################################

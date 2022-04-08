@@ -17,7 +17,6 @@
 
 .. _sphx_glr_examples_01-parametric_parametric_static_mixer_3.py:
 
-
 .. _ref_parametric_static_mixer_3:
 
 Parametric Session Workflow
@@ -31,16 +30,19 @@ This example for executing a parametric session workflow performs these steps:
 - Renames this newly created study
 - Creates a new parametric session using the flprj saved earlier
 
-.. GENERATED FROM PYTHON SOURCE LINES 19-21
+.. GENERATED FROM PYTHON SOURCE LINES 16-18
 
 Parametric session workflow
 Import the parametric session workflow
 
-.. GENERATED FROM PYTHON SOURCE LINES 21-24
+.. GENERATED FROM PYTHON SOURCE LINES 18-24
 
 .. code-block:: default
 
 
+    from pathlib import Path
+
+    import ansys.fluent.core as pyfluent
     from ansys.fluent.parametric import ParametricSession
 
 
@@ -54,27 +56,12 @@ Import the parametric session workflow
 
 Import the pyfluent module and path
 
-.. GENERATED FROM PYTHON SOURCE LINES 26-30
-
-.. code-block:: default
-
-
-    import ansys.fluent.core as pyfluent
-    from pathlib import Path
-
-
-
-
-
-
-
-
-.. GENERATED FROM PYTHON SOURCE LINES 31-33
+.. GENERATED FROM PYTHON SOURCE LINES 29-31
 
 Launch parametric session using the hopper/mixer case File
 This case file contains pre-created input and output parameters
 
-.. GENERATED FROM PYTHON SOURCE LINES 33-40
+.. GENERATED FROM PYTHON SOURCE LINES 31-38
 
 .. code-block:: default
 
@@ -92,11 +79,11 @@ This case file contains pre-created input and output parameters
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 41-42
+.. GENERATED FROM PYTHON SOURCE LINES 39-40
 
 Print the input parameters of the current parametric session.
 
-.. GENERATED FROM PYTHON SOURCE LINES 42-47
+.. GENERATED FROM PYTHON SOURCE LINES 40-45
 
 .. code-block:: default
 
@@ -116,15 +103,15 @@ Print the input parameters of the current parametric session.
  .. code-block:: none
 
 
-    {'inlet1_temp': 300.0, 'inlet2_temp': 350.0, 'inlet2_vel': 10.0, 'inlet1_vel': 5.0}
+    {'inlet1_temp': 300.0, 'inlet2_vel': 10.0, 'inlet2_temp': 350.0, 'inlet1_vel': 5.0}
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 48-49
+.. GENERATED FROM PYTHON SOURCE LINES 46-47
 
 Access the current study of the current parametric session
 
-.. GENERATED FROM PYTHON SOURCE LINES 49-63
+.. GENERATED FROM PYTHON SOURCE LINES 47-61
 
 .. code-block:: default
 
@@ -149,11 +136,11 @@ Access the current study of the current parametric session
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 64-65
+.. GENERATED FROM PYTHON SOURCE LINES 62-63
 
 In this parametric project create a new study
 
-.. GENERATED FROM PYTHON SOURCE LINES 65-68
+.. GENERATED FROM PYTHON SOURCE LINES 63-66
 
 .. code-block:: default
 
@@ -167,11 +154,11 @@ In this parametric project create a new study
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 69-70
+.. GENERATED FROM PYTHON SOURCE LINES 67-68
 
 Update all design points
 
-.. GENERATED FROM PYTHON SOURCE LINES 70-72
+.. GENERATED FROM PYTHON SOURCE LINES 68-70
 
 .. code-block:: default
 
@@ -184,11 +171,11 @@ Update all design points
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 73-74
+.. GENERATED FROM PYTHON SOURCE LINES 71-72
 
 Export design point table as a CSV table
 
-.. GENERATED FROM PYTHON SOURCE LINES 74-80
+.. GENERATED FROM PYTHON SOURCE LINES 72-78
 
 .. code-block:: default
 
@@ -205,11 +192,11 @@ Export design point table as a CSV table
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 81-82
+.. GENERATED FROM PYTHON SOURCE LINES 79-80
 
 Display CSV table as a pandas dataframe
 
-.. GENERATED FROM PYTHON SOURCE LINES 82-88
+.. GENERATED FROM PYTHON SOURCE LINES 80-86
 
 .. code-block:: default
 
@@ -239,11 +226,11 @@ Display CSV table as a pandas dataframe
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 89-90
+.. GENERATED FROM PYTHON SOURCE LINES 87-88
 
 Access a new parametric session using the flprj saved earlier
 
-.. GENERATED FROM PYTHON SOURCE LINES 90-95
+.. GENERATED FROM PYTHON SOURCE LINES 88-93
 
 .. code-block:: default
 
@@ -262,7 +249,7 @@ Access a new parametric session using the flprj saved earlier
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 3 minutes  39.085 seconds)
+   **Total running time of the script:** ( 4 minutes  0.281 seconds)
 
 
 .. _sphx_glr_download_examples_01-parametric_parametric_static_mixer_3.py:

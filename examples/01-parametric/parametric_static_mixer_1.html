@@ -277,12 +277,12 @@ the base design point (DP)</p></li>
 <li><p>Creates, updates, and deletes more DPs</p></li>
 <li><p>Creates, renames, and deletes parametric studies</p></li>
 </ul>
-<p>Import the pyfluent module</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
-</pre></div>
-</div>
 <p>Import the path module</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <a href="https://docs.python.org/dev/library/pathlib.html#pathlib.Path" title="pathlib.Path" class="sphx-glr-backref-module-pathlib sphx-glr-backref-type-py-class"><span class="n">Path</span></a>
+</pre></div>
+</div>
+<p>Import the pyfluent module</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 </pre></div>
 </div>
 <p>Launch Fluent in 3D and double precision</p>
@@ -303,16 +303,8 @@ the base design point (DP)</p></li>
 <span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_filename</span></a><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2c2487160 state=running&gt;
-</pre></div>
-</div>
 <p>Set number of iterations to 1000 to ensure convergence</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">number_of_iterations</span><span class="p">(</span><span class="s2">&quot;1000&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2c292d850 state=running&gt;
 </pre></div>
 </div>
 <p>Create input parameters after enabling parameter creation in the TUI:
@@ -334,10 +326,6 @@ Inlet2: velocity (inlet2_vel) 10 m/s and temperature (inlet2_temp) at 350 K</p>
 <span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;inlet2&quot;</span><span class="p">,</span> <span class="p">(),</span> <span class="s2">&quot;temperature&quot;</span><span class="p">,</span> <span class="s2">&quot;yes&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;inlet2_temp&quot;</span><span class="p">,</span> <span class="mi">350</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
 <span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2c292da00 state=running&gt;
 </pre></div>
 </div>
 <p>Create output parameters using report definitions</p>
@@ -372,16 +360,8 @@ Inlet2: velocity (inlet2_vel) 10 m/s and temperature (inlet2_temp) at 350 K</p>
 <span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2c2481b50 state=running&gt;
-</pre></div>
-</div>
 <p>Enable convergence condition check</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">monitors</span><span class="o">.</span><span class="n">residual</span><span class="o">.</span><span class="n">criterion_type</span><span class="p">(</span><span class="s2">&quot;0&quot;</span><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2dd570c70 state=running&gt;
 </pre></div>
 </div>
 <p>Write case with all the settings in place</p>
@@ -389,10 +369,6 @@ Inlet2: velocity (inlet2_vel) 10 m/s and temperature (inlet2_temp) at 350 K</p>
     <a href="https://docs.python.org/dev/library/pathlib.html#pathlib.Path" title="pathlib.Path" class="sphx-glr-backref-module-pathlib sphx-glr-backref-type-py-class"><span class="n">Path</span></a><span class="p">(</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">pyfluent</span><span class="o">.</span><span class="n">EXAMPLES_PATH</span></a><span class="p">)</span> <span class="o">/</span> <span class="s2">&quot;Static_Mixer_Parameters.cas.h5&quot;</span>
 <span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">write_case</span><span class="p">(</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">case_path</span></a><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2dd570910 state=running&gt;
 </pre></div>
 </div>
 <p>Parametric study workflow
@@ -491,11 +467,7 @@ Currently affected by issue #249, hence commented out</p>
 <span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">parametric_project</span><span class="o">.</span><span class="n">save_as</span><span class="p">(</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">project_filepath</span></a><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&lt;Future at 0x7fd2cc59a130 state=running&gt;
-</pre></div>
-</div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 3 minutes  14.751 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 3 minutes  43.382 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-01-parametric-parametric-static-mixer-1-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/e3fdc98339d27a1abca08dd83a3034ac/parametric_static_mixer_1.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">parametric_static_mixer_1.py</span></code></a></p>
