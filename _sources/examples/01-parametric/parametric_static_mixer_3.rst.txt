@@ -249,7 +249,7 @@ Access a new parametric session using the flprj saved earlier
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 4 minutes  0.281 seconds)
+   **Total running time of the script:** ( 3 minutes  20.325 seconds)
 
 
 .. _sphx_glr_download_examples_01-parametric_parametric_static_mixer_3.py:
