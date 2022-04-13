@@ -103,7 +103,7 @@ Print the input parameters of the current parametric session.
  .. code-block:: none
 
 
-    {'inlet1_temp': 300.0, 'inlet2_temp': 350.0, 'inlet2_vel': 10.0, 'inlet1_vel': 5.0}
+    {'inlet1_vel': 5.0, 'inlet2_temp': 350.0, 'inlet1_temp': 300.0, 'inlet2_vel': 10.0}
 
 
 
@@ -219,7 +219,7 @@ Display CSV table as a pandas dataframe
            Name inlet1_temp  ...               Status Unnamed: 10
     0     Units         [K]  ...                  NaN         NaN
     1   Base DP         300  ...  Updated : Converged         NaN
-    2       DP1         323  ...         Needs Update         NaN
+    2       DP1         323  ...  Updated : Converged         NaN
 
     [3 rows x 11 columns]
 
@@ -249,7 +249,7 @@ Access a new parametric session using the flprj saved earlier
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 4 minutes  9.281 seconds)
+   **Total running time of the script:** ( 7 minutes  5.056 seconds)
 
 
 .. _sphx_glr_download_examples_01-parametric_parametric_static_mixer_3.py:

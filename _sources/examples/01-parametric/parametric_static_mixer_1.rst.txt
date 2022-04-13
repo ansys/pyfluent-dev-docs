@@ -470,9 +470,9 @@ Display CSV table as a pandas dataframe
            Name inlet1_temp  ...               Status Unnamed: 10
     0     Units         [K]  ...                  NaN         NaN
     1   Base DP         300  ...  Updated : Converged         NaN
-    2       DP1         450  ...         Needs Update         NaN
-    3       DP2         500  ...         Needs Update         NaN
-    4       DP3         500  ...         Needs Update         NaN
+    2       DP1         450  ...  Updated : Converged         NaN
+    3       DP2         500  ...  Updated : Converged         NaN
+    4       DP3         500  ...  Updated : Converged         NaN
 
     [5 rows x 11 columns]
 
@@ -577,7 +577,7 @@ Save parametric project
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 3 minutes  54.411 seconds)
+   **Total running time of the script:** ( 15 minutes  18.862 seconds)
 
 
 .. _sphx_glr_download_examples_01-parametric_parametric_static_mixer_1.py:
