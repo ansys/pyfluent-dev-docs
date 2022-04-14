@@ -988,7 +988,7 @@ s.tui.solver.file.write_case_data("mixing_elbow1_tui.cas.h5")
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 3 minutes  6.700 seconds)
+   **Total running time of the script:** ( 3 minutes  23.622 seconds)
 
 
 .. _sphx_glr_download_examples_00-fluent_mixing_elbow_tui_api.py:
