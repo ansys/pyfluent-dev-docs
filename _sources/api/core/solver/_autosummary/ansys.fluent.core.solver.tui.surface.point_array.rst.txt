@@ -1,6 +1,0 @@
-point\_array
-============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.point_array

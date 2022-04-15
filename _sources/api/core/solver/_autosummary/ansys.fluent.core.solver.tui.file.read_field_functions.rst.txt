@@ -1,6 +1,0 @@
-read\_field\_functions
-======================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: file.read_field_functions

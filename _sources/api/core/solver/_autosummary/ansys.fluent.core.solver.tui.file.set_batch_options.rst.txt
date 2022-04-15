@@ -1,6 +1,0 @@
-set\_batch\_options
-===================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: file.set_batch_options

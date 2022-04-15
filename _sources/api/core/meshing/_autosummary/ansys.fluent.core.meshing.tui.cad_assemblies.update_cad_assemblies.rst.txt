@@ -1,6 +1,0 @@
-update\_cad\_assemblies
-=======================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: cad_assemblies.update_cad_assemblies

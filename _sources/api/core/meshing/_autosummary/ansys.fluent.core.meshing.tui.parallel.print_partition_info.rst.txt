@@ -1,6 +1,0 @@
-print\_partition\_info
-======================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: parallel.print_partition_info

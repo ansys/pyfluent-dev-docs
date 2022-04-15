@@ -1,6 +1,0 @@
-create\_material\_point
-=======================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: material_point.create_material_point

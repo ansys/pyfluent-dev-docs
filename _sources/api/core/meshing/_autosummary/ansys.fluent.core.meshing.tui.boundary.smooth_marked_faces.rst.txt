@@ -1,6 +1,0 @@
-smooth\_marked\_faces
-=====================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.smooth_marked_faces

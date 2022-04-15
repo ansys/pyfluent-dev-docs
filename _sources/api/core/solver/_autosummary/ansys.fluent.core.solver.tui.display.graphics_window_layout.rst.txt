@@ -1,6 +1,0 @@
-graphics\_window\_layout
-========================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: display.graphics_window_layout

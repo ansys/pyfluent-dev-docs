@@ -1,6 +1,0 @@
-write\_case\_data
-=================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: file.write_case_data

@@ -1,6 +1,0 @@
-prepare\_for\_solve
-===================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: mesh.prepare_for_solve

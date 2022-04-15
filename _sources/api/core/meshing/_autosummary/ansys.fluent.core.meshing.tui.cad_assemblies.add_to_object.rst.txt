@@ -1,6 +1,0 @@
-add\_to\_object
-===============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: cad_assemblies.add_to_object

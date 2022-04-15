@@ -1,6 +1,0 @@
-draw\_face\_zones\_using\_entities
-==================================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: display.draw_face_zones_using_entities

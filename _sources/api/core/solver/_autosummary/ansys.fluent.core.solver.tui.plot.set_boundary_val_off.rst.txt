@@ -1,6 +1,0 @@
-set\_boundary\_val\_off
-=======================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: plot.set_boundary_val_off

@@ -1,6 +1,0 @@
-fft
-===
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: plot.fft

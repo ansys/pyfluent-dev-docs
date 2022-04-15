@@ -1,6 +1,0 @@
-rake\_surface
-=============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.rake_surface

@@ -1,6 +1,0 @@
-write\_size\_field
-==================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: file.write_size_field

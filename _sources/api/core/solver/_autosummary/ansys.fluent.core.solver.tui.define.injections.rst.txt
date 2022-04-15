@@ -1,6 +1,0 @@
-injections
-==========
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: define.injections

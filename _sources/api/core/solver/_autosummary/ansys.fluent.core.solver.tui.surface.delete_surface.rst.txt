@@ -1,6 +1,0 @@
-delete\_surface
-===============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.delete_surface

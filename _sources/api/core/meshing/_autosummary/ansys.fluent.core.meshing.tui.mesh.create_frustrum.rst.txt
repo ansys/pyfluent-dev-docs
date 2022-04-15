@@ -1,6 +1,0 @@
-create\_frustrum
-================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: mesh.create_frustrum

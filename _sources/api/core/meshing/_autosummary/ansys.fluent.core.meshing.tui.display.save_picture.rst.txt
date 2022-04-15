@@ -1,6 +1,0 @@
-save\_picture
-=============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: display.save_picture

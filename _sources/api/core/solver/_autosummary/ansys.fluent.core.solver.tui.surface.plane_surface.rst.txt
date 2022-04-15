@@ -1,6 +1,0 @@
-plane\_surface
-==============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.plane_surface

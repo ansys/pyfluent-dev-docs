@@ -1,6 +1,0 @@
-rename\_cell\_zone\_boundaries\_using\_labels
-=============================================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: objects.rename_cell_zone_boundaries_using_labels

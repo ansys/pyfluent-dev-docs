@@ -1,6 +1,0 @@
-face\_zone\_area
-================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: report.face_zone_area

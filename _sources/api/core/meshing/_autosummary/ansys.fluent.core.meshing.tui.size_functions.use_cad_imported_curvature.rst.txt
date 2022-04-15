@@ -1,6 +1,0 @@
-use\_cad\_imported\_curvature
-=============================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: size_functions.use_cad_imported_curvature

@@ -1,6 +1,0 @@
-surface\_cells
-==============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.surface_cells

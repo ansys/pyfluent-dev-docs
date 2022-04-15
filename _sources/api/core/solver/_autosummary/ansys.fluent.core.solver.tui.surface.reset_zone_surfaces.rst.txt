@@ -1,6 +1,0 @@
-reset\_zone\_surfaces
-=====================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.reset_zone_surfaces

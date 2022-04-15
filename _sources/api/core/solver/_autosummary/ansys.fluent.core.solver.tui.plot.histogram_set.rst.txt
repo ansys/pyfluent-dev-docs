@@ -1,6 +1,0 @@
-histogram\_set
-==============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: plot.histogram_set

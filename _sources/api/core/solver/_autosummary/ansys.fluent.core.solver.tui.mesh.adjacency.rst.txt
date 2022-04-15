@@ -1,6 +1,0 @@
-adjacency
-=========
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: mesh.adjacency

@@ -1,6 +1,0 @@
-iterate\_steady\_2way\_fsi
-==========================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: solve.iterate_steady_2way_fsi

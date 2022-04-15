@@ -1,6 +1,0 @@
-mark\_faces\_in\_region
-=======================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.mark_faces_in_region

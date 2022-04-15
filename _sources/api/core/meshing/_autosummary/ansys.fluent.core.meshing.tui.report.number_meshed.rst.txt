@@ -1,6 +1,0 @@
-number\_meshed
-==============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: report.number_meshed

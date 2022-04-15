@@ -1,6 +1,0 @@
-cell\_zone\_volume
-==================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: report.cell_zone_volume

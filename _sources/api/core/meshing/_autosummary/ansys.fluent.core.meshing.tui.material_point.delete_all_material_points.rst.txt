@@ -1,6 +1,0 @@
-delete\_all\_material\_points
-=============================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: material_point.delete_all_material_points

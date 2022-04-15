@@ -1,6 +1,0 @@
-mesh\_statistics
-================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: report.mesh_statistics

@@ -1,6 +1,0 @@
-write\_flamelet
-===============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: file.write_flamelet

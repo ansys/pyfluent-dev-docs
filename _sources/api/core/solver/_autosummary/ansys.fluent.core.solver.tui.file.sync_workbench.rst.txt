@@ -1,6 +1,0 @@
-sync\_workbench
-===============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: file.sync_workbench

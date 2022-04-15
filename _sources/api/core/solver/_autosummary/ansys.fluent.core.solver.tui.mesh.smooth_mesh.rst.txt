@@ -1,6 +1,0 @@
-smooth\_mesh
-============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: mesh.smooth_mesh

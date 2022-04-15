@@ -1,6 +1,0 @@
-change\_suffix
-==============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: objects.change_suffix

@@ -1,6 +1,0 @@
-path\_line\_summary
-===================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: report.path_line_summary

@@ -1,6 +1,0 @@
-duplicate\_study
-================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: parametric_study.duplicate_study

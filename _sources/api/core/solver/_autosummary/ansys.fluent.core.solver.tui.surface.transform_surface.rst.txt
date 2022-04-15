@@ -1,6 +1,0 @@
-transform\_surface
-==================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.transform_surface

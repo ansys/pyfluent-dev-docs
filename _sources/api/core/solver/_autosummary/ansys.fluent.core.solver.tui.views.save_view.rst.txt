@@ -1,6 +1,0 @@
-save\_view
-==========
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: views.save_view

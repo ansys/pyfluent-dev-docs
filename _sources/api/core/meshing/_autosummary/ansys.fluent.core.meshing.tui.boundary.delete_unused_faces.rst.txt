@@ -1,6 +1,0 @@
-delete\_unused\_faces
-=====================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.delete_unused_faces

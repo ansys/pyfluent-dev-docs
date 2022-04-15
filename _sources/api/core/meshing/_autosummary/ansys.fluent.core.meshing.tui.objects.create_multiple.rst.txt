@@ -1,6 +1,0 @@
-create\_multiple
-================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: objects.create_multiple

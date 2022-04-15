@@ -1,6 +1,0 @@
-create\_imprint\_surface
-========================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.create_imprint_surface

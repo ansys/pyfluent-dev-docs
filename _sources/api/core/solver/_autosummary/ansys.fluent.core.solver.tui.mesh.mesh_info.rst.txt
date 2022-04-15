@@ -1,6 +1,0 @@
-mesh\_info
-==========
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: mesh.mesh_info

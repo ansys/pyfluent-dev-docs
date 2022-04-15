@@ -1,6 +1,0 @@
-create\_heat\_exchanger
-=======================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: mesh.create_heat_exchanger

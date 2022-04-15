@@ -1,6 +1,0 @@
-append\_mesh
-============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: file.append_mesh

@@ -1,6 +1,0 @@
-show\_hide\_clipping\_plane\_triad
-==================================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: display.show_hide_clipping_plane_triad

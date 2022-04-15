@@ -1,6 +1,0 @@
-read\_multi\_bound\_mesh
-========================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: file.read_multi_bound_mesh

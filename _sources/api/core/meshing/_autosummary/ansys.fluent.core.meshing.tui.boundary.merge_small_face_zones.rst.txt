@@ -1,6 +1,0 @@
-merge\_small\_face\_zones
-=========================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.merge_small_face_zones

@@ -1,6 +1,0 @@
-two\_d\_contours
-================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: turbo_post.two_d_contours

@@ -1,6 +1,0 @@
-mesh\_partition\_boundary
-=========================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: display.mesh_partition_boundary

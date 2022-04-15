@@ -1,6 +1,0 @@
-count\_unused\_faces
-====================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.count_unused_faces

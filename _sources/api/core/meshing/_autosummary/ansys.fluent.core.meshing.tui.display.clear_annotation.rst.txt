@@ -1,6 +1,0 @@
-clear\_annotation
-=================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: display.clear_annotation

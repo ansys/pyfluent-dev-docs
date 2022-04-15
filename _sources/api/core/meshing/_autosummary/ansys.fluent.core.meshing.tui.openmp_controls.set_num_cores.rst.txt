@@ -1,6 +1,0 @@
-set\_num\_cores
-===============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: openmp_controls.set_num_cores

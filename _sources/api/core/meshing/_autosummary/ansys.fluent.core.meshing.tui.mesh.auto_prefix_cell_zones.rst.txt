@@ -1,6 +1,0 @@
-auto\_prefix\_cell\_zones
-=========================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: mesh.auto_prefix_cell_zones

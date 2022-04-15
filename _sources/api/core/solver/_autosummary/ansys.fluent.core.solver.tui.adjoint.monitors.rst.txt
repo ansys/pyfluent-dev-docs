@@ -1,6 +1,0 @@
-monitors
-========
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: adjoint.monitors

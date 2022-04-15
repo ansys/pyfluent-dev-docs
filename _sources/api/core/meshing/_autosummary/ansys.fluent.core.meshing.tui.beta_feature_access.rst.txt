@@ -1,6 +1,0 @@
-﻿beta\_feature\_access
-=====================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. autofunction:: beta_feature_access

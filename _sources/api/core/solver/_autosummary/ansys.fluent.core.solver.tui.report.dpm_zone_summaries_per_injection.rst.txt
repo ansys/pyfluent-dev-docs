@@ -1,6 +1,0 @@
-dpm\_zone\_summaries\_per\_injection
-====================================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: report.dpm_zone_summaries_per_injection

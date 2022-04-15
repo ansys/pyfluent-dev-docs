@@ -1,6 +1,0 @@
-manage\_summary
-===============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: diagnostics.manage_summary

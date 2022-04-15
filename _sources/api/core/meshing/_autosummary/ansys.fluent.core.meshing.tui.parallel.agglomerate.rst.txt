@@ -1,6 +1,0 @@
-agglomerate
-===========
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: parallel.agglomerate

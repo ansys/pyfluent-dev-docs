@@ -1,6 +1,0 @@
-sphere\_slice
-=============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.sphere_slice

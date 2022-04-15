@@ -1,6 +1,0 @@
-projected\_surface\_area
-========================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: report.projected_surface_area

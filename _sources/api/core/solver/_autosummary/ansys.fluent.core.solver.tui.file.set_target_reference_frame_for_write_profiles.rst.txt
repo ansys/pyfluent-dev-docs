@@ -1,6 +1,0 @@
-set\_target\_reference\_frame\_for\_write\_profiles
-===================================================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: file.set_target_reference_frame_for_write_profiles

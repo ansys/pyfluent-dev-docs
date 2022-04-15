@@ -1,6 +1,0 @@
-delete\_size\_field
-===================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: scoped_sizing.delete_size_field

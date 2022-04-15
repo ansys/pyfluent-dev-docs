@@ -1,6 +1,0 @@
-change\_prefix
-==============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: objects.change_prefix

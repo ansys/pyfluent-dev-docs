@@ -1,6 +1,0 @@
-shutdown\_server
-================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: server.shutdown_server

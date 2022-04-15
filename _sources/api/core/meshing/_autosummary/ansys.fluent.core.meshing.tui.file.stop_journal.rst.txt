@@ -1,6 +1,0 @@
-stop\_journal
-=============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: file.stop_journal

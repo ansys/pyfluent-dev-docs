@@ -1,6 +1,0 @@
-velocity\_vector
-================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: display.velocity_vector

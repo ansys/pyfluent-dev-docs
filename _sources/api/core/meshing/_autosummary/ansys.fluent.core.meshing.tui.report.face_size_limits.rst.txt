@@ -1,6 +1,0 @@
-face\_size\_limits
-==================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: report.face_size_limits

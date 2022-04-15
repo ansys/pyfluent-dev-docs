@@ -1,6 +1,0 @@
-dual\_time\_iterate
-===================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: solve.dual_time_iterate

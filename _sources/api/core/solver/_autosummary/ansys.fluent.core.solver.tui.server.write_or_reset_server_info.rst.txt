@@ -1,6 +1,0 @@
-write\_or\_reset\_server\_info
-==============================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: server.write_or_reset_server_info

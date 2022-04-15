@@ -1,6 +1,0 @@
-unmark\_selected\_faces
-=======================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.unmark_selected_faces

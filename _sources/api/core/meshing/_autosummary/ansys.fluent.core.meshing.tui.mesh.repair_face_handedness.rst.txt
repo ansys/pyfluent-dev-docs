@@ -1,6 +1,0 @@
-repair\_face\_handedness
-========================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: mesh.repair_face_handedness

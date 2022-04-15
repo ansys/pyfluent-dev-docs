@@ -1,6 +1,0 @@
-set\_scope
-==========
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: diagnostics.set_scope

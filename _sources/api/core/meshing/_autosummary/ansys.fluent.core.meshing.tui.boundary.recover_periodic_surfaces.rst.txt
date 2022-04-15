@@ -1,6 +1,0 @@
-recover\_periodic\_surfaces
-===========================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.recover_periodic_surfaces

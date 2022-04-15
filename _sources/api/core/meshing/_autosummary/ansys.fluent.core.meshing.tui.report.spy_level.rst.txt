@@ -1,6 +1,0 @@
-spy\_level
-==========
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: report.spy_level

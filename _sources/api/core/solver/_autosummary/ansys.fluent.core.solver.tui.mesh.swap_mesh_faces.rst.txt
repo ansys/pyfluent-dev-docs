@@ -1,6 +1,0 @@
-swap\_mesh\_faces
-=================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: mesh.swap_mesh_faces

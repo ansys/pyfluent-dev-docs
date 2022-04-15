@@ -1,6 +1,0 @@
-read\_case
-==========
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: file.read_case

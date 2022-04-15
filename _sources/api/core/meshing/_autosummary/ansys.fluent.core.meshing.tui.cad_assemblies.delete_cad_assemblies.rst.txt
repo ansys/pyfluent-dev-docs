@@ -1,6 +1,0 @@
-delete\_cad\_assemblies
-=======================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: cad_assemblies.delete_cad_assemblies

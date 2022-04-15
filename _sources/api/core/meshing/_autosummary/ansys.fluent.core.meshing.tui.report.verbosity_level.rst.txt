@@ -1,6 +1,0 @@
-verbosity\_level
-================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: report.verbosity_level

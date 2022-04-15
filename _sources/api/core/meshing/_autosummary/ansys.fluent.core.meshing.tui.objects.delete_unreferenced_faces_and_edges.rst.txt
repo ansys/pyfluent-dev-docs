@@ -1,6 +1,0 @@
-delete\_unreferenced\_faces\_and\_edges
-=======================================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: objects.delete_unreferenced_faces_and_edges

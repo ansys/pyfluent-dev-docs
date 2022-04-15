@@ -1,6 +1,0 @@
-set\_global\_controls
-=====================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: size_functions.set_global_controls

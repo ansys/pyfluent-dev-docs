@@ -1,6 +1,0 @@
-uds\_flow
-=========
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: report.uds_flow

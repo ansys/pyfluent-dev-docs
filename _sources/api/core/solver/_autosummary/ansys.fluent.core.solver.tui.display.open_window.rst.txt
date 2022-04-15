@@ -1,6 +1,0 @@
-open\_window
-============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: display.open_window

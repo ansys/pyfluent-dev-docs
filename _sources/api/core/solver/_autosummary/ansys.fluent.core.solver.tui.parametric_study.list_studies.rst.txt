@@ -1,6 +1,0 @@
-list\_studies
-=============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: parametric_study.list_studies

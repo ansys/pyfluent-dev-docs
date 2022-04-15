@@ -1,6 +1,0 @@
-hsf\_file
-=========
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: display.hsf_file

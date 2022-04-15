@@ -1,6 +1,0 @@
-thread\_number\_control
-=======================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: parallel.thread_number_control

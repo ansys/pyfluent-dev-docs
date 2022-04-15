@@ -1,6 +1,0 @@
-extract\_edges
-==============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: objects.extract_edges

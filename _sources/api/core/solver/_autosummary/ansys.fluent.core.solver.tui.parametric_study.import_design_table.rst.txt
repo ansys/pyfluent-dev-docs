@@ -1,6 +1,0 @@
-import\_design\_table
-=====================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: parametric_study.import_design_table

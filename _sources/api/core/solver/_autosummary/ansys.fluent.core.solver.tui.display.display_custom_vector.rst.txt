@@ -1,6 +1,0 @@
-display\_custom\_vector
-=======================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: display.display_custom_vector

@@ -1,6 +1,0 @@
-bandwidth
-=========
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: parallel.bandwidth

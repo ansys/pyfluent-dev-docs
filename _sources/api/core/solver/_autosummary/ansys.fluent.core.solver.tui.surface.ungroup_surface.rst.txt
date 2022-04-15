@@ -1,6 +1,0 @@
-ungroup\_surface
-================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.ungroup_surface

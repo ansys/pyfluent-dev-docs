@@ -1,6 +1,0 @@
-reacting\_channel\_curves
-=========================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: display.reacting_channel_curves

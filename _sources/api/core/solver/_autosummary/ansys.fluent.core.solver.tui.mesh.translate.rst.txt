@@ -1,6 +1,0 @@
-translate
-=========
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: mesh.translate

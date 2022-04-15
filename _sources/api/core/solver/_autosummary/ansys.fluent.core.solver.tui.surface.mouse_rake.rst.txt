@@ -1,6 +1,0 @@
-mouse\_rake
-===========
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.mouse_rake

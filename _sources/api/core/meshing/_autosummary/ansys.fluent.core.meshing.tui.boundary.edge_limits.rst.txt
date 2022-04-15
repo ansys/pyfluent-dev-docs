@@ -1,6 +1,0 @@
-edge\_limits
-============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.edge_limits

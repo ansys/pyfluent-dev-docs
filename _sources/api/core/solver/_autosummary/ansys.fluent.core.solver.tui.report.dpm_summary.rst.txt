@@ -1,6 +1,0 @@
-dpm\_summary
-============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: report.dpm_summary

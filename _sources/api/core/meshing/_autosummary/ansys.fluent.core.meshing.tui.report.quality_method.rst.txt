@@ -1,6 +1,0 @@
-quality\_method
-===============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: report.quality_method

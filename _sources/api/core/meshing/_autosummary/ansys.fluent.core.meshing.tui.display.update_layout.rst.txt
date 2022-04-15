@@ -1,6 +1,0 @@
-update\_layout
-==============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: display.update_layout

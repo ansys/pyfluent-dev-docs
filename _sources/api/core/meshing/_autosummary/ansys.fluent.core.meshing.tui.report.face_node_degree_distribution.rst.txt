@@ -1,6 +1,0 @@
-face\_node\_degree\_distribution
-================================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: report.face_node_degree_distribution

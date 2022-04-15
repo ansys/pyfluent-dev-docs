@@ -1,6 +1,0 @@
-zone\_names\_clean\_up
-======================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: mesh.zone_names_clean_up

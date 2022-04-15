@@ -1,6 +1,0 @@
-cell\_size\_limits
-==================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: report.cell_size_limits

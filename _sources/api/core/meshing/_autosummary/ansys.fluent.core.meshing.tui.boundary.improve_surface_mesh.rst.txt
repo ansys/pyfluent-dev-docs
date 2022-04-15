@@ -1,6 +1,0 @@
-improve\_surface\_mesh
-======================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.improve_surface_mesh

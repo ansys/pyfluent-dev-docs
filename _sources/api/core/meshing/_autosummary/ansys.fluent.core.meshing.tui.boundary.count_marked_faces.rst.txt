@@ -1,6 +1,0 @@
-count\_marked\_faces
-====================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.count_marked_faces

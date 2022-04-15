@@ -1,6 +1,0 @@
-reset\_mesh\_parameter
-======================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: mesh.reset_mesh_parameter

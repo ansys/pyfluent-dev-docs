@@ -1,6 +1,0 @@
-add\_prefix
-===========
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: cad_assemblies.add_prefix

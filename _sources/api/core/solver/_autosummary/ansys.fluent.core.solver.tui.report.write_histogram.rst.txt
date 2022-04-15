@@ -1,6 +1,0 @@
-write\_histogram
-================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: report.write_histogram

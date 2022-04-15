@@ -1,6 +1,0 @@
-delete\_all\_dup\_faces
-=======================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.delete_all_dup_faces

@@ -1,6 +1,0 @@
-disable\_periodicity\_filter
-============================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: size_functions.disable_periodicity_filter

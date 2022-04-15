@@ -1,6 +1,0 @@
-show\_configuration
-===================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: file.show_configuration

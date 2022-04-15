@@ -1,6 +1,0 @@
-all\_grid
-=========
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: display.all_grid

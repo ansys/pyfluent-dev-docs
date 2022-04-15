@@ -1,6 +1,0 @@
-merge\_voids
-============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: objects.merge_voids

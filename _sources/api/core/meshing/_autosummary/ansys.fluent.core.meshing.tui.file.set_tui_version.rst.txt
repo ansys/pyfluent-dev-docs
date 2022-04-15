@@ -1,6 +1,0 @@
-set\_tui\_version
-=================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: file.set_tui_version

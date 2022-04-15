@@ -1,6 +1,0 @@
-controls
-========
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: adjoint.controls

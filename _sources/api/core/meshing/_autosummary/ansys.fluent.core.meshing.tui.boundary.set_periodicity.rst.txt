@@ -1,6 +1,0 @@
-set\_periodicity
-================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.set_periodicity

@@ -1,6 +1,0 @@
-add
-===
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: reference_frames.add

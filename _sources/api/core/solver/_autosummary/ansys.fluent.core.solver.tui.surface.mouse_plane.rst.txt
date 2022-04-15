@@ -1,6 +1,0 @@
-mouse\_plane
-============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.mouse_plane

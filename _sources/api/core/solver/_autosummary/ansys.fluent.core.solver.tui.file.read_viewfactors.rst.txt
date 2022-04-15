@@ -1,6 +1,0 @@
-read\_viewfactors
-=================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: file.read_viewfactors

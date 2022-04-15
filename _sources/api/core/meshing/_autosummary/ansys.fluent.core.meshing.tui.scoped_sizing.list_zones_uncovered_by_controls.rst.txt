@@ -1,6 +1,0 @@
-list\_zones\_uncovered\_by\_controls
-====================================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: scoped_sizing.list_zones_uncovered_by_controls

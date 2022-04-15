@@ -1,6 +1,0 @@
-rename\_study
-=============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: parametric_study.rename_study

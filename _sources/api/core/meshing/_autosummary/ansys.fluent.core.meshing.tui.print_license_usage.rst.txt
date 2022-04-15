@@ -1,6 +1,0 @@
-﻿print\_license\_usage
-=====================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. autofunction:: print_license_usage

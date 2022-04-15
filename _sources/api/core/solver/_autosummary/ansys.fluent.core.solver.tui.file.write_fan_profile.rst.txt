@@ -1,6 +1,0 @@
-write\_fan\_profile
-===================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: file.write_fan_profile

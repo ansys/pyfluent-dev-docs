@@ -1,6 +1,0 @@
-resolve\_face\_intersection
-===========================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.resolve_face_intersection

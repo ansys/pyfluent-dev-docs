@@ -1,6 +1,0 @@
-iso\_clip
-=========
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.iso_clip

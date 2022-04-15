@@ -1,6 +1,0 @@
-write\_mesh
-===========
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: file.write_mesh

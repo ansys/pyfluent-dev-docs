@@ -1,6 +1,0 @@
-redistribute\_boundary\_layer
-=============================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: mesh.redistribute_boundary_layer

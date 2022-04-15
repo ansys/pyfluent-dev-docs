@@ -1,6 +1,0 @@
-define\_macro
-=============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: file.define_macro

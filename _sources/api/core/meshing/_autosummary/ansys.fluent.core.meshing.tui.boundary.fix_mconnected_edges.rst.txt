@@ -1,6 +1,0 @@
-fix\_mconnected\_edges
-======================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.fix_mconnected_edges

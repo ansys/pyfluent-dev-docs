@@ -1,6 +1,0 @@
-species\_mass\_flow
-===================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: report.species_mass_flow

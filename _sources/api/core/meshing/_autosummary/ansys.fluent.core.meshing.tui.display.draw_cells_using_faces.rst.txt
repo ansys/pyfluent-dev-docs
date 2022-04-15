@@ -1,6 +1,0 @@
-draw\_cells\_using\_faces
-=========================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: display.draw_cells_using_faces

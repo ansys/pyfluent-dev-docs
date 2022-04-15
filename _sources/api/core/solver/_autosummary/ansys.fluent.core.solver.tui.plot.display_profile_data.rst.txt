@@ -1,6 +1,0 @@
-display\_profile\_data
-======================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: plot.display_profile_data

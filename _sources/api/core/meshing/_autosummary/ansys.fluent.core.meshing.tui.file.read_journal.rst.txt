@@ -1,6 +1,0 @@
-read\_journal
-=============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: file.read_journal

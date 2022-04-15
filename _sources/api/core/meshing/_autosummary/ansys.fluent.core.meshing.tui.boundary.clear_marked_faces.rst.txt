@@ -1,6 +1,0 @@
-clear\_marked\_faces
-====================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: boundary.clear_marked_faces

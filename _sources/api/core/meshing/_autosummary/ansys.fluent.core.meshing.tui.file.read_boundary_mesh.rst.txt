@@ -1,6 +1,0 @@
-read\_boundary\_mesh
-====================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: file.read_boundary_mesh

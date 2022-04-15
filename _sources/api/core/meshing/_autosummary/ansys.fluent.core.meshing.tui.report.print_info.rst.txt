@@ -1,6 +1,0 @@
-print\_info
-===========
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: report.print_info

@@ -1,6 +1,0 @@
-create\_and\_activate\_domain
-=============================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: objects.create_and_activate_domain

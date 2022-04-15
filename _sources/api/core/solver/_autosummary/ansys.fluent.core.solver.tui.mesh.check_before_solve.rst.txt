@@ -1,6 +1,0 @@
-check\_before\_solve
-====================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: mesh.check_before_solve

@@ -1,6 +1,0 @@
-data\_file\_options
-===================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: file.data_file_options

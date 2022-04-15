@@ -1,6 +1,0 @@
-multiple\_zone\_surfaces
-========================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.multiple_zone_surfaces

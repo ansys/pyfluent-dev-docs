@@ -1,6 +1,0 @@
-reset\_global\_controls
-=======================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: size_functions.reset_global_controls

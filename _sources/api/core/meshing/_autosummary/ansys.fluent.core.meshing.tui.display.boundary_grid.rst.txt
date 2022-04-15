@@ -1,6 +1,0 @@
-boundary\_grid
-==============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: display.boundary_grid

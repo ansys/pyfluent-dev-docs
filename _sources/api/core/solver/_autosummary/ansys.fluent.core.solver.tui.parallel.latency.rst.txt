@@ -1,6 +1,0 @@
-latency
-=======
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: parallel.latency

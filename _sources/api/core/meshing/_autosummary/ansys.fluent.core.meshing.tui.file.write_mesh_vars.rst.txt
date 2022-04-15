@@ -1,6 +1,0 @@
-write\_mesh\_vars
-=================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: file.write_mesh_vars

@@ -1,6 +1,0 @@
-plot\_direction
-===============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: plot.plot_direction

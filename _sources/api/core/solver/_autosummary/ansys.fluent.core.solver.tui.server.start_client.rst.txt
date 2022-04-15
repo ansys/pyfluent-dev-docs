@@ -1,6 +1,0 @@
-start\_client
-=============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: server.start_client

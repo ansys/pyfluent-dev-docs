@@ -1,6 +1,0 @@
-display\_edit
-=============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: reference_frames.display_edit

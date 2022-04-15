@@ -1,6 +1,0 @@
-load\_act\_tool
-===============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: file.load_act_tool

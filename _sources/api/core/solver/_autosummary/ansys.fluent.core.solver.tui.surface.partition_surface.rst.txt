@@ -1,6 +1,0 @@
-partition\_surface
-==================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.partition_surface

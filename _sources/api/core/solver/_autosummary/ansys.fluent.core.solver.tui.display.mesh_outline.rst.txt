@@ -1,6 +1,0 @@
-mesh\_outline
-=============
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: display.mesh_outline

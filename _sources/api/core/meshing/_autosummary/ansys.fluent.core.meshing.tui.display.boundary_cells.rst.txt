@@ -1,6 +1,0 @@
-boundary\_cells
-===============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: display.boundary_cells

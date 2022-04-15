@@ -1,6 +1,0 @@
-set\_scaling\_filter
-====================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: size_functions.set_scaling_filter

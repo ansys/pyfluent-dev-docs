@@ -1,6 +1,0 @@
-append\_meshes\_by\_tmerge
-==========================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: file.append_meshes_by_tmerge

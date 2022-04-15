@@ -1,6 +1,0 @@
-confirm\_overwrite
-==================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: file.confirm_overwrite

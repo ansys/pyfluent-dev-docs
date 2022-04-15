@@ -1,6 +1,0 @@
-extract\_edges\_zones
-=====================
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: cad_assemblies.extract_edges_zones

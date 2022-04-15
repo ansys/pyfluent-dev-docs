@@ -1,6 +1,0 @@
-meshing\_time
-=============
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: report.meshing_time

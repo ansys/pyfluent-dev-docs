@@ -1,6 +1,0 @@
-hdf\_files
-==========
-
-.. currentmodule:: ansys.fluent.core.meshing.tui
-
-.. automethod:: file.hdf_files

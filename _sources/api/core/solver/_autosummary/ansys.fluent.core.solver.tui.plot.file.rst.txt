@@ -1,6 +1,0 @@
-file
-====
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: plot.file

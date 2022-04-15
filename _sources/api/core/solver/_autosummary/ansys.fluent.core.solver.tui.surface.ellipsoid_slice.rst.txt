@@ -1,6 +1,0 @@
-ellipsoid\_slice
-================
-
-.. currentmodule:: ansys.fluent.core.solver.tui
-
-.. automethod:: surface.ellipsoid_slice
