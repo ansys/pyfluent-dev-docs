@@ -127,7 +127,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    'menu-processing?'
+    True
 
 
 
@@ -156,7 +156,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    'menu-processing?'
+    False
 
 
 
@@ -186,7 +186,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    'menu-processing?'
+    True
 
 
 
@@ -224,7 +224,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    'menu-processing?'
+    True
 
 
 
@@ -256,7 +256,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    'menu-processing?'
+    True
 
 
 
@@ -282,7 +282,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    'menu-processing?'
+    True
 
 
 
@@ -314,7 +314,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    'menu-processing?'
+    True
 
 
 
@@ -346,7 +346,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
  .. code-block:: none
 
 
-    'menu-processing?'
+    True
 
 
 
@@ -988,7 +988,7 @@ s.tui.solver.file.write_case_data("mixing_elbow1_tui.cas.h5")
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 3 minutes  20.842 seconds)
+   **Total running time of the script:** ( 3 minutes  10.321 seconds)
 
 
 .. _sphx_glr_download_examples_00-fluent_mixing_elbow_tui_api.py:
