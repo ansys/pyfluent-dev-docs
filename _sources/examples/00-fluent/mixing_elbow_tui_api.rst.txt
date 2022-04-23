@@ -19,8 +19,9 @@
 
 .. _ref_mixing_elbow_tui_api:
 
-Fluid Flow and Heat Transfer in a Mixing Elbow
-----------------------------------------------
+Fluid Flow and Heat Transfer in a Mixing Elbow (TUI API)
+--------------------------------------------------------
+
 This example illustrates the setup and solution of a three-dimensional
 turbulent fluid flow and heat transfer problem in a mixing elbow. The mixing
 elbow configuration is encountered in piping systems in power plants and
@@ -52,7 +53,7 @@ the elbow. The pipe dimensions are in inches and the fluid properties and
 boundary conditions are given in SI units. The Reynolds number for the flow at
 the larger inlet is 50, 800, so a turbulent flow model will be required.
 
-.. GENERATED FROM PYTHON SOURCE LINES 38-53
+.. GENERATED FROM PYTHON SOURCE LINES 39-54
 
 .. code-block:: default
 
@@ -78,7 +79,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 54-59
+.. GENERATED FROM PYTHON SOURCE LINES 55-60
 
 .. code-block:: default
 
@@ -102,7 +103,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 60-70
+.. GENERATED FROM PYTHON SOURCE LINES 61-71
 
 .. code-block:: default
 
@@ -131,7 +132,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 71-81
+.. GENERATED FROM PYTHON SOURCE LINES 72-82
 
 .. code-block:: default
 
@@ -160,7 +161,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 82-93
+.. GENERATED FROM PYTHON SOURCE LINES 83-94
 
 .. code-block:: default
 
@@ -190,7 +191,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 94-113
+.. GENERATED FROM PYTHON SOURCE LINES 95-114
 
 .. code-block:: default
 
@@ -228,7 +229,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 114-127
+.. GENERATED FROM PYTHON SOURCE LINES 115-128
 
 .. code-block:: default
 
@@ -260,7 +261,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 128-135
+.. GENERATED FROM PYTHON SOURCE LINES 129-136
 
 .. code-block:: default
 
@@ -286,7 +287,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 136-149
+.. GENERATED FROM PYTHON SOURCE LINES 137-150
 
 .. code-block:: default
 
@@ -318,7 +319,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 150-163
+.. GENERATED FROM PYTHON SOURCE LINES 151-164
 
 .. code-block:: default
 
@@ -350,7 +351,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 164-168
+.. GENERATED FROM PYTHON SOURCE LINES 165-169
 
 .. code-block:: default
 
@@ -365,7 +366,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 169-173
+.. GENERATED FROM PYTHON SOURCE LINES 170-174
 
 .. code-block:: default
 
@@ -380,7 +381,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 174-182
+.. GENERATED FROM PYTHON SOURCE LINES 175-183
 
 .. code-block:: default
 
@@ -399,7 +400,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 183-192
+.. GENERATED FROM PYTHON SOURCE LINES 184-193
 
 .. code-block:: default
 
@@ -419,7 +420,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 193-202
+.. GENERATED FROM PYTHON SOURCE LINES 194-203
 
 .. code-block:: default
 
@@ -439,7 +440,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 203-207
+.. GENERATED FROM PYTHON SOURCE LINES 204-208
 
 .. code-block:: default
 
@@ -454,7 +455,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 208-212
+.. GENERATED FROM PYTHON SOURCE LINES 209-213
 
 .. code-block:: default
 
@@ -469,7 +470,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 213-242
+.. GENERATED FROM PYTHON SOURCE LINES 214-243
 
 .. code-block:: default
 
@@ -509,7 +510,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 243-266
+.. GENERATED FROM PYTHON SOURCE LINES 244-267
 
 .. code-block:: default
 
@@ -543,7 +544,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 267-288
+.. GENERATED FROM PYTHON SOURCE LINES 268-289
 
 .. code-block:: default
 
@@ -575,7 +576,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 289-301
+.. GENERATED FROM PYTHON SOURCE LINES 290-302
 
 .. code-block:: default
 
@@ -598,7 +599,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 302-306
+.. GENERATED FROM PYTHON SOURCE LINES 303-307
 
 .. code-block:: default
 
@@ -613,7 +614,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 307-321
+.. GENERATED FROM PYTHON SOURCE LINES 308-322
 
 .. code-block:: default
 
@@ -638,7 +639,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 322-347
+.. GENERATED FROM PYTHON SOURCE LINES 323-348
 
 .. code-block:: default
 
@@ -674,7 +675,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 348-387
+.. GENERATED FROM PYTHON SOURCE LINES 349-388
 
 .. code-block:: default
 
@@ -724,7 +725,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 388-392
+.. GENERATED FROM PYTHON SOURCE LINES 389-393
 
 .. code-block:: default
 
@@ -739,7 +740,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 393-397
+.. GENERATED FROM PYTHON SOURCE LINES 394-398
 
 .. code-block:: default
 
@@ -754,7 +755,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 398-402
+.. GENERATED FROM PYTHON SOURCE LINES 399-403
 
 .. code-block:: default
 
@@ -769,7 +770,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 403-410
+.. GENERATED FROM PYTHON SOURCE LINES 404-411
 
 .. code-block:: default
 
@@ -787,7 +788,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 411-415
+.. GENERATED FROM PYTHON SOURCE LINES 412-416
 
 .. code-block:: default
 
@@ -802,7 +803,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 416-441
+.. GENERATED FROM PYTHON SOURCE LINES 417-442
 
 .. code-block:: default
 
@@ -838,7 +839,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 442-466
+.. GENERATED FROM PYTHON SOURCE LINES 443-467
 
 .. code-block:: default
 
@@ -873,7 +874,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 467-491
+.. GENERATED FROM PYTHON SOURCE LINES 468-492
 
 .. code-block:: default
 
@@ -908,7 +909,7 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 492-499
+.. GENERATED FROM PYTHON SOURCE LINES 493-500
 
 .. code-block:: default
 
@@ -926,11 +927,11 @@ the larger inlet is 50, 800, so a turbulent flow model will be required.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 500-501
+.. GENERATED FROM PYTHON SOURCE LINES 501-502
 
 s.tui.solver.file.write_case_data("mixing_elbow1_tui.cas.h5")
 
-.. GENERATED FROM PYTHON SOURCE LINES 501-530
+.. GENERATED FROM PYTHON SOURCE LINES 502-531
 
 .. code-block:: default
 
@@ -970,7 +971,7 @@ s.tui.solver.file.write_case_data("mixing_elbow1_tui.cas.h5")
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 531-535
+.. GENERATED FROM PYTHON SOURCE LINES 532-536
 
 .. code-block:: default
 
@@ -988,7 +989,7 @@ s.tui.solver.file.write_case_data("mixing_elbow1_tui.cas.h5")
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 3 minutes  20.883 seconds)
+   **Total running time of the script:** ( 3 minutes  8.965 seconds)
 
 
 .. _sphx_glr_download_examples_00-fluent_mixing_elbow_tui_api.py:
