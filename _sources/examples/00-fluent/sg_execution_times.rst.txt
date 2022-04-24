@@ -5,14 +5,14 @@
 
 Computation times
 =================
-**14:15.102** total execution time for **examples_00-fluent** files:
+**15:39.925** total execution time for **examples_00-fluent** files:
 
 +--------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_examples_00-fluent_exhaust_system_settings_api.py` (``exhaust_system_settings_api.py``) | 03:55.796 | 0.0 MB |
+| :ref:`sphx_glr_examples_00-fluent_exhaust_system_settings_api.py` (``exhaust_system_settings_api.py``) | 04:26.825 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_examples_00-fluent_exhaust_system_tui_api.py` (``exhaust_system_tui_api.py``)           | 03:44.985 | 0.0 MB |
+| :ref:`sphx_glr_examples_00-fluent_exhaust_system_tui_api.py` (``exhaust_system_tui_api.py``)           | 04:21.610 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_examples_00-fluent_mixing_elbow_settings_api.py` (``mixing_elbow_settings_api.py``)     | 03:25.356 | 0.0 MB |
+| :ref:`sphx_glr_examples_00-fluent_mixing_elbow_settings_api.py` (``mixing_elbow_settings_api.py``)     | 03:34.822 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_examples_00-fluent_mixing_elbow_tui_api.py` (``mixing_elbow_tui_api.py``)               | 03:08.965 | 0.0 MB |
+| :ref:`sphx_glr_examples_00-fluent_mixing_elbow_tui_api.py` (``mixing_elbow_tui_api.py``)               | 03:16.668 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------+-----------+--------+
