@@ -1,0 +1,22 @@
+.. _preview:
+
+preview
+=======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.preview
+
+.. autoclass:: preview
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+========================================   ========================
+
+Parent                                                      Summary
+
+========================================   ========================
+:ref:`picture_options <picture_options>`   'picture_options' child.
+
+========================================   ========================
+

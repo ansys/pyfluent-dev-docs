@@ -1,0 +1,22 @@
+.. _view_list:
+
+view_list
+=========
+
+.. currentmodule:: ansys.fluent.core.solver.settings.view_list
+
+.. autoclass:: view_list
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+================================   ====================================
+
+Parent                                                          Summary
+
+================================   ====================================
+:ref:`write_views <write_views>`   Write selected views to a view file.
+
+================================   ====================================
+

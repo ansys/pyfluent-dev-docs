@@ -1,0 +1,35 @@
+.. _ribbon:
+
+ribbon
+======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.ribbon
+
+.. autoclass:: ribbon
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, child_names
+.. rubric:: Children
+
+================================   ====================
+
+Child                                           Summary
+
+================================   ====================
+:ref:`field <field>`                     'field' child.
+
+:ref:`scalefactor <scalefactor>`   'scalefactor' child.
+
+================================   ====================
+
+.. rubric:: Included in:
+
+========================================   ========================
+
+Parent                                                      Summary
+
+========================================   ========================
+:ref:`style_attribute <style_attribute>`   'style_attribute' child.
+
+========================================   ========================
+

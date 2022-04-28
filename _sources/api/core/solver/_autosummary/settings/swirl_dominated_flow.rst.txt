@@ -1,0 +1,22 @@
+.. _swirl_dominated_flow:
+
+swirl_dominated_flow
+====================
+
+.. currentmodule:: ansys.fluent.core.solver.settings.swirl_dominated_flow
+
+.. autoclass:: swirl_dominated_flow
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+================================   ====================
+
+Parent                                          Summary
+
+================================   ====================
+:ref:`rng_options <rng_options>`   'rng_options' child.
+
+================================   ====================
+

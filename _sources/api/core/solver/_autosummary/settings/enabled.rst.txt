@@ -1,0 +1,22 @@
+.. _enabled:
+
+enabled
+=======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.enabled
+
+.. autoclass:: enabled
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+======================   ===============
+
+Parent                           Summary
+
+======================   ===============
+:ref:`energy <energy>`   'energy' child.
+
+======================   ===============
+

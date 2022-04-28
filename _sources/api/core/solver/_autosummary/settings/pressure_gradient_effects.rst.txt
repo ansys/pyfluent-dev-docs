@@ -1,0 +1,22 @@
+.. _pressure_gradient_effects:
+
+pressure_gradient_effects
+=========================
+
+.. currentmodule:: ansys.fluent.core.solver.settings.pressure_gradient_effects
+
+.. autoclass:: pressure_gradient_effects
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+========================================================================   ========================================
+
+Parent                                                                                                      Summary
+
+========================================================================   ========================================
+:ref:`enhanced_wall_treatment_options <enhanced_wall_treatment_options>`   'enhanced_wall_treatment_options' child.
+
+========================================================================   ========================================
+

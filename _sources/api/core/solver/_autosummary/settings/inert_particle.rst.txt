@@ -1,0 +1,27 @@
+.. _inert_particle:
+
+inert_particle
+==============
+
+.. currentmodule:: ansys.fluent.core.solver.settings.inert_particle
+
+.. autoclass:: inert_particle
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Named object type
+
+:ref:`fluid_child <fluid_child>`
+
+
+.. rubric:: Included in:
+
+============================   ==================
+
+Parent                                    Summary
+
+============================   ==================
+:ref:`materials <materials>`   'materials' child.
+
+============================   ==================
+

@@ -1,0 +1,22 @@
+.. _write_data:
+
+write_data
+==========
+
+.. currentmodule:: ansys.fluent.core.solver.settings.write_data
+
+.. autoclass:: write_data
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+======================   =====================
+
+Parent                                 Summary
+
+======================   =====================
+:ref:`create <create>`   Add new Design Point.
+
+======================   =====================
+

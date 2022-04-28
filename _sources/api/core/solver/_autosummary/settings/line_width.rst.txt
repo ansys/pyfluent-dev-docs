@@ -1,0 +1,24 @@
+.. _line_width:
+
+line_width
+==========
+
+.. currentmodule:: ansys.fluent.core.solver.settings.line_width
+
+.. autoclass:: line_width
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==========================================   ========================
+
+Parent                                                        Summary
+
+==========================================   ========================
+:ref:`style_attribute <style_attribute>`     'style_attribute' child.
+
+:ref:`style_attribute <style_attribute_1>`   'style_attribute' child.
+
+==========================================   ========================
+

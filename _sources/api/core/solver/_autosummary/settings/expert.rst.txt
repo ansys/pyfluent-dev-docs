@@ -1,0 +1,35 @@
+.. _expert:
+
+expert
+======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.expert
+
+.. autoclass:: expert
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, child_names
+.. rubric:: Children
+
+==============================================================   =================================================================
+
+Child                                                                                                                      Summary
+
+==============================================================   =================================================================
+:ref:`under_relaxation_factor <under_relaxation_factor>`         Specify under-relaxation factor to be used in the diagonal matrix
+
+:ref:`explicit_relaxation_factor <explicit_relaxation_factor>`    Specify explicit relaxation factor to be applied to the solution
+
+==============================================================   =================================================================
+
+.. rubric:: Included in:
+
+==========================================================================   =========================================
+
+Parent                                                                                                         Summary
+
+==========================================================================   =========================================
+:ref:`acoustics_wave_equation_controls <acoustics_wave_equation_controls>`   'acoustics_wave_equation_controls' child.
+
+==========================================================================   =========================================
+

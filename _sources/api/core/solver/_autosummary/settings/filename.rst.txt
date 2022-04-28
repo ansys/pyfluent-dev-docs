@@ -1,0 +1,22 @@
+.. _filename:
+
+filename
+========
+
+.. currentmodule:: ansys.fluent.core.solver.settings.filename
+
+.. autoclass:: filename
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==============================   ============================
+
+Parent                                                Summary
+
+==============================   ============================
+:ref:`read_views <read_views>`   Read views from a view file.
+
+==============================   ============================
+

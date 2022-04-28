@@ -1,0 +1,33 @@
+.. _expert_1:
+
+expert
+======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.expert_1
+
+.. autoclass:: expert
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, child_names
+.. rubric:: Children
+
+======================================================================   =======================================
+
+Child                                                                                                    Summary
+
+======================================================================   =======================================
+:ref:`spatial_discretization_limiter <spatial_discretization_limiter>`   'spatial_discretization_limiter' child.
+
+======================================================================   =======================================
+
+.. rubric:: Included in:
+
+==========================   =================
+
+Parent                                 Summary
+
+==========================   =================
+:ref:`advanced <advanced>`   'advanced' child.
+
+==========================   =================
+

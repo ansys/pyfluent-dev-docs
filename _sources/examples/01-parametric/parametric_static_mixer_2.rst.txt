@@ -20,7 +20,7 @@
 .. _ref_parametric_static_mixer_2:
 
 Parametric Project-Based Workflow
----------------------------------
+----------------------------------------------------
 This example for executing a parametric project-based workflow
 performs these steps:
 
@@ -32,18 +32,9 @@ performs these steps:
 - Archives the current project
 - Exits the parametric project-based workflow
 
-.. GENERATED FROM PYTHON SOURCE LINES 18-19
-
-Parametric project-based workflow
-
-.. GENERATED FROM PYTHON SOURCE LINES 21-22
-
-Import the parametric project module and the parametric study module
-
-.. GENERATED FROM PYTHON SOURCE LINES 22-28
+.. GENERATED FROM PYTHON SOURCE LINES 18-23
 
 .. code-block:: default
-
 
     from pathlib import Path
 
@@ -57,20 +48,16 @@ Import the parametric project module and the parametric study module
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 29-30
-
-Import the pyfluent module and path
-
-.. GENERATED FROM PYTHON SOURCE LINES 33-34
+.. GENERATED FROM PYTHON SOURCE LINES 24-25
 
 Launch Fluent and enable the settings API (Beta)
 
-.. GENERATED FROM PYTHON SOURCE LINES 34-38
+.. GENERATED FROM PYTHON SOURCE LINES 25-29
 
 .. code-block:: default
 
 
-    session = pyfluent.launch_fluent(precision="double", processor_count=4)
+    session = pyfluent.launch_fluent(precision="double", processor_count=2)
     root = session.get_settings_root()
 
 
@@ -80,18 +67,16 @@ Launch Fluent and enable the settings API (Beta)
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 39-40
+.. GENERATED FROM PYTHON SOURCE LINES 30-31
 
 Read the previously saved project - static_mixer_study.flprj
 
-.. GENERATED FROM PYTHON SOURCE LINES 40-51
+.. GENERATED FROM PYTHON SOURCE LINES 31-40
 
 .. code-block:: default
 
 
-    project_filepath_read = str(
-        Path(pyfluent.EXAMPLES_PATH) / "static_mixer_study.flprj"
-    )
+    project_filepath_read = str(Path(pyfluent.EXAMPLES_PATH) / "static_mixer_study.flprj")
 
     proj = ParametricProject(
         root.file.parametric_project,
@@ -106,11 +91,11 @@ Read the previously saved project - static_mixer_study.flprj
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 52-53
+.. GENERATED FROM PYTHON SOURCE LINES 41-42
 
 Save the current project
 
-.. GENERATED FROM PYTHON SOURCE LINES 53-56
+.. GENERATED FROM PYTHON SOURCE LINES 42-45
 
 .. code-block:: default
 
@@ -124,11 +109,11 @@ Save the current project
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 57-58
+.. GENERATED FROM PYTHON SOURCE LINES 46-47
 
 Save the current project to a different file name
 
-.. GENERATED FROM PYTHON SOURCE LINES 58-64
+.. GENERATED FROM PYTHON SOURCE LINES 47-53
 
 .. code-block:: default
 
@@ -145,11 +130,11 @@ Save the current project to a different file name
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 65-66
+.. GENERATED FROM PYTHON SOURCE LINES 54-55
 
 Export the current project
 
-.. GENERATED FROM PYTHON SOURCE LINES 66-72
+.. GENERATED FROM PYTHON SOURCE LINES 55-61
 
 .. code-block:: default
 
@@ -166,11 +151,11 @@ Export the current project
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 73-74
+.. GENERATED FROM PYTHON SOURCE LINES 62-63
 
 Archive the current project
 
-.. GENERATED FROM PYTHON SOURCE LINES 74-76
+.. GENERATED FROM PYTHON SOURCE LINES 63-65
 
 .. code-block:: default
 
@@ -186,7 +171,7 @@ Archive the current project
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  42.065 seconds)
+   **Total running time of the script:** ( 0 minutes  17.184 seconds)
 
 
 .. _sphx_glr_download_examples_01-parametric_parametric_static_mixer_2.py:

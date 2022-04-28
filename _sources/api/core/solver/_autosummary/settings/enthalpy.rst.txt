@@ -1,0 +1,22 @@
+.. _enthalpy:
+
+enthalpy
+========
+
+.. currentmodule:: ansys.fluent.core.solver.settings.enthalpy
+
+.. autoclass:: enthalpy
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==========================================   =========================
+
+Parent                                                         Summary
+
+==========================================   =========================
+:ref:`reference_values <reference_values>`   'reference_values' child.
+
+==========================================   =========================
+

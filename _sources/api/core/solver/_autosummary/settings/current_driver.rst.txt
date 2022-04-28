@@ -1,0 +1,22 @@
+.. _current_driver:
+
+current_driver
+==============
+
+.. currentmodule:: ansys.fluent.core.solver.settings.current_driver
+
+.. autoclass:: current_driver
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+======================================   =======================
+
+Parent                                                   Summary
+
+======================================   =======================
+:ref:`driver_options <driver_options>`   'driver_options' child.
+
+======================================   =======================
+

@@ -51,7 +51,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Parametric Project-Based Workflow" href="parametric_static_mixer_2.html" />
-    <link rel="prev" title="Fluid Flow and Heat Transfer in a Mixing Elbow (TUI API)" href="../00-fluent/mixing_elbow_tui_api.html" />
+    <link rel="prev" title="Fluid Flow and Heat Transfer in a Mixing Elbow" href="../00-fluent/mixing_elbow.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -189,29 +189,15 @@
   <div class="bd-toc-item active">
     <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../00-fluent/exhaust_system_settings_api.html">
-   Exhaust System: Fault-tolerant Meshing (Settings API)
+  <a class="reference internal" href="../00-fluent/exhaust_system.html">
+   Exhaust System: Fault-tolerant Meshing
   </a>
  </li>
 </ul>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
-  <a class="reference internal" href="../00-fluent/exhaust_system_tui_api.html">
-   Exhaust System: Fault-tolerant Meshing (TUI API)
-  </a>
- </li>
-</ul>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../00-fluent/mixing_elbow_settings_api.html">
-   Fluid Flow and Heat Transfer in a Mixing Elbow (Settings API)
-  </a>
- </li>
-</ul>
-<ul class="nav bd-sidenav">
- <li class="toctree-l1">
-  <a class="reference internal" href="../00-fluent/mixing_elbow_tui_api.html">
-   Fluid Flow and Heat Transfer in a Mixing Elbow (TUI API)
+  <a class="reference internal" href="../00-fluent/mixing_elbow.html">
+   Fluid Flow and Heat Transfer in a Mixing Elbow
   </a>
  </li>
 </ul>
@@ -233,6 +219,13 @@
  <li class="toctree-l1">
   <a class="reference internal" href="parametric_static_mixer_3.html">
    Parametric Session Workflow
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../02-postprocessing/post_processing_exhaust_manifold.html">
+   Post Processing using PyVista and Matplotlib: Exhaust Manifold
   </a>
  </li>
 </ul>
@@ -291,16 +284,17 @@ the base design point (DP)</p></li>
 <li><p>Creates, updates, and deletes more DPs</p></li>
 <li><p>Creates, renames, and deletes parametric studies</p></li>
 </ul>
-<p>Import the path module</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <a href="https://docs.python.org/dev/library/pathlib.html#pathlib.Path" title="pathlib.Path" class="sphx-glr-backref-module-pathlib sphx-glr-backref-type-py-class"><span class="n">Path</span></a>
-</pre></div>
-</div>
-<p>Import the pyfluent module</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
+
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+
+<span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
+<span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
+<span class="kn">from</span> <span class="nn">ansys.fluent.parametric</span> <span class="kn">import</span> <span class="n">ParametricStudy</span>
 </pre></div>
 </div>
 <p>Launch Fluent in 3D and double precision</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Enable the settings API (Beta)</p>
@@ -308,17 +302,15 @@ the base design point (DP)</p></li>
 </pre></div>
 </div>
 <p>Read the hopper/mixer case</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
-
-<a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_filename</span></a> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">download_file</span><span class="p">(</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_filename</span></a> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">download_file</span><span class="p">(</span>
     <span class="s2">&quot;Static_Mixer_main.cas.h5&quot;</span><span class="p">,</span> <span class="s2">&quot;pyfluent/static_mixer&quot;</span>
 <span class="p">)</span>
 
 <span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_filename</span></a><span class="p">)</span>
 </pre></div>
 </div>
-<p>Set number of iterations to 1000 to ensure convergence</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">number_of_iterations</span><span class="p">(</span><span class="s2">&quot;1000&quot;</span><span class="p">)</span>
+<p>Set number of iterations to 100</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">number_of_iterations</span><span class="p">(</span><span class="s2">&quot;100&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Create input parameters after enabling parameter creation in the TUI:
@@ -347,23 +339,15 @@ Inlet2: velocity (inlet2_vel) 10 m/s and temperature (inlet2_temp) at 350 K</p>
 <span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">surface</span><span class="p">[</span>
     <span class="s2">&quot;outlet-temp-avg&quot;</span>
 <span class="p">]</span><span class="o">.</span><span class="n">report_type</span> <span class="o">=</span> <span class="s2">&quot;surface-areaavg&quot;</span>
-<span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">surface</span><span class="p">[</span>
-    <span class="s2">&quot;outlet-temp-avg&quot;</span>
-<span class="p">]</span><span class="o">.</span><span class="n">field</span> <span class="o">=</span> <span class="s2">&quot;temperature&quot;</span>
-<span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">surface</span><span class="p">[</span><span class="s2">&quot;outlet-temp-avg&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">surface_names</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s2">&quot;outlet&quot;</span>
-<span class="p">]</span>
+<span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">surface</span><span class="p">[</span><span class="s2">&quot;outlet-temp-avg&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">field</span> <span class="o">=</span> <span class="s2">&quot;temperature&quot;</span>
+<span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">surface</span><span class="p">[</span><span class="s2">&quot;outlet-temp-avg&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">surface_names</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;outlet&quot;</span><span class="p">]</span>
 
 <span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">surface</span><span class="p">[</span><span class="s2">&quot;outlet-vel-avg&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">surface</span><span class="p">[</span>
     <span class="s2">&quot;outlet-vel-avg&quot;</span>
 <span class="p">]</span><span class="o">.</span><span class="n">report_type</span> <span class="o">=</span> <span class="s2">&quot;surface-areaavg&quot;</span>
-<span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">surface</span><span class="p">[</span>
-    <span class="s2">&quot;outlet-vel-avg&quot;</span>
-<span class="p">]</span><span class="o">.</span><span class="n">field</span> <span class="o">=</span> <span class="s2">&quot;velocity-magnitude&quot;</span>
-<span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">surface</span><span class="p">[</span><span class="s2">&quot;outlet-vel-avg&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">surface_names</span> <span class="o">=</span> <span class="p">[</span>
-    <span class="s2">&quot;outlet&quot;</span>
-<span class="p">]</span>
+<span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">surface</span><span class="p">[</span><span class="s2">&quot;outlet-vel-avg&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">field</span> <span class="o">=</span> <span class="s2">&quot;velocity-magnitude&quot;</span>
+<span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">surface</span><span class="p">[</span><span class="s2">&quot;outlet-vel-avg&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">surface_names</span> <span class="o">=</span> <span class="p">[</span><span class="s2">&quot;outlet&quot;</span><span class="p">]</span>
 
 <span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">parameters</span><span class="o">.</span><span class="n">enable_in_TUI</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">parameters</span><span class="o">.</span><span class="n">output_parameters</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
@@ -379,15 +363,8 @@ Inlet2: velocity (inlet2_vel) 10 m/s and temperature (inlet2_temp) at 350 K</p>
 </pre></div>
 </div>
 <p>Write case with all the settings in place</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">case_path</span></a> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span>
-    <a href="https://docs.python.org/dev/library/pathlib.html#pathlib.Path" title="pathlib.Path" class="sphx-glr-backref-module-pathlib sphx-glr-backref-type-py-class"><span class="n">Path</span></a><span class="p">(</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">pyfluent</span><span class="o">.</span><span class="n">EXAMPLES_PATH</span></a><span class="p">)</span> <span class="o">/</span> <span class="s2">&quot;Static_Mixer_Parameters.cas.h5&quot;</span>
-<span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">case_path</span></a> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><a href="https://docs.python.org/dev/library/pathlib.html#pathlib.Path" title="pathlib.Path" class="sphx-glr-backref-module-pathlib sphx-glr-backref-type-py-class"><span class="n">Path</span></a><span class="p">(</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">pyfluent</span><span class="o">.</span><span class="n">EXAMPLES_PATH</span></a><span class="p">)</span> <span class="o">/</span> <span class="s2">&quot;Static_Mixer_Parameters.cas.h5&quot;</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">write_case</span><span class="p">(</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">case_path</span></a><span class="p">)</span>
-</pre></div>
-</div>
-<p>Parametric study workflow
-Import the parametric study module</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ansys.fluent.parametric</span> <span class="kn">import</span> <span class="n">ParametricStudy</span>
 </pre></div>
 </div>
 <p>Instantiate a parametric study from a Fluent session</p>
@@ -438,19 +415,17 @@ Import the parametric study module</p>
 </pre></div>
 </div>
 <p>Display CSV table as a pandas dataframe</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-
-<a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="pandas.core.frame.DataFrame" class="sphx-glr-backref-module-pandas-core-frame sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data_frame</span></a> <span class="o">=</span> <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html#pandas.read_csv" title="pandas.read_csv" class="sphx-glr-backref-module-pandas sphx-glr-backref-type-py-function"><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span></a><span class="p">(</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">design_point_table</span></a><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="pandas.core.frame.DataFrame" class="sphx-glr-backref-module-pandas-core-frame sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data_frame</span></a> <span class="o">=</span> <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html#pandas.read_csv" title="pandas.read_csv" class="sphx-glr-backref-module-pandas sphx-glr-backref-type-py-function"><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span></a><span class="p">(</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">design_point_table</span></a><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="pandas.core.frame.DataFrame" class="sphx-glr-backref-module-pandas-core-frame sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data_frame</span></a><span class="p">)</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>       Name inlet1_temp  ...               Status Unnamed: 10
-0     Units         [K]  ...                  NaN         NaN
-1   Base DP         300  ...  Updated : Converged         NaN
-2       DP1         450  ...  Updated : Converged         NaN
-3       DP2         500  ...  Updated : Converged         NaN
-4       DP3         500  ...  Updated : Converged         NaN
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>       Name inlet1_temp  ...                   Status Unnamed: 10
+0     Units         [K]  ...                      NaN         NaN
+1   Base DP         300  ...  Updated : Not Converged         NaN
+2       DP1         450  ...  Updated : Not Converged         NaN
+3       DP2         500  ...  Updated : Not Converged         NaN
+4       DP3         500  ...  Updated : Not Converged         NaN
 
 [5 rows x 11 columns]
 </pre></div>
@@ -474,14 +449,12 @@ Currently affected by issue #249, hence commented out</p>
 </pre></div>
 </div>
 <p>Save parametric project</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">project_filepath</span></a> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span>
-    <a href="https://docs.python.org/dev/library/pathlib.html#pathlib.Path" title="pathlib.Path" class="sphx-glr-backref-module-pathlib sphx-glr-backref-type-py-class"><span class="n">Path</span></a><span class="p">(</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">pyfluent</span><span class="o">.</span><span class="n">EXAMPLES_PATH</span></a><span class="p">)</span> <span class="o">/</span> <span class="s2">&quot;static_mixer_study.flprj&quot;</span>
-<span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">project_filepath</span></a> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><a href="https://docs.python.org/dev/library/pathlib.html#pathlib.Path" title="pathlib.Path" class="sphx-glr-backref-module-pathlib sphx-glr-backref-type-py-class"><span class="n">Path</span></a><span class="p">(</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">pyfluent</span><span class="o">.</span><span class="n">EXAMPLES_PATH</span></a><span class="p">)</span> <span class="o">/</span> <span class="s2">&quot;static_mixer_study.flprj&quot;</span><span class="p">)</span>
 
 <span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">parametric_project</span><span class="o">.</span><span class="n">save_as</span><span class="p">(</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">project_filepath</span></a><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 18 minutes  57.920 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 3 minutes  29.510 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-01-parametric-parametric-static-mixer-1-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/e3fdc98339d27a1abca08dd83a3034ac/parametric_static_mixer_1.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">parametric_static_mixer_1.py</span></code></a></p>

@@ -1,0 +1,22 @@
+.. _size_by:
+
+size_by
+=======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.size_by
+
+.. autoclass:: size_by
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==========================   =================
+
+Parent                                 Summary
+
+==========================   =================
+:ref:`variable <variable>`   'variable' child.
+
+==========================   =================
+

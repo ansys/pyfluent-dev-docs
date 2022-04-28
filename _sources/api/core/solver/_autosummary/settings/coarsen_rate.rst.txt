@@ -1,0 +1,22 @@
+.. _coarsen_rate:
+
+coarsen_rate
+============
+
+.. currentmodule:: ansys.fluent.core.solver.settings.coarsen_rate
+
+.. autoclass:: coarsen_rate
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+================   ============
+
+Parent                  Summary
+
+================   ============
+:ref:`amg <amg>`   'amg' child.
+
+================   ============
+

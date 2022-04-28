@@ -1,0 +1,33 @@
+.. _zoom:
+
+zoom
+====
+
+.. currentmodule:: ansys.fluent.core.solver.settings.zoom
+
+.. autoclass:: zoom
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, argument_names
+.. rubric:: Arguments
+
+======================   ===============
+
+Argument                         Summary
+
+======================   ===============
+:ref:`factor <factor>`   'factor' child.
+
+======================   ===============
+
+.. rubric:: Included in:
+
+======================   ===============
+
+Parent                           Summary
+
+======================   ===============
+:ref:`camera <camera>`   'camera' child.
+
+======================   ===============
+

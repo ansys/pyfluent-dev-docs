@@ -1,0 +1,22 @@
+.. _enable_1:
+
+enable
+======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.enable_1
+
+.. autoclass:: enable
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+============================================================   ==================================
+
+Parent                                                                                    Summary
+
+============================================================   ==================================
+:ref:`auto_dt_advanced_controls <auto_dt_advanced_controls>`   'auto_dt_advanced_controls' child.
+
+============================================================   ==================================
+

@@ -1,0 +1,27 @@
+.. _solid:
+
+solid
+=====
+
+.. currentmodule:: ansys.fluent.core.solver.settings.solid
+
+.. autoclass:: solid
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Named object type
+
+:ref:`fluid_child <fluid_child>`
+
+
+.. rubric:: Included in:
+
+============================   ==================
+
+Parent                                    Summary
+
+============================   ==================
+:ref:`materials <materials>`   'materials' child.
+
+============================   ==================
+

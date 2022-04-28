@@ -1,0 +1,24 @@
+.. _vector_field:
+
+vector_field
+============
+
+.. currentmodule:: ansys.fluent.core.solver.settings.vector_field
+
+.. autoclass:: vector_field
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==================================   ==============================
+
+Parent                                                      Summary
+
+==================================   ==============================
+:ref:`vector_child <vector_child>`   'child_object_type' of vector.
+
+:ref:`lic_child <lic_child>`            'child_object_type' of lic.
+
+==================================   ==============================
+

@@ -1,0 +1,22 @@
+.. _scheme:
+
+scheme
+======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.scheme
+
+.. autoclass:: scheme
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+========================   ================
+
+Parent                              Summary
+
+========================   ================
+:ref:`spatial <spatial>`   'spatial' child.
+
+========================   ================
+

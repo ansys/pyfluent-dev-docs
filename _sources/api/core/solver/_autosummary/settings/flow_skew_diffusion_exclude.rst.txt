@@ -1,0 +1,22 @@
+.. _flow_skew_diffusion_exclude:
+
+flow_skew_diffusion_exclude
+===========================
+
+.. currentmodule:: ansys.fluent.core.solver.settings.flow_skew_diffusion_exclude
+
+.. autoclass:: flow_skew_diffusion_exclude
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+========================   ================
+
+Parent                              Summary
+
+========================   ================
+:ref:`spatial <spatial>`   'spatial' child.
+
+========================   ================
+

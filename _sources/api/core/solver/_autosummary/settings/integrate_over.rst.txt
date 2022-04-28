@@ -1,0 +1,22 @@
+.. _integrate_over:
+
+integrate_over
+==============
+
+.. currentmodule:: ansys.fluent.core.solver.settings.integrate_over
+
+.. autoclass:: integrate_over
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+================================================   =====================================
+
+Parent                                                                           Summary
+
+================================================   =====================================
+:ref:`aeromechanics_child <aeromechanics_child>`   'child_object_type' of aeromechanics.
+
+================================================   =====================================
+

@@ -1,0 +1,33 @@
+.. _save_as:
+
+save_as
+=======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.save_as
+
+.. autoclass:: save_as
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, argument_names
+.. rubric:: Arguments
+
+==========================================   =========================
+
+Argument                                                       Summary
+
+==========================================   =========================
+:ref:`project_filename <project_filename>`   'project_filename' child.
+
+==========================================   =========================
+
+.. rubric:: Included in:
+
+==============================================   ===========================
+
+Parent                                                               Summary
+
+==============================================   ===========================
+:ref:`parametric_project <parametric_project>`   'parametric_project' child.
+
+==============================================   ===========================
+

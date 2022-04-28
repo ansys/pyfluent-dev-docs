@@ -1,0 +1,22 @@
+.. _correction_reduction:
+
+correction_reduction
+====================
+
+.. currentmodule:: ansys.fluent.core.solver.settings.correction_reduction
+
+.. autoclass:: correction_reduction
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+============================================   ==========================
+
+Parent                                                            Summary
+
+============================================   ==========================
+:ref:`relaxation_factor <relaxation_factor>`   'relaxation_factor' child.
+
+============================================   ==========================
+

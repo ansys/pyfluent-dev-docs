@@ -1,0 +1,22 @@
+.. _compute:
+
+compute
+=======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.compute
+
+.. autoclass:: compute
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==========================   ================
+
+Parent                                Summary
+
+==========================   ================
+:ref:`compute <compute_1>`   'compute' child.
+
+==========================   ================
+

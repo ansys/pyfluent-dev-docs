@@ -1,0 +1,38 @@
+.. _mesh_1:
+
+mesh
+====
+
+.. currentmodule:: ansys.fluent.core.solver.settings.mesh_1
+
+.. autoclass:: mesh
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, command_names
+.. rubric:: Commands
+
+========================   ==================
+
+Command                               Summary
+
+========================   ==================
+:ref:`display <display>`   'display' command.
+
+========================   ==================
+
+.. rubric:: Named object type
+
+:ref:`mesh_child <mesh_child_1>`
+
+
+.. rubric:: Included in:
+
+==========================   =================
+
+Parent                                 Summary
+
+==========================   =================
+:ref:`graphics <graphics>`   'graphics' child.
+
+==========================   =================
+

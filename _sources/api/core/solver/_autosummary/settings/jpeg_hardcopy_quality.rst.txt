@@ -1,0 +1,22 @@
+.. _jpeg_hardcopy_quality:
+
+jpeg_hardcopy_quality
+=====================
+
+.. currentmodule:: ansys.fluent.core.solver.settings.jpeg_hardcopy_quality
+
+.. autoclass:: jpeg_hardcopy_quality
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+========================================   ========================
+
+Parent                                                      Summary
+
+========================================   ========================
+:ref:`picture_options <picture_options>`   'picture_options' child.
+
+========================================   ========================
+

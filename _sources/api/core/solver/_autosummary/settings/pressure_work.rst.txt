@@ -1,0 +1,22 @@
+.. _pressure_work:
+
+pressure_work
+=============
+
+.. currentmodule:: ansys.fluent.core.solver.settings.pressure_work
+
+.. autoclass:: pressure_work
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+======================   ===============
+
+Parent                           Summary
+
+======================   ===============
+:ref:`energy <energy>`   'energy' child.
+
+======================   ===============
+

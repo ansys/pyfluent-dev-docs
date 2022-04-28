@@ -1,0 +1,22 @@
+.. _in_:
+
+in_
+===
+
+.. currentmodule:: ansys.fluent.core.solver.settings.in_
+
+.. autoclass:: in_
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+====================   ======================================
+
+Parent                                                Summary
+
+====================   ======================================
+:ref:`dolly <dolly>`   Adjust the camera position and target.
+
+====================   ======================================
+

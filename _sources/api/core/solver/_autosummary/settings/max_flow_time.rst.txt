@@ -1,0 +1,22 @@
+.. _max_flow_time:
+
+max_flow_time
+=============
+
+.. currentmodule:: ansys.fluent.core.solver.settings.max_flow_time
+
+.. autoclass:: max_flow_time
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==============================================   ===========================
+
+Parent                                                               Summary
+
+==============================================   ===========================
+:ref:`transient_controls <transient_controls>`   'transient_controls' child.
+
+==============================================   ===========================
+

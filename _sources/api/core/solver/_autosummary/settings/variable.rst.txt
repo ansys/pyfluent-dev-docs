@@ -1,0 +1,35 @@
+.. _variable:
+
+variable
+========
+
+.. currentmodule:: ansys.fluent.core.solver.settings.variable
+
+.. autoclass:: variable
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, child_names
+.. rubric:: Children
+
+========================   ================
+
+Child                               Summary
+
+========================   ================
+:ref:`size_by <size_by>`   'size_by' child.
+
+:ref:`range <range>`         'range' child.
+
+========================   ================
+
+.. rubric:: Included in:
+
+==========================   ================
+
+Parent                                Summary
+
+==========================   ================
+:ref:`options <options_8>`   'options' child.
+
+==========================   ================
+

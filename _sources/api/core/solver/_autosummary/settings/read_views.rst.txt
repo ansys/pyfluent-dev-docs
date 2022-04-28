@@ -1,0 +1,33 @@
+.. _read_views:
+
+read_views
+==========
+
+.. currentmodule:: ansys.fluent.core.solver.settings.read_views
+
+.. autoclass:: read_views
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, argument_names
+.. rubric:: Arguments
+
+==========================   =================
+
+Argument                               Summary
+
+==========================   =================
+:ref:`filename <filename>`   'filename' child.
+
+==========================   =================
+
+.. rubric:: Included in:
+
+====================   ==============
+
+Parent                        Summary
+
+====================   ==============
+:ref:`views <views>`   'views' child.
+
+====================   ==============
+

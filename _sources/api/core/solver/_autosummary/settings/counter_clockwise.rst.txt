@@ -1,0 +1,22 @@
+.. _counter_clockwise:
+
+counter_clockwise
+=================
+
+.. currentmodule:: ansys.fluent.core.solver.settings.counter_clockwise
+
+.. autoclass:: counter_clockwise
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==================   ============================
+
+Parent                                    Summary
+
+==================   ============================
+:ref:`roll <roll>`   Adjust the camera up-vector.
+
+==================   ============================
+

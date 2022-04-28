@@ -1,0 +1,33 @@
+.. _target:
+
+target
+======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.target
+
+.. autoclass:: target
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, argument_names
+.. rubric:: Arguments
+
+================   ============
+
+Argument                Summary
+
+================   ============
+:ref:`xyz <xyz>`   'xyz' child.
+
+================   ============
+
+.. rubric:: Included in:
+
+======================   ===============
+
+Parent                           Summary
+
+======================   ===============
+:ref:`camera <camera>`   'camera' child.
+
+======================   ===============
+

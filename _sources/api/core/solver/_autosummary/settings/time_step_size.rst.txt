@@ -1,0 +1,22 @@
+.. _time_step_size:
+
+time_step_size
+==============
+
+.. currentmodule:: ansys.fluent.core.solver.settings.time_step_size
+
+.. autoclass:: time_step_size
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==============================================   ===========================
+
+Parent                                                               Summary
+
+==============================================   ===========================
+:ref:`transient_controls <transient_controls>`   'transient_controls' child.
+
+==============================================   ===========================
+

@@ -1,0 +1,35 @@
+.. _gravity_1:
+
+gravity
+=======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.gravity_1
+
+.. autoclass:: gravity
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, child_names
+.. rubric:: Children
+
+==============================   ===============================
+
+Child                                                    Summary
+
+==============================   ===============================
+:ref:`gravity <gravity>`         Set gravitational acceleration.
+
+:ref:`components <components>`               'components' child.
+
+==============================   ===============================
+
+.. rubric:: Included in:
+
+========================   ================
+
+Parent                              Summary
+
+========================   ================
+:ref:`general <general>`   'general' child.
+
+========================   ================
+

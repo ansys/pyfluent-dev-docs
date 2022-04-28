@@ -1,0 +1,22 @@
+.. _static_shadows:
+
+static_shadows
+==============
+
+.. currentmodule:: ansys.fluent.core.solver.settings.static_shadows
+
+.. autoclass:: static_shadows
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==================================================   ======================================
+
+Parent                                                                              Summary
+
+==================================================   ======================================
+:ref:`display_states_child <display_states_child>`   'child_object_type' of display_states.
+
+==================================================   ======================================
+

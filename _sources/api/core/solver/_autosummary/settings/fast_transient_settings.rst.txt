@@ -1,0 +1,33 @@
+.. _fast_transient_settings:
+
+fast_transient_settings
+=======================
+
+.. currentmodule:: ansys.fluent.core.solver.settings.fast_transient_settings
+
+.. autoclass:: fast_transient_settings
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, child_names
+.. rubric:: Children
+
+================   ============
+
+Child                   Summary
+
+================   ============
+:ref:`rk2 <rk2>`   'rk2' child.
+
+================   ============
+
+.. rubric:: Included in:
+
+==========================   =================
+
+Parent                                 Summary
+
+==========================   =================
+:ref:`advanced <advanced>`   'advanced' child.
+
+==========================   =================
+

@@ -1,0 +1,22 @@
+.. _window_dump_cmd:
+
+window_dump_cmd
+===============
+
+.. currentmodule:: ansys.fluent.core.solver.settings.window_dump_cmd
+
+.. autoclass:: window_dump_cmd
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+======================================   =======================
+
+Parent                                                   Summary
+
+======================================   =======================
+:ref:`driver_options <driver_options>`   'driver_options' child.
+
+======================================   =======================
+

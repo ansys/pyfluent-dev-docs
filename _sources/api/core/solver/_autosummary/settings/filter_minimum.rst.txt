@@ -1,0 +1,22 @@
+.. _filter_minimum:
+
+filter_minimum
+==============
+
+.. currentmodule:: ansys.fluent.core.solver.settings.filter_minimum
+
+.. autoclass:: filter_minimum
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+========================================   ========================
+
+Parent                                                      Summary
+
+========================================   ========================
+:ref:`filter_settings <filter_settings>`   'filter_settings' child.
+
+========================================   ========================
+

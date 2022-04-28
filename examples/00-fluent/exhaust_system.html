@@ -1,0 +1,954 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Exhaust System: Fault-tolerant Meshing &#8212; PyFluent</title>
+    
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/blank.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/thebelab.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-binder.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-dataframe.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/sg_gallery-rendered-html.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    
+        <link href="../../_static/css/breadcrumbs.css" rel="stylesheet">
+    
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/thebelab-helper.js"></script>
+    <script src="../../_static/clipboard.min.js"></script>
+    <script src="../../_static/copybutton.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Fluid Flow and Heat Transfer in a Mixing Elbow" href="mixing_elbow.html" />
+    <link rel="prev" title="Examples" href="../index.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><style>
+    .navbar-light {
+        background-color: black !important;
+    }
+</style>
+
+<div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="https://docs.pyansys.com/">
+  <img src="../../_static/pyansys-logo-black-cropped.png" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" >
+      <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+    </span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../getting_started/index.html">
+  Getting Started
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../users_guide/index.html">
+  User’s Guide
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../api/index.html">
+  API Reference
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="../index.html">
+  Examples
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../contributing.html">
+  Contributing
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/pyansys/pyfluent" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+    
+        <div class="container-xl">
+    <div class="row">
+        <div class="col-12 col-md-3" id="breadcrumbs-spacer"></div>
+        <div class="col-12 col-md-11 col-xl-9" id="breadcrumbs">
+          
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+    
+        <li class="nav-item nav-item-additional-breadcrumb"><a href="https://docs.pyansys.com/">PyAnsys</a> » </li>
+    
+    
+        <li class="nav-item nav-item-0"><a href="../../index.html">PyFluent</a> » </li>
+    
+
+          <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Examples</a> » </li>
+        <li class="nav-item nav-item-this"><a href="">Exhaust System: Fault-tolerant Meshing</a></li> 
+      </ul>
+    </div>
+        </div>
+  </div>
+</div>
+    
+
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Exhaust System: Fault-tolerant Meshing
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="mixing_elbow.html">
+   Fluid Flow and Heat Transfer in a Mixing Elbow
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../01-parametric/parametric_static_mixer_1.html">
+   Parametric Study Workflow
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../01-parametric/parametric_static_mixer_2.html">
+   Parametric Project-Based Workflow
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../01-parametric/parametric_static_mixer_3.html">
+   Parametric Session Workflow
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../02-postprocessing/post_processing_exhaust_manifold.html">
+   Post Processing using PyVista and Matplotlib: Exhaust Manifold
+  </a>
+ </li>
+</ul>
+
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+
+<nav id="bd-toc-nav">
+    
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <div class="sphx-glr-download-link-note admonition note">
+<p class="admonition-title">Note</p>
+<p>Click <a class="reference internal" href="#sphx-glr-download-examples-00-fluent-exhaust-system-py"><span class="std std-ref">here</span></a>
+to download the full example code</p>
+</div>
+<section class="sphx-glr-example-title" id="exhaust-system-fault-tolerant-meshing">
+<span id="ref-exhaust-system-tui-api"></span><span id="sphx-glr-examples-00-fluent-exhaust-system-py"></span><h1>Exhaust System: Fault-tolerant Meshing<a class="headerlink" href="#exhaust-system-fault-tolerant-meshing" title="Permalink to this headline">¶</a></h1>
+<p>This tutorial illustrates the setup and solution of a three-dimensional
+turbulent fluid flow in a manifold exhaust system. The manifold configuration
+is encountered in the automotive industry. It is often important to predict
+the flow field in the area of the mixing region in order to properly design
+the junction. You will use the Fault-tolerant Meshing guided workflow, which
+unlike the watertight workflow used in Fluid Flow in a Mixing Elbow, is
+appropriate for geometries with imperfections, such as gaps and leakages.</p>
+<p>This tutorial demonstrates how to do the following in Ansys Fluent:</p>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Use the Fault-tolerant Meshing guided workflow to:</dt><dd><ul>
+<li><p>Import a CAD geometry and manage individual parts</p></li>
+<li><p>Generate a surface mesh</p></li>
+<li><p>Cap inlets and outlets</p></li>
+<li><p>Extract a fluid region</p></li>
+<li><p>Define leakages</p></li>
+<li><p>Extract edge features</p></li>
+<li><p>Setup size controls</p></li>
+<li><p>Generate a volume mesh</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Set up appropriate physics and boundary conditions.</p></li>
+<li><p>Calculate a solution.</p></li>
+<li><p>Review the results of the simulation.</p></li>
+</ul>
+<p>Problem Description:</p>
+<p>Air flows through the three inlets with a uniform velocity of 1 m/s, and then
+exits through the outlet. A small pipe is placed in the main portion of the
+manifold where edge extraction will be considered. There is also a known small
+leakage included that will be addressed in the meshing portion of the tutorial
+to demonstrate the automatic leakage detection aspects of the meshing workflow.</p>
+<p>First, connect with a Fluent server</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
+<span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
+
+<a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_filename</span></a> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">download_file</span><span class="p">(</span>
+    <span class="s2">&quot;exhaust_system.fmd&quot;</span><span class="p">,</span> <span class="s2">&quot;pyfluent/exhaust_system&quot;</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Start Fluent in double precision running on 2 processors</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
+    <span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Select the Fault Tolerant Meshing Workflow</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">InitializeWorkflow</span><span class="p">(</span><span class="n">WorkflowType</span><span class="o">=</span><span class="s2">&quot;Fault-tolerant Meshing&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+<p>Import the CAD geometry (exhaust_system.fmd). Perform some selective part
+management.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">part_management</span><span class="o">.</span><span class="n">InputFileChanged</span><span class="p">(</span>
+    <span class="n">FilePath</span><span class="o">=</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_filename</span></a><span class="p">,</span> <span class="n">IgnoreSolidNames</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">PartPerBody</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">PMFileManagement</span><span class="o">.</span><span class="n">FileManager</span><span class="o">.</span><span class="n">LoadFiles</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">part_management</span><span class="o">.</span><span class="n">Node</span><span class="p">[</span><span class="s2">&quot;Meshing Model&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Copy</span><span class="p">(</span>
+    <span class="n">Paths</span><span class="o">=</span><span class="p">[</span>
+        <span class="s2">&quot;/dirty_manifold-for-wrapper,&quot;</span> <span class="o">+</span> <span class="s2">&quot;1/dirty_manifold-for-wrapper,1/main,1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;/dirty_manifold-for-wrapper,&quot;</span> <span class="o">+</span> <span class="s2">&quot;1/dirty_manifold-for-wrapper,1/flow-pipe,1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;/dirty_manifold-for-wrapper,&quot;</span> <span class="o">+</span> <span class="s2">&quot;1/dirty_manifold-for-wrapper,1/outpipe3,1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;/dirty_manifold-for-wrapper,&quot;</span> <span class="o">+</span> <span class="s2">&quot;1/dirty_manifold-for-wrapper,1/object2,1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;/dirty_manifold-for-wrapper,&quot;</span> <span class="o">+</span> <span class="s2">&quot;1/dirty_manifold-for-wrapper,1/object1,1&quot;</span><span class="p">,</span>
+    <span class="p">]</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">part_management</span><span class="o">.</span><span class="n">ObjectSetting</span><span class="p">[</span><span class="s2">&quot;DefaultObjectSetting&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">OneZonePer</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="s2">&quot;part&quot;</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Import CAD and Part Management&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;Context&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="s2">&quot;CreateObjectPer&quot;</span><span class="p">:</span> <span class="s2">&quot;Custom&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;FMDFileName&quot;</span><span class="p">:</span> <span class="s2">&quot;import_filenamed&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;FileLoaded&quot;</span><span class="p">:</span> <span class="s2">&quot;yes&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ObjectSetting&quot;</span><span class="p">:</span> <span class="s2">&quot;DefaultObjectSetting&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;Options&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;Line&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;Solid&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;Surface&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="p">},</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Import CAD and Part Management&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>&#39;*the-non-printing-object*&#39;
+</pre></div>
+</div>
+<p>Provide a description for the geometry and the flow characteristics.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry and Flow&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;AddEnclosure&quot;</span><span class="p">:</span> <span class="s2">&quot;No&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;CloseCaps&quot;</span><span class="p">:</span> <span class="s2">&quot;Yes&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;FlowType&quot;</span><span class="p">:</span> <span class="s2">&quot;Internal flow through the object&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry and Flow&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">UpdateChildTasks</span><span class="p">(</span>
+    <span class="n">SetupTypeChanged</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry and Flow&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;AddEnclosure&quot;</span><span class="p">:</span> <span class="s2">&quot;No&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;CloseCaps&quot;</span><span class="p">:</span> <span class="s2">&quot;Yes&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;DescribeGeometryAndFlowOptions&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;AdvancedOptions&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s2">&quot;ExtractEdgeFeatures&quot;</span><span class="p">:</span> <span class="s2">&quot;Yes&quot;</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;FlowType&quot;</span><span class="p">:</span> <span class="s2">&quot;Internal flow through the object&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry and Flow&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">UpdateChildTasks</span><span class="p">(</span>
+    <span class="n">SetupTypeChanged</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry and Flow&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+<p>Cover any openings in your geometry.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;CreatePatchPreferences&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;ShowCreatePatchPreferences&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;inlet-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;inlet.1&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;CreatePatchPreferences&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;ShowCreatePatchPreferences&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;inlet-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneLocation&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;351.68205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-361.34322&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-301.88668&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;396.96205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-332.84759&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-266.69751&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inlet.1&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;inlet.1&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;inlet-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;inlet-2&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;inlet.2&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;inlet-2&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneLocation&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;441.68205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-361.34322&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-301.88668&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;486.96205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-332.84759&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-266.69751&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inlet.2&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;inlet.2&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;inlet-2&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;inlet-3&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;inlet&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;inlet-3&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneLocation&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;261.68205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-361.34322&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-301.88668&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;306.96205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-332.84759&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-266.69751&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inlet&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;inlet&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;inlet-3&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;outlet-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;outlet&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;ZoneType&quot;</span><span class="p">:</span> <span class="s2">&quot;pressure-outlet&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;outlet-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneLocation&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;352.22702&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-197.8957&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;84.102381&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;394.41707&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-155.70565&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;84.102381&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;outlet&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;outlet&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;ZoneType&quot;</span><span class="p">:</span> <span class="s2">&quot;pressure-outlet&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;outlet-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+<p>Extract edge features.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Extract Edge Features&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;ExtractMethodType&quot;</span><span class="p">:</span> <span class="s2">&quot;Intersection Loops&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ObjectSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;flow_pipe&quot;</span><span class="p">,</span> <span class="s2">&quot;main&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Extract Edge Features&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Extract Edge Features&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;edge-group-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;ExtractEdgesName&quot;</span><span class="p">:</span> <span class="s2">&quot;edge-group-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ExtractMethodType&quot;</span><span class="p">:</span> <span class="s2">&quot;Intersection Loops&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ObjectSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;flow_pipe&quot;</span><span class="p">,</span> <span class="s2">&quot;main&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Extract Edge Features&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;edge-group-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+<p>Identify regions.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;X&quot;</span><span class="p">:</span> <span class="mf">377.322045740589</span><span class="p">,</span>
+        <span class="s2">&quot;Y&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">176.800676988458</span><span class="p">,</span>
+        <span class="s2">&quot;Z&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">37.0764628583475</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;main.1&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;X&quot;</span><span class="p">:</span> <span class="mf">377.322045740589</span><span class="p">,</span>
+        <span class="s2">&quot;Y&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">176.800676988458</span><span class="p">,</span>
+        <span class="s2">&quot;Z&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">37.0764628583475</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneLocation&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;213.32205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-225.28068&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-158.25531&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;541.32205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-128.32068&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;84.102381&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;main.1&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;main.1&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;fluid-region-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;MaterialPointsName&quot;</span><span class="p">:</span> <span class="s2">&quot;fluid-region-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;X&quot;</span><span class="p">:</span> <span class="mf">377.322045740589</span><span class="p">,</span>
+        <span class="s2">&quot;Y&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">176.800676988458</span><span class="p">,</span>
+        <span class="s2">&quot;Z&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">37.0764628583475</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneLocation&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;213.32205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-225.28068&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-158.25531&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;541.32205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-128.32068&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;84.102381&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;main.1&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;main.1&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;fluid-region-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;MaterialPointsName&quot;</span><span class="p">:</span> <span class="s2">&quot;void-region-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;NewRegionType&quot;</span><span class="p">:</span> <span class="s2">&quot;void&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ObjectSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;inlet-1&quot;</span><span class="p">,</span> <span class="s2">&quot;inlet-2&quot;</span><span class="p">,</span> <span class="s2">&quot;inlet-3&quot;</span><span class="p">,</span> <span class="s2">&quot;main&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;X&quot;</span><span class="p">:</span> <span class="mf">374.722045740589</span><span class="p">,</span>
+        <span class="s2">&quot;Y&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">278.9775145640143</span><span class="p">,</span>
+        <span class="s2">&quot;Z&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">161.1700719416913</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;void-region-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+<p>Define thresholds for any potential leakages.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Define Leakage Threshold&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;AddChild&quot;</span><span class="p">:</span> <span class="s2">&quot;yes&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;FlipDirection&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="s2">&quot;PlaneDirection&quot;</span><span class="p">:</span> <span class="s2">&quot;X&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;RegionSelectionSingle&quot;</span><span class="p">:</span> <span class="s2">&quot;void-region-1&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Define Leakage Threshold&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Define Leakage Threshold&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;leakage-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;AddChild&quot;</span><span class="p">:</span> <span class="s2">&quot;yes&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;FlipDirection&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="s2">&quot;LeakageName&quot;</span><span class="p">:</span> <span class="s2">&quot;leakage-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;PlaneDirection&quot;</span><span class="p">:</span> <span class="s2">&quot;X&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;RegionSelectionSingle&quot;</span><span class="p">:</span> <span class="s2">&quot;void-region-1&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Define Leakage Threshold&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;AddChild&quot;</span><span class="p">:</span> <span class="s2">&quot;yes&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;leakage-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+<p>Review your region settings.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Region Settings&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;AllRegionFilterCategories&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;2&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;1&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span><span class="p">,</span>
+        <span class="s2">&quot;AllRegionLeakageSizeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;none&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">6</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;6.4&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;AllRegionLinkedConstructionSurfaceList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;n/a&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">6</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;no&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;AllRegionMeshMethodList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;none&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">6</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;wrap&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;AllRegionNameList&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;main&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;flow_pipe&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;outpipe3&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;object2&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;object1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;void-region-1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;fluid-region-1&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;AllRegionOversetComponenList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;no&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">7</span><span class="p">,</span>
+        <span class="s2">&quot;AllRegionSourceList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;object&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;mpt&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span><span class="p">,</span>
+        <span class="s2">&quot;AllRegionTypeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;void&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">6</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;fluid&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;AllRegionVolumeFillList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;none&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">6</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;tet&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;FilterCategory&quot;</span><span class="p">:</span> <span class="s2">&quot;Identified Regions&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;OldRegionLeakageSizeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;OldRegionMeshMethodList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;wrap&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;OldRegionNameList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;fluid-region-1&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;OldRegionOversetComponenList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;no&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;OldRegionTypeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;fluid&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;OldRegionVolumeFillList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;hexcore&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;RegionLeakageSizeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;RegionMeshMethodList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;wrap&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;RegionNameList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;fluid-region-1&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;RegionOversetComponenList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;no&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;RegionTypeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;fluid&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;RegionVolumeFillList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;tet&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Region Settings&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+<p>Select options for controlling the mesh.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Choose Mesh Control Options&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+<p>Generate the surface mesh.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Surface Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+<p>Confirm and update the boundaries.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Boundaries&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+<p>Add boundary layers.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;aspect-ratio_1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;BLControlName&quot;</span><span class="p">:</span> <span class="s2">&quot;aspect-ratio_1&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;aspect-ratio_1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+<p>Generate the volume mesh.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Volume Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;AllRegionNameList&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;main&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;flow_pipe&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;outpipe3&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;object2&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;object1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;void-region-1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;fluid-region-1&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;AllRegionSizeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;11.33375&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">7</span><span class="p">,</span>
+        <span class="s2">&quot;AllRegionVolumeFillList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;none&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">6</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;tet&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;EnableParallel&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Volume Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-script-out">Out:</p>
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>True
+</pre></div>
+</div>
+<p>Check the mesh.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">check_mesh</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Switch to Solution mode.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">switch_to_solution_mode</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">check</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Set the units for length</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">units</span><span class="p">(</span><span class="s2">&quot;length&quot;</span><span class="p">,</span> <span class="s2">&quot;mm&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Select kw sst turbulence model</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">kw_sst</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Set the velocity and turbulence boundary conditions for the first inlet
+(inlet-1).</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
+    <span class="s2">&quot;inlet-1&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;vmag&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Apply the same conditions for the other velocity inlet boundaries (inlet_2,
+and inlet_3).</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">copy_bc</span><span class="p">(</span>
+    <span class="s2">&quot;inlet-1&quot;</span><span class="p">,</span> <span class="s2">&quot;inlet-2&quot;</span><span class="p">,</span> <span class="s2">&quot;inlet-3&quot;</span><span class="p">,</span> <span class="p">()</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Set the boundary conditions at the outlet (outlet-1).</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">pressure_outlet</span><span class="p">(</span>
+    <span class="s2">&quot;outlet-1&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-intensity&quot;</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">monitors</span><span class="o">.</span><span class="n">residual</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Initialize the flow field using the Initialization</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">initialize</span><span class="o">.</span><span class="n">hyb_initialization</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>Start the calculation by requesting 100 iterations</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">number_of_iterations</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">iterate</span><span class="p">()</span>
+
+<span class="c1"># session.tui.solver.report.volume_integrals.volume(&quot;fluid-region-1&quot;,&quot;()&quot;,&quot;yes&quot;,&quot;volume.vrp&quot;)</span>
+</pre></div>
+</div>
+<p>Display path lines highlighting the flow field</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;pathlines&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;pathlines-1&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;field&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;time&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;accuracy-control&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;tolerance&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;0.001&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;skip&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;5&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;surfaces-list&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;inlet-1&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;inlet-2&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;inlet-3&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;()&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="c1"># session.tui.solver.display.objects.display(&quot;pathlines-1&quot;)</span>
+</pre></div>
+</div>
+<p>Create an iso-surface through the manifold geometry.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">surface</span><span class="o">.</span><span class="n">iso_surface</span><span class="p">(</span>
+    <span class="s2">&quot;x-coordinate&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;surf-x-coordinate&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;()&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;fluid-region-1&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;()&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;380&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;()&quot;</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Create and define contours of velocity magnitude throughout the manifold
+along with the mesh.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;contour&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;contour-velocity&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;field&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;velocity-magnitude&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;surfaces-list&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;surf-x-coordinate&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;()&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;node-values?&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;range-option&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;auto-range-on&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;global-range?&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="c1"># session.tui.solver.display.objects.display(&quot;contour-velocity&quot;)</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;mesh&quot;</span><span class="p">,</span> <span class="s2">&quot;mesh-1&quot;</span><span class="p">,</span> <span class="s2">&quot;surfaces-list&quot;</span><span class="p">,</span> <span class="s2">&quot;*&quot;</span><span class="p">,</span> <span class="s2">&quot;()&quot;</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>Create a scene containing the mesh and the contours.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+    <span class="s2">&quot;scene&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;scene-1&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;graphics-objects&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;add&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;mesh-1&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;transparency&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;90&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;add&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;contour-velocity&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
+<span class="p">)</span>
+<span class="c1"># session.tui.solver.display.objects.display(&quot;scene-1&quot;)</span>
+</pre></div>
+</div>
+<p>Save case, data and exit.
+session.tui.solver.file.write_case_data(“exhaust_system.cas.h5”)</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># session.exit()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 4 minutes  22.866 seconds)</p>
+<div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-00-fluent-exhaust-system-py">
+<div class="sphx-glr-download sphx-glr-download-python docutils container">
+<p><a class="reference download internal" download="" href="../../_downloads/c1cc34af98766a17c3ec444694803a65/exhaust_system.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">exhaust_system.py</span></code></a></p>
+</div>
+<div class="sphx-glr-download sphx-glr-download-jupyter docutils container">
+<p><a class="reference download internal" download="" href="../../_downloads/b2f5fb39e0846f25c7db2b8d1322ccfe/exhaust_system.ipynb"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Jupyter</span> <span class="pre">notebook:</span> <span class="pre">exhaust_system.ipynb</span></code></a></p>
+</div>
+</div>
+<p class="sphx-glr-signature"><a class="reference external" href="https://sphinx-gallery.github.io">Gallery generated by Sphinx-Gallery</a></p>
+</section>
+
+
+              </div>
+              
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright (c) 2022 ANSYS, Inc. All rights reserved.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

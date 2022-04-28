@@ -1,0 +1,33 @@
+.. _up_vector:
+
+up_vector
+=========
+
+.. currentmodule:: ansys.fluent.core.solver.settings.up_vector
+
+.. autoclass:: up_vector
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, argument_names
+.. rubric:: Arguments
+
+================   ============
+
+Argument                Summary
+
+================   ============
+:ref:`xyz <xyz>`   'xyz' child.
+
+================   ============
+
+.. rubric:: Included in:
+
+======================   ===============
+
+Parent                           Summary
+
+======================   ===============
+:ref:`camera <camera>`   'camera' child.
+
+======================   ===============
+

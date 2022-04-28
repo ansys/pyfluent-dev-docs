@@ -1,0 +1,22 @@
+.. _x_comp:
+
+x_comp
+======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.x_comp
+
+.. autoclass:: x_comp
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==============================   ===================
+
+Parent                                       Summary
+
+==============================   ===================
+:ref:`vector_opt <vector_opt>`   'vector_opt' child.
+
+==============================   ===================
+

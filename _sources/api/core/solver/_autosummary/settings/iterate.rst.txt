@@ -1,0 +1,33 @@
+.. _iterate:
+
+iterate
+=======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.iterate
+
+.. autoclass:: iterate
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, argument_names
+.. rubric:: Arguments
+
+====================================================   ====================================
+
+Argument                                                                            Summary
+
+====================================================   ====================================
+:ref:`number_of_iterations <number_of_iterations_1>`   Set inceremtal number of Time steps.
+
+====================================================   ====================================
+
+.. rubric:: Included in:
+
+========================================   ========================
+
+Parent                                                      Summary
+
+========================================   ========================
+:ref:`run_calculation <run_calculation>`   'run_calculation' child.
+
+========================================   ========================
+

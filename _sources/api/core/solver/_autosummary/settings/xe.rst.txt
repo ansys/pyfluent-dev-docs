@@ -1,0 +1,22 @@
+.. _xe:
+
+xe
+==
+
+.. currentmodule:: ansys.fluent.core.solver.settings.xe
+
+.. autoclass:: xe
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==================================================   ======================================
+
+Parent                                                                              Summary
+
+==================================================   ======================================
+:ref:`beach_dir_list_child <beach_dir_list_child>`   'child_object_type' of beach_dir_list.
+
+==================================================   ======================================
+

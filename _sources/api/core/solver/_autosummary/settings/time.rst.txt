@@ -1,0 +1,22 @@
+.. _time:
+
+time
+====
+
+.. currentmodule:: ansys.fluent.core.solver.settings.time
+
+.. autoclass:: time
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+======================   ===============
+
+Parent                           Summary
+
+======================   ===============
+:ref:`solver <solver>`   'solver' child.
+
+======================   ===============
+

@@ -1,0 +1,22 @@
+.. _velocity:
+
+velocity
+========
+
+.. currentmodule:: ansys.fluent.core.solver.settings.velocity
+
+.. autoclass:: velocity
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==========================================   =========================
+
+Parent                                                         Summary
+
+==========================================   =========================
+:ref:`reference_values <reference_values>`   'reference_values' child.
+
+==========================================   =========================
+

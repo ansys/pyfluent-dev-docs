@@ -1,0 +1,27 @@
+.. _flux:
+
+flux
+====
+
+.. currentmodule:: ansys.fluent.core.solver.settings.flux
+
+.. autoclass:: flux
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Named object type
+
+:ref:`flux_child <flux_child>`
+
+
+.. rubric:: Included in:
+
+==============================================   ===========================
+
+Parent                                                               Summary
+
+==============================================   ===========================
+:ref:`report_definitions <report_definitions>`   'report_definitions' child.
+
+==============================================   ===========================
+

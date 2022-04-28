@@ -1,0 +1,22 @@
+.. _inside:
+
+inside
+======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.inside
+
+.. autoclass:: inside
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==========================   ================
+
+Parent                                Summary
+
+==========================   ================
+:ref:`options <options_7>`   'options' child.
+
+==========================   ================
+

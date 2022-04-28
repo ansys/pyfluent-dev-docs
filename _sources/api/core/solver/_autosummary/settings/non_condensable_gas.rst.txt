@@ -1,0 +1,22 @@
+.. _non_condensable_gas:
+
+non_condensable_gas
+===================
+
+.. currentmodule:: ansys.fluent.core.solver.settings.non_condensable_gas
+
+.. autoclass:: non_condensable_gas
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==============================   ===================
+
+Parent                                       Summary
+
+==============================   ===================
+:ref:`multiphase <multiphase>`   'multiphase' child.
+
+==============================   ===================
+

@@ -1,0 +1,35 @@
+.. _impedance_1_child:
+
+impedance_1_child
+=================
+
+.. currentmodule:: ansys.fluent.core.solver.settings.impedance_1_child
+
+.. autoclass:: impedance_1_child
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, child_names
+.. rubric:: Children
+
+============================   ==================
+
+Child                                     Summary
+
+============================   ==================
+:ref:`pole <pole>`                  'pole' child.
+
+:ref:`amplitude <amplitude>`   'amplitude' child.
+
+============================   ==================
+
+.. rubric:: Included in:
+
+================================   ====================
+
+Parent                                          Summary
+
+================================   ====================
+:ref:`impedance_1 <impedance_1>`   'impedance_1' child.
+
+================================   ====================
+

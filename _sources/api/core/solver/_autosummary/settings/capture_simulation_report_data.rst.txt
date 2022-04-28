@@ -1,0 +1,22 @@
+.. _capture_simulation_report_data:
+
+capture_simulation_report_data
+==============================
+
+.. currentmodule:: ansys.fluent.core.solver.settings.capture_simulation_report_data
+
+.. autoclass:: capture_simulation_report_data
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+======================   =====================
+
+Parent                                 Summary
+
+======================   =====================
+:ref:`create <create>`   Add new Design Point.
+
+======================   =====================
+

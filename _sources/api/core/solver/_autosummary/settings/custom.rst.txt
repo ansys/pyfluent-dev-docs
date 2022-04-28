@@ -1,0 +1,27 @@
+.. _custom:
+
+custom
+======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.custom
+
+.. autoclass:: custom
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Named object type
+
+:ref:`phase_child <phase_child_10>`
+
+
+.. rubric:: Included in:
+
+==============================================   ===========================
+
+Parent                                                               Summary
+
+==============================================   ===========================
+:ref:`report_definitions <report_definitions>`   'report_definitions' child.
+
+==============================================   ===========================
+

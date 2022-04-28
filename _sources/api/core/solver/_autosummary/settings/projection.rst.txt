@@ -1,0 +1,33 @@
+.. _projection:
+
+projection
+==========
+
+.. currentmodule:: ansys.fluent.core.solver.settings.projection
+
+.. autoclass:: projection
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, argument_names
+.. rubric:: Arguments
+
+====================   =============
+
+Argument                     Summary
+
+====================   =============
+:ref:`type <type_1>`   'type' child.
+
+====================   =============
+
+.. rubric:: Included in:
+
+======================   ===============
+
+Parent                           Summary
+
+======================   ===============
+:ref:`camera <camera>`   'camera' child.
+
+======================   ===============
+

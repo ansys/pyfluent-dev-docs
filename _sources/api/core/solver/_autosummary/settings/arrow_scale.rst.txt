@@ -1,0 +1,24 @@
+.. _arrow_scale:
+
+arrow_scale
+===========
+
+.. currentmodule:: ansys.fluent.core.solver.settings.arrow_scale
+
+.. autoclass:: arrow_scale
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==========================================   ========================
+
+Parent                                                        Summary
+
+==========================================   ========================
+:ref:`style_attribute <style_attribute>`     'style_attribute' child.
+
+:ref:`style_attribute <style_attribute_1>`   'style_attribute' child.
+
+==========================================   ========================
+

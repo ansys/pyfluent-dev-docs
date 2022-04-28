@@ -1,0 +1,22 @@
+.. _smooth:
+
+smooth
+======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.smooth
+
+.. autoclass:: smooth
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+============================   =================
+
+Parent                                   Summary
+
+============================   =================
+:ref:`coloring <coloring_1>`   'coloring' child.
+
+============================   =================
+

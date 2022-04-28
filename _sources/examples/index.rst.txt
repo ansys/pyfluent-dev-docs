@@ -42,10 +42,10 @@ These examples demonstrate how to use Fluent solver capabilities from Python.
 
 .. only:: html
 
- .. figure:: /examples/00-fluent/images/thumb/sphx_glr_exhaust_system_settings_api_thumb.png
-     :alt: Exhaust System: Fault-tolerant Meshing (Settings API)
+ .. figure:: /examples/00-fluent/images/thumb/sphx_glr_exhaust_system_thumb.png
+     :alt: Exhaust System: Fault-tolerant Meshing
 
-     :ref:`sphx_glr_examples_00-fluent_exhaust_system_settings_api.py`
+     :ref:`sphx_glr_examples_00-fluent_exhaust_system.py`
 
 .. raw:: html
 
@@ -55,39 +55,18 @@ These examples demonstrate how to use Fluent solver capabilities from Python.
 .. toctree::
    :hidden:
 
-   /examples/00-fluent/exhaust_system_settings_api
+   /examples/00-fluent/exhaust_system
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="This tutorial illustrates the setup and solution of a three-dimensional turbulent fluid flow in...">
+    <div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates how to do the following:">
 
 .. only:: html
 
- .. figure:: /examples/00-fluent/images/thumb/sphx_glr_exhaust_system_tui_api_thumb.png
-     :alt: Exhaust System: Fault-tolerant Meshing (TUI API)
+ .. figure:: /examples/00-fluent/images/thumb/sphx_glr_mixing_elbow_thumb.png
+     :alt: Fluid Flow and Heat Transfer in a Mixing Elbow
 
-     :ref:`sphx_glr_examples_00-fluent_exhaust_system_tui_api.py`
-
-.. raw:: html
-
-    </div>
-
-
-.. toctree::
-   :hidden:
-
-   /examples/00-fluent/exhaust_system_tui_api
-
-.. raw:: html
-
-    <div class="sphx-glr-thumbcontainer" tooltip="This example illustrates the setup and solution of a three-dimensional turbulent fluid flow and...">
-
-.. only:: html
-
- .. figure:: /examples/00-fluent/images/thumb/sphx_glr_mixing_elbow_settings_api_thumb.png
-     :alt: Fluid Flow and Heat Transfer in a Mixing Elbow (Settings API)
-
-     :ref:`sphx_glr_examples_00-fluent_mixing_elbow_settings_api.py`
+     :ref:`sphx_glr_examples_00-fluent_mixing_elbow.py`
 
 .. raw:: html
 
@@ -97,28 +76,7 @@ These examples demonstrate how to use Fluent solver capabilities from Python.
 .. toctree::
    :hidden:
 
-   /examples/00-fluent/mixing_elbow_settings_api
-
-.. raw:: html
-
-    <div class="sphx-glr-thumbcontainer" tooltip="This example illustrates the setup and solution of a three-dimensional turbulent fluid flow and...">
-
-.. only:: html
-
- .. figure:: /examples/00-fluent/images/thumb/sphx_glr_mixing_elbow_tui_api_thumb.png
-     :alt: Fluid Flow and Heat Transfer in a Mixing Elbow (TUI API)
-
-     :ref:`sphx_glr_examples_00-fluent_mixing_elbow_tui_api.py`
-
-.. raw:: html
-
-    </div>
-
-
-.. toctree::
-   :hidden:
-
-   /examples/00-fluent/mixing_elbow_tui_api
+   /examples/00-fluent/mixing_elbow
 .. raw:: html
 
     <div class="sphx-glr-clear"></div>
@@ -208,6 +166,27 @@ Post Processing Examples
 These examples demonstrate how to the PyVista package to post process Fluent
 results.
 
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates how to do the following:">
+
+.. only:: html
+
+ .. figure:: /examples/02-postprocessing/images/thumb/sphx_glr_post_processing_exhaust_manifold_thumb.png
+     :alt: Post Processing using PyVista and Matplotlib: Exhaust Manifold
+
+     :ref:`sphx_glr_examples_02-postprocessing_post_processing_exhaust_manifold.py`
+
+.. raw:: html
+
+    </div>
+
+
+.. toctree::
+   :hidden:
+
+   /examples/02-postprocessing/post_processing_exhaust_manifold
 .. raw:: html
 
     <div class="sphx-glr-clear"></div>

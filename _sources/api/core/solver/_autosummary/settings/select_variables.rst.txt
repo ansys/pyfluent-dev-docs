@@ -1,0 +1,22 @@
+.. _select_variables:
+
+select_variables
+================
+
+.. currentmodule:: ansys.fluent.core.solver.settings.select_variables
+
+.. autoclass:: select_variables
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+==========================   ================
+
+Parent                                Summary
+
+==========================   ================
+:ref:`options <options_2>`   'options' child.
+
+==========================   ================
+

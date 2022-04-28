@@ -1,0 +1,24 @@
+.. _width:
+
+width
+=====
+
+.. currentmodule:: ansys.fluent.core.solver.settings.width
+
+.. autoclass:: width
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+============================   =========================================
+
+Parent                                                           Summary
+
+============================   =========================================
+:ref:`color_map <color_map>`                          'color_map' child.
+
+:ref:`field <field_1>`         Set the field of view (width and height).
+
+============================   =========================================
+

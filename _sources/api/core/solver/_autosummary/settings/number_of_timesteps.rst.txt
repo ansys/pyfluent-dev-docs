@@ -1,0 +1,22 @@
+.. _number_of_timesteps:
+
+number_of_timesteps
+===================
+
+.. currentmodule:: ansys.fluent.core.solver.settings.number_of_timesteps
+
+.. autoclass:: number_of_timesteps
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+======================================================   =================================
+
+Parent                                                                             Summary
+
+======================================================   =================================
+:ref:`init_acoustics_options <init_acoustics_options>`   'init_acoustics_options' command.
+
+======================================================   =================================
+

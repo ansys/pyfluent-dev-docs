@@ -1,0 +1,22 @@
+.. _last_view:
+
+last_view
+=========
+
+.. currentmodule:: ansys.fluent.core.solver.settings.last_view
+
+.. autoclass:: last_view
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+====================   ==============
+
+Parent                        Summary
+
+====================   ==============
+:ref:`views <views>`   'views' child.
+
+====================   ==============
+

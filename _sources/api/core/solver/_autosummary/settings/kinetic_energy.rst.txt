@@ -1,0 +1,22 @@
+.. _kinetic_energy:
+
+kinetic_energy
+==============
+
+.. currentmodule:: ansys.fluent.core.solver.settings.kinetic_energy
+
+.. autoclass:: kinetic_energy
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+======================   ===============
+
+Parent                           Summary
+
+======================   ===============
+:ref:`energy <energy>`   'energy' child.
+
+======================   ===============
+

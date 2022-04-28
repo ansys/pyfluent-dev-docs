@@ -1,0 +1,24 @@
+.. _coarsen:
+
+coarsen
+=======
+
+.. currentmodule:: ansys.fluent.core.solver.settings.coarsen
+
+.. autoclass:: coarsen
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name
+.. rubric:: Included in:
+
+====================================================   =======================================
+
+Parent                                                                                 Summary
+
+====================================================   =======================================
+:ref:`pathlines_child <pathlines_child>`                     'child_object_type' of pathlines.
+
+:ref:`particle_tracks_child <particle_tracks_child>`   'child_object_type' of particle_tracks.
+
+====================================================   =======================================
+

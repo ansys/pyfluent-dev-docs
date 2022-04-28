@@ -1,0 +1,33 @@
+.. _porous_media:
+
+porous_media
+============
+
+.. currentmodule:: ansys.fluent.core.solver.settings.porous_media
+
+.. autoclass:: porous_media
+    :show-inheritance:
+    :undoc-members:
+    :members: fluent_name, child_names
+.. rubric:: Children
+
+====================================================   ============================================
+
+Child                                                                                       Summary
+
+====================================================   ============================================
+:ref:`relative_permeability <relative_permeability>`   Multiphase relative permeability fix option.
+
+====================================================   ============================================
+
+.. rubric:: Included in:
+
+================================================   ===========================================
+
+Parent                                                                                 Summary
+
+================================================   ===========================================
+:ref:`multiphase_numerics <multiphase_numerics>`   Enter the multiphase numerics options menu.
+
+================================================   ===========================================
+
