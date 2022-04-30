@@ -1,3 +1,5 @@
+:orphan:
+
 .. _skjaeveland_wet_pc_coef:
 
 skjaeveland_wet_pc_coef
@@ -8,7 +10,6 @@ skjaeveland_wet_pc_coef
 .. autoclass:: skjaeveland_wet_pc_coef
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

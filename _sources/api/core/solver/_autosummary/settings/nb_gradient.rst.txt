@@ -1,3 +1,5 @@
+:orphan:
+
 .. _nb_gradient:
 
 nb_gradient
@@ -8,7 +10,6 @@ nb_gradient
 .. autoclass:: nb_gradient
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================================   ====================================

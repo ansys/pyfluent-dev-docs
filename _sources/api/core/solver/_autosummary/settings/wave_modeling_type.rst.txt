@@ -1,3 +1,5 @@
+:orphan:
+
 .. _wave_modeling_type:
 
 wave_modeling_type
@@ -8,7 +10,6 @@ wave_modeling_type
 .. autoclass:: wave_modeling_type
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

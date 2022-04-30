@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mesh_object:
 
 mesh_object
@@ -8,7 +10,6 @@ mesh_object
 .. autoclass:: mesh_object
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

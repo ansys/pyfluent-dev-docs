@@ -1,3 +1,5 @@
+:orphan:
+
 .. _alt_inertial_form:
 
 alt_inertial_form
@@ -8,7 +10,6 @@ alt_inertial_form
 .. autoclass:: alt_inertial_form
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _smoothed_density_stabilization_method:
 
 smoothed_density_stabilization_method
@@ -8,7 +10,6 @@ smoothed_density_stabilization_method
 .. autoclass:: smoothed_density_stabilization_method
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   =========================

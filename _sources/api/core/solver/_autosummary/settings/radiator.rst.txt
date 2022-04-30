@@ -1,3 +1,5 @@
+:orphan:
+
 .. _radiator:
 
 radiator
@@ -8,7 +10,6 @@ radiator
 .. autoclass:: radiator
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, command_names
 .. rubric:: Commands
 
 ================================   ======================

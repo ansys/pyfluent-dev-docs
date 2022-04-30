@@ -1,3 +1,5 @@
+:orphan:
+
 .. _methods_2:
 
 methods
@@ -8,7 +10,6 @@ methods
 .. autoclass:: methods
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================   =====================================

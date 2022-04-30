@@ -1,3 +1,5 @@
+:orphan:
+
 .. _cell_to_limiting:
 
 cell_to_limiting
@@ -8,7 +10,6 @@ cell_to_limiting
 .. autoclass:: cell_to_limiting
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================================================   =======================================

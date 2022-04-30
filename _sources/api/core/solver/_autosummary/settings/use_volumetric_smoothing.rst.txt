@@ -1,3 +1,5 @@
+:orphan:
+
 .. _use_volumetric_smoothing:
 
 use_volumetric_smoothing
@@ -8,7 +10,6 @@ use_volumetric_smoothing
 .. autoclass:: use_volumetric_smoothing
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ===========================

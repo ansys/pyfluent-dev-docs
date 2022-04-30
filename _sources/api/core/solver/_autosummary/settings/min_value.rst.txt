@@ -1,3 +1,5 @@
+:orphan:
+
 .. _min_value:
 
 min_value
@@ -8,7 +10,6 @@ min_value
 .. autoclass:: min_value
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ======================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _views:
 
 views
@@ -8,7 +10,6 @@ views
 .. autoclass:: views
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names, command_names
 .. rubric:: Children
 
 ========================================   ========================

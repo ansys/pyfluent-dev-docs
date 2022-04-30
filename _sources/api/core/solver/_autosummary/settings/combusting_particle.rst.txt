@@ -1,3 +1,5 @@
+:orphan:
+
 .. _combusting_particle:
 
 combusting_particle
@@ -8,7 +10,6 @@ combusting_particle
 .. autoclass:: combusting_particle
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`fluid_child <fluid_child>`

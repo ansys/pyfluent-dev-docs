@@ -1,3 +1,5 @@
+:orphan:
+
 .. _turbulent_intensity_1:
 
 turbulent_intensity
@@ -8,7 +10,6 @@ turbulent_intensity
 .. autoclass:: turbulent_intensity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ==================================

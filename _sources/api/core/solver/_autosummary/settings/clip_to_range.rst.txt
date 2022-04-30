@@ -1,3 +1,5 @@
+:orphan:
+
 .. _clip_to_range:
 
 clip_to_range
@@ -8,7 +10,6 @@ clip_to_range
 .. autoclass:: clip_to_range
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   =======================

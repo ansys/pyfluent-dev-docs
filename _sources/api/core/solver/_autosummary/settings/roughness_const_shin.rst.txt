@@ -1,3 +1,5 @@
+:orphan:
+
 .. _roughness_const_shin:
 
 roughness_const_shin
@@ -8,7 +10,6 @@ roughness_const_shin
 .. autoclass:: roughness_const_shin
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

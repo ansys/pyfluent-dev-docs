@@ -1,3 +1,5 @@
+:orphan:
+
 .. _moving_object_direction_components:
 
 moving_object_direction_components
@@ -8,7 +10,6 @@ moving_object_direction_components
 .. autoclass:: moving_object_direction_components
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`child_object_type_child <child_object_type_child>`

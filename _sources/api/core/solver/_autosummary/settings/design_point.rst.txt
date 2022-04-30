@@ -1,3 +1,5 @@
+:orphan:
+
 .. _design_point:
 
 design_point
@@ -8,7 +10,6 @@ design_point
 .. autoclass:: design_point
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================   =======================

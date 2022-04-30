@@ -1,3 +1,5 @@
+:orphan:
+
 .. _nb_gradient_dbns:
 
 nb_gradient_dbns
@@ -8,7 +10,6 @@ nb_gradient_dbns
 .. autoclass:: nb_gradient_dbns
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================================

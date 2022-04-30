@@ -1,3 +1,5 @@
+:orphan:
+
 .. _v_opq_absorbtivity:
 
 v_opq_absorbtivity
@@ -8,7 +10,6 @@ v_opq_absorbtivity
 .. autoclass:: v_opq_absorbtivity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

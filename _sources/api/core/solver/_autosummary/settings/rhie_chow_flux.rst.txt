@@ -1,3 +1,5 @@
+:orphan:
+
 .. _rhie_chow_flux:
 
 rhie_chow_flux
@@ -8,7 +10,6 @@ rhie_chow_flux
 .. autoclass:: rhie_chow_flux
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================   =========================================================

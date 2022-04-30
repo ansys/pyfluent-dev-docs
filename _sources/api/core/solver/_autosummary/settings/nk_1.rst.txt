@@ -1,3 +1,5 @@
+:orphan:
+
 .. _nk_1:
 
 nk
@@ -8,7 +10,6 @@ nk
 .. autoclass:: nk
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _residual_smoothing_factor:
 
 residual_smoothing_factor
@@ -8,7 +10,6 @@ residual_smoothing_factor
 .. autoclass:: residual_smoothing_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ===========================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _swirl_dominated_flow:
 
 swirl_dominated_flow
@@ -8,7 +10,6 @@ swirl_dominated_flow
 .. autoclass:: swirl_dominated_flow
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================   ====================

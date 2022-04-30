@@ -1,3 +1,5 @@
+:orphan:
+
 .. _cell_zone_conditions:
 
 cell_zone_conditions
@@ -8,7 +10,6 @@ cell_zone_conditions
 .. autoclass:: cell_zone_conditions
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ======================   ==============

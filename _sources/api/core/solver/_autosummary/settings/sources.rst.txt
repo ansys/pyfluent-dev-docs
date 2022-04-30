@@ -1,3 +1,5 @@
+:orphan:
+
 .. _sources:
 
 sources
@@ -8,7 +10,6 @@ sources
 .. autoclass:: sources
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

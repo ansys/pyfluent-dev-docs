@@ -1,3 +1,5 @@
+:orphan:
+
 .. _species_in_mole_fractions:
 
 species_in_mole_fractions
@@ -8,7 +10,6 @@ species_in_mole_fractions
 .. autoclass:: species_in_mole_fractions
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _premixc_var:
 
 premixc_var
@@ -8,7 +10,6 @@ premixc_var
 .. autoclass:: premixc_var
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

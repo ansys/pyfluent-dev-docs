@@ -1,3 +1,5 @@
+:orphan:
+
 .. _coarsening_parameters_2:
 
 coarsening_parameters
@@ -8,7 +10,6 @@ coarsening_parameters
 .. autoclass:: coarsening_parameters
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================   =============================

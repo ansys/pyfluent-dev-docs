@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_bc_norm_coeff:
 
 dpm_bc_norm_coeff
@@ -8,7 +10,6 @@ dpm_bc_norm_coeff
 .. autoclass:: dpm_bc_norm_coeff
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================   =============================

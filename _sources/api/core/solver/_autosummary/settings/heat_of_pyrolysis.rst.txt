@@ -1,3 +1,5 @@
+:orphan:
+
 .. _heat_of_pyrolysis:
 
 heat_of_pyrolysis
@@ -8,7 +10,6 @@ heat_of_pyrolysis
 .. autoclass:: heat_of_pyrolysis
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

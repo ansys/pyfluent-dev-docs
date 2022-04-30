@@ -1,3 +1,5 @@
+:orphan:
+
 .. _global_courant_number:
 
 global_courant_number
@@ -8,7 +10,6 @@ global_courant_number
 .. autoclass:: global_courant_number
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ==================================

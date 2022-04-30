@@ -1,3 +1,5 @@
+:orphan:
+
 .. _import_design_table:
 
 import_design_table
@@ -8,7 +10,6 @@ import_design_table
 .. autoclass:: import_design_table
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ========================================   ========================

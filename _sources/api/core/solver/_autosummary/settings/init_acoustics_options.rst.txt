@@ -1,3 +1,5 @@
+:orphan:
+
 .. _init_acoustics_options:
 
 init_acoustics_options
@@ -8,7 +10,6 @@ init_acoustics_options
 .. autoclass:: init_acoustics_options
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ================================================   =======================================================

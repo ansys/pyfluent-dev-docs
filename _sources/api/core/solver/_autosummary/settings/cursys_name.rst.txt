@@ -1,3 +1,5 @@
+:orphan:
+
 .. _cursys_name:
 
 cursys_name
@@ -8,7 +10,6 @@ cursys_name
 .. autoclass:: cursys_name
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

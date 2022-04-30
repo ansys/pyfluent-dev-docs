@@ -1,3 +1,5 @@
+:orphan:
+
 .. _thermal_accom_coefficient:
 
 thermal_accom_coefficient
@@ -8,7 +10,6 @@ thermal_accom_coefficient
 .. autoclass:: thermal_accom_coefficient
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

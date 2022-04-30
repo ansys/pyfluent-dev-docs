@@ -1,3 +1,5 @@
+:orphan:
+
 .. _charge:
 
 charge
@@ -8,7 +10,6 @@ charge
 .. autoclass:: charge
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

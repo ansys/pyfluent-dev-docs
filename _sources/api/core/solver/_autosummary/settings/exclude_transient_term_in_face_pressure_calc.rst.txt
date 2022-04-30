@@ -1,3 +1,5 @@
+:orphan:
+
 .. _exclude_transient_term_in_face_pressure_calc:
 
 exclude_transient_term_in_face_pressure_calc
@@ -8,7 +10,6 @@ exclude_transient_term_in_face_pressure_calc
 .. autoclass:: exclude_transient_term_in_face_pressure_calc
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   ==============================

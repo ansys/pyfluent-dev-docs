@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pressure_corr_grad:
 
 pressure_corr_grad
@@ -8,7 +10,6 @@ pressure_corr_grad
 .. autoclass:: pressure_corr_grad
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   ==============================

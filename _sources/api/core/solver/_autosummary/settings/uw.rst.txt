@@ -1,3 +1,5 @@
+:orphan:
+
 .. _uw:
 
 uw
@@ -8,7 +10,6 @@ uw
 .. autoclass:: uw
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

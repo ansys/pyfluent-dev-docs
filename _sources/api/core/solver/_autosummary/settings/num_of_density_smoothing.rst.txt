@@ -1,3 +1,5 @@
+:orphan:
+
 .. _num_of_density_smoothing:
 
 num_of_density_smoothing
@@ -8,7 +10,6 @@ num_of_density_smoothing
 .. autoclass:: num_of_density_smoothing
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   =========================

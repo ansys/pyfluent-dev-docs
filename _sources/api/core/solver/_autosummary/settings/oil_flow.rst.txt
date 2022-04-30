@@ -1,3 +1,5 @@
+:orphan:
+
 .. _oil_flow:
 
 oil_flow
@@ -8,7 +10,6 @@ oil_flow
 .. autoclass:: oil_flow
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   ================

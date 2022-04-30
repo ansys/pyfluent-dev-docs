@@ -1,3 +1,5 @@
+:orphan:
+
 .. _beach_len_factor:
 
 beach_len_factor
@@ -8,7 +10,6 @@ beach_len_factor
 .. autoclass:: beach_len_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

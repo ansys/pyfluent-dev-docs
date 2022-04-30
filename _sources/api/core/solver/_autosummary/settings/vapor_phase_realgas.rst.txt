@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vapor_phase_realgas:
 
 vapor_phase_realgas
@@ -8,7 +10,6 @@ vapor_phase_realgas
 .. autoclass:: vapor_phase_realgas
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

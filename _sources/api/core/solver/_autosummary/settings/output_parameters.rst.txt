@@ -1,3 +1,5 @@
+:orphan:
+
 .. _output_parameters:
 
 output_parameters
@@ -8,7 +10,6 @@ output_parameters
 .. autoclass:: output_parameters
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================   =====================================

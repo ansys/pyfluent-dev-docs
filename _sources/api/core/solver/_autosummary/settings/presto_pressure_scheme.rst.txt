@@ -1,3 +1,5 @@
+:orphan:
+
 .. _presto_pressure_scheme:
 
 presto_pressure_scheme
@@ -8,7 +10,6 @@ presto_pressure_scheme
 .. autoclass:: presto_pressure_scheme
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   =================

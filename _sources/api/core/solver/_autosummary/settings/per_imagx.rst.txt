@@ -1,3 +1,5 @@
+:orphan:
+
 .. _per_imagx:
 
 per_imagx
@@ -8,7 +10,6 @@ per_imagx
 .. autoclass:: per_imagx
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

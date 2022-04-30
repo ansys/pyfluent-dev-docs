@@ -1,3 +1,5 @@
+:orphan:
+
 .. _cycle_type:
 
 cycle_type
@@ -8,7 +10,6 @@ cycle_type
 .. autoclass:: cycle_type
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ===========================================

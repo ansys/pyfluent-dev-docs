@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fmg_options:
 
 fmg_options
@@ -8,7 +10,6 @@ fmg_options
 .. autoclass:: fmg_options
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ====================================================================   ==============================================================

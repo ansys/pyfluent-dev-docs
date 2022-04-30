@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pressure_work:
 
 pressure_work
@@ -8,7 +10,6 @@ pressure_work
 .. autoclass:: pressure_work
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================   ===============

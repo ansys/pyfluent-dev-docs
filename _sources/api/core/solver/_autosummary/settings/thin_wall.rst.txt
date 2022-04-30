@@ -1,3 +1,5 @@
+:orphan:
+
 .. _thin_wall:
 
 thin_wall
@@ -8,7 +10,6 @@ thin_wall
 .. autoclass:: thin_wall
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`shell_conduction_child <shell_conduction_child>`

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _scalar_parameters:
 
 scalar_parameters
@@ -8,7 +10,6 @@ scalar_parameters
 .. autoclass:: scalar_parameters
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ======================================================   ===============================

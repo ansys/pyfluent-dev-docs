@@ -1,3 +1,5 @@
+:orphan:
+
 .. _eutectic_mf:
 
 eutectic_mf
@@ -8,7 +10,6 @@ eutectic_mf
 .. autoclass:: eutectic_mf
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

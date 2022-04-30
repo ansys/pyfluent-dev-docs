@@ -1,3 +1,5 @@
+:orphan:
+
 .. _lic_intensity_factor:
 
 lic_intensity_factor
@@ -8,7 +10,6 @@ lic_intensity_factor
 .. autoclass:: lic_intensity_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ===========================

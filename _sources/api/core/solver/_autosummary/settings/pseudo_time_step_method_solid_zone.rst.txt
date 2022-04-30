@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pseudo_time_step_method_solid_zone:
 
 pseudo_time_step_method_solid_zone
@@ -8,7 +10,6 @@ pseudo_time_step_method_solid_zone
 .. autoclass:: pseudo_time_step_method_solid_zone
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   =================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _elec_potential_jump:
 
 elec_potential_jump
@@ -8,7 +10,6 @@ elec_potential_jump
 .. autoclass:: elec_potential_jump
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

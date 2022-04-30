@@ -1,3 +1,5 @@
+:orphan:
+
 .. _geom_disable:
 
 geom_disable
@@ -8,7 +10,6 @@ geom_disable
 .. autoclass:: geom_disable
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================================   ============================================

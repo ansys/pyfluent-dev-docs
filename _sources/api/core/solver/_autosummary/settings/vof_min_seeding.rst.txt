@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vof_min_seeding:
 
 vof_min_seeding
@@ -8,7 +10,6 @@ vof_min_seeding
 .. autoclass:: vof_min_seeding
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================   =====================

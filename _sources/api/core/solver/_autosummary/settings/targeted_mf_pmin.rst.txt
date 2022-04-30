@@ -1,3 +1,5 @@
+:orphan:
+
 .. _targeted_mf_pmin:
 
 targeted_mf_pmin
@@ -8,7 +10,6 @@ targeted_mf_pmin
 .. autoclass:: targeted_mf_pmin
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_initialize_lwf:
 
 dpm_initialize_lwf
@@ -8,7 +10,6 @@ dpm_initialize_lwf
 .. autoclass:: dpm_initialize_lwf
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _surface_volume_ratio:
 
 surface_volume_ratio
@@ -8,7 +10,6 @@ surface_volume_ratio
 .. autoclass:: surface_volume_ratio
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

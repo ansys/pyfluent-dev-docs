@@ -1,3 +1,5 @@
+:orphan:
+
 .. _extrapolation_method:
 
 extrapolation_method
@@ -8,7 +10,6 @@ extrapolation_method
 .. autoclass:: extrapolation_method
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================   ===================

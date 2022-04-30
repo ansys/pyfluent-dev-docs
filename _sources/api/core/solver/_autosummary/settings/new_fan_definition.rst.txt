@@ -1,3 +1,5 @@
+:orphan:
+
 .. _new_fan_definition:
 
 new_fan_definition
@@ -8,7 +10,6 @@ new_fan_definition
 .. autoclass:: new_fan_definition
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ===================================

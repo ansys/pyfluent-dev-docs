@@ -1,3 +1,5 @@
+:orphan:
+
 .. _beach_damp_len_spec:
 
 beach_damp_len_spec
@@ -8,7 +10,6 @@ beach_damp_len_spec
 .. autoclass:: beach_damp_len_spec
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

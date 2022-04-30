@@ -1,3 +1,5 @@
+:orphan:
+
 .. _driver_options:
 
 driver_options
@@ -8,7 +10,6 @@ driver_options
 .. autoclass:: driver_options
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names, command_names
 .. rubric:: Children
 
 ==========================================   =========================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mass_flux_correction_method:
 
 mass_flux_correction_method
@@ -8,7 +10,6 @@ mass_flux_correction_method
 .. autoclass:: mass_flux_correction_method
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ===============

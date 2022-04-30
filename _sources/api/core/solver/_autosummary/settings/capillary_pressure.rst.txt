@@ -1,3 +1,5 @@
+:orphan:
+
 .. _capillary_pressure:
 
 capillary_pressure
@@ -8,7 +10,6 @@ capillary_pressure
 .. autoclass:: capillary_pressure
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================   =============================

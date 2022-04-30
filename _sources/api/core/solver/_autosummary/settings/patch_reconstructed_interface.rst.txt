@@ -1,3 +1,5 @@
+:orphan:
+
 .. _patch_reconstructed_interface:
 
 patch_reconstructed_interface
@@ -8,7 +10,6 @@ patch_reconstructed_interface
 .. autoclass:: patch_reconstructed_interface
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ===========================

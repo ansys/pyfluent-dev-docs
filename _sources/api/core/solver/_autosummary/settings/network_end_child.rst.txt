@@ -1,3 +1,5 @@
+:orphan:
+
 .. _network_end_child:
 
 network_end_child
@@ -8,7 +10,6 @@ network_end_child
 .. autoclass:: network_end_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================   ====================

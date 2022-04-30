@@ -1,3 +1,5 @@
+:orphan:
+
 .. _time_statistics_dpm:
 
 time_statistics_dpm
@@ -8,7 +10,6 @@ time_statistics_dpm
 .. autoclass:: time_statistics_dpm
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ======================

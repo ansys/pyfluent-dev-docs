@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pressure_far_field:
 
 pressure_far_field
@@ -8,7 +10,6 @@ pressure_far_field
 .. autoclass:: pressure_far_field
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, command_names
 .. rubric:: Commands
 
 ================================   ======================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _initialization:
 
 initialization
@@ -8,7 +10,6 @@ initialization
 .. autoclass:: initialization
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names, command_names
 .. rubric:: Children
 
 ========================================================   =========================================================

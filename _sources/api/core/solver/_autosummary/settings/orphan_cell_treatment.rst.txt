@@ -1,3 +1,5 @@
+:orphan:
+
 .. _orphan_cell_treatment:
 
 orphan_cell_treatment
@@ -8,7 +10,6 @@ orphan_cell_treatment
 .. autoclass:: orphan_cell_treatment
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   ================

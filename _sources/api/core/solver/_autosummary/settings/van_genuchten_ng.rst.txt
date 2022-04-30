@@ -1,3 +1,5 @@
+:orphan:
+
 .. _van_genuchten_ng:
 
 van_genuchten_ng
@@ -8,7 +10,6 @@ van_genuchten_ng
 .. autoclass:: van_genuchten_ng
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _anti_diffusion:
 
 anti_diffusion
@@ -8,7 +10,6 @@ anti_diffusion
 .. autoclass:: anti_diffusion
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ====================================================================   ===============================================================

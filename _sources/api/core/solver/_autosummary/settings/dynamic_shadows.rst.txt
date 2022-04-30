@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dynamic_shadows:
 
 dynamic_shadows
@@ -8,7 +10,6 @@ dynamic_shadows
 .. autoclass:: dynamic_shadows
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

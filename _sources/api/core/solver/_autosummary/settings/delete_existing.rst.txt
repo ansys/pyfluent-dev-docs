@@ -1,3 +1,5 @@
+:orphan:
+
 .. _delete_existing:
 
 delete_existing
@@ -8,7 +10,6 @@ delete_existing
 .. autoclass:: delete_existing
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================   ==========================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _numerical_beach:
 
 numerical_beach
@@ -8,7 +10,6 @@ numerical_beach
 .. autoclass:: numerical_beach
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

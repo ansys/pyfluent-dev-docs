@@ -1,3 +1,5 @@
+:orphan:
+
 .. _sphere_size:
 
 sphere_size
@@ -8,7 +10,6 @@ sphere_size
 .. autoclass:: sphere_size
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   ========================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _skjaeveland_nw_pc_coef:
 
 skjaeveland_nw_pc_coef
@@ -8,7 +10,6 @@ skjaeveland_nw_pc_coef
 .. autoclass:: skjaeveland_nw_pc_coef
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ribbon:
 
 ribbon
@@ -8,7 +10,6 @@ ribbon
 .. autoclass:: ribbon
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================   ====================

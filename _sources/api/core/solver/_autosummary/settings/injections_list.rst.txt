@@ -1,3 +1,5 @@
+:orphan:
+
 .. _injections_list:
 
 injections_list
@@ -8,7 +10,6 @@ injections_list
 .. autoclass:: injections_list
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

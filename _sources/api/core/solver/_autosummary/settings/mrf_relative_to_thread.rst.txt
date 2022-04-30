@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mrf_relative_to_thread:
 
 mrf_relative_to_thread
@@ -8,7 +10,6 @@ mrf_relative_to_thread
 .. autoclass:: mrf_relative_to_thread
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _beach_dir_list:
 
 beach_dir_list
@@ -8,7 +10,6 @@ beach_dir_list
 .. autoclass:: beach_dir_list
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`beach_dir_list_child <beach_dir_list_child>`

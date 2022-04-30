@@ -1,3 +1,5 @@
+:orphan:
+
 .. _execute_additional_stability_controls:
 
 execute_additional_stability_controls
@@ -8,7 +10,6 @@ execute_additional_stability_controls
 .. autoclass:: execute_additional_stability_controls
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================   ===============================

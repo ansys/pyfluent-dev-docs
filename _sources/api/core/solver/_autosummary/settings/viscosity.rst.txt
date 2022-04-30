@@ -1,3 +1,5 @@
+:orphan:
+
 .. _viscosity:
 
 viscosity
@@ -8,7 +10,6 @@ viscosity
 .. autoclass:: viscosity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

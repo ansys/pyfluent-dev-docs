@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_initial_injection:
 
 dpm_initial_injection
@@ -8,7 +10,6 @@ dpm_initial_injection
 .. autoclass:: dpm_initial_injection
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

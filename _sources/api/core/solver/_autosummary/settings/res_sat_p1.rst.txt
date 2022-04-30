@@ -1,3 +1,5 @@
+:orphan:
+
 .. _res_sat_p1:
 
 res_sat_p1
@@ -8,7 +10,6 @@ res_sat_p1
 .. autoclass:: res_sat_p1
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

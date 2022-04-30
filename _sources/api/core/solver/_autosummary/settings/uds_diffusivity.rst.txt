@@ -1,3 +1,5 @@
+:orphan:
+
 .. _uds_diffusivity:
 
 uds_diffusivity
@@ -8,7 +10,6 @@ uds_diffusivity
 .. autoclass:: uds_diffusivity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

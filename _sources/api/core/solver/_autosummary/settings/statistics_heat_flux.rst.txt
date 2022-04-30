@@ -1,3 +1,5 @@
+:orphan:
+
 .. _statistics_heat_flux:
 
 statistics_heat_flux
@@ -8,7 +10,6 @@ statistics_heat_flux
 .. autoclass:: statistics_heat_flux
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ======================

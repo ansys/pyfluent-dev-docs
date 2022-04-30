@@ -1,3 +1,5 @@
+:orphan:
+
 .. _save_picture:
 
 save_picture
@@ -8,7 +10,6 @@ save_picture
 .. autoclass:: save_picture
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ============================   ==================

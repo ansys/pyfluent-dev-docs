@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mean_and_std_deviation:
 
 mean_and_std_deviation
@@ -8,7 +10,6 @@ mean_and_std_deviation
 .. autoclass:: mean_and_std_deviation
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   ================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fvar:
 
 fvar
@@ -8,7 +10,6 @@ fvar
 .. autoclass:: fvar
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

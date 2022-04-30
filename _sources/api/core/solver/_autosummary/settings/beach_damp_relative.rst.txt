@@ -1,3 +1,5 @@
+:orphan:
+
 .. _beach_damp_relative:
 
 beach_damp_relative
@@ -8,7 +10,6 @@ beach_damp_relative
 .. autoclass:: beach_damp_relative
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

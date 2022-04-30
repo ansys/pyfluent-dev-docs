@@ -1,3 +1,5 @@
+:orphan:
+
 .. _turbulent_setting:
 
 turbulent_setting
@@ -8,7 +10,6 @@ turbulent_setting
 .. autoclass:: turbulent_setting
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ====================================================================   =============================================

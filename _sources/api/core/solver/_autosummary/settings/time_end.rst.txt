@@ -1,3 +1,5 @@
+:orphan:
+
 .. _time_end:
 
 time_end
@@ -8,7 +10,6 @@ time_end
 .. autoclass:: time_end
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================================   =========================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _thermal_diffusivity:
 
 thermal_diffusivity
@@ -8,7 +10,6 @@ thermal_diffusivity
 .. autoclass:: thermal_diffusivity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

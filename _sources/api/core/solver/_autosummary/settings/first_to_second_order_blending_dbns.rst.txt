@@ -1,3 +1,5 @@
+:orphan:
+
 .. _first_to_second_order_blending_dbns:
 
 first_to_second_order_blending_dbns
@@ -8,7 +10,6 @@ first_to_second_order_blending_dbns
 .. autoclass:: first_to_second_order_blending_dbns
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================   ======================

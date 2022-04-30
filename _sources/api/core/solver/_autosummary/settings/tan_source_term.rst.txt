@@ -1,3 +1,5 @@
+:orphan:
+
 .. _tan_source_term:
 
 tan_source_term
@@ -8,7 +10,6 @@ tan_source_term
 .. autoclass:: tan_source_term
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

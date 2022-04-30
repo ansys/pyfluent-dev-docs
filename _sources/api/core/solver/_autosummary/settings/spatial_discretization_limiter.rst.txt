@@ -1,3 +1,5 @@
+:orphan:
+
 .. _spatial_discretization_limiter:
 
 spatial_discretization_limiter
@@ -8,7 +10,6 @@ spatial_discretization_limiter
 .. autoclass:: spatial_discretization_limiter
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==========================================   ========================================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _load_case_data:
 
 load_case_data
@@ -8,7 +10,6 @@ load_case_data
 .. autoclass:: load_case_data
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ======================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _z_displacement_type:
 
 z_displacement_type
@@ -8,7 +10,6 @@ z_displacement_type
 .. autoclass:: z_displacement_type
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

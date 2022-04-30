@@ -1,3 +1,5 @@
+:orphan:
+
 .. _characteristic_vibrational_temperature:
 
 characteristic_vibrational_temperature
@@ -8,7 +10,6 @@ characteristic_vibrational_temperature
 .. autoclass:: characteristic_vibrational_temperature
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

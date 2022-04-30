@@ -1,3 +1,5 @@
+:orphan:
+
 .. _track_single_particle_stream:
 
 track_single_particle_stream
@@ -8,7 +10,6 @@ track_single_particle_stream
 .. autoclass:: track_single_particle_stream
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ============================   ==================

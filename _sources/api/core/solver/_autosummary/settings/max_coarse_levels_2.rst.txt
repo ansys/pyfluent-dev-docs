@@ -1,3 +1,5 @@
+:orphan:
+
 .. _max_coarse_levels_2:
 
 max_coarse_levels
@@ -8,7 +10,6 @@ max_coarse_levels
 .. autoclass:: max_coarse_levels
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================================   ==============================

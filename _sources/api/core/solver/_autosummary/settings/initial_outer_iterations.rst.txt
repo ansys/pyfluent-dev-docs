@@ -1,3 +1,5 @@
+:orphan:
+
 .. _initial_outer_iterations:
 
 initial_outer_iterations
@@ -8,7 +10,6 @@ initial_outer_iterations
 .. autoclass:: initial_outer_iterations
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==============================================   =======================================

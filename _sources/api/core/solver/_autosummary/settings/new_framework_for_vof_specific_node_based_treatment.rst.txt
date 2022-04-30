@@ -1,3 +1,5 @@
+:orphan:
+
 .. _new_framework_for_vof_specific_node_based_treatment:
 
 new_framework_for_vof_specific_node_based_treatment
@@ -8,7 +10,6 @@ new_framework_for_vof_specific_node_based_treatment
 .. autoclass:: new_framework_for_vof_specific_node_based_treatment
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =====================

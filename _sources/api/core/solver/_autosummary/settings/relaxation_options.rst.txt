@@ -1,3 +1,5 @@
+:orphan:
+
 .. _relaxation_options:
 
 relaxation_options
@@ -8,7 +10,6 @@ relaxation_options
 .. autoclass:: relaxation_options
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   ================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _plane_surface:
 
 plane_surface
@@ -8,7 +10,6 @@ plane_surface
 .. autoclass:: plane_surface
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`plane_surface_child <plane_surface_child>`

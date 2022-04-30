@@ -1,3 +1,5 @@
+:orphan:
+
 .. _update_current:
 
 update_current
@@ -8,7 +10,6 @@ update_current
 .. autoclass:: update_current
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ======================

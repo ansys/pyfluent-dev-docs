@@ -1,3 +1,5 @@
+:orphan:
+
 .. _lic_pixel_interpolation:
 
 lic_pixel_interpolation
@@ -8,7 +10,6 @@ lic_pixel_interpolation
 .. autoclass:: lic_pixel_interpolation
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ===========================

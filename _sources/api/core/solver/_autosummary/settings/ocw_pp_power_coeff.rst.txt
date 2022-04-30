@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ocw_pp_power_coeff:
 
 ocw_pp_power_coeff
@@ -8,7 +10,6 @@ ocw_pp_power_coeff
 .. autoclass:: ocw_pp_power_coeff
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

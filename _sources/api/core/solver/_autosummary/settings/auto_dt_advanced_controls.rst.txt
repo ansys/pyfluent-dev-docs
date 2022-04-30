@@ -1,3 +1,5 @@
+:orphan:
+
 .. _auto_dt_advanced_controls:
 
 auto_dt_advanced_controls
@@ -8,7 +10,6 @@ auto_dt_advanced_controls
 .. autoclass:: auto_dt_advanced_controls
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==============================================   ====================================================================

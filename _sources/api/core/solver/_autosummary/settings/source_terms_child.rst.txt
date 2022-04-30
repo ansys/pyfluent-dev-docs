@@ -1,3 +1,5 @@
+:orphan:
+
 .. _source_terms_child:
 
 source_terms_child
@@ -8,7 +10,6 @@ source_terms_child
 .. autoclass:: source_terms_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`child_object_type_child <child_object_type_child>`

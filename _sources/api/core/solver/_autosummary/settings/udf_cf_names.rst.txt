@@ -1,3 +1,5 @@
+:orphan:
+
 .. _udf_cf_names:
 
 udf_cf_names
@@ -8,7 +10,6 @@ udf_cf_names
 .. autoclass:: udf_cf_names
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ====================================

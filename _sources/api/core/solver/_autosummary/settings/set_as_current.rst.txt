@@ -1,3 +1,5 @@
+:orphan:
+
 .. _set_as_current:
 
 set_as_current
@@ -8,7 +10,6 @@ set_as_current
 .. autoclass:: set_as_current
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ==============================   ===================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _scattering_phase_function:
 
 scattering_phase_function
@@ -8,7 +10,6 @@ scattering_phase_function
 .. autoclass:: scattering_phase_function
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

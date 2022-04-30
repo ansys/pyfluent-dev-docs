@@ -1,3 +1,5 @@
+:orphan:
+
 .. _use_average_cfl:
 
 use_average_cfl
@@ -8,7 +10,6 @@ use_average_cfl
 .. autoclass:: use_average_cfl
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ===========================

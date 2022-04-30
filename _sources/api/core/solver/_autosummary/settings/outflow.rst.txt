@@ -1,3 +1,5 @@
+:orphan:
+
 .. _outflow:
 
 outflow
@@ -8,7 +10,6 @@ outflow
 .. autoclass:: outflow
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, command_names
 .. rubric:: Commands
 
 ================================   ======================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _z_comp:
 
 z_comp
@@ -8,7 +10,6 @@ z_comp
 .. autoclass:: z_comp
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================   ===================

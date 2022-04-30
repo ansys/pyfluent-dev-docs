@@ -1,3 +1,5 @@
+:orphan:
+
 .. _production_limiter:
 
 production_limiter
@@ -8,7 +10,6 @@ production_limiter
 .. autoclass:: production_limiter
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

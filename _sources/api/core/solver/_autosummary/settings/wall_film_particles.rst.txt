@@ -1,3 +1,5 @@
+:orphan:
+
 .. _wall_film_particles:
 
 wall_film_particles
@@ -8,7 +10,6 @@ wall_film_particles
 .. autoclass:: wall_film_particles
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _default_controls:
 
 default_controls
@@ -8,7 +10,6 @@ default_controls
 .. autoclass:: default_controls
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ========================================================================================   ================================================

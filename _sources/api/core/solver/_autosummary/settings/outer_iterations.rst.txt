@@ -1,3 +1,5 @@
+:orphan:
+
 .. _outer_iterations:
 
 outer_iterations
@@ -8,7 +10,6 @@ outer_iterations
 .. autoclass:: outer_iterations
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================   ====================

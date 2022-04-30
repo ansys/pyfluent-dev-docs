@@ -1,3 +1,5 @@
+:orphan:
+
 .. _boundry_treatment:
 
 boundry_treatment
@@ -8,7 +10,6 @@ boundry_treatment
 .. autoclass:: boundry_treatment
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================================   =========================================

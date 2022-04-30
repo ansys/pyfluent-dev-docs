@@ -1,3 +1,5 @@
+:orphan:
+
 .. _specified_shear:
 
 specified_shear
@@ -8,7 +10,6 @@ specified_shear
 .. autoclass:: specified_shear
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

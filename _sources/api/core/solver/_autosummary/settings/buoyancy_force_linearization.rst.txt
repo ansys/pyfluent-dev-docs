@@ -1,3 +1,5 @@
+:orphan:
+
 .. _buoyancy_force_linearization:
 
 buoyancy_force_linearization
@@ -8,7 +10,6 @@ buoyancy_force_linearization
 .. autoclass:: buoyancy_force_linearization
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================   ====================

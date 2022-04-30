@@ -1,3 +1,5 @@
+:orphan:
+
 .. _view_list:
 
 view_list
@@ -8,7 +10,6 @@ view_list
 .. autoclass:: view_list
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================   ====================================

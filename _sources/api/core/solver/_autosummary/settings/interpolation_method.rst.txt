@@ -1,3 +1,5 @@
+:orphan:
+
 .. _interpolation_method:
 
 interpolation_method
@@ -8,7 +10,6 @@ interpolation_method
 .. autoclass:: interpolation_method
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   ================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _film_boundary_separation:
 
 film_boundary_separation
@@ -8,7 +10,6 @@ film_boundary_separation
 .. autoclass:: film_boundary_separation
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

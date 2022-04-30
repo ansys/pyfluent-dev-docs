@@ -1,3 +1,5 @@
+:orphan:
+
 .. _coll_dphi:
 
 coll_dphi
@@ -8,7 +10,6 @@ coll_dphi
 .. autoclass:: coll_dphi
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

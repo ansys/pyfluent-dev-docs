@@ -1,3 +1,5 @@
+:orphan:
+
 .. _expression:
 
 expression
@@ -8,7 +10,6 @@ expression
 .. autoclass:: expression
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`expression_child <expression_child>`

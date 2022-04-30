@@ -1,3 +1,5 @@
+:orphan:
+
 .. _laminar:
 
 laminar
@@ -8,7 +10,6 @@ laminar
 .. autoclass:: laminar
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

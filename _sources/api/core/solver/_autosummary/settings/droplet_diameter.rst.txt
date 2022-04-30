@@ -1,3 +1,5 @@
+:orphan:
+
 .. _droplet_diameter:
 
 droplet_diameter
@@ -8,7 +10,6 @@ droplet_diameter
 .. autoclass:: droplet_diameter
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

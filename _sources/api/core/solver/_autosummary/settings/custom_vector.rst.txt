@@ -1,3 +1,5 @@
+:orphan:
+
 .. _custom_vector:
 
 custom_vector
@@ -8,7 +10,6 @@ custom_vector
 .. autoclass:: custom_vector
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================   ===============================

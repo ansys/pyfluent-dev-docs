@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pole_imag:
 
 pole_imag
@@ -8,7 +10,6 @@ pole_imag
 .. autoclass:: pole_imag
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ===================================

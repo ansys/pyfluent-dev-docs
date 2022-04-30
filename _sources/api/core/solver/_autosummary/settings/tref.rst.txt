@@ -1,3 +1,5 @@
+:orphan:
+
 .. _tref:
 
 tref
@@ -8,7 +10,6 @@ tref
 .. autoclass:: tref
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

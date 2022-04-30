@@ -1,3 +1,5 @@
+:orphan:
+
 .. _compute_from_view_plane:
 
 compute_from_view_plane
@@ -8,7 +10,6 @@ compute_from_view_plane
 .. autoclass:: compute_from_view_plane
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================   =====================================

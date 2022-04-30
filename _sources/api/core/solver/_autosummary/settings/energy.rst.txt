@@ -1,3 +1,5 @@
+:orphan:
+
 .. _energy:
 
 energy
@@ -8,7 +10,6 @@ energy
 .. autoclass:: energy
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================   ============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ramp_scalars:
 
 ramp_scalars
@@ -8,7 +10,6 @@ ramp_scalars
 .. autoclass:: ramp_scalars
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ===============

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _x_axis_function:
 
 x_axis_function
@@ -8,7 +10,6 @@ x_axis_function
 .. autoclass:: x_axis_function
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================   =============

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mc_polar_expr:
 
 mc_polar_expr
@@ -8,7 +10,6 @@ mc_polar_expr
 .. autoclass:: mc_polar_expr
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

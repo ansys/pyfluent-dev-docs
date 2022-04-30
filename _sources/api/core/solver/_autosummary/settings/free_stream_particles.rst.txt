@@ -1,3 +1,5 @@
+:orphan:
+
 .. _free_stream_particles:
 
 free_stream_particles
@@ -8,7 +10,6 @@ free_stream_particles
 .. autoclass:: free_stream_particles
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

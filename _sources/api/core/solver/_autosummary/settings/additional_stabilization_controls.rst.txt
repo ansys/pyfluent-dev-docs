@@ -1,3 +1,5 @@
+:orphan:
+
 .. _additional_stabilization_controls:
 
 additional_stabilization_controls
@@ -8,7 +10,6 @@ additional_stabilization_controls
 .. autoclass:: additional_stabilization_controls
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ======================================================================   =======================================================

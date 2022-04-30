@@ -1,3 +1,5 @@
+:orphan:
+
 .. _var_class:
 
 var_class
@@ -8,7 +10,6 @@ var_class
 .. autoclass:: var_class
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================================================================   ===============================================

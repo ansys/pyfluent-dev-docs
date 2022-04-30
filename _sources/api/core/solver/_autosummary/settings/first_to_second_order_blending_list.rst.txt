@@ -1,3 +1,5 @@
+:orphan:
+
 .. _first_to_second_order_blending_list:
 
 first_to_second_order_blending_list
@@ -8,7 +10,6 @@ first_to_second_order_blending_list
 .. autoclass:: first_to_second_order_blending_list
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

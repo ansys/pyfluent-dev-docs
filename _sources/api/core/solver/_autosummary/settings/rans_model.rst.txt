@@ -1,3 +1,5 @@
+:orphan:
+
 .. _rans_model:
 
 rans_model
@@ -8,7 +10,6 @@ rans_model
 .. autoclass:: rans_model
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

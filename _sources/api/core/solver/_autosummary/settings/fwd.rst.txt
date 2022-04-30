@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fwd:
 
 fwd
@@ -8,7 +10,6 @@ fwd
 .. autoclass:: fwd
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

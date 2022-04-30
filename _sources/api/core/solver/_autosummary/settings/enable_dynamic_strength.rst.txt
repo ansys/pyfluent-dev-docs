@@ -1,3 +1,5 @@
+:orphan:
+
 .. _enable_dynamic_strength:
 
 enable_dynamic_strength
@@ -8,7 +10,6 @@ enable_dynamic_strength
 .. autoclass:: enable_dynamic_strength
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   =======================

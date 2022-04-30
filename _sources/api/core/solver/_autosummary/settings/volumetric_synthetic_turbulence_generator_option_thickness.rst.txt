@@ -1,3 +1,5 @@
+:orphan:
+
 .. _volumetric_synthetic_turbulence_generator_option_thickness:
 
 volumetric_synthetic_turbulence_generator_option_thickness
@@ -8,7 +10,6 @@ volumetric_synthetic_turbulence_generator_option_thickness
 .. autoclass:: volumetric_synthetic_turbulence_generator_option_thickness
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

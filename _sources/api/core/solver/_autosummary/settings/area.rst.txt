@@ -1,3 +1,5 @@
+:orphan:
+
 .. _area:
 
 area
@@ -8,7 +10,6 @@ area
 .. autoclass:: area
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   =========================

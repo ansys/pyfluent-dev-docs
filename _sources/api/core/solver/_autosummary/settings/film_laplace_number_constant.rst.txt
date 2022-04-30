@@ -1,3 +1,5 @@
+:orphan:
+
 .. _film_laplace_number_constant:
 
 film_laplace_number_constant
@@ -8,7 +10,6 @@ film_laplace_number_constant
 .. autoclass:: film_laplace_number_constant
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

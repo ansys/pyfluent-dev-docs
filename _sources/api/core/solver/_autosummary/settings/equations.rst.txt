@@ -1,3 +1,5 @@
+:orphan:
+
 .. _equations:
 
 equations
@@ -8,7 +10,6 @@ equations
 .. autoclass:: equations
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`equations_child <equations_child>`

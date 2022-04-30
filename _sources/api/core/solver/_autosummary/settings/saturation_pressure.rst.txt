@@ -1,3 +1,5 @@
+:orphan:
+
 .. _saturation_pressure:
 
 saturation_pressure
@@ -8,7 +10,6 @@ saturation_pressure
 .. autoclass:: saturation_pressure
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

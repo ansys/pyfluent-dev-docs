@@ -1,3 +1,5 @@
+:orphan:
+
 .. _boundary_values:
 
 boundary_values
@@ -8,7 +10,6 @@ boundary_values
 .. autoclass:: boundary_values
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================   ===============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _schnerr_cond_coeff:
 
 schnerr_cond_coeff
@@ -8,7 +10,6 @@ schnerr_cond_coeff
 .. autoclass:: schnerr_cond_coeff
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================   ===================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _thread_names:
 
 thread_names
@@ -8,7 +10,6 @@ thread_names
 .. autoclass:: thread_names
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================   =====================================

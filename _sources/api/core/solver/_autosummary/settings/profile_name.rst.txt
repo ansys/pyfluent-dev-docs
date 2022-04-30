@@ -1,3 +1,5 @@
+:orphan:
+
 .. _profile_name:
 
 profile_name
@@ -8,7 +10,6 @@ profile_name
 .. autoclass:: profile_name
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================================================================   ========================================================

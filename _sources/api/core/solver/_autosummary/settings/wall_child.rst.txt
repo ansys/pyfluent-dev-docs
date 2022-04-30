@@ -1,3 +1,5 @@
+:orphan:
+
 .. _wall_child:
 
 wall_child
@@ -8,7 +10,6 @@ wall_child
 .. autoclass:: wall_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ========================================================================================================   ========================================================

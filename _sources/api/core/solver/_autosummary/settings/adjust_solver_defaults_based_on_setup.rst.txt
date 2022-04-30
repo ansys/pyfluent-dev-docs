@@ -1,3 +1,5 @@
+:orphan:
+
 .. _adjust_solver_defaults_based_on_setup:
 
 adjust_solver_defaults_based_on_setup
@@ -8,7 +10,6 @@ adjust_solver_defaults_based_on_setup
 .. autoclass:: adjust_solver_defaults_based_on_setup
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

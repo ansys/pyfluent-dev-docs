@@ -1,3 +1,5 @@
+:orphan:
+
 .. _slip_velocity:
 
 slip_velocity
@@ -8,7 +10,6 @@ slip_velocity
 .. autoclass:: slip_velocity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

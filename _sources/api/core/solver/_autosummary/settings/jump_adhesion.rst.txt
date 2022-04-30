@@ -1,3 +1,5 @@
+:orphan:
+
 .. _jump_adhesion:
 
 jump_adhesion
@@ -8,7 +10,6 @@ jump_adhesion
 .. autoclass:: jump_adhesion
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ===================================

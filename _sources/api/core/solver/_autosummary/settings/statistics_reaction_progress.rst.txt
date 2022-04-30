@@ -1,3 +1,5 @@
+:orphan:
+
 .. _statistics_reaction_progress:
 
 statistics_reaction_progress
@@ -8,7 +10,6 @@ statistics_reaction_progress
 .. autoclass:: statistics_reaction_progress
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ======================

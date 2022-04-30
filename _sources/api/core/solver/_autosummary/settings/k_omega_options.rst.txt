@@ -1,3 +1,5 @@
+:orphan:
+
 .. _k_omega_options:
 
 k_omega_options
@@ -8,7 +10,6 @@ k_omega_options
 .. autoclass:: k_omega_options
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================   ========================================================

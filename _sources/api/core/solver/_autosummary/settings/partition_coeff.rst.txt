@@ -1,3 +1,5 @@
+:orphan:
+
 .. _partition_coeff:
 
 partition_coeff
@@ -8,7 +10,6 @@ partition_coeff
 .. autoclass:: partition_coeff
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

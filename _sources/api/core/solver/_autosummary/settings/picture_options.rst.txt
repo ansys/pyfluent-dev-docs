@@ -1,3 +1,5 @@
+:orphan:
+
 .. _picture_options:
 
 picture_options
@@ -8,7 +10,6 @@ picture_options
 .. autoclass:: picture_options
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names, command_names
 .. rubric:: Children
 
 ====================================================   =======================================================================

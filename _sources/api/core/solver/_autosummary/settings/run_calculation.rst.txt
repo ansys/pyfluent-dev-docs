@@ -1,3 +1,5 @@
+:orphan:
+
 .. _run_calculation:
 
 run_calculation
@@ -8,7 +10,6 @@ run_calculation
 .. autoclass:: run_calculation
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names, command_names
 .. rubric:: Children
 
 ==========================================================================   =========================================

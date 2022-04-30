@@ -1,3 +1,5 @@
+:orphan:
+
 .. _physical_velocity_formulation:
 
 physical_velocity_formulation
@@ -8,7 +10,6 @@ physical_velocity_formulation
 .. autoclass:: physical_velocity_formulation
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   =================

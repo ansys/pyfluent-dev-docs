@@ -1,3 +1,5 @@
+:orphan:
+
 .. _contour:
 
 contour
@@ -8,7 +10,6 @@ contour
 .. autoclass:: contour
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, command_names
 .. rubric:: Commands
 
 ========================   ==================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _viscous_heating:
 
 viscous_heating
@@ -8,7 +10,6 @@ viscous_heating
 .. autoclass:: viscous_heating
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

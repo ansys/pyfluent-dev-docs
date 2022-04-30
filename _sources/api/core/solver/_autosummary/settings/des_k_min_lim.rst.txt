@@ -1,3 +1,5 @@
+:orphan:
+
 .. _des_k_min_lim:
 
 des_k_min_lim
@@ -8,7 +10,6 @@ des_k_min_lim
 .. autoclass:: des_k_min_lim
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================   ===============

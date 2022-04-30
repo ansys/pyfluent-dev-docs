@@ -1,3 +1,5 @@
+:orphan:
+
 .. _surface:
 
 surface
@@ -8,7 +10,6 @@ surface
 .. autoclass:: surface
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`surface_child <surface_child>`

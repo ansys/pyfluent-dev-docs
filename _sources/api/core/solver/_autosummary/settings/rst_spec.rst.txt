@@ -1,3 +1,5 @@
+:orphan:
+
 .. _rst_spec:
 
 rst_spec
@@ -8,7 +10,6 @@ rst_spec
 .. autoclass:: rst_spec
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ===========================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _list_val:
 
 list_val
@@ -8,7 +10,6 @@ list_val
 .. autoclass:: list_val
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   =========================

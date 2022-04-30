@@ -1,3 +1,5 @@
+:orphan:
+
 .. _k1_min_lim:
 
 k1_min_lim
@@ -8,7 +10,6 @@ k1_min_lim
 .. autoclass:: k1_min_lim
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================   ===============

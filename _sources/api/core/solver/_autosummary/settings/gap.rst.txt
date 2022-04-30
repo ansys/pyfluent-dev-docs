@@ -1,3 +1,5 @@
+:orphan:
+
 .. _gap:
 
 gap
@@ -8,7 +10,6 @@ gap
 .. autoclass:: gap
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   ================

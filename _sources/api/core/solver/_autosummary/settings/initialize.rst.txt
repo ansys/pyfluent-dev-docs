@@ -1,3 +1,5 @@
+:orphan:
+
 .. _initialize:
 
 initialize
@@ -8,7 +10,6 @@ initialize
 .. autoclass:: initialize
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ==========================================   =========================

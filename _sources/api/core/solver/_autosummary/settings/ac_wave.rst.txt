@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ac_wave:
 
 ac_wave
@@ -8,7 +10,6 @@ ac_wave
 .. autoclass:: ac_wave
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

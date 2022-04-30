@@ -1,3 +1,5 @@
+:orphan:
+
 .. _shrink_factor:
 
 shrink_factor
@@ -8,7 +10,6 @@ shrink_factor
 .. autoclass:: shrink_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================   ============================

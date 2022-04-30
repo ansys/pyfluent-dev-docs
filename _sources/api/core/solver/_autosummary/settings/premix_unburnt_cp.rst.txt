@@ -1,3 +1,5 @@
+:orphan:
+
 .. _premix_unburnt_cp:
 
 premix_unburnt_cp
@@ -8,7 +10,6 @@ premix_unburnt_cp
 .. autoclass:: premix_unburnt_cp
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

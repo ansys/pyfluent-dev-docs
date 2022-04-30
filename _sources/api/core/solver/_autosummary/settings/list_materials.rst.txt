@@ -1,3 +1,5 @@
+:orphan:
+
 .. _list_materials:
 
 list_materials
@@ -8,7 +10,6 @@ list_materials
 .. autoclass:: list_materials
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ==================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _capture_simulation_report_data_1:
 
 capture_simulation_report_data
@@ -8,7 +10,6 @@ capture_simulation_report_data
 .. autoclass:: capture_simulation_report_data
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================   =====================================

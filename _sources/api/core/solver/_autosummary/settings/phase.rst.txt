@@ -1,3 +1,5 @@
+:orphan:
+
 .. _phase:
 
 phase
@@ -8,7 +10,6 @@ phase
 .. autoclass:: phase
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`phase_child <phase_child>`

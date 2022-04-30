@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pollut_hg:
 
 pollut_hg
@@ -8,7 +10,6 @@ pollut_hg
 .. autoclass:: pollut_hg
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

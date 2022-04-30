@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mesh_1:
 
 mesh
@@ -8,7 +10,6 @@ mesh
 .. autoclass:: mesh
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, command_names
 .. rubric:: Commands
 
 ========================   ==================

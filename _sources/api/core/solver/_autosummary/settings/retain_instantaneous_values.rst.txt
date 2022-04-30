@@ -1,3 +1,5 @@
+:orphan:
+
 .. _retain_instantaneous_values:
 
 retain_instantaneous_values
@@ -8,7 +10,6 @@ retain_instantaneous_values
 .. autoclass:: retain_instantaneous_values
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ====================================

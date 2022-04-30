@@ -1,3 +1,5 @@
+:orphan:
+
 .. _solar_shining_factor:
 
 solar_shining_factor
@@ -8,7 +10,6 @@ solar_shining_factor
 .. autoclass:: solar_shining_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================================   ============================================

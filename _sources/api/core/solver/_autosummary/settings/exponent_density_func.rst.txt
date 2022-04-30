@@ -1,3 +1,5 @@
+:orphan:
+
 .. _exponent_density_func:
 
 exponent_density_func
@@ -8,7 +10,6 @@ exponent_density_func
 .. autoclass:: exponent_density_func
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================================   =========================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _elec_potential_type:
 
 elec_potential_type
@@ -8,7 +10,6 @@ elec_potential_type
 .. autoclass:: elec_potential_type
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

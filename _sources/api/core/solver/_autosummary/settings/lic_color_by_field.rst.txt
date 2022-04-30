@@ -1,3 +1,5 @@
+:orphan:
+
 .. _lic_color_by_field:
 
 lic_color_by_field
@@ -8,7 +10,6 @@ lic_color_by_field
 .. autoclass:: lic_color_by_field
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ===========================

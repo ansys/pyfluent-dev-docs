@@ -1,3 +1,5 @@
+:orphan:
+
 .. _press_averaging_method:
 
 press_averaging_method
@@ -8,7 +10,6 @@ press_averaging_method
 .. autoclass:: press_averaging_method
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

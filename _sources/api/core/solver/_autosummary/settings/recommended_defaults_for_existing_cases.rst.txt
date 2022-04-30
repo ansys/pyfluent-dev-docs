@@ -1,3 +1,5 @@
+:orphan:
+
 .. _recommended_defaults_for_existing_cases:
 
 recommended_defaults_for_existing_cases
@@ -8,7 +10,6 @@ recommended_defaults_for_existing_cases
 .. autoclass:: recommended_defaults_for_existing_cases
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   =========================

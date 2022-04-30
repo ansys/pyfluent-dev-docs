@@ -1,3 +1,5 @@
+:orphan:
+
 .. _reaction_source_term_relaxation_factor:
 
 reaction_source_term_relaxation_factor
@@ -8,7 +10,6 @@ reaction_source_term_relaxation_factor
 .. autoclass:: reaction_source_term_relaxation_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ===============

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _enable_instability_detector:
 
 enable_instability_detector
@@ -8,7 +10,6 @@ enable_instability_detector
 .. autoclass:: enable_instability_detector
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   =============================

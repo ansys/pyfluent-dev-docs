@@ -1,3 +1,5 @@
+:orphan:
+
 .. _turb_compressibility:
 
 turb_compressibility
@@ -8,7 +10,6 @@ turb_compressibility
 .. autoclass:: turb_compressibility
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================   ========================

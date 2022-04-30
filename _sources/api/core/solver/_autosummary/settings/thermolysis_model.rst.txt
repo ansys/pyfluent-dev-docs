@@ -1,3 +1,5 @@
+:orphan:
+
 .. _thermolysis_model:
 
 thermolysis_model
@@ -8,7 +10,6 @@ thermolysis_model
 .. autoclass:: thermolysis_model
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

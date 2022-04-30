@@ -1,3 +1,5 @@
+:orphan:
+
 .. _copy_database_material_by_formula:
 
 copy_database_material_by_formula
@@ -8,7 +10,6 @@ copy_database_material_by_formula
 .. autoclass:: copy_database_material_by_formula
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ========================   ================

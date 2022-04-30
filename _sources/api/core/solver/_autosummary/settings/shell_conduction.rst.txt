@@ -1,3 +1,5 @@
+:orphan:
+
 .. _shell_conduction:
 
 shell_conduction
@@ -8,7 +10,6 @@ shell_conduction
 .. autoclass:: shell_conduction
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`shell_conduction_child <shell_conduction_child>`

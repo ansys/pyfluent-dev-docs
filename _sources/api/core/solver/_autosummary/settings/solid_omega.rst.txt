@@ -1,3 +1,5 @@
+:orphan:
+
 .. _solid_omega:
 
 solid_omega
@@ -8,7 +10,6 @@ solid_omega
 .. autoclass:: solid_omega
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

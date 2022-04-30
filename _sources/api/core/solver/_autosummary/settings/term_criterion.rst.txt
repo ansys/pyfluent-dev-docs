@@ -1,3 +1,5 @@
+:orphan:
+
 .. _term_criterion:
 
 term_criterion
@@ -8,7 +10,6 @@ term_criterion
 .. autoclass:: term_criterion
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================   =========================================

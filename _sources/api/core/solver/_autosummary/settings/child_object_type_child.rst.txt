@@ -1,3 +1,5 @@
+:orphan:
+
 .. _child_object_type_child:
 
 child_object_type_child
@@ -8,7 +10,6 @@ child_object_type_child
 .. autoclass:: child_object_type_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

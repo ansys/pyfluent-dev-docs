@@ -1,3 +1,5 @@
+:orphan:
+
 .. _wave_spect_method_dir:
 
 wave_spect_method_dir
@@ -8,7 +10,6 @@ wave_spect_method_dir
 .. autoclass:: wave_spect_method_dir
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _swelling_coefficient:
 
 swelling_coefficient
@@ -8,7 +10,6 @@ swelling_coefficient
 .. autoclass:: swelling_coefficient
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

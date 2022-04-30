@@ -1,3 +1,5 @@
+:orphan:
+
 .. _frozen_flux:
 
 frozen_flux
@@ -8,7 +10,6 @@ frozen_flux
 .. autoclass:: frozen_flux
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   ================

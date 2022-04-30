@@ -1,3 +1,5 @@
+:orphan:
+
 .. _roughness_const_data:
 
 roughness_const_data
@@ -8,7 +10,6 @@ roughness_const_data
 .. autoclass:: roughness_const_data
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

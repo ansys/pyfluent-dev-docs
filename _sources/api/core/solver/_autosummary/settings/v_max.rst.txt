@@ -1,3 +1,5 @@
+:orphan:
+
 .. _v_max:
 
 v_max
@@ -8,7 +10,6 @@ v_max
 .. autoclass:: v_max
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

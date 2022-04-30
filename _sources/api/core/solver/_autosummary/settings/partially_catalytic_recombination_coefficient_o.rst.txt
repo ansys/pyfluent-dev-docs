@@ -1,3 +1,5 @@
+:orphan:
+
 .. _partially_catalytic_recombination_coefficient_o:
 
 partially_catalytic_recombination_coefficient_o
@@ -8,7 +10,6 @@ partially_catalytic_recombination_coefficient_o
 .. autoclass:: partially_catalytic_recombination_coefficient_o
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

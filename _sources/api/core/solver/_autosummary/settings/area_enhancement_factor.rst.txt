@@ -1,3 +1,5 @@
+:orphan:
+
 .. _area_enhancement_factor:
 
 area_enhancement_factor
@@ -8,7 +10,6 @@ area_enhancement_factor
 .. autoclass:: area_enhancement_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

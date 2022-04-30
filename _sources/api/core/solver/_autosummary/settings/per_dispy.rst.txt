@@ -1,3 +1,5 @@
+:orphan:
+
 .. _per_dispy:
 
 per_dispy
@@ -8,7 +10,6 @@ per_dispy
 .. autoclass:: per_dispy
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

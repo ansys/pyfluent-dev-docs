@@ -1,3 +1,5 @@
+:orphan:
+
 .. _trad_internal:
 
 trad_internal
@@ -8,7 +10,6 @@ trad_internal
 .. autoclass:: trad_internal
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _solve_n_phase:
 
 solve_n_phase
@@ -8,7 +10,6 @@ solve_n_phase
 .. autoclass:: solve_n_phase
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================   =====================

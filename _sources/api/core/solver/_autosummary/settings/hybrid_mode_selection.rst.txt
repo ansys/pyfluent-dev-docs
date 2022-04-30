@@ -1,3 +1,5 @@
+:orphan:
+
 .. _hybrid_mode_selection:
 
 hybrid_mode_selection
@@ -8,7 +10,6 @@ hybrid_mode_selection
 .. autoclass:: hybrid_mode_selection
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ===============

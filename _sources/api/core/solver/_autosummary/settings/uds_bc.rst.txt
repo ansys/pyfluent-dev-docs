@@ -1,3 +1,5 @@
+:orphan:
+
 .. _uds_bc:
 
 uds_bc
@@ -8,7 +10,6 @@ uds_bc
 .. autoclass:: uds_bc
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`uds_bc_child <uds_bc_child>`

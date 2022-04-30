@@ -1,3 +1,5 @@
+:orphan:
+
 .. _skewness_correction:
 
 skewness_correction
@@ -8,7 +10,6 @@ skewness_correction
 .. autoclass:: skewness_correction
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==============================================================================   ====================================================================

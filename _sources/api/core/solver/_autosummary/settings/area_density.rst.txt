@@ -1,3 +1,5 @@
+:orphan:
+
 .. _area_density:
 
 area_density
@@ -8,7 +10,6 @@ area_density
 .. autoclass:: area_density
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

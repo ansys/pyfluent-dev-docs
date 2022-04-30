@@ -1,3 +1,5 @@
+:orphan:
+
 .. _counter_clockwise:
 
 counter_clockwise
@@ -8,7 +10,6 @@ counter_clockwise
 .. autoclass:: counter_clockwise
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================   ============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _critical_temperature:
 
 critical_temperature
@@ -8,7 +10,6 @@ critical_temperature
 .. autoclass:: critical_temperature
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

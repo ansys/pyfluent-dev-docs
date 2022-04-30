@@ -1,3 +1,5 @@
+:orphan:
+
 .. _matrix_component:
 
 matrix_component
@@ -8,7 +10,6 @@ matrix_component
 .. autoclass:: matrix_component
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================   ====================

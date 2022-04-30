@@ -1,3 +1,5 @@
+:orphan:
+
 .. _coordinate_system:
 
 coordinate_system
@@ -8,7 +10,6 @@ coordinate_system
 .. autoclass:: coordinate_system
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ===========================================

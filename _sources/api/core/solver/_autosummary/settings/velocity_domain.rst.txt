@@ -1,3 +1,5 @@
+:orphan:
+
 .. _velocity_domain:
 
 velocity_domain
@@ -8,7 +10,6 @@ velocity_domain
 .. autoclass:: velocity_domain
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================   =================================

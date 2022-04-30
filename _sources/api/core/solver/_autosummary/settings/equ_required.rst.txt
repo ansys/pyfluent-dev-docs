@@ -1,3 +1,5 @@
+:orphan:
+
 .. _equ_required:
 
 equ_required
@@ -8,7 +10,6 @@ equ_required
 .. autoclass:: equ_required
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

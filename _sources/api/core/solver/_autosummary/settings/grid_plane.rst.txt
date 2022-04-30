@@ -1,3 +1,5 @@
+:orphan:
+
 .. _grid_plane:
 
 grid_plane
@@ -8,7 +10,6 @@ grid_plane
 .. autoclass:: grid_plane
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

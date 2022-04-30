@@ -1,3 +1,5 @@
+:orphan:
+
 .. _correction_tolerance:
 
 correction_tolerance
@@ -8,7 +10,6 @@ correction_tolerance
 .. autoclass:: correction_tolerance
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`correction_tolerance_child <correction_tolerance_child>`

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pseudo_time_method:
 
 pseudo_time_method
@@ -8,7 +10,6 @@ pseudo_time_method
 .. autoclass:: pseudo_time_method
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ============================================================   ==================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _nodal_diam:
 
 nodal_diam
@@ -8,7 +10,6 @@ nodal_diam
 .. autoclass:: nodal_diam
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

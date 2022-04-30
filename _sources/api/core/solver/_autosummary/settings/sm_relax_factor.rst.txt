@@ -1,3 +1,5 @@
+:orphan:
+
 .. _sm_relax_factor:
 
 sm_relax_factor
@@ -8,7 +10,6 @@ sm_relax_factor
 .. autoclass:: sm_relax_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================================   =========================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mom_center:
 
 mom_center
@@ -8,7 +10,6 @@ mom_center
 .. autoclass:: mom_center
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   ==============================

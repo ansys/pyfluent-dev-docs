@@ -1,3 +1,5 @@
+:orphan:
+
 .. _write_data_1:
 
 write_data
@@ -8,7 +10,6 @@ write_data
 .. autoclass:: write_data
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================   =====================================

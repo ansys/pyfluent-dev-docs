@@ -1,3 +1,5 @@
+:orphan:
+
 .. _skip:
 
 skip
@@ -8,7 +10,6 @@ skip
 .. autoclass:: skip
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ir_st_absorbtivity:
 
 ir_st_absorbtivity
@@ -8,7 +10,6 @@ ir_st_absorbtivity
 .. autoclass:: ir_st_absorbtivity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

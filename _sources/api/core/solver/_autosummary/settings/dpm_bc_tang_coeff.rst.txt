@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_bc_tang_coeff:
 
 dpm_bc_tang_coeff
@@ -8,7 +10,6 @@ dpm_bc_tang_coeff
 .. autoclass:: dpm_bc_tang_coeff
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================   =============================

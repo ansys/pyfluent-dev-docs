@@ -1,3 +1,5 @@
+:orphan:
+
 .. _localized_turb_init:
 
 localized_turb_init
@@ -8,7 +10,6 @@ localized_turb_init
 .. autoclass:: localized_turb_init
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ============================================================   ====================================================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _int_rad:
 
 int_rad
@@ -8,7 +10,6 @@ int_rad
 .. autoclass:: int_rad
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

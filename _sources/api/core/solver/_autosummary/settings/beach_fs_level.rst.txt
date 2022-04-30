@@ -1,3 +1,5 @@
+:orphan:
+
 .. _beach_fs_level:
 
 beach_fs_level
@@ -8,7 +10,6 @@ beach_fs_level
 .. autoclass:: beach_fs_level
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _reset_to_default_view:
 
 reset_to_default_view
@@ -8,7 +10,6 @@ reset_to_default_view
 .. autoclass:: reset_to_default_view
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================   ==============

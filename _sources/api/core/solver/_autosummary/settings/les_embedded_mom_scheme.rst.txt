@@ -1,3 +1,5 @@
+:orphan:
+
 .. _les_embedded_mom_scheme:
 
 les_embedded_mom_scheme
@@ -8,7 +10,6 @@ les_embedded_mom_scheme
 .. autoclass:: les_embedded_mom_scheme
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

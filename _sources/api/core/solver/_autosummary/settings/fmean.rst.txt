@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fmean:
 
 fmean
@@ -8,7 +10,6 @@ fmean
 .. autoclass:: fmean
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

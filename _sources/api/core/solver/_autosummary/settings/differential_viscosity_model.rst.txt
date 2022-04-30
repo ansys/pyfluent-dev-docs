@@ -1,3 +1,5 @@
+:orphan:
+
 .. _differential_viscosity_model:
 
 differential_viscosity_model
@@ -8,7 +10,6 @@ differential_viscosity_model
 .. autoclass:: differential_viscosity_model
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================   ====================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mixture_species:
 
 mixture_species
@@ -8,7 +10,6 @@ mixture_species
 .. autoclass:: mixture_species
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`fluid_child <fluid_child>`

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _motion_bc:
 
 motion_bc
@@ -8,7 +10,6 @@ motion_bc
 .. autoclass:: motion_bc
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _aggressive_coarsening:
 
 aggressive_coarsening
@@ -8,7 +10,6 @@ aggressive_coarsening
 .. autoclass:: aggressive_coarsening
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   ==============================

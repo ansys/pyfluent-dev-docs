@@ -1,3 +1,5 @@
+:orphan:
+
 .. _contact_solution_controls:
 
 contact_solution_controls
@@ -8,7 +10,6 @@ contact_solution_controls
 .. autoclass:: contact_solution_controls
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names, command_names
 .. rubric:: Children
 
 ======================================================   ======================================================================

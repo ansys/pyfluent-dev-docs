@@ -1,3 +1,5 @@
+:orphan:
+
 .. _depth:
 
 depth
@@ -8,7 +10,6 @@ depth
 .. autoclass:: depth
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   =========================

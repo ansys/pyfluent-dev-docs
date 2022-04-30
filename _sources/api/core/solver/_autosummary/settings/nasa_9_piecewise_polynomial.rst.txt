@@ -1,3 +1,5 @@
+:orphan:
+
 .. _nasa_9_piecewise_polynomial:
 
 nasa_9_piecewise_polynomial
@@ -8,7 +10,6 @@ nasa_9_piecewise_polynomial
 .. autoclass:: nasa_9_piecewise_polynomial
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`piecewise_polynomial_child <piecewise_polynomial_child>`

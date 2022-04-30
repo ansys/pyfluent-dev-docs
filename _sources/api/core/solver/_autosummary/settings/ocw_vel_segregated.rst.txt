@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ocw_vel_segregated:
 
 ocw_vel_segregated
@@ -8,7 +10,6 @@ ocw_vel_segregated
 .. autoclass:: ocw_vel_segregated
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

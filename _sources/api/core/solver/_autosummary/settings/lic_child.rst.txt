@@ -1,3 +1,5 @@
+:orphan:
+
 .. _lic_child:
 
 lic_child
@@ -8,7 +10,6 @@ lic_child
 .. autoclass:: lic_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names, command_names
 .. rubric:: Children
 
 ========================================================   ================================

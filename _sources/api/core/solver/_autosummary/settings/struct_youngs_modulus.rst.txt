@@ -1,3 +1,5 @@
+:orphan:
+
 .. _struct_youngs_modulus:
 
 struct_youngs_modulus
@@ -8,7 +10,6 @@ struct_youngs_modulus
 .. autoclass:: struct_youngs_modulus
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

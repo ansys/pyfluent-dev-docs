@@ -1,3 +1,5 @@
+:orphan:
+
 .. _clear_generated_data:
 
 clear_generated_data
@@ -8,7 +10,6 @@ clear_generated_data
 .. autoclass:: clear_generated_data
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ====================================   ======================

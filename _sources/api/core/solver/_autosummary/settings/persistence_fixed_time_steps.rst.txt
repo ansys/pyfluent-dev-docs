@@ -1,3 +1,5 @@
+:orphan:
+
 .. _persistence_fixed_time_steps:
 
 persistence_fixed_time_steps
@@ -8,7 +10,6 @@ persistence_fixed_time_steps
 .. autoclass:: persistence_fixed_time_steps
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================   ===================

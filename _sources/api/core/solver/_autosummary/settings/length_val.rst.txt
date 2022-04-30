@@ -1,3 +1,5 @@
+:orphan:
+
 .. _length_val:
 
 length_val
@@ -8,7 +10,6 @@ length_val
 .. autoclass:: length_val
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   =========================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vm_streamwise_fluct:
 
 vm_streamwise_fluct
@@ -8,7 +10,6 @@ vm_streamwise_fluct
 .. autoclass:: vm_streamwise_fluct
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

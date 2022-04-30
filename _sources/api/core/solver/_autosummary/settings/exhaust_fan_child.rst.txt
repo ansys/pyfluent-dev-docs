@@ -1,3 +1,5 @@
+:orphan:
+
 .. _exhaust_fan_child:
 
 exhaust_fan_child
@@ -8,7 +10,6 @@ exhaust_fan_child
 .. autoclass:: exhaust_fan_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================================   =====================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pos_lim:
 
 pos_lim
@@ -8,7 +10,6 @@ pos_lim
 .. autoclass:: pos_lim
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================   ===============

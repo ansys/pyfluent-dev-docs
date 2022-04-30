@@ -1,3 +1,5 @@
+:orphan:
+
 .. _sampling_interval:
 
 sampling_interval
@@ -8,7 +10,6 @@ sampling_interval
 .. autoclass:: sampling_interval
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ======================

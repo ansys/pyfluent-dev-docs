@@ -1,3 +1,5 @@
+:orphan:
+
 .. _averaged_turbulent_parameters:
 
 averaged_turbulent_parameters
@@ -8,7 +10,6 @@ averaged_turbulent_parameters
 .. autoclass:: averaged_turbulent_parameters
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ==================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_upper_deposition_limit_offset:
 
 dpm_upper_deposition_limit_offset
@@ -8,7 +10,6 @@ dpm_upper_deposition_limit_offset
 .. autoclass:: dpm_upper_deposition_limit_offset
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _reinj_inj:
 
 reinj_inj
@@ -8,7 +10,6 @@ reinj_inj
 .. autoclass:: reinj_inj
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

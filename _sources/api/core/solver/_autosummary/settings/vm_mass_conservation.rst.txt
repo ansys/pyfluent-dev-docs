@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vm_mass_conservation:
 
 vm_mass_conservation
@@ -8,7 +10,6 @@ vm_mass_conservation
 .. autoclass:: vm_mass_conservation
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

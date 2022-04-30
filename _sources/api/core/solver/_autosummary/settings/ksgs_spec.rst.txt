@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ksgs_spec:
 
 ksgs_spec
@@ -8,7 +10,6 @@ ksgs_spec
 .. autoclass:: ksgs_spec
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ===========================================

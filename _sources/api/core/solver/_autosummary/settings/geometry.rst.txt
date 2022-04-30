@@ -1,3 +1,5 @@
+:orphan:
+
 .. _geometry:
 
 geometry
@@ -8,7 +10,6 @@ geometry
 .. autoclass:: geometry
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, command_names
 .. rubric:: Commands
 
 ================================   ======================

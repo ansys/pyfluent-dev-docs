@@ -1,3 +1,5 @@
+:orphan:
+
 .. _conductivity_0:
 
 conductivity_0
@@ -8,7 +10,6 @@ conductivity_0
 .. autoclass:: conductivity_0
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ======================================================   ===============================

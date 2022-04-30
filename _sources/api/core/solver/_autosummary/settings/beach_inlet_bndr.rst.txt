@@ -1,3 +1,5 @@
+:orphan:
+
 .. _beach_inlet_bndr:
 
 beach_inlet_bndr
@@ -8,7 +10,6 @@ beach_inlet_bndr
 .. autoclass:: beach_inlet_bndr
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

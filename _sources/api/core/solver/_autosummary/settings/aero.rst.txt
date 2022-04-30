@@ -1,3 +1,5 @@
+:orphan:
+
 .. _aero:
 
 aero
@@ -8,7 +10,6 @@ aero
 .. autoclass:: aero
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

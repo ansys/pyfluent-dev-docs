@@ -1,3 +1,5 @@
+:orphan:
+
 .. _spalart_allmaras_production:
 
 spalart_allmaras_production
@@ -8,7 +10,6 @@ spalart_allmaras_production
 .. autoclass:: spalart_allmaras_production
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

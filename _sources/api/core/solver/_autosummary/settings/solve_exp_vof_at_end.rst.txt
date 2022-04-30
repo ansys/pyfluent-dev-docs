@@ -1,3 +1,5 @@
+:orphan:
+
 .. _solve_exp_vof_at_end:
 
 solve_exp_vof_at_end
@@ -8,7 +10,6 @@ solve_exp_vof_at_end
 .. autoclass:: solve_exp_vof_at_end
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   =======================

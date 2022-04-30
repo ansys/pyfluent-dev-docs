@@ -1,3 +1,5 @@
+:orphan:
+
 .. _color:
 
 color
@@ -8,7 +10,6 @@ color
 .. autoclass:: color
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   =======================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pressure_min_lim:
 
 pressure_min_lim
@@ -8,7 +10,6 @@ pressure_min_lim
 .. autoclass:: pressure_min_lim
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================   ===============

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _non_overlap_zone_name:
 
 non_overlap_zone_name
@@ -8,7 +10,6 @@ non_overlap_zone_name
 .. autoclass:: non_overlap_zone_name
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================   =================================

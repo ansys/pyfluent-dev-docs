@@ -1,3 +1,5 @@
+:orphan:
+
 .. _file_type:
 
 file_type
@@ -8,7 +10,6 @@ file_type
 .. autoclass:: file_type
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================   ================

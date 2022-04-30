@@ -1,3 +1,5 @@
+:orphan:
+
 .. _omega_swirl:
 
 omega_swirl
@@ -8,7 +10,6 @@ omega_swirl
 .. autoclass:: omega_swirl
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

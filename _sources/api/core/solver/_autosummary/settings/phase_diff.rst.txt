@@ -1,3 +1,5 @@
+:orphan:
+
 .. _phase_diff:
 
 phase_diff
@@ -8,7 +10,6 @@ phase_diff
 .. autoclass:: phase_diff
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

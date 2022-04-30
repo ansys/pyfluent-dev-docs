@@ -1,3 +1,5 @@
+:orphan:
+
 .. _wave_spect_method_freq:
 
 wave_spect_method_freq
@@ -8,7 +10,6 @@ wave_spect_method_freq
 .. autoclass:: wave_spect_method_freq
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

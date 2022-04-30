@@ -1,3 +1,5 @@
+:orphan:
+
 .. _les_embedded_c_wale:
 
 les_embedded_c_wale
@@ -8,7 +10,6 @@ les_embedded_c_wale
 .. autoclass:: les_embedded_c_wale
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

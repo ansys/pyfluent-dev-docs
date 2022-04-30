@@ -1,3 +1,5 @@
+:orphan:
+
 .. _local_dt_dualts_relax:
 
 local_dt_dualts_relax
@@ -8,7 +10,6 @@ local_dt_dualts_relax
 .. autoclass:: local_dt_dualts_relax
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`axis_direction_component_child <axis_direction_component_child>`

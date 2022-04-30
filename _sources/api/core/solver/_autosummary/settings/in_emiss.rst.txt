@@ -1,3 +1,5 @@
+:orphan:
+
 .. _in_emiss:
 
 in_emiss
@@ -8,7 +10,6 @@ in_emiss
 .. autoclass:: in_emiss
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _current_parametric_study:
 
 current_parametric_study
@@ -8,7 +10,6 @@ current_parametric_study
 .. autoclass:: current_parametric_study
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================   ==============

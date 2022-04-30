@@ -1,3 +1,5 @@
+:orphan:
+
 .. _specify_coarsening_rate:
 
 specify_coarsening_rate
@@ -8,7 +10,6 @@ specify_coarsening_rate
 .. autoclass:: specify_coarsening_rate
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================   ============

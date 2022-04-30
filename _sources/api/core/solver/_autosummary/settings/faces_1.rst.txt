@@ -1,3 +1,5 @@
+:orphan:
+
 .. _faces_1:
 
 faces
@@ -8,7 +10,6 @@ faces
 .. autoclass:: faces
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================   ===============

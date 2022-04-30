@@ -1,3 +1,5 @@
+:orphan:
+
 .. _max_velocity_ratio:
 
 max_velocity_ratio
@@ -8,7 +10,6 @@ max_velocity_ratio
 .. autoclass:: max_velocity_ratio
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ==================================

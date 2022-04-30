@@ -1,3 +1,5 @@
+:orphan:
+
 .. _reset_pseudo_time_method_relaxations:
 
 reset_pseudo_time_method_relaxations
@@ -8,7 +10,6 @@ reset_pseudo_time_method_relaxations
 .. autoclass:: reset_pseudo_time_method_relaxations
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================   ================================

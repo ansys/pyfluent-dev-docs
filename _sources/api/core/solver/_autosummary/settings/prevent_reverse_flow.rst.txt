@@ -1,3 +1,5 @@
+:orphan:
+
 .. _prevent_reverse_flow:
 
 prevent_reverse_flow
@@ -8,7 +10,6 @@ prevent_reverse_flow
 .. autoclass:: prevent_reverse_flow
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _coarsen_by_size:
 
 coarsen_by_size
@@ -8,7 +10,6 @@ coarsen_by_size
 .. autoclass:: coarsen_by_size
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================   =========================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _les_embedded_spec:
 
 les_embedded_spec
@@ -8,7 +10,6 @@ les_embedded_spec
 .. autoclass:: les_embedded_spec
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

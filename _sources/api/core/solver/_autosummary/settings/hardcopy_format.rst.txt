@@ -1,3 +1,5 @@
+:orphan:
+
 .. _hardcopy_format:
 
 hardcopy_format
@@ -8,7 +10,6 @@ hardcopy_format
 .. autoclass:: hardcopy_format
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   =======================

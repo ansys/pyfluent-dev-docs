@@ -1,3 +1,5 @@
+:orphan:
+
 .. _alternative_energy_treatment:
 
 alternative_energy_treatment
@@ -8,7 +10,6 @@ alternative_energy_treatment
 .. autoclass:: alternative_energy_treatment
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ===========================

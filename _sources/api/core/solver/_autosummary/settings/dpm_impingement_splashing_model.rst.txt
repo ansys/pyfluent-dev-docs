@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_impingement_splashing_model:
 
 dpm_impingement_splashing_model
@@ -8,7 +10,6 @@ dpm_impingement_splashing_model
 .. autoclass:: dpm_impingement_splashing_model
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

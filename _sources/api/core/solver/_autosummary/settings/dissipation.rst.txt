@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dissipation:
 
 dissipation
@@ -8,7 +10,6 @@ dissipation
 .. autoclass:: dissipation
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ===================================

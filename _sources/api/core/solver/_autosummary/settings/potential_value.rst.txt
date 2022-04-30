@@ -1,3 +1,5 @@
+:orphan:
+
 .. _potential_value:
 
 potential_value
@@ -8,7 +10,6 @@ potential_value
 .. autoclass:: potential_value
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

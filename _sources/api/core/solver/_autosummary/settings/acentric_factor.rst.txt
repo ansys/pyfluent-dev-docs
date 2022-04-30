@@ -1,3 +1,5 @@
+:orphan:
+
 .. _acentric_factor:
 
 acentric_factor
@@ -8,7 +10,6 @@ acentric_factor
 .. autoclass:: acentric_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

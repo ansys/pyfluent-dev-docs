@@ -1,3 +1,5 @@
+:orphan:
+
 .. _marker_size:
 
 marker_size
@@ -8,7 +10,6 @@ marker_size
 .. autoclass:: marker_size
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   ========================

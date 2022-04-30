@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dt_init_limit:
 
 dt_init_limit
@@ -8,7 +10,6 @@ dt_init_limit
 .. autoclass:: dt_init_limit
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ==================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _sphere_lod:
 
 sphere_lod
@@ -8,7 +10,6 @@ sphere_lod
 .. autoclass:: sphere_lod
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   ========================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fan_vr:
 
 fan_vr
@@ -8,7 +10,6 @@ fan_vr
 .. autoclass:: fan_vr
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

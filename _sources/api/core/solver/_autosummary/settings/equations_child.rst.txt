@@ -1,3 +1,5 @@
+:orphan:
+
 .. _equations_child:
 
 equations_child
@@ -8,7 +10,6 @@ equations_child
 .. autoclass:: equations_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ==================

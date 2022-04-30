@@ -1,3 +1,5 @@
+:orphan:
+
 .. _binary_diffusivity:
 
 binary_diffusivity
@@ -8,7 +10,6 @@ binary_diffusivity
 .. autoclass:: binary_diffusivity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

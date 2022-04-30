@@ -1,3 +1,5 @@
+:orphan:
+
 .. _udf_zmotion_name:
 
 udf_zmotion_name
@@ -8,7 +10,6 @@ udf_zmotion_name
 .. autoclass:: udf_zmotion_name
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

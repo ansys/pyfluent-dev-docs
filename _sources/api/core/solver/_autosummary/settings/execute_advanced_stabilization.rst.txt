@@ -1,3 +1,5 @@
+:orphan:
+
 .. _execute_advanced_stabilization:
 
 execute_advanced_stabilization
@@ -8,7 +10,6 @@ execute_advanced_stabilization
 .. autoclass:: execute_advanced_stabilization
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================   ===============================

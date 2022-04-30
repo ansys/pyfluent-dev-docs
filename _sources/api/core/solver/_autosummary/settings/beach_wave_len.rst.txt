@@ -1,3 +1,5 @@
+:orphan:
+
 .. _beach_wave_len:
 
 beach_wave_len
@@ -8,7 +10,6 @@ beach_wave_len
 .. autoclass:: beach_wave_len
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

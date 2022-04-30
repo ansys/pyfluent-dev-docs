@@ -1,3 +1,5 @@
+:orphan:
+
 .. _heat_flux_relaxation_factor:
 
 heat_flux_relaxation_factor
@@ -8,7 +10,6 @@ heat_flux_relaxation_factor
 .. autoclass:: heat_flux_relaxation_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

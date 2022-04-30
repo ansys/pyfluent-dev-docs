@@ -1,3 +1,5 @@
+:orphan:
+
 .. _relative_convergence_criterion:
 
 relative_convergence_criterion
@@ -8,7 +10,6 @@ relative_convergence_criterion
 .. autoclass:: relative_convergence_criterion
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================================   =========================================

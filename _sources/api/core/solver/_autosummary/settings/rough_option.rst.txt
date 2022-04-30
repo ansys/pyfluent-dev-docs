@@ -1,3 +1,5 @@
+:orphan:
+
 .. _rough_option:
 
 rough_option
@@ -8,7 +10,6 @@ rough_option
 .. autoclass:: rough_option
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

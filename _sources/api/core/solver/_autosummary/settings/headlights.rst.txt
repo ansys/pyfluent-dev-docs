@@ -1,3 +1,5 @@
+:orphan:
+
 .. _headlights:
 
 headlights
@@ -8,7 +10,6 @@ headlights
 .. autoclass:: headlights
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _swirl_model:
 
 swirl_model
@@ -8,7 +10,6 @@ swirl_model
 .. autoclass:: swirl_model
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

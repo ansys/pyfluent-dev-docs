@@ -1,3 +1,5 @@
+:orphan:
+
 .. _radiating_s2s_surface:
 
 radiating_s2s_surface
@@ -8,7 +10,6 @@ radiating_s2s_surface
 .. autoclass:: radiating_s2s_surface
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

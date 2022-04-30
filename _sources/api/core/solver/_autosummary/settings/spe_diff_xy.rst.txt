@@ -1,3 +1,5 @@
+:orphan:
+
 .. _spe_diff_xy:
 
 spe_diff_xy
@@ -8,7 +10,6 @@ spe_diff_xy
 .. autoclass:: spe_diff_xy
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

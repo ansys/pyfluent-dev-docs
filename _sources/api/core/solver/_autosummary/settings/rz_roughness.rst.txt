@@ -1,3 +1,5 @@
+:orphan:
+
 .. _rz_roughness:
 
 rz_roughness
@@ -8,7 +10,6 @@ rz_roughness
 .. autoclass:: rz_roughness
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

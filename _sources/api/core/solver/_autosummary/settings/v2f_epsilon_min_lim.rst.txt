@@ -1,3 +1,5 @@
+:orphan:
+
 .. _v2f_epsilon_min_lim:
 
 v2f_epsilon_min_lim
@@ -8,7 +10,6 @@ v2f_epsilon_min_lim
 .. autoclass:: v2f_epsilon_min_lim
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================   ===============

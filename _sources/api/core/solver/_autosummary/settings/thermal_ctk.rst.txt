@@ -1,3 +1,5 @@
+:orphan:
+
 .. _thermal_ctk:
 
 thermal_ctk
@@ -8,7 +10,6 @@ thermal_ctk
 .. autoclass:: thermal_ctk
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ===================================

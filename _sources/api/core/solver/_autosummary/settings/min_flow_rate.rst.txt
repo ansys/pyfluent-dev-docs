@@ -1,3 +1,5 @@
+:orphan:
+
 .. _min_flow_rate:
 
 min_flow_rate
@@ -8,7 +10,6 @@ min_flow_rate
 .. autoclass:: min_flow_rate
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

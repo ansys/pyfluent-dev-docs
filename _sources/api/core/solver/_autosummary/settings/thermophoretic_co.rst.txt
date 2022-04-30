@@ -1,3 +1,5 @@
+:orphan:
+
 .. _thermophoretic_co:
 
 thermophoretic_co
@@ -8,7 +10,6 @@ thermophoretic_co
 .. autoclass:: thermophoretic_co
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

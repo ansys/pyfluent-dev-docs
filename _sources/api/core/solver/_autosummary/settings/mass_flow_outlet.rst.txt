@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mass_flow_outlet:
 
 mass_flow_outlet
@@ -8,7 +10,6 @@ mass_flow_outlet
 .. autoclass:: mass_flow_outlet
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, command_names
 .. rubric:: Commands
 
 ================================   ======================

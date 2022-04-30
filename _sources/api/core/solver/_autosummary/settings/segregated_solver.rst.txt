@@ -1,3 +1,5 @@
+:orphan:
+
 .. _segregated_solver:
 
 segregated_solver
@@ -8,7 +10,6 @@ segregated_solver
 .. autoclass:: segregated_solver
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================   ====================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _targeted_mf_boundary:
 
 targeted_mf_boundary
@@ -8,7 +10,6 @@ targeted_mf_boundary
 .. autoclass:: targeted_mf_boundary
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

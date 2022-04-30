@@ -1,3 +1,5 @@
+:orphan:
+
 .. _contour_lines:
 
 contour_lines
@@ -8,7 +10,6 @@ contour_lines
 .. autoclass:: contour_lines
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================   ===============================

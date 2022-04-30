@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fan_omega:
 
 fan_omega
@@ -8,7 +10,6 @@ fan_omega
 .. autoclass:: fan_omega
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   ==================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pold_pair_list_rad:
 
 pold_pair_list_rad
@@ -8,7 +10,6 @@ pold_pair_list_rad
 .. autoclass:: pold_pair_list_rad
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

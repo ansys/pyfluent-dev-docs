@@ -1,3 +1,5 @@
+:orphan:
+
 .. _solut_exp_coeff:
 
 solut_exp_coeff
@@ -8,7 +10,6 @@ solut_exp_coeff
 .. autoclass:: solut_exp_coeff
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

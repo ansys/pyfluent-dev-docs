@@ -1,3 +1,5 @@
+:orphan:
+
 .. _liquid_vof_factor:
 
 liquid_vof_factor
@@ -8,7 +10,6 @@ liquid_vof_factor
 .. autoclass:: liquid_vof_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ===========================

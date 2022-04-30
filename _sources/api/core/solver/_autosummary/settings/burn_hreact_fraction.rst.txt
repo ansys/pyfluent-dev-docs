@@ -1,3 +1,5 @@
+:orphan:
+
 .. _burn_hreact_fraction:
 
 burn_hreact_fraction
@@ -8,7 +10,6 @@ burn_hreact_fraction
 .. autoclass:: burn_hreact_fraction
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

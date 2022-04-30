@@ -1,3 +1,5 @@
+:orphan:
+
 .. _interfacial_artificial_viscosity:
 
 interfacial_artificial_viscosity
@@ -8,7 +10,6 @@ interfacial_artificial_viscosity
 .. autoclass:: interfacial_artificial_viscosity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ========================================================================   ============================================

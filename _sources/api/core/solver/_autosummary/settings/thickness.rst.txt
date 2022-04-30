@@ -1,3 +1,5 @@
+:orphan:
+
 .. _thickness:
 
 thickness
@@ -8,7 +10,6 @@ thickness
 .. autoclass:: thickness
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================================   ========================================

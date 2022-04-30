@@ -1,3 +1,5 @@
+:orphan:
+
 .. _volatile_fraction:
 
 volatile_fraction
@@ -8,7 +10,6 @@ volatile_fraction
 .. autoclass:: volatile_fraction
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

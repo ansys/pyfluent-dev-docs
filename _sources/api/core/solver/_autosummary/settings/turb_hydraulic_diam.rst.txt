@@ -1,3 +1,5 @@
+:orphan:
+
 .. _turb_hydraulic_diam:
 
 turb_hydraulic_diam
@@ -8,7 +10,6 @@ turb_hydraulic_diam
 .. autoclass:: turb_hydraulic_diam
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ===========================================

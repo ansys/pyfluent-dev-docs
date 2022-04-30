@@ -1,3 +1,5 @@
+:orphan:
+
 .. _multi_stage:
 
 multi_stage
@@ -8,7 +10,6 @@ multi_stage
 .. autoclass:: multi_stage
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`multi_stage_child <multi_stage_child>`

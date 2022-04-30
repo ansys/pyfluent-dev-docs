@@ -1,3 +1,5 @@
+:orphan:
+
 .. _relaxation_factor:
 
 relaxation_factor
@@ -8,7 +10,6 @@ relaxation_factor
 .. autoclass:: relaxation_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================================   ============================================

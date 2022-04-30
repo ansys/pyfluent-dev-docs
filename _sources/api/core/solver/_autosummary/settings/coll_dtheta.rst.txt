@@ -1,3 +1,5 @@
+:orphan:
+
 .. _coll_dtheta:
 
 coll_dtheta
@@ -8,7 +10,6 @@ coll_dtheta
 .. autoclass:: coll_dtheta
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

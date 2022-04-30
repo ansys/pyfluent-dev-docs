@@ -1,3 +1,5 @@
+:orphan:
+
 .. _transient_parameters_specify:
 
 transient_parameters_specify
@@ -8,7 +10,6 @@ transient_parameters_specify
 .. autoclass:: transient_parameters_specify
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ==================

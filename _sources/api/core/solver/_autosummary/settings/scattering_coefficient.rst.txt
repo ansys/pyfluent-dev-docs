@@ -1,3 +1,5 @@
+:orphan:
+
 .. _scattering_coefficient:
 
 scattering_coefficient
@@ -8,7 +10,6 @@ scattering_coefficient
 .. autoclass:: scattering_coefficient
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _point_vector:
 
 point_vector
@@ -8,7 +10,6 @@ point_vector
 .. autoclass:: point_vector
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================   =====================================

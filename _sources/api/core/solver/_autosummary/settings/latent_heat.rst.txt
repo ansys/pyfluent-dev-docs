@@ -1,3 +1,5 @@
+:orphan:
+
 .. _latent_heat:
 
 latent_heat
@@ -8,7 +10,6 @@ latent_heat
 .. autoclass:: latent_heat
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

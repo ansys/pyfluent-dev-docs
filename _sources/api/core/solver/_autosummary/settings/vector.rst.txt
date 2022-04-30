@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vector:
 
 vector
@@ -8,7 +10,6 @@ vector
 .. autoclass:: vector
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, command_names
 .. rubric:: Commands
 
 ========================   ==================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _eslip:
 
 eslip
@@ -8,7 +10,6 @@ eslip
 .. autoclass:: eslip
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

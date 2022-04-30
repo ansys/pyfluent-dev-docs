@@ -1,3 +1,5 @@
+:orphan:
+
 .. _create:
 
 create
@@ -8,7 +10,6 @@ create
 .. autoclass:: create
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ======================================================================   =======================================

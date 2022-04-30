@@ -1,3 +1,5 @@
+:orphan:
+
 .. _inlet_diffusion:
 
 inlet_diffusion
@@ -8,7 +10,6 @@ inlet_diffusion
 .. autoclass:: inlet_diffusion
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================   ===============

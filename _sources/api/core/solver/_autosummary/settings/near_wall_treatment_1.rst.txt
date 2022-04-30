@@ -1,3 +1,5 @@
+:orphan:
+
 .. _near_wall_treatment_1:
 
 near_wall_treatment
@@ -8,7 +10,6 @@ near_wall_treatment
 .. autoclass:: near_wall_treatment
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================================   =========================================

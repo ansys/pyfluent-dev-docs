@@ -1,3 +1,5 @@
+:orphan:
+
 .. _turbulent_diffusion:
 
 turbulent_diffusion
@@ -8,7 +10,6 @@ turbulent_diffusion
 .. autoclass:: turbulent_diffusion
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================   ===================

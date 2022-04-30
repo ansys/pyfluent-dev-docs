@@ -1,3 +1,5 @@
+:orphan:
+
 .. _unsteady_global_time:
 
 unsteady_global_time
@@ -8,7 +10,6 @@ unsteady_global_time
 .. autoclass:: unsteady_global_time
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   ================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _verbosity_1:
 
 verbosity
@@ -8,7 +10,6 @@ verbosity
 .. autoclass:: verbosity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ==================================

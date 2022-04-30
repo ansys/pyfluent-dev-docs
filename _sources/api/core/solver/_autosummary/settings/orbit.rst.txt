@@ -1,3 +1,5 @@
+:orphan:
+
 .. _orbit:
 
 orbit
@@ -8,7 +10,6 @@ orbit
 .. autoclass:: orbit
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ====================   ==============

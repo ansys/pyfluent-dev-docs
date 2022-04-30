@@ -1,3 +1,5 @@
+:orphan:
+
 .. _exponent_smoothing_func:
 
 exponent_smoothing_func
@@ -8,7 +10,6 @@ exponent_smoothing_func
 .. autoclass:: exponent_smoothing_func
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================================   =========================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _volume:
 
 volume
@@ -8,7 +10,6 @@ volume
 .. autoclass:: volume
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`volume_child <volume_child>`

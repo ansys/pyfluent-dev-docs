@@ -1,3 +1,5 @@
+:orphan:
+
 .. _kinetic_energy:
 
 kinetic_energy
@@ -8,7 +10,6 @@ kinetic_energy
 .. autoclass:: kinetic_energy
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================   ===============

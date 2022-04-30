@@ -1,3 +1,5 @@
+:orphan:
+
 .. _min_step_change_factor:
 
 min_step_change_factor
@@ -8,7 +10,6 @@ min_step_change_factor
 .. autoclass:: min_step_change_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================================   =========================================

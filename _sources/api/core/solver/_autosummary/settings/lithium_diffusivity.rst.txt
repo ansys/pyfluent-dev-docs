@@ -1,3 +1,5 @@
+:orphan:
+
 .. _lithium_diffusivity:
 
 lithium_diffusivity
@@ -8,7 +10,6 @@ lithium_diffusivity
 .. autoclass:: lithium_diffusivity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

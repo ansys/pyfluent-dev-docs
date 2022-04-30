@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_bc_erosion_shielding:
 
 dpm_bc_erosion_shielding
@@ -8,7 +10,6 @@ dpm_bc_erosion_shielding
 .. autoclass:: dpm_bc_erosion_shielding
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

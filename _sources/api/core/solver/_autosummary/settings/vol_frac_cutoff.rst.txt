@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vol_frac_cutoff:
 
 vol_frac_cutoff
@@ -8,7 +10,6 @@ vol_frac_cutoff
 .. autoclass:: vol_frac_cutoff
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================================================   ====================================================

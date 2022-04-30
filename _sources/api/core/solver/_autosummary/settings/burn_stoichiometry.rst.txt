@@ -1,3 +1,5 @@
+:orphan:
+
 .. _burn_stoichiometry:
 
 burn_stoichiometry
@@ -8,7 +10,6 @@ burn_stoichiometry
 .. autoclass:: burn_stoichiometry
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

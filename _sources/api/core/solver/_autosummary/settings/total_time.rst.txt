@@ -1,3 +1,5 @@
+:orphan:
+
 .. _total_time:
 
 total_time
@@ -8,7 +10,6 @@ total_time
 .. autoclass:: total_time
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fan_pre_jump:
 
 fan_pre_jump
@@ -8,7 +10,6 @@ fan_pre_jump
 .. autoclass:: fan_pre_jump
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

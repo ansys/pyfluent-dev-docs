@@ -1,3 +1,5 @@
+:orphan:
+
 .. _read_1:
 
 read
@@ -8,7 +10,6 @@ read
 .. autoclass:: read
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ============================   ==================

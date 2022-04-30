@@ -1,3 +1,5 @@
+:orphan:
+
 .. _font_size:
 
 font_size
@@ -8,7 +10,6 @@ font_size
 .. autoclass:: font_size
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ==================

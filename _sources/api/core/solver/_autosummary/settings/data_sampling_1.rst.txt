@@ -1,3 +1,5 @@
+:orphan:
+
 .. _data_sampling_1:
 
 data_sampling
@@ -8,7 +10,6 @@ data_sampling
 .. autoclass:: data_sampling
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names, command_names
 .. rubric:: Children
 
 ==================================================================   =====================================================

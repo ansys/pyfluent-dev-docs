@@ -1,3 +1,5 @@
+:orphan:
+
 .. _impedance_1:
 
 impedance_1
@@ -8,7 +10,6 @@ impedance_1
 .. autoclass:: impedance_1
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`impedance_1_child <impedance_1_child>`

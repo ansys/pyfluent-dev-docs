@@ -1,3 +1,5 @@
+:orphan:
+
 .. _display_states_child:
 
 display_states_child
@@ -8,7 +10,6 @@ display_states_child
 .. autoclass:: display_states_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ========================================================   ================================

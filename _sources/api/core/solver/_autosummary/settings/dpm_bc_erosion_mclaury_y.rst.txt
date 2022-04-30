@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_bc_erosion_mclaury_y:
 
 dpm_bc_erosion_mclaury_y
@@ -8,7 +10,6 @@ dpm_bc_erosion_mclaury_y
 .. autoclass:: dpm_bc_erosion_mclaury_y
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

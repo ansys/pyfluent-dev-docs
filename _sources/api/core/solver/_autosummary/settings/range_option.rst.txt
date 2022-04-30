@@ -1,3 +1,5 @@
+:orphan:
+
 .. _range_option:
 
 range_option
@@ -8,7 +10,6 @@ range_option
 .. autoclass:: range_option
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ======================================   =======================

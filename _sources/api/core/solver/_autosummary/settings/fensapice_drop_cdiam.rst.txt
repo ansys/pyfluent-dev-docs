@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fensapice_drop_cdiam:
 
 fensapice_drop_cdiam
@@ -8,7 +10,6 @@ fensapice_drop_cdiam
 .. autoclass:: fensapice_drop_cdiam
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

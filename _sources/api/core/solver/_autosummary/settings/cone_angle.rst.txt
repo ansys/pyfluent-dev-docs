@@ -1,3 +1,5 @@
+:orphan:
+
 .. _cone_angle:
 
 cone_angle
@@ -8,7 +10,6 @@ cone_angle
 .. autoclass:: cone_angle
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

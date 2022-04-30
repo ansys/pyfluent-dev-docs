@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pressure_gradient_effects:
 
 pressure_gradient_effects
@@ -8,7 +10,6 @@ pressure_gradient_effects
 .. autoclass:: pressure_gradient_effects
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================================   ========================================

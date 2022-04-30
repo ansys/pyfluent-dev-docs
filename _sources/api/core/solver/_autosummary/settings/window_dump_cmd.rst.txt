@@ -1,3 +1,5 @@
+:orphan:
+
 .. _window_dump_cmd:
 
 window_dump_cmd
@@ -8,7 +10,6 @@ window_dump_cmd
 .. autoclass:: window_dump_cmd
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   =======================

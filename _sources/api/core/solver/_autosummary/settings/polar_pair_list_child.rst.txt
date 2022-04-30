@@ -1,3 +1,5 @@
+:orphan:
+
 .. _polar_pair_list_child:
 
 polar_pair_list_child
@@ -8,7 +10,6 @@ polar_pair_list_child
 .. autoclass:: polar_pair_list_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================   =============================

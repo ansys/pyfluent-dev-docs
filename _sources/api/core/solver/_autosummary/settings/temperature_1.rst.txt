@@ -1,3 +1,5 @@
+:orphan:
+
 .. _temperature_1:
 
 temperature
@@ -8,7 +10,6 @@ temperature
 .. autoclass:: temperature
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   =========================

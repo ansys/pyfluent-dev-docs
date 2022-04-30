@@ -1,3 +1,5 @@
+:orphan:
+
 .. _filter_settings:
 
 filter_settings
@@ -8,7 +10,6 @@ filter_settings
 .. autoclass:: filter_settings
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ======================================   =======================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _solver_1:
 
 solver
@@ -8,7 +10,6 @@ solver
 .. autoclass:: solver
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================   =========================================

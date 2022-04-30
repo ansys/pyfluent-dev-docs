@@ -1,3 +1,5 @@
+:orphan:
+
 .. _band_q_irrad:
 
 band_q_irrad
@@ -8,7 +10,6 @@ band_q_irrad
 .. autoclass:: band_q_irrad
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`child_object_type_child <child_object_type_child>`

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pseudo_time_courant_number:
 
 pseudo_time_courant_number
@@ -8,7 +10,6 @@ pseudo_time_courant_number
 .. autoclass:: pseudo_time_courant_number
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   =================================

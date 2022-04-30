@@ -1,3 +1,5 @@
+:orphan:
+
 .. _amplitude:
 
 amplitude
@@ -8,7 +10,6 @@ amplitude
 .. autoclass:: amplitude
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ===================================

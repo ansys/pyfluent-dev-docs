@@ -1,3 +1,5 @@
+:orphan:
+
 .. _update_selected:
 
 update_selected
@@ -8,7 +10,6 @@ update_selected
 .. autoclass:: update_selected
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ====================================   ======================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _current_driver:
 
 current_driver
@@ -8,7 +10,6 @@ current_driver
 .. autoclass:: current_driver
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   =======================

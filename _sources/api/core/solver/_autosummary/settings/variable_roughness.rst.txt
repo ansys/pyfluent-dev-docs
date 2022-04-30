@@ -1,3 +1,5 @@
+:orphan:
+
 .. _variable_roughness:
 
 variable_roughness
@@ -8,7 +10,6 @@ variable_roughness
 .. autoclass:: variable_roughness
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

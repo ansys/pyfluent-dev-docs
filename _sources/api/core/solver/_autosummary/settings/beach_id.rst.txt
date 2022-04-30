@@ -1,3 +1,5 @@
+:orphan:
+
 .. _beach_id:
 
 beach_id
@@ -8,7 +10,6 @@ beach_id
 .. autoclass:: beach_id
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

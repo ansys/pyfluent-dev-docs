@@ -1,3 +1,5 @@
+:orphan:
+
 .. _beach_damp_resist_lin:
 
 beach_damp_resist_lin
@@ -8,7 +10,6 @@ beach_damp_resist_lin
 .. autoclass:: beach_damp_resist_lin
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

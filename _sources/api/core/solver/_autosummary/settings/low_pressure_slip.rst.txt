@@ -1,3 +1,5 @@
+:orphan:
+
 .. _low_pressure_slip:
 
 low_pressure_slip
@@ -8,7 +10,6 @@ low_pressure_slip
 .. autoclass:: low_pressure_slip
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

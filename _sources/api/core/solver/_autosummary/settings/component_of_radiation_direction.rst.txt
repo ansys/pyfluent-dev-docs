@@ -1,3 +1,5 @@
+:orphan:
+
 .. _component_of_radiation_direction:
 
 component_of_radiation_direction
@@ -8,7 +10,6 @@ component_of_radiation_direction
 .. autoclass:: component_of_radiation_direction
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`child_object_type_child <child_object_type_child>`

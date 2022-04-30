@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ref_perm_p2:
 
 ref_perm_p2
@@ -8,7 +10,6 @@ ref_perm_p2
 .. autoclass:: ref_perm_p2
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

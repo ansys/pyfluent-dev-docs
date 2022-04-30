@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ir_absp:
 
 ir_absp
@@ -8,7 +10,6 @@ ir_absp
 .. autoclass:: ir_absp
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

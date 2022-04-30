@@ -1,3 +1,5 @@
+:orphan:
+
 .. _film_roughness_ra:
 
 film_roughness_ra
@@ -8,7 +10,6 @@ film_roughness_ra
 .. autoclass:: film_roughness_ra
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

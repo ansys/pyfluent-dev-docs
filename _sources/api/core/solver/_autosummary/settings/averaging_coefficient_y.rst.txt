@@ -1,3 +1,5 @@
+:orphan:
+
 .. _averaging_coefficient_y:
 
 averaging_coefficient_y
@@ -8,7 +10,6 @@ averaging_coefficient_y
 .. autoclass:: averaging_coefficient_y
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

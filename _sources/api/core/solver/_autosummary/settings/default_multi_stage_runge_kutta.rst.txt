@@ -1,3 +1,5 @@
+:orphan:
+
 .. _default_multi_stage_runge_kutta:
 
 default_multi_stage_runge_kutta
@@ -8,7 +10,6 @@ default_multi_stage_runge_kutta
 .. autoclass:: default_multi_stage_runge_kutta
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================   ============

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dt_max:
 
 dt_max
@@ -8,7 +10,6 @@ dt_max
 .. autoclass:: dt_max
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ==================================

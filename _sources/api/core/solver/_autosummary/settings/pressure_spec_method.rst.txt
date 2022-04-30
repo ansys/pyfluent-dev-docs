@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pressure_spec_method:
 
 pressure_spec_method
@@ -8,7 +10,6 @@ pressure_spec_method
 .. autoclass:: pressure_spec_method
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

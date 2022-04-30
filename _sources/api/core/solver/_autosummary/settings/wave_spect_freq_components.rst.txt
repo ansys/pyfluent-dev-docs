@@ -1,3 +1,5 @@
+:orphan:
+
 .. _wave_spect_freq_components:
 
 wave_spect_freq_components
@@ -8,7 +10,6 @@ wave_spect_freq_components
 .. autoclass:: wave_spect_freq_components
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

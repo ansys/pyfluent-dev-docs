@@ -1,3 +1,5 @@
+:orphan:
+
 .. _recirculation_outlet_child:
 
 recirculation_outlet_child
@@ -8,7 +10,6 @@ recirculation_outlet_child
 .. autoclass:: recirculation_outlet_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================   =============================

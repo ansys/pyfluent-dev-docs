@@ -1,3 +1,5 @@
+:orphan:
+
 .. _alternate_bc_formulation:
 
 alternate_bc_formulation
@@ -8,7 +10,6 @@ alternate_bc_formulation
 .. autoclass:: alternate_bc_formulation
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ==========================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _inlet_number:
 
 inlet_number
@@ -8,7 +10,6 @@ inlet_number
 .. autoclass:: inlet_number
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

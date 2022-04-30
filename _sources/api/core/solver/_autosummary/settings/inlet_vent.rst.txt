@@ -1,3 +1,5 @@
+:orphan:
+
 .. _inlet_vent:
 
 inlet_vent
@@ -8,7 +10,6 @@ inlet_vent
 .. autoclass:: inlet_vent
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, command_names
 .. rubric:: Commands
 
 ================================   ======================

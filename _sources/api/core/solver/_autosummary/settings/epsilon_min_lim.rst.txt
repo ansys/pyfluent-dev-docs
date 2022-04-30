@@ -1,3 +1,5 @@
+:orphan:
+
 .. _epsilon_min_lim:
 
 epsilon_min_lim
@@ -8,7 +10,6 @@ epsilon_min_lim
 .. autoclass:: epsilon_min_lim
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================   ===============

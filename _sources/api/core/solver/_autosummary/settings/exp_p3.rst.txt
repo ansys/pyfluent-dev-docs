@@ -1,3 +1,5 @@
+:orphan:
+
 .. _exp_p3:
 
 exp_p3
@@ -8,7 +10,6 @@ exp_p3
 .. autoclass:: exp_p3
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

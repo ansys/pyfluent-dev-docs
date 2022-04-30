@@ -1,3 +1,5 @@
+:orphan:
+
 .. _error_tolerance_1:
 
 error_tolerance
@@ -8,7 +10,6 @@ error_tolerance
 .. autoclass:: error_tolerance
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ==================================

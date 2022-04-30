@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vof_correction_itr:
 
 vof_correction_itr
@@ -8,7 +10,6 @@ vof_correction_itr
 .. autoclass:: vof_correction_itr
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =====================

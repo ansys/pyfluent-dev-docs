@@ -1,3 +1,5 @@
+:orphan:
+
 .. _transition_sst_options:
 
 transition_sst_options
@@ -8,7 +10,6 @@ transition_sst_options
 .. autoclass:: transition_sst_options
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ====================================================   ====================================================

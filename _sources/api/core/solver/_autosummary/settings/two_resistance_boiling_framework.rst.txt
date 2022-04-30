@@ -1,3 +1,5 @@
+:orphan:
+
 .. _two_resistance_boiling_framework:
 
 two_resistance_boiling_framework
@@ -8,7 +10,6 @@ two_resistance_boiling_framework
 .. autoclass:: two_resistance_boiling_framework
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

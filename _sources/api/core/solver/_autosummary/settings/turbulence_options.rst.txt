@@ -1,3 +1,5 @@
+:orphan:
+
 .. _turbulence_options:
 
 turbulence_options
@@ -8,7 +10,6 @@ turbulence_options
 .. autoclass:: turbulence_options
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================================   ========================================

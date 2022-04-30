@@ -1,3 +1,5 @@
+:orphan:
+
 .. _report_defs:
 
 report_defs
@@ -8,7 +10,6 @@ report_defs
 .. autoclass:: report_defs
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   ==================

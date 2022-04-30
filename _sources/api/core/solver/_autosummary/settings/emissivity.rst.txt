@@ -1,3 +1,5 @@
+:orphan:
+
 .. _emissivity:
 
 emissivity
@@ -8,7 +10,6 @@ emissivity
 .. autoclass:: emissivity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

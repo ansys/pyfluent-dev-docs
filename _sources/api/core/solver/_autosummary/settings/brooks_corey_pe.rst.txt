@@ -1,3 +1,5 @@
+:orphan:
+
 .. _brooks_corey_pe:
 
 brooks_corey_pe
@@ -8,7 +10,6 @@ brooks_corey_pe
 .. autoclass:: brooks_corey_pe
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

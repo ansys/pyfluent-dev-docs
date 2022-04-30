@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_critical_shear_stress:
 
 dpm_critical_shear_stress
@@ -8,7 +10,6 @@ dpm_critical_shear_stress
 .. autoclass:: dpm_critical_shear_stress
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _convert_to_managed:
 
 convert_to_managed
@@ -8,7 +10,6 @@ convert_to_managed
 .. autoclass:: convert_to_managed
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   ================

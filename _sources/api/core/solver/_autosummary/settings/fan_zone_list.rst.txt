@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fan_zone_list:
 
 fan_zone_list
@@ -8,7 +10,6 @@ fan_zone_list
 .. autoclass:: fan_zone_list
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

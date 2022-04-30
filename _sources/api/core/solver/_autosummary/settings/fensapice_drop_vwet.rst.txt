@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fensapice_drop_vwet:
 
 fensapice_drop_vwet
@@ -8,7 +10,6 @@ fensapice_drop_vwet
 .. autoclass:: fensapice_drop_vwet
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

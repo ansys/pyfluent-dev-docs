@@ -1,3 +1,5 @@
+:orphan:
+
 .. _lift:
 
 lift
@@ -8,7 +10,6 @@ lift
 .. autoclass:: lift
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`lift_child <lift_child>`

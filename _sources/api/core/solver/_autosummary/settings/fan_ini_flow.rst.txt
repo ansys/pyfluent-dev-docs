@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fan_ini_flow:
 
 fan_ini_flow
@@ -8,7 +10,6 @@ fan_ini_flow
 .. autoclass:: fan_ini_flow
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

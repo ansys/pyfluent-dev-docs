@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_bc_erosion_oka_n2:
 
 dpm_bc_erosion_oka_n2
@@ -8,7 +10,6 @@ dpm_bc_erosion_oka_n2
 .. autoclass:: dpm_bc_erosion_oka_n2
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

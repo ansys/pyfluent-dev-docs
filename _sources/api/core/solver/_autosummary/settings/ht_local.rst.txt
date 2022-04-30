@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ht_local:
 
 ht_local
@@ -8,7 +10,6 @@ ht_local
 .. autoclass:: ht_local
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

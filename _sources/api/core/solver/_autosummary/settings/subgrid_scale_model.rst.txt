@@ -1,3 +1,5 @@
+:orphan:
+
 .. _subgrid_scale_model:
 
 subgrid_scale_model
@@ -8,7 +10,6 @@ subgrid_scale_model
 .. autoclass:: subgrid_scale_model
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

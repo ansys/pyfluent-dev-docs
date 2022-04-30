@@ -1,3 +1,5 @@
+:orphan:
+
 .. _solution_status:
 
 solution_status
@@ -8,7 +10,6 @@ solution_status
 .. autoclass:: solution_status
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ===========================

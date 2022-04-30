@@ -1,3 +1,5 @@
+:orphan:
+
 .. _density_func_expo:
 
 density_func_expo
@@ -8,7 +10,6 @@ density_func_expo
 .. autoclass:: density_func_expo
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =====================

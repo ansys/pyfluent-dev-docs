@@ -1,3 +1,5 @@
+:orphan:
+
 .. _press_spec:
 
 press_spec
@@ -8,7 +10,6 @@ press_spec
 .. autoclass:: press_spec
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

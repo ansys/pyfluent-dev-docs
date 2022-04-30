@@ -1,3 +1,5 @@
+:orphan:
+
 .. _elec_potential_resistance:
 
 elec_potential_resistance
@@ -8,7 +10,6 @@ elec_potential_resistance
 .. autoclass:: elec_potential_resistance
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

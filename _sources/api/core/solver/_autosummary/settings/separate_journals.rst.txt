@@ -1,3 +1,5 @@
+:orphan:
+
 .. _separate_journals:
 
 separate_journals
@@ -8,7 +10,6 @@ separate_journals
 .. autoclass:: separate_journals
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================   ==============

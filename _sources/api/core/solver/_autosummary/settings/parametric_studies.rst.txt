@@ -1,3 +1,5 @@
+:orphan:
+
 .. _parametric_studies:
 
 parametric_studies
@@ -8,7 +10,6 @@ parametric_studies
 .. autoclass:: parametric_studies
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, command_names
 .. rubric:: Commands
 
 ================================================   ===========================

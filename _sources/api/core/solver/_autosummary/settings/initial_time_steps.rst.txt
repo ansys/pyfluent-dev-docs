@@ -1,3 +1,5 @@
+:orphan:
+
 .. _initial_time_steps:
 
 initial_time_steps
@@ -8,7 +10,6 @@ initial_time_steps
 .. autoclass:: initial_time_steps
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   =================================

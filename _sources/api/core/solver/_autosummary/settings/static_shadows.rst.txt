@@ -1,3 +1,5 @@
+:orphan:
+
 .. _static_shadows:
 
 static_shadows
@@ -8,7 +10,6 @@ static_shadows
 .. autoclass:: static_shadows
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _omega_min_lim:
 
 omega_min_lim
@@ -8,7 +10,6 @@ omega_min_lim
 .. autoclass:: omega_min_lim
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================   ===============

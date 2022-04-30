@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fixed_length:
 
 fixed_length
@@ -8,7 +10,6 @@ fixed_length
 .. autoclass:: fixed_length
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================   ===================

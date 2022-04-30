@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mom_axis:
 
 mom_axis
@@ -8,7 +10,6 @@ mom_axis
 .. autoclass:: mom_axis
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   ==============================

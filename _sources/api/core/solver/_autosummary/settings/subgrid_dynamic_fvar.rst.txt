@@ -1,3 +1,5 @@
+:orphan:
+
 .. _subgrid_dynamic_fvar:
 
 subgrid_dynamic_fvar
@@ -8,7 +10,6 @@ subgrid_dynamic_fvar
 .. autoclass:: subgrid_dynamic_fvar
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ==========================

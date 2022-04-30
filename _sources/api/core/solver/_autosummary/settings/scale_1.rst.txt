@@ -1,3 +1,5 @@
+:orphan:
+
 .. _scale_1:
 
 scale
@@ -8,7 +10,6 @@ scale
 .. autoclass:: scale
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================   ========================

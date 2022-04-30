@@ -1,3 +1,5 @@
+:orphan:
+
 .. _max_value:
 
 max_value
@@ -8,7 +10,6 @@ max_value
 .. autoclass:: max_value
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ======================

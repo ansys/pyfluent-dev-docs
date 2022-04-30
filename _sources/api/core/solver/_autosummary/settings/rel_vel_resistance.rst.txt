@@ -1,3 +1,5 @@
+:orphan:
+
 .. _rel_vel_resistance:
 
 rel_vel_resistance
@@ -8,7 +10,6 @@ rel_vel_resistance
 .. autoclass:: rel_vel_resistance
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

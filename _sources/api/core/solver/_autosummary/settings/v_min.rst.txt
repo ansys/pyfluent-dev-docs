@@ -1,3 +1,5 @@
+:orphan:
+
 .. _v_min:
 
 v_min
@@ -8,7 +10,6 @@ v_min
 .. autoclass:: v_min
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

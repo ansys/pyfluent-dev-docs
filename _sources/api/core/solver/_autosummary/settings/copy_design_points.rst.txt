@@ -1,3 +1,5 @@
+:orphan:
+
 .. _copy_design_points:
 
 copy_design_points
@@ -8,7 +10,6 @@ copy_design_points
 .. autoclass:: copy_design_points
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ===========================

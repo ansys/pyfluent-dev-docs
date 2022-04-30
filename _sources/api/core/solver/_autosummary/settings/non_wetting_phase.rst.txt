@@ -1,3 +1,5 @@
+:orphan:
+
 .. _non_wetting_phase:
 
 non_wetting_phase
@@ -8,7 +10,6 @@ non_wetting_phase
 .. autoclass:: non_wetting_phase
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

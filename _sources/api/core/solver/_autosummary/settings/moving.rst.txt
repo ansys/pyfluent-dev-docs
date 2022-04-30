@@ -1,3 +1,5 @@
+:orphan:
+
 .. _moving:
 
 moving
@@ -8,7 +10,6 @@ moving
 .. autoclass:: moving
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _lic_fast:
 
 lic_fast
@@ -8,7 +10,6 @@ lic_fast
 .. autoclass:: lic_fast
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ===========================

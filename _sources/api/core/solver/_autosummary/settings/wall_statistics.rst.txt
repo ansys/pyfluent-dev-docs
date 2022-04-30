@@ -1,3 +1,5 @@
+:orphan:
+
 .. _wall_statistics:
 
 wall_statistics
@@ -8,7 +10,6 @@ wall_statistics
 .. autoclass:: wall_statistics
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ======================

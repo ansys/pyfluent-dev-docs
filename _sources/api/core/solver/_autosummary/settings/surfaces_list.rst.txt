@@ -1,3 +1,5 @@
+:orphan:
+
 .. _surfaces_list:
 
 surfaces_list
@@ -8,7 +10,6 @@ surfaces_list
 .. autoclass:: surfaces_list
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================   =================================

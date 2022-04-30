@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ecad_name:
 
 ecad_name
@@ -8,7 +10,6 @@ ecad_name
 .. autoclass:: ecad_name
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================   ======================

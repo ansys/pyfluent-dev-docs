@@ -1,3 +1,5 @@
+:orphan:
+
 .. _max_flow_time:
 
 max_flow_time
@@ -8,7 +10,6 @@ max_flow_time
 .. autoclass:: max_flow_time
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ===========================

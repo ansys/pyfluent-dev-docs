@@ -1,3 +1,5 @@
+:orphan:
+
 .. _rough_shin_et_al:
 
 rough_shin_et_al
@@ -8,7 +10,6 @@ rough_shin_et_al
 .. autoclass:: rough_shin_et_al
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

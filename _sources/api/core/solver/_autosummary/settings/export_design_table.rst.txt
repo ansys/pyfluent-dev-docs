@@ -1,3 +1,5 @@
+:orphan:
+
 .. _export_design_table:
 
 export_design_table
@@ -8,7 +10,6 @@ export_design_table
 .. autoclass:: export_design_table
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ==========================   =================

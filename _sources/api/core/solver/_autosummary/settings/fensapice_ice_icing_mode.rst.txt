@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fensapice_ice_icing_mode:
 
 fensapice_ice_icing_mode
@@ -8,7 +10,6 @@ fensapice_ice_icing_mode
 .. autoclass:: fensapice_ice_icing_mode
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

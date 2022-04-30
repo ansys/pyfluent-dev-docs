@@ -1,3 +1,5 @@
+:orphan:
+
 .. _limits_1:
 
 limits
@@ -8,7 +10,6 @@ limits
 .. autoclass:: limits
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================   ================================

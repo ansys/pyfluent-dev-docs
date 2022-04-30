@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fensapice_drop_dx:
 
 fensapice_drop_dx
@@ -8,7 +10,6 @@ fensapice_drop_dx
 .. autoclass:: fensapice_drop_dx
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _refractive_index:
 
 refractive_index
@@ -8,7 +10,6 @@ refractive_index
 .. autoclass:: refractive_index
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

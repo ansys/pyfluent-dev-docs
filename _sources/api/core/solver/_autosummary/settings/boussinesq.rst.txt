@@ -1,3 +1,5 @@
+:orphan:
+
 .. _boussinesq:
 
 boussinesq
@@ -8,7 +10,6 @@ boussinesq
 .. autoclass:: boussinesq
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================================================================   ===============================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _acoustics_wave_equation_controls:
 
 acoustics_wave_equation_controls
@@ -8,7 +10,6 @@ acoustics_wave_equation_controls
 .. autoclass:: acoustics_wave_equation_controls
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ======================================================================   =======================================================================

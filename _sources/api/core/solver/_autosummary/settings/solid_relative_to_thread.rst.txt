@@ -1,3 +1,5 @@
+:orphan:
+
 .. _solid_relative_to_thread:
 
 solid_relative_to_thread
@@ -8,7 +10,6 @@ solid_relative_to_thread
 .. autoclass:: solid_relative_to_thread
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

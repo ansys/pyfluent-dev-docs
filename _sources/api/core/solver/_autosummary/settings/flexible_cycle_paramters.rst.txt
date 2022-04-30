@@ -1,3 +1,5 @@
+:orphan:
+
 .. _flexible_cycle_paramters:
 
 flexible_cycle_paramters
@@ -8,7 +10,6 @@ flexible_cycle_paramters
 .. autoclass:: flexible_cycle_paramters
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ======================================================   ==============================================================

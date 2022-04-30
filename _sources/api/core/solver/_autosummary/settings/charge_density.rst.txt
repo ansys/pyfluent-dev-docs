@@ -1,3 +1,5 @@
+:orphan:
+
 .. _charge_density:
 
 charge_density
@@ -8,7 +10,6 @@ charge_density
 .. autoclass:: charge_density
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mass_diffusivity:
 
 mass_diffusivity
@@ -8,7 +10,6 @@ mass_diffusivity
 .. autoclass:: mass_diffusivity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

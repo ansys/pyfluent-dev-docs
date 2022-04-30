@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ablation_surfacerxn_density:
 
 ablation_surfacerxn_density
@@ -8,7 +10,6 @@ ablation_surfacerxn_density
 .. autoclass:: ablation_surfacerxn_density
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

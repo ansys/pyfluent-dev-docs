@@ -1,3 +1,5 @@
+:orphan:
+
 .. _premix_laminar_thickness:
 
 premix_laminar_thickness
@@ -8,7 +10,6 @@ premix_laminar_thickness
 .. autoclass:: premix_laminar_thickness
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

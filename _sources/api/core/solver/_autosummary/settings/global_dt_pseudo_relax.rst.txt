@@ -1,3 +1,5 @@
+:orphan:
+
 .. _global_dt_pseudo_relax:
 
 global_dt_pseudo_relax
@@ -8,7 +10,6 @@ global_dt_pseudo_relax
 .. autoclass:: global_dt_pseudo_relax
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`axis_direction_component_child <axis_direction_component_child>`

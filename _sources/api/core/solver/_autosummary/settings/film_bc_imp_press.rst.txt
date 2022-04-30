@@ -1,3 +1,5 @@
+:orphan:
+
 .. _film_bc_imp_press:
 
 film_bc_imp_press
@@ -8,7 +10,6 @@ film_bc_imp_press
 .. autoclass:: film_bc_imp_press
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _stone_1:
 
 stone_1
@@ -8,7 +10,6 @@ stone_1
 .. autoclass:: stone_1
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

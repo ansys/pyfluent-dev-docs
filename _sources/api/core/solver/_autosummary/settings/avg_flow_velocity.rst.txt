@@ -1,3 +1,5 @@
+:orphan:
+
 .. _avg_flow_velocity:
 
 avg_flow_velocity
@@ -8,7 +10,6 @@ avg_flow_velocity
 .. autoclass:: avg_flow_velocity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

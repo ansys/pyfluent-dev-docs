@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vw:
 
 vw
@@ -8,7 +10,6 @@ vw
 .. autoclass:: vw
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

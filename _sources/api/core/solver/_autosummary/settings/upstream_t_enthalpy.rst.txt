@@ -1,3 +1,5 @@
+:orphan:
+
 .. _upstream_t_enthalpy:
 
 upstream_t_enthalpy
@@ -8,7 +10,6 @@ upstream_t_enthalpy
 .. autoclass:: upstream_t_enthalpy
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ablation_model:
 
 ablation_model
@@ -8,7 +10,6 @@ ablation_model
 .. autoclass:: ablation_model
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

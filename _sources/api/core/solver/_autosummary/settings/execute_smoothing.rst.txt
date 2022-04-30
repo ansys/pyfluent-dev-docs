@@ -1,3 +1,5 @@
+:orphan:
+
 .. _execute_smoothing:
 
 execute_smoothing
@@ -8,7 +10,6 @@ execute_smoothing
 .. autoclass:: execute_smoothing
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ===========================

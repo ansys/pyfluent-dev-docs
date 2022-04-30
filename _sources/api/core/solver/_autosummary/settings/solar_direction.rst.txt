@@ -1,3 +1,5 @@
+:orphan:
+
 .. _solar_direction:
 
 solar_direction
@@ -8,7 +10,6 @@ solar_direction
 .. autoclass:: solar_direction
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

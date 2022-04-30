@@ -1,3 +1,5 @@
+:orphan:
+
 .. _film_partial_evap_ratio:
 
 film_partial_evap_ratio
@@ -8,7 +10,6 @@ film_partial_evap_ratio
 .. autoclass:: film_partial_evap_ratio
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

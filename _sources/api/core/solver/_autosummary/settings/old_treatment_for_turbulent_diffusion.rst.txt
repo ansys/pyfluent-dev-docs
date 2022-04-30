@@ -1,3 +1,5 @@
+:orphan:
+
 .. _old_treatment_for_turbulent_diffusion:
 
 old_treatment_for_turbulent_diffusion
@@ -8,7 +10,6 @@ old_treatment_for_turbulent_diffusion
 .. autoclass:: old_treatment_for_turbulent_diffusion
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================   ===================

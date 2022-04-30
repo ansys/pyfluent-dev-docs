@@ -1,3 +1,5 @@
+:orphan:
+
 .. _uds_bc_child:
 
 uds_bc_child
@@ -8,7 +10,6 @@ uds_bc_child
 .. autoclass:: uds_bc_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   ==============================

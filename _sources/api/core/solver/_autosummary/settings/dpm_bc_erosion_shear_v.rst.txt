@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_bc_erosion_shear_v:
 
 dpm_bc_erosion_shear_v
@@ -8,7 +10,6 @@ dpm_bc_erosion_shear_v
 .. autoclass:: dpm_bc_erosion_shear_v
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

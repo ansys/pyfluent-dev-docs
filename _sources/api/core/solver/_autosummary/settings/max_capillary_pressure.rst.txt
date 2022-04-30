@@ -1,3 +1,5 @@
+:orphan:
+
 .. _max_capillary_pressure:
 
 max_capillary_pressure
@@ -8,7 +10,6 @@ max_capillary_pressure
 .. autoclass:: max_capillary_pressure
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

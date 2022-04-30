@@ -1,3 +1,5 @@
+:orphan:
+
 .. _angular:
 
 angular
@@ -8,7 +10,6 @@ angular
 .. autoclass:: angular
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ================================

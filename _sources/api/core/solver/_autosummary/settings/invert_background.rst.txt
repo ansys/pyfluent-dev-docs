@@ -1,3 +1,5 @@
+:orphan:
+
 .. _invert_background:
 
 invert_background
@@ -8,7 +10,6 @@ invert_background
 .. autoclass:: invert_background
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================   ========================

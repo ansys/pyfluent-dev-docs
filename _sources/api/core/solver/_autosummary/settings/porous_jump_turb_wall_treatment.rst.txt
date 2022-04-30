@@ -1,3 +1,5 @@
+:orphan:
+
 .. _porous_jump_turb_wall_treatment:
 
 porous_jump_turb_wall_treatment
@@ -8,7 +10,6 @@ porous_jump_turb_wall_treatment
 .. autoclass:: porous_jump_turb_wall_treatment
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ===================================

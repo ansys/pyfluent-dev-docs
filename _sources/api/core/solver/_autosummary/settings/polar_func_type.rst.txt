@@ -1,3 +1,5 @@
+:orphan:
+
 .. _polar_func_type:
 
 polar_func_type
@@ -8,7 +10,6 @@ polar_func_type
 .. autoclass:: polar_func_type
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

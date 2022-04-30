@@ -1,3 +1,5 @@
+:orphan:
+
 .. _subspace_size:
 
 subspace_size
@@ -8,7 +10,6 @@ subspace_size
 .. autoclass:: subspace_size
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================================================   ===========================================

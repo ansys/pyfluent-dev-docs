@@ -1,3 +1,5 @@
+:orphan:
+
 .. _temperature_rise:
 
 temperature_rise
@@ -8,7 +10,6 @@ temperature_rise
 .. autoclass:: temperature_rise
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

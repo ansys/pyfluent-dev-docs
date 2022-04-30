@@ -1,3 +1,5 @@
+:orphan:
+
 .. _rel_perm_satw_p2:
 
 rel_perm_satw_p2
@@ -8,7 +10,6 @@ rel_perm_satw_p2
 .. autoclass:: rel_perm_satw_p2
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

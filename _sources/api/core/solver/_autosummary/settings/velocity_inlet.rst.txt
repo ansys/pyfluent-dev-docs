@@ -1,3 +1,5 @@
+:orphan:
+
 .. _velocity_inlet:
 
 velocity_inlet
@@ -8,7 +10,6 @@ velocity_inlet
 .. autoclass:: velocity_inlet
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, command_names
 .. rubric:: Commands
 
 ================================   ======================

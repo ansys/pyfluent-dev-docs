@@ -1,3 +1,5 @@
+:orphan:
+
 .. _q_1:
 
 q
@@ -8,7 +10,6 @@ q
 .. autoclass:: q
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ================================

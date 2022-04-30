@@ -1,3 +1,5 @@
+:orphan:
+
 .. _geom_bgthread:
 
 geom_bgthread
@@ -8,7 +10,6 @@ geom_bgthread
 .. autoclass:: geom_bgthread
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================================   ============================================

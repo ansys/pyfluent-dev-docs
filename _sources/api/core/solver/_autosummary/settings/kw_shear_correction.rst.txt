@@ -1,3 +1,5 @@
+:orphan:
+
 .. _kw_shear_correction:
 
 kw_shear_correction
@@ -8,7 +10,6 @@ kw_shear_correction
 .. autoclass:: kw_shear_correction
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================   ========================

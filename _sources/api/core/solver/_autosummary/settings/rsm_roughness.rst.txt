@@ -1,3 +1,5 @@
+:orphan:
+
 .. _rsm_roughness:
 
 rsm_roughness
@@ -8,7 +10,6 @@ rsm_roughness
 .. autoclass:: rsm_roughness
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

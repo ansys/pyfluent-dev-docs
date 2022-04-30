@@ -1,3 +1,5 @@
+:orphan:
+
 .. _zone_names:
 
 zone_names
@@ -8,7 +10,6 @@ zone_names
 .. autoclass:: zone_names
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   ==============================

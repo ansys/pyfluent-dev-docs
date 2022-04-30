@@ -1,3 +1,5 @@
+:orphan:
+
 .. _cone_axis_z:
 
 cone_axis_z
@@ -8,7 +10,6 @@ cone_axis_z
 .. autoclass:: cone_axis_z
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

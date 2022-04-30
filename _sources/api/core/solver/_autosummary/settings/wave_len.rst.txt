@@ -1,3 +1,5 @@
+:orphan:
+
 .. _wave_len:
 
 wave_len
@@ -8,7 +10,6 @@ wave_len
 .. autoclass:: wave_len
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

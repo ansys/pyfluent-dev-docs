@@ -1,3 +1,5 @@
+:orphan:
+
 .. _termination_criteria:
 
 termination_criteria
@@ -8,7 +10,6 @@ termination_criteria
 .. autoclass:: termination_criteria
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ===========================================

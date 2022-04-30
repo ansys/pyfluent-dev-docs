@@ -1,3 +1,5 @@
+:orphan:
+
 .. _roughness_correlation:
 
 roughness_correlation
@@ -8,7 +10,6 @@ roughness_correlation
 .. autoclass:: roughness_correlation
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================================   ===============================

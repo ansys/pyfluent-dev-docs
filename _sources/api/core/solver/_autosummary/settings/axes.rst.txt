@@ -1,3 +1,5 @@
+:orphan:
+
 .. _axes:
 
 axes
@@ -8,7 +10,6 @@ axes
 .. autoclass:: axes
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

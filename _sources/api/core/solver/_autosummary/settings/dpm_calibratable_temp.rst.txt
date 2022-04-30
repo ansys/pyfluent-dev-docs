@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_calibratable_temp:
 
 dpm_calibratable_temp
@@ -8,7 +10,6 @@ dpm_calibratable_temp
 .. autoclass:: dpm_calibratable_temp
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _geom_dir_y:
 
 geom_dir_y
@@ -8,7 +10,6 @@ geom_dir_y
 .. autoclass:: geom_dir_y
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================================   ============================================

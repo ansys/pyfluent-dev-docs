@@ -1,3 +1,5 @@
+:orphan:
+
 .. _jpeg_hardcopy_quality:
 
 jpeg_hardcopy_quality
@@ -8,7 +10,6 @@ jpeg_hardcopy_quality
 .. autoclass:: jpeg_hardcopy_quality
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================   ========================

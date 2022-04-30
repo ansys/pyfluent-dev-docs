@@ -1,3 +1,5 @@
+:orphan:
+
 .. _roughness_const_nasa:
 
 roughness_const_nasa
@@ -8,7 +10,6 @@ roughness_const_nasa
 .. autoclass:: roughness_const_nasa
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

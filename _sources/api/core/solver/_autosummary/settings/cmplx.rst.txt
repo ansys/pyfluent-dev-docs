@@ -1,3 +1,5 @@
+:orphan:
+
 .. _cmplx:
 
 cmplx
@@ -8,7 +10,6 @@ cmplx
 .. autoclass:: cmplx
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

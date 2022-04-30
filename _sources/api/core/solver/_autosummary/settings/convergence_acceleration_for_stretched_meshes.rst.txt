@@ -1,3 +1,5 @@
+:orphan:
+
 .. _convergence_acceleration_for_stretched_meshes:
 
 convergence_acceleration_for_stretched_meshes
@@ -8,7 +10,6 @@ convergence_acceleration_for_stretched_meshes
 .. autoclass:: convergence_acceleration_for_stretched_meshes
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names, command_names
 .. rubric:: Children
 
 ==============================================================   ===================================================================

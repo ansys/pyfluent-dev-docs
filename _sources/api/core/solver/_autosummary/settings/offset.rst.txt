@@ -1,3 +1,5 @@
+:orphan:
+
 .. _offset:
 
 offset
@@ -8,7 +10,6 @@ offset
 .. autoclass:: offset
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

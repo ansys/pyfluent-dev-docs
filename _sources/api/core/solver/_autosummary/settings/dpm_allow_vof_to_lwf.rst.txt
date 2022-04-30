@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_allow_vof_to_lwf:
 
 dpm_allow_vof_to_lwf
@@ -8,7 +10,6 @@ dpm_allow_vof_to_lwf
 .. autoclass:: dpm_allow_vof_to_lwf
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

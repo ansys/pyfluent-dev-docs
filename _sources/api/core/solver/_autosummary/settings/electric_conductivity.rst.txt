@@ -1,3 +1,5 @@
+:orphan:
+
 .. _electric_conductivity:
 
 electric_conductivity
@@ -8,7 +10,6 @@ electric_conductivity
 .. autoclass:: electric_conductivity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

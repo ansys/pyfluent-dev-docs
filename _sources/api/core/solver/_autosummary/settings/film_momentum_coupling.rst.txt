@@ -1,3 +1,5 @@
+:orphan:
+
 .. _film_momentum_coupling:
 
 film_momentum_coupling
@@ -8,7 +10,6 @@ film_momentum_coupling
 .. autoclass:: film_momentum_coupling
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

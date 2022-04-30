@@ -1,3 +1,5 @@
+:orphan:
+
 .. _velocity_ratio:
 
 velocity_ratio
@@ -8,7 +10,6 @@ velocity_ratio
 .. autoclass:: velocity_ratio
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

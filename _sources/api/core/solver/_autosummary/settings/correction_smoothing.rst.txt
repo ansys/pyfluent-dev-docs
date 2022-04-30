@@ -1,3 +1,5 @@
+:orphan:
+
 .. _correction_smoothing:
 
 correction_smoothing
@@ -8,7 +10,6 @@ correction_smoothing
 .. autoclass:: correction_smoothing
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ==========================

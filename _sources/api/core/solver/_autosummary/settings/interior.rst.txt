@@ -1,3 +1,5 @@
+:orphan:
+
 .. _interior:
 
 interior
@@ -8,7 +10,6 @@ interior
 .. autoclass:: interior
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, command_names
 .. rubric:: Commands
 
 ================================   ======================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _impedance_0:
 
 impedance_0
@@ -8,7 +10,6 @@ impedance_0
 .. autoclass:: impedance_0
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

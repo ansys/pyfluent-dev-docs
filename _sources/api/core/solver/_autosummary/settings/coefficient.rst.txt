@@ -1,3 +1,5 @@
+:orphan:
+
 .. _coefficient:
 
 coefficient
@@ -8,7 +10,6 @@ coefficient
 .. autoclass:: coefficient
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ===================================

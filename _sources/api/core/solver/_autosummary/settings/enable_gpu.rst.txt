@@ -1,3 +1,5 @@
+:orphan:
+
 .. _enable_gpu:
 
 enable_gpu
@@ -8,7 +10,6 @@ enable_gpu
 .. autoclass:: enable_gpu
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================   =========================================

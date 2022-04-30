@@ -1,3 +1,5 @@
+:orphan:
+
 .. _write_views:
 
 write_views
@@ -8,7 +10,6 @@ write_views
 .. autoclass:: write_views
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ============================   ==================

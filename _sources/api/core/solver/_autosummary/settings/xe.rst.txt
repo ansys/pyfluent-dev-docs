@@ -1,3 +1,5 @@
+:orphan:
+
 .. _xe:
 
 xe
@@ -8,7 +10,6 @@ xe
 .. autoclass:: xe
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

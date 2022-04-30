@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_partial_evaporation_ratio:
 
 dpm_partial_evaporation_ratio
@@ -8,7 +10,6 @@ dpm_partial_evaporation_ratio
 .. autoclass:: dpm_partial_evaporation_ratio
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

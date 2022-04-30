@@ -1,3 +1,5 @@
+:orphan:
+
 .. _up_vector:
 
 up_vector
@@ -8,7 +10,6 @@ up_vector
 .. autoclass:: up_vector
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ================   ============

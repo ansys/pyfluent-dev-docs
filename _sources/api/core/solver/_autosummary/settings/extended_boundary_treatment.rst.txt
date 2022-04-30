@@ -1,3 +1,5 @@
+:orphan:
+
 .. _extended_boundary_treatment:
 
 extended_boundary_treatment
@@ -8,7 +10,6 @@ extended_boundary_treatment
 .. autoclass:: extended_boundary_treatment
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   =========================

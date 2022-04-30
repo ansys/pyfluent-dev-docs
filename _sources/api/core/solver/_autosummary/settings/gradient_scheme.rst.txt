@@ -1,3 +1,5 @@
+:orphan:
+
 .. _gradient_scheme:
 
 gradient_scheme
@@ -8,7 +10,6 @@ gradient_scheme
 .. autoclass:: gradient_scheme
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   ================

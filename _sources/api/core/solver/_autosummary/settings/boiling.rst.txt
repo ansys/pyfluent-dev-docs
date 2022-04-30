@@ -1,3 +1,5 @@
+:orphan:
+
 .. _boiling:
 
 boiling
@@ -8,7 +10,6 @@ boiling
 .. autoclass:: boiling
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==========================================================================   =======================================================================

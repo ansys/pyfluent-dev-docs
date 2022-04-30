@@ -1,3 +1,5 @@
+:orphan:
+
 .. _multi_grid_controls:
 
 multi_grid_controls
@@ -8,7 +10,6 @@ multi_grid_controls
 .. autoclass:: multi_grid_controls
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`multi_grid_controls_child <multi_grid_controls_child>`

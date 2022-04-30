@@ -1,3 +1,5 @@
+:orphan:
+
 .. _n_smooth_for_interfacial_regims:
 
 n_smooth_for_interfacial_regims
@@ -8,7 +10,6 @@ n_smooth_for_interfacial_regims
 .. autoclass:: n_smooth_for_interfacial_regims
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================================   =========================================

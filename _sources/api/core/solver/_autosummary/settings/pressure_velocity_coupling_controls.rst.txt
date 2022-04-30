@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pressure_velocity_coupling_controls:
 
 pressure_velocity_coupling_controls
@@ -8,7 +10,6 @@ pressure_velocity_coupling_controls
 .. autoclass:: pressure_velocity_coupling_controls
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

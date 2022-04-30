@@ -1,3 +1,5 @@
+:orphan:
+
 .. _rad_source_term:
 
 rad_source_term
@@ -8,7 +10,6 @@ rad_source_term
 .. autoclass:: rad_source_term
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

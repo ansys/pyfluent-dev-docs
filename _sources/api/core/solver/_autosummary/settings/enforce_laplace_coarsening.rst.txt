@@ -1,3 +1,5 @@
+:orphan:
+
 .. _enforce_laplace_coarsening:
 
 enforce_laplace_coarsening
@@ -8,7 +10,6 @@ enforce_laplace_coarsening
 .. autoclass:: enforce_laplace_coarsening
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================   ============

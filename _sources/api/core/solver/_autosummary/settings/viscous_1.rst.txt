@@ -1,3 +1,5 @@
+:orphan:
+
 .. _viscous_1:
 
 viscous
@@ -8,7 +10,6 @@ viscous
 .. autoclass:: viscous
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ===================================

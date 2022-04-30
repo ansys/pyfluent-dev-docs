@@ -1,3 +1,5 @@
+:orphan:
+
 .. _position_1:
 
 position
@@ -8,7 +10,6 @@ position
 .. autoclass:: position
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ================   ============

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fensapice_ice_hflux:
 
 fensapice_ice_hflux
@@ -8,7 +10,6 @@ fensapice_ice_hflux
 .. autoclass:: fensapice_ice_hflux
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

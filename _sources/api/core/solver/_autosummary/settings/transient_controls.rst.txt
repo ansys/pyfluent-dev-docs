@@ -1,3 +1,5 @@
+:orphan:
+
 .. _transient_controls:
 
 transient_controls
@@ -8,7 +10,6 @@ transient_controls
 .. autoclass:: transient_controls
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==========================================================================   =====================================================================

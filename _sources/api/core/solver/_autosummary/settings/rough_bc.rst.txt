@@ -1,3 +1,5 @@
+:orphan:
+
 .. _rough_bc:
 
 rough_bc
@@ -8,7 +10,6 @@ rough_bc
 .. autoclass:: rough_bc
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

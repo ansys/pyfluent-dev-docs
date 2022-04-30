@@ -1,3 +1,5 @@
+:orphan:
+
 .. _len:
 
 len
@@ -8,7 +10,6 @@ len
 .. autoclass:: len
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

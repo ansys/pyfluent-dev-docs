@@ -1,3 +1,5 @@
+:orphan:
+
 .. _lic_normalize:
 
 lic_normalize
@@ -8,7 +10,6 @@ lic_normalize
 .. autoclass:: lic_normalize
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ===========================

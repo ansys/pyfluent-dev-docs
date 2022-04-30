@@ -1,3 +1,5 @@
+:orphan:
+
 .. _transient_scheme:
 
 transient_scheme
@@ -8,7 +10,6 @@ transient_scheme
 .. autoclass:: transient_scheme
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ==================

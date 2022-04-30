@@ -1,3 +1,5 @@
+:orphan:
+
 .. _amg_controls:
 
 amg_controls
@@ -8,7 +10,6 @@ amg_controls
 .. autoclass:: amg_controls
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================   ================================

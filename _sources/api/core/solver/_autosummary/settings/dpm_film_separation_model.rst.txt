@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_film_separation_model:
 
 dpm_film_separation_model
@@ -8,7 +10,6 @@ dpm_film_separation_model
 .. autoclass:: dpm_film_separation_model
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

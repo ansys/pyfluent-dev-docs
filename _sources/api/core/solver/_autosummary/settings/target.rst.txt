@@ -1,3 +1,5 @@
+:orphan:
+
 .. _target:
 
 target
@@ -8,7 +10,6 @@ target
 .. autoclass:: target
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ================   ============

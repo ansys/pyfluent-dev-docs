@@ -1,3 +1,5 @@
+:orphan:
+
 .. _gen_nrbc_spec:
 
 gen_nrbc_spec
@@ -8,7 +10,6 @@ gen_nrbc_spec
 .. autoclass:: gen_nrbc_spec
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

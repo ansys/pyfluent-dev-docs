@@ -1,3 +1,5 @@
+:orphan:
+
 .. _diffusivity_reference_pressure:
 
 diffusivity_reference_pressure
@@ -8,7 +10,6 @@ diffusivity_reference_pressure
 .. autoclass:: diffusivity_reference_pressure
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _residual_smoothing_iteration:
 
 residual_smoothing_iteration
@@ -8,7 +10,6 @@ residual_smoothing_iteration
 .. autoclass:: residual_smoothing_iteration
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ===========================

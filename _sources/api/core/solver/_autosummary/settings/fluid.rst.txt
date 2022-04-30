@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fluid:
 
 fluid
@@ -8,7 +10,6 @@ fluid
 .. autoclass:: fluid
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`fluid_child <fluid_child>`

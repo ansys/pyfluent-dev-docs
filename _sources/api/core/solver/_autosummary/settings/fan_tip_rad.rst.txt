@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fan_tip_rad:
 
 fan_tip_rad
@@ -8,7 +10,6 @@ fan_tip_rad
 .. autoclass:: fan_tip_rad
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

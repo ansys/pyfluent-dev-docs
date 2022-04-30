@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fan_y_origin:
 
 fan_y_origin
@@ -8,7 +10,6 @@ fan_y_origin
 .. autoclass:: fan_y_origin
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _liquidus_slope:
 
 liquidus_slope
@@ -8,7 +10,6 @@ liquidus_slope
 .. autoclass:: liquidus_slope
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

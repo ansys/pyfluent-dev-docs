@@ -1,3 +1,5 @@
+:orphan:
+
 .. _reference_frame_axis_origin_components:
 
 reference_frame_axis_origin_components
@@ -8,7 +10,6 @@ reference_frame_axis_origin_components
 .. autoclass:: reference_frame_axis_origin_components
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`child_object_type_child <child_object_type_child>`

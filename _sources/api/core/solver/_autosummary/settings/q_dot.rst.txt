@@ -1,3 +1,5 @@
+:orphan:
+
 .. _q_dot:
 
 q_dot
@@ -8,7 +10,6 @@ q_dot
 .. autoclass:: q_dot
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

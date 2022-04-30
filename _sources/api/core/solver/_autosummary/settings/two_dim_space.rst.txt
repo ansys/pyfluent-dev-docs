@@ -1,3 +1,5 @@
+:orphan:
+
 .. _two_dim_space:
 
 two_dim_space
@@ -8,7 +10,6 @@ two_dim_space
 .. autoclass:: two_dim_space
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================   ===============

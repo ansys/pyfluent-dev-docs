@@ -1,3 +1,5 @@
+:orphan:
+
 .. _low_order_rhie_chow:
 
 low_order_rhie_chow
@@ -8,7 +10,6 @@ low_order_rhie_chow
 .. autoclass:: low_order_rhie_chow
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   =======================

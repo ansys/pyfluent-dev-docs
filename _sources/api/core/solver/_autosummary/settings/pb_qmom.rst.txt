@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pb_qmom:
 
 pb_qmom
@@ -8,7 +10,6 @@ pb_qmom
 .. autoclass:: pb_qmom
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`child_object_type_child <child_object_type_child>`

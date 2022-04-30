@@ -1,3 +1,5 @@
+:orphan:
+
 .. _blended_compressive_scheme:
 
 blended_compressive_scheme
@@ -8,7 +10,6 @@ blended_compressive_scheme
 .. autoclass:: blended_compressive_scheme
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================================   ==========================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _max_num_cycle:
 
 max_num_cycle
@@ -8,7 +10,6 @@ max_num_cycle
 .. autoclass:: max_num_cycle
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================   =========================================

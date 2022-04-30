@@ -1,3 +1,5 @@
+:orphan:
+
 .. _filter_minimum:
 
 filter_minimum
@@ -8,7 +10,6 @@ filter_minimum
 .. autoclass:: filter_minimum
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================   ========================

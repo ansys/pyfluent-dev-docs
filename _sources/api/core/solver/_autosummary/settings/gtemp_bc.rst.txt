@@ -1,3 +1,5 @@
+:orphan:
+
 .. _gtemp_bc:
 
 gtemp_bc
@@ -8,7 +10,6 @@ gtemp_bc
 .. autoclass:: gtemp_bc
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

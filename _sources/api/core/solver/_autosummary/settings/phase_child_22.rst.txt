@@ -1,3 +1,5 @@
+:orphan:
+
 .. _phase_child_22:
 
 phase_child
@@ -8,7 +10,6 @@ phase_child
 .. autoclass:: phase_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================   =============================

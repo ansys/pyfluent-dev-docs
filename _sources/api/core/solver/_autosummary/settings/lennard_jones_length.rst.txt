@@ -1,3 +1,5 @@
+:orphan:
+
 .. _lennard_jones_length:
 
 lennard_jones_length
@@ -8,7 +10,6 @@ lennard_jones_length
 .. autoclass:: lennard_jones_length
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

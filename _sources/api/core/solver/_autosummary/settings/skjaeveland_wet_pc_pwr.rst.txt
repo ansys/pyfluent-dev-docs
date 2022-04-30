@@ -1,3 +1,5 @@
+:orphan:
+
 .. _skjaeveland_wet_pc_pwr:
 
 skjaeveland_wet_pc_pwr
@@ -8,7 +10,6 @@ skjaeveland_wet_pc_pwr
 .. autoclass:: skjaeveland_wet_pc_pwr
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _multi_phase_setting:
 
 multi_phase_setting
@@ -8,7 +10,6 @@ multi_phase_setting
 .. autoclass:: multi_phase_setting
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==========================   ====================================

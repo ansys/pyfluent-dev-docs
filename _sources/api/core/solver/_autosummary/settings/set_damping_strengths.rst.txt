@@ -1,3 +1,5 @@
+:orphan:
+
 .. _set_damping_strengths:
 
 set_damping_strengths
@@ -8,7 +10,6 @@ set_damping_strengths
 .. autoclass:: set_damping_strengths
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`axis_direction_component_child <axis_direction_component_child>`

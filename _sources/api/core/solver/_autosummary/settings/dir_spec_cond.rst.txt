@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dir_spec_cond:
 
 dir_spec_cond
@@ -8,7 +10,6 @@ dir_spec_cond
 .. autoclass:: dir_spec_cond
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

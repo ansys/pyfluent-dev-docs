@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mass_flow:
 
 mass_flow
@@ -8,7 +10,6 @@ mass_flow
 .. autoclass:: mass_flow
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

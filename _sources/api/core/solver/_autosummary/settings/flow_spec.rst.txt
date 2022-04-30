@@ -1,3 +1,5 @@
+:orphan:
+
 .. _flow_spec:
 
 flow_spec
@@ -8,7 +10,6 @@ flow_spec
 .. autoclass:: flow_spec
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================================   ============================================

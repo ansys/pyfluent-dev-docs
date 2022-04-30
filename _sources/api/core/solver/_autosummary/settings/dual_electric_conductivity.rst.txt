@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dual_electric_conductivity:
 
 dual_electric_conductivity
@@ -8,7 +10,6 @@ dual_electric_conductivity
 .. autoclass:: dual_electric_conductivity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

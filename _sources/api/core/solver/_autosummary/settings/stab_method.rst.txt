@@ -1,3 +1,5 @@
+:orphan:
+
 .. _stab_method:
 
 stab_method
@@ -8,7 +10,6 @@ stab_method
 .. autoclass:: stab_method
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

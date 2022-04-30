@@ -1,3 +1,5 @@
+:orphan:
+
 .. _p_profile_multiplier:
 
 p_profile_multiplier
@@ -8,7 +10,6 @@ p_profile_multiplier
 .. autoclass:: p_profile_multiplier
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_bc_erosion_dnv:
 
 dpm_bc_erosion_dnv
@@ -8,7 +10,6 @@ dpm_bc_erosion_dnv
 .. autoclass:: dpm_bc_erosion_dnv
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

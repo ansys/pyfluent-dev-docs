@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ht_total:
 
 ht_total
@@ -8,7 +10,6 @@ ht_total
 .. autoclass:: ht_total
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

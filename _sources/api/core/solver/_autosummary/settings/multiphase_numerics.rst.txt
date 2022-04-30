@@ -1,3 +1,5 @@
+:orphan:
+
 .. _multiphase_numerics:
 
 multiphase_numerics
@@ -8,7 +10,6 @@ multiphase_numerics
 .. autoclass:: multiphase_numerics
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _incremental_time:
 
 incremental_time
@@ -8,7 +10,6 @@ incremental_time
 .. autoclass:: incremental_time
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pid:
 
 pid
@@ -8,7 +10,6 @@ pid
 .. autoclass:: pid
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================   =============================

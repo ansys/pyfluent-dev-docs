@@ -1,3 +1,5 @@
+:orphan:
+
 .. _tve:
 
 tve
@@ -8,7 +10,6 @@ tve
 .. autoclass:: tve
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _delete_view:
 
 delete_view
@@ -8,7 +10,6 @@ delete_view
 .. autoclass:: delete_view
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ============================   ==================

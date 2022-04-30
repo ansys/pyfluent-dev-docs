@@ -1,3 +1,5 @@
+:orphan:
+
 .. _characteristic_length:
 
 characteristic_length
@@ -8,7 +10,6 @@ characteristic_length
 .. autoclass:: characteristic_length
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

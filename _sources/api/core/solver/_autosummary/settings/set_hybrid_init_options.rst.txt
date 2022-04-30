@@ -1,3 +1,5 @@
+:orphan:
+
 .. _set_hybrid_init_options:
 
 set_hybrid_init_options
@@ -8,7 +10,6 @@ set_hybrid_init_options
 .. autoclass:: set_hybrid_init_options
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ============================================   ==================================

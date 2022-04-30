@@ -1,3 +1,5 @@
+:orphan:
+
 .. _alternate_diffusion_for_porous_region_solids:
 
 alternate_diffusion_for_porous_region_solids
@@ -8,7 +10,6 @@ alternate_diffusion_for_porous_region_solids
 .. autoclass:: alternate_diffusion_for_porous_region_solids
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   =================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _courant_number:
 
 courant_number
@@ -8,7 +10,6 @@ courant_number
 .. autoclass:: courant_number
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   =================

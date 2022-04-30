@@ -1,3 +1,5 @@
+:orphan:
+
 .. _save_view:
 
 save_view
@@ -8,7 +10,6 @@ save_view
 .. autoclass:: save_view
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ============================   ==================

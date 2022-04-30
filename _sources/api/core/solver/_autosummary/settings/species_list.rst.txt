@@ -1,3 +1,5 @@
+:orphan:
+
 .. _species_list:
 
 species_list
@@ -8,7 +10,6 @@ species_list
 .. autoclass:: species_list
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ======================

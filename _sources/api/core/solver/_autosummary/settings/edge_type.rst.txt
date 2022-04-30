@@ -1,3 +1,5 @@
+:orphan:
+
 .. _edge_type:
 
 edge_type
@@ -8,7 +10,6 @@ edge_type
 .. autoclass:: edge_type
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ========================   ================

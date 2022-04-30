@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dual_potential_type:
 
 dual_potential_type
@@ -8,7 +10,6 @@ dual_potential_type
 .. autoclass:: dual_potential_type
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

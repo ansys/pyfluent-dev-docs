@@ -1,3 +1,5 @@
+:orphan:
+
 .. _swirl_factor:
 
 swirl_factor
@@ -8,7 +10,6 @@ swirl_factor
 .. autoclass:: swirl_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

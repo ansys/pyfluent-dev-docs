@@ -1,3 +1,5 @@
+:orphan:
+
 .. _laminar_mut_zero:
 
 laminar_mut_zero
@@ -8,7 +10,6 @@ laminar_mut_zero
 .. autoclass:: laminar_mut_zero
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

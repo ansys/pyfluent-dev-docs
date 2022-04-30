@@ -1,3 +1,5 @@
+:orphan:
+
 .. _boundary_conditions:
 
 boundary_conditions
@@ -8,7 +10,6 @@ boundary_conditions
 .. autoclass:: boundary_conditions
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================   =============================

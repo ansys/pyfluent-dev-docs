@@ -1,3 +1,5 @@
+:orphan:
+
 .. _film_impinge_model:
 
 film_impinge_model
@@ -8,7 +10,6 @@ film_impinge_model
 .. autoclass:: film_impinge_model
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _piecewise_polynomial:
 
 piecewise_polynomial
@@ -8,7 +10,6 @@ piecewise_polynomial
 .. autoclass:: piecewise_polynomial
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`piecewise_polynomial_child <piecewise_polynomial_child>`

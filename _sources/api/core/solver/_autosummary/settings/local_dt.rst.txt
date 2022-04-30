@@ -1,3 +1,5 @@
+:orphan:
+
 .. _local_dt:
 
 local_dt
@@ -8,7 +10,6 @@ local_dt
 .. autoclass:: local_dt
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`local_dt_child <local_dt_child>`

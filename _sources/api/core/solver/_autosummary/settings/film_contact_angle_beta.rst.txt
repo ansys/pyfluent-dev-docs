@@ -1,3 +1,5 @@
+:orphan:
+
 .. _film_contact_angle_beta:
 
 film_contact_angle_beta
@@ -8,7 +10,6 @@ film_contact_angle_beta
 .. autoclass:: film_contact_angle_beta
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

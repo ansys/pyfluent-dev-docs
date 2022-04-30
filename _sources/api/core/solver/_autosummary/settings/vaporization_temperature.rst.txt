@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vaporization_temperature:
 
 vaporization_temperature
@@ -8,7 +10,6 @@ vaporization_temperature
 .. autoclass:: vaporization_temperature
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

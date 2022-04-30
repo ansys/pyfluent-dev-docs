@@ -1,3 +1,5 @@
+:orphan:
+
 .. _external_aero:
 
 external_aero
@@ -8,7 +10,6 @@ external_aero
 .. autoclass:: external_aero
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   ================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ablation_vielle_n:
 
 ablation_vielle_n
@@ -8,7 +10,6 @@ ablation_vielle_n
 .. autoclass:: ablation_vielle_n
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

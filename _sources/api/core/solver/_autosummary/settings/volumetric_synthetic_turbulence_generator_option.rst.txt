@@ -1,3 +1,5 @@
+:orphan:
+
 .. _volumetric_synthetic_turbulence_generator_option:
 
 volumetric_synthetic_turbulence_generator_option
@@ -8,7 +10,6 @@ volumetric_synthetic_turbulence_generator_option
 .. autoclass:: volumetric_synthetic_turbulence_generator_option
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

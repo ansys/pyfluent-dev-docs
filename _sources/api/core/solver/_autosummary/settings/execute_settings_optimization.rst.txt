@@ -1,3 +1,5 @@
+:orphan:
+
 .. _execute_settings_optimization:
 
 execute_settings_optimization
@@ -8,7 +10,6 @@ execute_settings_optimization
 .. autoclass:: execute_settings_optimization
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================   ===============================

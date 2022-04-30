@@ -1,3 +1,5 @@
+:orphan:
+
 .. _min_vapor_pressure:
 
 min_vapor_pressure
@@ -8,7 +10,6 @@ min_vapor_pressure
 .. autoclass:: min_vapor_pressure
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================   ===================

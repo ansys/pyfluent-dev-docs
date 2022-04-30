@@ -1,3 +1,5 @@
+:orphan:
+
 .. _enable_memory_saving_mode:
 
 enable_memory_saving_mode
@@ -8,7 +10,6 @@ enable_memory_saving_mode
 .. autoclass:: enable_memory_saving_mode
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ===============

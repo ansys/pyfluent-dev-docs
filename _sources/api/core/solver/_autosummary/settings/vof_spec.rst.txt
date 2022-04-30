@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vof_spec:
 
 vof_spec
@@ -8,7 +10,6 @@ vof_spec
 .. autoclass:: vof_spec
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

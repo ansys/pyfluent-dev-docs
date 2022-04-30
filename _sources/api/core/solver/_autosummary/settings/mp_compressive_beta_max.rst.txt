@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mp_compressive_beta_max:
 
 mp_compressive_beta_max
@@ -8,7 +10,6 @@ mp_compressive_beta_max
 .. autoclass:: mp_compressive_beta_max
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

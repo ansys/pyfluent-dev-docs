@@ -1,3 +1,5 @@
+:orphan:
+
 .. _max_iteration_per_step:
 
 max_iteration_per_step
@@ -8,7 +10,6 @@ max_iteration_per_step
 .. autoclass:: max_iteration_per_step
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ============================

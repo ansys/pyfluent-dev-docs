@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pathlines_child:
 
 pathlines_child
@@ -8,7 +10,6 @@ pathlines_child
 .. autoclass:: pathlines_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names, command_names
 .. rubric:: Children
 
 ==============================================   ===========================

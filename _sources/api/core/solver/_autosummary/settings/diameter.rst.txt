@@ -1,3 +1,5 @@
+:orphan:
+
 .. _diameter:
 
 diameter
@@ -8,7 +10,6 @@ diameter
 .. autoclass:: diameter
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   =================

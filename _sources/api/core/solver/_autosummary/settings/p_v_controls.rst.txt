@@ -1,3 +1,5 @@
+:orphan:
+
 .. _p_v_controls:
 
 p_v_controls
@@ -8,7 +10,6 @@ p_v_controls
 .. autoclass:: p_v_controls
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ============================================================================================   ==============================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _roughness_height_cp:
 
 roughness_height_cp
@@ -8,7 +10,6 @@ roughness_height_cp
 .. autoclass:: roughness_height_cp
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

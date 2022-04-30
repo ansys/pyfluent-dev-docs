@@ -1,3 +1,5 @@
+:orphan:
+
 .. _implicit_bodyforce_treatment:
 
 implicit_bodyforce_treatment
@@ -8,7 +10,6 @@ implicit_bodyforce_treatment
 .. autoclass:: implicit_bodyforce_treatment
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   =================

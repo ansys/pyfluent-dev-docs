@@ -1,3 +1,5 @@
+:orphan:
+
 .. _aeromechanics:
 
 aeromechanics
@@ -8,7 +10,6 @@ aeromechanics
 .. autoclass:: aeromechanics
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`aeromechanics_child <aeromechanics_child>`

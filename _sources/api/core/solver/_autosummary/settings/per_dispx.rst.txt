@@ -1,3 +1,5 @@
+:orphan:
+
 .. _per_dispx:
 
 per_dispx
@@ -8,7 +10,6 @@ per_dispx
 .. autoclass:: per_dispx
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

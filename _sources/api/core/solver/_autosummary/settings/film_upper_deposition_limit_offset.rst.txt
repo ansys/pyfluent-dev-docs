@@ -1,3 +1,5 @@
+:orphan:
+
 .. _film_upper_deposition_limit_offset:
 
 film_upper_deposition_limit_offset
@@ -8,7 +10,6 @@ film_upper_deposition_limit_offset
 .. autoclass:: film_upper_deposition_limit_offset
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

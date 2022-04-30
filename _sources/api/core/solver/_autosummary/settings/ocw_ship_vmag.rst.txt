@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ocw_ship_vmag:
 
 ocw_ship_vmag
@@ -8,7 +10,6 @@ ocw_ship_vmag
 .. autoclass:: ocw_ship_vmag
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

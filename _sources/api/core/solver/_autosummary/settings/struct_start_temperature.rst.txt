@@ -1,3 +1,5 @@
+:orphan:
+
 .. _struct_start_temperature:
 
 struct_start_temperature
@@ -8,7 +10,6 @@ struct_start_temperature
 .. autoclass:: struct_start_temperature
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

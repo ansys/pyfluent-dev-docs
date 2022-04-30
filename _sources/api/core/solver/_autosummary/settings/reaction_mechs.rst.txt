@@ -1,3 +1,5 @@
+:orphan:
+
 .. _reaction_mechs:
 
 reaction_mechs
@@ -8,7 +10,6 @@ reaction_mechs
 .. autoclass:: reaction_mechs
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

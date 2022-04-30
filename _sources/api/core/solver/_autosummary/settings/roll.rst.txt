@@ -1,3 +1,5 @@
+:orphan:
+
 .. _roll:
 
 roll
@@ -8,7 +10,6 @@ roll
 .. autoclass:: roll
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ============================================   ==========================

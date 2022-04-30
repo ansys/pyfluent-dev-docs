@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fensapice_dpm_inj_nstream:
 
 fensapice_dpm_inj_nstream
@@ -8,7 +10,6 @@ fensapice_dpm_inj_nstream
 .. autoclass:: fensapice_dpm_inj_nstream
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

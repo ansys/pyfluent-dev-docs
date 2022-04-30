@@ -1,3 +1,5 @@
+:orphan:
+
 .. _number_of_total_periods:
 
 number_of_total_periods
@@ -8,7 +10,6 @@ number_of_total_periods
 .. autoclass:: number_of_total_periods
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ============================

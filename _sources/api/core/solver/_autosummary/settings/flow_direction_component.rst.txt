@@ -1,3 +1,5 @@
+:orphan:
+
 .. _flow_direction_component:
 
 flow_direction_component
@@ -8,7 +10,6 @@ flow_direction_component
 .. autoclass:: flow_direction_component
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`child_object_type_child <child_object_type_child>`

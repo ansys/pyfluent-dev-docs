@@ -1,3 +1,5 @@
+:orphan:
+
 .. _shear_stress_components:
 
 shear_stress_components
@@ -8,7 +10,6 @@ shear_stress_components
 .. autoclass:: shear_stress_components
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`child_object_type_child <child_object_type_child>`

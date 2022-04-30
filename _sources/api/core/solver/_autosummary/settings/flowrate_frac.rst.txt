@@ -1,3 +1,5 @@
+:orphan:
+
 .. _flowrate_frac:
 
 flowrate_frac
@@ -8,7 +10,6 @@ flowrate_frac
 .. autoclass:: flowrate_frac
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================   ===============================

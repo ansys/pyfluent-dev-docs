@@ -1,3 +1,5 @@
+:orphan:
+
 .. _production_kato_launder:
 
 production_kato_launder
@@ -8,7 +10,6 @@ production_kato_launder
 .. autoclass:: production_kato_launder
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

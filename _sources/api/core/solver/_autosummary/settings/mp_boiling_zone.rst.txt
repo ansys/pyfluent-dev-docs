@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mp_boiling_zone:
 
 mp_boiling_zone
@@ -8,7 +10,6 @@ mp_boiling_zone
 .. autoclass:: mp_boiling_zone
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

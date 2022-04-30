@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_wall_heat_exchange:
 
 dpm_wall_heat_exchange
@@ -8,7 +10,6 @@ dpm_wall_heat_exchange
 .. autoclass:: dpm_wall_heat_exchange
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

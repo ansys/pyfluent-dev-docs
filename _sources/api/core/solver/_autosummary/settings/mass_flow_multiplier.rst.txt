@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mass_flow_multiplier:
 
 mass_flow_multiplier
@@ -8,7 +10,6 @@ mass_flow_multiplier
 .. autoclass:: mass_flow_multiplier
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`child_object_type_child <child_object_type_child>`

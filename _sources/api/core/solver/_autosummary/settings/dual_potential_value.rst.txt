@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dual_potential_value:
 
 dual_potential_value
@@ -8,7 +10,6 @@ dual_potential_value
 .. autoclass:: dual_potential_value
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

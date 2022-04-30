@@ -1,3 +1,5 @@
+:orphan:
+
 .. _flow_scheme:
 
 flow_scheme
@@ -8,7 +10,6 @@ flow_scheme
 .. autoclass:: flow_scheme
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================   =====================

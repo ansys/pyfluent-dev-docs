@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vof_numerics:
 
 vof_numerics
@@ -8,7 +10,6 @@ vof_numerics
 .. autoclass:: vof_numerics
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================================================================   =====================================================================

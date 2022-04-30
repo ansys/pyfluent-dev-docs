@@ -1,3 +1,5 @@
+:orphan:
+
 .. _premix_unburnt_fuel_mf:
 
 premix_unburnt_fuel_mf
@@ -8,7 +10,6 @@ premix_unburnt_fuel_mf
 .. autoclass:: premix_unburnt_fuel_mf
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

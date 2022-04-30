@@ -1,3 +1,5 @@
+:orphan:
+
 .. _report_definitions:
 
 report_definitions
@@ -8,7 +10,6 @@ report_definitions
 .. autoclass:: report_definitions
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names, command_names
 .. rubric:: Children
 
 ====================================   ======================

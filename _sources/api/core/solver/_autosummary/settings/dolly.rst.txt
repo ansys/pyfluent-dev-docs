@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dolly:
 
 dolly
@@ -8,7 +10,6 @@ dolly
 .. autoclass:: dolly
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ====================   ==============

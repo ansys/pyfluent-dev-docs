@@ -1,3 +1,5 @@
+:orphan:
+
 .. _curvature_correction:
 
 curvature_correction
@@ -8,7 +10,6 @@ curvature_correction
 .. autoclass:: curvature_correction
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

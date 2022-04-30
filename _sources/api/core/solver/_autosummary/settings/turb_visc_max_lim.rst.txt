@@ -1,3 +1,5 @@
+:orphan:
+
 .. _turb_visc_max_lim:
 
 turb_visc_max_lim
@@ -8,7 +10,6 @@ turb_visc_max_lim
 .. autoclass:: turb_visc_max_lim
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================   ===============

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _set_velocity_and_vof_cutoffs:
 
 set_velocity_and_vof_cutoffs
@@ -8,7 +10,6 @@ set_velocity_and_vof_cutoffs
 .. autoclass:: set_velocity_and_vof_cutoffs
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`set_velocity_and_vof_cutoffs_child <set_velocity_and_vof_cutoffs_child>`

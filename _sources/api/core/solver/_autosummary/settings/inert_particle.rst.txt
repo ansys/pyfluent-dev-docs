@@ -1,3 +1,5 @@
+:orphan:
+
 .. _inert_particle:
 
 inert_particle
@@ -8,7 +10,6 @@ inert_particle
 .. autoclass:: inert_particle
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`fluid_child <fluid_child>`

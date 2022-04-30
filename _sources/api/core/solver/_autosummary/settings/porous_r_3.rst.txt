@@ -1,3 +1,5 @@
+:orphan:
+
 .. _porous_r_3:
 
 porous_r_3
@@ -8,7 +10,6 @@ porous_r_3
 .. autoclass:: porous_r_3
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

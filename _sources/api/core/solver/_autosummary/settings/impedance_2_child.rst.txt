@@ -1,3 +1,5 @@
+:orphan:
+
 .. _impedance_2_child:
 
 impedance_2_child
@@ -8,7 +10,6 @@ impedance_2_child
 .. autoclass:: impedance_2_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ======================================   =======================

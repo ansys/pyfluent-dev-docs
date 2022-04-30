@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dynamic_stress:
 
 dynamic_stress
@@ -8,7 +10,6 @@ dynamic_stress
 .. autoclass:: dynamic_stress
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ==========================

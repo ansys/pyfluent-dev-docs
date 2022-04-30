@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fensapice_dpm_surface_injection:
 
 fensapice_dpm_surface_injection
@@ -8,7 +10,6 @@ fensapice_dpm_surface_injection
 .. autoclass:: fensapice_dpm_surface_injection
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _volume_frac:
 
 volume_frac
@@ -8,7 +10,6 @@ volume_frac
 .. autoclass:: volume_frac
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

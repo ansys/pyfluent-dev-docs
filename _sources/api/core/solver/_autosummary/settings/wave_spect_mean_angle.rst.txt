@@ -1,3 +1,5 @@
+:orphan:
+
 .. _wave_spect_mean_angle:
 
 wave_spect_mean_angle
@@ -8,7 +10,6 @@ wave_spect_mean_angle
 .. autoclass:: wave_spect_mean_angle
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

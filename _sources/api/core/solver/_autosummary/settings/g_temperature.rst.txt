@@ -1,3 +1,5 @@
+:orphan:
+
 .. _g_temperature:
 
 g_temperature
@@ -8,7 +10,6 @@ g_temperature
 .. autoclass:: g_temperature
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

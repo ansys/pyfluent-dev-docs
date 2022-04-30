@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_surften:
 
 dpm_surften
@@ -8,7 +10,6 @@ dpm_surften
 .. autoclass:: dpm_surften
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

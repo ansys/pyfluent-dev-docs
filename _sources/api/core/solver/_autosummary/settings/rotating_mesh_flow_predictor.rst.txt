@@ -1,3 +1,5 @@
+:orphan:
+
 .. _rotating_mesh_flow_predictor:
 
 rotating_mesh_flow_predictor
@@ -8,7 +10,6 @@ rotating_mesh_flow_predictor
 .. autoclass:: rotating_mesh_flow_predictor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ===========================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_bc_erosion_generic:
 
 dpm_bc_erosion_generic
@@ -8,7 +10,6 @@ dpm_bc_erosion_generic
 .. autoclass:: dpm_bc_erosion_generic
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

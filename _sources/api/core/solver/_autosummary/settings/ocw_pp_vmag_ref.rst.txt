@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ocw_pp_vmag_ref:
 
 ocw_pp_vmag_ref
@@ -8,7 +10,6 @@ ocw_pp_vmag_ref
 .. autoclass:: ocw_pp_vmag_ref
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _les_embedded_c_smag:
 
 les_embedded_c_smag
@@ -8,7 +10,6 @@ les_embedded_c_smag
 .. autoclass:: les_embedded_c_smag
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

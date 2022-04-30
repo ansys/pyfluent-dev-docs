@@ -1,3 +1,5 @@
+:orphan:
+
 .. _outlet_number:
 
 outlet_number
@@ -8,7 +10,6 @@ outlet_number
 .. autoclass:: outlet_number
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

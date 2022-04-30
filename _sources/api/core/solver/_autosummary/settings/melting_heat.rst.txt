@@ -1,3 +1,5 @@
+:orphan:
+
 .. _melting_heat:
 
 melting_heat
@@ -8,7 +10,6 @@ melting_heat
 .. autoclass:: melting_heat
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

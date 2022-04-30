@@ -1,3 +1,5 @@
+:orphan:
+
 .. _global_time_step_settings:
 
 global_time_step_settings
@@ -8,7 +10,6 @@ global_time_step_settings
 .. autoclass:: global_time_step_settings
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ============================================================================   ===================================================================

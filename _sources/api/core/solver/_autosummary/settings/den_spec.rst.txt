@@ -1,3 +1,5 @@
+:orphan:
+
 .. _den_spec:
 
 den_spec
@@ -8,7 +10,6 @@ den_spec
 .. autoclass:: den_spec
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

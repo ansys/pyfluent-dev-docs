@@ -1,3 +1,5 @@
+:orphan:
+
 .. _compute_statistics:
 
 compute_statistics
@@ -8,7 +10,6 @@ compute_statistics
 .. autoclass:: compute_statistics
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================   ======================

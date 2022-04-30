@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vm_number_of_vortices:
 
 vm_number_of_vortices
@@ -8,7 +10,6 @@ vm_number_of_vortices
 .. autoclass:: vm_number_of_vortices
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dual_time_iterate:
 
 dual_time_iterate
@@ -8,7 +10,6 @@ dual_time_iterate
 .. autoclass:: dual_time_iterate
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ====================================================================   =======================================================

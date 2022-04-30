@@ -1,3 +1,5 @@
+:orphan:
+
 .. _frame_of_reference:
 
 frame_of_reference
@@ -8,7 +10,6 @@ frame_of_reference
 .. autoclass:: frame_of_reference
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

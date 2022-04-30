@@ -1,3 +1,5 @@
+:orphan:
+
 .. _turb_viscosity_ratio:
 
 turb_viscosity_ratio
@@ -8,7 +10,6 @@ turb_viscosity_ratio
 .. autoclass:: turb_viscosity_ratio
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ===========================================

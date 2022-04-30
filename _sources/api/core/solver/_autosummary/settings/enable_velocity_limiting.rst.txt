@@ -1,3 +1,5 @@
+:orphan:
+
 .. _enable_velocity_limiting:
 
 enable_velocity_limiting
@@ -8,7 +10,6 @@ enable_velocity_limiting
 .. autoclass:: enable_velocity_limiting
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================================   ====================================

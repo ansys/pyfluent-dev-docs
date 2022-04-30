@@ -1,3 +1,5 @@
+:orphan:
+
 .. _li_ion_type:
 
 li_ion_type
@@ -8,7 +10,6 @@ li_ion_type
 .. autoclass:: li_ion_type
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

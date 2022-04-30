@@ -1,3 +1,5 @@
+:orphan:
+
 .. _iterate:
 
 iterate
@@ -8,7 +10,6 @@ iterate
 .. autoclass:: iterate
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ====================================================   ====================================

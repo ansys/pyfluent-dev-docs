@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mc_bsource_p:
 
 mc_bsource_p
@@ -8,7 +10,6 @@ mc_bsource_p
 .. autoclass:: mc_bsource_p
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

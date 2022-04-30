@@ -1,3 +1,5 @@
+:orphan:
+
 .. _arrow_space:
 
 arrow_space
@@ -8,7 +10,6 @@ arrow_space
 .. autoclass:: arrow_space
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   ========================

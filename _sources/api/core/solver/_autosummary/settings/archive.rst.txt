@@ -1,3 +1,5 @@
+:orphan:
+
 .. _archive:
 
 archive
@@ -8,7 +10,6 @@ archive
 .. autoclass:: archive
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ==================================   =====================

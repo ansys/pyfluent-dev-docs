@@ -1,3 +1,5 @@
+:orphan:
+
 .. _granular_temperature:
 
 granular_temperature
@@ -8,7 +10,6 @@ granular_temperature
 .. autoclass:: granular_temperature
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _solve_flow_last:
 
 solve_flow_last
@@ -8,7 +10,6 @@ solve_flow_last
 .. autoclass:: solve_flow_last
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   =======================

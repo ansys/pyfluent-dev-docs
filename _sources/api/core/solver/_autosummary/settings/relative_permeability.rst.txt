@@ -1,3 +1,5 @@
+:orphan:
+
 .. _relative_permeability:
 
 relative_permeability
@@ -8,7 +10,6 @@ relative_permeability
 .. autoclass:: relative_permeability
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =====================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _supersonic_or_initial_gauge_pressure:
 
 supersonic_or_initial_gauge_pressure
@@ -8,7 +10,6 @@ supersonic_or_initial_gauge_pressure
 .. autoclass:: supersonic_or_initial_gauge_pressure
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

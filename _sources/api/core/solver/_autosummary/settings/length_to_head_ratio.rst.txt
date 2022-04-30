@@ -1,3 +1,5 @@
+:orphan:
+
 .. _length_to_head_ratio:
 
 length_to_head_ratio
@@ -8,7 +10,6 @@ length_to_head_ratio
 .. autoclass:: length_to_head_ratio
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================   ========================

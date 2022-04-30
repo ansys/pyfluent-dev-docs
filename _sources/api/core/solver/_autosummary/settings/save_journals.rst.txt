@@ -1,3 +1,5 @@
+:orphan:
+
 .. _save_journals:
 
 save_journals
@@ -8,7 +10,6 @@ save_journals
 .. autoclass:: save_journals
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ============================================   ==========================

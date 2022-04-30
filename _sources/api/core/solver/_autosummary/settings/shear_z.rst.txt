@@ -1,3 +1,5 @@
+:orphan:
+
 .. _shear_z:
 
 shear_z
@@ -8,7 +10,6 @@ shear_z
 .. autoclass:: shear_z
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

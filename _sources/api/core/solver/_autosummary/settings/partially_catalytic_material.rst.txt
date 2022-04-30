@@ -1,3 +1,5 @@
+:orphan:
+
 .. _partially_catalytic_material:
 
 partially_catalytic_material
@@ -8,7 +10,6 @@ partially_catalytic_material
 .. autoclass:: partially_catalytic_material
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

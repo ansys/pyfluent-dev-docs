@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fan_thickness:
 
 fan_thickness
@@ -8,7 +10,6 @@ fan_thickness
 .. autoclass:: fan_thickness
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

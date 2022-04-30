@@ -1,3 +1,5 @@
+:orphan:
+
 .. _reduced_rank_extrapolation_options:
 
 reduced_rank_extrapolation_options
@@ -8,7 +10,6 @@ reduced_rank_extrapolation_options
 .. autoclass:: reduced_rank_extrapolation_options
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ====================================   ========================

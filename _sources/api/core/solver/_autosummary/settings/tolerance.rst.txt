@@ -1,3 +1,5 @@
+:orphan:
+
 .. _tolerance:
 
 tolerance
@@ -8,7 +10,6 @@ tolerance
 .. autoclass:: tolerance
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   =========================

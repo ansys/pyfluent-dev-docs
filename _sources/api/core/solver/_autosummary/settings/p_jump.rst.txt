@@ -1,3 +1,5 @@
+:orphan:
+
 .. _p_jump:
 
 p_jump
@@ -8,7 +10,6 @@ p_jump
 .. autoclass:: p_jump
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_film_splash_nsamp:
 
 dpm_film_splash_nsamp
@@ -8,7 +10,6 @@ dpm_film_splash_nsamp
 .. autoclass:: dpm_film_splash_nsamp
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

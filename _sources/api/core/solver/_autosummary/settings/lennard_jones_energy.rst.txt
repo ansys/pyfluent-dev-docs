@@ -1,3 +1,5 @@
+:orphan:
+
 .. _lennard_jones_energy:
 
 lennard_jones_energy
@@ -8,7 +10,6 @@ lennard_jones_energy
 .. autoclass:: lennard_jones_energy
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _set_cfl_limit:
 
 set_cfl_limit
@@ -8,7 +10,6 @@ set_cfl_limit
 .. autoclass:: set_cfl_limit
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   =============================

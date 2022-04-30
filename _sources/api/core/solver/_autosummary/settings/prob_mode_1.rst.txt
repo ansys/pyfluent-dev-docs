@@ -1,3 +1,5 @@
+:orphan:
+
 .. _prob_mode_1:
 
 prob_mode_1
@@ -8,7 +10,6 @@ prob_mode_1
 .. autoclass:: prob_mode_1
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

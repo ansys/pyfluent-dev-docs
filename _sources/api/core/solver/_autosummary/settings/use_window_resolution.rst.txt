@@ -1,3 +1,5 @@
+:orphan:
+
 .. _use_window_resolution:
 
 use_window_resolution
@@ -8,7 +10,6 @@ use_window_resolution
 .. autoclass:: use_window_resolution
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================   ========================

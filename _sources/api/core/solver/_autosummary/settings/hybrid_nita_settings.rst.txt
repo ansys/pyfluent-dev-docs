@@ -1,3 +1,5 @@
+:orphan:
+
 .. _hybrid_nita_settings:
 
 hybrid_nita_settings
@@ -8,7 +10,6 @@ hybrid_nita_settings
 .. autoclass:: hybrid_nita_settings
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================   ============================

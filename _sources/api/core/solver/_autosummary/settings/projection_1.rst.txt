@@ -1,3 +1,5 @@
+:orphan:
+
 .. _projection_1:
 
 projection
@@ -8,7 +10,6 @@ projection
 .. autoclass:: projection
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

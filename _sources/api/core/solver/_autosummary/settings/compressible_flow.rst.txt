@@ -1,3 +1,5 @@
+:orphan:
+
 .. _compressible_flow:
 
 compressible_flow
@@ -8,7 +10,6 @@ compressible_flow
 .. autoclass:: compressible_flow
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================================================   ============================================================

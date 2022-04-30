@@ -1,3 +1,5 @@
+:orphan:
+
 .. _old_props:
 
 old_props
@@ -8,7 +10,6 @@ old_props
 .. autoclass:: old_props
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================   =====================================

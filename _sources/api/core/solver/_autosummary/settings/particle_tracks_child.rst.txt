@@ -1,3 +1,5 @@
+:orphan:
+
 .. _particle_tracks_child:
 
 particle_tracks_child
@@ -8,7 +10,6 @@ particle_tracks_child
 .. autoclass:: particle_tracks_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names, command_names
 .. rubric:: Children
 
 ==================================================================   =====================================

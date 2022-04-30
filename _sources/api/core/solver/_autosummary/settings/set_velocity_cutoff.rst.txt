@@ -1,3 +1,5 @@
+:orphan:
+
 .. _set_velocity_cutoff:
 
 set_velocity_cutoff
@@ -8,7 +10,6 @@ set_velocity_cutoff
 .. autoclass:: set_velocity_cutoff
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================================   ====================================

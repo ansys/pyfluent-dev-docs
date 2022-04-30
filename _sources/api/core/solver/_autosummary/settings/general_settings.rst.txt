@@ -1,3 +1,5 @@
+:orphan:
+
 .. _general_settings:
 
 general_settings
@@ -8,7 +10,6 @@ general_settings
 .. autoclass:: general_settings
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================   ====================================================

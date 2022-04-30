@@ -1,3 +1,5 @@
+:orphan:
+
 .. _y_displacement_value:
 
 y_displacement_value
@@ -8,7 +10,6 @@ y_displacement_value
 .. autoclass:: y_displacement_value
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

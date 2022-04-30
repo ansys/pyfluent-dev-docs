@@ -1,3 +1,5 @@
+:orphan:
+
 .. _profile_vr:
 
 profile_vr
@@ -8,7 +10,6 @@ profile_vr
 .. autoclass:: profile_vr
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

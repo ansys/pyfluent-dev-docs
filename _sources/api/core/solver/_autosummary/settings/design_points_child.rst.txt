@@ -1,3 +1,5 @@
+:orphan:
+
 .. _design_points_child:
 
 design_points_child
@@ -8,7 +10,6 @@ design_points_child
 .. autoclass:: design_points_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ========================================================================   =======================================================

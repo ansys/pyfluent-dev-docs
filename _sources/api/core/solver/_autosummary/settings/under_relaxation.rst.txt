@@ -1,3 +1,5 @@
+:orphan:
+
 .. _under_relaxation:
 
 under_relaxation
@@ -8,7 +10,6 @@ under_relaxation
 .. autoclass:: under_relaxation
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`axis_direction_component_child <axis_direction_component_child>`

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _flux_auto_select:
 
 flux_auto_select
@@ -8,7 +10,6 @@ flux_auto_select
 .. autoclass:: flux_auto_select
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================   ===================

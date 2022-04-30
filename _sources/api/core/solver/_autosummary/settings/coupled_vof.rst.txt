@@ -1,3 +1,5 @@
+:orphan:
+
 .. _coupled_vof:
 
 coupled_vof
@@ -8,7 +10,6 @@ coupled_vof
 .. autoclass:: coupled_vof
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ====================================================================================   ============================================================

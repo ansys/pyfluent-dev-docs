@@ -1,3 +1,5 @@
+:orphan:
+
 .. _unstable_event_outer_iterations:
 
 unstable_event_outer_iterations
@@ -8,7 +10,6 @@ unstable_event_outer_iterations
 .. autoclass:: unstable_event_outer_iterations
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   =============================

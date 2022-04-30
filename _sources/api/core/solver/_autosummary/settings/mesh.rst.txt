@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mesh:
 
 mesh
@@ -8,7 +10,6 @@ mesh
 .. autoclass:: mesh
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`mesh_child <mesh_child>`

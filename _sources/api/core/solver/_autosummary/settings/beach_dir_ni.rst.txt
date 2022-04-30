@@ -1,3 +1,5 @@
+:orphan:
+
 .. _beach_dir_ni:
 
 beach_dir_ni
@@ -8,7 +10,6 @@ beach_dir_ni
 .. autoclass:: beach_dir_ni
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

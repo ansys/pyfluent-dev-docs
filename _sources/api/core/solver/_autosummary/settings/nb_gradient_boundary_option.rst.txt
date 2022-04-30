@@ -1,3 +1,5 @@
+:orphan:
+
 .. _nb_gradient_boundary_option:
 
 nb_gradient_boundary_option
@@ -8,7 +10,6 @@ nb_gradient_boundary_option
 .. autoclass:: nb_gradient_boundary_option
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==========================================   ===========================================

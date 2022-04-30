@@ -1,3 +1,5 @@
+:orphan:
+
 .. _anisotropic_spe_diff:
 
 anisotropic_spe_diff
@@ -8,7 +10,6 @@ anisotropic_spe_diff
 .. autoclass:: anisotropic_spe_diff
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

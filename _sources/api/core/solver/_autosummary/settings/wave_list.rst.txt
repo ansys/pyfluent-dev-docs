@@ -1,3 +1,5 @@
+:orphan:
+
 .. _wave_list:
 
 wave_list
@@ -8,7 +10,6 @@ wave_list
 .. autoclass:: wave_list
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`wave_list_child <wave_list_child>`

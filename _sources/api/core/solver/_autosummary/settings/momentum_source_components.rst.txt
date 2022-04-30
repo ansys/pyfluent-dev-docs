@@ -1,3 +1,5 @@
+:orphan:
+
 .. _momentum_source_components:
 
 momentum_source_components
@@ -8,7 +10,6 @@ momentum_source_components
 .. autoclass:: momentum_source_components
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`child_object_type_child <child_object_type_child>`

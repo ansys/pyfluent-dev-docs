@@ -1,3 +1,5 @@
+:orphan:
+
 .. _enable_fast_mode:
 
 enable_fast_mode
@@ -8,7 +10,6 @@ enable_fast_mode
 .. autoclass:: enable_fast_mode
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ===============

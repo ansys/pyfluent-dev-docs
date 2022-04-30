@@ -1,3 +1,5 @@
+:orphan:
+
 .. _expr_value:
 
 expr_value
@@ -8,7 +10,6 @@ expr_value
 .. autoclass:: expr_value
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   ==================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _surface_aligned_normal:
 
 surface_aligned_normal
@@ -8,7 +10,6 @@ surface_aligned_normal
 .. autoclass:: surface_aligned_normal
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================   =====================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _formation_enthalpy:
 
 formation_enthalpy
@@ -8,7 +10,6 @@ formation_enthalpy
 .. autoclass:: formation_enthalpy
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

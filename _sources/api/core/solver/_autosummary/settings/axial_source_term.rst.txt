@@ -1,3 +1,5 @@
+:orphan:
+
 .. _axial_source_term:
 
 axial_source_term
@@ -8,7 +10,6 @@ axial_source_term
 .. autoclass:: axial_source_term
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

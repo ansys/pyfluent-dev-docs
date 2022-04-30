@@ -1,3 +1,5 @@
+:orphan:
+
 .. _standard_resolution:
 
 standard_resolution
@@ -8,7 +10,6 @@ standard_resolution
 .. autoclass:: standard_resolution
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================   ========================

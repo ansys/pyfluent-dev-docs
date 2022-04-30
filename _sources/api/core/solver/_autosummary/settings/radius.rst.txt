@@ -1,3 +1,5 @@
+:orphan:
+
 .. _radius:
 
 radius
@@ -8,7 +10,6 @@ radius
 .. autoclass:: radius
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   ========================

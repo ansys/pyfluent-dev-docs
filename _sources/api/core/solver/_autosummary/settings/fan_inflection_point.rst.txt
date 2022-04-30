@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fan_inflection_point:
 
 fan_inflection_point
@@ -8,7 +10,6 @@ fan_inflection_point
 .. autoclass:: fan_inflection_point
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

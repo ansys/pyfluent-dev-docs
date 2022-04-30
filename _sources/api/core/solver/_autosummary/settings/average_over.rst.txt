@@ -1,3 +1,5 @@
+:orphan:
+
 .. _average_over:
 
 average_over
@@ -8,7 +10,6 @@ average_over
 .. autoclass:: average_over
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================   =====================================

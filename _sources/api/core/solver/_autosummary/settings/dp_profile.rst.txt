@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dp_profile:
 
 dp_profile
@@ -8,7 +10,6 @@ dp_profile
 .. autoclass:: dp_profile
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

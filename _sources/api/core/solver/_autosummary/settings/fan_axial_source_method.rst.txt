@@ -1,3 +1,5 @@
+:orphan:
+
 .. _fan_axial_source_method:
 
 fan_axial_source_method
@@ -8,7 +10,6 @@ fan_axial_source_method
 .. autoclass:: fan_axial_source_method
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

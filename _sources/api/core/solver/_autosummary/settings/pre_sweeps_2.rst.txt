@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pre_sweeps_2:
 
 pre_sweeps
@@ -8,7 +10,6 @@ pre_sweeps
 .. autoclass:: pre_sweeps
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================   ===============================

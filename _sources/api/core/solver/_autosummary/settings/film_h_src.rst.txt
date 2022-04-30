@@ -1,3 +1,5 @@
+:orphan:
+
 .. _film_h_src:
 
 film_h_src
@@ -8,7 +10,6 @@ film_h_src
 .. autoclass:: film_h_src
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _save_cff_unsteady_statistics:
 
 save_cff_unsteady_statistics
@@ -8,7 +10,6 @@ save_cff_unsteady_statistics
 .. autoclass:: save_cff_unsteady_statistics
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ======================

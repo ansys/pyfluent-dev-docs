@@ -1,3 +1,5 @@
+:orphan:
+
 .. _point_normal:
 
 point_normal
@@ -8,7 +10,6 @@ point_normal
 .. autoclass:: point_normal
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================================   =====================================

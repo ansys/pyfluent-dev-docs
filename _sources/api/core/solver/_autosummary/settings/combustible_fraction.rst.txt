@@ -1,3 +1,5 @@
+:orphan:
+
 .. _combustible_fraction:
 
 combustible_fraction
@@ -8,7 +10,6 @@ combustible_fraction
 .. autoclass:: combustible_fraction
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _rk2:
 
 rk2
@@ -8,7 +10,6 @@ rk2
 .. autoclass:: rk2
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ========================================================================   ========================================

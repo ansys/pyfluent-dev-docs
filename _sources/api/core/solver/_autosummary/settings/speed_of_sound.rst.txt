@@ -1,3 +1,5 @@
+:orphan:
+
 .. _speed_of_sound:
 
 speed_of_sound
@@ -8,7 +10,6 @@ speed_of_sound
 .. autoclass:: speed_of_sound
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

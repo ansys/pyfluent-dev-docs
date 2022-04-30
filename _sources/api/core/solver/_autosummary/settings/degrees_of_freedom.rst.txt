@@ -1,3 +1,5 @@
+:orphan:
+
 .. _degrees_of_freedom:
 
 degrees_of_freedom
@@ -8,7 +10,6 @@ degrees_of_freedom
 .. autoclass:: degrees_of_freedom
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

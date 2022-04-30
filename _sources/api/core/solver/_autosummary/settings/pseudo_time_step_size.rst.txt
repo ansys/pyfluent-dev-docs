@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pseudo_time_step_size:
 
 pseudo_time_step_size
@@ -8,7 +10,6 @@ pseudo_time_step_size
 .. autoclass:: pseudo_time_step_size
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ==================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _liquid_surface_tension:
 
 liquid_surface_tension
@@ -8,7 +10,6 @@ liquid_surface_tension
 .. autoclass:: liquid_surface_tension
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================   ===================

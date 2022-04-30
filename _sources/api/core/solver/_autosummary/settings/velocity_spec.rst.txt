@@ -1,3 +1,5 @@
+:orphan:
+
 .. _velocity_spec:
 
 velocity_spec
@@ -8,7 +10,6 @@ velocity_spec
 .. autoclass:: velocity_spec
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _force_child:
 
 force_child
@@ -8,7 +10,6 @@ force_child
 .. autoclass:: force_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

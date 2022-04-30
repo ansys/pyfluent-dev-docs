@@ -1,3 +1,5 @@
+:orphan:
+
 .. _phase_spec:
 
 phase_spec
@@ -8,7 +10,6 @@ phase_spec
 .. autoclass:: phase_spec
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

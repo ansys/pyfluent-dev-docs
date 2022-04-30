@@ -1,3 +1,5 @@
+:orphan:
+
 .. _species_spec:
 
 species_spec
@@ -8,7 +10,6 @@ species_spec
 .. autoclass:: species_spec
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`uds_bc_child <uds_bc_child>`

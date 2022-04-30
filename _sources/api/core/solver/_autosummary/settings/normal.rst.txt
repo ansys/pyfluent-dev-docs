@@ -1,3 +1,5 @@
+:orphan:
+
 .. _normal:
 
 normal
@@ -8,7 +10,6 @@ normal
 .. autoclass:: normal
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ==================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vector_opt:
 
 vector_opt
@@ -8,7 +10,6 @@ vector_opt
 .. autoclass:: vector_opt
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

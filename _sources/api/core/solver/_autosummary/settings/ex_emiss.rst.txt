@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ex_emiss:
 
 ex_emiss
@@ -8,7 +10,6 @@ ex_emiss
 .. autoclass:: ex_emiss
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

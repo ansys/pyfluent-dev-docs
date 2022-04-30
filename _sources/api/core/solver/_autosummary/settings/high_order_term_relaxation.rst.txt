@@ -1,3 +1,5 @@
+:orphan:
+
 .. _high_order_term_relaxation:
 
 high_order_term_relaxation
@@ -8,7 +10,6 @@ high_order_term_relaxation
 .. autoclass:: high_order_term_relaxation
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==========================   ================

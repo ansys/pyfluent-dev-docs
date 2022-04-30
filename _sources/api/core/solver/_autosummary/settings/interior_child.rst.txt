@@ -1,3 +1,5 @@
+:orphan:
+
 .. _interior_child:
 
 interior_child
@@ -8,7 +10,6 @@ interior_child
 .. autoclass:: interior_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

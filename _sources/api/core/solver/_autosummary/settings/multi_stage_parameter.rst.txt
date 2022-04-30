@@ -1,3 +1,5 @@
+:orphan:
+
 .. _multi_stage_parameter:
 
 multi_stage_parameter
@@ -8,7 +10,6 @@ multi_stage_parameter
 .. autoclass:: multi_stage_parameter
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================   ================================

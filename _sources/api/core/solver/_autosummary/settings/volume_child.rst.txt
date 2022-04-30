@@ -1,3 +1,5 @@
+:orphan:
+
 .. _volume_child:
 
 volume_child
@@ -8,7 +10,6 @@ volume_child
 .. autoclass:: volume_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

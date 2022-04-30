@@ -1,3 +1,5 @@
+:orphan:
+
 .. _wave_spect_s:
 
 wave_spect_s
@@ -8,7 +10,6 @@ wave_spect_s
 .. autoclass:: wave_spect_s
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================================   ======================================

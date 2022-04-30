@@ -1,3 +1,5 @@
+:orphan:
+
 .. _max_rel_humidity:
 
 max_rel_humidity
@@ -8,7 +10,6 @@ max_rel_humidity
 .. autoclass:: max_rel_humidity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   =================================

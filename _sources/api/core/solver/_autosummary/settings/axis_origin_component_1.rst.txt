@@ -1,3 +1,5 @@
+:orphan:
+
 .. _axis_origin_component_1:
 
 axis_origin_component
@@ -8,7 +10,6 @@ axis_origin_component
 .. autoclass:: axis_origin_component
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`axis_direction_component_child <axis_direction_component_child>`

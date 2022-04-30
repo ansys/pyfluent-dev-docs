@@ -1,3 +1,5 @@
+:orphan:
+
 .. _freq:
 
 freq
@@ -8,7 +10,6 @@ freq
 .. autoclass:: freq
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

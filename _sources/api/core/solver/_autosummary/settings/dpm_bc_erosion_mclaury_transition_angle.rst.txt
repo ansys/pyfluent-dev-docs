@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_bc_erosion_mclaury_transition_angle:
 
 dpm_bc_erosion_mclaury_transition_angle
@@ -8,7 +10,6 @@ dpm_bc_erosion_mclaury_transition_angle
 .. autoclass:: dpm_bc_erosion_mclaury_transition_angle
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

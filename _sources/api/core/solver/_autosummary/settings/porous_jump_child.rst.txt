@@ -1,3 +1,5 @@
+:orphan:
+
 .. _porous_jump_child:
 
 porous_jump_child
@@ -8,7 +10,6 @@ porous_jump_child
 .. autoclass:: porous_jump_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ========================================================================   ========================================

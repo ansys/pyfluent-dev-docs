@@ -1,3 +1,5 @@
+:orphan:
+
 .. _avg_press_spec:
 
 avg_press_spec
@@ -8,7 +10,6 @@ avg_press_spec
 .. autoclass:: avg_press_spec
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

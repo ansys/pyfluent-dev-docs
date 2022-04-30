@@ -1,3 +1,5 @@
+:orphan:
+
 .. _number_of_eulerian_discrete_phases:
 
 number_of_eulerian_discrete_phases
@@ -8,7 +10,6 @@ number_of_eulerian_discrete_phases
 .. autoclass:: number_of_eulerian_discrete_phases
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================   ===================

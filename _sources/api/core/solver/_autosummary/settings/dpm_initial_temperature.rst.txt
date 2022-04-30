@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_initial_temperature:
 
 dpm_initial_temperature
@@ -8,7 +10,6 @@ dpm_initial_temperature
 .. autoclass:: dpm_initial_temperature
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _enable_3:
 
 enable
@@ -8,7 +10,6 @@ enable
 .. autoclass:: enable
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names, command_names
 .. rubric:: Children
 
 ============================================================   =========================================

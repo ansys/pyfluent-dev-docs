@@ -1,3 +1,5 @@
+:orphan:
+
 .. _write:
 
 write
@@ -8,7 +10,6 @@ write
 .. autoclass:: write
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ============================   ==================

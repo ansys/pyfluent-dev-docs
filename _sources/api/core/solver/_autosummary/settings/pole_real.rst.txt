@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pole_real:
 
 pole_real
@@ -8,7 +10,6 @@ pole_real
 .. autoclass:: pole_real
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ===================================

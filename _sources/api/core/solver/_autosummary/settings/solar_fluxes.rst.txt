@@ -1,3 +1,5 @@
+:orphan:
+
 .. _solar_fluxes:
 
 solar_fluxes
@@ -8,7 +10,6 @@ solar_fluxes
 .. autoclass:: solar_fluxes
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================================   ============================================

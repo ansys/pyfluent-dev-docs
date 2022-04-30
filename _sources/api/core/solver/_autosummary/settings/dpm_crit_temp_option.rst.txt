@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_crit_temp_option:
 
 dpm_crit_temp_option
@@ -8,7 +10,6 @@ dpm_crit_temp_option
 .. autoclass:: dpm_crit_temp_option
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

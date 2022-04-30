@@ -1,3 +1,5 @@
+:orphan:
+
 .. _premix_adiabatic_temp:
 
 premix_adiabatic_temp
@@ -8,7 +10,6 @@ premix_adiabatic_temp
 .. autoclass:: premix_adiabatic_temp
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

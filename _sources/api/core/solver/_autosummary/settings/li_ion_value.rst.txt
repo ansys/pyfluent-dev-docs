@@ -1,3 +1,5 @@
+:orphan:
+
 .. _li_ion_value:
 
 li_ion_value
@@ -8,7 +10,6 @@ li_ion_value
 .. autoclass:: li_ion_value
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

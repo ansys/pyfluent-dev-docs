@@ -1,3 +1,5 @@
+:orphan:
+
 .. _upstream_torque:
 
 upstream_torque
@@ -8,7 +10,6 @@ upstream_torque
 .. autoclass:: upstream_torque
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

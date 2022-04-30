@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mixing_plane_thread:
 
 mixing_plane_thread
@@ -8,7 +10,6 @@ mixing_plane_thread
 .. autoclass:: mixing_plane_thread
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================   =======================================

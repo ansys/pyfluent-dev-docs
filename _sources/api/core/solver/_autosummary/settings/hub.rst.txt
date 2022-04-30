@@ -1,3 +1,5 @@
+:orphan:
+
 .. _hub:
 
 hub
@@ -8,7 +10,6 @@ hub
 .. autoclass:: hub
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

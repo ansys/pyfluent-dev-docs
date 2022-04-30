@@ -1,3 +1,5 @@
+:orphan:
+
 .. _planar_conduction:
 
 planar_conduction
@@ -8,7 +10,6 @@ planar_conduction
 .. autoclass:: planar_conduction
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

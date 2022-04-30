@@ -1,3 +1,5 @@
+:orphan:
+
 .. _texture_spacing:
 
 texture_spacing
@@ -8,7 +10,6 @@ texture_spacing
 .. autoclass:: texture_spacing
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ===========================

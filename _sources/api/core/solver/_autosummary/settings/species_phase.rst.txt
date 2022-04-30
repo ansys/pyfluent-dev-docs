@@ -1,3 +1,5 @@
+:orphan:
+
 .. _species_phase:
 
 species_phase
@@ -8,7 +10,6 @@ species_phase
 .. autoclass:: species_phase
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

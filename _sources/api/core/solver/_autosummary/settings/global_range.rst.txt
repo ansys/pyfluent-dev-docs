@@ -1,3 +1,5 @@
+:orphan:
+
 .. _global_range:
 
 global_range
@@ -8,7 +10,6 @@ global_range
 .. autoclass:: global_range
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================   ======================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _font_automatic:
 
 font_automatic
@@ -8,7 +10,6 @@ font_automatic
 .. autoclass:: font_automatic
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ==================

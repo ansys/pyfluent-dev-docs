@@ -1,3 +1,5 @@
+:orphan:
+
 .. _thermal_effects:
 
 thermal_effects
@@ -8,7 +10,6 @@ thermal_effects
 .. autoclass:: thermal_effects
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================================================   ========================================

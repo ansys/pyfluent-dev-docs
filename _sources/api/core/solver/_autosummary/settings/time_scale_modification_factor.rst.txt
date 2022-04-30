@@ -1,3 +1,5 @@
+:orphan:
+
 .. _time_scale_modification_factor:
 
 time_scale_modification_factor
@@ -8,7 +10,6 @@ time_scale_modification_factor
 .. autoclass:: time_scale_modification_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================   ==================

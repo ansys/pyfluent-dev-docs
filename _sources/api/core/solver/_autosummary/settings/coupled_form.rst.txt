@@ -1,3 +1,5 @@
+:orphan:
+
 .. _coupled_form:
 
 coupled_form
@@ -8,7 +10,6 @@ coupled_form
 .. autoclass:: coupled_form
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================   =====================

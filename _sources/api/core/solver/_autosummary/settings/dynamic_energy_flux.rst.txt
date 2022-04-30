@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dynamic_energy_flux:
 
 dynamic_energy_flux
@@ -8,7 +10,6 @@ dynamic_energy_flux
 .. autoclass:: dynamic_energy_flux
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ==========================

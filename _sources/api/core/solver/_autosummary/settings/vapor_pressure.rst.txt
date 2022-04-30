@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vapor_pressure:
 
 vapor_pressure
@@ -8,7 +10,6 @@ vapor_pressure
 .. autoclass:: vapor_pressure
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _surf_tens_grad:
 
 surf_tens_grad
@@ -8,7 +10,6 @@ surf_tens_grad
 .. autoclass:: surf_tens_grad
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

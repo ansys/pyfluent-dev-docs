@@ -1,3 +1,5 @@
+:orphan:
+
 .. _load_case:
 
 load_case
@@ -8,7 +10,6 @@ load_case
 .. autoclass:: load_case
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================   =============

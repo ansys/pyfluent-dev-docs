@@ -1,3 +1,5 @@
+:orphan:
+
 .. _warped_face_gradient_correction:
 
 warped_face_gradient_correction
@@ -8,7 +10,6 @@ warped_face_gradient_correction
 .. autoclass:: warped_face_gradient_correction
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==============================================   ===============

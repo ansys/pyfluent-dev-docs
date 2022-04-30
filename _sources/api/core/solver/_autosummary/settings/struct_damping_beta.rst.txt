@@ -1,3 +1,5 @@
+:orphan:
+
 .. _struct_damping_beta:
 
 struct_damping_beta
@@ -8,7 +10,6 @@ struct_damping_beta
 .. autoclass:: struct_damping_beta
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

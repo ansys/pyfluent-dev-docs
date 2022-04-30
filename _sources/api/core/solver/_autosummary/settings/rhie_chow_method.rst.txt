@@ -1,3 +1,5 @@
+:orphan:
+
 .. _rhie_chow_method:
 
 rhie_chow_method
@@ -8,7 +10,6 @@ rhie_chow_method
 .. autoclass:: rhie_chow_method
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ht_bottom:
 
 ht_bottom
@@ -8,7 +10,6 @@ ht_bottom
 .. autoclass:: ht_bottom
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

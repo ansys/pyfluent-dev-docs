@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mgrid_omega:
 
 mgrid_omega
@@ -8,7 +10,6 @@ mgrid_omega
 .. autoclass:: mgrid_omega
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

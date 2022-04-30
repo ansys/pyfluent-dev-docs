@@ -1,3 +1,5 @@
+:orphan:
+
 .. _local_dt_child:
 
 local_dt_child
@@ -8,7 +10,6 @@ local_dt_child
 .. autoclass:: local_dt_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==========================================================================   =========================================

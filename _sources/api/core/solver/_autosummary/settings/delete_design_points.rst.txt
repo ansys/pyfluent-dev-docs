@@ -1,3 +1,5 @@
+:orphan:
+
 .. _delete_design_points:
 
 delete_design_points
@@ -8,7 +10,6 @@ delete_design_points
 .. autoclass:: delete_design_points
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ====================================   ======================

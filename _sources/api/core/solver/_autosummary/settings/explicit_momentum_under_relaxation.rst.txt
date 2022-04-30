@@ -1,3 +1,5 @@
+:orphan:
+
 .. _explicit_momentum_under_relaxation:
 
 explicit_momentum_under_relaxation
@@ -8,7 +10,6 @@ explicit_momentum_under_relaxation
 .. autoclass:: explicit_momentum_under_relaxation
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =====================

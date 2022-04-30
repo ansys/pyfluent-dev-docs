@@ -1,3 +1,5 @@
+:orphan:
+
 .. _parametric_project:
 
 parametric_project
@@ -8,7 +10,6 @@ parametric_project
 .. autoclass:: parametric_project
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, command_names
 .. rubric:: Commands
 
 ==================================   ===================

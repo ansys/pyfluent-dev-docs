@@ -1,3 +1,5 @@
+:orphan:
+
 .. _viscosity_averaging:
 
 viscosity_averaging
@@ -8,7 +10,6 @@ viscosity_averaging
 .. autoclass:: viscosity_averaging
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =====================

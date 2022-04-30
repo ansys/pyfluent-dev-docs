@@ -1,3 +1,5 @@
+:orphan:
+
 .. _unsteady_1st_order:
 
 unsteady_1st_order
@@ -8,7 +10,6 @@ unsteady_1st_order
 .. autoclass:: unsteady_1st_order
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================   ================

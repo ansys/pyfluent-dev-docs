@@ -1,3 +1,5 @@
+:orphan:
+
 .. _set_ramping_length:
 
 set_ramping_length
@@ -8,7 +10,6 @@ set_ramping_length
 .. autoclass:: set_ramping_length
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================================   =================================

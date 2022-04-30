@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mesh_child_1:
 
 mesh_child
@@ -8,7 +10,6 @@ mesh_child
 .. autoclass:: mesh_child
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names, command_names
 .. rubric:: Children
 
 ==============================================   ===========================

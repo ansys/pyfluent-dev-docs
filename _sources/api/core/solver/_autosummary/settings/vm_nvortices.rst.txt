@@ -1,3 +1,5 @@
+:orphan:
+
 .. _vm_nvortices:
 
 vm_nvortices
@@ -8,7 +10,6 @@ vm_nvortices
 .. autoclass:: vm_nvortices
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

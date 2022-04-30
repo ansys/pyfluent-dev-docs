@@ -1,3 +1,5 @@
+:orphan:
+
 .. _face_pressure_options:
 
 face_pressure_options
@@ -8,7 +10,6 @@ face_pressure_options
 .. autoclass:: face_pressure_options
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================================================================   =================================================================

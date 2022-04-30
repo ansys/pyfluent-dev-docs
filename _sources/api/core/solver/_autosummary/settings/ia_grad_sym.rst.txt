@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ia_grad_sym:
 
 ia_grad_sym
@@ -8,7 +10,6 @@ ia_grad_sym
 .. autoclass:: ia_grad_sym
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================   =====================

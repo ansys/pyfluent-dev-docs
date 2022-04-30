@@ -1,3 +1,5 @@
+:orphan:
+
 .. _recirculation_outlet:
 
 recirculation_outlet
@@ -8,7 +10,6 @@ recirculation_outlet
 .. autoclass:: recirculation_outlet
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, command_names
 .. rubric:: Commands
 
 ================================   ======================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _equib_thermal:
 
 equib_thermal
@@ -8,7 +10,6 @@ equib_thermal
 .. autoclass:: equib_thermal
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

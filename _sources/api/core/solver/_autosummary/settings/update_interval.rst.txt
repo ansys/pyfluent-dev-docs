@@ -1,3 +1,5 @@
+:orphan:
+
 .. _update_interval:
 
 update_interval
@@ -8,7 +10,6 @@ update_interval
 .. autoclass:: update_interval
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ==================================

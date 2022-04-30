@@ -1,3 +1,5 @@
+:orphan:
+
 .. _multiphase:
 
 multiphase
@@ -8,7 +10,6 @@ multiphase
 .. autoclass:: multiphase
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==============================================================================   ====================================================================

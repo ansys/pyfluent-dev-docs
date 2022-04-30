@@ -1,3 +1,5 @@
+:orphan:
+
 .. _solar_irradiation:
 
 solar_irradiation
@@ -8,7 +10,6 @@ solar_irradiation
 .. autoclass:: solar_irradiation
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================================   ==========================================

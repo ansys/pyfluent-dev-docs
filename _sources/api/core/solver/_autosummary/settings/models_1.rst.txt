@@ -1,3 +1,5 @@
+:orphan:
+
 .. _models_1:
 
 models
@@ -8,7 +10,6 @@ models
 .. autoclass:: models
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==============================   ===================

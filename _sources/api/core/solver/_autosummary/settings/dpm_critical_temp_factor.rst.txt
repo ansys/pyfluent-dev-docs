@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_critical_temp_factor:
 
 dpm_critical_temp_factor
@@ -8,7 +10,6 @@ dpm_critical_temp_factor
 .. autoclass:: dpm_critical_temp_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

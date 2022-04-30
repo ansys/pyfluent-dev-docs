@@ -1,3 +1,5 @@
+:orphan:
+
 .. _film_splash_nparc:
 
 film_splash_nparc
@@ -8,7 +10,6 @@ film_splash_nparc
 .. autoclass:: film_splash_nparc
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

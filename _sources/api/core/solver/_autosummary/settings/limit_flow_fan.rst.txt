@@ -1,3 +1,5 @@
+:orphan:
+
 .. _limit_flow_fan:
 
 limit_flow_fan
@@ -8,7 +10,6 @@ limit_flow_fan
 .. autoclass:: limit_flow_fan
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

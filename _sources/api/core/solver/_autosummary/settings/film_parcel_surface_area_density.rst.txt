@@ -1,3 +1,5 @@
+:orphan:
+
 .. _film_parcel_surface_area_density:
 
 film_parcel_surface_area_density
@@ -8,7 +10,6 @@ film_parcel_surface_area_density
 .. autoclass:: film_parcel_surface_area_density
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

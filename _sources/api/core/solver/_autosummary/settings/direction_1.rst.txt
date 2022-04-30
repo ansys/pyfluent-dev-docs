@@ -1,3 +1,5 @@
+:orphan:
+
 .. _direction_1:
 
 direction_1
@@ -8,7 +10,6 @@ direction_1
 .. autoclass:: direction_1
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ================================   ====================

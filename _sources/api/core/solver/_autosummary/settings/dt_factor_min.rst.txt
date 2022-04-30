@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dt_factor_min:
 
 dt_factor_min
@@ -8,7 +10,6 @@ dt_factor_min
 .. autoclass:: dt_factor_min
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ==================================

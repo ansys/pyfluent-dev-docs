@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ir_transmissivity:
 
 ir_transmissivity
@@ -8,7 +10,6 @@ ir_transmissivity
 .. autoclass:: ir_transmissivity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

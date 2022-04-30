@@ -1,3 +1,5 @@
+:orphan:
+
 .. _wave_spect_deviation:
 
 wave_spect_deviation
@@ -8,7 +10,6 @@ wave_spect_deviation
 .. autoclass:: wave_spect_deviation
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

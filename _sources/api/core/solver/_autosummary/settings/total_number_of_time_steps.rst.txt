@@ -1,3 +1,5 @@
+:orphan:
+
 .. _total_number_of_time_steps:
 
 total_number_of_time_steps
@@ -8,7 +10,6 @@ total_number_of_time_steps
 .. autoclass:: total_number_of_time_steps
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ============================

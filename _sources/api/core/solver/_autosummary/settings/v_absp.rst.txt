@@ -1,3 +1,5 @@
+:orphan:
+
 .. _v_absp:
 
 v_absp
@@ -8,7 +10,6 @@ v_absp
 .. autoclass:: v_absp
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

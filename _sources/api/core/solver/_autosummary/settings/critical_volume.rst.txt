@@ -1,3 +1,5 @@
+:orphan:
+
 .. _critical_volume:
 
 critical_volume
@@ -8,7 +10,6 @@ critical_volume
 .. autoclass:: critical_volume
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

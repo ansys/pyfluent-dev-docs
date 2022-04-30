@@ -1,3 +1,5 @@
+:orphan:
+
 .. _free_stream_temp:
 
 free_stream_temp
@@ -8,7 +10,6 @@ free_stream_temp
 .. autoclass:: free_stream_temp
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ===================================   =============================

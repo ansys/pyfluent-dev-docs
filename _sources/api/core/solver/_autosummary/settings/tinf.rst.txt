@@ -1,3 +1,5 @@
+:orphan:
+
 .. _tinf:
 
 tinf
@@ -8,7 +10,6 @@ tinf
 .. autoclass:: tinf
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================================   ===========================================

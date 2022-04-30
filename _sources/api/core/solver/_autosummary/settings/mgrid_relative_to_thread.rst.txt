@@ -1,3 +1,5 @@
+:orphan:
+
 .. _mgrid_relative_to_thread:
 
 mgrid_relative_to_thread
@@ -8,7 +10,6 @@ mgrid_relative_to_thread
 .. autoclass:: mgrid_relative_to_thread
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =============================

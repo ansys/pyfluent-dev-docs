@@ -1,3 +1,5 @@
+:orphan:
+
 .. _phase_based_vof_discretization:
 
 phase_based_vof_discretization
@@ -8,7 +10,6 @@ phase_based_vof_discretization
 .. autoclass:: phase_based_vof_discretization
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Named object type
 
 :ref:`axis_direction_component_child <axis_direction_component_child>`

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _model_ramping:
 
 model_ramping
@@ -8,7 +10,6 @@ model_ramping
 .. autoclass:: model_ramping
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ===============

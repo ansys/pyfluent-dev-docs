@@ -1,3 +1,5 @@
+:orphan:
+
 .. _ecfm_sigma:
 
 ecfm_sigma
@@ -8,7 +10,6 @@ ecfm_sigma
 .. autoclass:: ecfm_sigma
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

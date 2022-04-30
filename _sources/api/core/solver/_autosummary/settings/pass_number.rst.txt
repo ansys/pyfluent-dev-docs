@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pass_number:
 
 pass_number
@@ -8,7 +10,6 @@ pass_number
 .. autoclass:: pass_number
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================   =====================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _filter_maximum:
 
 filter_maximum
@@ -8,7 +10,6 @@ filter_maximum
 .. autoclass:: filter_maximum
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================================   ========================

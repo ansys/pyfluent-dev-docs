@@ -1,3 +1,5 @@
+:orphan:
+
 .. _thermal_conductivity:
 
 thermal_conductivity
@@ -8,7 +10,6 @@ thermal_conductivity
 .. autoclass:: thermal_conductivity
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

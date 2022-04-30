@@ -1,3 +1,5 @@
+:orphan:
+
 .. _matrix_solv_min_lim:
 
 matrix_solv_min_lim
@@ -8,7 +10,6 @@ matrix_solv_min_lim
 .. autoclass:: matrix_solv_min_lim
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================   ===============

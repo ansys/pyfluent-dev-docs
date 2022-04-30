@@ -1,3 +1,5 @@
+:orphan:
+
 .. _disable_casm:
 
 disable_casm
@@ -8,7 +10,6 @@ disable_casm
 .. autoclass:: disable_casm
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ====================================================================================================   ======================================================

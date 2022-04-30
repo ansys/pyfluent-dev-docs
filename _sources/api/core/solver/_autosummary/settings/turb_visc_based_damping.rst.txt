@@ -1,3 +1,5 @@
+:orphan:
+
 .. _turb_visc_based_damping:
 
 turb_visc_based_damping
@@ -8,7 +10,6 @@ turb_visc_based_damping
 .. autoclass:: turb_visc_based_damping
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==================================   =====================

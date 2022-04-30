@@ -1,3 +1,5 @@
+:orphan:
+
 .. _instability_detector:
 
 instability_detector
@@ -8,7 +10,6 @@ instability_detector
 .. autoclass:: instability_detector
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ========================================================================   =========================================================

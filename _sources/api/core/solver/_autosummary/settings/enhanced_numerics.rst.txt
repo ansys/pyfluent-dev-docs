@@ -1,3 +1,5 @@
+:orphan:
+
 .. _enhanced_numerics:
 
 enhanced_numerics
@@ -8,7 +10,6 @@ enhanced_numerics
 .. autoclass:: enhanced_numerics
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ============================================   ==========================

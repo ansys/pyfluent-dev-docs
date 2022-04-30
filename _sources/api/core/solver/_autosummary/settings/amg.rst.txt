@@ -1,3 +1,5 @@
+:orphan:
+
 .. _amg:
 
 amg
@@ -8,7 +10,6 @@ amg
 .. autoclass:: amg
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==============================================================   ====================================================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _devolatilization_model:
 
 devolatilization_model
@@ -8,7 +10,6 @@ devolatilization_model
 .. autoclass:: devolatilization_model
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ================================================================   ====================================

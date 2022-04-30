@@ -1,3 +1,5 @@
+:orphan:
+
 .. _field_1:
 
 field
@@ -8,7 +10,6 @@ field
 .. autoclass:: field
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, argument_names
 .. rubric:: Arguments
 
 ======================   ===============

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _feature_angle:
 
 feature_angle
@@ -8,7 +10,6 @@ feature_angle
 .. autoclass:: feature_angle
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ========================   ================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _cfl_type:
 
 cfl_type
@@ -8,7 +10,6 @@ cfl_type
 .. autoclass:: cfl_type
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================================   ===========================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _yplus:
 
 yplus
@@ -8,7 +10,6 @@ yplus
 .. autoclass:: yplus
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==========================================   =========================

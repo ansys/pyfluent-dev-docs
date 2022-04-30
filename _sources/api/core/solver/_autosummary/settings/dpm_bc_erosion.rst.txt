@@ -1,3 +1,5 @@
+:orphan:
+
 .. _dpm_bc_erosion:
 
 dpm_bc_erosion
@@ -8,7 +10,6 @@ dpm_bc_erosion
 .. autoclass:: dpm_bc_erosion
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name, child_names
 .. rubric:: Children
 
 ==================================================   =============================

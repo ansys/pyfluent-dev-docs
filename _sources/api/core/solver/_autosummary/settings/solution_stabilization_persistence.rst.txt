@@ -1,3 +1,5 @@
+:orphan:
+
 .. _solution_stabilization_persistence:
 
 solution_stabilization_persistence
@@ -8,7 +10,6 @@ solution_stabilization_persistence
 .. autoclass:: solution_stabilization_persistence
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ==============================   ===================

@@ -1,3 +1,5 @@
+:orphan:
+
 .. _pseudo_time_scale_factor:
 
 pseudo_time_scale_factor
@@ -8,7 +10,6 @@ pseudo_time_scale_factor
 .. autoclass:: pseudo_time_scale_factor
     :show-inheritance:
     :undoc-members:
-    :members: fluent_name
 .. rubric:: Included in:
 
 ======================================   ================================
