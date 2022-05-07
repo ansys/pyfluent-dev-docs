@@ -569,6 +569,17 @@
                 
   <section id="solver-tui">
 <span id="ref-solver-tui"></span><h1>Solver TUI<a class="headerlink" href="#solver-tui" title="Permalink to this headline">¶</a></h1>
+<p>The PyFluent solver text user interface (TUI) API is provided to command the
+Fluent solver using commands that are Pythonic versions of the TUI commands used
+in the Fluent console.  Much like Fluent’s TUI the API provides a hierarchical
+interface to the underlying procedural interface of the program.</p>
+<p>The solver TUI API does not support Fluent TUI features such as aliases or
+command abbreviation.  As an alternative, using this API in an interactive
+session is easier if you install a tool such as
+<a class="reference external" href="https://github.com/pyreadline3/pyreadline3">pyreadline3</a> which provides
+both command line completion and history.  You can also use Python standard
+<cite>help</cite> and <cite>dir</cite> commands on any object in the API to inspect it further.</p>
+<p>The TUI based examples in our gallery provide a guide for how to use this API.</p>
 <table class="longtable table autosummary">
 <colgroup>
 <col style="width: 10%" />
