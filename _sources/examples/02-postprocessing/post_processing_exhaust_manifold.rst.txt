@@ -56,7 +56,7 @@ This example demonstrates how to do the following:
 .. GENERATED FROM PYTHON SOURCE LINES 28-30
 
 First, download the case and data file and start Fluent as a service with
-Meshing mode, double precision, number of processors: 4
+Meshing mode, double precision, number of processors: 2
 
 .. GENERATED FROM PYTHON SOURCE LINES 30-45
 
@@ -64,11 +64,11 @@ Meshing mode, double precision, number of processors: 4
 
 
     import_case = examples.download_file(
-        filename="manifold_solution.cas.h5", directory="pyfluent/exhaust_manifold"
+        filename="exhaust_system.cas.h5", directory="pyfluent/exhaust_system"
     )
 
     import_data = examples.download_file(
-        filename="manifold_solution.dat.h5", directory="pyfluent/exhaust_manifold"
+        filename="exhaust_system.dat.h5", directory="pyfluent/exhaust_system"
     )
 
     session = pyfluent.launch_fluent(precision="double", processor_count=2)
@@ -414,7 +414,7 @@ Plot the created XY-Plot
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 1 minutes  4.531 seconds)
+   **Total running time of the script:** ( 1 minutes  2.769 seconds)
 
 
 .. _sphx_glr_download_examples_02-postprocessing_post_processing_exhaust_manifold.py:
