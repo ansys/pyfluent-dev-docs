@@ -93,7 +93,7 @@ Print the input parameters of the current parametric session.
  .. code-block:: none
 
 
-    {'inlet1_temp': 300.0, 'inlet2_temp': 350.0, 'inlet1_vel': 5.0, 'inlet2_vel': 10.0}
+    {'inlet1_vel': 5.0, 'inlet2_temp': 350.0, 'inlet1_temp': 300.0, 'inlet2_vel': 10.0}
 
 
 
@@ -237,7 +237,7 @@ Access a new parametric session using the flprj saved earlier
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 2 minutes  16.150 seconds)
+   **Total running time of the script:** ( 2 minutes  3.936 seconds)
 
 
 .. _sphx_glr_download_examples_01-parametric_parametric_static_mixer_3.py:
