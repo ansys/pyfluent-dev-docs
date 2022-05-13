@@ -62,7 +62,7 @@ Launch Fluent in 3D and double precision
 .. code-block:: default
 
 
-    session = pyfluent.launch_fluent(precision="double", processor_count=2)
+    session = pyfluent.launch_fluent(precision="double", processor_count=4)
 
 
 
@@ -73,27 +73,9 @@ Launch Fluent in 3D and double precision
 
 .. GENERATED FROM PYTHON SOURCE LINES 34-35
 
-Enable the settings API (Beta)
-
-.. GENERATED FROM PYTHON SOURCE LINES 35-38
-
-.. code-block:: default
-
-
-    root = session.get_settings_root()
-
-
-
-
-
-
-
-
-.. GENERATED FROM PYTHON SOURCE LINES 39-40
-
 Read the hopper/mixer case
 
-.. GENERATED FROM PYTHON SOURCE LINES 40-47
+.. GENERATED FROM PYTHON SOURCE LINES 35-42
 
 .. code-block:: default
 
@@ -102,7 +84,7 @@ Read the hopper/mixer case
         "Static_Mixer_main.cas.h5", "pyfluent/static_mixer"
     )
 
-    session.tui.solver.file.read_case(case_file_name=import_filename)
+    session.solver.tui.file.read_case(case_file_name=import_filename)
 
 
 
@@ -111,16 +93,16 @@ Read the hopper/mixer case
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 48-49
+.. GENERATED FROM PYTHON SOURCE LINES 43-44
 
 Set number of iterations to 100
 
-.. GENERATED FROM PYTHON SOURCE LINES 49-52
+.. GENERATED FROM PYTHON SOURCE LINES 44-47
 
 .. code-block:: default
 
 
-    session.tui.solver.solve.set.number_of_iterations("100")
+    session.solver.tui.solve.set.number_of_iterations("100")
 
 
 
@@ -129,31 +111,31 @@ Set number of iterations to 100
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 53-57
+.. GENERATED FROM PYTHON SOURCE LINES 48-52
 
 Create input parameters after enabling parameter creation in the TUI:
 Parameter values:
 Inlet1: velocity (inlet1_vel) 5 m/s and temperature (inlet1_temp) at 300 K
 Inlet2: velocity (inlet2_vel) 10 m/s and temperature (inlet2_temp) at 350 K
 
-.. GENERATED FROM PYTHON SOURCE LINES 57-74
+.. GENERATED FROM PYTHON SOURCE LINES 52-69
 
 .. code-block:: default
 
 
-    session.tui.solver.define.parameters.enable_in_TUI("yes")
+    session.solver.tui.define.parameters.enable_in_TUI("yes")
 
-    session.tui.solver.define.boundary_conditions.set.velocity_inlet(
+    session.solver.tui.define.boundary_conditions.set.velocity_inlet(
         "inlet1", (), "vmag", "yes", "inlet1_vel", 5, "quit"
     )
-    session.tui.solver.define.boundary_conditions.set.velocity_inlet(
+    session.solver.tui.define.boundary_conditions.set.velocity_inlet(
         "inlet1", (), "temperature", "yes", "inlet1_temp", 300, "quit"
     )
 
-    session.tui.solver.define.boundary_conditions.set.velocity_inlet(
+    session.solver.tui.define.boundary_conditions.set.velocity_inlet(
         "inlet2", (), "vmag", "yes", "no", "inlet2_vel", 10, "quit"
     )
-    session.tui.solver.define.boundary_conditions.set.velocity_inlet(
+    session.solver.tui.define.boundary_conditions.set.velocity_inlet(
         "inlet2", (), "temperature", "yes", "no", "inlet2_temp", 350, "quit"
     )
 
@@ -164,34 +146,42 @@ Inlet2: velocity (inlet2_vel) 10 m/s and temperature (inlet2_temp) at 350 K
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 75-76
+.. GENERATED FROM PYTHON SOURCE LINES 70-71
 
 Create output parameters using report definitions
 
-.. GENERATED FROM PYTHON SOURCE LINES 76-99
+.. GENERATED FROM PYTHON SOURCE LINES 71-102
 
 .. code-block:: default
 
 
-    root.solution.report_definitions.surface["outlet-temp-avg"] = {}
-    root.solution.report_definitions.surface[
+    session.solver.root.solution.report_definitions.surface["outlet-temp-avg"] = {}
+    session.solver.root.solution.report_definitions.surface[
         "outlet-temp-avg"
     ].report_type = "surface-areaavg"
-    root.solution.report_definitions.surface["outlet-temp-avg"].field = "temperature"
-    root.solution.report_definitions.surface["outlet-temp-avg"].surface_names = ["outlet"]
+    session.solver.root.solution.report_definitions.surface[
+        "outlet-temp-avg"
+    ].field = "temperature"
+    session.solver.root.solution.report_definitions.surface[
+        "outlet-temp-avg"
+    ].surface_names = ["outlet"]
 
-    root.solution.report_definitions.surface["outlet-vel-avg"] = {}
-    root.solution.report_definitions.surface[
+    session.solver.root.solution.report_definitions.surface["outlet-vel-avg"] = {}
+    session.solver.root.solution.report_definitions.surface[
         "outlet-vel-avg"
     ].report_type = "surface-areaavg"
-    root.solution.report_definitions.surface["outlet-vel-avg"].field = "velocity-magnitude"
-    root.solution.report_definitions.surface["outlet-vel-avg"].surface_names = ["outlet"]
+    session.solver.root.solution.report_definitions.surface[
+        "outlet-vel-avg"
+    ].field = "velocity-magnitude"
+    session.solver.root.solution.report_definitions.surface[
+        "outlet-vel-avg"
+    ].surface_names = ["outlet"]
 
-    session.tui.solver.define.parameters.enable_in_TUI("yes")
-    session.tui.solver.define.parameters.output_parameters.create(
+    session.solver.tui.define.parameters.enable_in_TUI("yes")
+    session.solver.tui.define.parameters.output_parameters.create(
         "report-definition", "outlet-temp-avg"
     )
-    session.tui.solver.define.parameters.output_parameters.create(
+    session.solver.tui.define.parameters.output_parameters.create(
         "report-definition", "outlet-vel-avg"
     )
 
@@ -202,16 +192,16 @@ Create output parameters using report definitions
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 100-101
+.. GENERATED FROM PYTHON SOURCE LINES 103-104
 
 Enable convergence condition check
 
-.. GENERATED FROM PYTHON SOURCE LINES 101-104
+.. GENERATED FROM PYTHON SOURCE LINES 104-107
 
 .. code-block:: default
 
 
-    session.tui.solver.solve.monitors.residual.criterion_type("0")
+    session.solver.tui.solve.monitors.residual.criterion_type("0")
 
 
 
@@ -220,16 +210,16 @@ Enable convergence condition check
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 105-106
+.. GENERATED FROM PYTHON SOURCE LINES 108-109
 
 Write case with all the settings in place
 
-.. GENERATED FROM PYTHON SOURCE LINES 106-109
+.. GENERATED FROM PYTHON SOURCE LINES 109-112
 
 .. code-block:: default
 
     case_path = str(Path(pyfluent.EXAMPLES_PATH) / "Static_Mixer_Parameters.cas.h5")
-    session.tui.solver.file.write_case(case_path)
+    session.solver.tui.file.write_case(case_path)
 
 
 
@@ -238,16 +228,16 @@ Write case with all the settings in place
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 110-111
+.. GENERATED FROM PYTHON SOURCE LINES 113-114
 
 Instantiate a parametric study from a Fluent session
 
-.. GENERATED FROM PYTHON SOURCE LINES 111-114
+.. GENERATED FROM PYTHON SOURCE LINES 114-117
 
 .. code-block:: default
 
 
-    study_1 = ParametricStudy(root.parametric_studies).initialize()
+    study_1 = ParametricStudy(session.solver.root.parametric_studies).initialize()
 
 
 
@@ -256,11 +246,11 @@ Instantiate a parametric study from a Fluent session
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 115-116
+.. GENERATED FROM PYTHON SOURCE LINES 118-119
 
 Access and modify input parameters of base DP
 
-.. GENERATED FROM PYTHON SOURCE LINES 116-121
+.. GENERATED FROM PYTHON SOURCE LINES 119-124
 
 .. code-block:: default
 
@@ -276,11 +266,11 @@ Access and modify input parameters of base DP
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 122-123
+.. GENERATED FROM PYTHON SOURCE LINES 125-126
 
 Update current design point
 
-.. GENERATED FROM PYTHON SOURCE LINES 123-126
+.. GENERATED FROM PYTHON SOURCE LINES 126-129
 
 .. code-block:: default
 
@@ -294,11 +284,11 @@ Update current design point
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 127-128
+.. GENERATED FROM PYTHON SOURCE LINES 130-131
 
 Change value of specific design points
 
-.. GENERATED FROM PYTHON SOURCE LINES 128-136
+.. GENERATED FROM PYTHON SOURCE LINES 131-139
 
 .. code-block:: default
 
@@ -317,11 +307,11 @@ Change value of specific design points
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 137-138
+.. GENERATED FROM PYTHON SOURCE LINES 140-141
 
 Add another design point with different values of the input parameters
 
-.. GENERATED FROM PYTHON SOURCE LINES 138-146
+.. GENERATED FROM PYTHON SOURCE LINES 141-149
 
 .. code-block:: default
 
@@ -340,11 +330,11 @@ Add another design point with different values of the input parameters
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 147-148
+.. GENERATED FROM PYTHON SOURCE LINES 150-151
 
 Duplicate design points
 
-.. GENERATED FROM PYTHON SOURCE LINES 148-151
+.. GENERATED FROM PYTHON SOURCE LINES 151-154
 
 .. code-block:: default
 
@@ -358,11 +348,11 @@ Duplicate design points
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 152-153
+.. GENERATED FROM PYTHON SOURCE LINES 155-156
 
 Update all design points for study 1
 
-.. GENERATED FROM PYTHON SOURCE LINES 153-156
+.. GENERATED FROM PYTHON SOURCE LINES 156-159
 
 .. code-block:: default
 
@@ -376,11 +366,11 @@ Update all design points for study 1
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 157-158
+.. GENERATED FROM PYTHON SOURCE LINES 160-161
 
 Export design point table as a CSV table
 
-.. GENERATED FROM PYTHON SOURCE LINES 158-164
+.. GENERATED FROM PYTHON SOURCE LINES 161-167
 
 .. code-block:: default
 
@@ -397,11 +387,11 @@ Export design point table as a CSV table
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 165-166
+.. GENERATED FROM PYTHON SOURCE LINES 168-169
 
 Display CSV table as a pandas dataframe
 
-.. GENERATED FROM PYTHON SOURCE LINES 166-170
+.. GENERATED FROM PYTHON SOURCE LINES 169-173
 
 .. code-block:: default
 
@@ -431,11 +421,11 @@ Display CSV table as a pandas dataframe
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 171-172
+.. GENERATED FROM PYTHON SOURCE LINES 174-175
 
 Delete design points
 
-.. GENERATED FROM PYTHON SOURCE LINES 172-175
+.. GENERATED FROM PYTHON SOURCE LINES 175-178
 
 .. code-block:: default
 
@@ -449,11 +439,11 @@ Delete design points
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 176-177
+.. GENERATED FROM PYTHON SOURCE LINES 179-180
 
 Create a new parametric study by duplicating the current one
 
-.. GENERATED FROM PYTHON SOURCE LINES 177-180
+.. GENERATED FROM PYTHON SOURCE LINES 180-183
 
 .. code-block:: default
 
@@ -467,12 +457,12 @@ Create a new parametric study by duplicating the current one
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 181-183
+.. GENERATED FROM PYTHON SOURCE LINES 184-186
 
 Rename the newly created parametric study
 Currently affected by issue # 249, hence commented out
 
-.. GENERATED FROM PYTHON SOURCE LINES 183-186
+.. GENERATED FROM PYTHON SOURCE LINES 186-189
 
 .. code-block:: default
 
@@ -486,12 +476,12 @@ Currently affected by issue # 249, hence commented out
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 187-189
+.. GENERATED FROM PYTHON SOURCE LINES 190-192
 
 Delete the old parametric study
 Currently affected by issue #249, hence commented out
 
-.. GENERATED FROM PYTHON SOURCE LINES 189-192
+.. GENERATED FROM PYTHON SOURCE LINES 192-195
 
 .. code-block:: default
 
@@ -505,18 +495,18 @@ Currently affected by issue #249, hence commented out
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 193-194
+.. GENERATED FROM PYTHON SOURCE LINES 196-197
 
 Save parametric project
 
-.. GENERATED FROM PYTHON SOURCE LINES 194-198
+.. GENERATED FROM PYTHON SOURCE LINES 197-201
 
 .. code-block:: default
 
 
     project_filepath = str(Path(pyfluent.EXAMPLES_PATH) / "static_mixer_study.flprj")
 
-    session.tui.solver.file.parametric_project.save_as(project_filepath)
+    session.solver.tui.file.parametric_project.save_as(project_filepath)
 
 
 
@@ -527,7 +517,7 @@ Save parametric project
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 3 minutes  55.322 seconds)
+   **Total running time of the script:** ( 5 minutes  34.192 seconds)
 
 
 .. _sphx_glr_download_examples_01-parametric_parametric_static_mixer_1.py:

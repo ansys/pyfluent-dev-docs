@@ -52,13 +52,12 @@ performs these steps:
 
 Launch Fluent and enable the settings API (Beta)
 
-.. GENERATED FROM PYTHON SOURCE LINES 25-29
+.. GENERATED FROM PYTHON SOURCE LINES 25-28
 
 .. code-block:: default
 
 
-    session = pyfluent.launch_fluent(precision="double", processor_count=2)
-    root = session.get_settings_root()
+    session = pyfluent.launch_fluent(precision="double", processor_count=4)
 
 
 
@@ -67,11 +66,11 @@ Launch Fluent and enable the settings API (Beta)
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 30-31
+.. GENERATED FROM PYTHON SOURCE LINES 29-30
 
 Read the previously saved project - static_mixer_study.flprj
 
-.. GENERATED FROM PYTHON SOURCE LINES 31-40
+.. GENERATED FROM PYTHON SOURCE LINES 30-39
 
 .. code-block:: default
 
@@ -79,8 +78,8 @@ Read the previously saved project - static_mixer_study.flprj
     project_filepath_read = str(Path(pyfluent.EXAMPLES_PATH) / "static_mixer_study.flprj")
 
     proj = ParametricProject(
-        root.file.parametric_project,
-        root.parametric_studies,
+        session.solver.root.file.parametric_project,
+        session.solver.root.parametric_studies,
         project_filepath_read,
     )
 
@@ -91,11 +90,11 @@ Read the previously saved project - static_mixer_study.flprj
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 41-42
+.. GENERATED FROM PYTHON SOURCE LINES 40-41
 
 Save the current project
 
-.. GENERATED FROM PYTHON SOURCE LINES 42-45
+.. GENERATED FROM PYTHON SOURCE LINES 41-44
 
 .. code-block:: default
 
@@ -109,11 +108,11 @@ Save the current project
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 46-47
+.. GENERATED FROM PYTHON SOURCE LINES 45-46
 
 Save the current project to a different file name
 
-.. GENERATED FROM PYTHON SOURCE LINES 47-53
+.. GENERATED FROM PYTHON SOURCE LINES 46-52
 
 .. code-block:: default
 
@@ -130,11 +129,11 @@ Save the current project to a different file name
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 54-55
+.. GENERATED FROM PYTHON SOURCE LINES 53-54
 
 Export the current project
 
-.. GENERATED FROM PYTHON SOURCE LINES 55-61
+.. GENERATED FROM PYTHON SOURCE LINES 54-60
 
 .. code-block:: default
 
@@ -151,11 +150,11 @@ Export the current project
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 62-63
+.. GENERATED FROM PYTHON SOURCE LINES 61-62
 
 Archive the current project
 
-.. GENERATED FROM PYTHON SOURCE LINES 63-65
+.. GENERATED FROM PYTHON SOURCE LINES 62-64
 
 .. code-block:: default
 
@@ -171,7 +170,7 @@ Archive the current project
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  18.276 seconds)
+   **Total running time of the script:** ( 0 minutes  45.939 seconds)
 
 
 .. _sphx_glr_download_examples_01-parametric_parametric_static_mixer_2.py:

@@ -58,7 +58,7 @@ This example demonstrates how to do the following:
 First, download the case and data file and start Fluent as a service with
 Meshing mode, double precision, number of processors: 2
 
-.. GENERATED FROM PYTHON SOURCE LINES 30-45
+.. GENERATED FROM PYTHON SOURCE LINES 30-44
 
 .. code-block:: default
 
@@ -71,12 +71,10 @@ Meshing mode, double precision, number of processors: 2
         filename="exhaust_system.dat.h5", directory="pyfluent/exhaust_system"
     )
 
-    session = pyfluent.launch_fluent(precision="double", processor_count=2)
-    root = session.get_settings_root()
+    session = pyfluent.launch_fluent(precision="double", processor_count=4)
 
-    session.tui.solver.file.read_case(case_file_name=import_case)
-    session.tui.solver.file.read_data(case_file_name=import_data)
-
+    session.solver.tui.file.read_case(case_file_name=import_case)
+    session.solver.tui.file.read_data(case_file_name=import_data)
 
 
 
@@ -84,11 +82,12 @@ Meshing mode, double precision, number of processors: 2
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 46-47
+
+.. GENERATED FROM PYTHON SOURCE LINES 45-46
 
 Get the graphics object for mesh display
 
-.. GENERATED FROM PYTHON SOURCE LINES 47-50
+.. GENERATED FROM PYTHON SOURCE LINES 46-49
 
 .. code-block:: default
 
@@ -102,11 +101,11 @@ Get the graphics object for mesh display
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 51-52
+.. GENERATED FROM PYTHON SOURCE LINES 50-51
 
 Create a graphics object for mesh display
 
-.. GENERATED FROM PYTHON SOURCE LINES 52-55
+.. GENERATED FROM PYTHON SOURCE LINES 51-54
 
 .. code-block:: default
 
@@ -120,11 +119,11 @@ Create a graphics object for mesh display
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 56-57
+.. GENERATED FROM PYTHON SOURCE LINES 55-56
 
 Show edges and faces
 
-.. GENERATED FROM PYTHON SOURCE LINES 57-61
+.. GENERATED FROM PYTHON SOURCE LINES 56-60
 
 .. code-block:: default
 
@@ -139,11 +138,11 @@ Show edges and faces
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 62-63
+.. GENERATED FROM PYTHON SOURCE LINES 61-62
 
 Get the surfaces list
 
-.. GENERATED FROM PYTHON SOURCE LINES 63-75
+.. GENERATED FROM PYTHON SOURCE LINES 62-74
 
 .. code-block:: default
 
@@ -171,11 +170,11 @@ Get the surfaces list
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 76-77
+.. GENERATED FROM PYTHON SOURCE LINES 75-76
 
 Disable edges and display again
 
-.. GENERATED FROM PYTHON SOURCE LINES 77-81
+.. GENERATED FROM PYTHON SOURCE LINES 76-80
 
 .. code-block:: default
 
@@ -195,11 +194,11 @@ Disable edges and display again
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 82-83
+.. GENERATED FROM PYTHON SOURCE LINES 81-82
 
 Create iso-surface on the outlet plane
 
-.. GENERATED FROM PYTHON SOURCE LINES 83-91
+.. GENERATED FROM PYTHON SOURCE LINES 82-90
 
 .. code-block:: default
 
@@ -223,11 +222,11 @@ Create iso-surface on the outlet plane
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 92-93
+.. GENERATED FROM PYTHON SOURCE LINES 91-92
 
 Create iso-surface on the mid-plane (Issue # 276)
 
-.. GENERATED FROM PYTHON SOURCE LINES 93-101
+.. GENERATED FROM PYTHON SOURCE LINES 92-100
 
 .. code-block:: default
 
@@ -251,11 +250,11 @@ Create iso-surface on the mid-plane (Issue # 276)
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 102-103
+.. GENERATED FROM PYTHON SOURCE LINES 101-102
 
 Temperature contour on the mid-plane and the outlet
 
-.. GENERATED FROM PYTHON SOURCE LINES 103-109
+.. GENERATED FROM PYTHON SOURCE LINES 102-108
 
 .. code-block:: default
 
@@ -277,11 +276,11 @@ Temperature contour on the mid-plane and the outlet
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 110-111
+.. GENERATED FROM PYTHON SOURCE LINES 109-110
 
 Contour plot of temperature on the manifold
 
-.. GENERATED FROM PYTHON SOURCE LINES 111-124
+.. GENERATED FROM PYTHON SOURCE LINES 110-123
 
 .. code-block:: default
 
@@ -310,12 +309,12 @@ Contour plot of temperature on the manifold
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 125-127
+.. GENERATED FROM PYTHON SOURCE LINES 124-126
 
 Vector on the mid-plane
 Currently using outlet-plane since mid-plane is affected by Issue # 276
 
-.. GENERATED FROM PYTHON SOURCE LINES 127-133
+.. GENERATED FROM PYTHON SOURCE LINES 126-132
 
 .. code-block:: default
 
@@ -337,12 +336,12 @@ Currently using outlet-plane since mid-plane is affected by Issue # 276
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 134-136
+.. GENERATED FROM PYTHON SOURCE LINES 133-135
 
 Commenting out due to issue #290
 Start the Plot Object for the session
 
-.. GENERATED FROM PYTHON SOURCE LINES 136-138
+.. GENERATED FROM PYTHON SOURCE LINES 135-137
 
 .. code-block:: default
 
@@ -355,11 +354,11 @@ Start the Plot Object for the session
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 139-140
+.. GENERATED FROM PYTHON SOURCE LINES 138-139
 
 Create a default XY-Plot
 
-.. GENERATED FROM PYTHON SOURCE LINES 140-142
+.. GENERATED FROM PYTHON SOURCE LINES 139-141
 
 .. code-block:: default
 
@@ -372,11 +371,11 @@ Create a default XY-Plot
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 143-144
+.. GENERATED FROM PYTHON SOURCE LINES 142-143
 
 Set the surface on which the plot is plotted and the Y-axis function
 
-.. GENERATED FROM PYTHON SOURCE LINES 144-147
+.. GENERATED FROM PYTHON SOURCE LINES 143-146
 
 .. code-block:: default
 
@@ -390,11 +389,11 @@ Set the surface on which the plot is plotted and the Y-axis function
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 148-149
+.. GENERATED FROM PYTHON SOURCE LINES 147-148
 
 Plot the created XY-Plot
 
-.. GENERATED FROM PYTHON SOURCE LINES 149-150
+.. GENERATED FROM PYTHON SOURCE LINES 148-149
 
 .. code-block:: default
 
@@ -414,7 +413,7 @@ Plot the created XY-Plot
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 1 minutes  4.361 seconds)
+   **Total running time of the script:** ( 1 minutes  4.586 seconds)
 
 
 .. _sphx_glr_download_examples_02-postprocessing_post_processing_exhaust_manifold.py:

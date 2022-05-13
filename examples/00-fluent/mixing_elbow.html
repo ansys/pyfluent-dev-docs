@@ -317,12 +317,12 @@ Meshing Mode, Double Precision, Number of Processors 2</p>
 <a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_filename</span></a> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">download_file</span><span class="p">(</span><span class="s2">&quot;mixing_elbow.pmdb&quot;</span><span class="p">,</span> <span class="s2">&quot;pyfluent/mixing_elbow&quot;</span><span class="p">)</span>
 
 <span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
-    <span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span>
+    <span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">4</span>
 <span class="p">)</span>
 </pre></div>
 </div>
 <p>Select the Watertight Geometry Meshing Workflow</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">InitializeWorkflow</span><span class="p">(</span><span class="n">WorkflowType</span><span class="o">=</span><span class="s2">&quot;Watertight Geometry&quot;</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">InitializeWorkflow</span><span class="p">(</span><span class="n">WorkflowType</span><span class="o">=</span><span class="s2">&quot;Watertight Geometry&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -331,11 +331,11 @@ Meshing Mode, Double Precision, Number of Processors 2</p>
 </div>
 <p>Import the CAD geometry. For Length Units, select “in”.
 Execute the Import Geometry task.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
     <span class="n">FileName</span><span class="o">=</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_filename</span></a><span class="p">,</span> <span class="n">LengthUnit</span><span class="o">=</span><span class="s2">&quot;in&quot;</span>
 <span class="p">)</span>
 
-<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -347,8 +347,8 @@ In the Add Local Sizing task, you are prompted as to whether or not you would
 like to add local sizing controls to the faceted geometry. For the purposes of
 this example, you can keep the default setting. Execute to complete this task
 and proceed to the next task in the workflow.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Local Sizing&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
-<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Local Sizing&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Local Sizing&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Local Sizing&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -360,10 +360,10 @@ In the Generate the Surface Mesh task, you can set various properties of the
 surface mesh for the faceted geometry. Specify 0.3 for Maximum Size. Execute
 the Surface Mesh to complete this task and proceed to the next task in the
 workflow.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Surface Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Surface Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s2">&quot;CFDSurfaceMeshControls&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;MaxSize&quot;</span><span class="p">:</span> <span class="mf">0.3</span><span class="p">}</span>
 <span class="p">}</span>
-<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Surface Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Surface Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -376,14 +376,16 @@ relating to the nature of the imported geometry. Since the geometry defined
 the fluid region. Select The geometry consists of only fluid regions with no
 voids for Geometry Type. Execute Describe Geometry to complete this task and
 proceed to the next task in the workflow.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">UpdateChildTasks</span><span class="p">(</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">UpdateChildTasks</span><span class="p">(</span>
     <span class="n">SetupTypeChanged</span><span class="o">=</span><span class="kc">False</span>
 <span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
     <span class="n">SetupType</span><span class="o">=</span><span class="s2">&quot;The geometry consists of only fluid regions with no voids&quot;</span>
 <span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">UpdateChildTasks</span><span class="p">(</span><span class="n">SetupTypeChanged</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">UpdateChildTasks</span><span class="p">(</span>
+    <span class="n">SetupTypeChanged</span><span class="o">=</span><span class="kc">True</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -394,13 +396,13 @@ proceed to the next task in the workflow.</p>
 For the wall-inlet boundary, change the Boundary Type field to wall. Execute
 Update Boundaries to complete this task and proceed to the next task in the
 workflow.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Boundaries&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Boundaries&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s2">&quot;BoundaryLabelList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;wall-inlet&quot;</span><span class="p">],</span>
     <span class="s2">&quot;BoundaryLabelTypeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;wall&quot;</span><span class="p">],</span>
     <span class="s2">&quot;OldBoundaryLabelList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;wall-inlet&quot;</span><span class="p">],</span>
     <span class="s2">&quot;OldBoundaryLabelTypeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;velocity-inlet&quot;</span><span class="p">],</span>
 <span class="p">}</span>
-<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Boundaries&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Boundaries&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -411,7 +413,7 @@ workflow.</p>
 Select the Update Regions task, where you can review the names and types of
 the various regions that have been generated from your imported geometry, and
 change them as needed. Keep the default settings, and execute Update Regions.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -421,13 +423,13 @@ change them as needed. Keep the default settings, and execute Update Regions.</p
 <p>Add Boundary Layers:
 Select the Add Boundary Layers task, where you can set properties of the
 boundary layer mesh. Keep the default settings, and Add Boundary Layers.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
-<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
-<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;smooth-transition_1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;smooth-transition_1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s2">&quot;BLControlName&quot;</span><span class="p">:</span> <span class="s2">&quot;smooth-transition_1&quot;</span><span class="p">,</span>
 <span class="p">}</span>
-<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{}</span>
-<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;smooth-transition_1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;smooth-transition_1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -438,13 +440,13 @@ boundary layer mesh. Keep the default settings, and Add Boundary Layers.</p>
 Select the Generate the Volume Mesh task, where you can set properties of the
 volume mesh. Select the poly-hexcore for Fill With. Execute Generate the
 Volume Mesh.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Volume Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Volume Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s2">&quot;VolumeFill&quot;</span><span class="p">:</span> <span class="s2">&quot;poly-hexcore&quot;</span><span class="p">,</span>
     <span class="s2">&quot;VolumeFillControls&quot;</span><span class="p">:</span> <span class="p">{</span>
         <span class="s2">&quot;HexMaxCellLength&quot;</span><span class="p">:</span> <span class="mf">0.3</span><span class="p">,</span>
     <span class="p">},</span>
 <span class="p">}</span>
-<span class="n">session</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Volume Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Volume Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
@@ -452,17 +454,17 @@ Volume Mesh.</p>
 </pre></div>
 </div>
 <p>Check the mesh in Meshing mode</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">check_mesh</span><span class="p">()</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">check_mesh</span><span class="p">()</span>
 </pre></div>
 </div>
 <p>Save the mesh file (mixing_elbow.msh.h5)
-session.tui.meshing.file.write_mesh(‘mixing_elbow.msh.h5’)</p>
+session.meshing.tui.file.write_mesh(‘mixing_elbow.msh.h5’)</p>
 <p>Switch to Solution mode:
 Now that a high-quality mesh has been generated using Ansys Fluent in meshing
 mode, you can now switch to solver mode to complete the setup of the
 simulation. We have just checked the mesh, so select Yes to switch to
 solution mode.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">switch_to_solution_mode</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">switch_to_solution_mode</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Check the mesh in Solver mode:
@@ -471,7 +473,7 @@ mesh in the default SI unit of meters. It will also report a number of other
 mesh features that are checked. Any errors in the mesh will be reported at
 this time. Ensure that the minimum volume is not negative, since Ansys Fluent
 cannot begin a calculation when this is the case.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">check</span><span class="p">()</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">check</span><span class="p">()</span>
 </pre></div>
 </div>
 <p>Set the working units for the mesh:
@@ -480,20 +482,20 @@ default SI units will be used for everything except length, there is no need
 to change any other units in this problem. If you want a different working
 unit for length, other than inches (for example, millimeters), make the
 appropriate change.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">units</span><span class="p">(</span><span class="s2">&quot;length&quot;</span><span class="p">,</span> <span class="s2">&quot;in&quot;</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">units</span><span class="p">(</span><span class="s2">&quot;length&quot;</span><span class="p">,</span> <span class="s2">&quot;in&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Enable heat transfer by activating the energy equation.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Create a new material called water-liquid.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">materials</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="s2">&quot;fluid&quot;</span><span class="p">,</span> <span class="s2">&quot;water-liquid&quot;</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">materials</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="s2">&quot;fluid&quot;</span><span class="p">,</span> <span class="s2">&quot;water-liquid&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Set up the cell zone conditions for the fluid zone (elbow-fluid). Select
 water-liquid from the Material list.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">(</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">(</span>
     <span class="s2">&quot;elbow-fluid&quot;</span><span class="p">,</span>
     <span class="s2">&quot;yes&quot;</span><span class="p">,</span>
     <span class="s2">&quot;water-liquid&quot;</span><span class="p">,</span>
@@ -525,38 +527,38 @@ analysis.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># cold inlet (cold-inlet), Setting: Value:</span>
 <span class="c1"># Velocity Specification Method: Magnitude, Normal to Boundary</span>
 
-<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;vmag&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
 <span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;ke-spec&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;yes&quot;</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
 <span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-intensity&quot;</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
 <span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-hydraulic-diam&quot;</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
 <span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;temperature&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="mf">293.15</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
 <span class="p">)</span>
 </pre></div>
 </div>
 <p>hot inlet (hot-inlet), Setting: Value:
 Velocity Specification Method: Magnitude, Normal to Boundary</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;hot-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;vmag&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="mf">1.2</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
 <span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;hot-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;ke-spec&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;yes&quot;</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
 <span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;hot-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-intensity&quot;</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
 <span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;hot-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-hydraulic-diam&quot;</span><span class="p">,</span> <span class="mi">1</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
 <span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s2">&quot;hot-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;temperature&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="mf">313.15</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
 <span class="p">)</span>
 </pre></div>
@@ -564,21 +566,21 @@ Velocity Specification Method: Magnitude, Normal to Boundary</p>
 <p>pressure outlet (outlet), Setting: Value:
 Backflow Turbulent Intensity: 5 [%]
 Backflow Turbulent Viscosity Ratio: 4</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">pressure_outlet</span><span class="p">(</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">pressure_outlet</span><span class="p">(</span>
     <span class="s2">&quot;outlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-intensity&quot;</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
 <span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">pressure_outlet</span><span class="p">(</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">pressure_outlet</span><span class="p">(</span>
     <span class="s2">&quot;outlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-viscosity-ratio&quot;</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
 <span class="p">)</span>
 </pre></div>
 </div>
 <p>Enable the plotting of residuals during the calculation.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">monitors</span><span class="o">.</span><span class="n">residual</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">monitors</span><span class="o">.</span><span class="n">residual</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Create a surface report definition of average temperature at the outlet
 (outlet) called “outlet-temp-avg</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">add</span><span class="p">(</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">add</span><span class="p">(</span>
     <span class="s2">&quot;outlet-temp-avg&quot;</span><span class="p">,</span>
     <span class="s2">&quot;surface-massavg&quot;</span><span class="p">,</span>
     <span class="s2">&quot;field&quot;</span><span class="p">,</span>
@@ -602,7 +604,7 @@ Before. Provide 15 for Use Iterations. Enable Print. Set Every Iteration to
 <span class="c1"># initial solution dynamics to settle out. Note that the value printed to the</span>
 <span class="c1"># console is the deviation between the current and previous iteration values</span>
 <span class="c1"># only.</span>
-<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">convergence_conditions</span><span class="p">(</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">convergence_conditions</span><span class="p">(</span>
     <span class="s2">&quot;conv-reports&quot;</span><span class="p">,</span>
     <span class="s2">&quot;add&quot;</span><span class="p">,</span>
     <span class="s2">&quot;con-outlet-temp-avg&quot;</span><span class="p">,</span>
@@ -624,22 +626,22 @@ Before. Provide 15 for Use Iterations. Enable Print. Set Every Iteration to
     <span class="s2">&quot;3&quot;</span><span class="p">,</span>
     <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
 <span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">convergence_conditions</span><span class="p">(</span><span class="s2">&quot;frequency&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">convergence_conditions</span><span class="p">(</span><span class="s2">&quot;frequency&quot;</span><span class="p">,</span> <span class="s2">&quot;3&quot;</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Initialize the flow field using the Hybrid Initialization</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">initialize</span><span class="o">.</span><span class="n">hyb_initialization</span><span class="p">()</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">initialize</span><span class="o">.</span><span class="n">hyb_initialization</span><span class="p">()</span>
 </pre></div>
 </div>
 <p>Save the case file (mixing_elbow1.cas.h5).
-session.tui.solver.file.write_case(‘mixing_elbow1.cas.h5’)</p>
+session.solver.tui.file.write_case(‘mixing_elbow1.cas.h5’)</p>
 <p>Solve for 100 Iterations.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">iterate</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">iterate</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Examine the mass flux report for convergence: Select cold-inlet, hot-inlet,
 and outlet from the Boundaries selection list.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># session.tui.solver.report.fluxes.mass_flow(</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># session.solver.tui.report.fluxes.mass_flow(</span>
 <span class="c1">#     &quot;no&quot;,</span>
 <span class="c1">#     &quot;cold-inlet&quot;,</span>
 <span class="c1">#     &quot;hot-inlet&quot;,</span>
@@ -651,12 +653,12 @@ and outlet from the Boundaries selection list.</p>
 </pre></div>
 </div>
 <p>Save the data file (mixing_elbow1.dat.h5).
-session.tui.solver.file.write_data(‘mixing_elbow1.dat.h5’)</p>
+session.solver.tui.file.write_data(‘mixing_elbow1.dat.h5’)</p>
 <p>Create and display a definition for velocity magnitude contours on the
 symmetry plane:
 Provide contour-vel for Contour Name. Select velocity magnitude. Select
 symmetry-xyplane from the Surfaces list. Display contour-vel contour.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
     <span class="s2">&quot;contour&quot;</span><span class="p">,</span>
     <span class="s2">&quot;contour-vel&quot;</span><span class="p">,</span>
     <span class="s2">&quot;filled?&quot;</span><span class="p">,</span>
@@ -672,14 +674,14 @@ symmetry-xyplane from the Surfaces list. Display contour-vel contour.</p>
     <span class="s2">&quot;banded&quot;</span><span class="p">,</span>
     <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
 <span class="p">)</span>
-<span class="c1"># session.tui.solver.display.objects.display(&quot;contour-vel&quot;)</span>
+<span class="c1"># session.solver.tui.display.objects.display(&quot;contour-vel&quot;)</span>
 </pre></div>
 </div>
 <p>Create and display a definition for temperature contours on the symmetry
 plane:
 Provide contour-temp for Contour Name. Select temperature. Select
 symmetry-xyplane from the Surfaces list. Display contour-temp contour.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
     <span class="s2">&quot;contour&quot;</span><span class="p">,</span>
     <span class="s2">&quot;contour-temp&quot;</span><span class="p">,</span>
     <span class="s2">&quot;filled?&quot;</span><span class="p">,</span>
@@ -695,14 +697,14 @@ symmetry-xyplane from the Surfaces list. Display contour-temp contour.</p>
     <span class="s2">&quot;smooth&quot;</span><span class="p">,</span>
     <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
 <span class="p">)</span>
-<span class="c1"># session.tui.solver.display.objects.display(&quot;contour-temp&quot;)</span>
+<span class="c1"># session.solver.tui.display.objects.display(&quot;contour-temp&quot;)</span>
 </pre></div>
 </div>
 <p>Create and display velocity vectors on the symmetry-xyplane plane:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># Provide vector-vel for Vector Name. Select arrow for the Style. Select</span>
 <span class="c1"># symmetry-xyplane from the Surfaces selection list. Provide 4 for Scale. Set</span>
 <span class="c1"># Skip to 2.</span>
-<span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
     <span class="s2">&quot;vector&quot;</span><span class="p">,</span>
     <span class="s2">&quot;vector-vel&quot;</span><span class="p">,</span>
     <span class="s2">&quot;style&quot;</span><span class="p">,</span>
@@ -718,19 +720,19 @@ symmetry-xyplane from the Surfaces list. Display contour-temp contour.</p>
     <span class="s2">&quot;2&quot;</span><span class="p">,</span>
     <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
 <span class="p">)</span>
-<span class="c1"># session.tui.solver.display.objects.display(&quot;vector-vel&quot;)</span>
+<span class="c1"># session.solver.tui.display.objects.display(&quot;vector-vel&quot;)</span>
 </pre></div>
 </div>
 <p>Create an iso-surface representing the intersection of the plane z=0 and the
 surface outlet. Name: z=0_outlet</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">surface</span><span class="o">.</span><span class="n">iso_surface</span><span class="p">(</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">surface</span><span class="o">.</span><span class="n">iso_surface</span><span class="p">(</span>
     <span class="s2">&quot;z-coordinate&quot;</span><span class="p">,</span> <span class="s2">&quot;z=0_outlet&quot;</span><span class="p">,</span> <span class="s2">&quot;outlet&quot;</span><span class="p">,</span> <span class="s2">&quot;()&quot;</span><span class="p">,</span> <span class="s2">&quot;()&quot;</span><span class="p">,</span> <span class="s2">&quot;0&quot;</span><span class="p">,</span> <span class="s2">&quot;()&quot;</span>
 <span class="p">)</span>
 </pre></div>
 </div>
 <p>Display and save an XY plot of the temperature profile across the centerline
 of the outlet for the initial solution</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">display</span><span class="o">.</span><span class="n">objects</span><span class="o">.</span><span class="n">create</span><span class="p">(</span>
     <span class="s2">&quot;xy&quot;</span><span class="p">,</span>
     <span class="s2">&quot;xy-outlet-temp&quot;</span><span class="p">,</span>
     <span class="s2">&quot;y-axis-function&quot;</span><span class="p">,</span>
@@ -740,8 +742,8 @@ of the outlet for the initial solution</p>
     <span class="s2">&quot;()&quot;</span><span class="p">,</span>
     <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
 <span class="p">)</span>
-<span class="c1"># session.tui.solver.display.objects.display(&quot;xy-outlet-temp&quot;)</span>
-<span class="c1"># session.tui.solver.plot.plot(</span>
+<span class="c1"># session.solver.tui.display.objects.display(&quot;xy-outlet-temp&quot;)</span>
+<span class="c1"># session.solver.tui.plot.plot(</span>
 <span class="c1">#     &quot;yes&quot;,</span>
 <span class="c1">#     &quot;temp-1.xy&quot;,</span>
 <span class="c1">#     &quot;no&quot;,</span>
@@ -793,8 +795,8 @@ of the outlet for the initial solution</p>
 </pre></div>
 </div>
 <p>Write final case and data.
-session.tui.solver.file.write_case_data(“mixing_elbow2_tui.cas.h5”)</p>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 1 minutes  11.006 seconds)</p>
+session.solver.tui.file.write_case_data(“mixing_elbow2_tui.cas.h5”)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 2 minutes  48.232 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-00-fluent-mixing-elbow-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/22546cbeb5353b0a571e27915fd89dcf/mixing_elbow.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">mixing_elbow.py</span></code></a></p>

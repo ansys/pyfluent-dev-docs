@@ -621,16 +621,15 @@ issue commands with a hierarchy of objects.</p>
 </section>
 <section id="top-level-objects">
 <h2>Top-level Objects<a class="headerlink" href="#top-level-objects" title="Permalink to this headline">¶</a></h2>
-<p>The top-level settings object can be accessed by executing the
-<code class="docutils literal notranslate"><span class="pre">get_settings_root</span></code> method on a session object.</p>
+<p>The top-level settings object is available as the <code class="docutils literal notranslate"><span class="pre">root</span></code> property of session.solver.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">()</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">root</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">get_settings_root</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">root</span> <span class="o">=</span> <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span>
 </pre></div>
 </div>
-<p>The root object contains attributes such as <code class="docutils literal notranslate"><span class="pre">file</span></code>, <code class="docutils literal notranslate"><span class="pre">setup</span></code>, <code class="docutils literal notranslate"><span class="pre">solution</span></code>
-and <code class="docutils literal notranslate"><span class="pre">results</span></code>.  These objects are also instances of ‘settings’ objects and
-roughly mirror the outline view in Fluent.</p>
+<p>The root object contains attributes such as <code class="docutils literal notranslate"><span class="pre">file</span></code>, <code class="docutils literal notranslate"><span class="pre">setup</span></code>,
+<code class="docutils literal notranslate"><span class="pre">solution</span></code> and <code class="docutils literal notranslate"><span class="pre">results</span></code>.  These objects are also instances of ‘settings’
+objects and roughly mirror the outline view in Fluent.</p>
 </section>
 <section id="types-of-settings-objects">
 <h2>Types of Settings Objects<a class="headerlink" href="#types-of-settings-objects" title="Permalink to this headline">¶</a></h2>

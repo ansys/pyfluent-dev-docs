@@ -579,17 +579,17 @@ object synchronizes the function execution.</p>
 <div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># asynchronous execution using @asynchronous decorator</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nd">@asynchronous</span>
 <span class="gp">... </span><span class="k">def</span> <span class="nf">asynchronous_solve</span><span class="p">(</span><span class="n">session</span><span class="p">,</span> <span class="n">number_of_iterations</span><span class="p">):</span>
-<span class="gp">... </span>    <span class="n">session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">iterate</span><span class="p">(</span><span class="n">number_of_iterations</span><span class="p">)</span>
+<span class="gp">... </span>    <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">iterate</span><span class="p">(</span><span class="n">number_of_iterations</span><span class="p">)</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">asynchronous_solve</span><span class="p">(</span><span class="n">session1</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># using the asynchronous function directly</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">asynchronous</span><span class="p">(</span><span class="n">session2</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">iterate</span><span class="p">)(</span><span class="mi">100</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">asynchronous</span><span class="p">(</span><span class="n">session2</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">iterate</span><span class="p">)(</span><span class="mi">100</span><span class="p">)</span>
 </pre></div>
 </div>
 <div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># synchronous execution of above 2 calls</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">asynchronous_solve</span><span class="p">(</span><span class="n">session1</span><span class="p">,</span> <span class="mi">100</span><span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">asynchronous</span><span class="p">(</span><span class="n">session2</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">iterate</span><span class="p">)(</span><span class="mi">100</span><span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">asynchronous</span><span class="p">(</span><span class="n">session2</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">iterate</span><span class="p">)(</span><span class="mi">100</span><span class="p">)</span><span class="o">.</span><span class="n">result</span><span class="p">()</span>
 </pre></div>
 </div>
 <dl class="field-list simple">
