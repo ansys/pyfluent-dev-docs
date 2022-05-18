@@ -5,10 +5,10 @@
 
 Computation times
 =================
-**12:02.395** total execution time for **examples_00-fluent** files:
+**11:40.781** total execution time for **examples_00-fluent** files:
 
 +------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_examples_00-fluent_exhaust_system.py` (``exhaust_system.py``) | 08:37.912 | 0.0 MB |
+| :ref:`sphx_glr_examples_00-fluent_exhaust_system.py` (``exhaust_system.py``) | 08:30.951 | 0.0 MB |
 +------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_examples_00-fluent_mixing_elbow.py` (``mixing_elbow.py``)     | 03:24.483 | 0.0 MB |
+| :ref:`sphx_glr_examples_00-fluent_mixing_elbow.py` (``mixing_elbow.py``)     | 03:09.829 | 0.0 MB |
 +------------------------------------------------------------------------------+-----------+--------+

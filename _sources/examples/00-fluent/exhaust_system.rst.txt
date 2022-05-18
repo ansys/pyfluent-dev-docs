@@ -1157,7 +1157,7 @@ session.solver.tui.file.write_case_data("exhaust_system.cas.h5")
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 8 minutes  37.912 seconds)
+   **Total running time of the script:** ( 8 minutes  30.951 seconds)
 
 
 .. _sphx_glr_download_examples_00-fluent_exhaust_system.py:
