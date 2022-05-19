@@ -12,12 +12,12 @@ reaction_source_term_relaxation_factor
     :undoc-members:
 .. rubric:: Included in:
 
-========================   ===============
+========================   ===================
 
-Parent                             Summary
+Parent                                 Summary
 
-========================   ===============
-:ref:`expert <expert_2>`   'expert' child.
+========================   ===================
+:ref:`expert <expert_2>`       'expert' child.
 
-========================   ===============
+========================   ===================
 

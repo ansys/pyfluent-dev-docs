@@ -12,12 +12,12 @@ two_resistance_boiling_framework
     :undoc-members:
 .. rubric:: Included in:
 
-========================   ================
+========================   ====================
 
-Parent                              Summary
+Parent                                  Summary
 
-========================   ================
-:ref:`boiling <boiling>`   'boiling' child.
+========================   ====================
+:ref:`boiling <boiling>`       'boiling' child.
 
-========================   ================
+========================   ====================
 

@@ -12,12 +12,12 @@ solution_stabilization_persistence
     :undoc-members:
 .. rubric:: Included in:
 
-==============================   ===================
+==============================   =======================
 
-Parent                                       Summary
+Parent                                           Summary
 
-==============================   ===================
-:ref:`parameters <parameters>`   'parameters' child.
+==============================   =======================
+:ref:`parameters <parameters>`       'parameters' child.
 
-==============================   ===================
+==============================   =======================
 

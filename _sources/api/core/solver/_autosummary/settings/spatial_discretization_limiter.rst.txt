@@ -12,27 +12,27 @@ spatial_discretization_limiter
     :undoc-members:
 .. rubric:: Children
 
-==========================================   ========================================================
+==========================================   ============================================================
 
-Child                                                                                         Summary
+Child                                                                                             Summary
 
-==========================================   ========================================================
-:ref:`limiter_type <limiter_type>`                                                 New slope limiter.
+==========================================   ============================================================
+:ref:`limiter_type <limiter_type>`                                                     New slope limiter.
 
-:ref:`cell_to_limiting <cell_to_limiting>`   Cell to face limiting ([no] for cell to cell limiting) .
+:ref:`cell_to_limiting <cell_to_limiting>`       Cell to face limiting ([no] for cell to cell limiting) .
 
-:ref:`limiter_filter <limiter_filter>`                                        Enable limiter filter?.
+:ref:`limiter_filter <limiter_filter>`                                            Enable limiter filter?.
 
-==========================================   ========================================================
+==========================================   ============================================================
 
 .. rubric:: Included in:
 
-========================   ===============
+========================   ===================
 
-Parent                             Summary
+Parent                                 Summary
 
-========================   ===============
-:ref:`expert <expert_1>`   'expert' child.
+========================   ===================
+:ref:`expert <expert_1>`       'expert' child.
 
-========================   ===============
+========================   ===================
 

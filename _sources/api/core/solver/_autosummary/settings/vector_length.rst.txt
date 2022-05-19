@@ -12,27 +12,27 @@ vector_length
     :undoc-members:
 .. rubric:: Children
 
-========================================   ========================
+========================================   ============================
 
-Child                                                       Summary
+Child                                                           Summary
 
-========================================   ========================
-:ref:`option <option>`                              'option' child.
+========================================   ============================
+:ref:`option <option>`                                  'option' child.
 
-:ref:`constant_length <constant_length>`   'constant_length' child.
+:ref:`constant_length <constant_length>`       'constant_length' child.
 
-:ref:`variable_length <variable_length>`   'variable_length' child.
+:ref:`variable_length <variable_length>`       'variable_length' child.
 
-========================================   ========================
+========================================   ============================
 
 .. rubric:: Included in:
 
-========================================   ========================
+========================================   ============================
 
-Parent                                                      Summary
+Parent                                                          Summary
 
-========================================   ========================
-:ref:`vector_settings <vector_settings>`   'vector_settings' child.
+========================================   ============================
+:ref:`vector_settings <vector_settings>`       'vector_settings' child.
 
-========================================   ========================
+========================================   ============================
 

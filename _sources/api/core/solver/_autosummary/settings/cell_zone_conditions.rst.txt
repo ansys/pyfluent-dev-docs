@@ -12,25 +12,25 @@ cell_zone_conditions
     :undoc-members:
 .. rubric:: Children
 
-======================   ==============
+======================   ==================
 
-Child                           Summary
+Child                               Summary
 
-======================   ==============
-:ref:`fluid <fluid_1>`   'fluid' child.
+======================   ==================
+:ref:`fluid <fluid_1>`       'fluid' child.
 
-:ref:`solid <solid_1>`   'solid' child.
+:ref:`solid <solid_1>`       'solid' child.
 
-======================   ==============
+======================   ==================
 
 .. rubric:: Included in:
 
-====================   ==============
+====================   ==================
 
-Parent                        Summary
+Parent                            Summary
 
-====================   ==============
-:ref:`setup <setup>`   'setup' child.
+====================   ==================
+:ref:`setup <setup>`       'setup' child.
 
-====================   ==============
+====================   ==================
 

@@ -12,29 +12,29 @@ expert
     :undoc-members:
 .. rubric:: Children
 
-======================================================================================   ==============================================================
+======================================================================================   ==========================================================================
 
-Child                                                                                                                                           Summary
+Child                                                                                                                                                       Summary
 
-======================================================================================   ==============================================================
-:ref:`reactions <reactions_1>`                                                           Enable/disable the species reaction sources and set relaxation
+======================================================================================   ==========================================================================
+:ref:`reactions <reactions_1>`                                                               Enable/disable the species reaction sources and set relaxation factor.
 
-:ref:`reaction_source_term_relaxation_factor <reaction_source_term_relaxation_factor>`                          Reaction source term relaxation factor.
+:ref:`reaction_source_term_relaxation_factor <reaction_source_term_relaxation_factor>`                                      Reaction source term relaxation factor.
 
-:ref:`numerics <numerics>`                                                                                                            'numerics' child.
+:ref:`numerics <numerics>`                                                                                                                        'numerics' child.
 
-:ref:`numerics_dbns <numerics_dbns>`                                                                                             'numerics_dbns' child.
+:ref:`numerics_dbns <numerics_dbns>`                                                                                                         'numerics_dbns' child.
 
-======================================================================================   ==============================================================
+======================================================================================   ==========================================================================
 
 .. rubric:: Included in:
 
-==========================   ================
+==========================   ====================
 
-Parent                                Summary
+Parent                                    Summary
 
-==========================   ================
-:ref:`methods <methods_1>`   'methods' child.
+==========================   ====================
+:ref:`methods <methods_1>`       'methods' child.
 
-==========================   ================
+==========================   ====================
 

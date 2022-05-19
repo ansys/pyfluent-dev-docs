@@ -12,27 +12,27 @@ localized_turb_init
     :undoc-members:
 .. rubric:: Children
 
-============================================================   ====================================================================
+============================================================   ========================================================================
 
-Child                                                                                                                       Summary
+Child                                                                                                                           Summary
 
-============================================================   ====================================================================
-:ref:`enabled <enabled_1>`                                     Enable/disable localized initialization of turbulent flow variables.
+============================================================   ========================================================================
+:ref:`enabled <enabled_1>`                                         Enable/disable localized initialization of turbulent flow variables.
 
-:ref:`turbulent_intensity <turbulent_intensity>`                                                           Set turbulent intensity.
+:ref:`turbulent_intensity <turbulent_intensity>`                                                               Set turbulent intensity.
 
-:ref:`turbulent_viscosity_ratio <turbulent_viscosity_ratio>`                                         Set turbulent viscosity ratio.
+:ref:`turbulent_viscosity_ratio <turbulent_viscosity_ratio>`                                             Set turbulent viscosity ratio.
 
-============================================================   ====================================================================
+============================================================   ========================================================================
 
 .. rubric:: Included in:
 
-======================================   =======================
+======================================   ===========================
 
-Parent                                                   Summary
+Parent                                                       Summary
 
-======================================   =======================
-:ref:`initialization <initialization>`   'initialization' child.
+======================================   ===========================
+:ref:`initialization <initialization>`       'initialization' child.
 
-======================================   =======================
+======================================   ===========================
 

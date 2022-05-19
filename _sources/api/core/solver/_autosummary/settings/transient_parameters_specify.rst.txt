@@ -12,12 +12,12 @@ transient_parameters_specify
     :undoc-members:
 .. rubric:: Included in:
 
-============================   ==================
+============================   ======================
 
-Parent                                    Summary
+Parent                                        Summary
 
-============================   ==================
-:ref:`transient <transient>`   'transient' child.
+============================   ======================
+:ref:`transient <transient>`       'transient' child.
 
-============================   ==================
+============================   ======================
 

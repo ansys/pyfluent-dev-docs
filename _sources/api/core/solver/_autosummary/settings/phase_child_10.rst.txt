@@ -12,16 +12,16 @@ phase_child
     :undoc-members:
 .. rubric:: Included in:
 
-============================   ==================
+============================   ======================
 
-Parent                                    Summary
+Parent                                        Summary
 
-============================   ==================
-:ref:`phase <phase_10>`            'phase' child.
+============================   ======================
+:ref:`phase <phase_10>`                'phase' child.
 
-:ref:`injection <injection>`   'injection' child.
+:ref:`injection <injection>`       'injection' child.
 
-:ref:`custom <custom>`            'custom' child.
+:ref:`custom <custom>`                'custom' child.
 
-============================   ==================
+============================   ======================
 

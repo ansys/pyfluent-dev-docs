@@ -12,43 +12,43 @@ moment_child
     :undoc-members:
 .. rubric:: Children
 
-================================================================   ====================================
+================================================================   ========================================
 
-Child                                                                                           Summary
+Child                                                                                               Summary
 
-================================================================   ====================================
-:ref:`retain_instantaneous_values <retain_instantaneous_values>`   'retain_instantaneous_values' child.
+================================================================   ========================================
+:ref:`retain_instantaneous_values <retain_instantaneous_values>`       'retain_instantaneous_values' child.
 
-:ref:`scaled <scaled>`                                                                  'scaled' child.
+:ref:`scaled <scaled>`                                                                      'scaled' child.
 
-:ref:`report_type <report_type>`                                                   'report_type' child.
+:ref:`report_type <report_type>`                                                       'report_type' child.
 
-:ref:`average_over <average_over>`                                                'average_over' child.
+:ref:`average_over <average_over>`                                                    'average_over' child.
 
-:ref:`per_zone <per_zone>`                                                            'per_zone' child.
+:ref:`per_zone <per_zone>`                                                                'per_zone' child.
 
-:ref:`thread_names <thread_names>`                                                'thread_names' child.
+:ref:`thread_names <thread_names>`                                                    'thread_names' child.
 
-:ref:`thread_ids <thread_ids>`                                                      'thread_ids' child.
+:ref:`thread_ids <thread_ids>`                                                          'thread_ids' child.
 
-:ref:`old_props <old_props>`                                                         'old_props' child.
+:ref:`old_props <old_props>`                                                             'old_props' child.
 
-:ref:`reference_frame <reference_frame>`                                       'reference_frame' child.
+:ref:`reference_frame <reference_frame>`                                           'reference_frame' child.
 
-:ref:`mom_axis <mom_axis>`                                                            'mom_axis' child.
+:ref:`mom_axis <mom_axis>`                                                                'mom_axis' child.
 
-:ref:`mom_center <mom_center>`                                                      'mom_center' child.
+:ref:`mom_center <mom_center>`                                                          'mom_center' child.
 
-================================================================   ====================================
+================================================================   ========================================
 
 .. rubric:: Included in:
 
-======================   ===============
+======================   ===================
 
-Parent                           Summary
+Parent                               Summary
 
-======================   ===============
-:ref:`moment <moment>`   'moment' child.
+======================   ===================
+:ref:`moment <moment>`       'moment' child.
 
-======================   ===============
+======================   ===================
 

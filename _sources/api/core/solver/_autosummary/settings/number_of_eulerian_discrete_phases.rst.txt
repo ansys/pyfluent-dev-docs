@@ -12,12 +12,12 @@ number_of_eulerian_discrete_phases
     :undoc-members:
 .. rubric:: Included in:
 
-==============================   ===================
+==============================   =======================
 
-Parent                                       Summary
+Parent                                           Summary
 
-==============================   ===================
-:ref:`multiphase <multiphase>`   'multiphase' child.
+==============================   =======================
+:ref:`multiphase <multiphase>`       'multiphase' child.
 
-==============================   ===================
+==============================   =======================
 

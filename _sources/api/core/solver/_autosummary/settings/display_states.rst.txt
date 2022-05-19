@@ -12,24 +12,24 @@ display_states
     :undoc-members:
 .. rubric:: Commands
 
-====================================   ========================================================================
+====================================   ===================================================================================
 
-Command                                                                                                 Summary
+Command                                                                                                            Summary
 
-====================================   ========================================================================
-:ref:`list <list>`                                                                              'list' command.
+====================================   ===================================================================================
+:ref:`list <list>`                                                                                         'list' command.
 
-:ref:`use_active <use_active>`                                                            'use_active' command.
+:ref:`use_active <use_active>`                                                                       'use_active' command.
 
-:ref:`restore_state <restore_state>`                                Apply a display state to the active window.
+:ref:`restore_state <restore_state>`                                           Apply a display state to the active window.
 
-:ref:`copy <copy>`                     Create a new display state with settings copied from an existing display
+:ref:`copy <copy>`                         Create a new display state with settings copied from an existing display state.
 
-:ref:`read <read_1>`                                                           Read display states from a file.
+:ref:`read <read_1>`                                                                      Read display states from a file.
 
-:ref:`write <write_1>`                                                          Write display states to a file.
+:ref:`write <write_1>`                                                                     Write display states to a file.
 
-====================================   ========================================================================
+====================================   ===================================================================================
 
 .. rubric:: Named object type
 
@@ -38,12 +38,12 @@ Command                                                                         
 
 .. rubric:: Included in:
 
-====================   ==============
+====================   ==================
 
-Parent                        Summary
+Parent                            Summary
 
-====================   ==============
-:ref:`views <views>`   'views' child.
+====================   ==================
+:ref:`views <views>`       'views' child.
 
-====================   ==============
+====================   ==================
 

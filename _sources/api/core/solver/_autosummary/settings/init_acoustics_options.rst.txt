@@ -12,25 +12,25 @@ init_acoustics_options
     :undoc-members:
 .. rubric:: Arguments
 
-================================================   =======================================================
+================================================   ===========================================================
 
-Argument                                                                                           Summary
+Argument                                                                                               Summary
 
-================================================   =======================================================
-:ref:`set_ramping_length <set_ramping_length>`     Enable/Disable ramping length and initialize acoustics.
+================================================   ===========================================================
+:ref:`set_ramping_length <set_ramping_length>`         Enable/Disable ramping length and initialize acoustics.
 
-:ref:`number_of_timesteps <number_of_timesteps>`           Set number of timesteps for ramping of sources.
+:ref:`number_of_timesteps <number_of_timesteps>`               Set number of timesteps for ramping of sources.
 
-================================================   =======================================================
+================================================   ===========================================================
 
 .. rubric:: Included in:
 
-======================================   =======================
+======================================   ===========================
 
-Parent                                                   Summary
+Parent                                                       Summary
 
-======================================   =======================
-:ref:`initialization <initialization>`   'initialization' child.
+======================================   ===========================
+:ref:`initialization <initialization>`       'initialization' child.
 
-======================================   =======================
+======================================   ===========================
 

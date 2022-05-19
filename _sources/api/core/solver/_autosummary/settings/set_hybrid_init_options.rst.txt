@@ -12,25 +12,25 @@ set_hybrid_init_options
     :undoc-members:
 .. rubric:: Children
 
-============================================   ==================================
+============================================   ======================================
 
-Child                                                                     Summary
+Child                                                                         Summary
 
-============================================   ==================================
-:ref:`general_settings <general_settings>`       Enter the general settings menu.
+============================================   ======================================
+:ref:`general_settings <general_settings>`           Enter the general settings menu.
 
-:ref:`turbulent_setting <turbulent_setting>`   Enter the turbulent settings menu.
+:ref:`turbulent_setting <turbulent_setting>`       Enter the turbulent settings menu.
 
-============================================   ==================================
+============================================   ======================================
 
 .. rubric:: Included in:
 
-======================================   =======================
+======================================   ===========================
 
-Parent                                                   Summary
+Parent                                                       Summary
 
-======================================   =======================
-:ref:`initialization <initialization>`   'initialization' child.
+======================================   ===========================
+:ref:`initialization <initialization>`       'initialization' child.
 
-======================================   =======================
+======================================   ===========================
 

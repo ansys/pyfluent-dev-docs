@@ -12,14 +12,14 @@ film_crit_temp_factor
     :undoc-members:
 .. rubric:: Included in:
 
-===================================   =============================
+===================================   =================================
 
-Parent                                                      Summary
+Parent                                                          Summary
 
-===================================   =============================
-:ref:`wall_child <wall_child>`         'child_object_type' of wall.
+===================================   =================================
+:ref:`wall_child <wall_child>`             'child_object_type' of wall.
 
-:ref:`phase_child <phase_child_24>`   'child_object_type' of phase.
+:ref:`phase_child <phase_child_24>`       'child_object_type' of phase.
 
-===================================   =============================
+===================================   =================================
 

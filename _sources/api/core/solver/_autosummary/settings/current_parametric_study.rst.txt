@@ -12,12 +12,12 @@ current_parametric_study
     :undoc-members:
 .. rubric:: Included in:
 
-==================   ==============
+==================   ==================
 
-Parent                      Summary
+Parent                          Summary
 
-==================   ==============
-:ref:`root <root>`   'root' object.
+==================   ==================
+:ref:`root <root>`       'root' object.
 
-==================   ==============
+==================   ==================
 

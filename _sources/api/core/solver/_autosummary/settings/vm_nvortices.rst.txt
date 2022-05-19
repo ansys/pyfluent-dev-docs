@@ -12,14 +12,14 @@ vm_nvortices
     :undoc-members:
 .. rubric:: Included in:
 
-==========================================================   ==========================================
+==========================================================   ==============================================
 
-Parent                                                                                          Summary
+Parent                                                                                              Summary
 
-==========================================================   ==========================================
-:ref:`rans_les_interface_child <rans_les_interface_child>`   'child_object_type' of rans_les_interface.
+==========================================================   ==============================================
+:ref:`rans_les_interface_child <rans_les_interface_child>`       'child_object_type' of rans_les_interface.
 
-:ref:`phase_child <phase_child_20>`                                       'child_object_type' of phase.
+:ref:`phase_child <phase_child_20>`                                           'child_object_type' of phase.
 
-==========================================================   ==========================================
+==========================================================   ==============================================
 

@@ -12,33 +12,33 @@ parametric_project
     :undoc-members:
 .. rubric:: Commands
 
-==================================   ===================
+==================================   =======================
 
-Command                                          Summary
+Command                                              Summary
 
-==================================   ===================
-:ref:`new <new>`                     Create New Project.
+==================================   =======================
+:ref:`new <new>`                         Create New Project.
 
-:ref:`open <open>`                         Open project.
+:ref:`open <open>`                             Open project.
 
-:ref:`save <save>`                         Save Project.
+:ref:`save <save>`                             Save Project.
 
-:ref:`save_as <save_as>`                Save As Project.
+:ref:`save_as <save_as>`                    Save As Project.
 
-:ref:`save_as_copy <save_as_copy>`      Save As Project.
+:ref:`save_as_copy <save_as_copy>`          Save As Project.
 
-:ref:`archive <archive>`                Archive Project.
+:ref:`archive <archive>`                    Archive Project.
 
-==================================   ===================
+==================================   =======================
 
 .. rubric:: Included in:
 
-==================   =============
+==================   =================
 
-Parent                     Summary
+Parent                         Summary
 
-==================   =============
-:ref:`file <file>`   'file' child.
+==================   =================
+:ref:`file <file>`       'file' child.
 
-==================   =============
+==================   =================
 

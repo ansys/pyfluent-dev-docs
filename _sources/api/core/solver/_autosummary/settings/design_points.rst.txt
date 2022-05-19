@@ -12,16 +12,16 @@ design_points
     :undoc-members:
 .. rubric:: Included in:
 
-==================================================   ==============================
+==================================================   ==================================
 
-Parent                                                                      Summary
+Parent                                                                          Summary
 
-==================================================   ==============================
-:ref:`delete_design_points <delete_design_points>`            Delete Design Points.
+==================================================   ==================================
+:ref:`delete_design_points <delete_design_points>`                Delete Design Points.
 
-:ref:`clear_generated_data <clear_generated_data>`            Clear Generated Data.
+:ref:`clear_generated_data <clear_generated_data>`                Clear Generated Data.
 
-:ref:`update_selected <update_selected>`             Update Selected Design Points.
+:ref:`update_selected <update_selected>`                 Update Selected Design Points.
 
-==================================================   ==============================
+==================================================   ==================================
 

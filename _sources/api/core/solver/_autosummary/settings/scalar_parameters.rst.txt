@@ -12,27 +12,27 @@ scalar_parameters
     :undoc-members:
 .. rubric:: Children
 
-======================================================   ===============================
+======================================================   ===================================
 
-Child                                                                            Summary
+Child                                                                                Summary
 
-======================================================   ===============================
-:ref:`fixed_cycle_parameters <fixed_cycle_parameters>`   'fixed_cycle_parameters' child.
+======================================================   ===================================
+:ref:`fixed_cycle_parameters <fixed_cycle_parameters>`       'fixed_cycle_parameters' child.
 
-:ref:`coarsening_parameters <coarsening_parameters>`      'coarsening_parameters' child.
+:ref:`coarsening_parameters <coarsening_parameters>`          'coarsening_parameters' child.
 
-:ref:`smoother_type <smoother_type>`                                      Smoother type.
+:ref:`smoother_type <smoother_type>`                                          Smoother type.
 
-======================================================   ===============================
+======================================================   ===================================
 
 .. rubric:: Included in:
 
-==================================================   =============================
+==================================================   =================================
 
-Parent                                                                     Summary
+Parent                                                                         Summary
 
-==================================================   =============================
-:ref:`algebric_mg_controls <algebric_mg_controls>`   'algebric_mg_controls' child.
+==================================================   =================================
+:ref:`algebric_mg_controls <algebric_mg_controls>`       'algebric_mg_controls' child.
 
-==================================================   =============================
+==================================================   =================================
 

@@ -12,14 +12,14 @@ temperature_spec
     :undoc-members:
 .. rubric:: Included in:
 
-============================================================   ===========================================
+============================================================   ===============================================
 
-Parent                                                                                             Summary
+Parent                                                                                                 Summary
 
-============================================================   ===========================================
-:ref:`recirculation_inlet_child <recirculation_inlet_child>`   'child_object_type' of recirculation_inlet.
+============================================================   ===============================================
+:ref:`recirculation_inlet_child <recirculation_inlet_child>`       'child_object_type' of recirculation_inlet.
 
-:ref:`phase_child <phase_child_21>`                                          'child_object_type' of phase.
+:ref:`phase_child <phase_child_21>`                                              'child_object_type' of phase.
 
-============================================================   ===========================================
+============================================================   ===============================================
 

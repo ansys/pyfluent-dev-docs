@@ -12,55 +12,55 @@ color_map
     :undoc-members:
 .. rubric:: Children
 
-======================================   =======================
+======================================   ===========================
 
-Child                                                    Summary
+Child                                                        Summary
 
-======================================   =======================
-:ref:`visible <visible>`                        'visible' child.
+======================================   ===========================
+:ref:`visible <visible>`                            'visible' child.
 
-:ref:`size <size>`                                 'size' child.
+:ref:`size <size>`                                     'size' child.
 
-:ref:`color <color>`                              'color' child.
+:ref:`color <color>`                                  'color' child.
 
-:ref:`log_scale <log_scale>`                  'log_scale' child.
+:ref:`log_scale <log_scale>`                      'log_scale' child.
 
-:ref:`format <format>`                           'format' child.
+:ref:`format <format>`                               'format' child.
 
-:ref:`user_skip <user_skip>`                  'user_skip' child.
+:ref:`user_skip <user_skip>`                      'user_skip' child.
 
-:ref:`show_all <show_all>`                     'show_all' child.
+:ref:`show_all <show_all>`                         'show_all' child.
 
-:ref:`position <position>`                     'position' child.
+:ref:`position <position>`                         'position' child.
 
-:ref:`font_name <font_name>`                  'font_name' child.
+:ref:`font_name <font_name>`                      'font_name' child.
 
-:ref:`font_automatic <font_automatic>`   'font_automatic' child.
+:ref:`font_automatic <font_automatic>`       'font_automatic' child.
 
-:ref:`font_size <font_size>`                  'font_size' child.
+:ref:`font_size <font_size>`                      'font_size' child.
 
-:ref:`length <length>`                           'length' child.
+:ref:`length <length>`                               'length' child.
 
-:ref:`width <width>`                              'width' child.
+:ref:`width <width>`                                  'width' child.
 
-======================================   =======================
+======================================   ===========================
 
 .. rubric:: Included in:
 
-====================================================   =======================================
+====================================================   ===========================================
 
-Parent                                                                                 Summary
+Parent                                                                                     Summary
 
-====================================================   =======================================
-:ref:`contour_child <contour_child>`                           'child_object_type' of contour.
+====================================================   ===========================================
+:ref:`contour_child <contour_child>`                               'child_object_type' of contour.
 
-:ref:`vector_child <vector_child>`                              'child_object_type' of vector.
+:ref:`vector_child <vector_child>`                                  'child_object_type' of vector.
 
-:ref:`pathlines_child <pathlines_child>`                     'child_object_type' of pathlines.
+:ref:`pathlines_child <pathlines_child>`                         'child_object_type' of pathlines.
 
-:ref:`particle_tracks_child <particle_tracks_child>`   'child_object_type' of particle_tracks.
+:ref:`particle_tracks_child <particle_tracks_child>`       'child_object_type' of particle_tracks.
 
-:ref:`lic_child <lic_child>`                                       'child_object_type' of lic.
+:ref:`lic_child <lic_child>`                                           'child_object_type' of lic.
 
-====================================================   =======================================
+====================================================   ===========================================
 

@@ -12,14 +12,14 @@ minimum
     :undoc-members:
 .. rubric:: Included in:
 
-==============================================================   ============================================
+==============================================================   ================================================
 
-Parent                                                                                                Summary
+Parent                                                                                                    Summary
 
-==============================================================   ============================================
-:ref:`piecewise_polynomial_child <piecewise_polynomial_child>`   'child_object_type' of piecewise_polynomial.
+==============================================================   ================================================
+:ref:`piecewise_polynomial_child <piecewise_polynomial_child>`       'child_object_type' of piecewise_polynomial.
 
-:ref:`auto_range_off <auto_range_off>`                                                'auto_range_off' child.
+:ref:`auto_range_off <auto_range_off>`                                                    'auto_range_off' child.
 
-==============================================================   ============================================
+==============================================================   ================================================
 

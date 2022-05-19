@@ -12,14 +12,14 @@ pref
     :undoc-members:
 .. rubric:: Included in:
 
-====================================================   =======================================
+====================================================   ===========================================
 
-Parent                                                                                 Summary
+Parent                                                                                     Summary
 
-====================================================   =======================================
-:ref:`mass_flow_inlet_child <mass_flow_inlet_child>`   'child_object_type' of mass_flow_inlet.
+====================================================   ===========================================
+:ref:`mass_flow_inlet_child <mass_flow_inlet_child>`       'child_object_type' of mass_flow_inlet.
 
-:ref:`phase_child <phase_child_9>`                               'child_object_type' of phase.
+:ref:`phase_child <phase_child_9>`                                   'child_object_type' of phase.
 
-====================================================   =======================================
+====================================================   ===========================================
 

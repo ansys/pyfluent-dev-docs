@@ -12,25 +12,25 @@ write
     :undoc-members:
 .. rubric:: Arguments
 
-============================   ==================
+============================   ======================
 
-Argument                                  Summary
+Argument                                      Summary
 
-============================   ==================
-:ref:`file_type <file_type>`   'file_type' child.
+============================   ======================
+:ref:`file_type <file_type>`       'file_type' child.
 
-:ref:`file_name <file_name>`   'file_name' child.
+:ref:`file_name <file_name>`       'file_name' child.
 
-============================   ==================
+============================   ======================
 
 .. rubric:: Included in:
 
-==================   =============
+==================   =================
 
-Parent                     Summary
+Parent                         Summary
 
-==================   =============
-:ref:`file <file>`   'file' child.
+==================   =================
+:ref:`file <file>`       'file' child.
 
-==================   =============
+==================   =================
 

@@ -12,27 +12,27 @@ options
     :undoc-members:
 .. rubric:: Children
 
-============================   =================
+============================   =====================
 
-Child                                    Summary
+Child                                        Summary
 
-============================   =================
-:ref:`option <option>`           'option' child.
+============================   =====================
+:ref:`option <option>`               'option' child.
 
-:ref:`constant <constant_1>`   'constant' child.
+:ref:`constant <constant_1>`       'constant' child.
 
-:ref:`variable <variable>`     'variable' child.
+:ref:`variable <variable>`         'variable' child.
 
-============================   =================
+============================   =====================
 
 .. rubric:: Included in:
 
-========================================   ========================
+========================================   ============================
 
-Parent                                                      Summary
+Parent                                                          Summary
 
-========================================   ========================
-:ref:`sphere_settings <sphere_settings>`   'sphere_settings' child.
+========================================   ============================
+:ref:`sphere_settings <sphere_settings>`       'sphere_settings' child.
 
-========================================   ========================
+========================================   ============================
 

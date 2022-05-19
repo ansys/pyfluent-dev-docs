@@ -12,31 +12,31 @@ coarsening_parameters
     :undoc-members:
 .. rubric:: Children
 
-========================================================   ==============================================================
+========================================================   ==================================================================
 
-Child                                                                                                             Summary
+Child                                                                                                                 Summary
 
-========================================================   ==============================================================
-:ref:`max_coarse_levels <max_coarse_levels_1>`                              Coupled:maximum number of coarse grid levels.
+========================================================   ==================================================================
+:ref:`max_coarse_levels <max_coarse_levels_1>`                                  Coupled:maximum number of coarse grid levels.
 
-:ref:`coarsen_by_interval <coarsen_by_interval_1>`                                           Coupled:coarsen by interval.
+:ref:`coarsen_by_interval <coarsen_by_interval_1>`                                               Coupled:coarsen by interval.
 
-:ref:`conservative_coarsening <conservative_coarsening>`                                Use conservative AMG coarsening?.
+:ref:`conservative_coarsening <conservative_coarsening>`                                    Use conservative AMG coarsening?.
 
-:ref:`aggressive_coarsening <aggressive_coarsening_1>`     Enable aggressive AMG coarsening for coupled equation systems.
+:ref:`aggressive_coarsening <aggressive_coarsening_1>`         Enable aggressive AMG coarsening for coupled equation systems.
 
-:ref:`laplace_coarsening <laplace_coarsening>`                                        Set AMG laplace coarsening options.
+:ref:`laplace_coarsening <laplace_coarsening>`                                            Set AMG laplace coarsening options.
 
-========================================================   ==============================================================
+========================================================   ==================================================================
 
 .. rubric:: Included in:
 
-==============================================   ===========================
+==============================================   ===============================
 
-Parent                                                               Summary
+Parent                                                                   Summary
 
-==============================================   ===========================
-:ref:`coupled_parameters <coupled_parameters>`   'coupled_parameters' child.
+==============================================   ===============================
+:ref:`coupled_parameters <coupled_parameters>`       'coupled_parameters' child.
 
-==============================================   ===========================
+==============================================   ===============================
 

@@ -12,31 +12,31 @@ filter_settings
     :undoc-members:
 .. rubric:: Children
 
-======================================   =======================
+======================================   ===========================
 
-Child                                                    Summary
+Child                                                        Summary
 
-======================================   =======================
-:ref:`field <field>`                              'field' child.
+======================================   ===========================
+:ref:`field <field>`                                  'field' child.
 
-:ref:`options <options_7>`                      'options' child.
+:ref:`options <options_7>`                          'options' child.
 
-:ref:`enabled <enabled_2>`                      'enabled' child.
+:ref:`enabled <enabled_2>`                          'enabled' child.
 
-:ref:`filter_minimum <filter_minimum>`   'filter_minimum' child.
+:ref:`filter_minimum <filter_minimum>`       'filter_minimum' child.
 
-:ref:`filter_maximum <filter_maximum>`   'filter_maximum' child.
+:ref:`filter_maximum <filter_maximum>`       'filter_maximum' child.
 
-======================================   =======================
+======================================   ===========================
 
 .. rubric:: Included in:
 
-====================================================   =======================================
+====================================================   ===========================================
 
-Parent                                                                                 Summary
+Parent                                                                                     Summary
 
-====================================================   =======================================
-:ref:`particle_tracks_child <particle_tracks_child>`   'child_object_type' of particle_tracks.
+====================================================   ===========================================
+:ref:`particle_tracks_child <particle_tracks_child>`       'child_object_type' of particle_tracks.
 
-====================================================   =======================================
+====================================================   ===========================================
 

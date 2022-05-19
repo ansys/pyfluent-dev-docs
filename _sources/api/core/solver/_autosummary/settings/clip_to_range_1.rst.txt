@@ -12,25 +12,25 @@ clip_to_range
     :undoc-members:
 .. rubric:: Children
 
-============================   ==================
+============================   ======================
 
-Child                                     Summary
+Child                                         Summary
 
-============================   ==================
-:ref:`min_value <min_value>`   'min_value' child.
+============================   ======================
+:ref:`min_value <min_value>`       'min_value' child.
 
-:ref:`max_value <max_value>`   'max_value' child.
+:ref:`max_value <max_value>`       'max_value' child.
 
-============================   ==================
+============================   ======================
 
 .. rubric:: Included in:
 
-====================   ==============
+====================   ==================
 
-Parent                        Summary
+Parent                            Summary
 
-====================   ==============
-:ref:`range <range>`   'range' child.
+====================   ==================
+:ref:`range <range>`       'range' child.
 
-====================   ==============
+====================   ==================
 

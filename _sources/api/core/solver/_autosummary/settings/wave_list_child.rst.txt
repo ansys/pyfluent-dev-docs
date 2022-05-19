@@ -12,31 +12,31 @@ wave_list_child
     :undoc-members:
 .. rubric:: Children
 
-====================================   ======================
+====================================   ==========================
 
-Child                                                 Summary
+Child                                                     Summary
 
-====================================   ======================
-:ref:`theory <theory>`                        'theory' child.
+====================================   ==========================
+:ref:`theory <theory>`                            'theory' child.
 
-:ref:`wave_ht <wave_ht>`                     'wave_ht' child.
+:ref:`wave_ht <wave_ht>`                         'wave_ht' child.
 
-:ref:`wave_len <wave_len>`                  'wave_len' child.
+:ref:`wave_len <wave_len>`                      'wave_len' child.
 
-:ref:`phase_diff <phase_diff>`            'phase_diff' child.
+:ref:`phase_diff <phase_diff>`                'phase_diff' child.
 
-:ref:`heading_angle <heading_angle>`   'heading_angle' child.
+:ref:`heading_angle <heading_angle>`       'heading_angle' child.
 
-====================================   ======================
+====================================   ==========================
 
 .. rubric:: Included in:
 
-============================   ==================
+============================   ======================
 
-Parent                                    Summary
+Parent                                        Summary
 
-============================   ==================
-:ref:`wave_list <wave_list>`   'wave_list' child.
+============================   ======================
+:ref:`wave_list <wave_list>`       'wave_list' child.
 
-============================   ==================
+============================   ======================
 

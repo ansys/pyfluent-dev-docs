@@ -12,25 +12,25 @@ boiling_parameters
     :undoc-members:
 .. rubric:: Children
 
-============================================   =======================================================
+============================================   ===========================================================
 
-Child                                                                                          Summary
+Child                                                                                              Summary
 
-============================================   =======================================================
-:ref:`thin_film <thin_film>`                   Multiphase enhanced compressible flow numerics options.
+============================================   ===========================================================
+:ref:`thin_film <thin_film>`                       Multiphase enhanced compressible flow numerics options.
 
-:ref:`liquid_vof_factor <liquid_vof_factor>`   Multiphase enhanced compressible flow numerics options.
+:ref:`liquid_vof_factor <liquid_vof_factor>`       Multiphase enhanced compressible flow numerics options.
 
-============================================   =======================================================
+============================================   ===========================================================
 
 .. rubric:: Included in:
 
-================================================   ===========================================
+================================================   ===============================================
 
-Parent                                                                                 Summary
+Parent                                                                                     Summary
 
-================================================   ===========================================
-:ref:`multiphase_numerics <multiphase_numerics>`   Enter the multiphase numerics options menu.
+================================================   ===============================================
+:ref:`multiphase_numerics <multiphase_numerics>`       Enter the multiphase numerics options menu.
 
-================================================   ===========================================
+================================================   ===============================================
 

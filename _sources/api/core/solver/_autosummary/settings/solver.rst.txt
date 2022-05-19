@@ -12,29 +12,29 @@ solver
     :undoc-members:
 .. rubric:: Children
 
-==================================================   =========================
+==================================================   =============================
 
-Child                                                                  Summary
+Child                                                                      Summary
 
-==================================================   =========================
-:ref:`type <type>`                                         Select solver type.
+==================================================   =============================
+:ref:`type <type>`                                             Select solver type.
 
-:ref:`two_dim_space <two_dim_space>`                    'two_dim_space' child.
+:ref:`two_dim_space <two_dim_space>`                        'two_dim_space' child.
 
-:ref:`velocity_formulation <velocity_formulation>`   Set velocity formulation.
+:ref:`velocity_formulation <velocity_formulation>`       Set velocity formulation.
 
-:ref:`time <time>`                                               'time' child.
+:ref:`time <time>`                                                   'time' child.
 
-==================================================   =========================
+==================================================   =============================
 
 .. rubric:: Included in:
 
-========================   ================
+========================   ====================
 
-Parent                              Summary
+Parent                                  Summary
 
-========================   ================
-:ref:`general <general>`   'general' child.
+========================   ====================
+:ref:`general <general>`       'general' child.
 
-========================   ================
+========================   ====================
 

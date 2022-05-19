@@ -12,29 +12,29 @@ pseudo_transient
     :undoc-members:
 .. rubric:: Children
 
-====================================================================================   ===========================================================
+====================================================================================   ===============================================================
 
-Child                                                                                                                                      Summary
+Child                                                                                                                                          Summary
 
-====================================================================================   ===========================================================
-:ref:`smoothed_density_stabilization_method <smoothed_density_stabilization_method>`   Enable/disable smoothed density for momentum stabilization.
+====================================================================================   ===============================================================
+:ref:`smoothed_density_stabilization_method <smoothed_density_stabilization_method>`       Enable/disable smoothed density for momentum stabilization.
 
-:ref:`num_of_density_smoothing <num_of_density_smoothing>`                                                       Set number of density smoothings.
+:ref:`num_of_density_smoothing <num_of_density_smoothing>`                                                           Set number of density smoothings.
 
-:ref:`false_time_step_linearization <false_time_step_linearization>`                        Set false time-step linearization for added stability.
+:ref:`false_time_step_linearization <false_time_step_linearization>`                            Set false time-step linearization for added stability.
 
-:ref:`auto_dt_advanced_controls <auto_dt_advanced_controls>`                                                    'auto_dt_advanced_controls' child.
+:ref:`auto_dt_advanced_controls <auto_dt_advanced_controls>`                                                        'auto_dt_advanced_controls' child.
 
-====================================================================================   ===========================================================
+====================================================================================   ===============================================================
 
 .. rubric:: Included in:
 
-================================================================   ====================================
+================================================================   ========================================
 
-Parent                                                                                          Summary
+Parent                                                                                              Summary
 
-================================================================   ====================================
-:ref:`advanced_stability_controls <advanced_stability_controls>`   'advanced_stability_controls' child.
+================================================================   ========================================
+:ref:`advanced_stability_controls <advanced_stability_controls>`       'advanced_stability_controls' child.
 
-================================================================   ====================================
+================================================================   ========================================
 

@@ -12,29 +12,29 @@ multi_grid
     :undoc-members:
 .. rubric:: Children
 
-==================================================   =============================
+==================================================   =================================
 
-Child                                                                      Summary
+Child                                                                          Summary
 
-==================================================   =============================
-:ref:`multi_grid_controls <multi_grid_controls>`      'multi_grid_controls' child.
+==================================================   =================================
+:ref:`multi_grid_controls <multi_grid_controls>`          'multi_grid_controls' child.
 
-:ref:`algebric_mg_controls <algebric_mg_controls>`   'algebric_mg_controls' child.
+:ref:`algebric_mg_controls <algebric_mg_controls>`       'algebric_mg_controls' child.
 
-:ref:`fas_mg_controls <fas_mg_controls>`                  'fas_mg_controls' child.
+:ref:`fas_mg_controls <fas_mg_controls>`                      'fas_mg_controls' child.
 
-:ref:`amg_gpgpu_options <amg_gpgpu_options>`            'amg_gpgpu_options' child.
+:ref:`amg_gpgpu_options <amg_gpgpu_options>`                'amg_gpgpu_options' child.
 
-==================================================   =============================
+==================================================   =================================
 
 .. rubric:: Included in:
 
-==========================   =================
+==========================   =====================
 
-Parent                                 Summary
+Parent                                     Summary
 
-==========================   =================
-:ref:`advanced <advanced>`   'advanced' child.
+==========================   =====================
+:ref:`advanced <advanced>`       'advanced' child.
 
-==========================   =================
+==========================   =====================
 

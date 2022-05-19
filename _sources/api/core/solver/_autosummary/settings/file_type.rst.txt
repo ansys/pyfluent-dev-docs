@@ -12,14 +12,14 @@ file_type
     :undoc-members:
 .. rubric:: Included in:
 
-====================   ================
+====================   ====================
 
-Parent                          Summary
+Parent                              Summary
 
-====================   ================
-:ref:`read <read>`      'read' command.
+====================   ====================
+:ref:`read <read>`          'read' command.
 
-:ref:`write <write>`   'write' command.
+:ref:`write <write>`       'write' command.
 
-====================   ================
+====================   ====================
 

@@ -12,40 +12,40 @@ driver_options
     :undoc-members:
 .. rubric:: Children
 
-==========================================   =========================================
+==========================================   =============================================
 
-Child                                                                          Summary
+Child                                                                              Summary
 
-==========================================   =========================================
-:ref:`hardcopy_format <hardcopy_format>`                     Set hardcopy file format.
+==========================================   =============================================
+:ref:`hardcopy_format <hardcopy_format>`                         Set hardcopy file format.
 
-:ref:`hardcopy_options <hardcopy_options>`                   'hardcopy_options' child.
+:ref:`hardcopy_options <hardcopy_options>`                       'hardcopy_options' child.
 
-:ref:`window_dump_cmd <window_dump_cmd>`                      'window_dump_cmd' child.
+:ref:`window_dump_cmd <window_dump_cmd>`                          'window_dump_cmd' child.
 
-:ref:`post_format <post_format>`             Produce PostScript output for hardcopies.
+:ref:`post_format <post_format>`                 Produce PostScript output for hardcopies.
 
-==========================================   =========================================
+==========================================   =============================================
 
 .. rubric:: Commands
 
-======================================   =========================
+======================================   =============================
 
-Command                                                    Summary
+Command                                                        Summary
 
-======================================   =========================
-:ref:`current_driver <current_driver>`   'current_driver' command.
+======================================   =============================
+:ref:`current_driver <current_driver>`       'current_driver' command.
 
-======================================   =========================
+======================================   =============================
 
 .. rubric:: Included in:
 
-========================================   ========================
+========================================   ============================
 
-Parent                                                      Summary
+Parent                                                          Summary
 
-========================================   ========================
-:ref:`picture_options <picture_options>`   'picture_options' child.
+========================================   ============================
+:ref:`picture_options <picture_options>`       'picture_options' child.
 
-========================================   ========================
+========================================   ============================
 

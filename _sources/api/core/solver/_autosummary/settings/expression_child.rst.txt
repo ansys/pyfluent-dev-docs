@@ -12,31 +12,31 @@ expression_child
     :undoc-members:
 .. rubric:: Children
 
-========================================================   ================================
+========================================================   ====================================
 
-Child                                                                               Summary
+Child                                                                                   Summary
 
-========================================================   ================================
-:ref:`list_valid_report_names <list_valid_report_names>`   'list_valid_report_names' child.
+========================================================   ====================================
+:ref:`list_valid_report_names <list_valid_report_names>`       'list_valid_report_names' child.
 
-:ref:`define <define>`                                                      'define' child.
+:ref:`define <define>`                                                          'define' child.
 
-:ref:`expr_value <expr_value>`                                          'expr_value' child.
+:ref:`expr_value <expr_value>`                                              'expr_value' child.
 
-:ref:`average_over <average_over>`                                    'average_over' child.
+:ref:`average_over <average_over>`                                        'average_over' child.
 
-:ref:`old_props <old_props>`                                             'old_props' child.
+:ref:`old_props <old_props>`                                                 'old_props' child.
 
-========================================================   ================================
+========================================================   ====================================
 
 .. rubric:: Included in:
 
-==============================   ===================
+==============================   =======================
 
-Parent                                       Summary
+Parent                                           Summary
 
-==============================   ===================
-:ref:`expression <expression>`   'expression' child.
+==============================   =======================
+:ref:`expression <expression>`       'expression' child.
 
-==============================   ===================
+==============================   =======================
 

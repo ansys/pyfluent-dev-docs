@@ -12,27 +12,27 @@ nita_expert_controls
     :undoc-members:
 .. rubric:: Children
 
-================================================================   ========================================
+================================================================   ============================================
 
-Child                                                                                               Summary
+Child                                                                                                   Summary
 
-================================================================   ========================================
-:ref:`set_verbosity <set_verbosity>`                                             Set nita verbosity option.
+================================================================   ============================================
+:ref:`set_verbosity <set_verbosity>`                                                 Set nita verbosity option.
 
-:ref:`skewness_neighbor_coupling <skewness_neighbor_coupling_1>`   Set skewness neighbor coupling for nita.
+:ref:`skewness_neighbor_coupling <skewness_neighbor_coupling_1>`       Set skewness neighbor coupling for nita.
 
-:ref:`hybrid_nita_settings <hybrid_nita_settings>`                            'hybrid_nita_settings' child.
+:ref:`hybrid_nita_settings <hybrid_nita_settings>`                                'hybrid_nita_settings' child.
 
-================================================================   ========================================
+================================================================   ============================================
 
 .. rubric:: Included in:
 
-==========================   ================
+==========================   ====================
 
-Parent                                Summary
+Parent                                    Summary
 
-==========================   ================
-:ref:`methods <methods_1>`   'methods' child.
+==========================   ====================
+:ref:`methods <methods_1>`       'methods' child.
 
-==========================   ================
+==========================   ====================
 

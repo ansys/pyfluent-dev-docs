@@ -12,25 +12,25 @@ field
     :undoc-members:
 .. rubric:: Arguments
 
-======================   ===============
+======================   ===================
 
-Argument                         Summary
+Argument                             Summary
 
-======================   ===============
-:ref:`width <width>`      'width' child.
+======================   ===================
+:ref:`width <width>`          'width' child.
 
-:ref:`height <height>`   'height' child.
+:ref:`height <height>`       'height' child.
 
-======================   ===============
+======================   ===================
 
 .. rubric:: Included in:
 
-======================   ===============
+======================   ===================
 
-Parent                           Summary
+Parent                               Summary
 
-======================   ===============
-:ref:`camera <camera>`   'camera' child.
+======================   ===================
+:ref:`camera <camera>`       'camera' child.
 
-======================   ===============
+======================   ===================
 

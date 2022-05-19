@@ -12,12 +12,12 @@ old_treatment_for_turbulent_diffusion
     :undoc-members:
 .. rubric:: Included in:
 
-==============================   ===================
+==============================   =======================
 
-Parent                                       Summary
+Parent                                           Summary
 
-==============================   ===================
-:ref:`cavitation <cavitation>`   'cavitation' child.
+==============================   =======================
+:ref:`cavitation <cavitation>`       'cavitation' child.
 
-==============================   ===================
+==============================   =======================
 

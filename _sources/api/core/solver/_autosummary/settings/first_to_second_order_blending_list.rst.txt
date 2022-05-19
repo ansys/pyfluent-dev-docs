@@ -12,12 +12,12 @@ first_to_second_order_blending_list
     :undoc-members:
 .. rubric:: Included in:
 
-========================   ================
+========================   ====================
 
-Parent                              Summary
+Parent                                  Summary
 
-========================   ================
-:ref:`spatial <spatial>`   'spatial' child.
+========================   ====================
+:ref:`spatial <spatial>`       'spatial' child.
 
-========================   ================
+========================   ====================
 

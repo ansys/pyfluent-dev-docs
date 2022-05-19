@@ -12,27 +12,27 @@ accuracy_control
     :undoc-members:
 .. rubric:: Children
 
-============================   ==================
+============================   ======================
 
-Child                                     Summary
+Child                                         Summary
 
-============================   ==================
-:ref:`option <option>`            'option' child.
+============================   ======================
+:ref:`option <option>`                'option' child.
 
-:ref:`step_size <step_size>`   'step_size' child.
+:ref:`step_size <step_size>`       'step_size' child.
 
-:ref:`tolerance <tolerance>`   'tolerance' child.
+:ref:`tolerance <tolerance>`       'tolerance' child.
 
-============================   ==================
+============================   ======================
 
 .. rubric:: Included in:
 
-========================================   =================================
+========================================   =====================================
 
-Parent                                                               Summary
+Parent                                                                   Summary
 
-========================================   =================================
-:ref:`pathlines_child <pathlines_child>`   'child_object_type' of pathlines.
+========================================   =====================================
+:ref:`pathlines_child <pathlines_child>`       'child_object_type' of pathlines.
 
-========================================   =================================
+========================================   =====================================
 

@@ -12,16 +12,16 @@ initial_time_step_size
     :undoc-members:
 .. rubric:: Included in:
 
-============================================================   ==================================
+============================================================   ======================================
 
-Parent                                                                                    Summary
+Parent                                                                                        Summary
 
-============================================================   ==================================
-:ref:`cfl_based_time_stepping <cfl_based_time_stepping>`         'cfl_based_time_stepping' child.
+============================================================   ======================================
+:ref:`cfl_based_time_stepping <cfl_based_time_stepping>`             'cfl_based_time_stepping' child.
 
-:ref:`error_based_time_stepping <error_based_time_stepping>`   'error_based_time_stepping' child.
+:ref:`error_based_time_stepping <error_based_time_stepping>`       'error_based_time_stepping' child.
 
-:ref:`mp_specific_time_stepping <mp_specific_time_stepping>`   'mp_specific_time_stepping' child.
+:ref:`mp_specific_time_stepping <mp_specific_time_stepping>`       'mp_specific_time_stepping' child.
 
-============================================================   ==================================
+============================================================   ======================================
 

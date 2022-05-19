@@ -12,24 +12,24 @@ file_name
     :undoc-members:
 .. rubric:: Included in:
 
-==================================   ====================================
+==================================   ========================================
 
-Parent                                                            Summary
+Parent                                                                Summary
 
-==================================   ====================================
-:ref:`read <read>`                                        'read' command.
+==================================   ========================================
+:ref:`read <read>`                                            'read' command.
 
-:ref:`replace_mesh <replace_mesh>`                'replace_mesh' command.
+:ref:`replace_mesh <replace_mesh>`                    'replace_mesh' command.
 
-:ref:`write <write>`                                     'write' command.
+:ref:`write <write>`                                         'write' command.
 
-:ref:`read <read_1>`                     Read display states from a file.
+:ref:`read <read_1>`                         Read display states from a file.
 
-:ref:`write <write_1>`                    Write display states to a file.
+:ref:`write <write_1>`                        Write display states to a file.
 
-:ref:`save_picture <save_picture>`                'save_picture' command.
+:ref:`save_picture <save_picture>`                    'save_picture' command.
 
-:ref:`write_views <write_views>`     Write selected views to a view file.
+:ref:`write_views <write_views>`         Write selected views to a view file.
 
-==================================   ====================================
+==================================   ========================================
 

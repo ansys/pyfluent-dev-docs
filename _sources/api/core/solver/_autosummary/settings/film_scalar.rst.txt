@@ -12,33 +12,33 @@ film_scalar
     :undoc-members:
 .. rubric:: Children
 
-==================================   =====================
+==================================   =========================
 
-Child                                              Summary
+Child                                                  Summary
 
-==================================   =====================
-:ref:`option <option>`                     'option' child.
+==================================   =========================
+:ref:`option <option>`                         'option' child.
 
-:ref:`constant <constant>`               'constant' child.
+:ref:`constant <constant>`                   'constant' child.
 
-:ref:`profile_name <profile_name>`   'profile_name' child.
+:ref:`profile_name <profile_name>`       'profile_name' child.
 
-:ref:`field_name <field_name>`         'field_name' child.
+:ref:`field_name <field_name>`             'field_name' child.
 
-:ref:`udf <udf>`                              'udf' child.
+:ref:`udf <udf>`                                  'udf' child.
 
-==================================   =====================
+==================================   =========================
 
 .. rubric:: Included in:
 
-===================================   =============================
+===================================   =================================
 
-Parent                                                      Summary
+Parent                                                          Summary
 
-===================================   =============================
-:ref:`wall_child <wall_child>`         'child_object_type' of wall.
+===================================   =================================
+:ref:`wall_child <wall_child>`             'child_object_type' of wall.
 
-:ref:`phase_child <phase_child_24>`   'child_object_type' of phase.
+:ref:`phase_child <phase_child_24>`       'child_object_type' of phase.
 
-===================================   =============================
+===================================   =================================
 

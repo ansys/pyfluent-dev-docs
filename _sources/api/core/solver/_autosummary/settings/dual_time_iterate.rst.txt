@@ -12,37 +12,37 @@ dual_time_iterate
     :undoc-members:
 .. rubric:: Arguments
 
-====================================================================   =======================================================
+====================================================================   ===========================================================
 
-Argument                                                                                                               Summary
+Argument                                                                                                                   Summary
 
-====================================================================   =======================================================
-:ref:`number_of_total_periods <number_of_total_periods>`                                          Set number of total periods.
+====================================================================   ===========================================================
+:ref:`number_of_total_periods <number_of_total_periods>`                                              Set number of total periods.
 
-:ref:`number_of_time_steps <number_of_time_steps>`                                        Set inceremtal number of Time steps.
+:ref:`number_of_time_steps <number_of_time_steps>`                                            Set inceremtal number of Time steps.
 
-:ref:`total_number_of_time_steps <total_number_of_time_steps>`                                 Set total number of Time steps.
+:ref:`total_number_of_time_steps <total_number_of_time_steps>`                                     Set total number of Time steps.
 
-:ref:`total_time <total_time>`                                                                      Set Total Simulation Time.
+:ref:`total_time <total_time>`                                                                          Set Total Simulation Time.
 
-:ref:`incremental_time <incremental_time>`                                                               Set Incremental Time.
+:ref:`incremental_time <incremental_time>`                                                                   Set Incremental Time.
 
-:ref:`max_iteration_per_step <max_iteration_per_step>`                         Set Maximum Number of iterations per time step.
+:ref:`max_iteration_per_step <max_iteration_per_step>`                             Set Maximum Number of iterations per time step.
 
-:ref:`postprocess <postprocess>`                                               Enable/Disable Postprocess pollutant solution?.
+:ref:`postprocess <postprocess>`                                                   Enable/Disable Postprocess pollutant solution?.
 
-:ref:`num_of_post_iter_per_timestep <num_of_post_iter_per_timestep>`   Set Number of post-processing iterations per time step.
+:ref:`num_of_post_iter_per_timestep <num_of_post_iter_per_timestep>`       Set Number of post-processing iterations per time step.
 
-====================================================================   =======================================================
+====================================================================   ===========================================================
 
 .. rubric:: Included in:
 
-========================================   ========================
+========================================   ============================
 
-Parent                                                      Summary
+Parent                                                          Summary
 
-========================================   ========================
-:ref:`run_calculation <run_calculation>`   'run_calculation' child.
+========================================   ============================
+:ref:`run_calculation <run_calculation>`       'run_calculation' child.
 
-========================================   ========================
+========================================   ============================
 

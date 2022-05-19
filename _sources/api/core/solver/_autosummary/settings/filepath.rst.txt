@@ -12,14 +12,14 @@ filepath
     :undoc-members:
 .. rubric:: Included in:
 
-================================================   ==========================
+================================================   ==============================
 
-Parent                                                                Summary
+Parent                                                                    Summary
 
-================================================   ==========================
-:ref:`export_design_table <export_design_table>`   Export Design Point Table.
+================================================   ==============================
+:ref:`export_design_table <export_design_table>`       Export Design Point Table.
 
-:ref:`import_design_table <import_design_table>`   Import Design Point Table.
+:ref:`import_design_table <import_design_table>`       Import Design Point Table.
 
-================================================   ==========================
+================================================   ==============================
 

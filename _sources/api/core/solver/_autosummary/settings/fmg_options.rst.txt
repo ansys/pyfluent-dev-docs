@@ -12,27 +12,27 @@ fmg_options
     :undoc-members:
 .. rubric:: Children
 
-====================================================================   ==============================================================
+====================================================================   ==================================================================
 
-Child                                                                                                                         Summary
+Child                                                                                                                             Summary
 
-====================================================================   ==============================================================
-:ref:`viscous_terms <viscous_terms>`                                                  Enable viscous terms during FMG initialization.
+====================================================================   ==================================================================
+:ref:`viscous_terms <viscous_terms>`                                                      Enable viscous terms during FMG initialization.
 
-:ref:`species_reactions <species_reactions>`                           Enable species volumetric reactions during FMG initialization.
+:ref:`species_reactions <species_reactions>`                               Enable species volumetric reactions during FMG initialization.
 
-:ref:`set_turbulent_viscosity_ratio <set_turbulent_viscosity_ratio>`    Set turbulent viscosity ratio used during FMG initialization.
+:ref:`set_turbulent_viscosity_ratio <set_turbulent_viscosity_ratio>`        Set turbulent viscosity ratio used during FMG initialization.
 
-====================================================================   ==============================================================
+====================================================================   ==================================================================
 
 .. rubric:: Included in:
 
-======================================   =======================
+======================================   ===========================
 
-Parent                                                   Summary
+Parent                                                       Summary
 
-======================================   =======================
-:ref:`initialization <initialization>`   'initialization' child.
+======================================   ===========================
+:ref:`initialization <initialization>`       'initialization' child.
 
-======================================   =======================
+======================================   ===========================
 

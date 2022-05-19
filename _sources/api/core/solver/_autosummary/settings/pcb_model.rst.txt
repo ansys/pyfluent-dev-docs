@@ -12,14 +12,14 @@ pcb_model
     :undoc-members:
 .. rubric:: Included in:
 
-==================================   =============================
+==================================   =================================
 
-Parent                                                     Summary
+Parent                                                         Summary
 
-==================================   =============================
-:ref:`solid_child <solid_child>`     'child_object_type' of solid.
+==================================   =================================
+:ref:`solid_child <solid_child>`         'child_object_type' of solid.
 
-:ref:`phase_child <phase_child_1>`   'child_object_type' of phase.
+:ref:`phase_child <phase_child_1>`       'child_object_type' of phase.
 
-==================================   =============================
+==================================   =================================
 

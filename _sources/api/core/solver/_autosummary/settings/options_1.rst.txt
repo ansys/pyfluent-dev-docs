@@ -12,25 +12,25 @@ options
     :undoc-members:
 .. rubric:: Children
 
-============================   ====================
+============================   ========================
 
-Child                                       Summary
+Child                                           Summary
 
-============================   ====================
-:ref:`verbosity <verbosity>`   Multigrid verbosity.
+============================   ========================
+:ref:`verbosity <verbosity>`       Multigrid verbosity.
 
-============================   ====================
+============================   ========================
 
 .. rubric:: Included in:
 
-==================================================   =============================
+==================================================   =================================
 
-Parent                                                                     Summary
+Parent                                                                         Summary
 
-==================================================   =============================
-:ref:`algebric_mg_controls <algebric_mg_controls>`   'algebric_mg_controls' child.
+==================================================   =================================
+:ref:`algebric_mg_controls <algebric_mg_controls>`       'algebric_mg_controls' child.
 
-:ref:`fas_mg_controls <fas_mg_controls>`                  'fas_mg_controls' child.
+:ref:`fas_mg_controls <fas_mg_controls>`                      'fas_mg_controls' child.
 
-==================================================   =============================
+==================================================   =================================
 

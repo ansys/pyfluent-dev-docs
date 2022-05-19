@@ -12,12 +12,12 @@ new_framework_for_vof_specific_node_based_treatment
     :undoc-members:
 .. rubric:: Included in:
 
-==================================   =====================
+==================================   =========================
 
-Parent                                             Summary
+Parent                                                 Summary
 
-==================================   =====================
-:ref:`vof_numerics <vof_numerics>`   'vof_numerics' child.
+==================================   =========================
+:ref:`vof_numerics <vof_numerics>`       'vof_numerics' child.
 
-==================================   =====================
+==================================   =========================
 

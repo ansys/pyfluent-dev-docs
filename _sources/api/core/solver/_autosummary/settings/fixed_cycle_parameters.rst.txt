@@ -12,27 +12,27 @@ fixed_cycle_parameters
     :undoc-members:
 .. rubric:: Children
 
-================================   ============================================
+================================   ================================================
 
-Child                                                                   Summary
+Child                                                                       Summary
 
-================================   ============================================
-:ref:`pre_sweeps <pre_sweeps>`      Number of pre-relaxations for fixed cycles.
+================================   ================================================
+:ref:`pre_sweeps <pre_sweeps>`          Number of pre-relaxations for fixed cycles.
 
-:ref:`post_sweeps <post_sweeps>`   Number of post-relaxations for fixed cycles.
+:ref:`post_sweeps <post_sweeps>`       Number of post-relaxations for fixed cycles.
 
-:ref:`max_cycle <max_cycle>`                          Maximum number of cycles.
+:ref:`max_cycle <max_cycle>`                              Maximum number of cycles.
 
-================================   ============================================
+================================   ================================================
 
 .. rubric:: Included in:
 
-============================================   ==========================
+============================================   ==============================
 
-Parent                                                            Summary
+Parent                                                                Summary
 
-============================================   ==========================
-:ref:`scalar_parameters <scalar_parameters>`   'scalar_parameters' child.
+============================================   ==============================
+:ref:`scalar_parameters <scalar_parameters>`       'scalar_parameters' child.
 
-============================================   ==========================
+============================================   ==============================
 

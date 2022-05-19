@@ -12,27 +12,27 @@ plot
     :undoc-members:
 .. rubric:: Children
 
-========================================   ========================
+========================================   ============================
 
-Child                                                       Summary
+Child                                                           Summary
 
-========================================   ========================
-:ref:`x_axis_function <x_axis_function>`   'x_axis_function' child.
+========================================   ============================
+:ref:`x_axis_function <x_axis_function>`       'x_axis_function' child.
 
-:ref:`enabled <enabled_2>`                         'enabled' child.
+:ref:`enabled <enabled_2>`                             'enabled' child.
 
-========================================   ========================
+========================================   ============================
 
 .. rubric:: Included in:
 
-====================================================   =======================================
+====================================================   ===========================================
 
-Parent                                                                                 Summary
+Parent                                                                                     Summary
 
-====================================================   =======================================
-:ref:`pathlines_child <pathlines_child>`                     'child_object_type' of pathlines.
+====================================================   ===========================================
+:ref:`pathlines_child <pathlines_child>`                         'child_object_type' of pathlines.
 
-:ref:`particle_tracks_child <particle_tracks_child>`   'child_object_type' of particle_tracks.
+:ref:`particle_tracks_child <particle_tracks_child>`       'child_object_type' of particle_tracks.
 
-====================================================   =======================================
+====================================================   ===========================================
 

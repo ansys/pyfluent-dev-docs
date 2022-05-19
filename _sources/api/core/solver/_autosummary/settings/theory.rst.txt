@@ -12,14 +12,14 @@ theory
     :undoc-members:
 .. rubric:: Included in:
 
-========================================================   =========================================
+========================================================   =============================================
 
-Parent                                                                                       Summary
+Parent                                                                                           Summary
 
-========================================================   =========================================
-:ref:`wave_list_child <wave_list_child>`                           'child_object_type' of wave_list.
+========================================================   =============================================
+:ref:`wave_list_child <wave_list_child>`                               'child_object_type' of wave_list.
 
-:ref:`wave_list_shallow_child <wave_list_shallow_child>`   'child_object_type' of wave_list_shallow.
+:ref:`wave_list_shallow_child <wave_list_shallow_child>`       'child_object_type' of wave_list_shallow.
 
-========================================================   =========================================
+========================================================   =============================================
 

@@ -12,22 +12,22 @@ radial
     :undoc-members:
 .. rubric:: Included in:
 
-====================================================   =======================================
+====================================================   ===========================================
 
-Parent                                                                                 Summary
+Parent                                                                                     Summary
 
-====================================================   =======================================
-:ref:`exhaust_fan_child <exhaust_fan_child>`               'child_object_type' of exhaust_fan.
+====================================================   ===========================================
+:ref:`exhaust_fan_child <exhaust_fan_child>`                   'child_object_type' of exhaust_fan.
 
-:ref:`phase_child <phase_child_3>`                               'child_object_type' of phase.
+:ref:`phase_child <phase_child_3>`                                   'child_object_type' of phase.
 
-:ref:`outlet_vent_child <outlet_vent_child>`               'child_object_type' of outlet_vent.
+:ref:`outlet_vent_child <outlet_vent_child>`                   'child_object_type' of outlet_vent.
 
-:ref:`phase_child <phase_child_13>`                              'child_object_type' of phase.
+:ref:`phase_child <phase_child_13>`                                  'child_object_type' of phase.
 
-:ref:`pressure_outlet_child <pressure_outlet_child>`   'child_object_type' of pressure_outlet.
+:ref:`pressure_outlet_child <pressure_outlet_child>`       'child_object_type' of pressure_outlet.
 
-:ref:`phase_child <phase_child_18>`                              'child_object_type' of phase.
+:ref:`phase_child <phase_child_18>`                                  'child_object_type' of phase.
 
-====================================================   =======================================
+====================================================   ===========================================
 

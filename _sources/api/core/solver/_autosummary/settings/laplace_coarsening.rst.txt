@@ -12,14 +12,14 @@ laplace_coarsening
     :undoc-members:
 .. rubric:: Included in:
 
-======================================================   ==============================
+======================================================   ==================================
 
-Parent                                                                          Summary
+Parent                                                                              Summary
 
-======================================================   ==============================
-:ref:`coarsening_parameters <coarsening_parameters>`     'coarsening_parameters' child.
+======================================================   ==================================
+:ref:`coarsening_parameters <coarsening_parameters>`         'coarsening_parameters' child.
 
-:ref:`coarsening_parameters <coarsening_parameters_1>`   'coarsening_parameters' child.
+:ref:`coarsening_parameters <coarsening_parameters_1>`       'coarsening_parameters' child.
 
-======================================================   ==============================
+======================================================   ==================================
 

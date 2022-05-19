@@ -12,33 +12,33 @@ heading_angle
     :undoc-members:
 .. rubric:: Children
 
-==================================   =====================
+==================================   =========================
 
-Child                                              Summary
+Child                                                  Summary
 
-==================================   =====================
-:ref:`option <option>`                     'option' child.
+==================================   =========================
+:ref:`option <option>`                         'option' child.
 
-:ref:`constant <constant>`               'constant' child.
+:ref:`constant <constant>`                   'constant' child.
 
-:ref:`profile_name <profile_name>`   'profile_name' child.
+:ref:`profile_name <profile_name>`       'profile_name' child.
 
-:ref:`field_name <field_name>`         'field_name' child.
+:ref:`field_name <field_name>`             'field_name' child.
 
-:ref:`udf <udf>`                              'udf' child.
+:ref:`udf <udf>`                                  'udf' child.
 
-==================================   =====================
+==================================   =========================
 
 .. rubric:: Included in:
 
-========================================================   =========================================
+========================================================   =============================================
 
-Parent                                                                                       Summary
+Parent                                                                                           Summary
 
-========================================================   =========================================
-:ref:`wave_list_child <wave_list_child>`                           'child_object_type' of wave_list.
+========================================================   =============================================
+:ref:`wave_list_child <wave_list_child>`                               'child_object_type' of wave_list.
 
-:ref:`wave_list_shallow_child <wave_list_shallow_child>`   'child_object_type' of wave_list_shallow.
+:ref:`wave_list_shallow_child <wave_list_shallow_child>`       'child_object_type' of wave_list_shallow.
 
-========================================================   =========================================
+========================================================   =============================================
 

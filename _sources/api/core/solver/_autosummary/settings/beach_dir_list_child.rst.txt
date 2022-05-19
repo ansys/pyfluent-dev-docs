@@ -12,31 +12,31 @@ beach_dir_list_child
     :undoc-members:
 .. rubric:: Children
 
-================   ============
+================   ================
 
-Child                   Summary
+Child                       Summary
 
-================   ============
-:ref:`ni <ni>`      'ni' child.
+================   ================
+:ref:`ni <ni>`          'ni' child.
 
-:ref:`nj <nj>`      'nj' child.
+:ref:`nj <nj>`          'nj' child.
 
-:ref:`nk <nk>`      'nk' child.
+:ref:`nk <nk>`          'nk' child.
 
-:ref:`xe <xe>`      'xe' child.
+:ref:`xe <xe>`          'xe' child.
 
-:ref:`len <len>`   'len' child.
+:ref:`len <len>`       'len' child.
 
-================   ============
+================   ================
 
 .. rubric:: Included in:
 
-======================================   =======================
+======================================   ===========================
 
-Parent                                                   Summary
+Parent                                                       Summary
 
-======================================   =======================
-:ref:`beach_dir_list <beach_dir_list>`   'beach_dir_list' child.
+======================================   ===========================
+:ref:`beach_dir_list <beach_dir_list>`       'beach_dir_list' child.
 
-======================================   =======================
+======================================   ===========================
 

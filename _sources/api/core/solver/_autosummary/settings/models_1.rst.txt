@@ -12,27 +12,27 @@ models
     :undoc-members:
 .. rubric:: Children
 
-==============================   ===================
+==============================   =======================
 
-Child                                        Summary
+Child                                            Summary
 
-==============================   ===================
-:ref:`energy <energy>`               'energy' child.
+==============================   =======================
+:ref:`energy <energy>`                   'energy' child.
 
-:ref:`multiphase <multiphase>`   'multiphase' child.
+:ref:`multiphase <multiphase>`       'multiphase' child.
 
-:ref:`viscous <viscous>`            'viscous' child.
+:ref:`viscous <viscous>`                'viscous' child.
 
-==============================   ===================
+==============================   =======================
 
 .. rubric:: Included in:
 
-====================   ==============
+====================   ==================
 
-Parent                        Summary
+Parent                            Summary
 
-====================   ==============
-:ref:`setup <setup>`   'setup' child.
+====================   ==================
+:ref:`setup <setup>`       'setup' child.
 
-====================   ==============
+====================   ==================
 

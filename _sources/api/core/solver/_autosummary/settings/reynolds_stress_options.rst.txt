@@ -12,25 +12,25 @@ reynolds_stress_options
     :undoc-members:
 .. rubric:: Children
 
-============================   ==============================================
+============================   =======================================================
 
-Child                                                                 Summary
+Child                                                                          Summary
 
-============================   ==============================================
-:ref:`solve_tke <solve_tke>`            Enable/disable the solution of T.K.E.
+============================   =======================================================
+:ref:`solve_tke <solve_tke>`       Enable/disable the solution of T.K.E. in RSM model.
 
-:ref:`wall_echo <wall_echo>`   Enable/disable wall-echo effects in RSM model.
+:ref:`wall_echo <wall_echo>`            Enable/disable wall-echo effects in RSM model.
 
-============================   ==============================================
+============================   =======================================================
 
 .. rubric:: Included in:
 
-========================   ================
+========================   ====================
 
-Parent                              Summary
+Parent                                  Summary
 
-========================   ================
-:ref:`viscous <viscous>`   'viscous' child.
+========================   ====================
+:ref:`viscous <viscous>`       'viscous' child.
 
-========================   ================
+========================   ====================
 

@@ -12,16 +12,16 @@ sphere_lod
     :undoc-members:
 .. rubric:: Included in:
 
-==========================================   ========================
+==========================================   ============================
 
-Parent                                                        Summary
+Parent                                                            Summary
 
-==========================================   ========================
-:ref:`style_attribute <style_attribute>`     'style_attribute' child.
+==========================================   ============================
+:ref:`style_attribute <style_attribute>`         'style_attribute' child.
 
-:ref:`style_attribute <style_attribute_1>`   'style_attribute' child.
+:ref:`style_attribute <style_attribute_1>`       'style_attribute' child.
 
-:ref:`sphere_settings <sphere_settings>`     'sphere_settings' child.
+:ref:`sphere_settings <sphere_settings>`         'sphere_settings' child.
 
-==========================================   ========================
+==========================================   ============================
 

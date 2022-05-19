@@ -12,25 +12,25 @@ write_views
     :undoc-members:
 .. rubric:: Arguments
 
-============================   ==================
+============================   ======================
 
-Argument                                  Summary
+Argument                                      Summary
 
-============================   ==================
-:ref:`file_name <file_name>`   'file_name' child.
+============================   ======================
+:ref:`file_name <file_name>`       'file_name' child.
 
-:ref:`view_list <view_list>`   'view_list' child.
+:ref:`view_list <view_list>`       'view_list' child.
 
-============================   ==================
+============================   ======================
 
 .. rubric:: Included in:
 
-====================   ==============
+====================   ==================
 
-Parent                        Summary
+Parent                            Summary
 
-====================   ==============
-:ref:`views <views>`   'views' child.
+====================   ==================
+:ref:`views <views>`       'views' child.
 
-====================   ==============
+====================   ==================
 

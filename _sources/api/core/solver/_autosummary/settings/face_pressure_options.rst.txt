@@ -12,27 +12,27 @@ face_pressure_options
     :undoc-members:
 .. rubric:: Children
 
-==================================================================================================   =================================================================
+==================================================================================================   ===========================================================================
 
-Child                                                                                                                                                          Summary
+Child                                                                                                                                                                    Summary
 
-==================================================================================================   =================================================================
-:ref:`pressure_corr_grad <pressure_corr_grad>`                                                       Enable/disable pressure correction gradient limiting in corrector
+==================================================================================================   ===========================================================================
+:ref:`pressure_corr_grad <pressure_corr_grad>`                                                           Enable/disable pressure correction gradient limiting in corrector step.
 
-:ref:`face_pressure_calculation_method <face_pressure_calculation_method>`                                   Set face pressure calculation method for corrector step .
+:ref:`face_pressure_calculation_method <face_pressure_calculation_method>`                                             Set face pressure calculation method for corrector step .
 
-:ref:`exclude_transient_term_in_face_pressure_calc <exclude_transient_term_in_face_pressure_calc>`        Enable/disable transient terms in face pressure calculation.
+:ref:`exclude_transient_term_in_face_pressure_calc <exclude_transient_term_in_face_pressure_calc>`                   Enable/disale transient terms in face pressure calculation.
 
-==================================================================================================   =================================================================
+==================================================================================================   ===========================================================================
 
 .. rubric:: Included in:
 
-======================================================   ===============================
+======================================================   ===================================
 
-Parent                                                                           Summary
+Parent                                                                               Summary
 
-======================================================   ===============================
-:ref:`face_pressure_controls <face_pressure_controls>`   'face_pressure_controls' child.
+======================================================   ===================================
+:ref:`face_pressure_controls <face_pressure_controls>`       'face_pressure_controls' child.
 
-======================================================   ===============================
+======================================================   ===================================
 

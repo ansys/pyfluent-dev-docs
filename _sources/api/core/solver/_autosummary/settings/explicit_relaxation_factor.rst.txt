@@ -12,12 +12,12 @@ explicit_relaxation_factor
     :undoc-members:
 .. rubric:: Included in:
 
-======================   ===============
+======================   ===================
 
-Parent                           Summary
+Parent                               Summary
 
-======================   ===============
-:ref:`expert <expert>`   'expert' child.
+======================   ===================
+:ref:`expert <expert>`       'expert' child.
 
-======================   ===============
+======================   ===================
 

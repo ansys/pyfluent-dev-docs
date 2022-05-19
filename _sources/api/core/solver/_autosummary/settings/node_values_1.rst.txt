@@ -12,14 +12,14 @@ node_values
     :undoc-members:
 .. rubric:: Included in:
 
-==========================   ================
+==========================   ====================
 
-Parent                                Summary
+Parent                                    Summary
 
-==========================   ================
-:ref:`options <options_5>`   'options' child.
+==========================   ====================
+:ref:`options <options_5>`       'options' child.
 
-:ref:`options <options_6>`   'options' child.
+:ref:`options <options_6>`       'options' child.
 
-==========================   ================
+==========================   ====================
 

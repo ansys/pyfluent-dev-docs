@@ -12,18 +12,18 @@ type
     :undoc-members:
 .. rubric:: Included in:
 
-============================================================================   ============================================
+============================================================================   ================================================
 
-Parent                                                                                                              Summary
+Parent                                                                                                                  Summary
 
-============================================================================   ============================================
-:ref:`copy_database_material_by_name <copy_database_material_by_name>`            'copy_database_material_by_name' command.
+============================================================================   ================================================
+:ref:`copy_database_material_by_name <copy_database_material_by_name>`                'copy_database_material_by_name' command.
 
-:ref:`copy_database_material_by_formula <copy_database_material_by_formula>`   'copy_database_material_by_formula' command.
+:ref:`copy_database_material_by_formula <copy_database_material_by_formula>`       'copy_database_material_by_formula' command.
 
-:ref:`transient_controls <transient_controls>`                                                  'transient_controls' child.
+:ref:`transient_controls <transient_controls>`                                                      'transient_controls' child.
 
-:ref:`projection <projection>`                                                                   Set the camera projection.
+:ref:`projection <projection>`                                                                       Set the camera projection.
 
-============================================================================   ============================================
+============================================================================   ================================================
 

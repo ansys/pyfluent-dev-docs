@@ -12,12 +12,12 @@ pressure_velocity_coupling_controls
     :undoc-members:
 .. rubric:: Included in:
 
-========================   ================
+========================   ====================
 
-Parent                              Summary
+Parent                                  Summary
 
-========================   ================
-:ref:`methods <methods>`   'methods' child.
+========================   ====================
+:ref:`methods <methods>`       'methods' child.
 
-========================   ================
+========================   ====================
 

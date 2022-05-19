@@ -12,29 +12,29 @@ file
     :undoc-members:
 .. rubric:: Commands
 
-==============================================   ===========================
+==============================================   ===============================
 
-Command                                                              Summary
+Command                                                                  Summary
 
-==============================================   ===========================
-:ref:`read <read>`                                           'read' command.
+==============================================   ===============================
+:ref:`read <read>`                                               'read' command.
 
-:ref:`replace_mesh <replace_mesh>`                   'replace_mesh' command.
+:ref:`replace_mesh <replace_mesh>`                       'replace_mesh' command.
 
-:ref:`write <write>`                                        'write' command.
+:ref:`write <write>`                                            'write' command.
 
-:ref:`parametric_project <parametric_project>`   'parametric_project' child.
+:ref:`parametric_project <parametric_project>`       'parametric_project' child.
 
-==============================================   ===========================
+==============================================   ===============================
 
 .. rubric:: Included in:
 
-==================   ==============
+==================   ==================
 
-Parent                      Summary
+Parent                          Summary
 
-==================   ==============
-:ref:`root <root>`   'root' object.
+==================   ==================
+:ref:`root <root>`       'root' object.
 
-==================   ==============
+==================   ==================
 

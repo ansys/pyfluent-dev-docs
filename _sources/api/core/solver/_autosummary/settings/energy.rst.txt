@@ -12,31 +12,31 @@ energy
     :undoc-members:
 .. rubric:: Children
 
-================================================   ============================
+================================================   ================================
 
-Child                                                                   Summary
+Child                                                                       Summary
 
-================================================   ============================
-:ref:`enabled <enabled>`                                       'enabled' child.
+================================================   ================================
+:ref:`enabled <enabled>`                                           'enabled' child.
 
-:ref:`viscous_dissipation <viscous_dissipation>`   'viscous_dissipation' child.
+:ref:`viscous_dissipation <viscous_dissipation>`       'viscous_dissipation' child.
 
-:ref:`pressure_work <pressure_work>`                     'pressure_work' child.
+:ref:`pressure_work <pressure_work>`                         'pressure_work' child.
 
-:ref:`kinetic_energy <kinetic_energy>`                  'kinetic_energy' child.
+:ref:`kinetic_energy <kinetic_energy>`                      'kinetic_energy' child.
 
-:ref:`inlet_diffusion <inlet_diffusion>`               'inlet_diffusion' child.
+:ref:`inlet_diffusion <inlet_diffusion>`                   'inlet_diffusion' child.
 
-================================================   ============================
+================================================   ================================
 
 .. rubric:: Included in:
 
-========================   ===============
+========================   ===================
 
-Parent                             Summary
+Parent                                 Summary
 
-========================   ===============
-:ref:`models <models_1>`   'models' child.
+========================   ===================
+:ref:`models <models_1>`       'models' child.
 
-========================   ===============
+========================   ===================
 

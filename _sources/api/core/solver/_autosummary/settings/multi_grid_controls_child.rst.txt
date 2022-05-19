@@ -12,31 +12,31 @@ multi_grid_controls_child
     :undoc-members:
 .. rubric:: Children
 
-==================================================================   =====================================
+==================================================================   =========================================
 
-Child                                                                                              Summary
+Child                                                                                                  Summary
 
-==================================================================   =====================================
-:ref:`cycle_type <cycle_type>`                                                         'cycle_type' child.
+==================================================================   =========================================
+:ref:`cycle_type <cycle_type>`                                                             'cycle_type' child.
 
-:ref:`termination_criteria <termination_criteria>`                           'termination_criteria' child.
+:ref:`termination_criteria <termination_criteria>`                               'termination_criteria' child.
 
-:ref:`residual_reduction_tolerance <residual_reduction_tolerance>`   'residual_reduction_tolerance' child.
+:ref:`residual_reduction_tolerance <residual_reduction_tolerance>`       'residual_reduction_tolerance' child.
 
-:ref:`method <method>`                                                                     'method' child.
+:ref:`method <method>`                                                                         'method' child.
 
-:ref:`stabilization <stabilization>`                                                'stabilization' child.
+:ref:`stabilization <stabilization>`                                                    'stabilization' child.
 
-==================================================================   =====================================
+==================================================================   =========================================
 
 .. rubric:: Included in:
 
-================================================   ============================
+================================================   ================================
 
-Parent                                                                  Summary
+Parent                                                                      Summary
 
-================================================   ============================
-:ref:`multi_grid_controls <multi_grid_controls>`   'multi_grid_controls' child.
+================================================   ================================
+:ref:`multi_grid_controls <multi_grid_controls>`       'multi_grid_controls' child.
 
-================================================   ============================
+================================================   ================================
 

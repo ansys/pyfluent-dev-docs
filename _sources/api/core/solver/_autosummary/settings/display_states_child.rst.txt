@@ -12,49 +12,49 @@ display_states_child
     :undoc-members:
 .. rubric:: Children
 
-========================================================   ================================
+========================================================   ====================================
 
-Child                                                                               Summary
+Child                                                                                   Summary
 
-========================================================   ================================
-:ref:`front_faces_transparent <front_faces_transparent>`   'front_faces_transparent' child.
+========================================================   ====================================
+:ref:`front_faces_transparent <front_faces_transparent>`       'front_faces_transparent' child.
 
-:ref:`projection <projection_1>`                                        'projection' child.
+:ref:`projection <projection_1>`                                            'projection' child.
 
-:ref:`axes <axes>`                                                            'axes' child.
+:ref:`axes <axes>`                                                                'axes' child.
 
-:ref:`ruler <ruler>`                                                         'ruler' child.
+:ref:`ruler <ruler>`                                                             'ruler' child.
 
-:ref:`title <title>`                                                         'title' child.
+:ref:`title <title>`                                                             'title' child.
 
-:ref:`boundary_marker <boundary_marker>`                           'boundary_marker' child.
+:ref:`boundary_marker <boundary_marker>`                               'boundary_marker' child.
 
-:ref:`anti_aliasing <anti_aliasing>`                                 'anti_aliasing' child.
+:ref:`anti_aliasing <anti_aliasing>`                                     'anti_aliasing' child.
 
-:ref:`reflections <reflections>`                                       'reflections' child.
+:ref:`reflections <reflections>`                                           'reflections' child.
 
-:ref:`static_shadows <static_shadows>`                              'static_shadows' child.
+:ref:`static_shadows <static_shadows>`                                  'static_shadows' child.
 
-:ref:`dynamic_shadows <dynamic_shadows>`                           'dynamic_shadows' child.
+:ref:`dynamic_shadows <dynamic_shadows>`                               'dynamic_shadows' child.
 
-:ref:`grid_plane <grid_plane>`                                          'grid_plane' child.
+:ref:`grid_plane <grid_plane>`                                              'grid_plane' child.
 
-:ref:`headlights <headlights>`                                          'headlights' child.
+:ref:`headlights <headlights>`                                              'headlights' child.
 
-:ref:`lighting <lighting>`                                                'lighting' child.
+:ref:`lighting <lighting>`                                                    'lighting' child.
 
-:ref:`view_name <view_name>`                                             'view_name' child.
+:ref:`view_name <view_name>`                                                 'view_name' child.
 
-========================================================   ================================
+========================================================   ====================================
 
 .. rubric:: Included in:
 
-======================================   =======================
+======================================   ===========================
 
-Parent                                                   Summary
+Parent                                                       Summary
 
-======================================   =======================
-:ref:`display_states <display_states>`   'display_states' child.
+======================================   ===========================
+:ref:`display_states <display_states>`       'display_states' child.
 
-======================================   =======================
+======================================   ===========================
 

@@ -12,27 +12,27 @@ options
     :undoc-members:
 .. rubric:: Children
 
-========================   ================
+========================   ====================
 
-Child                               Summary
+Child                                   Summary
 
-========================   ================
-:ref:`option <option>`      'option' child.
+========================   ====================
+:ref:`option <option>`          'option' child.
 
-:ref:`inside <inside>`      'inside' child.
+:ref:`inside <inside>`          'inside' child.
 
-:ref:`outside <outside>`   'outside' child.
+:ref:`outside <outside>`       'outside' child.
 
-========================   ================
+========================   ====================
 
 .. rubric:: Included in:
 
-========================================   ========================
+========================================   ============================
 
-Parent                                                      Summary
+Parent                                                          Summary
 
-========================================   ========================
-:ref:`filter_settings <filter_settings>`   'filter_settings' child.
+========================================   ============================
+:ref:`filter_settings <filter_settings>`       'filter_settings' child.
 
-========================================   ========================
+========================================   ============================
 

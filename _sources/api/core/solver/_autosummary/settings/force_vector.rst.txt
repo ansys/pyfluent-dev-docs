@@ -12,14 +12,14 @@ force_vector
     :undoc-members:
 .. rubric:: Included in:
 
-================================   =============================
+================================   =================================
 
-Parent                                                   Summary
+Parent                                                       Summary
 
-================================   =============================
-:ref:`force_child <force_child>`   'child_object_type' of force.
+================================   =================================
+:ref:`force_child <force_child>`       'child_object_type' of force.
 
-:ref:`lift_child <lift_child>`      'child_object_type' of lift.
+:ref:`lift_child <lift_child>`          'child_object_type' of lift.
 
-================================   =============================
+================================   =================================
 

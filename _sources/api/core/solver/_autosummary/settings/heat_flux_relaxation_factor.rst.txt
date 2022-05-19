@@ -12,12 +12,12 @@ heat_flux_relaxation_factor
     :undoc-members:
 .. rubric:: Included in:
 
-========================   ================
+========================   ====================
 
-Parent                              Summary
+Parent                                  Summary
 
-========================   ================
-:ref:`boiling <boiling>`   'boiling' child.
+========================   ====================
+:ref:`boiling <boiling>`       'boiling' child.
 
-========================   ================
+========================   ====================
 

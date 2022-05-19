@@ -12,12 +12,12 @@ production_kato_launder
     :undoc-members:
 .. rubric:: Included in:
 
-========================   ================
+========================   ====================
 
-Parent                              Summary
+Parent                                  Summary
 
-========================   ================
-:ref:`options <options>`   'options' child.
+========================   ====================
+:ref:`options <options>`       'options' child.
 
-========================   ================
+========================   ====================
 

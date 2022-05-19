@@ -12,35 +12,35 @@ mesh_child
     :undoc-members:
 .. rubric:: Children
 
-================================================================   ====================================
+================================================================   ========================================
 
-Child                                                                                           Summary
+Child                                                                                               Summary
 
-================================================================   ====================================
-:ref:`zone_ids <zone_ids>`                                                            'zone_ids' child.
+================================================================   ========================================
+:ref:`zone_ids <zone_ids>`                                                                'zone_ids' child.
 
-:ref:`retain_instantaneous_values <retain_instantaneous_values>`   'retain_instantaneous_values' child.
+:ref:`retain_instantaneous_values <retain_instantaneous_values>`       'retain_instantaneous_values' child.
 
-:ref:`old_props <old_props>`                                                         'old_props' child.
+:ref:`old_props <old_props>`                                                             'old_props' child.
 
-:ref:`zone_names <zone_names>`                                                      'zone_names' child.
+:ref:`zone_names <zone_names>`                                                          'zone_names' child.
 
-:ref:`zone_list <zone_list>`                                                         'zone_list' child.
+:ref:`zone_list <zone_list>`                                                             'zone_list' child.
 
-:ref:`average_over <average_over>`                                                'average_over' child.
+:ref:`average_over <average_over>`                                                    'average_over' child.
 
-:ref:`per_zone <per_zone>`                                                            'per_zone' child.
+:ref:`per_zone <per_zone>`                                                                'per_zone' child.
 
-================================================================   ====================================
+================================================================   ========================================
 
 .. rubric:: Included in:
 
-==================   =============
+==================   =================
 
-Parent                     Summary
+Parent                         Summary
 
-==================   =============
-:ref:`mesh <mesh>`   'mesh' child.
+==================   =================
+:ref:`mesh <mesh>`       'mesh' child.
 
-==================   =============
+==================   =================
 

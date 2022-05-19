@@ -12,41 +12,41 @@ camera
     :undoc-members:
 .. rubric:: Commands
 
-==============================   ==========================================================
+==============================   ==============================================================
 
-Command                                                                             Summary
+Command                                                                                 Summary
 
-==============================   ==========================================================
-:ref:`dolly <dolly>`                                 Adjust the camera position and target.
+==============================   ==============================================================
+:ref:`dolly <dolly>`                                     Adjust the camera position and target.
 
-:ref:`field <field_1>`                            Set the field of view (width and height).
+:ref:`field <field_1>`                                Set the field of view (width and height).
 
-:ref:`orbit <orbit>`               Adjust the camera position without modifying the target.
+:ref:`orbit <orbit>`                   Adjust the camera position without modifying the target.
 
-:ref:`pan <pan>`                 Adjust the camera position without modifying the position.
+:ref:`pan <pan>`                     Adjust the camera position without modifying the position.
 
-:ref:`position <position_1>`                                       Set the camera position.
+:ref:`position <position_1>`                                           Set the camera position.
 
-:ref:`projection <projection>`                                   Set the camera projection.
+:ref:`projection <projection>`                                       Set the camera projection.
 
-:ref:`roll <roll>`                                             Adjust the camera up-vector.
+:ref:`roll <roll>`                                                 Adjust the camera up-vector.
 
-:ref:`target <target>`                   Set the point to be the center of the camera view.
+:ref:`target <target>`                       Set the point to be the center of the camera view.
 
-:ref:`up_vector <up_vector>`                                      Set the camera up-vector.
+:ref:`up_vector <up_vector>`                                          Set the camera up-vector.
 
-:ref:`zoom <zoom>`                                         Adjust the camera field of view.
+:ref:`zoom <zoom>`                                             Adjust the camera field of view.
 
-==============================   ==========================================================
+==============================   ==============================================================
 
 .. rubric:: Included in:
 
-====================   ==============
+====================   ==================
 
-Parent                        Summary
+Parent                            Summary
 
-====================   ==============
-:ref:`views <views>`   'views' child.
+====================   ==================
+:ref:`views <views>`       'views' child.
 
-====================   ==============
+====================   ==================
 

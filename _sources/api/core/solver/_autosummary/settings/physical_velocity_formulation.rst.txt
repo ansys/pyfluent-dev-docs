@@ -12,12 +12,12 @@ physical_velocity_formulation
     :undoc-members:
 .. rubric:: Included in:
 
-==========================   =================
+==========================   =====================
 
-Parent                                 Summary
+Parent                                     Summary
 
-==========================   =================
-:ref:`numerics <numerics>`   'numerics' child.
+==========================   =====================
+:ref:`numerics <numerics>`       'numerics' child.
 
-==========================   =================
+==========================   =====================
 

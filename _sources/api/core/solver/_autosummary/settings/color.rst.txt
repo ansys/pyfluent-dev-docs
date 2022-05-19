@@ -12,16 +12,16 @@ color
     :undoc-members:
 .. rubric:: Included in:
 
-======================================   =======================
+======================================   ===========================
 
-Parent                                                   Summary
+Parent                                                       Summary
 
-======================================   =======================
-:ref:`color_map <color_map>`                  'color_map' child.
+======================================   ===========================
+:ref:`color_map <color_map>`                      'color_map' child.
 
-:ref:`vector_opt <vector_opt>`               'vector_opt' child.
+:ref:`vector_opt <vector_opt>`                   'vector_opt' child.
 
-:ref:`constant_color <constant_color>`   'constant_color' child.
+:ref:`constant_color <constant_color>`       'constant_color' child.
 
-======================================   =======================
+======================================   ===========================
 

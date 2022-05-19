@@ -12,25 +12,25 @@ enhanced_wall_treatment_options
     :undoc-members:
 .. rubric:: Children
 
-============================================================   =======================================================
+============================================================   ===========================================================
 
-Child                                                                                                          Summary
+Child                                                                                                              Summary
 
-============================================================   =======================================================
-:ref:`pressure_gradient_effects <pressure_gradient_effects>`   Enable/disable wall function pressure-gradient effects.
+============================================================   ===========================================================
+:ref:`pressure_gradient_effects <pressure_gradient_effects>`       Enable/disable wall function pressure-gradient effects.
 
-:ref:`thermal_effects <thermal_effects>`                                 Enable/disable wall function thermal effects.
+:ref:`thermal_effects <thermal_effects>`                                     Enable/disable wall function thermal effects.
 
-============================================================   =======================================================
+============================================================   ===========================================================
 
 .. rubric:: Included in:
 
-========================   ================
+========================   ====================
 
-Parent                              Summary
+Parent                                  Summary
 
-========================   ================
-:ref:`viscous <viscous>`   'viscous' child.
+========================   ====================
+:ref:`viscous <viscous>`       'viscous' child.
 
-========================   ================
+========================   ====================
 

@@ -12,14 +12,14 @@ radius
     :undoc-members:
 .. rubric:: Included in:
 
-==========================================   ========================
+==========================================   ============================
 
-Parent                                                        Summary
+Parent                                                            Summary
 
-==========================================   ========================
-:ref:`style_attribute <style_attribute>`     'style_attribute' child.
+==========================================   ============================
+:ref:`style_attribute <style_attribute>`         'style_attribute' child.
 
-:ref:`style_attribute <style_attribute_1>`   'style_attribute' child.
+:ref:`style_attribute <style_attribute_1>`       'style_attribute' child.
 
-==========================================   ========================
+==========================================   ============================
 

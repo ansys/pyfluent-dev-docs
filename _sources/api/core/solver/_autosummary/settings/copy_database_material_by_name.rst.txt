@@ -12,25 +12,25 @@ copy_database_material_by_name
     :undoc-members:
 .. rubric:: Arguments
 
-====================   =============
+====================   =================
 
-Argument                     Summary
+Argument                         Summary
 
-====================   =============
-:ref:`type <type_1>`   'type' child.
+====================   =================
+:ref:`type <type_1>`       'type' child.
 
-:ref:`name <name>`     'name' child.
+:ref:`name <name>`         'name' child.
 
-====================   =============
+====================   =================
 
 .. rubric:: Included in:
 
-============================   ==================
+============================   ======================
 
-Parent                                    Summary
+Parent                                        Summary
 
-============================   ==================
-:ref:`materials <materials>`   'materials' child.
+============================   ======================
+:ref:`materials <materials>`       'materials' child.
 
-============================   ==================
+============================   ======================
 

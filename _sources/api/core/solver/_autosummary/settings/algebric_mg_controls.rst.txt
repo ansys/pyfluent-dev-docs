@@ -12,29 +12,29 @@ algebric_mg_controls
     :undoc-members:
 .. rubric:: Children
 
-==========================================================   =================================
+==========================================================   =====================================
 
-Child                                                                                  Summary
+Child                                                                                      Summary
 
-==========================================================   =================================
-:ref:`scalar_parameters <scalar_parameters>`                        'scalar_parameters' child.
+==========================================================   =====================================
+:ref:`scalar_parameters <scalar_parameters>`                            'scalar_parameters' child.
 
-:ref:`coupled_parameters <coupled_parameters>`                     'coupled_parameters' child.
+:ref:`coupled_parameters <coupled_parameters>`                         'coupled_parameters' child.
 
-:ref:`flexible_cycle_paramters <flexible_cycle_paramters>`   'flexible_cycle_paramters' child.
+:ref:`flexible_cycle_paramters <flexible_cycle_paramters>`       'flexible_cycle_paramters' child.
 
-:ref:`options <options_1>`                                                    'options' child.
+:ref:`options <options_1>`                                                        'options' child.
 
-==========================================================   =================================
+==========================================================   =====================================
 
 .. rubric:: Included in:
 
-==============================   ===================
+==============================   =======================
 
-Parent                                       Summary
+Parent                                           Summary
 
-==============================   ===================
-:ref:`multi_grid <multi_grid>`   'multi_grid' child.
+==============================   =======================
+:ref:`multi_grid <multi_grid>`       'multi_grid' child.
 
-==============================   ===================
+==============================   =======================
 

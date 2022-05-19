@@ -12,14 +12,14 @@ reference_frame
     :undoc-members:
 .. rubric:: Included in:
 
-==========================================   ================================
+==========================================   ====================================
 
-Parent                                                                Summary
+Parent                                                                    Summary
 
-==========================================   ================================
-:ref:`initialization <initialization>`                'initialization' child.
+==========================================   ====================================
+:ref:`initialization <initialization>`                    'initialization' child.
 
-:ref:`general_settings <general_settings>`   Enter the general settings menu.
+:ref:`general_settings <general_settings>`       Enter the general settings menu.
 
-==========================================   ================================
+==========================================   ====================================
 

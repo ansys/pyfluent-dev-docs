@@ -12,27 +12,27 @@ phase_child
     :undoc-members:
 .. rubric:: Children
 
-================================   ====================
+================================   ========================
 
-Child                                           Summary
+Child                                               Summary
 
-================================   ====================
-:ref:`thermal_bc <thermal_bc>`      'thermal_bc' child.
+================================   ========================
+:ref:`thermal_bc <thermal_bc>`          'thermal_bc' child.
 
-:ref:`temperature <temperature>`   'temperature' child.
+:ref:`temperature <temperature>`       'temperature' child.
 
-:ref:`q <q>`                                 'q' child.
+:ref:`q <q>`                                     'q' child.
 
-================================   ====================
+================================   ========================
 
 .. rubric:: Included in:
 
-=======================   ==============
+=======================   ==================
 
-Parent                           Summary
+Parent                               Summary
 
-=======================   ==============
-:ref:`phase <phase_11>`   'phase' child.
+=======================   ==================
+:ref:`phase <phase_11>`       'phase' child.
 
-=======================   ==============
+=======================   ==================
 

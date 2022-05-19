@@ -12,12 +12,12 @@ reset_to_default_view
     :undoc-members:
 .. rubric:: Included in:
 
-====================   ==============
+====================   ==================
 
-Parent                        Summary
+Parent                            Summary
 
-====================   ==============
-:ref:`views <views>`   'views' child.
+====================   ==================
+:ref:`views <views>`       'views' child.
 
-====================   ==============
+====================   ==================
 

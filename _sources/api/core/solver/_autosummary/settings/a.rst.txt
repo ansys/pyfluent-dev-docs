@@ -12,41 +12,41 @@ a
     :undoc-members:
 .. rubric:: Children
 
-==================================================   =============================
+==================================================   =================================
 
-Child                                                                      Summary
+Child                                                                          Summary
 
-==================================================   =============================
-:ref:`method <method>`                                             'method' child.
+==================================================   =================================
+:ref:`method <method>`                                                 'method' child.
 
-:ref:`number_of_coeff <number_of_coeff>`                  'number_of_coeff' child.
+:ref:`number_of_coeff <number_of_coeff>`                      'number_of_coeff' child.
 
-:ref:`function_of <function_of>`                              'function_of' child.
+:ref:`function_of <function_of>`                                  'function_of' child.
 
-:ref:`coefficients <coefficients>`                           'coefficients' child.
+:ref:`coefficients <coefficients>`                               'coefficients' child.
 
-:ref:`constant <constant>`                                       'constant' child.
+:ref:`constant <constant>`                                           'constant' child.
 
-:ref:`piecewise_polynomial <piecewise_polynomial>`   'piecewise_polynomial' child.
+:ref:`piecewise_polynomial <piecewise_polynomial>`       'piecewise_polynomial' child.
 
-:ref:`piecewise_linear <piecewise_linear>`               'piecewise_linear' child.
+:ref:`piecewise_linear <piecewise_linear>`                   'piecewise_linear' child.
 
-==================================================   =============================
+==================================================   =================================
 
 .. rubric:: Included in:
 
-============================================   ===================================
+============================================   =======================================
 
-Parent                                                                     Summary
+Parent                                                                         Summary
 
-============================================   ===================================
-:ref:`exhaust_fan_child <exhaust_fan_child>`   'child_object_type' of exhaust_fan.
+============================================   =======================================
+:ref:`exhaust_fan_child <exhaust_fan_child>`       'child_object_type' of exhaust_fan.
 
-:ref:`phase_child <phase_child_3>`                   'child_object_type' of phase.
+:ref:`phase_child <phase_child_3>`                       'child_object_type' of phase.
 
-:ref:`intake_fan_child <intake_fan_child>`      'child_object_type' of intake_fan.
+:ref:`intake_fan_child <intake_fan_child>`          'child_object_type' of intake_fan.
 
-:ref:`phase_child <phase_child_6>`                   'child_object_type' of phase.
+:ref:`phase_child <phase_child_6>`                       'child_object_type' of phase.
 
-============================================   ===================================
+============================================   =======================================
 

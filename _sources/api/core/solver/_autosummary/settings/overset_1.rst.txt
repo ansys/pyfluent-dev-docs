@@ -12,29 +12,29 @@ overset
     :undoc-members:
 .. rubric:: Children
 
-====================================================   =========================================================
+====================================================   =============================================================
 
-Child                                                                                                    Summary
+Child                                                                                                        Summary
 
-====================================================   =========================================================
-:ref:`high_order_pressure <high_order_pressure>`         High order pressure extrapolation at overset interface.
+====================================================   =============================================================
+:ref:`high_order_pressure <high_order_pressure>`             High order pressure extrapolation at overset interface.
 
-:ref:`interpolation_method <interpolation_method>`     Choose the interpolation method for overset interface(s).
+:ref:`interpolation_method <interpolation_method>`         Choose the interpolation method for overset interface(s).
 
-:ref:`orphan_cell_treatment <orphan_cell_treatment>`                  Enable solver to run with orphans present.
+:ref:`orphan_cell_treatment <orphan_cell_treatment>`                      Enable solver to run with orphans present.
 
-:ref:`expert <expert_3>`                                                                         'expert' child.
+:ref:`expert <expert_3>`                                                                             'expert' child.
 
-====================================================   =========================================================
+====================================================   =============================================================
 
 .. rubric:: Included in:
 
-==========================   ================
+==========================   ====================
 
-Parent                                Summary
+Parent                                    Summary
 
-==========================   ================
-:ref:`methods <methods_1>`   'methods' child.
+==========================   ====================
+:ref:`methods <methods_1>`       'methods' child.
 
-==========================   ================
+==========================   ====================
 

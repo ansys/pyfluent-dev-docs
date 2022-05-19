@@ -12,12 +12,12 @@ enforce_laplace_coarsening
     :undoc-members:
 .. rubric:: Included in:
 
-================   ============
+================   ================
 
-Parent                  Summary
+Parent                      Summary
 
-================   ============
-:ref:`amg <amg>`   'amg' child.
+================   ================
+:ref:`amg <amg>`       'amg' child.
 
-================   ============
+================   ================
 

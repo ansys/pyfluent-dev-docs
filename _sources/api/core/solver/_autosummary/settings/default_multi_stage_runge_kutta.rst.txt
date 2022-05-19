@@ -12,12 +12,12 @@ default_multi_stage_runge_kutta
     :undoc-members:
 .. rubric:: Included in:
 
-================   ============
+================   ================
 
-Parent                  Summary
+Parent                      Summary
 
-================   ============
-:ref:`rk2 <rk2>`   'rk2' child.
+================   ================
+:ref:`rk2 <rk2>`       'rk2' child.
 
-================   ============
+================   ================
 

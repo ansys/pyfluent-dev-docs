@@ -12,31 +12,31 @@ automatic
     :undoc-members:
 .. rubric:: Children
 
-============================   ==================
+============================   ======================
 
-Child                                     Summary
+Child                                         Summary
 
-============================   ==================
-:ref:`option <option>`            'option' child.
+============================   ======================
+:ref:`option <option>`                'option' child.
 
-:ref:`type <type_2>`                'type' child.
+:ref:`type <type_2>`                    'type' child.
 
-:ref:`id <id>`                        'id' child.
+:ref:`id <id>`                            'id' child.
 
-:ref:`normal <normal>`            'normal' child.
+:ref:`normal <normal>`                'normal' child.
 
-:ref:`partition <partition>`   'partition' child.
+:ref:`partition <partition>`       'partition' child.
 
-============================   ==================
+============================   ======================
 
 .. rubric:: Included in:
 
-==========================   =================
+==========================   =====================
 
-Parent                                 Summary
+Parent                                     Summary
 
-==========================   =================
-:ref:`coloring <coloring>`   'coloring' child.
+==========================   =====================
+:ref:`coloring <coloring>`       'coloring' child.
 
-==========================   =================
+==========================   =====================
 

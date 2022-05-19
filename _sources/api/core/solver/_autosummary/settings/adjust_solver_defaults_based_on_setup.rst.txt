@@ -12,12 +12,12 @@ adjust_solver_defaults_based_on_setup
     :undoc-members:
 .. rubric:: Included in:
 
-========================   ================
+========================   ====================
 
-Parent                              Summary
+Parent                                  Summary
 
-========================   ================
-:ref:`general <general>`   'general' child.
+========================   ====================
+:ref:`general <general>`       'general' child.
 
-========================   ================
+========================   ====================
 

@@ -12,27 +12,27 @@ dolly
     :undoc-members:
 .. rubric:: Arguments
 
-====================   ==============
+====================   ==================
 
-Argument                      Summary
+Argument                          Summary
 
-====================   ==============
-:ref:`right <right>`   'right' child.
+====================   ==================
+:ref:`right <right>`       'right' child.
 
-:ref:`up <up>`            'up' child.
+:ref:`up <up>`                'up' child.
 
-:ref:`in_ <in_>`          'in' child.
+:ref:`in_ <in_>`              'in' child.
 
-====================   ==============
+====================   ==================
 
 .. rubric:: Included in:
 
-======================   ===============
+======================   ===================
 
-Parent                           Summary
+Parent                               Summary
 
-======================   ===============
-:ref:`camera <camera>`   'camera' child.
+======================   ===================
+:ref:`camera <camera>`       'camera' child.
 
-======================   ===============
+======================   ===================
 

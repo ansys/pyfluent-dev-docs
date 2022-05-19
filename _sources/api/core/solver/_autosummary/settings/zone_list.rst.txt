@@ -12,16 +12,16 @@ zone_list
     :undoc-members:
 .. rubric:: Included in:
 
-==================================   ==============================
+==================================   ==================================
 
-Parent                                                      Summary
+Parent                                                          Summary
 
-==================================   ==============================
-:ref:`change_type <change_type>`             'change_type' command.
+==================================   ==================================
+:ref:`change_type <change_type>`                 'change_type' command.
 
-:ref:`mesh_child <mesh_child>`         'child_object_type' of mesh.
+:ref:`mesh_child <mesh_child>`             'child_object_type' of mesh.
 
-:ref:`volume_child <volume_child>`   'child_object_type' of volume.
+:ref:`volume_child <volume_child>`       'child_object_type' of volume.
 
-==================================   ==============================
+==================================   ==================================
 

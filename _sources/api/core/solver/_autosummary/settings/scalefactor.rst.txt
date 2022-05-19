@@ -12,14 +12,14 @@ scalefactor
     :undoc-members:
 .. rubric:: Included in:
 
-========================================   ========================
+========================================   ============================
 
-Parent                                                      Summary
+Parent                                                          Summary
 
-========================================   ========================
-:ref:`ribbon <ribbon>`                              'ribbon' child.
+========================================   ============================
+:ref:`ribbon <ribbon>`                                  'ribbon' child.
 
-:ref:`ribbon_settings <ribbon_settings>`   'ribbon_settings' child.
+:ref:`ribbon_settings <ribbon_settings>`       'ribbon_settings' child.
 
-========================================   ========================
+========================================   ============================
 

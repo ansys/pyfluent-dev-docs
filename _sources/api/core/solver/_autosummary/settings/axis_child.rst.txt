@@ -12,47 +12,47 @@ axis_child
     :undoc-members:
 .. rubric:: Children
 
-====================================   ======================
+====================================   ==========================
 
-Child                                                 Summary
+Child                                                     Summary
 
-====================================   ======================
-:ref:`phase <phase_2>`                         'phase' child.
+====================================   ==========================
+:ref:`phase <phase_2>`                             'phase' child.
 
-:ref:`geom_disable <geom_disable>`      'geom_disable' child.
+:ref:`geom_disable <geom_disable>`          'geom_disable' child.
 
-:ref:`geom_dir_spec <geom_dir_spec>`   'geom_dir_spec' child.
+:ref:`geom_dir_spec <geom_dir_spec>`       'geom_dir_spec' child.
 
-:ref:`geom_dir_x <geom_dir_x>`            'geom_dir_x' child.
+:ref:`geom_dir_x <geom_dir_x>`                'geom_dir_x' child.
 
-:ref:`geom_dir_y <geom_dir_y>`            'geom_dir_y' child.
+:ref:`geom_dir_y <geom_dir_y>`                'geom_dir_y' child.
 
-:ref:`geom_dir_z <geom_dir_z>`            'geom_dir_z' child.
+:ref:`geom_dir_z <geom_dir_z>`                'geom_dir_z' child.
 
-:ref:`geom_levels <geom_levels>`         'geom_levels' child.
+:ref:`geom_levels <geom_levels>`             'geom_levels' child.
 
-:ref:`geom_bgthread <geom_bgthread>`   'geom_bgthread' child.
+:ref:`geom_bgthread <geom_bgthread>`       'geom_bgthread' child.
 
-====================================   ======================
+====================================   ==========================
 
 .. rubric:: Included in:
 
-============================   ==================
+============================   ======================
 
-Parent                                    Summary
+Parent                                        Summary
 
-============================   ==================
-:ref:`axis <axis>`                  'axis' child.
+============================   ======================
+:ref:`axis <axis>`                      'axis' child.
 
-:ref:`degassing <degassing>`   'degassing' child.
+:ref:`degassing <degassing>`       'degassing' child.
 
-:ref:`geometry <geometry>`      'geometry' child.
+:ref:`geometry <geometry>`          'geometry' child.
 
-:ref:`overset <overset>`         'overset' child.
+:ref:`overset <overset>`             'overset' child.
 
-:ref:`shadow <shadow>`            'shadow' child.
+:ref:`shadow <shadow>`                'shadow' child.
 
-:ref:`symmetry <symmetry>`      'symmetry' child.
+:ref:`symmetry <symmetry>`          'symmetry' child.
 
-============================   ==================
+============================   ======================
 

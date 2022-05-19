@@ -12,25 +12,25 @@ flux_type
     :undoc-members:
 .. rubric:: Children
 
-==============================   ===================
+==============================   =======================
 
-Child                                        Summary
+Child                                            Summary
 
-==============================   ===================
-:ref:`dbns_cases <dbns_cases>`   'dbns_cases' child.
+==============================   =======================
+:ref:`dbns_cases <dbns_cases>`       'dbns_cases' child.
 
-:ref:`pbns_cases <pbns_cases>`   'pbns_cases' child.
+:ref:`pbns_cases <pbns_cases>`       'pbns_cases' child.
 
-==============================   ===================
+==============================   =======================
 
 .. rubric:: Included in:
 
-==========================   ================
+==========================   ====================
 
-Parent                                Summary
+Parent                                    Summary
 
-==========================   ================
-:ref:`methods <methods_1>`   'methods' child.
+==========================   ====================
+:ref:`methods <methods_1>`       'methods' child.
 
-==========================   ================
+==========================   ====================
 

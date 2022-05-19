@@ -12,25 +12,25 @@ high_order_term_relaxation
     :undoc-members:
 .. rubric:: Children
 
-==========================   ================
+==========================   ====================
 
-Child                                 Summary
+Child                                     Summary
 
-==========================   ================
-:ref:`enable <enable>`        Enable/Disable.
+==========================   ====================
+:ref:`enable <enable>`            Enable/Disable.
 
-:ref:`options <options_2>`   'options' child.
+:ref:`options <options_2>`       'options' child.
 
-==========================   ================
+==========================   ====================
 
 .. rubric:: Included in:
 
-==========================   ================
+==========================   ====================
 
-Parent                                Summary
+Parent                                    Summary
 
-==========================   ================
-:ref:`methods <methods_1>`   'methods' child.
+==========================   ====================
+:ref:`methods <methods_1>`       'methods' child.
 
-==========================   ================
+==========================   ====================
 

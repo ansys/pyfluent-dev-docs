@@ -12,25 +12,25 @@ reduced_rank_extrapolation_options
     :undoc-members:
 .. rubric:: Children
 
-====================================   ========================
+====================================   ============================
 
-Child                                                   Summary
+Child                                                       Summary
 
-====================================   ========================
-:ref:`subspace_size <subspace_size>`         Set subspace size.
+====================================   ============================
+:ref:`subspace_size <subspace_size>`             Set subspace size.
 
-:ref:`skip_itr <skip_itr>`             Skip every n iterations.
+:ref:`skip_itr <skip_itr>`                 Skip every n iterations.
 
-====================================   ========================
+====================================   ============================
 
 .. rubric:: Included in:
 
-==========================   ================
+==========================   ====================
 
-Parent                                Summary
+Parent                                    Summary
 
-==========================   ================
-:ref:`methods <methods_1>`   'methods' child.
+==========================   ====================
+:ref:`methods <methods_1>`       'methods' child.
 
-==========================   ================
+==========================   ====================
 

@@ -12,25 +12,25 @@ results
     :undoc-members:
 .. rubric:: Children
 
-============================   =================
+============================   =====================
 
-Child                                    Summary
+Child                                        Summary
 
-============================   =================
-:ref:`graphics <graphics>`     'graphics' child.
+============================   =====================
+:ref:`graphics <graphics>`         'graphics' child.
 
-:ref:`surfaces <surfaces_1>`   'surfaces' child.
+:ref:`surfaces <surfaces_1>`       'surfaces' child.
 
-============================   =================
+============================   =====================
 
 .. rubric:: Included in:
 
-==================   ==============
+==================   ==================
 
-Parent                      Summary
+Parent                          Summary
 
-==================   ==============
-:ref:`root <root>`   'root' object.
+==================   ==================
+:ref:`root <root>`       'root' object.
 
-==================   ==============
+==================   ==================
 

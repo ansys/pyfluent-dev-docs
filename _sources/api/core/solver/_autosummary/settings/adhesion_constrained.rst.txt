@@ -12,14 +12,14 @@ adhesion_constrained
     :undoc-members:
 .. rubric:: Included in:
 
-============================================   ===================================
+============================================   =======================================
 
-Parent                                                                     Summary
+Parent                                                                         Summary
 
-============================================   ===================================
-:ref:`porous_jump_child <porous_jump_child>`   'child_object_type' of porous_jump.
+============================================   =======================================
+:ref:`porous_jump_child <porous_jump_child>`       'child_object_type' of porous_jump.
 
-:ref:`phase_child <phase_child_15>`                  'child_object_type' of phase.
+:ref:`phase_child <phase_child_15>`                      'child_object_type' of phase.
 
-============================================   ===================================
+============================================   =======================================
 

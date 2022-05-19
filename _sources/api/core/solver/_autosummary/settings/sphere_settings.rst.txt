@@ -12,27 +12,27 @@ sphere_settings
     :undoc-members:
 .. rubric:: Children
 
-==============================   ===================
+==============================   =======================
 
-Child                                        Summary
+Child                                            Summary
 
-==============================   ===================
-:ref:`scale <scale_1>`                'scale' child.
+==============================   =======================
+:ref:`scale <scale_1>`                    'scale' child.
 
-:ref:`sphere_lod <sphere_lod>`   'sphere_lod' child.
+:ref:`sphere_lod <sphere_lod>`       'sphere_lod' child.
 
-:ref:`options <options_8>`          'options' child.
+:ref:`options <options_8>`              'options' child.
 
-==============================   ===================
+==============================   =======================
 
 .. rubric:: Included in:
 
-==========================================   ========================
+==========================================   ============================
 
-Parent                                                        Summary
+Parent                                                            Summary
 
-==========================================   ========================
-:ref:`style_attribute <style_attribute_1>`   'style_attribute' child.
+==========================================   ============================
+:ref:`style_attribute <style_attribute_1>`       'style_attribute' child.
 
-==========================================   ========================
+==========================================   ============================
 

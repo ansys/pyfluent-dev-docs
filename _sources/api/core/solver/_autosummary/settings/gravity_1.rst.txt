@@ -12,25 +12,25 @@ gravity
     :undoc-members:
 .. rubric:: Children
 
-==============================   ===============================
+==============================   ===================================
 
-Child                                                    Summary
+Child                                                        Summary
 
-==============================   ===============================
-:ref:`gravity <gravity>`         Set gravitational acceleration.
+==============================   ===================================
+:ref:`gravity <gravity>`             Set gravitational acceleration.
 
-:ref:`components <components>`               'components' child.
+:ref:`components <components>`                   'components' child.
 
-==============================   ===============================
+==============================   ===================================
 
 .. rubric:: Included in:
 
-========================   ================
+========================   ====================
 
-Parent                              Summary
+Parent                                  Summary
 
-========================   ================
-:ref:`general <general>`   'general' child.
+========================   ====================
+:ref:`general <general>`       'general' child.
 
-========================   ================
+========================   ====================
 

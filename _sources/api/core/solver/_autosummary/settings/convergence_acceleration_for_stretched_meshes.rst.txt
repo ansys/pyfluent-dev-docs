@@ -12,38 +12,38 @@ convergence_acceleration_for_stretched_meshes
     :undoc-members:
 .. rubric:: Children
 
-==============================================================   ===================================================================
+==============================================================   ===============================================================================
 
-Child                                                                                                                        Summary
+Child                                                                                                                                    Summary
 
-==============================================================   ===================================================================
-:ref:`convergence_acc_std_meshes <convergence_acc_std_meshes>`   Enable/disable use of convergence acceleration for stretched meshes
+==============================================================   ===============================================================================
+:ref:`convergence_acc_std_meshes <convergence_acc_std_meshes>`       Enable/disable use of convergence acceleration for stretched meshes (CASM).
 
-:ref:`enhanced_casm_formulation <enhanced_casm_formulation>`                        Enable/disable use of enhanced CASM formulation.
+:ref:`enhanced_casm_formulation <enhanced_casm_formulation>`                                    Enable/disable use of enhanced CASM formulation.
 
-:ref:`casm_cutoff_multiplier <casm_cutoff_multiplier>`                                              Enter CASM cut-off multiplier :.
+:ref:`casm_cutoff_multiplier <casm_cutoff_multiplier>`                                                          Enter CASM cut-off multiplier :.
 
-==============================================================   ===================================================================
+==============================================================   ===============================================================================
 
 .. rubric:: Commands
 
-==================================   =======================
+==================================   ===========================
 
-Command                                              Summary
+Command                                                  Summary
 
-==================================   =======================
-:ref:`disable_casm <disable_casm>`   'disable_casm' command.
+==================================   ===========================
+:ref:`disable_casm <disable_casm>`       'disable_casm' command.
 
-==================================   =======================
+==================================   ===========================
 
 .. rubric:: Included in:
 
-==========================   ================
+==========================   ====================
 
-Parent                                Summary
+Parent                                    Summary
 
-==========================   ================
-:ref:`methods <methods_1>`   'methods' child.
+==========================   ====================
+:ref:`methods <methods_1>`       'methods' child.
 
-==========================   ================
+==========================   ====================
 

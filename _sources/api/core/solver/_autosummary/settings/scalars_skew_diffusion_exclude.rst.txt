@@ -12,12 +12,12 @@ scalars_skew_diffusion_exclude
     :undoc-members:
 .. rubric:: Included in:
 
-========================   ================
+========================   ====================
 
-Parent                              Summary
+Parent                                  Summary
 
-========================   ================
-:ref:`spatial <spatial>`   'spatial' child.
+========================   ====================
+:ref:`spatial <spatial>`       'spatial' child.
 
-========================   ================
+========================   ====================
 

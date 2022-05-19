@@ -12,27 +12,27 @@ p_v_coupling
     :undoc-members:
 .. rubric:: Children
 
-================================================   ============================
+================================================   ================================
 
-Child                                                                   Summary
+Child                                                                       Summary
 
-================================================   ============================
-:ref:`coupled_vof <coupled_vof>`                           'coupled_vof' child.
+================================================   ================================
+:ref:`coupled_vof <coupled_vof>`                               'coupled_vof' child.
 
-:ref:`rhie_chow_flux <rhie_chow_flux>`                  'rhie_chow_flux' child.
+:ref:`rhie_chow_flux <rhie_chow_flux>`                      'rhie_chow_flux' child.
 
-:ref:`skewness_correction <skewness_correction>`   'skewness_correction' child.
+:ref:`skewness_correction <skewness_correction>`       'skewness_correction' child.
 
-================================================   ============================
+================================================   ================================
 
 .. rubric:: Included in:
 
-================================================================   ====================================
+================================================================   ========================================
 
-Parent                                                                                          Summary
+Parent                                                                                              Summary
 
-================================================================   ====================================
-:ref:`advanced_stability_controls <advanced_stability_controls>`   'advanced_stability_controls' child.
+================================================================   ========================================
+:ref:`advanced_stability_controls <advanced_stability_controls>`       'advanced_stability_controls' child.
 
-================================================================   ====================================
+================================================================   ========================================
 

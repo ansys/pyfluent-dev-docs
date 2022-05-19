@@ -12,20 +12,20 @@ project_filename
     :undoc-members:
 .. rubric:: Included in:
 
-==================================   =======================
+==================================   ===========================
 
-Parent                                               Summary
+Parent                                                   Summary
 
-==================================   =======================
-:ref:`new <new>`                         Create New Project.
+==================================   ===========================
+:ref:`new <new>`                             Create New Project.
 
-:ref:`open <open>`                             Open project.
+:ref:`open <open>`                                 Open project.
 
-:ref:`save_as <save_as>`                    Save As Project.
+:ref:`save_as <save_as>`                        Save As Project.
 
-:ref:`save_as_copy <save_as_copy>`          Save As Project.
+:ref:`save_as_copy <save_as_copy>`              Save As Project.
 
-:ref:`initialize <initialize>`       Start Parametric Study.
+:ref:`initialize <initialize>`           Start Parametric Study.
 
-==================================   =======================
+==================================   ===========================
 

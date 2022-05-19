@@ -12,14 +12,14 @@ non_overlap_zone_name
     :undoc-members:
 .. rubric:: Included in:
 
-========================================   =================================
+========================================   =====================================
 
-Parent                                                               Summary
+Parent                                                                   Summary
 
-========================================   =================================
-:ref:`interface_child <interface_child>`   'child_object_type' of interface.
+========================================   =====================================
+:ref:`interface_child <interface_child>`       'child_object_type' of interface.
 
-:ref:`phase_child <phase_child_7>`             'child_object_type' of phase.
+:ref:`phase_child <phase_child_7>`                 'child_object_type' of phase.
 
-========================================   =================================
+========================================   =====================================
 

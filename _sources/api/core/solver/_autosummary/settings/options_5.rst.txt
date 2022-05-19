@@ -12,29 +12,29 @@ options
     :undoc-members:
 .. rubric:: Children
 
-==================================   ====================
+==================================   ========================
 
-Child                                             Summary
+Child                                                 Summary
 
-==================================   ====================
-:ref:`oil_flow <oil_flow>`              'oil_flow' child.
+==================================   ========================
+:ref:`oil_flow <oil_flow>`                  'oil_flow' child.
 
-:ref:`reverse <reverse>`                 'reverse' child.
+:ref:`reverse <reverse>`                     'reverse' child.
 
-:ref:`node_values <node_values_1>`   'node_values' child.
+:ref:`node_values <node_values_1>`       'node_values' child.
 
-:ref:`relative <relative_1>`            'relative' child.
+:ref:`relative <relative_1>`                'relative' child.
 
-==================================   ====================
+==================================   ========================
 
 .. rubric:: Included in:
 
-========================================   =================================
+========================================   =====================================
 
-Parent                                                               Summary
+Parent                                                                   Summary
 
-========================================   =================================
-:ref:`pathlines_child <pathlines_child>`   'child_object_type' of pathlines.
+========================================   =====================================
+:ref:`pathlines_child <pathlines_child>`       'child_object_type' of pathlines.
 
-========================================   =================================
+========================================   =====================================
 

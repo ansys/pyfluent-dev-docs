@@ -12,27 +12,27 @@ auto_range_off
     :undoc-members:
 .. rubric:: Children
 
-====================================   ======================
+====================================   ==========================
 
-Child                                                 Summary
+Child                                                     Summary
 
-====================================   ======================
-:ref:`clip_to_range <clip_to_range>`   'clip_to_range' child.
+====================================   ==========================
+:ref:`clip_to_range <clip_to_range>`       'clip_to_range' child.
 
-:ref:`minimum <minimum>`                     'minimum' child.
+:ref:`minimum <minimum>`                         'minimum' child.
 
-:ref:`maximum <maximum>`                     'maximum' child.
+:ref:`maximum <maximum>`                         'maximum' child.
 
-====================================   ======================
+====================================   ==========================
 
 .. rubric:: Included in:
 
-==================================   =====================
+==================================   =========================
 
-Parent                                             Summary
+Parent                                                 Summary
 
-==================================   =====================
-:ref:`range_option <range_option>`   'range_option' child.
+==================================   =========================
+:ref:`range_option <range_option>`       'range_option' child.
 
-==================================   =====================
+==================================   =========================
 

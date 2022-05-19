@@ -12,27 +12,27 @@ multi_stage_child
     :undoc-members:
 .. rubric:: Children
 
-================================   =======================================
+================================   ===========================================
 
-Child                                                              Summary
+Child                                                                  Summary
 
-================================   =======================================
-:ref:`coefficient <coefficient>`                  Multi-stage coefficient.
+================================   ===========================================
+:ref:`coefficient <coefficient>`                      Multi-stage coefficient.
 
-:ref:`dissipation <dissipation>`   Update artificial dissipation at stage.
+:ref:`dissipation <dissipation>`       Update artificial dissipation at stage.
 
-:ref:`viscous <viscous_1>`               Update viscous stresses at stage.
+:ref:`viscous <viscous_1>`                   Update viscous stresses at stage.
 
-================================   =======================================
+================================   ===========================================
 
 .. rubric:: Included in:
 
-================================   ====================
+================================   ========================
 
-Parent                                          Summary
+Parent                                              Summary
 
-================================   ====================
-:ref:`multi_stage <multi_stage>`   'multi_stage' child.
+================================   ========================
+:ref:`multi_stage <multi_stage>`       'multi_stage' child.
 
-================================   ====================
+================================   ========================
 

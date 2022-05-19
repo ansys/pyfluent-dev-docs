@@ -12,16 +12,16 @@ state_name
     :undoc-members:
 .. rubric:: Included in:
 
-====================================   ========================================================================
+====================================   ===================================================================================
 
-Parent                                                                                                  Summary
+Parent                                                                                                             Summary
 
-====================================   ========================================================================
-:ref:`use_active <use_active>`                                                            'use_active' command.
+====================================   ===================================================================================
+:ref:`use_active <use_active>`                                                                       'use_active' command.
 
-:ref:`restore_state <restore_state>`                                Apply a display state to the active window.
+:ref:`restore_state <restore_state>`                                           Apply a display state to the active window.
 
-:ref:`copy <copy>`                     Create a new display state with settings copied from an existing display
+:ref:`copy <copy>`                         Create a new display state with settings copied from an existing display state.
 
-====================================   ========================================================================
+====================================   ===================================================================================
 

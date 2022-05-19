@@ -12,29 +12,29 @@ shell_conduction_child
     :undoc-members:
 .. rubric:: Children
 
-============================   ==================
+============================   ======================
 
-Child                                     Summary
+Child                                         Summary
 
-============================   ==================
-:ref:`thickness <thickness>`   'thickness' child.
+============================   ======================
+:ref:`thickness <thickness>`       'thickness' child.
 
-:ref:`material <material>`      'material' child.
+:ref:`material <material>`          'material' child.
 
-:ref:`qdot <qdot>`                  'qdot' child.
+:ref:`qdot <qdot>`                      'qdot' child.
 
-============================   ==================
+============================   ======================
 
 .. rubric:: Included in:
 
-==========================================   =========================
+==========================================   =============================
 
-Parent                                                         Summary
+Parent                                                             Summary
 
-==========================================   =========================
-:ref:`shell_conduction <shell_conduction>`   'shell_conduction' child.
+==========================================   =============================
+:ref:`shell_conduction <shell_conduction>`       'shell_conduction' child.
 
-:ref:`thin_wall <thin_wall>`                        'thin_wall' child.
+:ref:`thin_wall <thin_wall>`                            'thin_wall' child.
 
-==========================================   =========================
+==========================================   =============================
 

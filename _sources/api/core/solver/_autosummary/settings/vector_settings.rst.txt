@@ -12,33 +12,33 @@ vector_settings
     :undoc-members:
 .. rubric:: Children
 
-==================================================   =============================
+==================================================   =================================
 
-Child                                                                      Summary
+Child                                                                          Summary
 
-==================================================   =============================
-:ref:`style <style>`                                                'style' child.
+==================================================   =================================
+:ref:`style <style>`                                                    'style' child.
 
-:ref:`vector_length <vector_length>`                        'vector_length' child.
+:ref:`vector_length <vector_length>`                            'vector_length' child.
 
-:ref:`constant_color <constant_color>`                     'constant_color' child.
+:ref:`constant_color <constant_color>`                         'constant_color' child.
 
-:ref:`vector_of <vector_of>`                                    'vector_of' child.
+:ref:`vector_of <vector_of>`                                        'vector_of' child.
 
-:ref:`scale <scale_1>`                                              'scale' child.
+:ref:`scale <scale_1>`                                                  'scale' child.
 
-:ref:`length_to_head_ratio <length_to_head_ratio>`   'length_to_head_ratio' child.
+:ref:`length_to_head_ratio <length_to_head_ratio>`       'length_to_head_ratio' child.
 
-==================================================   =============================
+==================================================   =================================
 
 .. rubric:: Included in:
 
-====================================================   =======================================
+====================================================   ===========================================
 
-Parent                                                                                 Summary
+Parent                                                                                     Summary
 
-====================================================   =======================================
-:ref:`particle_tracks_child <particle_tracks_child>`   'child_object_type' of particle_tracks.
+====================================================   ===========================================
+:ref:`particle_tracks_child <particle_tracks_child>`       'child_object_type' of particle_tracks.
 
-====================================================   =======================================
+====================================================   ===========================================
 

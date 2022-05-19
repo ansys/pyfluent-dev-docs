@@ -12,14 +12,14 @@ velocity_formulation
     :undoc-members:
 .. rubric:: Included in:
 
-==========================   =================
+==========================   =====================
 
-Parent                                 Summary
+Parent                                     Summary
 
-==========================   =================
-:ref:`solver <solver>`         'solver' child.
+==========================   =====================
+:ref:`solver <solver>`             'solver' child.
 
-:ref:`numerics <numerics>`   'numerics' child.
+:ref:`numerics <numerics>`       'numerics' child.
 
-==========================   =================
+==========================   =====================
 

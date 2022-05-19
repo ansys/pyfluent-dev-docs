@@ -12,25 +12,25 @@ expert
     :undoc-members:
 .. rubric:: Children
 
-================================================================   ========================================================
+================================================================   ============================================================
 
-Child                                                                                                               Summary
+Child                                                                                                                   Summary
 
-================================================================   ========================================================
-:ref:`mass_flux_correction_method <mass_flux_correction_method>`   Enter mass flux correction option at overset interfaces.
+================================================================   ============================================================
+:ref:`mass_flux_correction_method <mass_flux_correction_method>`       Enter mass flux correction option at overset interfaces.
 
-:ref:`hybrid_mode_selection <hybrid_mode_selection>`                                         Mode for hybrid interpolation.
+:ref:`hybrid_mode_selection <hybrid_mode_selection>`                                             Mode for hybrid interpolation.
 
-================================================================   ========================================================
+================================================================   ============================================================
 
 .. rubric:: Included in:
 
-==========================   ================
+==========================   ====================
 
-Parent                                Summary
+Parent                                    Summary
 
-==========================   ================
-:ref:`overset <overset_1>`   'overset' child.
+==========================   ====================
+:ref:`overset <overset_1>`       'overset' child.
 
-==========================   ================
+==========================   ====================
 

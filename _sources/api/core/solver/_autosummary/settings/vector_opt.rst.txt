@@ -12,35 +12,35 @@ vector_opt
     :undoc-members:
 .. rubric:: Children
 
-==================================   =====================
+==================================   =========================
 
-Child                                              Summary
+Child                                                  Summary
 
-==================================   =====================
-:ref:`in_plane <in_plane>`               'in_plane' child.
+==================================   =========================
+:ref:`in_plane <in_plane>`                   'in_plane' child.
 
-:ref:`fixed_length <fixed_length>`   'fixed_length' child.
+:ref:`fixed_length <fixed_length>`       'fixed_length' child.
 
-:ref:`x_comp <x_comp>`                     'x_comp' child.
+:ref:`x_comp <x_comp>`                         'x_comp' child.
 
-:ref:`y_comp <y_comp>`                     'y_comp' child.
+:ref:`y_comp <y_comp>`                         'y_comp' child.
 
-:ref:`z_comp <z_comp>`                     'z_comp' child.
+:ref:`z_comp <z_comp>`                         'z_comp' child.
 
-:ref:`scale_head <scale_head>`         'scale_head' child.
+:ref:`scale_head <scale_head>`             'scale_head' child.
 
-:ref:`color <color>`                        'color' child.
+:ref:`color <color>`                            'color' child.
 
-==================================   =====================
+==================================   =========================
 
 .. rubric:: Included in:
 
-==================================   ==============================
+==================================   ==================================
 
-Parent                                                      Summary
+Parent                                                          Summary
 
-==================================   ==============================
-:ref:`vector_child <vector_child>`   'child_object_type' of vector.
+==================================   ==================================
+:ref:`vector_child <vector_child>`       'child_object_type' of vector.
 
-==================================   ==============================
+==================================   ==================================
 

@@ -12,31 +12,31 @@ user_defined_child
     :undoc-members:
 .. rubric:: Children
 
-================================================================   ====================================
+================================================================   ========================================
 
-Child                                                                                           Summary
+Child                                                                                               Summary
 
-================================================================   ====================================
-:ref:`retain_instantaneous_values <retain_instantaneous_values>`   'retain_instantaneous_values' child.
+================================================================   ========================================
+:ref:`retain_instantaneous_values <retain_instantaneous_values>`       'retain_instantaneous_values' child.
 
-:ref:`input_params <input_params>`                                                'input_params' child.
+:ref:`input_params <input_params>`                                                    'input_params' child.
 
-:ref:`function_name <function_name>`                                             'function_name' child.
+:ref:`function_name <function_name>`                                                 'function_name' child.
 
-:ref:`average_over <average_over>`                                                'average_over' child.
+:ref:`average_over <average_over>`                                                    'average_over' child.
 
-:ref:`old_props <old_props>`                                                         'old_props' child.
+:ref:`old_props <old_props>`                                                             'old_props' child.
 
-================================================================   ====================================
+================================================================   ========================================
 
 .. rubric:: Included in:
 
-==================================   =====================
+==================================   =========================
 
-Parent                                             Summary
+Parent                                                 Summary
 
-==================================   =====================
-:ref:`user_defined <user_defined>`   'user_defined' child.
+==================================   =========================
+:ref:`user_defined <user_defined>`       'user_defined' child.
 
-==================================   =====================
+==================================   =========================
 

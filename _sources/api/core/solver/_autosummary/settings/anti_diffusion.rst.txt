@@ -12,27 +12,27 @@ anti_diffusion
     :undoc-members:
 .. rubric:: Children
 
-====================================================================   ===============================================================
+====================================================================   ===============================================================================================
 
-Child                                                                                                                          Summary
+Child                                                                                                                                                          Summary
 
-====================================================================   ===============================================================
-:ref:`enable_dynamic_strength <enable_dynamic_strength>`               Enable dynamic strength to reduce compression in the tangential
+====================================================================   ===============================================================================================
+:ref:`enable_dynamic_strength <enable_dynamic_strength>`                   Enable dynamic strength to reduce compression in the tangential direction to the interface.
 
-:ref:`set_dynamic_strength_exponent <set_dynamic_strength_exponent>`                Set cosine exponent in dynamic strength treatment.
+:ref:`set_dynamic_strength_exponent <set_dynamic_strength_exponent>`                                                Set cosine exponent in dynamic strength treatment.
 
-:ref:`set_maximum_dynamic_strength <set_maximum_dynamic_strength>`               Set maximum value of dynamic anti-diffusion strength.
+:ref:`set_maximum_dynamic_strength <set_maximum_dynamic_strength>`                                               Set maximum value of dynamic anti-diffusion strength.
 
-====================================================================   ===============================================================
+====================================================================   ===============================================================================================
 
 .. rubric:: Included in:
 
-================================================================   ====================================
+================================================================   ========================================
 
-Parent                                                                                          Summary
+Parent                                                                                              Summary
 
-================================================================   ====================================
-:ref:`advanced_stability_controls <advanced_stability_controls>`   'advanced_stability_controls' child.
+================================================================   ========================================
+:ref:`advanced_stability_controls <advanced_stability_controls>`       'advanced_stability_controls' child.
 
-================================================================   ====================================
+================================================================   ========================================
 

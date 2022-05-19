@@ -12,16 +12,16 @@ zone_names
     :undoc-members:
 .. rubric:: Included in:
 
-==================================   ==============================
+==================================   ==================================
 
-Parent                                                      Summary
+Parent                                                          Summary
 
-==================================   ==============================
-:ref:`mesh_child <mesh_child>`         'child_object_type' of mesh.
+==================================   ==================================
+:ref:`mesh_child <mesh_child>`             'child_object_type' of mesh.
 
-:ref:`volume_child <volume_child>`   'child_object_type' of volume.
+:ref:`volume_child <volume_child>`       'child_object_type' of volume.
 
-:ref:`flux_child <flux_child>`         'child_object_type' of flux.
+:ref:`flux_child <flux_child>`             'child_object_type' of flux.
 
-==================================   ==============================
+==================================   ==================================
 

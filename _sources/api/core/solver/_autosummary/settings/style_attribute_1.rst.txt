@@ -12,41 +12,41 @@ style_attribute
     :undoc-members:
 .. rubric:: Children
 
-========================================   ========================
+========================================   ============================
 
-Child                                                       Summary
+Child                                                           Summary
 
-========================================   ========================
-:ref:`style <style>`                                 'style' child.
+========================================   ============================
+:ref:`style <style>`                                     'style' child.
 
-:ref:`line_width <line_width>`                  'line_width' child.
+:ref:`line_width <line_width>`                      'line_width' child.
 
-:ref:`arrow_space <arrow_space>`               'arrow_space' child.
+:ref:`arrow_space <arrow_space>`                   'arrow_space' child.
 
-:ref:`arrow_scale <arrow_scale>`               'arrow_scale' child.
+:ref:`arrow_scale <arrow_scale>`                   'arrow_scale' child.
 
-:ref:`marker_size <marker_size>`               'marker_size' child.
+:ref:`marker_size <marker_size>`                   'marker_size' child.
 
-:ref:`sphere_size <sphere_size>`               'sphere_size' child.
+:ref:`sphere_size <sphere_size>`                   'sphere_size' child.
 
-:ref:`sphere_lod <sphere_lod>`                  'sphere_lod' child.
+:ref:`sphere_lod <sphere_lod>`                      'sphere_lod' child.
 
-:ref:`radius <radius>`                              'radius' child.
+:ref:`radius <radius>`                                  'radius' child.
 
-:ref:`ribbon_settings <ribbon_settings>`   'ribbon_settings' child.
+:ref:`ribbon_settings <ribbon_settings>`       'ribbon_settings' child.
 
-:ref:`sphere_settings <sphere_settings>`   'sphere_settings' child.
+:ref:`sphere_settings <sphere_settings>`       'sphere_settings' child.
 
-========================================   ========================
+========================================   ============================
 
 .. rubric:: Included in:
 
-====================================================   =======================================
+====================================================   ===========================================
 
-Parent                                                                                 Summary
+Parent                                                                                     Summary
 
-====================================================   =======================================
-:ref:`particle_tracks_child <particle_tracks_child>`   'child_object_type' of particle_tracks.
+====================================================   ===========================================
+:ref:`particle_tracks_child <particle_tracks_child>`       'child_object_type' of particle_tracks.
 
-====================================================   =======================================
+====================================================   ===========================================
 

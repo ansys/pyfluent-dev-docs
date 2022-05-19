@@ -12,12 +12,12 @@ increase_pre_sweeps
     :undoc-members:
 .. rubric:: Included in:
 
-================   ============
+================   ================
 
-Parent                  Summary
+Parent                      Summary
 
-================   ============
-:ref:`amg <amg>`   'amg' child.
+================   ================
+:ref:`amg <amg>`       'amg' child.
 
-================   ============
+================   ================
 
