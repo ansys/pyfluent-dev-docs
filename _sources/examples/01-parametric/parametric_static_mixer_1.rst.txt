@@ -517,7 +517,7 @@ Save parametric project
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 5 minutes  39.293 seconds)
+   **Total running time of the script:** ( 5 minutes  53.801 seconds)
 
 
 .. _sphx_glr_download_examples_01-parametric_parametric_static_mixer_1.py:
