@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Post Processing using PyVista and Matplotlib: Exhaust Manifold &#8212; PyFluent</title>
+    <title>Postprocessing using PyVista and Matplotlib &#8212; PyFluent</title>
     
     
   <link href="../../_static/css/theme.css" rel="stylesheet">
@@ -168,7 +168,7 @@
     
 
           <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Examples</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">Post Processing using PyVista and Matplotlib: Exhaust Manifold</a></li> 
+        <li class="nav-item nav-item-this"><a href="">Postprocessing using PyVista and Matplotlib</a></li> 
       </ul>
     </div>
         </div>
@@ -190,14 +190,21 @@
     <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../00-fluent/exhaust_system.html">
-   Exhaust System: Fault-tolerant Meshing
+   End-to-end Fault-tolerant Meshing Workflow
   </a>
  </li>
 </ul>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../00-fluent/mixing_elbow.html">
-   Fluid Flow and Heat Transfer in a Mixing Elbow
+   End-to-end Watertight Meshing Workflow
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../00-fluent/mixing_elbow_settings_api.html">
+   Fluent Setup and Solutoin using Settings API (Beta)
   </a>
  </li>
 </ul>
@@ -225,7 +232,7 @@
 <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Post Processing using PyVista and Matplotlib: Exhaust Manifold
+   Postprocessing using PyVista and Matplotlib
   </a>
  </li>
 </ul>
@@ -269,20 +276,23 @@
 <p>Click <a class="reference internal" href="#sphx-glr-download-examples-02-postprocessing-post-processing-exhaust-manifold-py"><span class="std std-ref">here</span></a>
 to download the full example code</p>
 </div>
-<section class="sphx-glr-example-title" id="post-processing-using-pyvista-and-matplotlib-exhaust-manifold">
-<span id="ref-post-processing-exhaust-manifold"></span><span id="sphx-glr-examples-02-postprocessing-post-processing-exhaust-manifold-py"></span><h1>Post Processing using PyVista and Matplotlib: Exhaust Manifold<a class="headerlink" href="#post-processing-using-pyvista-and-matplotlib-exhaust-manifold" title="Permalink to this headline">¶</a></h1>
+<section class="sphx-glr-example-title" id="postprocessing-using-pyvista-and-matplotlib">
+<span id="ref-post-processing-exhaust-manifold"></span><span id="sphx-glr-examples-02-postprocessing-post-processing-exhaust-manifold-py"></span><h1>Postprocessing using PyVista and Matplotlib<a class="headerlink" href="#postprocessing-using-pyvista-and-matplotlib" title="Permalink to this headline">¶</a></h1>
 <p>This example demonstrates the postprocessing capabilities of PyFluent
 (using PyVista and Matplotlib) using a 3D model
 of an exhaust manifold with high temperature flows passing through.
 The flow through the manifold is turbulent and
 involves conjugate heat transfer.</p>
-<p>This example demonstrates how to do the following:</p>
+<p>This example demonstrates postprocessing using pyvista:</p>
 <ul class="simple">
 <li><p>Create surfaces for the display of 3D data.</p></li>
 <li><p>Display filled contours of temperature on several surfaces.</p></li>
 <li><p>Display velocity vectors.</p></li>
 <li><p>Plot quantitative results using Matplotlib</p></li>
 </ul>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># sphinx_gallery_thumbnail_number = -1</span>
+</pre></div>
+</div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
 <span class="kn">from</span> <span class="nn">ansys.fluent.post</span> <span class="kn">import</span> <span class="n">set_config</span>
@@ -302,7 +312,7 @@ Meshing mode, double precision, number of processors: 2</p>
     <span class="n">filename</span><span class="o">=</span><span class="s2">&quot;exhaust_system.dat.h5&quot;</span><span class="p">,</span> <span class="n">directory</span><span class="o">=</span><span class="s2">&quot;pyfluent/exhaust_system&quot;</span>
 <span class="p">)</span>
 
-<span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+<span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_case</span></a><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_data</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_data</span></a><span class="p">)</span>
@@ -404,7 +414,11 @@ Start the Plot Object for the session</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">plot_1</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="s2">&quot;window-7&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<img src="../../_images/sphx_glr_post_processing_exhaust_manifold_008.png" srcset="../../_images/sphx_glr_post_processing_exhaust_manifold_008.png" alt="XY Plot" class = "sphx-glr-single-img"/><p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 1 minutes  7.828 seconds)</p>
+<img src="../../_images/sphx_glr_post_processing_exhaust_manifold_008.png" srcset="../../_images/sphx_glr_post_processing_exhaust_manifold_008.png" alt="XY Plot" class = "sphx-glr-single-img"/><p>Close Fluent</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  40.875 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-02-postprocessing-post-processing-exhaust-manifold-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/2bcb23a48a20a8c289f69882c8f5d789/post_processing_exhaust_manifold.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">post_processing_exhaust_manifold.py</span></code></a></p>

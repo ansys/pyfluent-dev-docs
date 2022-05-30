@@ -190,14 +190,21 @@
     <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../00-fluent/exhaust_system.html">
-   Exhaust System: Fault-tolerant Meshing
+   End-to-end Fault-tolerant Meshing Workflow
   </a>
  </li>
 </ul>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../00-fluent/mixing_elbow.html">
-   Fluid Flow and Heat Transfer in a Mixing Elbow
+   End-to-end Watertight Meshing Workflow
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../00-fluent/mixing_elbow_settings_api.html">
+   Fluent Setup and Solutoin using Settings API (Beta)
   </a>
  </li>
 </ul>
@@ -225,7 +232,7 @@
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../02-postprocessing/post_processing_exhaust_manifold.html">
-   Post Processing using PyVista and Matplotlib: Exhaust Manifold
+   Postprocessing using PyVista and Matplotlib
   </a>
  </li>
 </ul>
@@ -271,8 +278,7 @@ to download the full example code</p>
 </div>
 <section class="sphx-glr-example-title" id="parametric-project-based-workflow">
 <span id="ref-parametric-static-mixer-2"></span><span id="sphx-glr-examples-01-parametric-parametric-static-mixer-2-py"></span><h1>Parametric Project-Based Workflow<a class="headerlink" href="#parametric-project-based-workflow" title="Permalink to this headline">¶</a></h1>
-<p>This example for executing a parametric project-based workflow
-performs these steps:</p>
+<p>This parametric study workflow example performs these steps:</p>
 <ul class="simple">
 <li><p>Instantiates a parametric study from a Fluent session</p></li>
 <li><p>Reads the previously saved project <code class="docutils literal notranslate"><span class="pre">-</span> <span class="pre">static_mixer_study.flprj</span></code></p></li>
@@ -289,7 +295,7 @@ performs these steps:</p>
 </pre></div>
 </div>
 <p>Launch Fluent and enable the settings API (Beta)</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">4</span><span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Read the previously saved project - static_mixer_study.flprj</p>
@@ -324,7 +330,11 @@ performs these steps:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">proj</span><span class="o">.</span><span class="n">archive</span><span class="p">()</span>
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  45.461 seconds)</p>
+<p>Close Fluent</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 0 minutes  19.556 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-01-parametric-parametric-static-mixer-2-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/3df695bd0d4bc9abc19a22f1f720e0c2/parametric_static_mixer_2.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">parametric_static_mixer_2.py</span></code></a></p>

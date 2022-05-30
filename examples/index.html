@@ -50,7 +50,7 @@
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Exhaust System: Fault-tolerant Meshing" href="00-fluent/exhaust_system.html" />
+    <link rel="next" title="End-to-end Fault-tolerant Meshing Workflow" href="00-fluent/exhaust_system.html" />
     <link rel="prev" title="update" href="../api/post/_autosummary/ansys.fluent.post.pyvista.pyvista_objects.Contour.update.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -189,14 +189,21 @@
     <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="00-fluent/exhaust_system.html">
-   Exhaust System: Fault-tolerant Meshing
+   End-to-end Fault-tolerant Meshing Workflow
   </a>
  </li>
 </ul>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="00-fluent/mixing_elbow.html">
-   Fluid Flow and Heat Transfer in a Mixing Elbow
+   End-to-end Watertight Meshing Workflow
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="00-fluent/mixing_elbow_settings_api.html">
+   Fluent Setup and Solutoin using Settings API (Beta)
   </a>
  </li>
 </ul>
@@ -224,7 +231,7 @@
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="02-postprocessing/post_processing_exhaust_manifold.html">
-   Post Processing using PyVista and Matplotlib: Exhaust Manifold
+   Postprocessing using PyVista and Matplotlib
   </a>
  </li>
 </ul>
@@ -262,8 +269,8 @@
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#post-processing-examples">
-   Post Processing Examples
+  <a class="reference internal nav-link" href="#postprocessing-examples">
+   Postprocessing Examples
   </a>
  </li>
 </ul>
@@ -294,19 +301,27 @@
 </div>
 <div class="sphx-glr-clear"></div><section id="full-examples-using-pyfluent">
 <span id="sphx-glr-examples-00-fluent"></span><h2>Full Examples Using PyFluent<a class="headerlink" href="#full-examples-using-pyfluent" title="Permalink to this headline">¶</a></h2>
-<p>These examples demonstrate how to use Fluent solver capabilities from Python.</p>
-<div class="sphx-glr-thumbcontainer" tooltip="This tutorial illustrates the setup and solution of a three-dimensional turbulent fluid flow in..."><figure class="align-default" id="id1">
-<img alt="Exhaust System: Fault-tolerant Meshing" src="../_images/sphx_glr_exhaust_system_thumb.png" />
+<p>These examples demonstrate how to use Fluent capabilities from Python.</p>
+<div class="sphx-glr-thumbcontainer" tooltip="End-to-end Fault Tolerant Meshing Workflow example:"><figure class="align-default" id="id1">
+<img alt="End-to-end Fault-tolerant Meshing Workflow" src="../_images/sphx_glr_exhaust_system_thumb.png" />
 <figcaption>
-<p><span class="caption-text"><a class="reference internal" href="00-fluent/exhaust_system.html#sphx-glr-examples-00-fluent-exhaust-system-py"><span class="std std-ref">Exhaust System: Fault-tolerant Meshing</span></a></span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p><span class="caption-text"><a class="reference internal" href="00-fluent/exhaust_system.html#sphx-glr-examples-00-fluent-exhaust-system-py"><span class="std std-ref">End-to-end Fault-tolerant Meshing Workflow</span></a></span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </div><div class="toctree-wrapper compound">
 </div>
-<div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates how to do the following:"><figure class="align-default" id="id2">
-<img alt="Fluid Flow and Heat Transfer in a Mixing Elbow" src="../_images/sphx_glr_mixing_elbow_thumb.png" />
+<div class="sphx-glr-thumbcontainer" tooltip="End-to-end Watertight Meshing Workflow example:"><figure class="align-default" id="id2">
+<img alt="End-to-end Watertight Meshing Workflow" src="../_images/sphx_glr_mixing_elbow_thumb.png" />
 <figcaption>
-<p><span class="caption-text"><a class="reference internal" href="00-fluent/mixing_elbow.html#sphx-glr-examples-00-fluent-mixing-elbow-py"><span class="std std-ref">Fluid Flow and Heat Transfer in a Mixing Elbow</span></a></span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p><span class="caption-text"><a class="reference internal" href="00-fluent/mixing_elbow.html#sphx-glr-examples-00-fluent-mixing-elbow-py"><span class="std std-ref">End-to-end Watertight Meshing Workflow</span></a></span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</figcaption>
+</figure>
+</div><div class="toctree-wrapper compound">
+</div>
+<div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates use of &#x27;settings&#x27; modules (Beta):"><figure class="align-default" id="id3">
+<img alt="Fluent Setup and Solutoin using Settings API (Beta)" src="../_images/sphx_glr_mixing_elbow_settings_api_thumb.png" />
+<figcaption>
+<p><span class="caption-text"><a class="reference internal" href="00-fluent/mixing_elbow_settings_api.html#sphx-glr-examples-00-fluent-mixing-elbow-settings-api-py"><span class="std std-ref">Fluent Setup and Solutoin using Settings API (Beta)</span></a></span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </div><div class="toctree-wrapper compound">
@@ -316,39 +331,39 @@
 <span id="sphx-glr-examples-01-parametric"></span><h2>Parametric Examples<a class="headerlink" href="#parametric-examples" title="Permalink to this headline">¶</a></h2>
 <p>These examples demonstrate how to use the the parametric package to perform
 parametric studies with Fluent.</p>
-<div class="sphx-glr-thumbcontainer" tooltip="- Reads a case file and data file - Creates input and output parameters - Instantiates a design..."><figure class="align-default" id="id3">
+<div class="sphx-glr-thumbcontainer" tooltip="- Reads a case file and data file - Creates input and output parameters - Instantiates a design..."><figure class="align-default" id="id4">
 <img alt="Parametric Study Workflow" src="../_images/sphx_glr_parametric_static_mixer_1_thumb.png" />
 <figcaption>
-<p><span class="caption-text"><a class="reference internal" href="01-parametric/parametric_static_mixer_1.html#sphx-glr-examples-01-parametric-parametric-static-mixer-1-py"><span class="std std-ref">Parametric Study Workflow</span></a></span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p><span class="caption-text"><a class="reference internal" href="01-parametric/parametric_static_mixer_1.html#sphx-glr-examples-01-parametric-parametric-static-mixer-1-py"><span class="std std-ref">Parametric Study Workflow</span></a></span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </div><div class="toctree-wrapper compound">
 </div>
-<div class="sphx-glr-thumbcontainer" tooltip="- Instantiates a parametric study from a Fluent session - Reads the previously saved project - ..."><figure class="align-default" id="id4">
+<div class="sphx-glr-thumbcontainer" tooltip="- Instantiates a parametric study from a Fluent session - Reads the previously saved project - ..."><figure class="align-default" id="id5">
 <img alt="Parametric Project-Based Workflow" src="../_images/sphx_glr_parametric_static_mixer_2_thumb.png" />
 <figcaption>
-<p><span class="caption-text"><a class="reference internal" href="01-parametric/parametric_static_mixer_2.html#sphx-glr-examples-01-parametric-parametric-static-mixer-2-py"><span class="std std-ref">Parametric Project-Based Workflow</span></a></span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+<p><span class="caption-text"><a class="reference internal" href="01-parametric/parametric_static_mixer_2.html#sphx-glr-examples-01-parametric-parametric-static-mixer-2-py"><span class="std std-ref">Parametric Project-Based Workflow</span></a></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </div><div class="toctree-wrapper compound">
 </div>
-<div class="sphx-glr-thumbcontainer" tooltip="- Launches a parametric session using the hopper/mixer case file - Prints the input parameters ..."><figure class="align-default" id="id5">
+<div class="sphx-glr-thumbcontainer" tooltip="- Launches a parametric session using the hopper/mixer case file - Prints the input parameters ..."><figure class="align-default" id="id6">
 <img alt="Parametric Session Workflow" src="../_images/sphx_glr_parametric_static_mixer_3_thumb.png" />
 <figcaption>
-<p><span class="caption-text"><a class="reference internal" href="01-parametric/parametric_static_mixer_3.html#sphx-glr-examples-01-parametric-parametric-static-mixer-3-py"><span class="std std-ref">Parametric Session Workflow</span></a></span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+<p><span class="caption-text"><a class="reference internal" href="01-parametric/parametric_static_mixer_3.html#sphx-glr-examples-01-parametric-parametric-static-mixer-3-py"><span class="std std-ref">Parametric Session Workflow</span></a></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </div><div class="toctree-wrapper compound">
 </div>
 <div class="sphx-glr-clear"></div></section>
-<section id="post-processing-examples">
-<span id="sphx-glr-examples-02-postprocessing"></span><h2>Post Processing Examples<a class="headerlink" href="#post-processing-examples" title="Permalink to this headline">¶</a></h2>
-<p>These examples demonstrate how to the PyVista package to post process Fluent
+<section id="postprocessing-examples">
+<span id="sphx-glr-examples-02-postprocessing"></span><h2>Postprocessing Examples<a class="headerlink" href="#postprocessing-examples" title="Permalink to this headline">¶</a></h2>
+<p>These examples demonstrate how to use the PyVista package to postprocess Fluent
 results.</p>
-<div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates how to do the following:"><figure class="align-default" id="id6">
-<img alt="Post Processing using PyVista and Matplotlib: Exhaust Manifold" src="../_images/sphx_glr_post_processing_exhaust_manifold_thumb.png" />
+<div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates postprocessing using pyvista:"><figure class="align-default" id="id7">
+<img alt="Postprocessing using PyVista and Matplotlib" src="../_images/sphx_glr_post_processing_exhaust_manifold_thumb.png" />
 <figcaption>
-<p><span class="caption-text"><a class="reference internal" href="02-postprocessing/post_processing_exhaust_manifold.html#sphx-glr-examples-02-postprocessing-post-processing-exhaust-manifold-py"><span class="std std-ref">Post Processing using PyVista and Matplotlib: Exhaust Manifold</span></a></span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+<p><span class="caption-text"><a class="reference internal" href="02-postprocessing/post_processing_exhaust_manifold.html#sphx-glr-examples-02-postprocessing-post-processing-exhaust-manifold-py"><span class="std std-ref">Postprocessing using PyVista and Matplotlib</span></a></span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
 </figcaption>
 </figure>
 </div><div class="toctree-wrapper compound">

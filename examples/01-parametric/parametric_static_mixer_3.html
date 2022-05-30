@@ -50,7 +50,7 @@
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Post Processing using PyVista and Matplotlib: Exhaust Manifold" href="../02-postprocessing/post_processing_exhaust_manifold.html" />
+    <link rel="next" title="Postprocessing using PyVista and Matplotlib" href="../02-postprocessing/post_processing_exhaust_manifold.html" />
     <link rel="prev" title="Parametric Project-Based Workflow" href="parametric_static_mixer_2.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -190,14 +190,21 @@
     <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../00-fluent/exhaust_system.html">
-   Exhaust System: Fault-tolerant Meshing
+   End-to-end Fault-tolerant Meshing Workflow
   </a>
  </li>
 </ul>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../00-fluent/mixing_elbow.html">
-   Fluid Flow and Heat Transfer in a Mixing Elbow
+   End-to-end Watertight Meshing Workflow
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="../00-fluent/mixing_elbow_settings_api.html">
+   Fluent Setup and Solutoin using Settings API (Beta)
   </a>
  </li>
 </ul>
@@ -225,7 +232,7 @@
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../02-postprocessing/post_processing_exhaust_manifold.html">
-   Post Processing using PyVista and Matplotlib: Exhaust Manifold
+   Postprocessing using PyVista and Matplotlib
   </a>
  </li>
 </ul>
@@ -271,7 +278,7 @@ to download the full example code</p>
 </div>
 <section class="sphx-glr-example-title" id="parametric-session-workflow">
 <span id="ref-parametric-static-mixer-3"></span><span id="sphx-glr-examples-01-parametric-parametric-static-mixer-3-py"></span><h1>Parametric Session Workflow<a class="headerlink" href="#parametric-session-workflow" title="Permalink to this headline">¶</a></h1>
-<p>This example for executing a parametric session workflow performs these steps:</p>
+<p>This parametric study workflow example performs these steps:</p>
 <ul class="simple">
 <li><p>Launches a parametric session using the hopper/mixer case file</p></li>
 <li><p>Prints the input parameters of the current parametric session</p></li>
@@ -281,8 +288,6 @@ to download the full example code</p>
 <li><p>Creates a new parametric session using the flprj saved earlier</p></li>
 </ul>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">pathlib</span> <span class="kn">import</span> <a href="https://docs.python.org/dev/library/pathlib.html#pathlib.Path" title="pathlib.Path" class="sphx-glr-backref-module-pathlib sphx-glr-backref-type-py-class"><span class="n">Path</span></a>
-
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
 
 <span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="kn">from</span> <span class="nn">ansys.fluent.parametric</span> <span class="kn">import</span> <span class="n">ParametricSession</span>
@@ -302,21 +307,21 @@ This case file contains pre-created input and output parameters</p>
 </pre></div>
 </div>
 <p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>{&#39;inlet1_vel&#39;: 5.0, &#39;inlet2_temp&#39;: 350.0, &#39;inlet1_temp&#39;: 300.0, &#39;inlet2_vel&#39;: 10.0}
+<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>{&#39;inlet2_temp&#39;: 350.0, &#39;inlet1_temp&#39;: 300.0, &#39;inlet1_vel&#39;: 1.0, &#39;inlet2_vel&#39;: 1.0}
 </pre></div>
 </div>
 <p>Access the current study of the current parametric session</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">study_1</span> <span class="o">=</span> <a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">session</span><span class="o">.</span><span class="n">studies</span></a><span class="p">[</span><span class="s2">&quot;Static_Mixer_Parameters-Solve&quot;</span><span class="p">]</span>
 
 <a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">input_parameters_update</span></a> <span class="o">=</span> <a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">study_1</span><span class="o">.</span><span class="n">design_points</span></a><span class="p">[</span><span class="s2">&quot;Base DP&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">input_parameters</span>
-<a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">input_parameters_update</span></a><span class="p">[</span><span class="s2">&quot;inlet1_vel&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">15</span>
+<a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">input_parameters_update</span></a><span class="p">[</span><span class="s2">&quot;inlet1_vel&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.5</span>
 <a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">study_1</span><span class="o">.</span><span class="n">design_points</span></a><span class="p">[</span><span class="s2">&quot;Base DP&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">input_parameters</span> <span class="o">=</span> <a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">input_parameters_update</span></a>
 
 <span class="n">design_point_1</span> <span class="o">=</span> <span class="n">study_1</span><span class="o">.</span><span class="n">add_design_point</span><span class="p">()</span>
 <a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">design_point_1_input_parameters</span></a> <span class="o">=</span> <a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">study_1</span><span class="o">.</span><span class="n">design_points</span></a><span class="p">[</span><span class="s2">&quot;DP1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">input_parameters</span>
 <a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">design_point_1_input_parameters</span></a><span class="p">[</span><span class="s2">&quot;inlet1_temp&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">323</span>
-<a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">design_point_1_input_parameters</span></a><span class="p">[</span><span class="s2">&quot;inlet1_vel&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">33</span>
-<a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">design_point_1_input_parameters</span></a><span class="p">[</span><span class="s2">&quot;inlet2_vel&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mi">25</span>
+<a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">design_point_1_input_parameters</span></a><span class="p">[</span><span class="s2">&quot;inlet1_vel&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.25</span>
+<a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">design_point_1_input_parameters</span></a><span class="p">[</span><span class="s2">&quot;inlet2_vel&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="mf">0.25</span>
 <a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">study_1</span><span class="o">.</span><span class="n">design_points</span></a><span class="p">[</span><span class="s2">&quot;DP1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">input_parameters</span> <span class="o">=</span> <a href="https://docs.python.org/dev/library/stdtypes.html#dict" title="builtins.dict" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">design_point_1_input_parameters</span></a>
 </pre></div>
 </div>
@@ -335,20 +340,6 @@ This case file contains pre-created input and output parameters</p>
 <span class="n">study_2</span><span class="o">.</span><span class="n">export_design_table</span><span class="p">(</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">design_point_table_study_2</span></a><span class="p">)</span>
 </pre></div>
 </div>
-<p>Display CSV table as a pandas dataframe</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="pandas.core.frame.DataFrame" class="sphx-glr-backref-module-pandas-core-frame sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data_frame</span></a> <span class="o">=</span> <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.read_csv.html#pandas.read_csv" title="pandas.read_csv" class="sphx-glr-backref-module-pandas sphx-glr-backref-type-py-function"><span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span></a><span class="p">(</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">design_point_table_study_2</span></a><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html#pandas.DataFrame" title="pandas.core.frame.DataFrame" class="sphx-glr-backref-module-pandas-core-frame sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">data_frame</span></a><span class="p">)</span>
-</pre></div>
-</div>
-<p class="sphx-glr-script-out">Out:</p>
-<div class="sphx-glr-script-out highlight-none notranslate"><div class="highlight"><pre><span></span>       Name inlet1_temp  ...                   Status Unnamed: 10
-0     Units         [K]  ...                      NaN         NaN
-1   Base DP         300  ...  Updated : Not Converged         NaN
-2       DP1         323  ...  Updated : Not Converged         NaN
-
-[3 rows x 11 columns]
-</pre></div>
-</div>
 <p>Access a new parametric session using the flprj saved earlier</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">project_session_filepath</span></a> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span>
     <a href="https://docs.python.org/dev/library/pathlib.html#pathlib.Path" title="pathlib.Path" class="sphx-glr-backref-module-pathlib sphx-glr-backref-type-py-class"><span class="n">Path</span></a><span class="p">(</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">pyfluent</span><span class="o">.</span><span class="n">EXAMPLES_PATH</span></a><span class="p">)</span> <span class="o">/</span> <span class="s2">&quot;static_mixer_study_save_as.flprj&quot;</span>
@@ -356,7 +347,11 @@ This case file contains pre-created input and output parameters</p>
 <span class="n">new_session</span> <span class="o">=</span> <span class="n">ParametricSession</span><span class="p">(</span><span class="n">project_filepath</span><span class="o">=</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">project_session_filepath</span></a><span class="p">)</span>
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 3 minutes  25.876 seconds)</p>
+<p>Close Fluent</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 1 minutes  59.998 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-01-parametric-parametric-static-mixer-3-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/47e6f2f7862ec6fea0d3ef798eb0955b/parametric_static_mixer_3.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">parametric_static_mixer_3.py</span></code></a></p>

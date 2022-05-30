@@ -21,8 +21,7 @@
 
 Parametric Study Workflow
 ------------------------------
-This example for executing a parametric study workflow
-performs these steps:
+This parametric study workflow example performs these steps:
 
 - Reads a case file and data file
 - Creates input and output parameters
@@ -32,19 +31,21 @@ performs these steps:
 - Updates the current DP
 - Accesses output parameters of the base DP
 - Creates, updates, and deletes more DPs
-- Creates, renames, and deletes parametric studies
+- Creates, renames, duplicates and deletes parametric studies
 
-.. GENERATED FROM PYTHON SOURCE LINES 20-28
+.. GENERATED FROM PYTHON SOURCE LINES 19-29
 
 .. code-block:: default
 
     from pathlib import Path
 
-    import pandas as pd
-
     import ansys.fluent.core as pyfluent
     from ansys.fluent.core import examples
     from ansys.fluent.parametric import ParametricStudy
+    from ansys.fluent.post import set_config
+    from ansys.fluent.post.pyvista import Graphics
+
+    set_config(blocking=True, set_view_on_display="isometric")
 
 
 
@@ -53,16 +54,16 @@ performs these steps:
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 29-30
+.. GENERATED FROM PYTHON SOURCE LINES 30-31
 
 Launch Fluent in 3D and double precision
 
-.. GENERATED FROM PYTHON SOURCE LINES 30-33
+.. GENERATED FROM PYTHON SOURCE LINES 31-34
 
 .. code-block:: default
 
 
-    session = pyfluent.launch_fluent(precision="double", processor_count=4)
+    session = pyfluent.launch_fluent(precision="double", processor_count=2)
 
 
 
@@ -71,11 +72,11 @@ Launch Fluent in 3D and double precision
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 34-35
+.. GENERATED FROM PYTHON SOURCE LINES 35-36
 
 Read the hopper/mixer case
 
-.. GENERATED FROM PYTHON SOURCE LINES 35-42
+.. GENERATED FROM PYTHON SOURCE LINES 36-43
 
 .. code-block:: default
 
@@ -93,11 +94,11 @@ Read the hopper/mixer case
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 43-44
+.. GENERATED FROM PYTHON SOURCE LINES 44-45
 
 Set number of iterations to 100
 
-.. GENERATED FROM PYTHON SOURCE LINES 44-47
+.. GENERATED FROM PYTHON SOURCE LINES 45-48
 
 .. code-block:: default
 
@@ -111,14 +112,14 @@ Set number of iterations to 100
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 48-52
+.. GENERATED FROM PYTHON SOURCE LINES 49-53
 
 Create input parameters after enabling parameter creation in the TUI:
 Parameter values:
-Inlet1: velocity (inlet1_vel) 5 m/s and temperature (inlet1_temp) at 300 K
-Inlet2: velocity (inlet2_vel) 10 m/s and temperature (inlet2_temp) at 350 K
+Inlet1: velocity (inlet1_vel) 0.5 m/s and temperature (inlet1_temp) at 300 K
+Inlet2: velocity (inlet2_vel) 0.5 m/s and temperature (inlet2_temp) at 350 K
 
-.. GENERATED FROM PYTHON SOURCE LINES 52-69
+.. GENERATED FROM PYTHON SOURCE LINES 53-70
 
 .. code-block:: default
 
@@ -126,14 +127,14 @@ Inlet2: velocity (inlet2_vel) 10 m/s and temperature (inlet2_temp) at 350 K
     session.solver.tui.define.parameters.enable_in_TUI("yes")
 
     session.solver.tui.define.boundary_conditions.set.velocity_inlet(
-        "inlet1", (), "vmag", "yes", "inlet1_vel", 5, "quit"
+        "inlet1", (), "vmag", "yes", "inlet1_vel", 1, "quit"
     )
     session.solver.tui.define.boundary_conditions.set.velocity_inlet(
         "inlet1", (), "temperature", "yes", "inlet1_temp", 300, "quit"
     )
 
     session.solver.tui.define.boundary_conditions.set.velocity_inlet(
-        "inlet2", (), "vmag", "yes", "no", "inlet2_vel", 10, "quit"
+        "inlet2", (), "vmag", "yes", "no", "inlet2_vel", 1, "quit"
     )
     session.solver.tui.define.boundary_conditions.set.velocity_inlet(
         "inlet2", (), "temperature", "yes", "no", "inlet2_temp", 350, "quit"
@@ -146,11 +147,11 @@ Inlet2: velocity (inlet2_vel) 10 m/s and temperature (inlet2_temp) at 350 K
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 70-71
+.. GENERATED FROM PYTHON SOURCE LINES 71-72
 
 Create output parameters using report definitions
 
-.. GENERATED FROM PYTHON SOURCE LINES 71-102
+.. GENERATED FROM PYTHON SOURCE LINES 72-103
 
 .. code-block:: default
 
@@ -192,11 +193,11 @@ Create output parameters using report definitions
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 103-104
+.. GENERATED FROM PYTHON SOURCE LINES 104-105
 
 Enable convergence condition check
 
-.. GENERATED FROM PYTHON SOURCE LINES 104-107
+.. GENERATED FROM PYTHON SOURCE LINES 105-108
 
 .. code-block:: default
 
@@ -210,11 +211,11 @@ Enable convergence condition check
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 108-109
+.. GENERATED FROM PYTHON SOURCE LINES 109-110
 
 Write case with all the settings in place
 
-.. GENERATED FROM PYTHON SOURCE LINES 109-112
+.. GENERATED FROM PYTHON SOURCE LINES 110-113
 
 .. code-block:: default
 
@@ -228,11 +229,11 @@ Write case with all the settings in place
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 113-114
+.. GENERATED FROM PYTHON SOURCE LINES 114-115
 
 Instantiate a parametric study from a Fluent session
 
-.. GENERATED FROM PYTHON SOURCE LINES 114-117
+.. GENERATED FROM PYTHON SOURCE LINES 115-118
 
 .. code-block:: default
 
@@ -246,17 +247,17 @@ Instantiate a parametric study from a Fluent session
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 118-119
+.. GENERATED FROM PYTHON SOURCE LINES 119-120
 
 Access and modify input parameters of base DP
 
-.. GENERATED FROM PYTHON SOURCE LINES 119-124
+.. GENERATED FROM PYTHON SOURCE LINES 120-125
 
 .. code-block:: default
 
 
     input_parameters_update = study_1.design_points["Base DP"].input_parameters
-    input_parameters_update["inlet1_vel"] = 15
+    input_parameters_update["inlet1_vel"] = 0.5
     study_1.design_points["Base DP"].input_parameters = input_parameters_update
 
 
@@ -266,11 +267,11 @@ Access and modify input parameters of base DP
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 125-126
+.. GENERATED FROM PYTHON SOURCE LINES 126-127
 
 Update current design point
 
-.. GENERATED FROM PYTHON SOURCE LINES 126-129
+.. GENERATED FROM PYTHON SOURCE LINES 127-130
 
 .. code-block:: default
 
@@ -284,11 +285,11 @@ Update current design point
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 130-131
+.. GENERATED FROM PYTHON SOURCE LINES 131-132
 
 Change value of specific design points
 
-.. GENERATED FROM PYTHON SOURCE LINES 131-139
+.. GENERATED FROM PYTHON SOURCE LINES 132-140
 
 .. code-block:: default
 
@@ -296,8 +297,8 @@ Change value of specific design points
     design_point_1 = study_1.add_design_point()
     design_point_1_input_parameters = study_1.design_points["DP1"].input_parameters
     design_point_1_input_parameters["inlet1_temp"] = 450
-    design_point_1_input_parameters["inlet1_vel"] = 30
-    design_point_1_input_parameters["inlet2_vel"] = 20
+    design_point_1_input_parameters["inlet1_vel"] = 0.25
+    design_point_1_input_parameters["inlet2_vel"] = 0.25
     study_1.design_points["DP1"].input_parameters = design_point_1_input_parameters
 
 
@@ -307,11 +308,11 @@ Change value of specific design points
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 140-141
+.. GENERATED FROM PYTHON SOURCE LINES 141-142
 
 Add another design point with different values of the input parameters
 
-.. GENERATED FROM PYTHON SOURCE LINES 141-149
+.. GENERATED FROM PYTHON SOURCE LINES 142-151
 
 .. code-block:: default
 
@@ -319,8 +320,8 @@ Add another design point with different values of the input parameters
     design_point_2 = study_1.add_design_point()
     design_point_2_input_parameters = study_1.design_points["DP2"].input_parameters
     design_point_2_input_parameters["inlet1_temp"] = 500
-    design_point_2_input_parameters["inlet1_vel"] = 45
-    design_point_2_input_parameters["inlet2_vel"] = 30
+    design_point_2_input_parameters["inlet1_vel"] = 1
+    design_point_2_input_parameters["inlet2_vel"] = 1
     study_1.design_points["DP2"].input_parameters = design_point_2_input_parameters
 
 
@@ -330,11 +331,12 @@ Add another design point with different values of the input parameters
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 150-151
+
+.. GENERATED FROM PYTHON SOURCE LINES 152-153
 
 Duplicate design points
 
-.. GENERATED FROM PYTHON SOURCE LINES 151-154
+.. GENERATED FROM PYTHON SOURCE LINES 153-156
 
 .. code-block:: default
 
@@ -348,11 +350,11 @@ Duplicate design points
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 155-156
+.. GENERATED FROM PYTHON SOURCE LINES 157-158
 
 Update all design points for study 1
 
-.. GENERATED FROM PYTHON SOURCE LINES 156-159
+.. GENERATED FROM PYTHON SOURCE LINES 158-161
 
 .. code-block:: default
 
@@ -366,11 +368,44 @@ Update all design points for study 1
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 160-161
+.. GENERATED FROM PYTHON SOURCE LINES 162-163
+
+Mesh display using PyVista
+
+.. GENERATED FROM PYTHON SOURCE LINES 163-176
+
+.. code-block:: default
+
+
+    graphics_session = Graphics(session)
+    mesh_1 = graphics_session.Meshes["mesh-1"]
+    mesh_1.show_edges = True
+    mesh_1.surfaces_list = [
+        "inlet1",
+        "inlet2",
+        "wall",
+        "outlet",
+    ]
+
+    mesh_1.display()
+
+
+
+
+.. image-sg:: /examples/01-parametric/images/sphx_glr_parametric_static_mixer_1_001.png
+   :alt: parametric static mixer 1
+   :srcset: /examples/01-parametric/images/sphx_glr_parametric_static_mixer_1_001.png
+   :class: sphx-glr-single-img
+
+
+
+
+
+.. GENERATED FROM PYTHON SOURCE LINES 177-178
 
 Export design point table as a CSV table
 
-.. GENERATED FROM PYTHON SOURCE LINES 161-167
+.. GENERATED FROM PYTHON SOURCE LINES 178-184
 
 .. code-block:: default
 
@@ -387,45 +422,11 @@ Export design point table as a CSV table
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 168-169
-
-Display CSV table as a pandas dataframe
-
-.. GENERATED FROM PYTHON SOURCE LINES 169-173
-
-.. code-block:: default
-
-
-    data_frame = pd.read_csv(design_point_table)
-    print(data_frame)
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-           Name inlet1_temp  ...                   Status Unnamed: 10
-    0     Units         [K]  ...                      NaN         NaN
-    1   Base DP         300  ...  Updated : Not Converged         NaN
-    2       DP1         450  ...  Updated : Not Converged         NaN
-    3       DP2         500  ...  Updated : Not Converged         NaN
-    4       DP3         500  ...  Updated : Not Converged         NaN
-
-    [5 rows x 11 columns]
-
-
-
-
-.. GENERATED FROM PYTHON SOURCE LINES 174-175
+.. GENERATED FROM PYTHON SOURCE LINES 185-186
 
 Delete design points
 
-.. GENERATED FROM PYTHON SOURCE LINES 175-178
+.. GENERATED FROM PYTHON SOURCE LINES 186-189
 
 .. code-block:: default
 
@@ -439,11 +440,11 @@ Delete design points
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 179-180
+.. GENERATED FROM PYTHON SOURCE LINES 190-191
 
 Create a new parametric study by duplicating the current one
 
-.. GENERATED FROM PYTHON SOURCE LINES 180-183
+.. GENERATED FROM PYTHON SOURCE LINES 191-194
 
 .. code-block:: default
 
@@ -457,17 +458,16 @@ Create a new parametric study by duplicating the current one
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 184-186
+.. GENERATED FROM PYTHON SOURCE LINES 195-196
 
 Rename the newly created parametric study
-Currently affected by issue # 249, hence commented out
 
-.. GENERATED FROM PYTHON SOURCE LINES 186-189
+.. GENERATED FROM PYTHON SOURCE LINES 196-199
 
 .. code-block:: default
 
 
-    # study_2.rename("New Study")
+    study_2.rename("New Study")
 
 
 
@@ -476,17 +476,16 @@ Currently affected by issue # 249, hence commented out
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 190-192
+.. GENERATED FROM PYTHON SOURCE LINES 200-201
 
 Delete the old parametric study
-Currently affected by issue #249, hence commented out
 
-.. GENERATED FROM PYTHON SOURCE LINES 192-195
+.. GENERATED FROM PYTHON SOURCE LINES 201-204
 
 .. code-block:: default
 
 
-    # study_1.delete()
+    study_1.delete()
 
 
 
@@ -495,11 +494,11 @@ Currently affected by issue #249, hence commented out
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 196-197
+.. GENERATED FROM PYTHON SOURCE LINES 205-206
 
 Save parametric project
 
-.. GENERATED FROM PYTHON SOURCE LINES 197-201
+.. GENERATED FROM PYTHON SOURCE LINES 206-211
 
 .. code-block:: default
 
@@ -515,9 +514,27 @@ Save parametric project
 
 
 
+.. GENERATED FROM PYTHON SOURCE LINES 212-213
+
+Close Fluent
+
+.. GENERATED FROM PYTHON SOURCE LINES 213-215
+
+.. code-block:: default
+
+
+    session.exit()
+
+
+
+
+
+
+
+
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 6 minutes  13.165 seconds)
+   **Total running time of the script:** ( 2 minutes  44.256 seconds)
 
 
 .. _sphx_glr_download_examples_01-parametric_parametric_static_mixer_1.py:

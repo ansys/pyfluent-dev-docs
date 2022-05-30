@@ -21,7 +21,7 @@
 
 Parametric Session Workflow
 ----------------------------------------------
-This example for executing a parametric session workflow performs these steps:
+This parametric study workflow example performs these steps:
 
 - Launches a parametric session using the hopper/mixer case file
 - Prints the input parameters of the current parametric session
@@ -30,13 +30,11 @@ This example for executing a parametric session workflow performs these steps:
 - Renames this newly created study
 - Creates a new parametric session using the flprj saved earlier
 
-.. GENERATED FROM PYTHON SOURCE LINES 16-23
+.. GENERATED FROM PYTHON SOURCE LINES 16-21
 
 .. code-block:: default
 
     from pathlib import Path
-
-    import pandas as pd
 
     import ansys.fluent.core as pyfluent
     from ansys.fluent.parametric import ParametricSession
@@ -48,12 +46,12 @@ This example for executing a parametric session workflow performs these steps:
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 24-26
+.. GENERATED FROM PYTHON SOURCE LINES 22-24
 
 Launch parametric session using the hopper/mixer case File
 This case file contains pre-created input and output parameters
 
-.. GENERATED FROM PYTHON SOURCE LINES 26-31
+.. GENERATED FROM PYTHON SOURCE LINES 24-29
 
 .. code-block:: default
 
@@ -69,11 +67,11 @@ This case file contains pre-created input and output parameters
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 32-33
+.. GENERATED FROM PYTHON SOURCE LINES 30-31
 
 Print the input parameters of the current parametric session.
 
-.. GENERATED FROM PYTHON SOURCE LINES 33-38
+.. GENERATED FROM PYTHON SOURCE LINES 31-36
 
 .. code-block:: default
 
@@ -93,15 +91,15 @@ Print the input parameters of the current parametric session.
  .. code-block:: none
 
 
-    {'inlet1_vel': 5.0, 'inlet2_temp': 350.0, 'inlet1_temp': 300.0, 'inlet2_vel': 10.0}
+    {'inlet2_temp': 350.0, 'inlet1_temp': 300.0, 'inlet1_vel': 1.0, 'inlet2_vel': 1.0}
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 39-40
+.. GENERATED FROM PYTHON SOURCE LINES 37-38
 
 Access the current study of the current parametric session
 
-.. GENERATED FROM PYTHON SOURCE LINES 40-54
+.. GENERATED FROM PYTHON SOURCE LINES 38-52
 
 .. code-block:: default
 
@@ -109,14 +107,14 @@ Access the current study of the current parametric session
     study_1 = session.studies["Static_Mixer_Parameters-Solve"]
 
     input_parameters_update = study_1.design_points["Base DP"].input_parameters
-    input_parameters_update["inlet1_vel"] = 15
+    input_parameters_update["inlet1_vel"] = 0.5
     study_1.design_points["Base DP"].input_parameters = input_parameters_update
 
     design_point_1 = study_1.add_design_point()
     design_point_1_input_parameters = study_1.design_points["DP1"].input_parameters
     design_point_1_input_parameters["inlet1_temp"] = 323
-    design_point_1_input_parameters["inlet1_vel"] = 33
-    design_point_1_input_parameters["inlet2_vel"] = 25
+    design_point_1_input_parameters["inlet1_vel"] = 0.25
+    design_point_1_input_parameters["inlet2_vel"] = 0.25
     study_1.design_points["DP1"].input_parameters = design_point_1_input_parameters
 
 
@@ -126,11 +124,11 @@ Access the current study of the current parametric session
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 55-56
+.. GENERATED FROM PYTHON SOURCE LINES 53-54
 
 In this parametric project create a new study
 
-.. GENERATED FROM PYTHON SOURCE LINES 56-59
+.. GENERATED FROM PYTHON SOURCE LINES 54-57
 
 .. code-block:: default
 
@@ -144,11 +142,11 @@ In this parametric project create a new study
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 60-61
+.. GENERATED FROM PYTHON SOURCE LINES 58-59
 
 Update all design points
 
-.. GENERATED FROM PYTHON SOURCE LINES 61-63
+.. GENERATED FROM PYTHON SOURCE LINES 59-61
 
 .. code-block:: default
 
@@ -161,11 +159,11 @@ Update all design points
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 64-65
+.. GENERATED FROM PYTHON SOURCE LINES 62-63
 
 Export design point table as a CSV table
 
-.. GENERATED FROM PYTHON SOURCE LINES 65-71
+.. GENERATED FROM PYTHON SOURCE LINES 63-69
 
 .. code-block:: default
 
@@ -182,43 +180,11 @@ Export design point table as a CSV table
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 72-73
-
-Display CSV table as a pandas dataframe
-
-.. GENERATED FROM PYTHON SOURCE LINES 73-77
-
-.. code-block:: default
-
-
-    data_frame = pd.read_csv(design_point_table_study_2)
-    print(data_frame)
-
-
-
-
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-           Name inlet1_temp  ...                   Status Unnamed: 10
-    0     Units         [K]  ...                      NaN         NaN
-    1   Base DP         300  ...  Updated : Not Converged         NaN
-    2       DP1         323  ...  Updated : Not Converged         NaN
-
-    [3 rows x 11 columns]
-
-
-
-
-.. GENERATED FROM PYTHON SOURCE LINES 78-79
+.. GENERATED FROM PYTHON SOURCE LINES 70-71
 
 Access a new parametric session using the flprj saved earlier
 
-.. GENERATED FROM PYTHON SOURCE LINES 79-84
+.. GENERATED FROM PYTHON SOURCE LINES 71-77
 
 .. code-block:: default
 
@@ -235,9 +201,27 @@ Access a new parametric session using the flprj saved earlier
 
 
 
+.. GENERATED FROM PYTHON SOURCE LINES 78-79
+
+Close Fluent
+
+.. GENERATED FROM PYTHON SOURCE LINES 79-81
+
+.. code-block:: default
+
+
+    session.exit()
+
+
+
+
+
+
+
+
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 3 minutes  25.876 seconds)
+   **Total running time of the script:** ( 1 minutes  59.998 seconds)
 
 
 .. _sphx_glr_download_examples_01-parametric_parametric_static_mixer_3.py:

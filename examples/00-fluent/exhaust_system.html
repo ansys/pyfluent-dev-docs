@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Exhaust System: Fault-tolerant Meshing &#8212; PyFluent</title>
+    <title>End-to-end Fault-tolerant Meshing Workflow &#8212; PyFluent</title>
     
     
   <link href="../../_static/css/theme.css" rel="stylesheet">
@@ -50,7 +50,7 @@
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Fluid Flow and Heat Transfer in a Mixing Elbow" href="mixing_elbow.html" />
+    <link rel="next" title="End-to-end Watertight Meshing Workflow" href="mixing_elbow.html" />
     <link rel="prev" title="Examples" href="../index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -168,7 +168,7 @@
     
 
           <li class="nav-item nav-item-1"><a href="../index.html" accesskey="U">Examples</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">Exhaust System: Fault-tolerant Meshing</a></li> 
+        <li class="nav-item nav-item-this"><a href="">End-to-end Fault-tolerant Meshing Workflow</a></li> 
       </ul>
     </div>
         </div>
@@ -190,14 +190,21 @@
     <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Exhaust System: Fault-tolerant Meshing
+   End-to-end Fault-tolerant Meshing Workflow
   </a>
  </li>
 </ul>
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="mixing_elbow.html">
-   Fluid Flow and Heat Transfer in a Mixing Elbow
+   End-to-end Watertight Meshing Workflow
+  </a>
+ </li>
+</ul>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="mixing_elbow_settings_api.html">
+   Fluent Setup and Solutoin using Settings API (Beta)
   </a>
  </li>
 </ul>
@@ -225,7 +232,7 @@
 <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="../02-postprocessing/post_processing_exhaust_manifold.html">
-   Post Processing using PyVista and Matplotlib: Exhaust Manifold
+   Postprocessing using PyVista and Matplotlib
   </a>
  </li>
 </ul>
@@ -269,8 +276,8 @@
 <p>Click <a class="reference internal" href="#sphx-glr-download-examples-00-fluent-exhaust-system-py"><span class="std std-ref">here</span></a>
 to download the full example code</p>
 </div>
-<section class="sphx-glr-example-title" id="exhaust-system-fault-tolerant-meshing">
-<span id="ref-exhaust-system-tui-api"></span><span id="sphx-glr-examples-00-fluent-exhaust-system-py"></span><h1>Exhaust System: Fault-tolerant Meshing<a class="headerlink" href="#exhaust-system-fault-tolerant-meshing" title="Permalink to this headline">¶</a></h1>
+<section class="sphx-glr-example-title" id="end-to-end-fault-tolerant-meshing-workflow">
+<span id="ref-exhaust-system-tui-api"></span><span id="sphx-glr-examples-00-fluent-exhaust-system-py"></span><h1>End-to-end Fault-tolerant Meshing Workflow<a class="headerlink" href="#end-to-end-fault-tolerant-meshing-workflow" title="Permalink to this headline">¶</a></h1>
 <p>This tutorial illustrates the setup and solution of a three-dimensional
 turbulent fluid flow in a manifold exhaust system. The manifold configuration
 is encountered in the automotive industry. It is often important to predict
@@ -278,7 +285,7 @@ the flow field in the area of the mixing region in order to properly design
 the junction. You will use the Fault-tolerant Meshing guided workflow, which
 unlike the watertight workflow used in Fluid Flow in a Mixing Elbow, is
 appropriate for geometries with imperfections, such as gaps and leakages.</p>
-<p>This tutorial demonstrates how to do the following in Ansys Fluent:</p>
+<p>End-to-end Fault Tolerant Meshing Workflow example:</p>
 <ul class="simple">
 <li><dl class="simple">
 <dt>Use the Fault-tolerant Meshing guided workflow to:</dt><dd><ul>
@@ -304,9 +311,14 @@ exits through the outlet. A small pipe is placed in the main portion of the
 manifold where edge extraction will be considered. There is also a known small
 leakage included that will be addressed in the meshing portion of the tutorial
 to demonstrate the automatic leakage detection aspects of the meshing workflow.</p>
-<p>First, connect with a Fluent server</p>
+<p>First, download the geometry file and start Fluent as a service with
+Meshing Mode, Double Precision, Number of Processors 2</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
+<span class="kn">from</span> <span class="nn">ansys.fluent.post</span> <span class="kn">import</span> <span class="n">set_config</span>
+<span class="kn">from</span> <span class="nn">ansys.fluent.post.pyvista</span> <span class="kn">import</span> <span class="n">Graphics</span>
+
+<span class="n">set_config</span><span class="p">(</span><span class="n">blocking</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">set_view_on_display</span><span class="o">=</span><span class="s2">&quot;isometric&quot;</span><span class="p">)</span>
 
 <a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_filename</span></a> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">download_file</span><span class="p">(</span>
     <span class="s2">&quot;exhaust_system.fmd&quot;</span><span class="p">,</span> <span class="s2">&quot;pyfluent/exhaust_system&quot;</span>
@@ -315,7 +327,7 @@ to demonstrate the automatic leakage detection aspects of the meshing workflow.<
 </div>
 <p>Start Fluent in double precision running on 2 processors</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
-    <span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">4</span>
+    <span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span>
 <span class="p">)</span>
 </pre></div>
 </div>
@@ -941,12 +953,32 @@ along with the mesh.</p>
 <span class="c1"># session.solver.tui.display.objects.display(&quot;scene-1&quot;)</span>
 </pre></div>
 </div>
-<p>Save case, data and exit.
-session.solver.tui.file.write_case_data(“exhaust_system.cas.h5”)</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># session.exit()</span>
+<p>Mesh display using PyVista</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">graphics_session</span> <span class="o">=</span> <span class="n">Graphics</span><span class="p">(</span><span class="n">session</span><span class="p">)</span>
+<span class="n">mesh_1</span> <span class="o">=</span> <span class="n">graphics_session</span><span class="o">.</span><span class="n">Meshes</span><span class="p">[</span><span class="s2">&quot;mesh-1&quot;</span><span class="p">]</span>
+<span class="n">mesh_1</span><span class="o">.</span><span class="n">show_edges</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="n">mesh_1</span><span class="o">.</span><span class="n">surfaces_list</span> <span class="o">=</span> <span class="p">[</span>
+    <span class="s2">&quot;inlet-1&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;inlet-2&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;inlet-3&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;outlet-1&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;flow-pipe&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;main.1&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;object1.1&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;object2.1&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;outpipe3.1&quot;</span><span class="p">,</span>
+<span class="p">]</span>
+
+<span class="n">mesh_1</span><span class="o">.</span><span class="n">display</span><span class="p">()</span>
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 7 minutes  38.283 seconds)</p>
+<img src="../../_images/sphx_glr_exhaust_system_001.png" srcset="../../_images/sphx_glr_exhaust_system_001.png" alt="exhaust system" class = "sphx-glr-single-img"/><p>Save case, data.
+session.solver.tui.file.write_case_data(“exhaust_system.cas.h5”)</p>
+<p>Close Fluent</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
+</pre></div>
+</div>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 4 minutes  45.198 seconds)</p>
 <div class="sphx-glr-footer class sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-00-fluent-exhaust-system-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/c1cc34af98766a17c3ec444694803a65/exhaust_system.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">exhaust_system.py</span></code></a></p>
