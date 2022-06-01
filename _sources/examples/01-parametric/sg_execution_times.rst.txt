@@ -5,8 +5,8 @@
 
 Computation times
 =================
-**02:46.710** total execution time for **examples_01-parametric** files:
+**02:36.186** total execution time for **examples_01-parametric** files:
 
 +--------------------------------------------------------------------------------------------------------+-----------+--------+
-| :ref:`sphx_glr_examples_01-parametric_parametric_static_mixer_1.py` (``parametric_static_mixer_1.py``) | 02:46.710 | 0.0 MB |
+| :ref:`sphx_glr_examples_01-parametric_parametric_static_mixer_1.py` (``parametric_static_mixer_1.py``) | 02:36.186 | 0.0 MB |
 +--------------------------------------------------------------------------------------------------------+-----------+--------+
