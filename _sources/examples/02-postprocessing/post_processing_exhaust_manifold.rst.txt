@@ -27,7 +27,7 @@ of an exhaust manifold with high temperature flows passing through.
 The flow through the manifold is turbulent and
 involves conjugate heat transfer.
 
-This example demonstrates postprocessing using pyvista:
+This example demonstrates postprocessing using pyvista
 
 - Create surfaces for the display of 3D data.
 - Display filled contours of temperature on several surfaces.
@@ -38,7 +38,7 @@ This example demonstrates postprocessing using pyvista:
 
 .. code-block:: default
 
-    # sphinx_gallery_thumbnail_number = -1
+    # sphinx_gallery_thumbnail_number = -3
 
 
 
@@ -100,7 +100,7 @@ Meshing mode, double precision, number of processors: 2
  .. code-block:: none
 
 
-    Reading from 6a779d5609b1:"/home/runner/.local/share/ansys_fluent_core/examples/exhaust_system.dat.h5" in NODE0 mode ...
+    Reading from b2ec052bee8b:"/home/runner/.local/share/ansys_fluent_core/examples/exhaust_system.dat.h5" in NODE0 mode ...
 
 
       Reading results.
@@ -372,8 +372,8 @@ Currently using outlet-plane since mid-plane is affected by Issue # 276
 
 
     velocity_vector = graphics.Vectors["velocity-vector"]
-    velocity_vector.surfaces_list = ["outlet-plane"]
-    velocity_vector.scale = 1
+    velocity_vector.surfaces_list = ["solid_up:1:830"]
+    velocity_vector.scale = 2
     velocity_vector.display("window-6")
 
 
@@ -384,14 +384,6 @@ Currently using outlet-plane since mid-plane is affected by Issue # 276
    :srcset: /examples/02-postprocessing/images/sphx_glr_post_processing_exhaust_manifold_007.png
    :class: sphx-glr-single-img
 
-
-.. rst-class:: sphx-glr-script-out
-
- Out:
-
- .. code-block:: none
-
-    range [-125.0188, 2.4751942e-09]
 
 
 
@@ -491,7 +483,7 @@ Close Fluent
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  43.843 seconds)
+   **Total running time of the script:** ( 0 minutes  56.452 seconds)
 
 
 .. _sphx_glr_download_examples_02-postprocessing_post_processing_exhaust_manifold.py:

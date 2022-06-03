@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>User’s Guide &#8212; PyFluent</title>
+    <title>User Guide &#8212; PyFluent</title>
     
     
   <link href="../_static/css/theme.css" rel="stylesheet">
@@ -50,7 +50,7 @@
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="API Reference" href="../api/index.html" />
+    <link rel="next" title="Launching Ansys Fluent Locally" href="launching_ansys_fluent.html" />
     <link rel="prev" title="Getting Started" href="../getting_started/index.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
@@ -105,7 +105,7 @@
 
 <li class="toctree-l1 current active nav-item">
  <a class="current reference internal nav-link" href="#">
-  User’s Guide
+  User Guide
  </a>
 </li>
 
@@ -167,7 +167,7 @@
         <li class="nav-item nav-item-0"><a href="../index.html">PyFluent</a> » </li>
     
 
-        <li class="nav-item nav-item-this"><a href="">User’s Guide</a></li> 
+        <li class="nav-item nav-item-this"><a href="">User Guide</a></li> 
       </ul>
     </div>
         </div>
@@ -186,7 +186,59 @@
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
   <div class="bd-toc-item active">
-    
+    <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="launching_ansys_fluent.html">
+   Launching Ansys Fluent Locally
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="meshing_workflows.html">
+   Using the Meshing Workflows
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="general_settings.html">
+   Applying General Settings
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="solver_settings.html">
+   Specifying Solver Settings
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="models.html">
+   Defining Your Models
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="materials.html">
+   Defining Materials
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="boundary_conditions.html">
+   Defining Boundary Conditions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="solution.html">
+   Applying Solution Settings
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="postprocessing.html">
+   Analyzing Your Results
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="parametric_workflows.html">
+   Defining Parametric Workflows
+  </a>
+ </li>
+</ul>
+
   </div>
 </nav>
             </div>
@@ -206,8 +258,8 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#understanding-the-pyfluent-modules">
-   Understanding the PyFluent Modules
+  <a class="reference internal nav-link" href="#pyfluent-basic-overview">
+   PyFluent Basic Overview
   </a>
  </li>
 </ul>
@@ -231,15 +283,17 @@
               
               <div>
                 
-  <section id="user-s-guide">
-<span id="user-guide"></span><h1>User’s Guide<a class="headerlink" href="#user-s-guide" title="Permalink to this headline">¶</a></h1>
-<p>This guide contains pertinent information regarding using Ansys PyFluent and its
+  <section id="user-guide">
+<span id="ref-user-guide"></span><h1>User Guide<a class="headerlink" href="#user-guide" title="Permalink to this headline">¶</a></h1>
+<p>This guide provides information regarding using Ansys PyFluent and its
 constituent modules and components.</p>
-<section id="understanding-the-pyfluent-modules">
-<h2>Understanding the PyFluent Modules<a class="headerlink" href="#understanding-the-pyfluent-modules" title="Permalink to this headline">¶</a></h2>
+<div class="toctree-wrapper compound">
+</div>
+<section id="pyfluent-basic-overview">
+<h2>PyFluent Basic Overview<a class="headerlink" href="#pyfluent-basic-overview" title="Permalink to this headline">¶</a></h2>
 <p>Session objects are the main entry point when using the PyFluent library, where
-one or more Fluent client sessions can be launched simulateously from the
-server. For example:</p>
+one or more Fluent server sessions can be launched simultaneously from the
+client. For example:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">()</span>
 </pre></div>
 </div>

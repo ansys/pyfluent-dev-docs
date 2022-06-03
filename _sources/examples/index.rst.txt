@@ -38,7 +38,7 @@ These examples demonstrate how to use Fluent capabilities from Python.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="End-to-end Fault Tolerant Meshing Workflow example:">
+    <div class="sphx-glr-thumbcontainer" tooltip="End-to-end Fault Tolerant Meshing Workflow example">
 
 .. only:: html
 
@@ -59,7 +59,7 @@ These examples demonstrate how to use Fluent capabilities from Python.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="End-to-end Watertight Meshing Workflow example:">
+    <div class="sphx-glr-thumbcontainer" tooltip="End-to-end Watertight Meshing Workflow example">
 
 .. only:: html
 
@@ -80,7 +80,7 @@ These examples demonstrate how to use Fluent capabilities from Python.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates use of &#x27;settings&#x27; modules (Beta):">
+    <div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates use of &#x27;settings&#x27; modules (Beta)">
 
 .. only:: html
 
@@ -114,7 +114,7 @@ parametric studies with Fluent.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="- Reads a case file and data file - Creates input and output parameters - Instantiates a design...">
+    <div class="sphx-glr-thumbcontainer" tooltip="This parametric study workflow example performs these steps">
 
 .. only:: html
 
@@ -148,7 +148,7 @@ results.
 
 .. raw:: html
 
-    <div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates postprocessing using pyvista:">
+    <div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates postprocessing using pyvista">
 
 .. only:: html
 

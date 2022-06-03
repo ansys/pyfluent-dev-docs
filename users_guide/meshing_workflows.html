@@ -1,0 +1,1022 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Using the Meshing Workflows &#8212; PyFluent</title>
+    
+    
+  <link href="../_static/css/theme.css" rel="stylesheet">
+  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/blank.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/jupyter-sphinx.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/thebelab.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sg_gallery.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sg_gallery-binder.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sg_gallery-dataframe.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/sg_gallery-rendered-html.css" />
+    
+  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    
+        <link href="../_static/css/breadcrumbs.css" rel="stylesheet">
+    
+    <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/thebelab-helper.js"></script>
+    <script src="../_static/clipboard.min.js"></script>
+    <script src="../_static/copybutton.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Applying General Settings" href="general_settings.html" />
+    <link rel="prev" title="Launching Ansys Fluent Locally" href="launching_ansys_fluent.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="None">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><style>
+    .navbar-light {
+        background-color: black !important;
+    }
+</style>
+
+<div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="https://docs.pyansys.com/">
+  <img src="../_static/pyansys-logo-black-cropped.png" class="logo" alt="logo">
+</a>
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon" >
+      <i class="fas fa-bars" style="color:#fff; font-size:28px;"></i>
+    </span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../getting_started/index.html">
+  Getting Started
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="index.html">
+  User Guide
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../api/index.html">
+  API Reference
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../examples/index.html">
+  Examples
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../contributing.html">
+  Contributing
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/pyansys/pyfluent" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+    
+        <div class="container-xl">
+    <div class="row">
+        <div class="col-12 col-md-3" id="breadcrumbs-spacer"></div>
+        <div class="col-12 col-md-11 col-xl-9" id="breadcrumbs">
+          
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+    
+        <li class="nav-item nav-item-additional-breadcrumb"><a href="https://docs.pyansys.com/">PyAnsys</a> » </li>
+    
+    
+        <li class="nav-item nav-item-0"><a href="../index.html">PyFluent</a> » </li>
+    
+
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User Guide</a> » </li>
+        <li class="nav-item nav-item-this"><a href="">Using the Meshing Workflows</a></li> 
+      </ul>
+    </div>
+        </div>
+  </div>
+</div>
+    
+
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="launching_ansys_fluent.html">
+   Launching Ansys Fluent Locally
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Using the Meshing Workflows
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="general_settings.html">
+   Applying General Settings
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="solver_settings.html">
+   Specifying Solver Settings
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="models.html">
+   Defining Your Models
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="materials.html">
+   Defining Materials
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="boundary_conditions.html">
+   Defining Boundary Conditions
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="solution.html">
+   Applying Solution Settings
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="postprocessing.html">
+   Analyzing Your Results
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="parametric_workflows.html">
+   Defining Parametric Workflows
+  </a>
+ </li>
+</ul>
+
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+<div class="tocsection onthispage pt-5 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
+
+<nav id="bd-toc-nav">
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#using-the-watertight-geometry-meshing-workflow">
+   Using the Watertight Geometry Meshing Workflow
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#importing-your-geometry">
+     Importing Your Geometry
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#adding-local-sizing">
+     Adding Local Sizing
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#generating-the-surface-mesh">
+     Generating the Surface Mesh
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#describing-the-geometry">
+     Describing the Geometry
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#updating-boundaries">
+     Updating Boundaries
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#updating-regions">
+     Updating Regions
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#adding-boundary-layers">
+     Adding Boundary Layers
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#generating-the-volume-mesh">
+     Generating the Volume Mesh
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#switching-to-solution-mode">
+     Switching to Solution Mode
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#using-the-fault-tolerant-meshing-workflow">
+   Using the Fault-tolerant Meshing Workflow
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#importing-cad-and-part-management">
+     Importing CAD and Part Management
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#describing-geometry-and-flow">
+     Describing Geometry and Flow
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#enclosing-fluid-regions-capping">
+     Enclosing Fluid Regions (Capping)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#extracting-edge-features">
+     Extracting Edge Features
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#identifying-regions">
+     Identifying Regions
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#defining-leakage-threshold">
+     Defining Leakage Threshold
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#updating-regions-settings">
+     Updating Regions Settings
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#choosing-mesh-control-options">
+     Choosing Mesh Control Options
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Generating the Surface Mesh
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id2">
+     Updating Boundaries
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id3">
+     Adding Boundary Layers
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id4">
+     Generating the Volume Mesh
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id5">
+     Switching to Solution Mode
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section id="using-the-meshing-workflows">
+<h1>Using the Meshing Workflows<a class="headerlink" href="#using-the-meshing-workflows" title="Permalink to this headline">¶</a></h1>
+<p>PyFluent supports accessing all the Fluent Meshing functionalities including
+the guided Meshing Workflows.</p>
+<section id="using-the-watertight-geometry-meshing-workflow">
+<h2>Using the Watertight Geometry Meshing Workflow<a class="headerlink" href="#using-the-watertight-geometry-meshing-workflow" title="Permalink to this headline">¶</a></h2>
+<p>Here is a simple example demonstrating the the Watertight Geometry Workflow usage:</p>
+<section id="importing-your-geometry">
+<h3>Importing Your Geometry<a class="headerlink" href="#importing-your-geometry" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
+<span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
+
+<span class="n">import_filename</span> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">download_file</span><span class="p">(</span><span class="s2">&quot;mixing_elbow.pmdb&quot;</span><span class="p">,</span> <span class="s2">&quot;pyfluent/mixing_elbow&quot;</span><span class="p">)</span>
+<span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
+    <span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">InitializeWorkflow</span><span class="p">(</span><span class="n">WorkflowType</span><span class="o">=</span><span class="s2">&quot;Watertight Geometry&quot;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
+    <span class="n">FileName</span><span class="o">=</span><span class="n">import_filename</span><span class="p">,</span> <span class="n">LengthUnit</span><span class="o">=</span><span class="s2">&quot;in&quot;</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="adding-local-sizing">
+<h3>Adding Local Sizing<a class="headerlink" href="#adding-local-sizing" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Local Sizing&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Local Sizing&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="generating-the-surface-mesh">
+<h3>Generating the Surface Mesh<a class="headerlink" href="#generating-the-surface-mesh" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Surface Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;CFDSurfaceMeshControls&quot;</span><span class="p">:</span> <span class="p">{</span><span class="s2">&quot;MaxSize&quot;</span><span class="p">:</span> <span class="mf">0.3</span><span class="p">}</span>
+<span class="p">}</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Surface Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="describing-the-geometry">
+<h3>Describing the Geometry<a class="headerlink" href="#describing-the-geometry" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">UpdateChildTasks</span><span class="p">(</span>
+    <span class="n">SetupTypeChanged</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
+    <span class="n">SetupType</span><span class="o">=</span><span class="s2">&quot;The geometry consists of only fluid regions with no voids&quot;</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">UpdateChildTasks</span><span class="p">(</span>
+    <span class="n">SetupTypeChanged</span><span class="o">=</span><span class="kc">True</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="updating-boundaries">
+<h3>Updating Boundaries<a class="headerlink" href="#updating-boundaries" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Boundaries&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;BoundaryLabelList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;wall-inlet&quot;</span><span class="p">],</span>
+    <span class="s2">&quot;BoundaryLabelTypeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;wall&quot;</span><span class="p">],</span>
+    <span class="s2">&quot;OldBoundaryLabelList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;wall-inlet&quot;</span><span class="p">],</span>
+    <span class="s2">&quot;OldBoundaryLabelTypeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;velocity-inlet&quot;</span><span class="p">],</span>
+<span class="p">}</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Boundaries&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="updating-regions">
+<h3>Updating Regions<a class="headerlink" href="#updating-regions" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="adding-boundary-layers">
+<h3>Adding Boundary Layers<a class="headerlink" href="#adding-boundary-layers" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;smooth-transition_1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;BLControlName&quot;</span><span class="p">:</span> <span class="s2">&quot;smooth-transition_1&quot;</span><span class="p">,</span>
+<span class="p">}</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;smooth-transition_1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="generating-the-volume-mesh">
+<h3>Generating the Volume Mesh<a class="headerlink" href="#generating-the-volume-mesh" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Volume Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;VolumeFill&quot;</span><span class="p">:</span> <span class="s2">&quot;poly-hexcore&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;VolumeFillControls&quot;</span><span class="p">:</span> <span class="p">{</span>
+        <span class="s2">&quot;HexMaxCellLength&quot;</span><span class="p">:</span> <span class="mf">0.3</span><span class="p">,</span>
+    <span class="p">},</span>
+<span class="p">}</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Volume Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="switching-to-solution-mode">
+<h3>Switching to Solution Mode<a class="headerlink" href="#switching-to-solution-mode" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">switch_to_solution_mode</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="using-the-fault-tolerant-meshing-workflow">
+<h2>Using the Fault-tolerant Meshing Workflow<a class="headerlink" href="#using-the-fault-tolerant-meshing-workflow" title="Permalink to this headline">¶</a></h2>
+<p>Here is a simple example demonstrating the the Fault-tolerant Meshing Workflow usage:</p>
+<section id="importing-cad-and-part-management">
+<h3>Importing CAD and Part Management<a class="headerlink" href="#importing-cad-and-part-management" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
+<span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
+
+<span class="n">import_filename</span> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">download_file</span><span class="p">(</span>
+    <span class="s2">&quot;exhaust_system.fmd&quot;</span><span class="p">,</span> <span class="s2">&quot;pyfluent/exhaust_system&quot;</span>
+<span class="p">)</span>
+<span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
+    <span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">InitializeWorkflow</span><span class="p">(</span><span class="n">WorkflowType</span><span class="o">=</span><span class="s2">&quot;Fault-tolerant Meshing&quot;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">PartManagement</span><span class="o">.</span><span class="n">InputFileChanged</span><span class="p">(</span>
+    <span class="n">FilePath</span><span class="o">=</span><span class="n">import_filename</span><span class="p">,</span> <span class="n">IgnoreSolidNames</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> <span class="n">PartPerBody</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">PMFileManagement</span><span class="o">.</span><span class="n">FileManager</span><span class="o">.</span><span class="n">LoadFiles</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">PartManagement</span><span class="o">.</span><span class="n">Node</span><span class="p">[</span><span class="s2">&quot;Meshing Model&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Copy</span><span class="p">(</span>
+    <span class="n">Paths</span><span class="o">=</span><span class="p">[</span>
+        <span class="s2">&quot;/dirty_manifold-for-wrapper,&quot;</span> <span class="o">+</span> <span class="s2">&quot;1/dirty_manifold-for-wrapper,1/main,1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;/dirty_manifold-for-wrapper,&quot;</span> <span class="o">+</span> <span class="s2">&quot;1/dirty_manifold-for-wrapper,1/flow-pipe,1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;/dirty_manifold-for-wrapper,&quot;</span> <span class="o">+</span> <span class="s2">&quot;1/dirty_manifold-for-wrapper,1/outpipe3,1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;/dirty_manifold-for-wrapper,&quot;</span> <span class="o">+</span> <span class="s2">&quot;1/dirty_manifold-for-wrapper,1/object2,1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;/dirty_manifold-for-wrapper,&quot;</span> <span class="o">+</span> <span class="s2">&quot;1/dirty_manifold-for-wrapper,1/object1,1&quot;</span><span class="p">,</span>
+    <span class="p">]</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">PartManagement</span><span class="o">.</span><span class="n">ObjectSetting</span><span class="p">[</span>
+    <span class="s2">&quot;DefaultObjectSetting&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">OneZonePer</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span><span class="s2">&quot;part&quot;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Import CAD and Part Management&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;Context&quot;</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+        <span class="s2">&quot;CreateObjectPer&quot;</span><span class="p">:</span> <span class="s2">&quot;Custom&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;FMDFileName&quot;</span><span class="p">:</span> <span class="n">import_filename</span><span class="p">,</span>
+        <span class="s2">&quot;FileLoaded&quot;</span><span class="p">:</span> <span class="s2">&quot;yes&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ObjectSetting&quot;</span><span class="p">:</span> <span class="s2">&quot;DefaultObjectSetting&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;Options&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;Line&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;Solid&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+            <span class="s2">&quot;Surface&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="p">},</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Import CAD and Part Management&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="describing-geometry-and-flow">
+<h3>Describing Geometry and Flow<a class="headerlink" href="#describing-geometry-and-flow" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry and Flow&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;AddEnclosure&quot;</span><span class="p">:</span> <span class="s2">&quot;No&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;CloseCaps&quot;</span><span class="p">:</span> <span class="s2">&quot;Yes&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;FlowType&quot;</span><span class="p">:</span> <span class="s2">&quot;Internal flow through the object&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry and Flow&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">UpdateChildTasks</span><span class="p">(</span>
+    <span class="n">SetupTypeChanged</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry and Flow&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;AddEnclosure&quot;</span><span class="p">:</span> <span class="s2">&quot;No&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;CloseCaps&quot;</span><span class="p">:</span> <span class="s2">&quot;Yes&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;DescribeGeometryAndFlowOptions&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;AdvancedOptions&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+            <span class="s2">&quot;ExtractEdgeFeatures&quot;</span><span class="p">:</span> <span class="s2">&quot;Yes&quot;</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;FlowType&quot;</span><span class="p">:</span> <span class="s2">&quot;Internal flow through the object&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry and Flow&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">UpdateChildTasks</span><span class="p">(</span>
+    <span class="n">SetupTypeChanged</span><span class="o">=</span><span class="kc">False</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry and Flow&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="enclosing-fluid-regions-capping">
+<h3>Enclosing Fluid Regions (Capping)<a class="headerlink" href="#enclosing-fluid-regions-capping" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;CreatePatchPreferences&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;ShowCreatePatchPreferences&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;inlet-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;inlet.1&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;CreatePatchPreferences&quot;</span><span class="p">:</span> <span class="p">{</span>
+            <span class="s2">&quot;ShowCreatePatchPreferences&quot;</span><span class="p">:</span> <span class="kc">False</span><span class="p">,</span>
+        <span class="p">},</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;inlet-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneLocation&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;351.68205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-361.34322&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-301.88668&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;396.96205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-332.84759&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-266.69751&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inlet.1&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;inlet.1&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;inlet-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;inlet-2&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;inlet.2&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;inlet-2&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneLocation&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;441.68205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-361.34322&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-301.88668&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;486.96205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-332.84759&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-266.69751&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inlet.2&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;inlet.2&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;inlet-2&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;inlet-3&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;inlet&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;inlet-3&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneLocation&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;261.68205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-361.34322&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-301.88668&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;306.96205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-332.84759&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-266.69751&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;inlet&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;inlet&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;inlet-3&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;outlet-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;outlet&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;ZoneType&quot;</span><span class="p">:</span> <span class="s2">&quot;pressure-outlet&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;PatchName&quot;</span><span class="p">:</span> <span class="s2">&quot;outlet-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneLocation&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;352.22702&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-197.8957&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;84.102381&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;394.41707&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-155.70565&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;84.102381&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;outlet&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;outlet&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;ZoneType&quot;</span><span class="p">:</span> <span class="s2">&quot;pressure-outlet&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Enclose Fluid Regions (Capping)&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;outlet-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="extracting-edge-features">
+<h3>Extracting Edge Features<a class="headerlink" href="#extracting-edge-features" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Extract Edge Features&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;ExtractMethodType&quot;</span><span class="p">:</span> <span class="s2">&quot;Intersection Loops&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ObjectSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;flow_pipe&quot;</span><span class="p">,</span> <span class="s2">&quot;main&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Extract Edge Features&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Extract Edge Features&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;edge-group-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;ExtractEdgesName&quot;</span><span class="p">:</span> <span class="s2">&quot;edge-group-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ExtractMethodType&quot;</span><span class="p">:</span> <span class="s2">&quot;Intersection Loops&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ObjectSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;flow_pipe&quot;</span><span class="p">,</span> <span class="s2">&quot;main&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Extract Edge Features&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;edge-group-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="identifying-regions">
+<h3>Identifying Regions<a class="headerlink" href="#identifying-regions" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;X&quot;</span><span class="p">:</span> <span class="mf">377.322045740589</span><span class="p">,</span>
+        <span class="s2">&quot;Y&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">176.800676988458</span><span class="p">,</span>
+        <span class="s2">&quot;Z&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">37.0764628583475</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;main.1&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;X&quot;</span><span class="p">:</span> <span class="mf">377.322045740589</span><span class="p">,</span>
+            <span class="s2">&quot;Y&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">176.800676988458</span><span class="p">,</span>
+        <span class="s2">&quot;Z&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">37.0764628583475</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneLocation&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;213.32205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-225.28068&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-158.25531&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;541.32205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-128.32068&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;84.102381&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;main.1&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;main.1&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;fluid-region-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;MaterialPointsName&quot;</span><span class="p">:</span> <span class="s2">&quot;fluid-region-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;SelectionType&quot;</span><span class="p">:</span> <span class="s2">&quot;zone&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;X&quot;</span><span class="p">:</span> <span class="mf">377.322045740589</span><span class="p">,</span>
+        <span class="s2">&quot;Y&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">176.800676988458</span><span class="p">,</span>
+        <span class="s2">&quot;Z&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">37.0764628583475</span><span class="p">,</span>
+        <span class="s2">&quot;ZoneLocation&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;213.32205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-225.28068&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-158.25531&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;541.32205&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;-128.32068&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;84.102381&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;main.1&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;ZoneSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;main.1&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;fluid-region-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;MaterialPointsName&quot;</span><span class="p">:</span> <span class="s2">&quot;void-region-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;NewRegionType&quot;</span><span class="p">:</span> <span class="s2">&quot;void&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;ObjectSelectionList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;inlet-1&quot;</span><span class="p">,</span> <span class="s2">&quot;inlet-2&quot;</span><span class="p">,</span> <span class="s2">&quot;inlet-3&quot;</span><span class="p">,</span> <span class="s2">&quot;main&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;X&quot;</span><span class="p">:</span> <span class="mf">374.722045740589</span><span class="p">,</span>
+        <span class="s2">&quot;Y&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">278.9775145640143</span><span class="p">,</span>
+        <span class="s2">&quot;Z&quot;</span><span class="p">:</span> <span class="o">-</span><span class="mf">161.1700719416913</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Identify Regions&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;void-region-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="defining-leakage-threshold">
+<h3>Defining Leakage Threshold<a class="headerlink" href="#defining-leakage-threshold" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Define Leakage Threshold&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;AddChild&quot;</span><span class="p">:</span> <span class="s2">&quot;yes&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;FlipDirection&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="s2">&quot;PlaneDirection&quot;</span><span class="p">:</span> <span class="s2">&quot;X&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;RegionSelectionSingle&quot;</span><span class="p">:</span> <span class="s2">&quot;void-region-1&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Define Leakage Threshold&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
+    <span class="s2">&quot;Define Leakage Threshold&quot;</span>
+<span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;leakage-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;AddChild&quot;</span><span class="p">:</span> <span class="s2">&quot;yes&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;FlipDirection&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+        <span class="s2">&quot;LeakageName&quot;</span><span class="p">:</span> <span class="s2">&quot;leakage-1&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;PlaneDirection&quot;</span><span class="p">:</span> <span class="s2">&quot;X&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;RegionSelectionSingle&quot;</span><span class="p">:</span> <span class="s2">&quot;void-region-1&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Define Leakage Threshold&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;AddChild&quot;</span><span class="p">:</span> <span class="s2">&quot;yes&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;leakage-1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="updating-regions-settings">
+<h3>Updating Regions Settings<a class="headerlink" href="#updating-regions-settings" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Region Settings&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;AllRegionFilterCategories&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;2&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;1&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span><span class="p">,</span>
+        <span class="s2">&quot;AllRegionLeakageSizeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;none&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">6</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;6.4&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;AllRegionLinkedConstructionSurfaceList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;n/a&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">6</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;no&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;AllRegionMeshMethodList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;none&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">6</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;wrap&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;AllRegionNameList&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;main&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;flow_pipe&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;outpipe3&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;object2&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;object1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;void-region-1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;fluid-region-1&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;AllRegionOversetComponenList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;no&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">7</span><span class="p">,</span>
+        <span class="s2">&quot;AllRegionSourceList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;object&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;mpt&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span><span class="p">,</span>
+        <span class="s2">&quot;AllRegionTypeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;void&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">6</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;fluid&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;AllRegionVolumeFillList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;none&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">6</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;tet&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;FilterCategory&quot;</span><span class="p">:</span> <span class="s2">&quot;Identified Regions&quot;</span><span class="p">,</span>
+        <span class="s2">&quot;OldRegionLeakageSizeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;OldRegionMeshMethodList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;wrap&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;OldRegionNameList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;fluid-region-1&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;OldRegionOversetComponenList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;no&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;OldRegionTypeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;fluid&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;OldRegionVolumeFillList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;hexcore&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;RegionLeakageSizeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;RegionMeshMethodList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;wrap&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;RegionNameList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;fluid-region-1&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;RegionOversetComponenList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;no&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;RegionTypeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;fluid&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;RegionVolumeFillList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;tet&quot;</span><span class="p">],</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Region Settings&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="choosing-mesh-control-options">
+<h3>Choosing Mesh Control Options<a class="headerlink" href="#choosing-mesh-control-options" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Choose Mesh Control Options&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="id1">
+<h3>Generating the Surface Mesh<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Surface Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="id2">
+<h3>Updating Boundaries<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Update Boundaries&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="id3">
+<h3>Adding Boundary Layers<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;aspect-ratio_1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;BLControlName&quot;</span><span class="p">:</span> <span class="s2">&quot;aspect-ratio_1&quot;</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Add Boundary Layers&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">({})</span>
+
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;aspect-ratio_1&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="id4">
+<h3>Generating the Volume Mesh<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Volume Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
+    <span class="p">{</span>
+        <span class="s2">&quot;AllRegionNameList&quot;</span><span class="p">:</span> <span class="p">[</span>
+            <span class="s2">&quot;main&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;flow_pipe&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;outpipe3&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;object2&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;object1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;void-region-1&quot;</span><span class="p">,</span>
+            <span class="s2">&quot;fluid-region-1&quot;</span><span class="p">,</span>
+        <span class="p">],</span>
+        <span class="s2">&quot;AllRegionSizeList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;11.33375&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">7</span><span class="p">,</span>
+        <span class="s2">&quot;AllRegionVolumeFillList&quot;</span><span class="p">:</span> <span class="p">[</span><span class="s2">&quot;none&quot;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">6</span> <span class="o">+</span> <span class="p">[</span><span class="s2">&quot;tet&quot;</span><span class="p">],</span>
+        <span class="s2">&quot;EnableParallel&quot;</span><span class="p">:</span> <span class="kc">True</span><span class="p">,</span>
+    <span class="p">}</span>
+<span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Generate the Volume Mesh&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
+</pre></div>
+</div>
+</section>
+<section id="id5">
+<h3>Switching to Solution Mode<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">switch_to_solution_mode</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+</section>
+
+
+              </div>
+              
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright (c) 2022 ANSYS, Inc. All rights reserved.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>
