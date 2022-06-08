@@ -1,6 +1,0 @@
-display
-=======
-
-.. currentmodule:: ansys.fluent.post.pyvista.pyvista_objects
-
-.. automethod:: Contour.display

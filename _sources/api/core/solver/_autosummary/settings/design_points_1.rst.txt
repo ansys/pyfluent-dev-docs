@@ -17,7 +17,7 @@ design_points
 Command                                                                                                  Summary
 
 ==================================================   ===========================================================
-:ref:`create <create>`                                                                     Add new Design Point.
+:ref:`create_1 <create_1>`                                                                 Add new Design Point.
 
 :ref:`duplicate <duplicate_1>`                                                           Duplicate Design Point.
 

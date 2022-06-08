@@ -20,8 +20,6 @@ Add examples here for PyFluent ``ansys-fluent``.
    :hidden:
 
 .. 00-fluent/README.txt
-.. 01-parametric/README.txt
-.. 02-postprocessing/README.txt
 
 .. raw:: html
 
@@ -98,74 +96,6 @@ These examples demonstrate how to use Fluent capabilities from Python.
    :hidden:
 
    /examples/00-fluent/mixing_elbow_settings_api
-.. raw:: html
-
-    <div class="sphx-glr-clear"></div>
-
-
-
-.. _sphx_glr_examples_01-parametric:
-
-Parametric Examples
-===================
-These examples demonstrate how to use the the parametric package to perform
-parametric studies with Fluent.
-
-
-.. raw:: html
-
-    <div class="sphx-glr-thumbcontainer" tooltip="This parametric study workflow example performs these steps">
-
-.. only:: html
-
- .. figure:: /examples/01-parametric/images/thumb/sphx_glr_parametric_static_mixer_1_thumb.png
-     :alt: Parametric Study Workflow
-
-     :ref:`sphx_glr_examples_01-parametric_parametric_static_mixer_1.py`
-
-.. raw:: html
-
-    </div>
-
-
-.. toctree::
-   :hidden:
-
-   /examples/01-parametric/parametric_static_mixer_1
-.. raw:: html
-
-    <div class="sphx-glr-clear"></div>
-
-
-
-.. _sphx_glr_examples_02-postprocessing:
-
-Postprocessing Examples
-========================
-These examples demonstrate how to use the PyVista package to postprocess Fluent
-results.
-
-
-.. raw:: html
-
-    <div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates postprocessing using pyvista">
-
-.. only:: html
-
- .. figure:: /examples/02-postprocessing/images/thumb/sphx_glr_post_processing_exhaust_manifold_thumb.png
-     :alt: Postprocessing using PyVista and Matplotlib
-
-     :ref:`sphx_glr_examples_02-postprocessing_post_processing_exhaust_manifold.py`
-
-.. raw:: html
-
-    </div>
-
-
-.. toctree::
-   :hidden:
-
-   /examples/02-postprocessing/post_processing_exhaust_manifold
 .. raw:: html
 
     <div class="sphx-glr-clear"></div>
