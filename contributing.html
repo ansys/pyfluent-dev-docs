@@ -9,8 +9,9 @@
     <title>Contributing &#8212; PyFluent</title>
     
     
-  <link href="_static/css/theme.css" rel="stylesheet">
-  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -20,21 +21,18 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/css/blank.css" />
     <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
     <link rel="stylesheet" type="text/css" href="_static/thebelab.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/ansys_sphinx_theme.css" />
     <link rel="stylesheet" type="text/css" href="_static/sg_gallery.css" />
     <link rel="stylesheet" type="text/css" href="_static/sg_gallery-binder.css" />
     <link rel="stylesheet" type="text/css" href="_static/sg_gallery-dataframe.css" />
     <link rel="stylesheet" type="text/css" href="_static/sg_gallery-rendered-html.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     
         <link href="_static/css/breadcrumbs.css" rel="stylesheet">
@@ -48,6 +46,7 @@
     <script src="_static/copybutton.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
+    <link rel="shortcut icon" href="_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="prev" title="Fluent Setup and Solutoin using Settings API (Beta)" href="examples/00-fluent/mixing_elbow_settings_api.html" />
@@ -58,7 +57,7 @@
     <!-- Google Analytics -->
     
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
     
     <div class="container-fluid" id="banner"></div>
 
@@ -76,7 +75,7 @@
     
     
 
-<a class="navbar-brand" href="https://docs.pyansys.com/">
+<a class="navbar-brand" href="https://www.ansys.com/">
   <img src="_static/pyansys-logo-black-cropped.png" class="logo" alt="logo">
 </a>
 
@@ -132,20 +131,20 @@
       
     </div>
 
+    
     <div id="navbar-end">
       
       <div class="navbar-end-item">
         <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/pyansys/pyfluent" rel="noopener" target="_blank" title="GitHub">
-            <span><i class="fab fa-github-square"></i></span>
-            <label class="sr-only">GitHub</label>
-          </a>
+          <a class="nav-link" href="https://github.com/pyansys/pyfluent" rel="noopener" target="_blank" title="GitHub"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
         </li>
       </ul>
       </div>
       
     </div>
+    
   </div>
 </div>
     </nav>
@@ -180,7 +179,8 @@
           
             
             <!-- Only show if we have sidebars configured, else just a small margin  -->
-            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+            <div class="col-12 col-md-3 bd-sidebar">
+              <div class="sidebar-start-items"><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
@@ -188,6 +188,9 @@
     
   </div>
 </nav>
+              </div>
+              <div class="sidebar-end-items">
+              </div>
             </div>
             
           
@@ -198,7 +201,7 @@
               
               <div class="toc-item">
                 
-<div class="tocsection onthispage pt-5 pb-3">
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
     <i class="fas fa-list"></i> On this page
 </div>
 
@@ -246,7 +249,7 @@
               <div>
                 
   <section id="contributing">
-<span id="ref-contributing"></span><h1>Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">¶</a></h1>
+<span id="ref-contributing"></span><h1>Contributing<a class="headerlink" href="#contributing" title="Permalink to this headline">#</a></h1>
 <p>Overall guidance on contributing to a PyAnsys library appears in the
 <a class="reference external" href="https://dev.docs.pyansys.com/overview/contributing.html">Contributing</a> topic
 in the <em>PyAnsys Developer’s Guide</em>. Ensure that you are thoroughly familiar with
@@ -254,7 +257,7 @@ it and all <a class="reference external" href="https://dev.docs.pyansys.com/guid
 contribute to PyFluent.</p>
 <p>The following contribution information is specific to PyFluent.</p>
 <section id="cloning-the-pyfluent-repository">
-<h2>Cloning the PyFluent Repository<a class="headerlink" href="#cloning-the-pyfluent-repository" title="Permalink to this headline">¶</a></h2>
+<h2>Cloning the PyFluent Repository<a class="headerlink" href="#cloning-the-pyfluent-repository" title="Permalink to this headline">#</a></h2>
 <p>Run this code to clone and install the latest version of PyFluent in development
 mode:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">pyansys</span><span class="o">/</span><span class="n">pyfluent</span><span class="o">.</span><span class="n">git</span>
@@ -266,10 +269,10 @@ mode:</p>
 </div>
 </section>
 <section id="building-documentation">
-<h2>Building Documentation<a class="headerlink" href="#building-documentation" title="Permalink to this headline">¶</a></h2>
+<h2>Building Documentation<a class="headerlink" href="#building-documentation" title="Permalink to this headline">#</a></h2>
 <p>To build the documentation locally you need to follow these steps at the root
 directory of the repository:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements_docs</span><span class="o">.</span><span class="n">txt</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">/</span><span class="n">requirements_doc</span><span class="o">.</span><span class="n">txt</span>
 <span class="n">cd</span> <span class="n">doc</span>
 <span class="n">make</span> <span class="n">html</span>
 </pre></div>
@@ -282,12 +285,12 @@ browser.  To clean the documentation you can execute this command:</p>
 </div>
 </section>
 <section id="posting-issues">
-<h2>Posting Issues<a class="headerlink" href="#posting-issues" title="Permalink to this headline">¶</a></h2>
+<h2>Posting Issues<a class="headerlink" href="#posting-issues" title="Permalink to this headline">#</a></h2>
 <p>Use the <a class="reference external" href="https://github.com/pyansys/pyfluent/issues">PyFluent Issues</a> page to
 submit questions, report bugs, and request new features.</p>
 </section>
 <section id="code-style">
-<h2>Code Style<a class="headerlink" href="#code-style" title="Permalink to this headline">¶</a></h2>
+<h2>Code Style<a class="headerlink" href="#code-style" title="Permalink to this headline">#</a></h2>
 <p>PyFluent is compliant with <a class="reference external" href="https://dev.docs.pyansys.com/coding_style/index.html">PyAnsys Development Code Style Guide</a>.  Code style is checked
 by making use of <a class="reference external" href="https://pre-commit.com/">pre-commit</a>. Install this tool and
 activate it executing the following commands:</p>
@@ -316,7 +319,8 @@ pre-commit install
       </div>
     </div>
   
-  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
 <footer class="footer mt-5 mt-md-0">
   <div class="container">
     

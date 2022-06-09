@@ -6,11 +6,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>PyFluent Documentation 0.7.dev0 &#8212; PyFluent</title>
+    <title>PyFluent Documentation 0.8.dev0 &#8212; PyFluent</title>
     
     
-  <link href="_static/css/theme.css" rel="stylesheet">
-  <link href="_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -20,21 +21,18 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="_static/css/blank.css" />
     <link rel="stylesheet" type="text/css" href="_static/jupyter-sphinx.css" />
     <link rel="stylesheet" type="text/css" href="_static/thebelab.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/css/ansys_sphinx_theme.css" />
     <link rel="stylesheet" type="text/css" href="_static/sg_gallery.css" />
     <link rel="stylesheet" type="text/css" href="_static/sg_gallery-binder.css" />
     <link rel="stylesheet" type="text/css" href="_static/sg_gallery-dataframe.css" />
     <link rel="stylesheet" type="text/css" href="_static/sg_gallery-rendered-html.css" />
     
-  <link rel="preload" as="script" href="_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     
         <link href="_static/css/breadcrumbs.css" rel="stylesheet">
@@ -48,6 +46,7 @@
     <script src="_static/copybutton.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
+    <link rel="shortcut icon" href="_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Getting Started" href="getting_started/index.html" />
@@ -58,7 +57,7 @@
     <!-- Google Analytics -->
     
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
     
     <div class="container-fluid" id="banner"></div>
 
@@ -76,7 +75,7 @@
     
     
 
-<a class="navbar-brand" href="https://docs.pyansys.com/">
+<a class="navbar-brand" href="https://www.ansys.com/">
   <img src="_static/pyansys-logo-black-cropped.png" class="logo" alt="logo">
 </a>
 
@@ -132,20 +131,20 @@
       
     </div>
 
+    
     <div id="navbar-end">
       
       <div class="navbar-end-item">
         <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/pyansys/pyfluent" rel="noopener" target="_blank" title="GitHub">
-            <span><i class="fab fa-github-square"></i></span>
-            <label class="sr-only">GitHub</label>
-          </a>
+          <a class="nav-link" href="https://github.com/pyansys/pyfluent" rel="noopener" target="_blank" title="GitHub"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
         </li>
       </ul>
       </div>
       
     </div>
+    
   </div>
 </div>
     </nav>
@@ -164,7 +163,7 @@
     
     
 
-        <li class="nav-item nav-item-this"><a href="">PyFluent Documentation 0.7.dev0</a></li> 
+        <li class="nav-item nav-item-this"><a href="">PyFluent Documentation 0.8.dev0</a></li> 
       </ul>
     </div>
         </div>
@@ -178,7 +177,8 @@
           
             
             <!-- Only show if we have sidebars configured, else just a small margin  -->
-            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+            <div class="col-12 col-md-3 bd-sidebar">
+              <div class="sidebar-start-items"><form class="bd-search d-flex align-items-center" action="search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
@@ -186,6 +186,9 @@
     
   </div>
 </nav>
+              </div>
+              <div class="sidebar-end-items">
+              </div>
             </div>
             
           
@@ -196,7 +199,7 @@
               
               <div class="toc-item">
                 
-<div class="tocsection onthispage pt-5 pb-3">
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
     <i class="fas fa-list"></i> On this page
 </div>
 
@@ -259,11 +262,11 @@
               <div>
                 
   <section id="pyfluent-documentation-version">
-<h1>PyFluent Documentation 0.7.dev0<a class="headerlink" href="#pyfluent-documentation-version" title="Permalink to this headline">¶</a></h1>
+<h1>PyFluent Documentation 0.8.dev0<a class="headerlink" href="#pyfluent-documentation-version" title="Permalink to this headline">#</a></h1>
 <div class="toctree-wrapper compound">
 </div>
 <section id="introduction">
-<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">#</a></h2>
 <p>Ansys Fluent is a state-of-the-art computational fluid dynamics (CFD) software
 package for modeling fluid flow, heat transfer, and chemical reactions in
 complex geometries.</p>
@@ -280,7 +283,7 @@ fluid properties, executing the solution, refining the mesh, running a parametri
 and postprocessing and viewing the results.</p>
 </section>
 <section id="what-is-pyfluent">
-<h2>What is PyFluent?<a class="headerlink" href="#what-is-pyfluent" title="Permalink to this headline">¶</a></h2>
+<h2>What is PyFluent?<a class="headerlink" href="#what-is-pyfluent" title="Permalink to this headline">#</a></h2>
 <p>PyFluent is part of the <a class="reference external" href="https://docs.pyansys.com">PyAnsys</a> ecosystem that
 lets you use Ansys Fluent within or alongside any other Python environment,
 whether it is in conjunction with other Ansys Python libraries and packages or
@@ -294,7 +297,7 @@ can use PyFluent to enhance your productivity with highly configurable,
 customized scripts.</p>
 </section>
 <section id="features">
-<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">¶</a></h2>
+<h2>Features<a class="headerlink" href="#features" title="Permalink to this headline">#</a></h2>
 <p>The primary package, <code class="docutils literal notranslate"><span class="pre">ansys-fluent</span></code>, provides features such as:</p>
 <ul class="simple">
 <li><p>Scripting of Fluent’s meshing capabilities. See the <a class="reference internal" href="api/core/meshing/index.html#ref-meshing"><span class="std std-ref">Meshing</span></a> module
@@ -305,7 +308,7 @@ more information about the available commands.</p></li>
 </ul>
 </section>
 <section id="beta-features">
-<h2>Beta Features<a class="headerlink" href="#beta-features" title="Permalink to this headline">¶</a></h2>
+<h2>Beta Features<a class="headerlink" href="#beta-features" title="Permalink to this headline">#</a></h2>
 <p>The settings object interface provides a more Pythonic way to access and modify
 Fluent settings than the TUI command interface.  These API calls group Fluent
 settings into a tree of objects where individal settings for material
@@ -314,7 +317,7 @@ parameter lists.</p>
 <p>More information is available in the <a class="reference internal" href="api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects (Beta)</span></a> module documentation.</p>
 </section>
 <section id="documentation-and-issues">
-<h2>Documentation and Issues<a class="headerlink" href="#documentation-and-issues" title="Permalink to this headline">¶</a></h2>
+<h2>Documentation and Issues<a class="headerlink" href="#documentation-and-issues" title="Permalink to this headline">#</a></h2>
 <p>In addition to installation, usage, and contribution information, the PyFluent
 documentation provides API documentation, examples, and code guidelines.</p>
 <p>On the PyFluent Issues page, you can create issues to submit questions,
@@ -322,7 +325,7 @@ report bugs, and request new features. To reach the project support team,
 email <a class="reference external" href="mailto:pyansys&#46;support&#37;&#52;&#48;ansys&#46;com">pyansys<span>&#46;</span>support<span>&#64;</span>ansys<span>&#46;</span>com</a>.</p>
 </section>
 <section id="license">
-<h2>License<a class="headerlink" href="#license" title="Permalink to this headline">¶</a></h2>
+<h2>License<a class="headerlink" href="#license" title="Permalink to this headline">#</a></h2>
 <p>PyFluent is licensed under the MIT license.</p>
 <p>This module makes no commercial claim over Ansys whatsoever. PyFluent extends
 the functionality of Ansys Fluent by adding an additional Python interface to
@@ -332,7 +335,7 @@ licensed local copy of Ansys Fluent. For more information about Ansys Fluent,
 visit the Ansys Fluent page on the Ansys website.</p>
 </section>
 <section id="project-index">
-<h2>Project Index<a class="headerlink" href="#project-index" title="Permalink to this headline">¶</a></h2>
+<h2>Project Index<a class="headerlink" href="#project-index" title="Permalink to this headline">#</a></h2>
 <ul class="simple">
 <li><p><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></p></li>
 </ul>
@@ -349,7 +352,8 @@ visit the Ansys Fluent page on the Ansys website.</p>
       </div>
     </div>
   
-  <script src="_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
 <footer class="footer mt-5 mt-md-0">
   <div class="container">
     

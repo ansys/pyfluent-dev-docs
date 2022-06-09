@@ -9,8 +9,9 @@
     <title>Examples &#8212; PyFluent</title>
     
     
-  <link href="../_static/css/theme.css" rel="stylesheet">
-  <link href="../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -20,21 +21,18 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../_static/css/blank.css" />
     <link rel="stylesheet" type="text/css" href="../_static/jupyter-sphinx.css" />
     <link rel="stylesheet" type="text/css" href="../_static/thebelab.css" />
     <link rel="stylesheet" type="text/css" href="../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../_static/css/ansys_sphinx_theme.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sg_gallery.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sg_gallery-binder.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sg_gallery-dataframe.css" />
     <link rel="stylesheet" type="text/css" href="../_static/sg_gallery-rendered-html.css" />
     
-  <link rel="preload" as="script" href="../_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     
         <link href="../_static/css/breadcrumbs.css" rel="stylesheet">
@@ -48,6 +46,7 @@
     <script src="../_static/copybutton.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
+    <link rel="shortcut icon" href="../_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="End-to-end Fault-tolerant Meshing Workflow" href="00-fluent/exhaust_system.html" />
@@ -59,7 +58,7 @@
     <!-- Google Analytics -->
     
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
     
     <div class="container-fluid" id="banner"></div>
 
@@ -77,7 +76,7 @@
     
     
 
-<a class="navbar-brand" href="https://docs.pyansys.com/">
+<a class="navbar-brand" href="https://www.ansys.com/">
   <img src="../_static/pyansys-logo-black-cropped.png" class="logo" alt="logo">
 </a>
 
@@ -133,20 +132,20 @@
       
     </div>
 
+    
     <div id="navbar-end">
       
       <div class="navbar-end-item">
         <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/pyansys/pyfluent" rel="noopener" target="_blank" title="GitHub">
-            <span><i class="fab fa-github-square"></i></span>
-            <label class="sr-only">GitHub</label>
-          </a>
+          <a class="nav-link" href="https://github.com/pyansys/pyfluent" rel="noopener" target="_blank" title="GitHub"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
         </li>
       </ul>
       </div>
       
     </div>
+    
   </div>
 </div>
     </nav>
@@ -181,7 +180,8 @@
           
             
             <!-- Only show if we have sidebars configured, else just a small margin  -->
-            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
+            <div class="col-12 col-md-3 bd-sidebar">
+              <div class="sidebar-start-items"><form class="bd-search d-flex align-items-center" action="../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
@@ -210,6 +210,9 @@
 
   </div>
 </nav>
+              </div>
+              <div class="sidebar-end-items">
+              </div>
             </div>
             
           
@@ -220,7 +223,7 @@
               
               <div class="toc-item">
                 
-<div class="tocsection onthispage pt-5 pb-3">
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
     <i class="fas fa-list"></i> On this page
 </div>
 
@@ -255,17 +258,17 @@
               <div>
                 
   <section id="examples">
-<span id="ref-example-gallery"></span><span id="sphx-glr-examples"></span><h1>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">¶</a></h1>
+<span id="ref-example-gallery"></span><span id="sphx-glr-examples"></span><h1>Examples<a class="headerlink" href="#examples" title="Permalink to this headline">#</a></h1>
 <p>Add examples here for PyFluent <code class="docutils literal notranslate"><span class="pre">ansys-fluent</span></code>.</p>
 <div class="toctree-wrapper compound">
 </div>
 <div class="sphx-glr-clear"></div><section id="full-examples-using-pyfluent">
-<span id="sphx-glr-examples-00-fluent"></span><h2>Full Examples Using PyFluent<a class="headerlink" href="#full-examples-using-pyfluent" title="Permalink to this headline">¶</a></h2>
+<span id="sphx-glr-examples-00-fluent"></span><h2>Full Examples Using PyFluent<a class="headerlink" href="#full-examples-using-pyfluent" title="Permalink to this headline">#</a></h2>
 <p>These examples demonstrate how to use Fluent capabilities from Python.</p>
 <div class="sphx-glr-thumbcontainer" tooltip="End-to-end Fault Tolerant Meshing Workflow example"><figure class="align-default" id="id1">
 <img alt="End-to-end Fault-tolerant Meshing Workflow" src="../_images/sphx_glr_exhaust_system_thumb.png" />
 <figcaption>
-<p><span class="caption-text"><a class="reference internal" href="00-fluent/exhaust_system.html#sphx-glr-examples-00-fluent-exhaust-system-py"><span class="std std-ref">End-to-end Fault-tolerant Meshing Workflow</span></a></span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+<p><span class="caption-text"><a class="reference internal" href="00-fluent/exhaust_system.html#sphx-glr-examples-00-fluent-exhaust-system-py"><span class="std std-ref">End-to-end Fault-tolerant Meshing Workflow</span></a></span><a class="headerlink" href="#id1" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div><div class="toctree-wrapper compound">
@@ -273,7 +276,7 @@
 <div class="sphx-glr-thumbcontainer" tooltip="End-to-end Watertight Meshing Workflow example"><figure class="align-default" id="id2">
 <img alt="End-to-end Watertight Meshing Workflow" src="../_images/sphx_glr_mixing_elbow_thumb.png" />
 <figcaption>
-<p><span class="caption-text"><a class="reference internal" href="00-fluent/mixing_elbow.html#sphx-glr-examples-00-fluent-mixing-elbow-py"><span class="std std-ref">End-to-end Watertight Meshing Workflow</span></a></span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+<p><span class="caption-text"><a class="reference internal" href="00-fluent/mixing_elbow.html#sphx-glr-examples-00-fluent-mixing-elbow-py"><span class="std std-ref">End-to-end Watertight Meshing Workflow</span></a></span><a class="headerlink" href="#id2" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div><div class="toctree-wrapper compound">
@@ -281,7 +284,7 @@
 <div class="sphx-glr-thumbcontainer" tooltip="This example demonstrates use of &#x27;settings&#x27; modules (Beta)"><figure class="align-default" id="id3">
 <img alt="Fluent Setup and Solutoin using Settings API (Beta)" src="../_images/sphx_glr_mixing_elbow_settings_api_thumb.png" />
 <figcaption>
-<p><span class="caption-text"><a class="reference internal" href="00-fluent/mixing_elbow_settings_api.html#sphx-glr-examples-00-fluent-mixing-elbow-settings-api-py"><span class="std std-ref">Fluent Setup and Solutoin using Settings API (Beta)</span></a></span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+<p><span class="caption-text"><a class="reference internal" href="00-fluent/mixing_elbow_settings_api.html#sphx-glr-examples-00-fluent-mixing-elbow-settings-api-py"><span class="std std-ref">Fluent Setup and Solutoin using Settings API (Beta)</span></a></span><a class="headerlink" href="#id3" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
 </div><div class="toctree-wrapper compound">
@@ -300,7 +303,8 @@
       </div>
     </div>
   
-  <script src="../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
 <footer class="footer mt-5 mt-md-0">
   <div class="container">
     

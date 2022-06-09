@@ -9,8 +9,9 @@
     <title>meshing.tui.display &#8212; PyFluent</title>
     
     
-  <link href="../../../../../_static/css/theme.css" rel="stylesheet">
-  <link href="../../../../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+  <!-- Loaded before other Sphinx assets -->
+  <link href="../../../../../_static/styles/theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
+<link href="../../../../../_static/styles/pydata-sphinx-theme.css?digest=1999514e3f237ded88cf" rel="stylesheet">
 
     
   <link rel="stylesheet"
@@ -20,21 +21,18 @@
   <link rel="preload" as="font" type="font/woff2" crossorigin
     href="../../../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
 
-    
-      
-
-    
     <link rel="stylesheet" type="text/css" href="../../../../../_static/pygments.css" />
-    <link rel="stylesheet" type="text/css" href="../../../../../_static/css/blank.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/jupyter-sphinx.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/thebelab.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="../../../../../_static/css/ansys_sphinx_theme.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/sg_gallery.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/sg_gallery-binder.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/sg_gallery-dataframe.css" />
     <link rel="stylesheet" type="text/css" href="../../../../../_static/sg_gallery-rendered-html.css" />
     
-  <link rel="preload" as="script" href="../../../../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+  <!-- Pre-loaded scripts that we'll load fully later -->
+  <link rel="preload" as="script" href="../../../../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf">
 
     
         <link href="../../../../../_static/css/breadcrumbs.css" rel="stylesheet">
@@ -48,6 +46,7 @@
     <script src="../../../../../_static/copybutton.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
     <script src="https://unpkg.com/@jupyter-widgets/html-manager@^0.20.1/dist/embed-amd.js"></script>
+    <link rel="shortcut icon" href="../../../../../_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="../../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../../search.html" />
     <link rel="next" title="meshing.tui.display.set" href="set/index.html" />
@@ -59,7 +58,7 @@
     <!-- Google Analytics -->
     
   </head>
-  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="60">
     
     <div class="container-fluid" id="banner"></div>
 
@@ -77,7 +76,7 @@
     
     
 
-<a class="navbar-brand" href="https://docs.pyansys.com/">
+<a class="navbar-brand" href="https://www.ansys.com/">
   <img src="../../../../../_static/pyansys-logo-black-cropped.png" class="logo" alt="logo">
 </a>
 
@@ -133,20 +132,20 @@
       
     </div>
 
+    
     <div id="navbar-end">
       
       <div class="navbar-end-item">
         <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
         <li class="nav-item">
-          <a class="nav-link" href="https://github.com/pyansys/pyfluent" rel="noopener" target="_blank" title="GitHub">
-            <span><i class="fab fa-github-square"></i></span>
-            <label class="sr-only">GitHub</label>
-          </a>
+          <a class="nav-link" href="https://github.com/pyansys/pyfluent" rel="noopener" target="_blank" title="GitHub"><span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label></a>
         </li>
       </ul>
       </div>
       
     </div>
+    
   </div>
 </div>
     </nav>
@@ -185,7 +184,8 @@
           
             
             <!-- Only show if we have sidebars configured, else just a small margin  -->
-            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../../../../../search.html" method="get">
+            <div class="col-12 col-md-3 bd-sidebar">
+              <div class="sidebar-start-items"><form class="bd-search d-flex align-items-center" action="../../../../../search.html" method="get">
   <i class="icon fas fa-search"></i>
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
@@ -1767,14 +1767,185 @@
        </li>
       </ul>
      </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../../datamodel/index.html">
+       meshing.datamodel
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-71" name="toctree-checkbox-71" type="checkbox"/>
+      <label for="toctree-checkbox-71">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul>
+       <li class="toctree-l4 has-children">
+        <a class="reference internal" href="../../datamodel/workflow/index.html">
+         meshing.datamodel.workflow
+        </a>
+        <input class="toctree-checkbox" id="toctree-checkbox-72" name="toctree-checkbox-72" type="checkbox"/>
+        <label for="toctree-checkbox-72">
+         <i class="fas fa-chevron-down">
+         </i>
+        </label>
+        <ul>
+         <li class="toctree-l5">
+          <a class="reference internal" href="../../datamodel/workflow/Workflow/index.html">
+           meshing.datamodel.workflow.Workflow
+          </a>
+         </li>
+         <li class="toctree-l5">
+          <a class="reference internal" href="../../datamodel/workflow/TaskObject/index.html">
+           meshing.datamodel.workflow.TaskObject
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="toctree-l4 has-children">
+        <a class="reference internal" href="../../datamodel/meshing/index.html">
+         meshing.datamodel.meshing
+        </a>
+        <input class="toctree-checkbox" id="toctree-checkbox-73" name="toctree-checkbox-73" type="checkbox"/>
+        <label for="toctree-checkbox-73">
+         <i class="fas fa-chevron-down">
+         </i>
+        </label>
+        <ul>
+         <li class="toctree-l5 has-children">
+          <a class="reference internal" href="../../datamodel/meshing/GlobalSettings/index.html">
+           meshing.datamodel.meshing.GlobalSettings
+          </a>
+          <input class="toctree-checkbox" id="toctree-checkbox-74" name="toctree-checkbox-74" type="checkbox"/>
+          <label for="toctree-checkbox-74">
+           <i class="fas fa-chevron-down">
+           </i>
+          </label>
+          <ul>
+           <li class="toctree-l6">
+            <a class="reference internal" href="../../datamodel/meshing/GlobalSettings/FTMRegionData/index.html">
+             meshing.datamodel.meshing.GlobalSettings.FTMRegionData
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </li>
+       <li class="toctree-l4 has-children">
+        <a class="reference internal" href="../../datamodel/PartManagement/index.html">
+         meshing.datamodel.PartManagement
+        </a>
+        <input class="toctree-checkbox" id="toctree-checkbox-75" name="toctree-checkbox-75" type="checkbox"/>
+        <label for="toctree-checkbox-75">
+         <i class="fas fa-chevron-down">
+         </i>
+        </label>
+        <ul>
+         <li class="toctree-l5">
+          <a class="reference internal" href="../../datamodel/PartManagement/GlobalSettings/index.html">
+           meshing.datamodel.PartManagement.GlobalSettings
+          </a>
+         </li>
+         <li class="toctree-l5">
+          <a class="reference internal" href="../../datamodel/PartManagement/MeshingOperations/index.html">
+           meshing.datamodel.PartManagement.MeshingOperations
+          </a>
+         </li>
+         <li class="toctree-l5">
+          <a class="reference internal" href="../../datamodel/PartManagement/ObjectSettingOperations/index.html">
+           meshing.datamodel.PartManagement.ObjectSettingOperations
+          </a>
+         </li>
+         <li class="toctree-l5">
+          <a class="reference internal" href="../../datamodel/PartManagement/RefacetingOperations/index.html">
+           meshing.datamodel.PartManagement.RefacetingOperations
+          </a>
+         </li>
+         <li class="toctree-l5">
+          <a class="reference internal" href="../../datamodel/PartManagement/TransformOperations/index.html">
+           meshing.datamodel.PartManagement.TransformOperations
+          </a>
+         </li>
+         <li class="toctree-l5 has-children">
+          <a class="reference internal" href="../../datamodel/PartManagement/AssemblyNode/index.html">
+           meshing.datamodel.PartManagement.AssemblyNode
+          </a>
+          <input class="toctree-checkbox" id="toctree-checkbox-76" name="toctree-checkbox-76" type="checkbox"/>
+          <label for="toctree-checkbox-76">
+           <i class="fas fa-chevron-down">
+           </i>
+          </label>
+          <ul>
+           <li class="toctree-l6">
+            <a class="reference internal" href="../../datamodel/PartManagement/AssemblyNode/Refaceting/index.html">
+             meshing.datamodel.PartManagement.AssemblyNode.Refaceting
+            </a>
+           </li>
+          </ul>
+         </li>
+         <li class="toctree-l5">
+          <a class="reference internal" href="../../datamodel/PartManagement/Node/index.html">
+           meshing.datamodel.PartManagement.Node
+          </a>
+         </li>
+         <li class="toctree-l5">
+          <a class="reference internal" href="../../datamodel/PartManagement/ObjectSetting/index.html">
+           meshing.datamodel.PartManagement.ObjectSetting
+          </a>
+         </li>
+         <li class="toctree-l5">
+          <a class="reference internal" href="../../datamodel/PartManagement/Refaceting/index.html">
+           meshing.datamodel.PartManagement.Refaceting
+          </a>
+         </li>
+         <li class="toctree-l5">
+          <a class="reference internal" href="../../datamodel/PartManagement/Transform/index.html">
+           meshing.datamodel.PartManagement.Transform
+          </a>
+         </li>
+        </ul>
+       </li>
+       <li class="toctree-l4 has-children">
+        <a class="reference internal" href="../../datamodel/PMFileManagement/index.html">
+         meshing.datamodel.PMFileManagement
+        </a>
+        <input class="toctree-checkbox" id="toctree-checkbox-77" name="toctree-checkbox-77" type="checkbox"/>
+        <label for="toctree-checkbox-77">
+         <i class="fas fa-chevron-down">
+         </i>
+        </label>
+        <ul>
+         <li class="toctree-l5">
+          <a class="reference internal" href="../../datamodel/PMFileManagement/FileManager/index.html">
+           meshing.datamodel.PMFileManagement.FileManager
+          </a>
+         </li>
+         <li class="toctree-l5 has-children">
+          <a class="reference internal" href="../../datamodel/PMFileManagement/File/index.html">
+           meshing.datamodel.PMFileManagement.File
+          </a>
+          <input class="toctree-checkbox" id="toctree-checkbox-78" name="toctree-checkbox-78" type="checkbox"/>
+          <label for="toctree-checkbox-78">
+           <i class="fas fa-chevron-down">
+           </i>
+          </label>
+          <ul>
+           <li class="toctree-l6">
+            <a class="reference internal" href="../../datamodel/PMFileManagement/File/Options/index.html">
+             meshing.datamodel.PMFileManagement.File.Options
+            </a>
+           </li>
+          </ul>
+         </li>
+        </ul>
+       </li>
+      </ul>
+     </li>
     </ul>
    </li>
    <li class="toctree-l2 has-children">
     <a class="reference internal" href="../../../solver/index.html">
      Solver
     </a>
-    <input class="toctree-checkbox" id="toctree-checkbox-71" name="toctree-checkbox-71" type="checkbox"/>
-    <label for="toctree-checkbox-71">
+    <input class="toctree-checkbox" id="toctree-checkbox-79" name="toctree-checkbox-79" type="checkbox"/>
+    <label for="toctree-checkbox-79">
      <i class="fas fa-chevron-down">
      </i>
     </label>
@@ -1788,8 +1959,8 @@
       <a class="reference internal" href="../../../solver/tui/index.html">
        solver.tui
       </a>
-      <input class="toctree-checkbox" id="toctree-checkbox-72" name="toctree-checkbox-72" type="checkbox"/>
-      <label for="toctree-checkbox-72">
+      <input class="toctree-checkbox" id="toctree-checkbox-80" name="toctree-checkbox-80" type="checkbox"/>
+      <label for="toctree-checkbox-80">
        <i class="fas fa-chevron-down">
        </i>
       </label>
@@ -1803,8 +1974,8 @@
         <a class="reference internal" href="../../../solver/tui/display/index.html">
          solver.tui.display
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-73" name="toctree-checkbox-73" type="checkbox"/>
-        <label for="toctree-checkbox-73">
+        <input class="toctree-checkbox" id="toctree-checkbox-81" name="toctree-checkbox-81" type="checkbox"/>
+        <label for="toctree-checkbox-81">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -1843,8 +2014,8 @@
           <a class="reference internal" href="../../../solver/tui/display/set/index.html">
            solver.tui.display.set
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-74" name="toctree-checkbox-74" type="checkbox"/>
-          <label for="toctree-checkbox-74">
+          <input class="toctree-checkbox" id="toctree-checkbox-82" name="toctree-checkbox-82" type="checkbox"/>
+          <label for="toctree-checkbox-82">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -1853,8 +2024,8 @@
             <a class="reference internal" href="../../../solver/tui/display/set/colors/index.html">
              solver.tui.display.set.colors
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-75" name="toctree-checkbox-75" type="checkbox"/>
-            <label for="toctree-checkbox-75">
+            <input class="toctree-checkbox" id="toctree-checkbox-83" name="toctree-checkbox-83" type="checkbox"/>
+            <label for="toctree-checkbox-83">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -1863,8 +2034,8 @@
               <a class="reference internal" href="../../../solver/tui/display/set/colors/by_type/index.html">
                solver.tui.display.set.colors.by_type
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-76" name="toctree-checkbox-76" type="checkbox"/>
-              <label for="toctree-checkbox-76">
+              <input class="toctree-checkbox" id="toctree-checkbox-84" name="toctree-checkbox-84" type="checkbox"/>
+              <label for="toctree-checkbox-84">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -1873,8 +2044,8 @@
                 <a class="reference internal" href="../../../solver/tui/display/set/colors/by_type/type_name/index.html">
                  solver.tui.display.set.colors.by_type.type_name
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-77" name="toctree-checkbox-77" type="checkbox"/>
-                <label for="toctree-checkbox-77">
+                <input class="toctree-checkbox" id="toctree-checkbox-85" name="toctree-checkbox-85" type="checkbox"/>
+                <label for="toctree-checkbox-85">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -1974,8 +2145,8 @@
             <a class="reference internal" href="../../../solver/tui/display/set/picture/index.html">
              solver.tui.display.set.picture
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-78" name="toctree-checkbox-78" type="checkbox"/>
-            <label for="toctree-checkbox-78">
+            <input class="toctree-checkbox" id="toctree-checkbox-86" name="toctree-checkbox-86" type="checkbox"/>
+            <label for="toctree-checkbox-86">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -1989,8 +2160,8 @@
               <a class="reference internal" href="../../../solver/tui/display/set/picture/driver/index.html">
                solver.tui.display.set.picture.driver
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-79" name="toctree-checkbox-79" type="checkbox"/>
-              <label for="toctree-checkbox-79">
+              <input class="toctree-checkbox" id="toctree-checkbox-87" name="toctree-checkbox-87" type="checkbox"/>
+              <label for="toctree-checkbox-87">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -2008,8 +2179,8 @@
             <a class="reference internal" href="../../../solver/tui/display/set/lights/index.html">
              solver.tui.display.set.lights
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-80" name="toctree-checkbox-80" type="checkbox"/>
-            <label for="toctree-checkbox-80">
+            <input class="toctree-checkbox" id="toctree-checkbox-88" name="toctree-checkbox-88" type="checkbox"/>
+            <label for="toctree-checkbox-88">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -2025,8 +2196,8 @@
             <a class="reference internal" href="../../../solver/tui/display/set/particle_tracks/index.html">
              solver.tui.display.set.particle_tracks
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-81" name="toctree-checkbox-81" type="checkbox"/>
-            <label for="toctree-checkbox-81">
+            <input class="toctree-checkbox" id="toctree-checkbox-89" name="toctree-checkbox-89" type="checkbox"/>
+            <label for="toctree-checkbox-89">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -2072,8 +2243,8 @@
             <a class="reference internal" href="../../../solver/tui/display/set/windows/index.html">
              solver.tui.display.set.windows
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-82" name="toctree-checkbox-82" type="checkbox"/>
-            <label for="toctree-checkbox-82">
+            <input class="toctree-checkbox" id="toctree-checkbox-90" name="toctree-checkbox-90" type="checkbox"/>
+            <label for="toctree-checkbox-90">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -2116,8 +2287,8 @@
           <a class="reference internal" href="../../../solver/tui/display/surface/index.html">
            solver.tui.display.surface
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-83" name="toctree-checkbox-83" type="checkbox"/>
-          <label for="toctree-checkbox-83">
+          <input class="toctree-checkbox" id="toctree-checkbox-91" name="toctree-checkbox-91" type="checkbox"/>
+          <label for="toctree-checkbox-91">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -2138,8 +2309,8 @@
           <a class="reference internal" href="../../../solver/tui/display/views/index.html">
            solver.tui.display.views
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-84" name="toctree-checkbox-84" type="checkbox"/>
-          <label for="toctree-checkbox-84">
+          <input class="toctree-checkbox" id="toctree-checkbox-92" name="toctree-checkbox-92" type="checkbox"/>
+          <label for="toctree-checkbox-92">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -2177,8 +2348,8 @@
         <a class="reference internal" href="../../../solver/tui/define/index.html">
          solver.tui.define
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-85" name="toctree-checkbox-85" type="checkbox"/>
-        <label for="toctree-checkbox-85">
+        <input class="toctree-checkbox" id="toctree-checkbox-93" name="toctree-checkbox-93" type="checkbox"/>
+        <label for="toctree-checkbox-93">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -2187,8 +2358,8 @@
           <a class="reference internal" href="../../../solver/tui/define/boundary_conditions/index.html">
            solver.tui.define.boundary_conditions
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-86" name="toctree-checkbox-86" type="checkbox"/>
-          <label for="toctree-checkbox-86">
+          <input class="toctree-checkbox" id="toctree-checkbox-94" name="toctree-checkbox-94" type="checkbox"/>
+          <label for="toctree-checkbox-94">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -2207,8 +2378,8 @@
             <a class="reference internal" href="../../../solver/tui/define/boundary_conditions/non_reflecting_bc/index.html">
              solver.tui.define.boundary_conditions.non_reflecting_bc
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-87" name="toctree-checkbox-87" type="checkbox"/>
-            <label for="toctree-checkbox-87">
+            <input class="toctree-checkbox" id="toctree-checkbox-95" name="toctree-checkbox-95" type="checkbox"/>
+            <label for="toctree-checkbox-95">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -2217,8 +2388,8 @@
               <a class="reference internal" href="../../../solver/tui/define/boundary_conditions/non_reflecting_bc/general_nrbc/index.html">
                solver.tui.define.boundary_conditions.non_reflecting_bc.general_nrbc
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-88" name="toctree-checkbox-88" type="checkbox"/>
-              <label for="toctree-checkbox-88">
+              <input class="toctree-checkbox" id="toctree-checkbox-96" name="toctree-checkbox-96" type="checkbox"/>
+              <label for="toctree-checkbox-96">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -2234,8 +2405,8 @@
               <a class="reference internal" href="../../../solver/tui/define/boundary_conditions/non_reflecting_bc/turbo_specific_nrbc/index.html">
                solver.tui.define.boundary_conditions.non_reflecting_bc.turbo_specific_nrbc
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-89" name="toctree-checkbox-89" type="checkbox"/>
-              <label for="toctree-checkbox-89">
+              <input class="toctree-checkbox" id="toctree-checkbox-97" name="toctree-checkbox-97" type="checkbox"/>
+              <label for="toctree-checkbox-97">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -2258,8 +2429,8 @@
             <a class="reference internal" href="../../../solver/tui/define/boundary_conditions/bc_settings/index.html">
              solver.tui.define.boundary_conditions.bc_settings
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-90" name="toctree-checkbox-90" type="checkbox"/>
-            <label for="toctree-checkbox-90">
+            <input class="toctree-checkbox" id="toctree-checkbox-98" name="toctree-checkbox-98" type="checkbox"/>
+            <label for="toctree-checkbox-98">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -2302,8 +2473,8 @@
           <a class="reference internal" href="../../../solver/tui/define/dynamic_mesh/index.html">
            solver.tui.define.dynamic_mesh
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-91" name="toctree-checkbox-91" type="checkbox"/>
-          <label for="toctree-checkbox-91">
+          <input class="toctree-checkbox" id="toctree-checkbox-99" name="toctree-checkbox-99" type="checkbox"/>
+          <label for="toctree-checkbox-99">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -2312,8 +2483,8 @@
             <a class="reference internal" href="../../../solver/tui/define/dynamic_mesh/controls/index.html">
              solver.tui.define.dynamic_mesh.controls
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-92" name="toctree-checkbox-92" type="checkbox"/>
-            <label for="toctree-checkbox-92">
+            <input class="toctree-checkbox" id="toctree-checkbox-100" name="toctree-checkbox-100" type="checkbox"/>
+            <label for="toctree-checkbox-100">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -2332,8 +2503,8 @@
               <a class="reference internal" href="../../../solver/tui/define/dynamic_mesh/controls/remeshing_parameters/index.html">
                solver.tui.define.dynamic_mesh.controls.remeshing_parameters
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-93" name="toctree-checkbox-93" type="checkbox"/>
-              <label for="toctree-checkbox-93">
+              <input class="toctree-checkbox" id="toctree-checkbox-101" name="toctree-checkbox-101" type="checkbox"/>
+              <label for="toctree-checkbox-101">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -2379,8 +2550,8 @@
               <a class="reference internal" href="../../../solver/tui/define/dynamic_mesh/controls/contact_parameters/index.html">
                solver.tui.define.dynamic_mesh.controls.contact_parameters
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-94" name="toctree-checkbox-94" type="checkbox"/>
-              <label for="toctree-checkbox-94">
+              <input class="toctree-checkbox" id="toctree-checkbox-102" name="toctree-checkbox-102" type="checkbox"/>
+              <label for="toctree-checkbox-102">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -2420,8 +2591,8 @@
           <a class="reference internal" href="../../../solver/tui/define/mesh_interfaces/index.html">
            solver.tui.define.mesh_interfaces
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-95" name="toctree-checkbox-95" type="checkbox"/>
-          <label for="toctree-checkbox-95">
+          <input class="toctree-checkbox" id="toctree-checkbox-103" name="toctree-checkbox-103" type="checkbox"/>
+          <label for="toctree-checkbox-103">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -2447,8 +2618,8 @@
           <a class="reference internal" href="../../../solver/tui/define/gap_model/index.html">
            solver.tui.define.gap_model
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-96" name="toctree-checkbox-96" type="checkbox"/>
-          <label for="toctree-checkbox-96">
+          <input class="toctree-checkbox" id="toctree-checkbox-104" name="toctree-checkbox-104" type="checkbox"/>
+          <label for="toctree-checkbox-104">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -2464,8 +2635,8 @@
           <a class="reference internal" href="../../../solver/tui/define/materials/index.html">
            solver.tui.define.materials
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-97" name="toctree-checkbox-97" type="checkbox"/>
-          <label for="toctree-checkbox-97">
+          <input class="toctree-checkbox" id="toctree-checkbox-105" name="toctree-checkbox-105" type="checkbox"/>
+          <label for="toctree-checkbox-105">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -2481,8 +2652,8 @@
           <a class="reference internal" href="../../../solver/tui/define/mixing_planes/index.html">
            solver.tui.define.mixing_planes
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-98" name="toctree-checkbox-98" type="checkbox"/>
-          <label for="toctree-checkbox-98">
+          <input class="toctree-checkbox" id="toctree-checkbox-106" name="toctree-checkbox-106" type="checkbox"/>
+          <label for="toctree-checkbox-106">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -2491,8 +2662,8 @@
             <a class="reference internal" href="../../../solver/tui/define/mixing_planes/set/index.html">
              solver.tui.define.mixing_planes.set
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-99" name="toctree-checkbox-99" type="checkbox"/>
-            <label for="toctree-checkbox-99">
+            <input class="toctree-checkbox" id="toctree-checkbox-107" name="toctree-checkbox-107" type="checkbox"/>
+            <label for="toctree-checkbox-107">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -2515,8 +2686,8 @@
           <a class="reference internal" href="../../../solver/tui/define/models/index.html">
            solver.tui.define.models
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-100" name="toctree-checkbox-100" type="checkbox"/>
-          <label for="toctree-checkbox-100">
+          <input class="toctree-checkbox" id="toctree-checkbox-108" name="toctree-checkbox-108" type="checkbox"/>
+          <label for="toctree-checkbox-108">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -2525,8 +2696,8 @@
             <a class="reference internal" href="../../../solver/tui/define/models/acoustics/index.html">
              solver.tui.define.models.acoustics
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-101" name="toctree-checkbox-101" type="checkbox"/>
-            <label for="toctree-checkbox-101">
+            <input class="toctree-checkbox" id="toctree-checkbox-109" name="toctree-checkbox-109" type="checkbox"/>
+            <label for="toctree-checkbox-109">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -2540,8 +2711,8 @@
               <a class="reference internal" href="../../../solver/tui/define/models/acoustics/wave_equation_options/index.html">
                solver.tui.define.models.acoustics.wave_equation_options
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-102" name="toctree-checkbox-102" type="checkbox"/>
-              <label for="toctree-checkbox-102">
+              <input class="toctree-checkbox" id="toctree-checkbox-110" name="toctree-checkbox-110" type="checkbox"/>
+              <label for="toctree-checkbox-110">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -2562,8 +2733,8 @@
               <a class="reference internal" href="../../../solver/tui/define/models/acoustics/sources_fft/index.html">
                solver.tui.define.models.acoustics.sources_fft
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-103" name="toctree-checkbox-103" type="checkbox"/>
-              <label for="toctree-checkbox-103">
+              <input class="toctree-checkbox" id="toctree-checkbox-111" name="toctree-checkbox-111" type="checkbox"/>
+              <label for="toctree-checkbox-111">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -2586,8 +2757,8 @@
             <a class="reference internal" href="../../../solver/tui/define/models/optics/index.html">
              solver.tui.define.models.optics
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-104" name="toctree-checkbox-104" type="checkbox"/>
-            <label for="toctree-checkbox-104">
+            <input class="toctree-checkbox" id="toctree-checkbox-112" name="toctree-checkbox-112" type="checkbox"/>
+            <label for="toctree-checkbox-112">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -2603,8 +2774,8 @@
             <a class="reference internal" href="../../../solver/tui/define/models/eulerian_wallfilm/index.html">
              solver.tui.define.models.eulerian_wallfilm
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-105" name="toctree-checkbox-105" type="checkbox"/>
-            <label for="toctree-checkbox-105">
+            <input class="toctree-checkbox" id="toctree-checkbox-113" name="toctree-checkbox-113" type="checkbox"/>
+            <label for="toctree-checkbox-113">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -2625,8 +2796,8 @@
             <a class="reference internal" href="../../../solver/tui/define/models/dpm/index.html">
              solver.tui.define.models.dpm
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-106" name="toctree-checkbox-106" type="checkbox"/>
-            <label for="toctree-checkbox-106">
+            <input class="toctree-checkbox" id="toctree-checkbox-114" name="toctree-checkbox-114" type="checkbox"/>
+            <label for="toctree-checkbox-114">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -2635,8 +2806,8 @@
               <a class="reference internal" href="../../../solver/tui/define/models/dpm/collisions/index.html">
                solver.tui.define.models.dpm.collisions
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-107" name="toctree-checkbox-107" type="checkbox"/>
-              <label for="toctree-checkbox-107">
+              <input class="toctree-checkbox" id="toctree-checkbox-115" name="toctree-checkbox-115" type="checkbox"/>
+              <label for="toctree-checkbox-115">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -2652,8 +2823,8 @@
               <a class="reference internal" href="../../../solver/tui/define/models/dpm/erosion_dynamic_mesh/index.html">
                solver.tui.define.models.dpm.erosion_dynamic_mesh
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-108" name="toctree-checkbox-108" type="checkbox"/>
-              <label for="toctree-checkbox-108">
+              <input class="toctree-checkbox" id="toctree-checkbox-116" name="toctree-checkbox-116" type="checkbox"/>
+              <label for="toctree-checkbox-116">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -2679,8 +2850,8 @@
               <a class="reference internal" href="../../../solver/tui/define/models/dpm/numerics/index.html">
                solver.tui.define.models.dpm.numerics
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-109" name="toctree-checkbox-109" type="checkbox"/>
-              <label for="toctree-checkbox-109">
+              <input class="toctree-checkbox" id="toctree-checkbox-117" name="toctree-checkbox-117" type="checkbox"/>
+              <label for="toctree-checkbox-117">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -2689,8 +2860,8 @@
                 <a class="reference internal" href="../../../solver/tui/define/models/dpm/numerics/high_resolution_tracking/index.html">
                  solver.tui.define.models.dpm.numerics.high_resolution_tracking
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-110" name="toctree-checkbox-110" type="checkbox"/>
-                <label for="toctree-checkbox-110">
+                <input class="toctree-checkbox" id="toctree-checkbox-118" name="toctree-checkbox-118" type="checkbox"/>
+                <label for="toctree-checkbox-118">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -2718,8 +2889,8 @@
               <a class="reference internal" href="../../../solver/tui/define/models/dpm/parallel/index.html">
                solver.tui.define.models.dpm.parallel
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-111" name="toctree-checkbox-111" type="checkbox"/>
-              <label for="toctree-checkbox-111">
+              <input class="toctree-checkbox" id="toctree-checkbox-119" name="toctree-checkbox-119" type="checkbox"/>
+              <label for="toctree-checkbox-119">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -2752,8 +2923,8 @@
             <a class="reference internal" href="../../../solver/tui/define/models/system_coupling_settings/index.html">
              solver.tui.define.models.system_coupling_settings
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-112" name="toctree-checkbox-112" type="checkbox"/>
-            <label for="toctree-checkbox-112">
+            <input class="toctree-checkbox" id="toctree-checkbox-120" name="toctree-checkbox-120" type="checkbox"/>
+            <label for="toctree-checkbox-120">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -2762,8 +2933,8 @@
               <a class="reference internal" href="../../../solver/tui/define/models/system_coupling_settings/htc/index.html">
                solver.tui.define.models.system_coupling_settings.htc
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-113" name="toctree-checkbox-113" type="checkbox"/>
-              <label for="toctree-checkbox-113">
+              <input class="toctree-checkbox" id="toctree-checkbox-121" name="toctree-checkbox-121" type="checkbox"/>
+              <label for="toctree-checkbox-121">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -2786,8 +2957,8 @@
             <a class="reference internal" href="../../../solver/tui/define/models/cht/index.html">
              solver.tui.define.models.cht
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-114" name="toctree-checkbox-114" type="checkbox"/>
-            <label for="toctree-checkbox-114">
+            <input class="toctree-checkbox" id="toctree-checkbox-122" name="toctree-checkbox-122" type="checkbox"/>
+            <label for="toctree-checkbox-122">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -2808,8 +2979,8 @@
             <a class="reference internal" href="../../../solver/tui/define/models/multiphase/index.html">
              solver.tui.define.models.multiphase
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-115" name="toctree-checkbox-115" type="checkbox"/>
-            <label for="toctree-checkbox-115">
+            <input class="toctree-checkbox" id="toctree-checkbox-123" name="toctree-checkbox-123" type="checkbox"/>
+            <label for="toctree-checkbox-123">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -2818,8 +2989,8 @@
               <a class="reference internal" href="../../../solver/tui/define/models/multiphase/phases/index.html">
                solver.tui.define.models.multiphase.phases
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-116" name="toctree-checkbox-116" type="checkbox"/>
-              <label for="toctree-checkbox-116">
+              <input class="toctree-checkbox" id="toctree-checkbox-124" name="toctree-checkbox-124" type="checkbox"/>
+              <label for="toctree-checkbox-124">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -2828,8 +2999,8 @@
                 <a class="reference internal" href="../../../solver/tui/define/models/multiphase/phases/set_domain_properties/index.html">
                  solver.tui.define.models.multiphase.phases.set_domain_properties
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-117" name="toctree-checkbox-117" type="checkbox"/>
-                <label for="toctree-checkbox-117">
+                <input class="toctree-checkbox" id="toctree-checkbox-125" name="toctree-checkbox-125" type="checkbox"/>
+                <label for="toctree-checkbox-125">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -2838,8 +3009,8 @@
                   <a class="reference internal" href="../../../solver/tui/define/models/multiphase/phases/set_domain_properties/interaction_domain/index.html">
                    solver.tui.define.models.multiphase.phases.set_domain_properties.interaction_domain
                   </a>
-                  <input class="toctree-checkbox" id="toctree-checkbox-118" name="toctree-checkbox-118" type="checkbox"/>
-                  <label for="toctree-checkbox-118">
+                  <input class="toctree-checkbox" id="toctree-checkbox-126" name="toctree-checkbox-126" type="checkbox"/>
+                  <label for="toctree-checkbox-126">
                    <i class="fas fa-chevron-down">
                    </i>
                   </label>
@@ -2848,8 +3019,8 @@
                     <a class="reference internal" href="../../../solver/tui/define/models/multiphase/phases/set_domain_properties/interaction_domain/forces/index.html">
                      solver.tui.define.models.multiphase.phases.set_domain_properties.interaction_domain.forces
                     </a>
-                    <input class="toctree-checkbox" id="toctree-checkbox-119" name="toctree-checkbox-119" type="checkbox"/>
-                    <label for="toctree-checkbox-119">
+                    <input class="toctree-checkbox" id="toctree-checkbox-127" name="toctree-checkbox-127" type="checkbox"/>
+                    <label for="toctree-checkbox-127">
                      <i class="fas fa-chevron-down">
                      </i>
                     </label>
@@ -2890,8 +3061,8 @@
                     <a class="reference internal" href="../../../solver/tui/define/models/multiphase/phases/set_domain_properties/interaction_domain/heat_mass_reactions/index.html">
                      solver.tui.define.models.multiphase.phases.set_domain_properties.interaction_domain.heat_mass_reactions
                     </a>
-                    <input class="toctree-checkbox" id="toctree-checkbox-120" name="toctree-checkbox-120" type="checkbox"/>
-                    <label for="toctree-checkbox-120">
+                    <input class="toctree-checkbox" id="toctree-checkbox-128" name="toctree-checkbox-128" type="checkbox"/>
+                    <label for="toctree-checkbox-128">
                      <i class="fas fa-chevron-down">
                      </i>
                     </label>
@@ -2932,8 +3103,8 @@
                     <a class="reference internal" href="../../../solver/tui/define/models/multiphase/phases/set_domain_properties/interaction_domain/interfacial_area/index.html">
                      solver.tui.define.models.multiphase.phases.set_domain_properties.interaction_domain.interfacial_area
                     </a>
-                    <input class="toctree-checkbox" id="toctree-checkbox-121" name="toctree-checkbox-121" type="checkbox"/>
-                    <label for="toctree-checkbox-121">
+                    <input class="toctree-checkbox" id="toctree-checkbox-129" name="toctree-checkbox-129" type="checkbox"/>
+                    <label for="toctree-checkbox-129">
                      <i class="fas fa-chevron-down">
                      </i>
                     </label>
@@ -2974,8 +3145,8 @@
                     <a class="reference internal" href="../../../solver/tui/define/models/multiphase/phases/set_domain_properties/interaction_domain/model_transition/index.html">
                      solver.tui.define.models.multiphase.phases.set_domain_properties.interaction_domain.model_transition
                     </a>
-                    <input class="toctree-checkbox" id="toctree-checkbox-122" name="toctree-checkbox-122" type="checkbox"/>
-                    <label for="toctree-checkbox-122">
+                    <input class="toctree-checkbox" id="toctree-checkbox-130" name="toctree-checkbox-130" type="checkbox"/>
+                    <label for="toctree-checkbox-130">
                      <i class="fas fa-chevron-down">
                      </i>
                     </label>
@@ -3016,8 +3187,8 @@
                     <a class="reference internal" href="../../../solver/tui/define/models/multiphase/phases/set_domain_properties/interaction_domain/numerics/index.html">
                      solver.tui.define.models.multiphase.phases.set_domain_properties.interaction_domain.numerics
                     </a>
-                    <input class="toctree-checkbox" id="toctree-checkbox-123" name="toctree-checkbox-123" type="checkbox"/>
-                    <label for="toctree-checkbox-123">
+                    <input class="toctree-checkbox" id="toctree-checkbox-131" name="toctree-checkbox-131" type="checkbox"/>
+                    <label for="toctree-checkbox-131">
                      <i class="fas fa-chevron-down">
                      </i>
                     </label>
@@ -3069,8 +3240,8 @@
               <a class="reference internal" href="../../../solver/tui/define/models/multiphase/wet_steam/index.html">
                solver.tui.define.models.multiphase.wet_steam
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-124" name="toctree-checkbox-124" type="checkbox"/>
-              <label for="toctree-checkbox-124">
+              <input class="toctree-checkbox" id="toctree-checkbox-132" name="toctree-checkbox-132" type="checkbox"/>
+              <label for="toctree-checkbox-132">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -3086,8 +3257,8 @@
               <a class="reference internal" href="../../../solver/tui/define/models/multiphase/population_balance/index.html">
                solver.tui.define.models.multiphase.population_balance
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-125" name="toctree-checkbox-125" type="checkbox"/>
-              <label for="toctree-checkbox-125">
+              <input class="toctree-checkbox" id="toctree-checkbox-133" name="toctree-checkbox-133" type="checkbox"/>
+              <label for="toctree-checkbox-133">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -3101,8 +3272,8 @@
                 <a class="reference internal" href="../../../solver/tui/define/models/multiphase/population_balance/expert/index.html">
                  solver.tui.define.models.multiphase.population_balance.expert
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-126" name="toctree-checkbox-126" type="checkbox"/>
-                <label for="toctree-checkbox-126">
+                <input class="toctree-checkbox" id="toctree-checkbox-134" name="toctree-checkbox-134" type="checkbox"/>
+                <label for="toctree-checkbox-134">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -3120,8 +3291,8 @@
               <a class="reference internal" href="../../../solver/tui/define/models/multiphase/explicit_expert_options/index.html">
                solver.tui.define.models.multiphase.explicit_expert_options
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-127" name="toctree-checkbox-127" type="checkbox"/>
-              <label for="toctree-checkbox-127">
+              <input class="toctree-checkbox" id="toctree-checkbox-135" name="toctree-checkbox-135" type="checkbox"/>
+              <label for="toctree-checkbox-135">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -3149,8 +3320,8 @@
             <a class="reference internal" href="../../../solver/tui/define/models/radiation/index.html">
              solver.tui.define.models.radiation
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-128" name="toctree-checkbox-128" type="checkbox"/>
-            <label for="toctree-checkbox-128">
+            <input class="toctree-checkbox" id="toctree-checkbox-136" name="toctree-checkbox-136" type="checkbox"/>
+            <label for="toctree-checkbox-136">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -3181,8 +3352,8 @@
             <a class="reference internal" href="../../../solver/tui/define/models/species/index.html">
              solver.tui.define.models.species
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-129" name="toctree-checkbox-129" type="checkbox"/>
-            <label for="toctree-checkbox-129">
+            <input class="toctree-checkbox" id="toctree-checkbox-137" name="toctree-checkbox-137" type="checkbox"/>
+            <label for="toctree-checkbox-137">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -3198,8 +3369,8 @@
             <a class="reference internal" href="../../../solver/tui/define/models/viscous/index.html">
              solver.tui.define.models.viscous
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-130" name="toctree-checkbox-130" type="checkbox"/>
-            <label for="toctree-checkbox-130">
+            <input class="toctree-checkbox" id="toctree-checkbox-138" name="toctree-checkbox-138" type="checkbox"/>
+            <label for="toctree-checkbox-138">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -3235,8 +3406,8 @@
             <a class="reference internal" href="../../../solver/tui/define/models/structure/index.html">
              solver.tui.define.models.structure
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-131" name="toctree-checkbox-131" type="checkbox"/>
-            <label for="toctree-checkbox-131">
+            <input class="toctree-checkbox" id="toctree-checkbox-139" name="toctree-checkbox-139" type="checkbox"/>
+            <label for="toctree-checkbox-139">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -3257,8 +3428,8 @@
             <a class="reference internal" href="../../../solver/tui/define/models/heat_exchanger/index.html">
              solver.tui.define.models.heat_exchanger
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-132" name="toctree-checkbox-132" type="checkbox"/>
-            <label for="toctree-checkbox-132">
+            <input class="toctree-checkbox" id="toctree-checkbox-140" name="toctree-checkbox-140" type="checkbox"/>
+            <label for="toctree-checkbox-140">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -3279,8 +3450,8 @@
             <a class="reference internal" href="../../../solver/tui/define/models/electrolysis_setup/index.html">
              solver.tui.define.models.electrolysis_setup
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-133" name="toctree-checkbox-133" type="checkbox"/>
-            <label for="toctree-checkbox-133">
+            <input class="toctree-checkbox" id="toctree-checkbox-141" name="toctree-checkbox-141" type="checkbox"/>
+            <label for="toctree-checkbox-141">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -3308,8 +3479,8 @@
           <a class="reference internal" href="../../../solver/tui/define/overset_interfaces/index.html">
            solver.tui.define.overset_interfaces
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-134" name="toctree-checkbox-134" type="checkbox"/>
-          <label for="toctree-checkbox-134">
+          <input class="toctree-checkbox" id="toctree-checkbox-142" name="toctree-checkbox-142" type="checkbox"/>
+          <label for="toctree-checkbox-142">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -3323,8 +3494,8 @@
             <a class="reference internal" href="../../../solver/tui/define/overset_interfaces/cut_control/index.html">
              solver.tui.define.overset_interfaces.cut_control
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-135" name="toctree-checkbox-135" type="checkbox"/>
-            <label for="toctree-checkbox-135">
+            <input class="toctree-checkbox" id="toctree-checkbox-143" name="toctree-checkbox-143" type="checkbox"/>
+            <label for="toctree-checkbox-143">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -3340,8 +3511,8 @@
             <a class="reference internal" href="../../../solver/tui/define/overset_interfaces/adapt/index.html">
              solver.tui.define.overset_interfaces.adapt
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-136" name="toctree-checkbox-136" type="checkbox"/>
-            <label for="toctree-checkbox-136">
+            <input class="toctree-checkbox" id="toctree-checkbox-144" name="toctree-checkbox-144" type="checkbox"/>
+            <label for="toctree-checkbox-144">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -3364,8 +3535,8 @@
           <a class="reference internal" href="../../../solver/tui/define/parameters/index.html">
            solver.tui.define.parameters
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-137" name="toctree-checkbox-137" type="checkbox"/>
-          <label for="toctree-checkbox-137">
+          <input class="toctree-checkbox" id="toctree-checkbox-145" name="toctree-checkbox-145" type="checkbox"/>
+          <label for="toctree-checkbox-145">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -3374,8 +3545,8 @@
             <a class="reference internal" href="../../../solver/tui/define/parameters/input_parameters/index.html">
              solver.tui.define.parameters.input_parameters
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-138" name="toctree-checkbox-138" type="checkbox"/>
-            <label for="toctree-checkbox-138">
+            <input class="toctree-checkbox" id="toctree-checkbox-146" name="toctree-checkbox-146" type="checkbox"/>
+            <label for="toctree-checkbox-146">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -3408,8 +3579,8 @@
           <a class="reference internal" href="../../../solver/tui/define/turbo_model/index.html">
            solver.tui.define.turbo_model
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-139" name="toctree-checkbox-139" type="checkbox"/>
-          <label for="toctree-checkbox-139">
+          <input class="toctree-checkbox" id="toctree-checkbox-147" name="toctree-checkbox-147" type="checkbox"/>
+          <label for="toctree-checkbox-147">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -3423,8 +3594,8 @@
             <a class="reference internal" href="../../../solver/tui/define/turbo_model/general_turbo_interface_settings/index.html">
              solver.tui.define.turbo_model.general_turbo_interface_settings
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-140" name="toctree-checkbox-140" type="checkbox"/>
-            <label for="toctree-checkbox-140">
+            <input class="toctree-checkbox" id="toctree-checkbox-148" name="toctree-checkbox-148" type="checkbox"/>
+            <label for="toctree-checkbox-148">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -3433,8 +3604,8 @@
               <a class="reference internal" href="../../../solver/tui/define/turbo_model/general_turbo_interface_settings/mixing_plane_model_settings/index.html">
                solver.tui.define.turbo_model.general_turbo_interface_settings.mixing_plane_model_settings
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-141" name="toctree-checkbox-141" type="checkbox"/>
-              <label for="toctree-checkbox-141">
+              <input class="toctree-checkbox" id="toctree-checkbox-149" name="toctree-checkbox-149" type="checkbox"/>
+              <label for="toctree-checkbox-149">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -3474,8 +3645,8 @@
           <a class="reference internal" href="../../../solver/tui/define/phases/index.html">
            solver.tui.define.phases
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-142" name="toctree-checkbox-142" type="checkbox"/>
-          <label for="toctree-checkbox-142">
+          <input class="toctree-checkbox" id="toctree-checkbox-150" name="toctree-checkbox-150" type="checkbox"/>
+          <label for="toctree-checkbox-150">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -3484,8 +3655,8 @@
             <a class="reference internal" href="../../../solver/tui/define/phases/set_domain_properties/index.html">
              solver.tui.define.phases.set_domain_properties
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-143" name="toctree-checkbox-143" type="checkbox"/>
-            <label for="toctree-checkbox-143">
+            <input class="toctree-checkbox" id="toctree-checkbox-151" name="toctree-checkbox-151" type="checkbox"/>
+            <label for="toctree-checkbox-151">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -3494,8 +3665,8 @@
               <a class="reference internal" href="../../../solver/tui/define/phases/set_domain_properties/interaction_domain/index.html">
                solver.tui.define.phases.set_domain_properties.interaction_domain
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-144" name="toctree-checkbox-144" type="checkbox"/>
-              <label for="toctree-checkbox-144">
+              <input class="toctree-checkbox" id="toctree-checkbox-152" name="toctree-checkbox-152" type="checkbox"/>
+              <label for="toctree-checkbox-152">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -3504,8 +3675,8 @@
                 <a class="reference internal" href="../../../solver/tui/define/phases/set_domain_properties/interaction_domain/forces/index.html">
                  solver.tui.define.phases.set_domain_properties.interaction_domain.forces
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-145" name="toctree-checkbox-145" type="checkbox"/>
-                <label for="toctree-checkbox-145">
+                <input class="toctree-checkbox" id="toctree-checkbox-153" name="toctree-checkbox-153" type="checkbox"/>
+                <label for="toctree-checkbox-153">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -3546,8 +3717,8 @@
                 <a class="reference internal" href="../../../solver/tui/define/phases/set_domain_properties/interaction_domain/heat_mass_reactions/index.html">
                  solver.tui.define.phases.set_domain_properties.interaction_domain.heat_mass_reactions
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-146" name="toctree-checkbox-146" type="checkbox"/>
-                <label for="toctree-checkbox-146">
+                <input class="toctree-checkbox" id="toctree-checkbox-154" name="toctree-checkbox-154" type="checkbox"/>
+                <label for="toctree-checkbox-154">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -3588,8 +3759,8 @@
                 <a class="reference internal" href="../../../solver/tui/define/phases/set_domain_properties/interaction_domain/interfacial_area/index.html">
                  solver.tui.define.phases.set_domain_properties.interaction_domain.interfacial_area
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-147" name="toctree-checkbox-147" type="checkbox"/>
-                <label for="toctree-checkbox-147">
+                <input class="toctree-checkbox" id="toctree-checkbox-155" name="toctree-checkbox-155" type="checkbox"/>
+                <label for="toctree-checkbox-155">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -3630,8 +3801,8 @@
                 <a class="reference internal" href="../../../solver/tui/define/phases/set_domain_properties/interaction_domain/model_transition/index.html">
                  solver.tui.define.phases.set_domain_properties.interaction_domain.model_transition
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-148" name="toctree-checkbox-148" type="checkbox"/>
-                <label for="toctree-checkbox-148">
+                <input class="toctree-checkbox" id="toctree-checkbox-156" name="toctree-checkbox-156" type="checkbox"/>
+                <label for="toctree-checkbox-156">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -3672,8 +3843,8 @@
                 <a class="reference internal" href="../../../solver/tui/define/phases/set_domain_properties/interaction_domain/numerics/index.html">
                  solver.tui.define.phases.set_domain_properties.interaction_domain.numerics
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-149" name="toctree-checkbox-149" type="checkbox"/>
-                <label for="toctree-checkbox-149">
+                <input class="toctree-checkbox" id="toctree-checkbox-157" name="toctree-checkbox-157" type="checkbox"/>
+                <label for="toctree-checkbox-157">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -3730,8 +3901,8 @@
           <a class="reference internal" href="../../../solver/tui/define/solution_strategy/index.html">
            solver.tui.define.solution_strategy
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-150" name="toctree-checkbox-150" type="checkbox"/>
-          <label for="toctree-checkbox-150">
+          <input class="toctree-checkbox" id="toctree-checkbox-158" name="toctree-checkbox-158" type="checkbox"/>
+          <label for="toctree-checkbox-158">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -3752,8 +3923,8 @@
           <a class="reference internal" href="../../../solver/tui/define/user_defined/index.html">
            solver.tui.define.user_defined
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-151" name="toctree-checkbox-151" type="checkbox"/>
-          <label for="toctree-checkbox-151">
+          <input class="toctree-checkbox" id="toctree-checkbox-159" name="toctree-checkbox-159" type="checkbox"/>
+          <label for="toctree-checkbox-159">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -3786,8 +3957,8 @@
         <a class="reference internal" href="../../../solver/tui/file/index.html">
          solver.tui.file
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-152" name="toctree-checkbox-152" type="checkbox"/>
-        <label for="toctree-checkbox-152">
+        <input class="toctree-checkbox" id="toctree-checkbox-160" name="toctree-checkbox-160" type="checkbox"/>
+        <label for="toctree-checkbox-160">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -3806,8 +3977,8 @@
           <a class="reference internal" href="../../../solver/tui/file/export/index.html">
            solver.tui.file.export
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-153" name="toctree-checkbox-153" type="checkbox"/>
-          <label for="toctree-checkbox-153">
+          <input class="toctree-checkbox" id="toctree-checkbox-161" name="toctree-checkbox-161" type="checkbox"/>
+          <label for="toctree-checkbox-161">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -3828,8 +3999,8 @@
           <a class="reference internal" href="../../../solver/tui/file/transient_export/index.html">
            solver.tui.file.transient_export
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-154" name="toctree-checkbox-154" type="checkbox"/>
-          <label for="toctree-checkbox-154">
+          <input class="toctree-checkbox" id="toctree-checkbox-162" name="toctree-checkbox-162" type="checkbox"/>
+          <label for="toctree-checkbox-162">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -3850,8 +4021,8 @@
           <a class="reference internal" href="../../../solver/tui/file/import_/index.html">
            solver.tui.file.import_
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-155" name="toctree-checkbox-155" type="checkbox"/>
-          <label for="toctree-checkbox-155">
+          <input class="toctree-checkbox" id="toctree-checkbox-163" name="toctree-checkbox-163" type="checkbox"/>
+          <label for="toctree-checkbox-163">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -3959,8 +4130,8 @@
         <a class="reference internal" href="../../../solver/tui/mesh/index.html">
          solver.tui.mesh
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-156" name="toctree-checkbox-156" type="checkbox"/>
-        <label for="toctree-checkbox-156">
+        <input class="toctree-checkbox" id="toctree-checkbox-164" name="toctree-checkbox-164" type="checkbox"/>
+        <label for="toctree-checkbox-164">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -3969,8 +4140,8 @@
           <a class="reference internal" href="../../../solver/tui/mesh/adapt/index.html">
            solver.tui.mesh.adapt
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-157" name="toctree-checkbox-157" type="checkbox"/>
-          <label for="toctree-checkbox-157">
+          <input class="toctree-checkbox" id="toctree-checkbox-165" name="toctree-checkbox-165" type="checkbox"/>
+          <label for="toctree-checkbox-165">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4016,8 +4187,8 @@
           <a class="reference internal" href="../../../solver/tui/mesh/polyhedra/index.html">
            solver.tui.mesh.polyhedra
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-158" name="toctree-checkbox-158" type="checkbox"/>
-          <label for="toctree-checkbox-158">
+          <input class="toctree-checkbox" id="toctree-checkbox-166" name="toctree-checkbox-166" type="checkbox"/>
+          <label for="toctree-checkbox-166">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4050,8 +4221,8 @@
         <a class="reference internal" href="../../../solver/tui/parameters__and__customization/index.html">
          solver.tui.parameters__and__customization
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-159" name="toctree-checkbox-159" type="checkbox"/>
-        <label for="toctree-checkbox-159">
+        <input class="toctree-checkbox" id="toctree-checkbox-167" name="toctree-checkbox-167" type="checkbox"/>
+        <label for="toctree-checkbox-167">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -4060,8 +4231,8 @@
           <a class="reference internal" href="../../../solver/tui/parameters__and__customization/parameters/index.html">
            solver.tui.parameters__and__customization.parameters
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-160" name="toctree-checkbox-160" type="checkbox"/>
-          <label for="toctree-checkbox-160">
+          <input class="toctree-checkbox" id="toctree-checkbox-168" name="toctree-checkbox-168" type="checkbox"/>
+          <label for="toctree-checkbox-168">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4070,8 +4241,8 @@
             <a class="reference internal" href="../../../solver/tui/parameters__and__customization/parameters/input_parameters/index.html">
              solver.tui.parameters__and__customization.parameters.input_parameters
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-161" name="toctree-checkbox-161" type="checkbox"/>
-            <label for="toctree-checkbox-161">
+            <input class="toctree-checkbox" id="toctree-checkbox-169" name="toctree-checkbox-169" type="checkbox"/>
+            <label for="toctree-checkbox-169">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -4099,8 +4270,8 @@
           <a class="reference internal" href="../../../solver/tui/parameters__and__customization/user_defined/index.html">
            solver.tui.parameters__and__customization.user_defined
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-162" name="toctree-checkbox-162" type="checkbox"/>
-          <label for="toctree-checkbox-162">
+          <input class="toctree-checkbox" id="toctree-checkbox-170" name="toctree-checkbox-170" type="checkbox"/>
+          <label for="toctree-checkbox-170">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4118,8 +4289,8 @@
         <a class="reference internal" href="../../../solver/tui/parallel/index.html">
          solver.tui.parallel
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-163" name="toctree-checkbox-163" type="checkbox"/>
-        <label for="toctree-checkbox-163">
+        <input class="toctree-checkbox" id="toctree-checkbox-171" name="toctree-checkbox-171" type="checkbox"/>
+        <label for="toctree-checkbox-171">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -4133,8 +4304,8 @@
           <a class="reference internal" href="../../../solver/tui/parallel/partition/index.html">
            solver.tui.parallel.partition
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-164" name="toctree-checkbox-164" type="checkbox"/>
-          <label for="toctree-checkbox-164">
+          <input class="toctree-checkbox" id="toctree-checkbox-172" name="toctree-checkbox-172" type="checkbox"/>
+          <label for="toctree-checkbox-172">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4175,8 +4346,8 @@
           <a class="reference internal" href="../../../solver/tui/parallel/multidomain/index.html">
            solver.tui.parallel.multidomain
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-165" name="toctree-checkbox-165" type="checkbox"/>
-          <label for="toctree-checkbox-165">
+          <input class="toctree-checkbox" id="toctree-checkbox-173" name="toctree-checkbox-173" type="checkbox"/>
+          <label for="toctree-checkbox-173">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4185,8 +4356,8 @@
             <a class="reference internal" href="../../../solver/tui/parallel/multidomain/conjugate_heat_transfer/index.html">
              solver.tui.parallel.multidomain.conjugate_heat_transfer
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-166" name="toctree-checkbox-166" type="checkbox"/>
-            <label for="toctree-checkbox-166">
+            <input class="toctree-checkbox" id="toctree-checkbox-174" name="toctree-checkbox-174" type="checkbox"/>
+            <label for="toctree-checkbox-174">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -4211,8 +4382,8 @@
         <a class="reference internal" href="../../../solver/tui/plot/index.html">
          solver.tui.plot
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-167" name="toctree-checkbox-167" type="checkbox"/>
-        <label for="toctree-checkbox-167">
+        <input class="toctree-checkbox" id="toctree-checkbox-175" name="toctree-checkbox-175" type="checkbox"/>
+        <label for="toctree-checkbox-175">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -4238,8 +4409,8 @@
         <a class="reference internal" href="../../../solver/tui/preferences/index.html">
          solver.tui.preferences
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-168" name="toctree-checkbox-168" type="checkbox"/>
-        <label for="toctree-checkbox-168">
+        <input class="toctree-checkbox" id="toctree-checkbox-176" name="toctree-checkbox-176" type="checkbox"/>
+        <label for="toctree-checkbox-176">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -4248,8 +4419,8 @@
           <a class="reference internal" href="../../../solver/tui/preferences/appearance/index.html">
            solver.tui.preferences.appearance
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-169" name="toctree-checkbox-169" type="checkbox"/>
-          <label for="toctree-checkbox-169">
+          <input class="toctree-checkbox" id="toctree-checkbox-177" name="toctree-checkbox-177" type="checkbox"/>
+          <label for="toctree-checkbox-177">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4263,8 +4434,8 @@
             <a class="reference internal" href="../../../solver/tui/preferences/appearance/charts/index.html">
              solver.tui.preferences.appearance.charts
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-170" name="toctree-checkbox-170" type="checkbox"/>
-            <label for="toctree-checkbox-170">
+            <input class="toctree-checkbox" id="toctree-checkbox-178" name="toctree-checkbox-178" type="checkbox"/>
+            <label for="toctree-checkbox-178">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -4302,8 +4473,8 @@
           <a class="reference internal" href="../../../solver/tui/preferences/graphics/index.html">
            solver.tui.preferences.graphics
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-171" name="toctree-checkbox-171" type="checkbox"/>
-          <label for="toctree-checkbox-171">
+          <input class="toctree-checkbox" id="toctree-checkbox-179" name="toctree-checkbox-179" type="checkbox"/>
+          <label for="toctree-checkbox-179">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4327,8 +4498,8 @@
             <a class="reference internal" href="../../../solver/tui/preferences/graphics/export_video_settings/index.html">
              solver.tui.preferences.graphics.export_video_settings
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-172" name="toctree-checkbox-172" type="checkbox"/>
-            <label for="toctree-checkbox-172">
+            <input class="toctree-checkbox" id="toctree-checkbox-180" name="toctree-checkbox-180" type="checkbox"/>
+            <label for="toctree-checkbox-180">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -4374,8 +4545,8 @@
             <a class="reference internal" href="../../../solver/tui/preferences/graphics/performance/index.html">
              solver.tui.preferences.graphics.performance
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-173" name="toctree-checkbox-173" type="checkbox"/>
-            <label for="toctree-checkbox-173">
+            <input class="toctree-checkbox" id="toctree-checkbox-181" name="toctree-checkbox-181" type="checkbox"/>
+            <label for="toctree-checkbox-181">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -4413,8 +4584,8 @@
           <a class="reference internal" href="../../../solver/tui/preferences/meshing_workflow/index.html">
            solver.tui.preferences.meshing_workflow
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-174" name="toctree-checkbox-174" type="checkbox"/>
-          <label for="toctree-checkbox-174">
+          <input class="toctree-checkbox" id="toctree-checkbox-182" name="toctree-checkbox-182" type="checkbox"/>
+          <label for="toctree-checkbox-182">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4430,8 +4601,8 @@
           <a class="reference internal" href="../../../solver/tui/preferences/navigation/index.html">
            solver.tui.preferences.navigation
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-175" name="toctree-checkbox-175" type="checkbox"/>
-          <label for="toctree-checkbox-175">
+          <input class="toctree-checkbox" id="toctree-checkbox-183" name="toctree-checkbox-183" type="checkbox"/>
+          <label for="toctree-checkbox-183">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4440,8 +4611,8 @@
             <a class="reference internal" href="../../../solver/tui/preferences/navigation/mouse_mapping/index.html">
              solver.tui.preferences.navigation.mouse_mapping
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-176" name="toctree-checkbox-176" type="checkbox"/>
-            <label for="toctree-checkbox-176">
+            <input class="toctree-checkbox" id="toctree-checkbox-184" name="toctree-checkbox-184" type="checkbox"/>
+            <label for="toctree-checkbox-184">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -4469,8 +4640,8 @@
           <a class="reference internal" href="../../../solver/tui/preferences/simulation/index.html">
            solver.tui.preferences.simulation
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-177" name="toctree-checkbox-177" type="checkbox"/>
-          <label for="toctree-checkbox-177">
+          <input class="toctree-checkbox" id="toctree-checkbox-185" name="toctree-checkbox-185" type="checkbox"/>
+          <label for="toctree-checkbox-185">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4486,8 +4657,8 @@
           <a class="reference internal" href="../../../solver/tui/preferences/turbo_workflow/index.html">
            solver.tui.preferences.turbo_workflow
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-178" name="toctree-checkbox-178" type="checkbox"/>
-          <label for="toctree-checkbox-178">
+          <input class="toctree-checkbox" id="toctree-checkbox-186" name="toctree-checkbox-186" type="checkbox"/>
+          <label for="toctree-checkbox-186">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4515,8 +4686,8 @@
         <a class="reference internal" href="../../../solver/tui/report/index.html">
          solver.tui.report
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-179" name="toctree-checkbox-179" type="checkbox"/>
-        <label for="toctree-checkbox-179">
+        <input class="toctree-checkbox" id="toctree-checkbox-187" name="toctree-checkbox-187" type="checkbox"/>
+        <label for="toctree-checkbox-187">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -4525,8 +4696,8 @@
           <a class="reference internal" href="../../../solver/tui/report/dpm_histogram/index.html">
            solver.tui.report.dpm_histogram
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-180" name="toctree-checkbox-180" type="checkbox"/>
-          <label for="toctree-checkbox-180">
+          <input class="toctree-checkbox" id="toctree-checkbox-188" name="toctree-checkbox-188" type="checkbox"/>
+          <label for="toctree-checkbox-188">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4557,8 +4728,8 @@
           <a class="reference internal" href="../../../solver/tui/report/reference_values/index.html">
            solver.tui.report.reference_values
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-181" name="toctree-checkbox-181" type="checkbox"/>
-          <label for="toctree-checkbox-181">
+          <input class="toctree-checkbox" id="toctree-checkbox-189" name="toctree-checkbox-189" type="checkbox"/>
+          <label for="toctree-checkbox-189">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4611,8 +4782,8 @@
         <a class="reference internal" href="../../../solver/tui/results/index.html">
          solver.tui.results
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-182" name="toctree-checkbox-182" type="checkbox"/>
-        <label for="toctree-checkbox-182">
+        <input class="toctree-checkbox" id="toctree-checkbox-190" name="toctree-checkbox-190" type="checkbox"/>
+        <label for="toctree-checkbox-190">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -4621,8 +4792,8 @@
           <a class="reference internal" href="../../../solver/tui/results/animate/index.html">
            solver.tui.results.animate
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-183" name="toctree-checkbox-183" type="checkbox"/>
-          <label for="toctree-checkbox-183">
+          <input class="toctree-checkbox" id="toctree-checkbox-191" name="toctree-checkbox-191" type="checkbox"/>
+          <label for="toctree-checkbox-191">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4631,8 +4802,8 @@
             <a class="reference internal" href="../../../solver/tui/results/animate/playback/index.html">
              solver.tui.results.animate.playback
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-184" name="toctree-checkbox-184" type="checkbox"/>
-            <label for="toctree-checkbox-184">
+            <input class="toctree-checkbox" id="toctree-checkbox-192" name="toctree-checkbox-192" type="checkbox"/>
+            <label for="toctree-checkbox-192">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -4641,8 +4812,8 @@
               <a class="reference internal" href="../../../solver/tui/results/animate/playback/video/index.html">
                solver.tui.results.animate.playback.video
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-185" name="toctree-checkbox-185" type="checkbox"/>
-              <label for="toctree-checkbox-185">
+              <input class="toctree-checkbox" id="toctree-checkbox-193" name="toctree-checkbox-193" type="checkbox"/>
+              <label for="toctree-checkbox-193">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -4662,8 +4833,8 @@
           <a class="reference internal" href="../../../solver/tui/results/graphics/index.html">
            solver.tui.results.graphics
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-186" name="toctree-checkbox-186" type="checkbox"/>
-          <label for="toctree-checkbox-186">
+          <input class="toctree-checkbox" id="toctree-checkbox-194" name="toctree-checkbox-194" type="checkbox"/>
+          <label for="toctree-checkbox-194">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -4672,8 +4843,8 @@
             <a class="reference internal" href="../../../solver/tui/results/graphics/expert/index.html">
              solver.tui.results.graphics.expert
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-187" name="toctree-checkbox-187" type="checkbox"/>
-            <label for="toctree-checkbox-187">
+            <input class="toctree-checkbox" id="toctree-checkbox-195" name="toctree-checkbox-195" type="checkbox"/>
+            <label for="toctree-checkbox-195">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -4702,8 +4873,8 @@
               <a class="reference internal" href="../../../solver/tui/results/graphics/expert/set/index.html">
                solver.tui.results.graphics.expert.set
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-188" name="toctree-checkbox-188" type="checkbox"/>
-              <label for="toctree-checkbox-188">
+              <input class="toctree-checkbox" id="toctree-checkbox-196" name="toctree-checkbox-196" type="checkbox"/>
+              <label for="toctree-checkbox-196">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -4712,8 +4883,8 @@
                 <a class="reference internal" href="../../../solver/tui/results/graphics/expert/set/colors/index.html">
                  solver.tui.results.graphics.expert.set.colors
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-189" name="toctree-checkbox-189" type="checkbox"/>
-                <label for="toctree-checkbox-189">
+                <input class="toctree-checkbox" id="toctree-checkbox-197" name="toctree-checkbox-197" type="checkbox"/>
+                <label for="toctree-checkbox-197">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -4722,8 +4893,8 @@
                   <a class="reference internal" href="../../../solver/tui/results/graphics/expert/set/colors/by_type/index.html">
                    solver.tui.results.graphics.expert.set.colors.by_type
                   </a>
-                  <input class="toctree-checkbox" id="toctree-checkbox-190" name="toctree-checkbox-190" type="checkbox"/>
-                  <label for="toctree-checkbox-190">
+                  <input class="toctree-checkbox" id="toctree-checkbox-198" name="toctree-checkbox-198" type="checkbox"/>
+                  <label for="toctree-checkbox-198">
                    <i class="fas fa-chevron-down">
                    </i>
                   </label>
@@ -4732,8 +4903,8 @@
                     <a class="reference internal" href="../../../solver/tui/results/graphics/expert/set/colors/by_type/type_name/index.html">
                      solver.tui.results.graphics.expert.set.colors.by_type.type_name
                     </a>
-                    <input class="toctree-checkbox" id="toctree-checkbox-191" name="toctree-checkbox-191" type="checkbox"/>
-                    <label for="toctree-checkbox-191">
+                    <input class="toctree-checkbox" id="toctree-checkbox-199" name="toctree-checkbox-199" type="checkbox"/>
+                    <label for="toctree-checkbox-199">
                      <i class="fas fa-chevron-down">
                      </i>
                     </label>
@@ -4833,8 +5004,8 @@
                 <a class="reference internal" href="../../../solver/tui/results/graphics/expert/set/picture/index.html">
                  solver.tui.results.graphics.expert.set.picture
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-192" name="toctree-checkbox-192" type="checkbox"/>
-                <label for="toctree-checkbox-192">
+                <input class="toctree-checkbox" id="toctree-checkbox-200" name="toctree-checkbox-200" type="checkbox"/>
+                <label for="toctree-checkbox-200">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -4848,8 +5019,8 @@
                   <a class="reference internal" href="../../../solver/tui/results/graphics/expert/set/picture/driver/index.html">
                    solver.tui.results.graphics.expert.set.picture.driver
                   </a>
-                  <input class="toctree-checkbox" id="toctree-checkbox-193" name="toctree-checkbox-193" type="checkbox"/>
-                  <label for="toctree-checkbox-193">
+                  <input class="toctree-checkbox" id="toctree-checkbox-201" name="toctree-checkbox-201" type="checkbox"/>
+                  <label for="toctree-checkbox-201">
                    <i class="fas fa-chevron-down">
                    </i>
                   </label>
@@ -4867,8 +5038,8 @@
                 <a class="reference internal" href="../../../solver/tui/results/graphics/expert/set/lights/index.html">
                  solver.tui.results.graphics.expert.set.lights
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-194" name="toctree-checkbox-194" type="checkbox"/>
-                <label for="toctree-checkbox-194">
+                <input class="toctree-checkbox" id="toctree-checkbox-202" name="toctree-checkbox-202" type="checkbox"/>
+                <label for="toctree-checkbox-202">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -4884,8 +5055,8 @@
                 <a class="reference internal" href="../../../solver/tui/results/graphics/expert/set/particle_tracks/index.html">
                  solver.tui.results.graphics.expert.set.particle_tracks
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-195" name="toctree-checkbox-195" type="checkbox"/>
-                <label for="toctree-checkbox-195">
+                <input class="toctree-checkbox" id="toctree-checkbox-203" name="toctree-checkbox-203" type="checkbox"/>
+                <label for="toctree-checkbox-203">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -4931,8 +5102,8 @@
                 <a class="reference internal" href="../../../solver/tui/results/graphics/expert/set/windows/index.html">
                  solver.tui.results.graphics.expert.set.windows
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-196" name="toctree-checkbox-196" type="checkbox"/>
-                <label for="toctree-checkbox-196">
+                <input class="toctree-checkbox" id="toctree-checkbox-204" name="toctree-checkbox-204" type="checkbox"/>
+                <label for="toctree-checkbox-204">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -4977,8 +5148,8 @@
             <a class="reference internal" href="../../../solver/tui/results/graphics/lights/index.html">
              solver.tui.results.graphics.lights
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-197" name="toctree-checkbox-197" type="checkbox"/>
-            <label for="toctree-checkbox-197">
+            <input class="toctree-checkbox" id="toctree-checkbox-205" name="toctree-checkbox-205" type="checkbox"/>
+            <label for="toctree-checkbox-205">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5011,8 +5182,8 @@
           <a class="reference internal" href="../../../solver/tui/results/plot/index.html">
            solver.tui.results.plot
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-198" name="toctree-checkbox-198" type="checkbox"/>
-          <label for="toctree-checkbox-198">
+          <input class="toctree-checkbox" id="toctree-checkbox-206" name="toctree-checkbox-206" type="checkbox"/>
+          <label for="toctree-checkbox-206">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -5038,8 +5209,8 @@
           <a class="reference internal" href="../../../solver/tui/results/report/index.html">
            solver.tui.results.report
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-199" name="toctree-checkbox-199" type="checkbox"/>
-          <label for="toctree-checkbox-199">
+          <input class="toctree-checkbox" id="toctree-checkbox-207" name="toctree-checkbox-207" type="checkbox"/>
+          <label for="toctree-checkbox-207">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -5048,8 +5219,8 @@
             <a class="reference internal" href="../../../solver/tui/results/report/dpm_histogram/index.html">
              solver.tui.results.report.dpm_histogram
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-200" name="toctree-checkbox-200" type="checkbox"/>
-            <label for="toctree-checkbox-200">
+            <input class="toctree-checkbox" id="toctree-checkbox-208" name="toctree-checkbox-208" type="checkbox"/>
+            <label for="toctree-checkbox-208">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5080,8 +5251,8 @@
             <a class="reference internal" href="../../../solver/tui/results/report/reference_values/index.html">
              solver.tui.results.report.reference_values
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-201" name="toctree-checkbox-201" type="checkbox"/>
-            <label for="toctree-checkbox-201">
+            <input class="toctree-checkbox" id="toctree-checkbox-209" name="toctree-checkbox-209" type="checkbox"/>
+            <label for="toctree-checkbox-209">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5134,8 +5305,8 @@
           <a class="reference internal" href="../../../solver/tui/results/surface/index.html">
            solver.tui.results.surface
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-202" name="toctree-checkbox-202" type="checkbox"/>
-          <label for="toctree-checkbox-202">
+          <input class="toctree-checkbox" id="toctree-checkbox-210" name="toctree-checkbox-210" type="checkbox"/>
+          <label for="toctree-checkbox-210">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -5156,8 +5327,8 @@
           <a class="reference internal" href="../../../solver/tui/results/graphics_window/index.html">
            solver.tui.results.graphics_window
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-203" name="toctree-checkbox-203" type="checkbox"/>
-          <label for="toctree-checkbox-203">
+          <input class="toctree-checkbox" id="toctree-checkbox-211" name="toctree-checkbox-211" type="checkbox"/>
+          <label for="toctree-checkbox-211">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -5171,8 +5342,8 @@
             <a class="reference internal" href="../../../solver/tui/results/graphics_window/picture/index.html">
              solver.tui.results.graphics_window.picture
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-204" name="toctree-checkbox-204" type="checkbox"/>
-            <label for="toctree-checkbox-204">
+            <input class="toctree-checkbox" id="toctree-checkbox-212" name="toctree-checkbox-212" type="checkbox"/>
+            <label for="toctree-checkbox-212">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5186,8 +5357,8 @@
               <a class="reference internal" href="../../../solver/tui/results/graphics_window/picture/driver/index.html">
                solver.tui.results.graphics_window.picture.driver
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-205" name="toctree-checkbox-205" type="checkbox"/>
-              <label for="toctree-checkbox-205">
+              <input class="toctree-checkbox" id="toctree-checkbox-213" name="toctree-checkbox-213" type="checkbox"/>
+              <label for="toctree-checkbox-213">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -5205,8 +5376,8 @@
             <a class="reference internal" href="../../../solver/tui/results/graphics_window/windows/index.html">
              solver.tui.results.graphics_window.windows
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-206" name="toctree-checkbox-206" type="checkbox"/>
-            <label for="toctree-checkbox-206">
+            <input class="toctree-checkbox" id="toctree-checkbox-214" name="toctree-checkbox-214" type="checkbox"/>
+            <label for="toctree-checkbox-214">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5252,8 +5423,8 @@
             <a class="reference internal" href="../../../solver/tui/results/graphics_window/views/index.html">
              solver.tui.results.graphics_window.views
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-207" name="toctree-checkbox-207" type="checkbox"/>
-            <label for="toctree-checkbox-207">
+            <input class="toctree-checkbox" id="toctree-checkbox-215" name="toctree-checkbox-215" type="checkbox"/>
+            <label for="toctree-checkbox-215">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5283,8 +5454,8 @@
         <a class="reference internal" href="../../../solver/tui/solution/index.html">
          solver.tui.solution
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-208" name="toctree-checkbox-208" type="checkbox"/>
-        <label for="toctree-checkbox-208">
+        <input class="toctree-checkbox" id="toctree-checkbox-216" name="toctree-checkbox-216" type="checkbox"/>
+        <label for="toctree-checkbox-216">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -5293,8 +5464,8 @@
           <a class="reference internal" href="../../../solver/tui/solution/calculation_activities/index.html">
            solver.tui.solution.calculation_activities
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-209" name="toctree-checkbox-209" type="checkbox"/>
-          <label for="toctree-checkbox-209">
+          <input class="toctree-checkbox" id="toctree-checkbox-217" name="toctree-checkbox-217" type="checkbox"/>
+          <label for="toctree-checkbox-217">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -5303,8 +5474,8 @@
             <a class="reference internal" href="../../../solver/tui/solution/calculation_activities/animate/index.html">
              solver.tui.solution.calculation_activities.animate
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-210" name="toctree-checkbox-210" type="checkbox"/>
-            <label for="toctree-checkbox-210">
+            <input class="toctree-checkbox" id="toctree-checkbox-218" name="toctree-checkbox-218" type="checkbox"/>
+            <label for="toctree-checkbox-218">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5340,8 +5511,8 @@
             <a class="reference internal" href="../../../solver/tui/solution/calculation_activities/solution_strategy/index.html">
              solver.tui.solution.calculation_activities.solution_strategy
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-211" name="toctree-checkbox-211" type="checkbox"/>
-            <label for="toctree-checkbox-211">
+            <input class="toctree-checkbox" id="toctree-checkbox-219" name="toctree-checkbox-219" type="checkbox"/>
+            <label for="toctree-checkbox-219">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5364,8 +5535,8 @@
           <a class="reference internal" href="../../../solver/tui/solution/controls/index.html">
            solver.tui.solution.controls
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-212" name="toctree-checkbox-212" type="checkbox"/>
-          <label for="toctree-checkbox-212">
+          <input class="toctree-checkbox" id="toctree-checkbox-220" name="toctree-checkbox-220" type="checkbox"/>
+          <label for="toctree-checkbox-220">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -5374,8 +5545,8 @@
             <a class="reference internal" href="../../../solver/tui/solution/controls/acoustics_wave_equation_controls/index.html">
              solver.tui.solution.controls.acoustics_wave_equation_controls
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-213" name="toctree-checkbox-213" type="checkbox"/>
-            <label for="toctree-checkbox-213">
+            <input class="toctree-checkbox" id="toctree-checkbox-221" name="toctree-checkbox-221" type="checkbox"/>
+            <label for="toctree-checkbox-221">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5391,8 +5562,8 @@
             <a class="reference internal" href="../../../solver/tui/solution/controls/advanced/index.html">
              solver.tui.solution.controls.advanced
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-214" name="toctree-checkbox-214" type="checkbox"/>
-            <label for="toctree-checkbox-214">
+            <input class="toctree-checkbox" id="toctree-checkbox-222" name="toctree-checkbox-222" type="checkbox"/>
+            <label for="toctree-checkbox-222">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5413,8 +5584,8 @@
             <a class="reference internal" href="../../../solver/tui/solution/controls/contact_solution_controls/index.html">
              solver.tui.solution.controls.contact_solution_controls
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-215" name="toctree-checkbox-215" type="checkbox"/>
-            <label for="toctree-checkbox-215">
+            <input class="toctree-checkbox" id="toctree-checkbox-223" name="toctree-checkbox-223" type="checkbox"/>
+            <label for="toctree-checkbox-223">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5460,8 +5631,8 @@
             <a class="reference internal" href="../../../solver/tui/solution/controls/query/index.html">
              solver.tui.solution.controls.query
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-216" name="toctree-checkbox-216" type="checkbox"/>
-            <label for="toctree-checkbox-216">
+            <input class="toctree-checkbox" id="toctree-checkbox-224" name="toctree-checkbox-224" type="checkbox"/>
+            <label for="toctree-checkbox-224">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5470,8 +5641,8 @@
               <a class="reference internal" href="../../../solver/tui/solution/controls/query/acoustics_wave_equation_controls/index.html">
                solver.tui.solution.controls.query.acoustics_wave_equation_controls
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-217" name="toctree-checkbox-217" type="checkbox"/>
-              <label for="toctree-checkbox-217">
+              <input class="toctree-checkbox" id="toctree-checkbox-225" name="toctree-checkbox-225" type="checkbox"/>
+              <label for="toctree-checkbox-225">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -5487,8 +5658,8 @@
               <a class="reference internal" href="../../../solver/tui/solution/controls/query/advanced/index.html">
                solver.tui.solution.controls.query.advanced
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-218" name="toctree-checkbox-218" type="checkbox"/>
-              <label for="toctree-checkbox-218">
+              <input class="toctree-checkbox" id="toctree-checkbox-226" name="toctree-checkbox-226" type="checkbox"/>
+              <label for="toctree-checkbox-226">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -5508,8 +5679,8 @@
           <a class="reference internal" href="../../../solver/tui/solution/expert/index.html">
            solver.tui.solution.expert
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-219" name="toctree-checkbox-219" type="checkbox"/>
-          <label for="toctree-checkbox-219">
+          <input class="toctree-checkbox" id="toctree-checkbox-227" name="toctree-checkbox-227" type="checkbox"/>
+          <label for="toctree-checkbox-227">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -5528,8 +5699,8 @@
             <a class="reference internal" href="../../../solver/tui/solution/expert/poor_mesh_numerics/index.html">
              solver.tui.solution.expert.poor_mesh_numerics
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-220" name="toctree-checkbox-220" type="checkbox"/>
-            <label for="toctree-checkbox-220">
+            <input class="toctree-checkbox" id="toctree-checkbox-228" name="toctree-checkbox-228" type="checkbox"/>
+            <label for="toctree-checkbox-228">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5567,8 +5738,8 @@
           <a class="reference internal" href="../../../solver/tui/solution/initialize/index.html">
            solver.tui.solution.initialize
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-221" name="toctree-checkbox-221" type="checkbox"/>
-          <label for="toctree-checkbox-221">
+          <input class="toctree-checkbox" id="toctree-checkbox-229" name="toctree-checkbox-229" type="checkbox"/>
+          <label for="toctree-checkbox-229">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -5604,8 +5775,8 @@
           <a class="reference internal" href="../../../solver/tui/solution/methods/index.html">
            solver.tui.solution.methods
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-222" name="toctree-checkbox-222" type="checkbox"/>
-          <label for="toctree-checkbox-222">
+          <input class="toctree-checkbox" id="toctree-checkbox-230" name="toctree-checkbox-230" type="checkbox"/>
+          <label for="toctree-checkbox-230">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -5619,8 +5790,8 @@
             <a class="reference internal" href="../../../solver/tui/solution/methods/high_order_term_relaxation/index.html">
              solver.tui.solution.methods.high_order_term_relaxation
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-223" name="toctree-checkbox-223" type="checkbox"/>
-            <label for="toctree-checkbox-223">
+            <input class="toctree-checkbox" id="toctree-checkbox-231" name="toctree-checkbox-231" type="checkbox"/>
+            <label for="toctree-checkbox-231">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5629,8 +5800,8 @@
               <a class="reference internal" href="../../../solver/tui/solution/methods/high_order_term_relaxation/options/index.html">
                solver.tui.solution.methods.high_order_term_relaxation.options
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-224" name="toctree-checkbox-224" type="checkbox"/>
-              <label for="toctree-checkbox-224">
+              <input class="toctree-checkbox" id="toctree-checkbox-232" name="toctree-checkbox-232" type="checkbox"/>
+              <label for="toctree-checkbox-232">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -5648,8 +5819,8 @@
             <a class="reference internal" href="../../../solver/tui/solution/methods/multiphase_numerics/index.html">
              solver.tui.solution.methods.multiphase_numerics
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-225" name="toctree-checkbox-225" type="checkbox"/>
-            <label for="toctree-checkbox-225">
+            <input class="toctree-checkbox" id="toctree-checkbox-233" name="toctree-checkbox-233" type="checkbox"/>
+            <label for="toctree-checkbox-233">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5678,8 +5849,8 @@
               <a class="reference internal" href="../../../solver/tui/solution/methods/multiphase_numerics/heat_mass_transfer/index.html">
                solver.tui.solution.methods.multiphase_numerics.heat_mass_transfer
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-226" name="toctree-checkbox-226" type="checkbox"/>
-              <label for="toctree-checkbox-226">
+              <input class="toctree-checkbox" id="toctree-checkbox-234" name="toctree-checkbox-234" type="checkbox"/>
+              <label for="toctree-checkbox-234">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -5710,8 +5881,8 @@
               <a class="reference internal" href="../../../solver/tui/solution/methods/multiphase_numerics/advanced_stability_controls/index.html">
                solver.tui.solution.methods.multiphase_numerics.advanced_stability_controls
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-227" name="toctree-checkbox-227" type="checkbox"/>
-              <label for="toctree-checkbox-227">
+              <input class="toctree-checkbox" id="toctree-checkbox-235" name="toctree-checkbox-235" type="checkbox"/>
+              <label for="toctree-checkbox-235">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -5720,8 +5891,8 @@
                 <a class="reference internal" href="../../../solver/tui/solution/methods/multiphase_numerics/advanced_stability_controls/pseudo_time/index.html">
                  solver.tui.solution.methods.multiphase_numerics.advanced_stability_controls.pseudo_time
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-228" name="toctree-checkbox-228" type="checkbox"/>
-                <label for="toctree-checkbox-228">
+                <input class="toctree-checkbox" id="toctree-checkbox-236" name="toctree-checkbox-236" type="checkbox"/>
+                <label for="toctree-checkbox-236">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -5737,8 +5908,8 @@
                 <a class="reference internal" href="../../../solver/tui/solution/methods/multiphase_numerics/advanced_stability_controls/p_v_coupling/index.html">
                  solver.tui.solution.methods.multiphase_numerics.advanced_stability_controls.p_v_coupling
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-229" name="toctree-checkbox-229" type="checkbox"/>
-                <label for="toctree-checkbox-229">
+                <input class="toctree-checkbox" id="toctree-checkbox-237" name="toctree-checkbox-237" type="checkbox"/>
+                <label for="toctree-checkbox-237">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -5764,8 +5935,8 @@
                 <a class="reference internal" href="../../../solver/tui/solution/methods/multiphase_numerics/advanced_stability_controls/hybrid_nita/index.html">
                  solver.tui.solution.methods.multiphase_numerics.advanced_stability_controls.hybrid_nita
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-230" name="toctree-checkbox-230" type="checkbox"/>
-                <label for="toctree-checkbox-230">
+                <input class="toctree-checkbox" id="toctree-checkbox-238" name="toctree-checkbox-238" type="checkbox"/>
+                <label for="toctree-checkbox-238">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -5803,8 +5974,8 @@
               <a class="reference internal" href="../../../solver/tui/solution/methods/multiphase_numerics/solution_stabilization/index.html">
                solver.tui.solution.methods.multiphase_numerics.solution_stabilization
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-231" name="toctree-checkbox-231" type="checkbox"/>
-              <label for="toctree-checkbox-231">
+              <input class="toctree-checkbox" id="toctree-checkbox-239" name="toctree-checkbox-239" type="checkbox"/>
+              <label for="toctree-checkbox-239">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -5832,8 +6003,8 @@
             <a class="reference internal" href="../../../solver/tui/solution/methods/overset/index.html">
              solver.tui.solution.methods.overset
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-232" name="toctree-checkbox-232" type="checkbox"/>
-            <label for="toctree-checkbox-232">
+            <input class="toctree-checkbox" id="toctree-checkbox-240" name="toctree-checkbox-240" type="checkbox"/>
+            <label for="toctree-checkbox-240">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5866,8 +6037,8 @@
           <a class="reference internal" href="../../../solver/tui/solution/monitors/index.html">
            solver.tui.solution.monitors
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-233" name="toctree-checkbox-233" type="checkbox"/>
-          <label for="toctree-checkbox-233">
+          <input class="toctree-checkbox" id="toctree-checkbox-241" name="toctree-checkbox-241" type="checkbox"/>
+          <label for="toctree-checkbox-241">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -5898,8 +6069,8 @@
           <a class="reference internal" href="../../../solver/tui/solution/run_calculation/index.html">
            solver.tui.solution.run_calculation
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-234" name="toctree-checkbox-234" type="checkbox"/>
-          <label for="toctree-checkbox-234">
+          <input class="toctree-checkbox" id="toctree-checkbox-242" name="toctree-checkbox-242" type="checkbox"/>
+          <label for="toctree-checkbox-242">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -5913,8 +6084,8 @@
             <a class="reference internal" href="../../../solver/tui/solution/run_calculation/transient_controls/index.html">
              solver.tui.solution.run_calculation.transient_controls
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-235" name="toctree-checkbox-235" type="checkbox"/>
-            <label for="toctree-checkbox-235">
+            <input class="toctree-checkbox" id="toctree-checkbox-243" name="toctree-checkbox-243" type="checkbox"/>
+            <label for="toctree-checkbox-243">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5923,8 +6094,8 @@
               <a class="reference internal" href="../../../solver/tui/solution/run_calculation/transient_controls/multiphase_specific_time_constraints/index.html">
                solver.tui.solution.run_calculation.transient_controls.multiphase_specific_time_constraints
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-236" name="toctree-checkbox-236" type="checkbox"/>
-              <label for="toctree-checkbox-236">
+              <input class="toctree-checkbox" id="toctree-checkbox-244" name="toctree-checkbox-244" type="checkbox"/>
+              <label for="toctree-checkbox-244">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -5946,8 +6117,8 @@
         <a class="reference internal" href="../../../solver/tui/solve/index.html">
          solver.tui.solve
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-237" name="toctree-checkbox-237" type="checkbox"/>
-        <label for="toctree-checkbox-237">
+        <input class="toctree-checkbox" id="toctree-checkbox-245" name="toctree-checkbox-245" type="checkbox"/>
+        <label for="toctree-checkbox-245">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -5956,8 +6127,8 @@
           <a class="reference internal" href="../../../solver/tui/solve/animate/index.html">
            solver.tui.solve.animate
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-238" name="toctree-checkbox-238" type="checkbox"/>
-          <label for="toctree-checkbox-238">
+          <input class="toctree-checkbox" id="toctree-checkbox-246" name="toctree-checkbox-246" type="checkbox"/>
+          <label for="toctree-checkbox-246">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -5971,8 +6142,8 @@
             <a class="reference internal" href="../../../solver/tui/solve/animate/playback/index.html">
              solver.tui.solve.animate.playback
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-239" name="toctree-checkbox-239" type="checkbox"/>
-            <label for="toctree-checkbox-239">
+            <input class="toctree-checkbox" id="toctree-checkbox-247" name="toctree-checkbox-247" type="checkbox"/>
+            <label for="toctree-checkbox-247">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -5981,8 +6152,8 @@
               <a class="reference internal" href="../../../solver/tui/solve/animate/playback/video/index.html">
                solver.tui.solve.animate.playback.video
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-240" name="toctree-checkbox-240" type="checkbox"/>
-              <label for="toctree-checkbox-240">
+              <input class="toctree-checkbox" id="toctree-checkbox-248" name="toctree-checkbox-248" type="checkbox"/>
+              <label for="toctree-checkbox-248">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -6005,8 +6176,8 @@
             <a class="reference internal" href="../../../solver/tui/solve/animate/pulse/index.html">
              solver.tui.solve.animate.pulse
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-241" name="toctree-checkbox-241" type="checkbox"/>
-            <label for="toctree-checkbox-241">
+            <input class="toctree-checkbox" id="toctree-checkbox-249" name="toctree-checkbox-249" type="checkbox"/>
+            <label for="toctree-checkbox-249">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -6015,8 +6186,8 @@
               <a class="reference internal" href="../../../solver/tui/solve/animate/pulse/video/index.html">
                solver.tui.solve.animate.pulse.video
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-242" name="toctree-checkbox-242" type="checkbox"/>
-              <label for="toctree-checkbox-242">
+              <input class="toctree-checkbox" id="toctree-checkbox-250" name="toctree-checkbox-250" type="checkbox"/>
+              <label for="toctree-checkbox-250">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -6032,8 +6203,8 @@
               <a class="reference internal" href="../../../solver/tui/solve/animate/pulse/hardcopy/index.html">
                solver.tui.solve.animate.pulse.hardcopy
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-243" name="toctree-checkbox-243" type="checkbox"/>
-              <label for="toctree-checkbox-243">
+              <input class="toctree-checkbox" id="toctree-checkbox-251" name="toctree-checkbox-251" type="checkbox"/>
+              <label for="toctree-checkbox-251">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -6047,8 +6218,8 @@
                 <a class="reference internal" href="../../../solver/tui/solve/animate/pulse/hardcopy/driver/index.html">
                  solver.tui.solve.animate.pulse.hardcopy.driver
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-244" name="toctree-checkbox-244" type="checkbox"/>
-                <label for="toctree-checkbox-244">
+                <input class="toctree-checkbox" id="toctree-checkbox-252" name="toctree-checkbox-252" type="checkbox"/>
+                <label for="toctree-checkbox-252">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -6070,8 +6241,8 @@
           <a class="reference internal" href="../../../solver/tui/solve/initialize/index.html">
            solver.tui.solve.initialize
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-245" name="toctree-checkbox-245" type="checkbox"/>
-          <label for="toctree-checkbox-245">
+          <input class="toctree-checkbox" id="toctree-checkbox-253" name="toctree-checkbox-253" type="checkbox"/>
+          <label for="toctree-checkbox-253">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -6107,8 +6278,8 @@
           <a class="reference internal" href="../../../solver/tui/solve/monitors/index.html">
            solver.tui.solve.monitors
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-246" name="toctree-checkbox-246" type="checkbox"/>
-          <label for="toctree-checkbox-246">
+          <input class="toctree-checkbox" id="toctree-checkbox-254" name="toctree-checkbox-254" type="checkbox"/>
+          <label for="toctree-checkbox-254">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -6159,8 +6330,8 @@
           <a class="reference internal" href="../../../solver/tui/solve/set/index.html">
            solver.tui.solve.set
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-247" name="toctree-checkbox-247" type="checkbox"/>
-          <label for="toctree-checkbox-247">
+          <input class="toctree-checkbox" id="toctree-checkbox-255" name="toctree-checkbox-255" type="checkbox"/>
+          <label for="toctree-checkbox-255">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -6169,8 +6340,8 @@
             <a class="reference internal" href="../../../solver/tui/solve/set/contact_solution_controls/index.html">
              solver.tui.solve.set.contact_solution_controls
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-248" name="toctree-checkbox-248" type="checkbox"/>
-            <label for="toctree-checkbox-248">
+            <input class="toctree-checkbox" id="toctree-checkbox-256" name="toctree-checkbox-256" type="checkbox"/>
+            <label for="toctree-checkbox-256">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -6216,8 +6387,8 @@
             <a class="reference internal" href="../../../solver/tui/solve/set/transient_controls/index.html">
              solver.tui.solve.set.transient_controls
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-249" name="toctree-checkbox-249" type="checkbox"/>
-            <label for="toctree-checkbox-249">
+            <input class="toctree-checkbox" id="toctree-checkbox-257" name="toctree-checkbox-257" type="checkbox"/>
+            <label for="toctree-checkbox-257">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -6226,8 +6397,8 @@
               <a class="reference internal" href="../../../solver/tui/solve/set/transient_controls/multiphase_specific_time_constraints/index.html">
                solver.tui.solve.set.transient_controls.multiphase_specific_time_constraints
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-250" name="toctree-checkbox-250" type="checkbox"/>
-              <label for="toctree-checkbox-250">
+              <input class="toctree-checkbox" id="toctree-checkbox-258" name="toctree-checkbox-258" type="checkbox"/>
+              <label for="toctree-checkbox-258">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -6260,8 +6431,8 @@
             <a class="reference internal" href="../../../solver/tui/solve/set/multiphase_numerics/index.html">
              solver.tui.solve.set.multiphase_numerics
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-251" name="toctree-checkbox-251" type="checkbox"/>
-            <label for="toctree-checkbox-251">
+            <input class="toctree-checkbox" id="toctree-checkbox-259" name="toctree-checkbox-259" type="checkbox"/>
+            <label for="toctree-checkbox-259">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -6290,8 +6461,8 @@
               <a class="reference internal" href="../../../solver/tui/solve/set/multiphase_numerics/heat_mass_transfer/index.html">
                solver.tui.solve.set.multiphase_numerics.heat_mass_transfer
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-252" name="toctree-checkbox-252" type="checkbox"/>
-              <label for="toctree-checkbox-252">
+              <input class="toctree-checkbox" id="toctree-checkbox-260" name="toctree-checkbox-260" type="checkbox"/>
+              <label for="toctree-checkbox-260">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -6322,8 +6493,8 @@
               <a class="reference internal" href="../../../solver/tui/solve/set/multiphase_numerics/advanced_stability_controls/index.html">
                solver.tui.solve.set.multiphase_numerics.advanced_stability_controls
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-253" name="toctree-checkbox-253" type="checkbox"/>
-              <label for="toctree-checkbox-253">
+              <input class="toctree-checkbox" id="toctree-checkbox-261" name="toctree-checkbox-261" type="checkbox"/>
+              <label for="toctree-checkbox-261">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -6332,8 +6503,8 @@
                 <a class="reference internal" href="../../../solver/tui/solve/set/multiphase_numerics/advanced_stability_controls/pseudo_time/index.html">
                  solver.tui.solve.set.multiphase_numerics.advanced_stability_controls.pseudo_time
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-254" name="toctree-checkbox-254" type="checkbox"/>
-                <label for="toctree-checkbox-254">
+                <input class="toctree-checkbox" id="toctree-checkbox-262" name="toctree-checkbox-262" type="checkbox"/>
+                <label for="toctree-checkbox-262">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -6349,8 +6520,8 @@
                 <a class="reference internal" href="../../../solver/tui/solve/set/multiphase_numerics/advanced_stability_controls/p_v_coupling/index.html">
                  solver.tui.solve.set.multiphase_numerics.advanced_stability_controls.p_v_coupling
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-255" name="toctree-checkbox-255" type="checkbox"/>
-                <label for="toctree-checkbox-255">
+                <input class="toctree-checkbox" id="toctree-checkbox-263" name="toctree-checkbox-263" type="checkbox"/>
+                <label for="toctree-checkbox-263">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -6376,8 +6547,8 @@
                 <a class="reference internal" href="../../../solver/tui/solve/set/multiphase_numerics/advanced_stability_controls/hybrid_nita/index.html">
                  solver.tui.solve.set.multiphase_numerics.advanced_stability_controls.hybrid_nita
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-256" name="toctree-checkbox-256" type="checkbox"/>
-                <label for="toctree-checkbox-256">
+                <input class="toctree-checkbox" id="toctree-checkbox-264" name="toctree-checkbox-264" type="checkbox"/>
+                <label for="toctree-checkbox-264">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -6415,8 +6586,8 @@
               <a class="reference internal" href="../../../solver/tui/solve/set/multiphase_numerics/solution_stabilization/index.html">
                solver.tui.solve.set.multiphase_numerics.solution_stabilization
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-257" name="toctree-checkbox-257" type="checkbox"/>
-              <label for="toctree-checkbox-257">
+              <input class="toctree-checkbox" id="toctree-checkbox-265" name="toctree-checkbox-265" type="checkbox"/>
+              <label for="toctree-checkbox-265">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -6444,8 +6615,8 @@
             <a class="reference internal" href="../../../solver/tui/solve/set/high_order_term_relaxation/index.html">
              solver.tui.solve.set.high_order_term_relaxation
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-258" name="toctree-checkbox-258" type="checkbox"/>
-            <label for="toctree-checkbox-258">
+            <input class="toctree-checkbox" id="toctree-checkbox-266" name="toctree-checkbox-266" type="checkbox"/>
+            <label for="toctree-checkbox-266">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -6454,8 +6625,8 @@
               <a class="reference internal" href="../../../solver/tui/solve/set/high_order_term_relaxation/options/index.html">
                solver.tui.solve.set.high_order_term_relaxation.options
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-259" name="toctree-checkbox-259" type="checkbox"/>
-              <label for="toctree-checkbox-259">
+              <input class="toctree-checkbox" id="toctree-checkbox-267" name="toctree-checkbox-267" type="checkbox"/>
+              <label for="toctree-checkbox-267">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -6473,8 +6644,8 @@
             <a class="reference internal" href="../../../solver/tui/solve/set/poor_mesh_numerics/index.html">
              solver.tui.solve.set.poor_mesh_numerics
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-260" name="toctree-checkbox-260" type="checkbox"/>
-            <label for="toctree-checkbox-260">
+            <input class="toctree-checkbox" id="toctree-checkbox-268" name="toctree-checkbox-268" type="checkbox"/>
+            <label for="toctree-checkbox-268">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -6510,8 +6681,8 @@
             <a class="reference internal" href="../../../solver/tui/solve/set/advanced/index.html">
              solver.tui.solve.set.advanced
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-261" name="toctree-checkbox-261" type="checkbox"/>
-            <label for="toctree-checkbox-261">
+            <input class="toctree-checkbox" id="toctree-checkbox-269" name="toctree-checkbox-269" type="checkbox"/>
+            <label for="toctree-checkbox-269">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -6547,8 +6718,8 @@
             <a class="reference internal" href="../../../solver/tui/solve/set/overset/index.html">
              solver.tui.solve.set.overset
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-262" name="toctree-checkbox-262" type="checkbox"/>
-            <label for="toctree-checkbox-262">
+            <input class="toctree-checkbox" id="toctree-checkbox-270" name="toctree-checkbox-270" type="checkbox"/>
+            <label for="toctree-checkbox-270">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -6564,8 +6735,8 @@
             <a class="reference internal" href="../../../solver/tui/solve/set/acoustics_wave_equation_controls/index.html">
              solver.tui.solve.set.acoustics_wave_equation_controls
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-263" name="toctree-checkbox-263" type="checkbox"/>
-            <label for="toctree-checkbox-263">
+            <input class="toctree-checkbox" id="toctree-checkbox-271" name="toctree-checkbox-271" type="checkbox"/>
+            <label for="toctree-checkbox-271">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -6595,8 +6766,8 @@
         <a class="reference internal" href="../../../solver/tui/setup/index.html">
          solver.tui.setup
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-264" name="toctree-checkbox-264" type="checkbox"/>
-        <label for="toctree-checkbox-264">
+        <input class="toctree-checkbox" id="toctree-checkbox-272" name="toctree-checkbox-272" type="checkbox"/>
+        <label for="toctree-checkbox-272">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -6605,8 +6776,8 @@
           <a class="reference internal" href="../../../solver/tui/setup/boundary_conditions/index.html">
            solver.tui.setup.boundary_conditions
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-265" name="toctree-checkbox-265" type="checkbox"/>
-          <label for="toctree-checkbox-265">
+          <input class="toctree-checkbox" id="toctree-checkbox-273" name="toctree-checkbox-273" type="checkbox"/>
+          <label for="toctree-checkbox-273">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -6615,8 +6786,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/boundary_conditions/bc_settings/index.html">
              solver.tui.setup.boundary_conditions.bc_settings
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-266" name="toctree-checkbox-266" type="checkbox"/>
-            <label for="toctree-checkbox-266">
+            <input class="toctree-checkbox" id="toctree-checkbox-274" name="toctree-checkbox-274" type="checkbox"/>
+            <label for="toctree-checkbox-274">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -6632,8 +6803,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/boundary_conditions/expert/index.html">
              solver.tui.setup.boundary_conditions.expert
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-267" name="toctree-checkbox-267" type="checkbox"/>
-            <label for="toctree-checkbox-267">
+            <input class="toctree-checkbox" id="toctree-checkbox-275" name="toctree-checkbox-275" type="checkbox"/>
+            <label for="toctree-checkbox-275">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -6647,8 +6818,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/boundary_conditions/expert/non_reflecting_bc/index.html">
                solver.tui.setup.boundary_conditions.expert.non_reflecting_bc
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-268" name="toctree-checkbox-268" type="checkbox"/>
-              <label for="toctree-checkbox-268">
+              <input class="toctree-checkbox" id="toctree-checkbox-276" name="toctree-checkbox-276" type="checkbox"/>
+              <label for="toctree-checkbox-276">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -6657,8 +6828,8 @@
                 <a class="reference internal" href="../../../solver/tui/setup/boundary_conditions/expert/non_reflecting_bc/general_nrbc/index.html">
                  solver.tui.setup.boundary_conditions.expert.non_reflecting_bc.general_nrbc
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-269" name="toctree-checkbox-269" type="checkbox"/>
-                <label for="toctree-checkbox-269">
+                <input class="toctree-checkbox" id="toctree-checkbox-277" name="toctree-checkbox-277" type="checkbox"/>
+                <label for="toctree-checkbox-277">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -6674,8 +6845,8 @@
                 <a class="reference internal" href="../../../solver/tui/setup/boundary_conditions/expert/non_reflecting_bc/turbo_specific_nrbc/index.html">
                  solver.tui.setup.boundary_conditions.expert.non_reflecting_bc.turbo_specific_nrbc
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-270" name="toctree-checkbox-270" type="checkbox"/>
-                <label for="toctree-checkbox-270">
+                <input class="toctree-checkbox" id="toctree-checkbox-278" name="toctree-checkbox-278" type="checkbox"/>
+                <label for="toctree-checkbox-278">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -6732,8 +6903,8 @@
           <a class="reference internal" href="../../../solver/tui/setup/dynamic_mesh/index.html">
            solver.tui.setup.dynamic_mesh
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-271" name="toctree-checkbox-271" type="checkbox"/>
-          <label for="toctree-checkbox-271">
+          <input class="toctree-checkbox" id="toctree-checkbox-279" name="toctree-checkbox-279" type="checkbox"/>
+          <label for="toctree-checkbox-279">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -6742,8 +6913,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/dynamic_mesh/controls/index.html">
              solver.tui.setup.dynamic_mesh.controls
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-272" name="toctree-checkbox-272" type="checkbox"/>
-            <label for="toctree-checkbox-272">
+            <input class="toctree-checkbox" id="toctree-checkbox-280" name="toctree-checkbox-280" type="checkbox"/>
+            <label for="toctree-checkbox-280">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -6762,8 +6933,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/dynamic_mesh/controls/remeshing_parameters/index.html">
                solver.tui.setup.dynamic_mesh.controls.remeshing_parameters
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-273" name="toctree-checkbox-273" type="checkbox"/>
-              <label for="toctree-checkbox-273">
+              <input class="toctree-checkbox" id="toctree-checkbox-281" name="toctree-checkbox-281" type="checkbox"/>
+              <label for="toctree-checkbox-281">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -6809,8 +6980,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/dynamic_mesh/controls/contact_parameters/index.html">
                solver.tui.setup.dynamic_mesh.controls.contact_parameters
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-274" name="toctree-checkbox-274" type="checkbox"/>
-              <label for="toctree-checkbox-274">
+              <input class="toctree-checkbox" id="toctree-checkbox-282" name="toctree-checkbox-282" type="checkbox"/>
+              <label for="toctree-checkbox-282">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -6850,8 +7021,8 @@
           <a class="reference internal" href="../../../solver/tui/setup/expert/index.html">
            solver.tui.setup.expert
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-275" name="toctree-checkbox-275" type="checkbox"/>
-          <label for="toctree-checkbox-275">
+          <input class="toctree-checkbox" id="toctree-checkbox-283" name="toctree-checkbox-283" type="checkbox"/>
+          <label for="toctree-checkbox-283">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -6867,8 +7038,8 @@
           <a class="reference internal" href="../../../solver/tui/setup/gap_model/index.html">
            solver.tui.setup.gap_model
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-276" name="toctree-checkbox-276" type="checkbox"/>
-          <label for="toctree-checkbox-276">
+          <input class="toctree-checkbox" id="toctree-checkbox-284" name="toctree-checkbox-284" type="checkbox"/>
+          <label for="toctree-checkbox-284">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -6884,8 +7055,8 @@
           <a class="reference internal" href="../../../solver/tui/setup/materials/index.html">
            solver.tui.setup.materials
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-277" name="toctree-checkbox-277" type="checkbox"/>
-          <label for="toctree-checkbox-277">
+          <input class="toctree-checkbox" id="toctree-checkbox-285" name="toctree-checkbox-285" type="checkbox"/>
+          <label for="toctree-checkbox-285">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -6901,8 +7072,8 @@
           <a class="reference internal" href="../../../solver/tui/setup/mesh_interfaces/index.html">
            solver.tui.setup.mesh_interfaces
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-278" name="toctree-checkbox-278" type="checkbox"/>
-          <label for="toctree-checkbox-278">
+          <input class="toctree-checkbox" id="toctree-checkbox-286" name="toctree-checkbox-286" type="checkbox"/>
+          <label for="toctree-checkbox-286">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -6928,8 +7099,8 @@
           <a class="reference internal" href="../../../solver/tui/setup/mixing_planes/index.html">
            solver.tui.setup.mixing_planes
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-279" name="toctree-checkbox-279" type="checkbox"/>
-          <label for="toctree-checkbox-279">
+          <input class="toctree-checkbox" id="toctree-checkbox-287" name="toctree-checkbox-287" type="checkbox"/>
+          <label for="toctree-checkbox-287">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -6938,8 +7109,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/mixing_planes/set/index.html">
              solver.tui.setup.mixing_planes.set
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-280" name="toctree-checkbox-280" type="checkbox"/>
-            <label for="toctree-checkbox-280">
+            <input class="toctree-checkbox" id="toctree-checkbox-288" name="toctree-checkbox-288" type="checkbox"/>
+            <label for="toctree-checkbox-288">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -6962,8 +7133,8 @@
           <a class="reference internal" href="../../../solver/tui/setup/models/index.html">
            solver.tui.setup.models
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-281" name="toctree-checkbox-281" type="checkbox"/>
-          <label for="toctree-checkbox-281">
+          <input class="toctree-checkbox" id="toctree-checkbox-289" name="toctree-checkbox-289" type="checkbox"/>
+          <label for="toctree-checkbox-289">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -6972,8 +7143,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/models/acoustics/index.html">
              solver.tui.setup.models.acoustics
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-282" name="toctree-checkbox-282" type="checkbox"/>
-            <label for="toctree-checkbox-282">
+            <input class="toctree-checkbox" id="toctree-checkbox-290" name="toctree-checkbox-290" type="checkbox"/>
+            <label for="toctree-checkbox-290">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -6987,8 +7158,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/models/acoustics/wave_equation_options/index.html">
                solver.tui.setup.models.acoustics.wave_equation_options
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-283" name="toctree-checkbox-283" type="checkbox"/>
-              <label for="toctree-checkbox-283">
+              <input class="toctree-checkbox" id="toctree-checkbox-291" name="toctree-checkbox-291" type="checkbox"/>
+              <label for="toctree-checkbox-291">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -7009,8 +7180,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/models/acoustics/sources_fft/index.html">
                solver.tui.setup.models.acoustics.sources_fft
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-284" name="toctree-checkbox-284" type="checkbox"/>
-              <label for="toctree-checkbox-284">
+              <input class="toctree-checkbox" id="toctree-checkbox-292" name="toctree-checkbox-292" type="checkbox"/>
+              <label for="toctree-checkbox-292">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -7033,8 +7204,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/models/optics/index.html">
              solver.tui.setup.models.optics
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-285" name="toctree-checkbox-285" type="checkbox"/>
-            <label for="toctree-checkbox-285">
+            <input class="toctree-checkbox" id="toctree-checkbox-293" name="toctree-checkbox-293" type="checkbox"/>
+            <label for="toctree-checkbox-293">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7050,8 +7221,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/models/eulerian_wallfilm/index.html">
              solver.tui.setup.models.eulerian_wallfilm
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-286" name="toctree-checkbox-286" type="checkbox"/>
-            <label for="toctree-checkbox-286">
+            <input class="toctree-checkbox" id="toctree-checkbox-294" name="toctree-checkbox-294" type="checkbox"/>
+            <label for="toctree-checkbox-294">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7072,8 +7243,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/models/dpm/index.html">
              solver.tui.setup.models.dpm
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-287" name="toctree-checkbox-287" type="checkbox"/>
-            <label for="toctree-checkbox-287">
+            <input class="toctree-checkbox" id="toctree-checkbox-295" name="toctree-checkbox-295" type="checkbox"/>
+            <label for="toctree-checkbox-295">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7082,8 +7253,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/models/dpm/collisions/index.html">
                solver.tui.setup.models.dpm.collisions
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-288" name="toctree-checkbox-288" type="checkbox"/>
-              <label for="toctree-checkbox-288">
+              <input class="toctree-checkbox" id="toctree-checkbox-296" name="toctree-checkbox-296" type="checkbox"/>
+              <label for="toctree-checkbox-296">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -7099,8 +7270,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/models/dpm/erosion_dynamic_mesh/index.html">
                solver.tui.setup.models.dpm.erosion_dynamic_mesh
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-289" name="toctree-checkbox-289" type="checkbox"/>
-              <label for="toctree-checkbox-289">
+              <input class="toctree-checkbox" id="toctree-checkbox-297" name="toctree-checkbox-297" type="checkbox"/>
+              <label for="toctree-checkbox-297">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -7126,8 +7297,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/models/dpm/numerics/index.html">
                solver.tui.setup.models.dpm.numerics
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-290" name="toctree-checkbox-290" type="checkbox"/>
-              <label for="toctree-checkbox-290">
+              <input class="toctree-checkbox" id="toctree-checkbox-298" name="toctree-checkbox-298" type="checkbox"/>
+              <label for="toctree-checkbox-298">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -7136,8 +7307,8 @@
                 <a class="reference internal" href="../../../solver/tui/setup/models/dpm/numerics/high_resolution_tracking/index.html">
                  solver.tui.setup.models.dpm.numerics.high_resolution_tracking
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-291" name="toctree-checkbox-291" type="checkbox"/>
-                <label for="toctree-checkbox-291">
+                <input class="toctree-checkbox" id="toctree-checkbox-299" name="toctree-checkbox-299" type="checkbox"/>
+                <label for="toctree-checkbox-299">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -7165,8 +7336,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/models/dpm/parallel/index.html">
                solver.tui.setup.models.dpm.parallel
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-292" name="toctree-checkbox-292" type="checkbox"/>
-              <label for="toctree-checkbox-292">
+              <input class="toctree-checkbox" id="toctree-checkbox-300" name="toctree-checkbox-300" type="checkbox"/>
+              <label for="toctree-checkbox-300">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -7199,8 +7370,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/models/system_coupling_settings/index.html">
              solver.tui.setup.models.system_coupling_settings
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-293" name="toctree-checkbox-293" type="checkbox"/>
-            <label for="toctree-checkbox-293">
+            <input class="toctree-checkbox" id="toctree-checkbox-301" name="toctree-checkbox-301" type="checkbox"/>
+            <label for="toctree-checkbox-301">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7209,8 +7380,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/models/system_coupling_settings/htc/index.html">
                solver.tui.setup.models.system_coupling_settings.htc
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-294" name="toctree-checkbox-294" type="checkbox"/>
-              <label for="toctree-checkbox-294">
+              <input class="toctree-checkbox" id="toctree-checkbox-302" name="toctree-checkbox-302" type="checkbox"/>
+              <label for="toctree-checkbox-302">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -7233,8 +7404,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/models/cht/index.html">
              solver.tui.setup.models.cht
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-295" name="toctree-checkbox-295" type="checkbox"/>
-            <label for="toctree-checkbox-295">
+            <input class="toctree-checkbox" id="toctree-checkbox-303" name="toctree-checkbox-303" type="checkbox"/>
+            <label for="toctree-checkbox-303">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7255,8 +7426,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/models/multiphase/index.html">
              solver.tui.setup.models.multiphase
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-296" name="toctree-checkbox-296" type="checkbox"/>
-            <label for="toctree-checkbox-296">
+            <input class="toctree-checkbox" id="toctree-checkbox-304" name="toctree-checkbox-304" type="checkbox"/>
+            <label for="toctree-checkbox-304">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7265,8 +7436,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/models/multiphase/phases/index.html">
                solver.tui.setup.models.multiphase.phases
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-297" name="toctree-checkbox-297" type="checkbox"/>
-              <label for="toctree-checkbox-297">
+              <input class="toctree-checkbox" id="toctree-checkbox-305" name="toctree-checkbox-305" type="checkbox"/>
+              <label for="toctree-checkbox-305">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -7275,8 +7446,8 @@
                 <a class="reference internal" href="../../../solver/tui/setup/models/multiphase/phases/set_domain_properties/index.html">
                  solver.tui.setup.models.multiphase.phases.set_domain_properties
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-298" name="toctree-checkbox-298" type="checkbox"/>
-                <label for="toctree-checkbox-298">
+                <input class="toctree-checkbox" id="toctree-checkbox-306" name="toctree-checkbox-306" type="checkbox"/>
+                <label for="toctree-checkbox-306">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -7285,8 +7456,8 @@
                   <a class="reference internal" href="../../../solver/tui/setup/models/multiphase/phases/set_domain_properties/interaction_domain/index.html">
                    solver.tui.setup.models.multiphase.phases.set_domain_properties.interaction_domain
                   </a>
-                  <input class="toctree-checkbox" id="toctree-checkbox-299" name="toctree-checkbox-299" type="checkbox"/>
-                  <label for="toctree-checkbox-299">
+                  <input class="toctree-checkbox" id="toctree-checkbox-307" name="toctree-checkbox-307" type="checkbox"/>
+                  <label for="toctree-checkbox-307">
                    <i class="fas fa-chevron-down">
                    </i>
                   </label>
@@ -7295,8 +7466,8 @@
                     <a class="reference internal" href="../../../solver/tui/setup/models/multiphase/phases/set_domain_properties/interaction_domain/forces/index.html">
                      solver.tui.setup.models.multiphase.phases.set_domain_properties.interaction_domain.forces
                     </a>
-                    <input class="toctree-checkbox" id="toctree-checkbox-300" name="toctree-checkbox-300" type="checkbox"/>
-                    <label for="toctree-checkbox-300">
+                    <input class="toctree-checkbox" id="toctree-checkbox-308" name="toctree-checkbox-308" type="checkbox"/>
+                    <label for="toctree-checkbox-308">
                      <i class="fas fa-chevron-down">
                      </i>
                     </label>
@@ -7337,8 +7508,8 @@
                     <a class="reference internal" href="../../../solver/tui/setup/models/multiphase/phases/set_domain_properties/interaction_domain/heat_mass_reactions/index.html">
                      solver.tui.setup.models.multiphase.phases.set_domain_properties.interaction_domain.heat_mass_reactions
                     </a>
-                    <input class="toctree-checkbox" id="toctree-checkbox-301" name="toctree-checkbox-301" type="checkbox"/>
-                    <label for="toctree-checkbox-301">
+                    <input class="toctree-checkbox" id="toctree-checkbox-309" name="toctree-checkbox-309" type="checkbox"/>
+                    <label for="toctree-checkbox-309">
                      <i class="fas fa-chevron-down">
                      </i>
                     </label>
@@ -7379,8 +7550,8 @@
                     <a class="reference internal" href="../../../solver/tui/setup/models/multiphase/phases/set_domain_properties/interaction_domain/interfacial_area/index.html">
                      solver.tui.setup.models.multiphase.phases.set_domain_properties.interaction_domain.interfacial_area
                     </a>
-                    <input class="toctree-checkbox" id="toctree-checkbox-302" name="toctree-checkbox-302" type="checkbox"/>
-                    <label for="toctree-checkbox-302">
+                    <input class="toctree-checkbox" id="toctree-checkbox-310" name="toctree-checkbox-310" type="checkbox"/>
+                    <label for="toctree-checkbox-310">
                      <i class="fas fa-chevron-down">
                      </i>
                     </label>
@@ -7421,8 +7592,8 @@
                     <a class="reference internal" href="../../../solver/tui/setup/models/multiphase/phases/set_domain_properties/interaction_domain/model_transition/index.html">
                      solver.tui.setup.models.multiphase.phases.set_domain_properties.interaction_domain.model_transition
                     </a>
-                    <input class="toctree-checkbox" id="toctree-checkbox-303" name="toctree-checkbox-303" type="checkbox"/>
-                    <label for="toctree-checkbox-303">
+                    <input class="toctree-checkbox" id="toctree-checkbox-311" name="toctree-checkbox-311" type="checkbox"/>
+                    <label for="toctree-checkbox-311">
                      <i class="fas fa-chevron-down">
                      </i>
                     </label>
@@ -7463,8 +7634,8 @@
                     <a class="reference internal" href="../../../solver/tui/setup/models/multiphase/phases/set_domain_properties/interaction_domain/numerics/index.html">
                      solver.tui.setup.models.multiphase.phases.set_domain_properties.interaction_domain.numerics
                     </a>
-                    <input class="toctree-checkbox" id="toctree-checkbox-304" name="toctree-checkbox-304" type="checkbox"/>
-                    <label for="toctree-checkbox-304">
+                    <input class="toctree-checkbox" id="toctree-checkbox-312" name="toctree-checkbox-312" type="checkbox"/>
+                    <label for="toctree-checkbox-312">
                      <i class="fas fa-chevron-down">
                      </i>
                     </label>
@@ -7516,8 +7687,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/models/multiphase/wet_steam/index.html">
                solver.tui.setup.models.multiphase.wet_steam
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-305" name="toctree-checkbox-305" type="checkbox"/>
-              <label for="toctree-checkbox-305">
+              <input class="toctree-checkbox" id="toctree-checkbox-313" name="toctree-checkbox-313" type="checkbox"/>
+              <label for="toctree-checkbox-313">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -7533,8 +7704,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/models/multiphase/population_balance/index.html">
                solver.tui.setup.models.multiphase.population_balance
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-306" name="toctree-checkbox-306" type="checkbox"/>
-              <label for="toctree-checkbox-306">
+              <input class="toctree-checkbox" id="toctree-checkbox-314" name="toctree-checkbox-314" type="checkbox"/>
+              <label for="toctree-checkbox-314">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -7548,8 +7719,8 @@
                 <a class="reference internal" href="../../../solver/tui/setup/models/multiphase/population_balance/expert/index.html">
                  solver.tui.setup.models.multiphase.population_balance.expert
                 </a>
-                <input class="toctree-checkbox" id="toctree-checkbox-307" name="toctree-checkbox-307" type="checkbox"/>
-                <label for="toctree-checkbox-307">
+                <input class="toctree-checkbox" id="toctree-checkbox-315" name="toctree-checkbox-315" type="checkbox"/>
+                <label for="toctree-checkbox-315">
                  <i class="fas fa-chevron-down">
                  </i>
                 </label>
@@ -7567,8 +7738,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/models/multiphase/explicit_expert_options/index.html">
                solver.tui.setup.models.multiphase.explicit_expert_options
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-308" name="toctree-checkbox-308" type="checkbox"/>
-              <label for="toctree-checkbox-308">
+              <input class="toctree-checkbox" id="toctree-checkbox-316" name="toctree-checkbox-316" type="checkbox"/>
+              <label for="toctree-checkbox-316">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -7596,8 +7767,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/models/radiation/index.html">
              solver.tui.setup.models.radiation
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-309" name="toctree-checkbox-309" type="checkbox"/>
-            <label for="toctree-checkbox-309">
+            <input class="toctree-checkbox" id="toctree-checkbox-317" name="toctree-checkbox-317" type="checkbox"/>
+            <label for="toctree-checkbox-317">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7628,8 +7799,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/models/species/index.html">
              solver.tui.setup.models.species
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-310" name="toctree-checkbox-310" type="checkbox"/>
-            <label for="toctree-checkbox-310">
+            <input class="toctree-checkbox" id="toctree-checkbox-318" name="toctree-checkbox-318" type="checkbox"/>
+            <label for="toctree-checkbox-318">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7645,8 +7816,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/models/viscous/index.html">
              solver.tui.setup.models.viscous
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-311" name="toctree-checkbox-311" type="checkbox"/>
-            <label for="toctree-checkbox-311">
+            <input class="toctree-checkbox" id="toctree-checkbox-319" name="toctree-checkbox-319" type="checkbox"/>
+            <label for="toctree-checkbox-319">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7682,8 +7853,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/models/structure/index.html">
              solver.tui.setup.models.structure
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-312" name="toctree-checkbox-312" type="checkbox"/>
-            <label for="toctree-checkbox-312">
+            <input class="toctree-checkbox" id="toctree-checkbox-320" name="toctree-checkbox-320" type="checkbox"/>
+            <label for="toctree-checkbox-320">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7704,8 +7875,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/models/heat_exchanger/index.html">
              solver.tui.setup.models.heat_exchanger
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-313" name="toctree-checkbox-313" type="checkbox"/>
-            <label for="toctree-checkbox-313">
+            <input class="toctree-checkbox" id="toctree-checkbox-321" name="toctree-checkbox-321" type="checkbox"/>
+            <label for="toctree-checkbox-321">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7726,8 +7897,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/models/electrolysis_setup/index.html">
              solver.tui.setup.models.electrolysis_setup
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-314" name="toctree-checkbox-314" type="checkbox"/>
-            <label for="toctree-checkbox-314">
+            <input class="toctree-checkbox" id="toctree-checkbox-322" name="toctree-checkbox-322" type="checkbox"/>
+            <label for="toctree-checkbox-322">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7765,8 +7936,8 @@
           <a class="reference internal" href="../../../solver/tui/setup/overset_interfaces/index.html">
            solver.tui.setup.overset_interfaces
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-315" name="toctree-checkbox-315" type="checkbox"/>
-          <label for="toctree-checkbox-315">
+          <input class="toctree-checkbox" id="toctree-checkbox-323" name="toctree-checkbox-323" type="checkbox"/>
+          <label for="toctree-checkbox-323">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -7780,8 +7951,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/overset_interfaces/cut_control/index.html">
              solver.tui.setup.overset_interfaces.cut_control
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-316" name="toctree-checkbox-316" type="checkbox"/>
-            <label for="toctree-checkbox-316">
+            <input class="toctree-checkbox" id="toctree-checkbox-324" name="toctree-checkbox-324" type="checkbox"/>
+            <label for="toctree-checkbox-324">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7797,8 +7968,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/overset_interfaces/adapt/index.html">
              solver.tui.setup.overset_interfaces.adapt
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-317" name="toctree-checkbox-317" type="checkbox"/>
-            <label for="toctree-checkbox-317">
+            <input class="toctree-checkbox" id="toctree-checkbox-325" name="toctree-checkbox-325" type="checkbox"/>
+            <label for="toctree-checkbox-325">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7821,8 +7992,8 @@
           <a class="reference internal" href="../../../solver/tui/setup/reference_values/index.html">
            solver.tui.setup.reference_values
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-318" name="toctree-checkbox-318" type="checkbox"/>
-          <label for="toctree-checkbox-318">
+          <input class="toctree-checkbox" id="toctree-checkbox-326" name="toctree-checkbox-326" type="checkbox"/>
+          <label for="toctree-checkbox-326">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -7838,8 +8009,8 @@
           <a class="reference internal" href="../../../solver/tui/setup/turbo_model/index.html">
            solver.tui.setup.turbo_model
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-319" name="toctree-checkbox-319" type="checkbox"/>
-          <label for="toctree-checkbox-319">
+          <input class="toctree-checkbox" id="toctree-checkbox-327" name="toctree-checkbox-327" type="checkbox"/>
+          <label for="toctree-checkbox-327">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -7853,8 +8024,8 @@
             <a class="reference internal" href="../../../solver/tui/setup/turbo_model/general_turbo_interface_settings/index.html">
              solver.tui.setup.turbo_model.general_turbo_interface_settings
             </a>
-            <input class="toctree-checkbox" id="toctree-checkbox-320" name="toctree-checkbox-320" type="checkbox"/>
-            <label for="toctree-checkbox-320">
+            <input class="toctree-checkbox" id="toctree-checkbox-328" name="toctree-checkbox-328" type="checkbox"/>
+            <label for="toctree-checkbox-328">
              <i class="fas fa-chevron-down">
              </i>
             </label>
@@ -7863,8 +8034,8 @@
               <a class="reference internal" href="../../../solver/tui/setup/turbo_model/general_turbo_interface_settings/mixing_plane_model_settings/index.html">
                solver.tui.setup.turbo_model.general_turbo_interface_settings.mixing_plane_model_settings
               </a>
-              <input class="toctree-checkbox" id="toctree-checkbox-321" name="toctree-checkbox-321" type="checkbox"/>
-              <label for="toctree-checkbox-321">
+              <input class="toctree-checkbox" id="toctree-checkbox-329" name="toctree-checkbox-329" type="checkbox"/>
+              <label for="toctree-checkbox-329">
                <i class="fas fa-chevron-down">
                </i>
               </label>
@@ -7906,8 +8077,8 @@
         <a class="reference internal" href="../../../solver/tui/surface/index.html">
          solver.tui.surface
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-322" name="toctree-checkbox-322" type="checkbox"/>
-        <label for="toctree-checkbox-322">
+        <input class="toctree-checkbox" id="toctree-checkbox-330" name="toctree-checkbox-330" type="checkbox"/>
+        <label for="toctree-checkbox-330">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -7943,8 +8114,8 @@
         <a class="reference internal" href="../../../solver/tui/views/index.html">
          solver.tui.views
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-323" name="toctree-checkbox-323" type="checkbox"/>
-        <label for="toctree-checkbox-323">
+        <input class="toctree-checkbox" id="toctree-checkbox-331" name="toctree-checkbox-331" type="checkbox"/>
+        <label for="toctree-checkbox-331">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -7960,8 +8131,8 @@
         <a class="reference internal" href="../../../solver/tui/parametric_study/index.html">
          solver.tui.parametric_study
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-324" name="toctree-checkbox-324" type="checkbox"/>
-        <label for="toctree-checkbox-324">
+        <input class="toctree-checkbox" id="toctree-checkbox-332" name="toctree-checkbox-332" type="checkbox"/>
+        <label for="toctree-checkbox-332">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -7975,8 +8146,8 @@
           <a class="reference internal" href="../../../solver/tui/parametric_study/update/index.html">
            solver.tui.parametric_study.update
           </a>
-          <input class="toctree-checkbox" id="toctree-checkbox-325" name="toctree-checkbox-325" type="checkbox"/>
-          <label for="toctree-checkbox-325">
+          <input class="toctree-checkbox" id="toctree-checkbox-333" name="toctree-checkbox-333" type="checkbox"/>
+          <label for="toctree-checkbox-333">
            <i class="fas fa-chevron-down">
            </i>
           </label>
@@ -7994,8 +8165,8 @@
         <a class="reference internal" href="../../../solver/tui/turbo_workflow/index.html">
          solver.tui.turbo_workflow
         </a>
-        <input class="toctree-checkbox" id="toctree-checkbox-326" name="toctree-checkbox-326" type="checkbox"/>
-        <label for="toctree-checkbox-326">
+        <input class="toctree-checkbox" id="toctree-checkbox-334" name="toctree-checkbox-334" type="checkbox"/>
+        <label for="toctree-checkbox-334">
          <i class="fas fa-chevron-down">
          </i>
         </label>
@@ -8007,6 +8178,18 @@
          </li>
         </ul>
        </li>
+      </ul>
+     </li>
+     <li class="toctree-l3 has-children">
+      <a class="reference internal" href="../../../solver/datamodel/index.html">
+       solver.datamodel
+      </a>
+      <input class="toctree-checkbox" id="toctree-checkbox-335" name="toctree-checkbox-335" type="checkbox"/>
+      <label for="toctree-checkbox-335">
+       <i class="fas fa-chevron-down">
+       </i>
+      </label>
+      <ul class="simple">
       </ul>
      </li>
      <li class="toctree-l3">
@@ -8022,6 +8205,9 @@
 
   </div>
 </nav>
+              </div>
+              <div class="sidebar-end-items">
+              </div>
             </div>
             
           
@@ -8055,7 +8241,7 @@
               <div>
                 
   <section id="meshing-tui-display">
-<span id="ref-meshing-tui-display"></span><h1>meshing.tui.display<a class="headerlink" href="#meshing-tui-display" title="Permalink to this headline">¶</a></h1>
+<span id="ref-meshing-tui-display"></span><h1>meshing.tui.display<a class="headerlink" href="#meshing-tui-display" title="Permalink to this headline">#</a></h1>
 <table class="longtable table autosummary">
 <colgroup>
 <col style="width: 10%" />
@@ -8066,95 +8252,95 @@
 </table>
 <dl class="py class">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">main_menu.</span></span><span class="sig-name descname"><span class="pre">display</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">service</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display" title="Permalink to this definition">¶</a></dt>
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">main_menu.</span></span><span class="sig-name descname"><span class="pre">display</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">service</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display" title="Permalink to this definition">#</a></dt>
 <dd><p>Enter the display menu.</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.all_grid">
-<span class="sig-name descname"><span class="pre">all_grid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.all_grid" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">all_grid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.all_grid" title="Permalink to this definition">#</a></dt>
 <dd><p>Displays the grid according to the currently set parameters.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.annotate">
-<span class="sig-name descname"><span class="pre">annotate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.annotate" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">annotate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.annotate" title="Permalink to this definition">#</a></dt>
 <dd><p>Adds annotation text to a graphics window. It will prompt you for a string to use as the annotation text, and then a dialog box will prompt you to select a screen location using the mouse-probe button on your mouse.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.boundary_cells">
-<span class="sig-name descname"><span class="pre">boundary_cells</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.boundary_cells" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">boundary_cells</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.boundary_cells" title="Permalink to this definition">#</a></dt>
 <dd><p>Displays boundary cells attached to the specified face zones.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.boundary_grid">
-<span class="sig-name descname"><span class="pre">boundary_grid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.boundary_grid" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">boundary_grid</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.boundary_grid" title="Permalink to this definition">#</a></dt>
 <dd><p>Displays only boundary zones according to the currently set parameters.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.center_view_on">
-<span class="sig-name descname"><span class="pre">center_view_on</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.center_view_on" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">center_view_on</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.center_view_on" title="Permalink to this definition">#</a></dt>
 <dd><p>Sets the camera target to be the center (centroid) of an entity.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.clear">
-<span class="sig-name descname"><span class="pre">clear</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.clear" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">clear</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.clear" title="Permalink to this definition">#</a></dt>
 <dd><p>Clears the active graphics window. This option is useful when you redo an overlay.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.clear_annotation">
-<span class="sig-name descname"><span class="pre">clear_annotation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.clear_annotation" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">clear_annotation</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.clear_annotation" title="Permalink to this definition">#</a></dt>
 <dd><p>Removes all annotations and attachment lines from the active graphics window.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.draw_cells_using_faces">
-<span class="sig-name descname"><span class="pre">draw_cells_using_faces</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.draw_cells_using_faces" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">draw_cells_using_faces</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.draw_cells_using_faces" title="Permalink to this definition">#</a></dt>
 <dd><p>Draws cells that are neighbors for the selected faces.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.draw_cells_using_nodes">
-<span class="sig-name descname"><span class="pre">draw_cells_using_nodes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.draw_cells_using_nodes" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">draw_cells_using_nodes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.draw_cells_using_nodes" title="Permalink to this definition">#</a></dt>
 <dd><p>Draws cells that are connected to the selected nodes.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.draw_face_zones_using_entities">
-<span class="sig-name descname"><span class="pre">draw_face_zones_using_entities</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.draw_face_zones_using_entities" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">draw_face_zones_using_entities</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.draw_face_zones_using_entities" title="Permalink to this definition">#</a></dt>
 <dd><p>Draws cells that are connected to the selected entities.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.draw_zones">
-<span class="sig-name descname"><span class="pre">draw_zones</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.draw_zones" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">draw_zones</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.draw_zones" title="Permalink to this definition">#</a></dt>
 <dd><p>Draws the boundary/cell zones using the zone ID specified as input.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.redisplay">
-<span class="sig-name descname"><span class="pre">redisplay</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.redisplay" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">redisplay</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.redisplay" title="Permalink to this definition">#</a></dt>
 <dd><p>Redraws the grid in the graphics window.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.save_picture">
-<span class="sig-name descname"><span class="pre">save_picture</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.save_picture" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">save_picture</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.save_picture" title="Permalink to this definition">#</a></dt>
 <dd><p>Saves a picture file of the active graphics window.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.set_list_tree_separator">
-<span class="sig-name descname"><span class="pre">set_list_tree_separator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.set_list_tree_separator" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">set_list_tree_separator</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.set_list_tree_separator" title="Permalink to this definition">#</a></dt>
 <dd><p>Sets the separator character to be used to determine the common prefix for items listed in the selection lists, when the tree view is used.</p>
 </dd></dl>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.show_hide_clipping_plane_triad">
-<span class="sig-name descname"><span class="pre">show_hide_clipping_plane_triad</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.show_hide_clipping_plane_triad" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">show_hide_clipping_plane_triad</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.show_hide_clipping_plane_triad" title="Permalink to this definition">#</a></dt>
 <dd><ol class="upperalpha simple" start="19">
 <li></li>
 </ol>
@@ -8162,7 +8348,7 @@
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.meshing.tui.main_menu.display.update_layout">
-<span class="sig-name descname"><span class="pre">update_layout</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.update_layout" title="Permalink to this definition">¶</a></dt>
+<span class="sig-name descname"><span class="pre">update_layout</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.meshing.tui.main_menu.display.update_layout" title="Permalink to this definition">#</a></dt>
 <dd><p>Update the fluent layout.</p>
 </dd></dl>
 
@@ -8182,7 +8368,8 @@
       </div>
     </div>
   
-  <script src="../../../../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+  <!-- Scripts loaded after <body> so the DOM is not blocked -->
+  <script src="../../../../../_static/scripts/pydata-sphinx-theme.js?digest=1999514e3f237ded88cf"></script>
 <footer class="footer mt-5 mt-md-0">
   <div class="container">
     
