@@ -289,7 +289,6 @@ after restarting the Python kernel.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">check_health</span><span class="p">()</span>
-<span class="n">session</span><span class="o">.</span><span class="n">start_transcript</span><span class="p">()</span> <span class="c1"># Streaming the transcript locally</span>
 </pre></div>
 </div>
 <p>Fluent is now active and you can send commands to it as a genuine Python class.
@@ -301,14 +300,12 @@ solver:</p>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">dual_time_iterate</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>In addition to all TUI commands being available there are the <code class="docutils literal notranslate"><span class="pre">parametric</span></code> and
-<code class="docutils literal notranslate"><span class="pre">post</span></code> packages.  The <code class="docutils literal notranslate"><span class="pre">parametric</span></code> package provides access to Fluent’s
-design point capability and the <code class="docutils literal notranslate"><span class="pre">post</span></code> package provides integrations with both
+<p>In addition to all TUI commands being available there are the <a class="reference external" href="https://github.com/pyansys/pyfluent-parametric">ansys-fluent-parametric</a> and
+<a class="reference external" href="https://github.com/pyansys/pyfluent-visualization">ansys-fluent-visualization</a> packages.  The <code class="docutils literal notranslate"><span class="pre">ansys-fluent-parametric</span></code> package provides access to Fluent’s
+design point capability and the <code class="docutils literal notranslate"><span class="pre">ansys-fluent-visualization</span></code> package provides integrations with both
 <code class="docutils literal notranslate"><span class="pre">pyvista</span></code> and <code class="docutils literal notranslate"><span class="pre">matplotlib</span></code>.</p>
-<p>If you want to interact with the Fluent graphical user interface, set the
-following environment variable:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">set</span> <span class="n">PYFLUENT_SHOW_SERVER_GUI</span><span class="o">=</span><span class="mi">1</span>    <span class="c1"># Windows</span>
-<span class="n">export</span> <span class="n">PYFLUENT_SHOW_SERVER_GUI</span><span class="o">=</span><span class="mi">1</span> <span class="c1"># Linux (bash)</span>
+<p>If you want to interact with the Fluent graphical user interface, pass <code class="docutils literal notranslate"><span class="pre">show_gui=True</span></code> to the <code class="docutils literal notranslate"><span class="pre">launch_fluent</span></code> function:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">show_gui</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>If you want to print the debug information for development, set the following
