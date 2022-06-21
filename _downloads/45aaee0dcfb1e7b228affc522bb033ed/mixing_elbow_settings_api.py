@@ -1,6 +1,6 @@
 """.. _ref_mixing_elbow_settings_api_beta:
 
-Fluent Setup and Solutoin using Settings API (Beta)
+Fluent Setup and Solution using Settings API (Beta)
 -----------------------------------------------------
 This example illustrates the setup and solution of a three-dimensional
 turbulent fluid flow and heat transfer problem in a mixing elbow. The mixing
@@ -16,7 +16,7 @@ This example demonstrates use of 'settings' modules (Beta)
 - Define Material
 - Setup Cell Zone Conditions
 - Setup Boundary Conditions
-- Iniialize and Solve
+- Initialize and Solve
 - Compute Mass Flow Rate and Temperature
 
 Problem Description:
@@ -26,7 +26,7 @@ the elbow. The pipe dimensions are in inches and the fluid properties and
 boundary conditions are given in SI units. The Reynolds number for the flow at
 the larger inlet is 50, 800, so a turbulent flow model will be required.
 """
-
+# sphinx_gallery_thumbnail_path = '_static/mixing_elbow_settings.png'
 ###############################################################################
 # First, download the mesh file and start Fluent as a service with
 # Solver Mode, Double Precision, Number of Processors 2

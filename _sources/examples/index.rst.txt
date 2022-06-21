@@ -83,7 +83,7 @@ These examples demonstrate how to use Fluent capabilities from Python.
 .. only:: html
 
  .. figure:: /examples/00-fluent/images/thumb/sphx_glr_mixing_elbow_settings_api_thumb.png
-     :alt: Fluent Setup and Solutoin using Settings API (Beta)
+     :alt: Fluent Setup and Solution using Settings API (Beta)
 
      :ref:`sphx_glr_examples_00-fluent_mixing_elbow_settings_api.py`
 
