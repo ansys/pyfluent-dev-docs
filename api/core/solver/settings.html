@@ -8404,10 +8404,30 @@ and can be either primitive type or container type.</p>
 <section id="additional-metadata">
 <h2>Additional Metadata<a class="headerlink" href="#additional-metadata" title="Permalink to this headline">#</a></h2>
 <p>Settings objects have some additional metadata which can be accessed using the
-<code class="docutils literal notranslate"><span class="pre">get_attr</span></code> and <code class="docutils literal notranslate"><span class="pre">get_attrs</span></code> methods. For example, the list of allowed values
-at a particular state for the viscous model can be accessed as follows:</p>
+<code class="docutils literal notranslate"><span class="pre">get_attr</span></code> and <code class="docutils literal notranslate"><span class="pre">get_attrs</span></code> methods.</p>
+<p>Example(1): The list of allowed values at a particular state for the viscous
+model can be accessed as follows:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">get_attr</span><span class="p">(</span><span class="s1">&#39;allowed-values&#39;</span><span class="p">)</span>
 <span class="go">[&#39;inviscid&#39;, &#39;laminar&#39;, &#39;k-epsilon-standard&#39;, &#39;k-omega-standard&#39;, &#39;mixing-length&#39;, &#39;spalart-allmaras&#39;, &#39;k-kl-w&#39;, &#39;transition-sst&#39;, &#39;reynolds-stress&#39;, &#39;scale-adaptive-simulation&#39;, &#39;detached-eddy-simulation&#39;, &#39;large-eddy-simulation&#39;]</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">get_attrs</span><span class="p">([</span><span class="s1">&#39;allowed-values&#39;</span><span class="p">])</span>
+<span class="go">{&#39;allowed-values&#39;: [&#39;inviscid&#39;, &#39;laminar&#39;, &#39;k-epsilon&#39;, &#39;k-omega&#39;, &#39;mixing-length&#39;, &#39;spalart-allmaras&#39;, &#39;k-kl-w&#39;, &#39;transition-sst&#39;, &#39;reynolds-stress&#39;, &#39;scale-adaptive-simulation&#39;, &#39;detached-eddy-simulation&#39;, &#39;large-eddy-simulation&#39;]}</span>
+</pre></div>
+</div>
+<p>Example(2): The list of zone surfaces can be accessed as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">flux</span><span class="p">[</span><span class="s2">&quot;mass_flow_rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">flux</span><span class="p">[</span>
+<span class="go">        &quot;mass_flow_rate&quot;</span>
+<span class="go">    ].zone_names.get_attr(&quot;allowed-values&quot;)</span>
+<span class="go">[&#39;symmetry-xyplane&#39;, &#39;hot-inlet&#39;, &#39;cold-inlet&#39;, &#39;outlet&#39;, &#39;wall-inlet&#39;, &#39;wall-elbow&#39;, &#39;interior--elbow-fluid&#39;]</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">flux</span><span class="p">[</span><span class="s2">&quot;mass_flow_rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">flux</span><span class="p">[</span>
+<span class="go">        &quot;mass_flow_rate&quot;</span>
+<span class="go">    ].zone_names.get_attrs([&quot;allowed-values&quot;])</span>
+<span class="go">{&#39;allowed-values&#39;: [&#39;symmetry-xyplane&#39;, &#39;hot-inlet&#39;, &#39;cold-inlet&#39;, &#39;outlet&#39;, &#39;wall-inlet&#39;, &#39;wall-elbow&#39;, &#39;interior--elbow-fluid&#39;]}</span>
 </pre></div>
 </div>
 <p>Attributes are dynamic and the values can change depending on the application
@@ -8420,6 +8440,16 @@ application. The <code class="docutils literal notranslate"><span class="pre">is
 is active at a particular time. <code class="docutils literal notranslate"><span class="pre">get_active_child_names</span></code> returns the list of
 active children. <code class="docutils literal notranslate"><span class="pre">get_active_command_names</span></code> returns the list of active
 commands.</p>
+<p>Example(1): The list of active child names can be accessed as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">get_active_child_names</span><span class="p">()</span>
+<span class="go">[&#39;energy&#39;, &#39;multiphase&#39;, &#39;viscous&#39;]</span>
+</pre></div>
+</div>
+<p>Example(2): The list of valid commands can be accessed as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">run_calculation</span><span class="o">.</span><span class="n">get_active_command_names</span><span class="p">()</span>
+<span class="go">[&#39;iterate&#39;]</span>
+</pre></div>
+</div>
 </section>
 <section id="settings-objects-root">
 <h2>Settings Objects Root<a class="headerlink" href="#settings-objects-root" title="Permalink to this headline">#</a></h2>

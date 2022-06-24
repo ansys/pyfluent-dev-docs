@@ -8251,6 +8251,14 @@ session is easier if you install a tool such as
 <a class="reference external" href="https://github.com/pyreadline3/pyreadline3">pyreadline3</a> which provides
 both command line completion and history.  You can also use Python standard
 <cite>help</cite> and <cite>dir</cite> commands on any object in the API to inspect it further.</p>
+<p>The arguments to a TUI command are just those that would be passed in direct interaction with the
+Fluent Console, but in a Pythonic style. For instance the TUI command <cite>/define/models/energy? #t</cite> becomes
+<cite>_session_.solver.tui.define.energy(False)</cite>.</p>
+<p>Care must be taken wherever the TUI expects a quoted string as input: in such cases the Python argument
+should be provided as a double quoted string embedded inside single quotes. For instance
+<cite>/define/boundary_conditions/velocity_inlet “IF(t&lt;=10e-6[sec],3.58[m/s]*cos(PI*t/30e-6[s]),0[m/s])”</cite>
+in the TUI would be written as <cite>session.solver.tui.define.boundary_conditions.velocity_inlet(“inlet2”, “no”, “no”, “yes”, “yes”, “no”,
+‘“IF(t&lt;=10e-6[sec],3.58[m/s]*cos(PI*t/30e-6[s]),0[m/s])”’, “no”, 0, “no”, 300, “no”, “no”, “no”, “yes”, 10, 0.04)</cite> in Python.</p>
 <p>The TUI based examples in our gallery provide a guide for how to use this API.</p>
 <table class="longtable table autosummary">
 <colgroup>
