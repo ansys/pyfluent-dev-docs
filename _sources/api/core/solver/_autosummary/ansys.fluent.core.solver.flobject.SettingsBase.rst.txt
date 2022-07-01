@@ -35,6 +35,7 @@ ansys.fluent.core.solver.flobject.SettingsBase
       ~SettingsBase.flproxy
       ~SettingsBase.fluent_name
       ~SettingsBase.obj_name
+      ~SettingsBase.parent
       ~SettingsBase.path
    
    

@@ -38,6 +38,8 @@ ansys.fluent.core.solver.flobject.ListObject
       ~ListObject.flproxy
       ~ListObject.fluent_name
       ~ListObject.obj_name
+      ~ListObject.parent
       ~ListObject.path
+      ~ListObject.query_names
    
    

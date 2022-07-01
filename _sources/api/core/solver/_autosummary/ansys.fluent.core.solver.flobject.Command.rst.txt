@@ -30,6 +30,7 @@ ansys.fluent.core.solver.flobject.Command
       ~Command.flproxy
       ~Command.fluent_name
       ~Command.obj_name
+      ~Command.parent
       ~Command.path
    
    

@@ -35,6 +35,7 @@ ansys.fluent.core.solver.flobject.IntegerList
       ~IntegerList.flproxy
       ~IntegerList.fluent_name
       ~IntegerList.obj_name
+      ~IntegerList.parent
       ~IntegerList.path
    
    

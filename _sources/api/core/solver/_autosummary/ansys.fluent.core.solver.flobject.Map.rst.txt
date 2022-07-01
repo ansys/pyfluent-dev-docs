@@ -35,6 +35,7 @@ ansys.fluent.core.solver.flobject.Map
       ~Map.flproxy
       ~Map.fluent_name
       ~Map.obj_name
+      ~Map.parent
       ~Map.path
    
    

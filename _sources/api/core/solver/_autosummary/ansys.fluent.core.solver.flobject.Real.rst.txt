@@ -35,6 +35,7 @@ ansys.fluent.core.solver.flobject.Real
       ~Real.flproxy
       ~Real.fluent_name
       ~Real.obj_name
+      ~Real.parent
       ~Real.path
    
    

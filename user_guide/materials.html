@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Defining Your Models &#8212; PyFluent</title>
+    <title>Defining Materials &#8212; PyFluent</title>
     
     
   <!-- Loaded before other Sphinx assets -->
@@ -49,8 +49,8 @@
     <link rel="shortcut icon" href="../_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Defining Materials" href="materials.html" />
-    <link rel="prev" title="Specifying Solver Settings" href="solver_settings.html" />
+    <link rel="next" title="Defining Boundary Conditions" href="boundary_conditions.html" />
+    <link rel="prev" title="Defining Models" href="models.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -167,7 +167,7 @@
     
 
           <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User Guide</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">Defining Your Models</a></li> 
+        <li class="nav-item nav-item-this"><a href="">Defining Materials</a></li> 
       </ul>
     </div>
         </div>
@@ -194,6 +194,11 @@
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="tui_api.html">
+   Using the TUI APIs
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="meshing_workflows.html">
    Using the Meshing Workflows
   </a>
@@ -208,13 +213,13 @@
    Specifying Solver Settings
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
-   Defining Your Models
+ <li class="toctree-l1">
+  <a class="reference internal" href="models.html">
+   Defining Models
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="materials.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Defining Materials
   </a>
  </li>
@@ -257,8 +262,8 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#settings-api-beta">
-   Settings API (Beta)
+  <a class="reference internal nav-link" href="#settings-objects">
+   Settings Objects
   </a>
  </li>
 </ul>
@@ -282,23 +287,49 @@
               
               <div>
                 
-  <section id="defining-your-models">
-<h1>Defining Your Models<a class="headerlink" href="#defining-your-models" title="Permalink to this headline">#</a></h1>
-<p>PyFluent supports defining models using the TUI API and the
-Settings API (Beta).</p>
+  <section id="defining-materials">
+<h1>Defining Materials<a class="headerlink" href="#defining-materials" title="Permalink to this headline">#</a></h1>
+<p>PyFluent supports defining materials using the TUI API and
+<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects</span></a>.</p>
 <section id="text-user-interface-tui-api">
 <h2>Text User Interface (TUI) API<a class="headerlink" href="#text-user-interface-tui-api" title="Permalink to this headline">#</a></h2>
-<p>The following example demonstrates how you can define the energy model
-using the TUI API:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">)</span>
+<p>The following example demonstrates how you can define materials using
+the TUI API:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">materials</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="s2">&quot;fluid&quot;</span><span class="p">,</span> <span class="s2">&quot;water-liquid&quot;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">(</span>
+    <span class="s2">&quot;elbow-fluid&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;yes&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;water-liquid&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;0&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;0&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;0&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;0&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;0&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+<span class="p">)</span>
 </pre></div>
 </div>
 </section>
-<section id="settings-api-beta">
-<h2>Settings API (Beta)<a class="headerlink" href="#settings-api-beta" title="Permalink to this headline">#</a></h2>
-<p>The following example demonstrates how you can define the energy model
-using the settings module (Beta):</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">enabled</span> <span class="o">=</span> <span class="kc">True</span>
+<section id="settings-objects">
+<h2>Settings Objects<a class="headerlink" href="#settings-objects" title="Permalink to this headline">#</a></h2>
+<p>The following example demonstrates how you can define materials using
+<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects</span></a>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">materials</span><span class="o">.</span><span class="n">copy_database_material_by_name</span><span class="p">(</span><span class="nb">type</span><span class="o">=</span><span class="s2">&quot;fluid&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;water-liquid&quot;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">cell_zone_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">[</span><span class="s2">&quot;elbow-fluid&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">material</span> <span class="o">=</span> <span class="s2">&quot;water-liquid&quot;</span>
 </pre></div>
 </div>
 </section>

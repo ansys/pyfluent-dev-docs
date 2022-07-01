@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Applying General Settings &#8212; PyFluent</title>
+    <title>Specifying Solver Settings &#8212; PyFluent</title>
     
     
   <!-- Loaded before other Sphinx assets -->
@@ -49,8 +49,8 @@
     <link rel="shortcut icon" href="../_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Specifying Solver Settings" href="solver_settings.html" />
-    <link rel="prev" title="Using the Meshing Workflows" href="meshing_workflows.html" />
+    <link rel="next" title="Defining Models" href="models.html" />
+    <link rel="prev" title="Applying General Settings" href="general_settings.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -167,7 +167,7 @@
     
 
           <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User Guide</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">Applying General Settings</a></li> 
+        <li class="nav-item nav-item-this"><a href="">Specifying Solver Settings</a></li> 
       </ul>
     </div>
         </div>
@@ -194,23 +194,28 @@
   </a>
  </li>
  <li class="toctree-l1">
+  <a class="reference internal" href="tui_api.html">
+   Using the TUI APIs
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="meshing_workflows.html">
    Using the Meshing Workflows
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="general_settings.html">
    Applying General Settings
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="solver_settings.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    Specifying Solver Settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="models.html">
-   Defining Your Models
+   Defining Models
   </a>
  </li>
  <li class="toctree-l1">
@@ -277,15 +282,15 @@
               
               <div>
                 
-  <section id="applying-general-settings">
-<h1>Applying General Settings<a class="headerlink" href="#applying-general-settings" title="Permalink to this headline">#</a></h1>
-<p>PyFluent supports defining general settings using the TUI API and
-the Settings API (Beta).</p>
+  <section id="specifying-solver-settings">
+<span id="ref-user-guide-solver-settings"></span><h1>Specifying Solver Settings<a class="headerlink" href="#specifying-solver-settings" title="Permalink to this headline">#</a></h1>
+<p>PyFluent supports specifying solver settings using the TUI API and
+<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects</span></a>.</p>
 <section id="text-user-interface-tui-api">
 <h2>Text User Interface (TUI) API<a class="headerlink" href="#text-user-interface-tui-api" title="Permalink to this headline">#</a></h2>
-<p>The following example demonstrates how you can define units using
-the TUI API:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">units</span><span class="p">(</span><span class="s2">&quot;length&quot;</span><span class="p">,</span> <span class="s2">&quot;in&quot;</span><span class="p">)</span>
+<p>The following example demonstrates how you can specify solver
+settings using the TUI API:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">unsteady_2nd_order</span><span class="p">(</span><span class="s1">&#39;yes’)​</span>
 </pre></div>
 </div>
 </section>

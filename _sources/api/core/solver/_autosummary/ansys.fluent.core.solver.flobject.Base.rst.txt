@@ -30,6 +30,7 @@ ansys.fluent.core.solver.flobject.Base
       ~Base.flproxy
       ~Base.fluent_name
       ~Base.obj_name
+      ~Base.parent
       ~Base.path
    
    

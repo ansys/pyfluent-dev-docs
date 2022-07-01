@@ -50,7 +50,7 @@
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
     <link rel="next" title="solver.tui.adjoint" href="adjoint/index.html" />
-    <link rel="prev" title="Settings Objects (Beta)" href="../settings.html" />
+    <link rel="prev" title="Settings Objects" href="../settings.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -103,7 +103,7 @@
 </li>
 
 <li class="toctree-l1 nav-item">
- <a class="reference internal nav-link" href="../../../../users_guide/index.html">
+ <a class="reference internal nav-link" href="../../../../user_guide/index.html">
   User Guide
  </a>
 </li>
@@ -1951,7 +1951,7 @@
     <ul class="current">
      <li class="toctree-l3">
       <a class="reference internal" href="../settings.html">
-       Settings Objects (Beta)
+       Settings Objects
       </a>
      </li>
      <li class="toctree-l3 current active has-children">
@@ -8196,6 +8196,16 @@
        Field Data
       </a>
      </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../events.html">
+       EventsManager
+      </a>
+     </li>
+     <li class="toctree-l3">
+      <a class="reference internal" href="../monitors.html">
+       MonitorsManager
+      </a>
+     </li>
     </ul>
    </li>
   </ul>
@@ -8243,23 +8253,10 @@
 <span id="ref-solver-tui"></span><h1>solver.tui<a class="headerlink" href="#solver-tui" title="Permalink to this headline">#</a></h1>
 <p>The PyFluent solver text user interface (TUI) API is provided to command the
 Fluent solver using commands that are Pythonic versions of the TUI commands used
-in the Fluent console.  Much like Fluent’s TUI the API provides a hierarchical
+in the Fluent console. Much like Fluent’s TUI the API provides a hierarchical
 interface to the underlying procedural interface of the program.</p>
-<p>The solver TUI API does not support Fluent TUI features such as aliases or
-command abbreviation.  As an alternative, using this API in an interactive
-session is easier if you install a tool such as
-<a class="reference external" href="https://github.com/pyreadline3/pyreadline3">pyreadline3</a> which provides
-both command line completion and history.  You can also use Python standard
-<cite>help</cite> and <cite>dir</cite> commands on any object in the API to inspect it further.</p>
-<p>The arguments to a TUI command are just those that would be passed in direct interaction with the
-Fluent Console, but in a Pythonic style. For instance the TUI command <cite>/define/models/energy? #t</cite> becomes
-<cite>_session_.solver.tui.define.energy(False)</cite>.</p>
-<p>Care must be taken wherever the TUI expects a quoted string as input: in such cases the Python argument
-should be provided as a double quoted string embedded inside single quotes. For instance
-<cite>/define/boundary_conditions/velocity_inlet “IF(t&lt;=10e-6[sec],3.58[m/s]*cos(PI*t/30e-6[s]),0[m/s])”</cite>
-in the TUI would be written as <cite>session.solver.tui.define.boundary_conditions.velocity_inlet(“inlet2”, “no”, “no”, “yes”, “yes”, “no”,
-‘“IF(t&lt;=10e-6[sec],3.58[m/s]*cos(PI*t/30e-6[s]),0[m/s])”’, “no”, 0, “no”, 300, “no”, “no”, “no”, “yes”, 10, 0.04)</cite> in Python.</p>
-<p>The TUI based examples in our gallery provide a guide for how to use this API.</p>
+<p>See <a class="reference internal" href="../../../../user_guide/tui_api.html#ref-user-guide-tui-api"><span class="std std-ref">Using the TUI APIs</span></a> for general guidance on using the TUI APIs.</p>
+<p>The TUI based examples in our gallery, such as in <a class="reference internal" href="../../../../examples/00-fluent/mixing_elbow.html#ref-mixing-elbow-tui-api"><span class="std std-ref">End-to-end Watertight Meshing Workflow</span></a>, provide a guide for how to use this API.</p>
 <table class="longtable table autosummary">
 <colgroup>
 <col style="width: 10%" />

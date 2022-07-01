@@ -42,6 +42,8 @@ ansys.fluent.core.solver.flobject.NamedObject
       ~NamedObject.flproxy
       ~NamedObject.fluent_name
       ~NamedObject.obj_name
+      ~NamedObject.parent
       ~NamedObject.path
+      ~NamedObject.query_names
    
    

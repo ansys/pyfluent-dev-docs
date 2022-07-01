@@ -35,6 +35,7 @@ ansys.fluent.core.solver.flobject.StringList
       ~StringList.flproxy
       ~StringList.fluent_name
       ~StringList.obj_name
+      ~StringList.parent
       ~StringList.path
    
    

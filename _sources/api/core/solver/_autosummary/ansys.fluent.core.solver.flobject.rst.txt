@@ -39,6 +39,7 @@
       ListObject
       Map
       NamedObject
+      Query
       Real
       RealList
       RealVector

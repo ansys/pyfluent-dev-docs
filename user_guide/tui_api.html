@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Defining Boundary Conditions &#8212; PyFluent</title>
+    <title>Using the TUI APIs &#8212; PyFluent</title>
     
     
   <!-- Loaded before other Sphinx assets -->
@@ -49,8 +49,8 @@
     <link rel="shortcut icon" href="../_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Applying Solution Settings" href="solution.html" />
-    <link rel="prev" title="Defining Materials" href="materials.html" />
+    <link rel="next" title="Using the Meshing Workflows" href="meshing_workflows.html" />
+    <link rel="prev" title="Launching Ansys Fluent Locally" href="launching_ansys_fluent.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -167,7 +167,7 @@
     
 
           <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User Guide</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">Defining Boundary Conditions</a></li> 
+        <li class="nav-item nav-item-this"><a href="">Using the TUI APIs</a></li> 
       </ul>
     </div>
         </div>
@@ -193,6 +193,11 @@
    Launching Ansys Fluent Locally
   </a>
  </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Using the TUI APIs
+  </a>
+ </li>
  <li class="toctree-l1">
   <a class="reference internal" href="meshing_workflows.html">
    Using the Meshing Workflows
@@ -210,7 +215,7 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="models.html">
-   Defining Your Models
+   Defining Models
   </a>
  </li>
  <li class="toctree-l1">
@@ -218,8 +223,8 @@
    Defining Materials
   </a>
  </li>
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="boundary_conditions.html">
    Defining Boundary Conditions
   </a>
  </li>
@@ -245,24 +250,9 @@
               
               <div class="toc-item">
                 
-<div class="tocsection onthispage mt-5 pt-1 pb-3">
-    <i class="fas fa-list"></i> On this page
-</div>
 
 <nav id="bd-toc-nav">
-    <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#text-user-interface-tui-api">
-   Text User Interface (TUI) API
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#settings-api-beta">
-   Settings API (Beta)
-  </a>
- </li>
-</ul>
-
+    
 </nav>
               </div>
               
@@ -282,56 +272,96 @@
               
               <div>
                 
-  <section id="defining-boundary-conditions">
-<h1>Defining Boundary Conditions<a class="headerlink" href="#defining-boundary-conditions" title="Permalink to this headline">#</a></h1>
-<p>PyFluent supports defining boundary conditions using the TUI API and the
-the Settings API (Beta).</p>
-<section id="text-user-interface-tui-api">
-<h2>Text User Interface (TUI) API<a class="headerlink" href="#text-user-interface-tui-api" title="Permalink to this headline">#</a></h2>
-<p>The following example demonstrates how you can define boundary conditions using
-the TUI API:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
-    <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;vmag&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="mf">0.4</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
-    <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;ke-spec&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="s2">&quot;yes&quot;</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
-    <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-intensity&quot;</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
-    <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;turb-hydraulic-diam&quot;</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
-    <span class="s2">&quot;cold-inlet&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;temperature&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="mf">293.15</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
-<span class="p">)</span>
+  <section id="using-the-tui-apis">
+<span id="ref-user-guide-tui-api"></span><h1>Using the TUI APIs<a class="headerlink" href="#using-the-tui-apis" title="Permalink to this headline">#</a></h1>
+<p>TUI API refers to a programming interface that mirrors the Fluent text user
+interface (TUI). There is a TUI API defined for each of meshing and solution mode -
+which API is active depends on the current Fluent mode. The guidance here is
+applicable to either mode.</p>
+<p>The TUI APIs represent a means to automate workflows comprehensively: everything
+that’s in the Fluent TUI (which itself is a comprehensive automation interface)
+is in the TUI API. The TUI APIs provide commands that are Pythonic versions of the TUI commands used
+in the Fluent console. Much like Fluent’s TUI the API provides a hierarchical
+interface to the underlying procedural interface of the program.</p>
+<p>The TUI APIs do not support Fluent TUI features such as aliases or
+command abbreviation. As an alternative, using these APIs in an interactive
+session is easier if you install a tool such as
+<a class="reference external" href="https://github.com/pyreadline3/pyreadline3">pyreadline3</a> which provides
+both command line completion and history. You can also use Python built-in functions,
+<a class="reference external" href="https://docs.python.org/3/library/functions.html#help">help</a> and
+<a class="reference external" href="https://docs.python.org/3/library/functions.html#dir">dir</a> on any object in the API to inspect it further.</p>
+<p>The arguments to a TUI command are just those that would be passed in direct interaction with the
+Fluent Console, but in a Pythonic style. Let’s look in more detail at how the API usage mirrors
+existing TUI usage, because the most productive way to write TUI API Python commands is with reference to
+existing TUI commands. For instance, in solution mode:</p>
+<div class="highlight-lisp notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/boundary_conditions/set/velocity-inlet</span><span class="w"></span>
 </pre></div>
 </div>
-</section>
-<section id="settings-api-beta">
-<h2>Settings API (Beta)<a class="headerlink" href="#settings-api-beta" title="Permalink to this headline">#</a></h2>
-<p>The following example demonstrates how you can define boundary conditions using
-the Settings API:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">[</span><span class="s2">&quot;cold-inlet&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">vmag</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s2">&quot;option&quot;</span><span class="p">:</span> <span class="s2">&quot;constant or expression&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;constant&quot;</span><span class="p">:</span> <span class="mf">0.4</span><span class="p">,</span>
-<span class="p">}</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">[</span>
-    <span class="s2">&quot;cold-inlet&quot;</span>
-<span class="p">]</span><span class="o">.</span><span class="n">ke_spec</span> <span class="o">=</span> <span class="s2">&quot;Intensity and Hydraulic Diameter&quot;</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">[</span>
-    <span class="s2">&quot;cold-inlet&quot;</span>
-<span class="p">]</span><span class="o">.</span><span class="n">turb_intensity</span> <span class="o">=</span> <span class="mi">5</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">[</span>
-    <span class="s2">&quot;cold-inlet&quot;</span>
-<span class="p">]</span><span class="o">.</span><span class="n">turb_hydraulic_diam</span> <span class="o">=</span> <span class="s2">&quot;4 [in]&quot;</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">[</span><span class="s2">&quot;cold-inlet&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">t</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="s2">&quot;option&quot;</span><span class="p">:</span> <span class="s2">&quot;constant or expression&quot;</span><span class="p">,</span>
-    <span class="s2">&quot;constant&quot;</span><span class="p">:</span> <span class="mf">293.15</span><span class="p">,</span>
-<span class="p">}</span>
+<p>can be typed into the Fluent console in solution mode in order to set
+velocity inlet properties. The above call instigates a sequence of prompts
+for input in the console, such that if the user responds to each prompt in turn:</p>
+<div class="highlight-lisp notranslate"><div class="highlight"><pre><span></span><span class="nv">velocity-inlet-5</span><span class="w"></span>
+
+<span class="p">()</span><span class="w"></span>
+
+<span class="nv">temperature</span><span class="w"></span>
+
+<span class="nv">no</span><span class="w"></span>
+
+<span class="mf">293.15</span><span class="w"></span>
+
+<span class="nv">quit</span><span class="w"></span>
 </pre></div>
 </div>
-</section>
+<p>the effect will be identical to the following statement that specifies all the arguments in the call:</p>
+<div class="highlight-lisp notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/boundary-conditions/set/velocity-inlet</span><span class="w"> </span><span class="nv">velocity-inlet-5</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="nv">temperature</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mf">293.15</span><span class="w"> </span><span class="nv">quit</span><span class="w"></span>
+</pre></div>
+</div>
+<p>Interactive TUI usage then is a reliable approach for constructing full TUI calls including full sequences of
+arguments. With the full TUI call in hand, the next step is to transform it to a Python call:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">launch_fluent</span>
+
+<span class="n">solver_session</span> <span class="o">=</span> <span class="n">launch_fluent</span><span class="p">()</span>
+
+<span class="n">tui</span> <span class="o">=</span> <span class="n">solver_session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span>
+
+<span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
+  <span class="s2">&quot;velocity-inlet-5&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;temperature&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="mf">293.15</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>
+  <span class="p">)</span>
+</pre></div>
+</div>
+<p>Now look at another console interaction to illustrate a specific point:</p>
+<div class="highlight-lisp notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/units</span><span class="w"></span>
+
+<span class="nv">pressure</span><span class="w"></span>
+
+<span class="s">&quot;Pa&quot;</span><span class="w"></span>
+</pre></div>
+</div>
+<p>The Python analogue is:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">units</span><span class="p">(</span><span class="s2">&quot;pressure&quot;</span><span class="p">,</span> <span class="s1">&#39;&quot;Pa&quot;&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>where the string “Pa” is wrapped in single quotes in order to preserve the double quotes around the TUI argument.</p>
+<p>Note the following rules implied in the above examples:</p>
+<ul class="simple">
+<li><p>Each forward slash separator between elements in TUI paths is transformed to Python dot notation</p></li>
+<li><p>Some characters in path elements are either removed or replaced because they are illegal inside Python names:</p>
+<ul>
+<li><p>Each hyphen in a path element is transformed to an underscore</p></li>
+<li><p>Each question mark in a path element is removed</p></li>
+</ul>
+</li>
+<li><p>Some rules about strings:</p>
+<ul>
+<li><p>Of course, string-type arguments have to be quoted in Python</p></li>
+<li><p>Note the special case where a target Fluent TUI argument needs to be quoted (e.g. “Pa” above).
+That quoting has to be preserved by wrapping the Python string in additional single quotes</p></li>
+<li><p>The contents of string arguments are preserved</p></li>
+</ul>
+</li>
+</ul>
+<p>There are plenty of additional examples of TUI API usage in <a class="reference internal" href="../examples/00-fluent/mixing_elbow.html#ref-mixing-elbow-tui-api"><span class="std std-ref">End-to-end Watertight Meshing Workflow</span></a>.</p>
 </section>
 
 

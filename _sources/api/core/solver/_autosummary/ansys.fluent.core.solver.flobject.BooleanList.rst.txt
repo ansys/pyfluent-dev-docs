@@ -35,6 +35,7 @@ ansys.fluent.core.solver.flobject.BooleanList
       ~BooleanList.flproxy
       ~BooleanList.fluent_name
       ~BooleanList.obj_name
+      ~BooleanList.parent
       ~BooleanList.path
    
    

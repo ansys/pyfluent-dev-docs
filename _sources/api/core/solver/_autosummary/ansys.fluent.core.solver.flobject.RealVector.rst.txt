@@ -35,6 +35,7 @@ ansys.fluent.core.solver.flobject.RealVector
       ~RealVector.flproxy
       ~RealVector.fluent_name
       ~RealVector.obj_name
+      ~RealVector.parent
       ~RealVector.path
    
    

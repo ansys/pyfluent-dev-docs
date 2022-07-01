@@ -16,6 +16,7 @@ ansys.fluent.core.solver.flobject.Group
       ~Group.__init__
       ~Group.get_active_child_names
       ~Group.get_active_command_names
+      ~Group.get_active_query_names
       ~Group.get_attr
       ~Group.get_attrs
       ~Group.get_state
@@ -39,6 +40,8 @@ ansys.fluent.core.solver.flobject.Group
       ~Group.flproxy
       ~Group.fluent_name
       ~Group.obj_name
+      ~Group.parent
       ~Group.path
+      ~Group.query_names
    
    

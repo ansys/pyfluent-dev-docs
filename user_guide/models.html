@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>User Guide &#8212; PyFluent</title>
+    <title>Defining Models &#8212; PyFluent</title>
     
     
   <!-- Loaded before other Sphinx assets -->
@@ -49,8 +49,8 @@
     <link rel="shortcut icon" href="../_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Launching Ansys Fluent Locally" href="launching_ansys_fluent.html" />
-    <link rel="prev" title="Getting Started" href="../getting_started/index.html" />
+    <link rel="next" title="Defining Materials" href="materials.html" />
+    <link rel="prev" title="Specifying Solver Settings" href="solver_settings.html" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="None">
     
@@ -103,7 +103,7 @@
 </li>
 
 <li class="toctree-l1 current active nav-item">
- <a class="current reference internal nav-link" href="#">
+ <a class="reference internal nav-link" href="index.html">
   User Guide
  </a>
 </li>
@@ -166,7 +166,8 @@
         <li class="nav-item nav-item-0"><a href="../index.html">PyFluent</a> » </li>
     
 
-        <li class="nav-item nav-item-this"><a href="">User Guide</a></li> 
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User Guide</a> » </li>
+        <li class="nav-item nav-item-this"><a href="">Defining Models</a></li> 
       </ul>
     </div>
         </div>
@@ -186,10 +187,15 @@
   <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
 </form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
   <div class="bd-toc-item active">
-    <ul class="nav bd-sidenav">
+    <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="launching_ansys_fluent.html">
    Launching Ansys Fluent Locally
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="tui_api.html">
+   Using the TUI APIs
   </a>
  </li>
  <li class="toctree-l1">
@@ -207,9 +213,9 @@
    Specifying Solver Settings
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="models.html">
-   Defining Your Models
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Defining Models
   </a>
  </li>
  <li class="toctree-l1">
@@ -251,8 +257,13 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#pyfluent-basic-overview">
-   PyFluent Basic Overview
+  <a class="reference internal nav-link" href="#text-user-interface-tui-api">
+   Text User Interface (TUI) API
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#settings-objects">
+   Settings Objects
   </a>
  </li>
 </ul>
@@ -276,87 +287,24 @@
               
               <div>
                 
-  <section id="user-guide">
-<span id="ref-user-guide"></span><h1>User Guide<a class="headerlink" href="#user-guide" title="Permalink to this headline">#</a></h1>
-<p>This guide provides information regarding using Ansys PyFluent and its
-constituent modules and components.</p>
-<div class="toctree-wrapper compound">
-</div>
-<section id="pyfluent-basic-overview">
-<h2>PyFluent Basic Overview<a class="headerlink" href="#pyfluent-basic-overview" title="Permalink to this headline">#</a></h2>
-<p>Session objects are the main entry point when using the PyFluent library, where
-one or more Fluent server sessions can be launched simultaneously from the
-client. For example:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">()</span>
+  <section id="defining-models">
+<h1>Defining Models<a class="headerlink" href="#defining-models" title="Permalink to this headline">#</a></h1>
+<p>PyFluent supports defining models using the TUI API and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects</span></a>.</p>
+<section id="text-user-interface-tui-api">
+<h2>Text User Interface (TUI) API<a class="headerlink" href="#text-user-interface-tui-api" title="Permalink to this headline">#</a></h2>
+<p>The following example demonstrates how you can define the energy model
+using the TUI API:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">,</span> <span class="s2">&quot;, &quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>or</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">meshing_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+</section>
+<section id="settings-objects">
+<h2>Settings Objects<a class="headerlink" href="#settings-objects" title="Permalink to this headline">#</a></h2>
+<p>The following example demonstrates how you can define the energy model
+using <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects</span></a>:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">enabled</span> <span class="o">=</span> <span class="kc">True</span>
 </pre></div>
 </div>
-<p>Each session object provides access to multiple services, such as boundary
-contitions, meshing workflows, field data properties, and so forth.</p>
-<p>PyFluent contains several basic service modules that provide access to core
-Fluent capabilities.</p>
-<blockquote>
-<div><ul>
-<li><p>General command and query services are encompassed in three modules:</p>
-<blockquote>
-<div><ul class="simple">
-<li><p>The ‘tui’ modules are a collection of Python wrappers around the
-Fluent’s traditional Text User Interface (TUI) command-based
-infrastructure.</p></li>
-</ul>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">unsteady_2nd_order</span><span class="p">(</span><span class="s1">&#39;yes’)​</span>
-</pre></div>
-</div>
-<ul class="simple">
-<li><p>The ‘settings’ module is a Pythonic interface to access Fluent’s setup
-and solution objects, where you can, for instance, enable a
-physics-based model for your simulation.</p></li>
-</ul>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">enabled</span> <span class="o">=</span> <span class="kc">True</span>
-</pre></div>
-</div>
-<ul class="simple">
-<li><p>The ‘datamodel’ module is a Python interface to access the
-datamodel-driven aspects of Fluent, such as the meshing workflows.</p></li>
-</ul>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">import_geometry</span><span class="o">.</span><span class="n">arguments</span><span class="o">.</span><span class="n">update_dict</span><span class="p">({</span><span class="s1">&#39;AppendMesh&#39;</span><span class="p">:</span><span class="kc">True</span><span class="p">})</span>
-</pre></div>
-</div>
-</div></blockquote>
-</li>
-<li><p>Surface field and mesh data services are available using the ‘field_data’
-module, such as obtaining surface data for a specified surface.</p></li>
-</ul>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>surface_data = field_data.get_surfaces(surface_ids)​
-</pre></div>
-</div>
-<ul class="simple">
-<li><p>There are general modules available, such as ‘health_check’, ‘transcript’,
-and ‘events’ that provide access to generic features that are useful to
-running your simulation. For instance,</p></li>
-</ul>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>health_check_service.check_health()​​
-</pre></div>
-</div>
-<p>or</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>transcript_service.begin_streaming()​​
-</pre></div>
-</div>
-<p>or</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">events_service</span><span class="o">.</span><span class="n">begin_streaming</span><span class="p">()</span>
-</pre></div>
-</div>
-<ul class="simple">
-<li><p>Finally, there is a ‘scheme_eval’ module that provides access to Scheme
-function evaluation. For instance,</p></li>
-</ul>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>scheme_eval.string_eval(&quot;(rp-unsteady?)&quot;)​
-</pre></div>
-</div>
-</div></blockquote>
 </section>
 </section>
 
