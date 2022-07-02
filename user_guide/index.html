@@ -193,8 +193,8 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="tui_api.html">
-   Using the TUI APIs
+  <a class="reference internal" href="tui_commands.html">
+   Using TUI Commands
   </a>
  </li>
  <li class="toctree-l1">
@@ -324,9 +324,9 @@ users:</p>
 <span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>See <a class="reference internal" href="../api/core/solver/tui/index.html#ref-solver-tui"><span class="std std-ref">solver.tui</span></a> for details of the full hierarchical API
+<p>See <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI Commands</span></a> for details of the full hierarchy
 under the <code class="docutils literal notranslate"><span class="pre">tui</span></code> object. Some general guidance on
-programming in terms of such an API can be found in <a class="reference internal" href="tui_api.html#ref-user-guide-tui-api"><span class="std std-ref">Using the TUI APIs</span></a>.</p>
+programming in terms of such an interface can be found in <a class="reference internal" href="tui_commands.html#ref-user-guide-tui-commands"><span class="std std-ref">Using TUI Commands</span></a>.</p>
 <p>The same <code class="docutils literal notranslate"><span class="pre">solver</span></code> object also has a <code class="docutils literal notranslate"><span class="pre">root</span></code> object, which provides a
 different interface to the Fluent solver. The <code class="docutils literal notranslate"><span class="pre">root</span></code> object exposes most of the
 solver capabilities covered by the <code class="docutils literal notranslate"><span class="pre">tui</span></code> object, while providing significant
@@ -355,8 +355,8 @@ straightforward and familiar command and settings interactions are available:</p
 <span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">write_case</span><span class="p">(</span><span class="s2">&quot;pipe.cas.h5&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>See <a class="reference internal" href="../api/core/meshing/tui/index.html#ref-meshing-tui"><span class="std std-ref">meshing.tui</span></a> for details of the full hierarchical API under the
-<code class="docutils literal notranslate"><span class="pre">tui</span></code> object. As mentioned above, <a class="reference internal" href="tui_api.html#ref-user-guide-tui-api"><span class="std std-ref">Using the TUI APIs</span></a> contains
+<p>See <a class="reference internal" href="../api/core/meshing/tui/index.html#ref-meshing-tui"><span class="std std-ref">meshing.tui</span></a> for details of the full hierarchy under the
+<code class="docutils literal notranslate"><span class="pre">tui</span></code> object. As mentioned above, <a class="reference internal" href="tui_commands.html#ref-user-guide-tui-commands"><span class="std std-ref">Using TUI Commands</span></a> contains
 more general guidance.</p>
 <p>In addition, the <code class="docutils literal notranslate"><span class="pre">meshing</span></code> object has <code class="docutils literal notranslate"><span class="pre">meshing</span></code> and <code class="docutils literal notranslate"><span class="pre">workflow</span></code> properties,
 which together provide access to Fluent’s <cite>meshing workflows</cite>. This interface

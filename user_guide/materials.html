@@ -194,8 +194,8 @@
   </a>
  </li>
  <li class="toctree-l1">
-  <a class="reference internal" href="tui_api.html">
-   Using the TUI APIs
+  <a class="reference internal" href="tui_commands.html">
+   Using TUI Commands
   </a>
  </li>
  <li class="toctree-l1">
@@ -257,8 +257,8 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#text-user-interface-tui-api">
-   Text User Interface (TUI) API
+  <a class="reference internal nav-link" href="#solver-tui-commands">
+   Solver TUI Commands
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -289,12 +289,12 @@
                 
   <section id="defining-materials">
 <h1>Defining Materials<a class="headerlink" href="#defining-materials" title="Permalink to this headline">#</a></h1>
-<p>PyFluent supports defining materials using the TUI API and
+<p>PyFluent supports defining materials using the <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI Commands</span></a> and
 <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects</span></a>.</p>
-<section id="text-user-interface-tui-api">
-<h2>Text User Interface (TUI) API<a class="headerlink" href="#text-user-interface-tui-api" title="Permalink to this headline">#</a></h2>
+<section id="solver-tui-commands">
+<h2>Solver TUI Commands<a class="headerlink" href="#solver-tui-commands" title="Permalink to this headline">#</a></h2>
 <p>The following example demonstrates how you can define materials using
-the TUI API:</p>
+the <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI Commands</span></a>:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">materials</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="s2">&quot;fluid&quot;</span><span class="p">,</span> <span class="s2">&quot;water-liquid&quot;</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">(</span>
     <span class="s2">&quot;elbow-fluid&quot;</span><span class="p">,</span>
