@@ -260,6 +260,23 @@
   <a class="reference internal nav-link" href="#solver-tui-commands">
    Solver TUI Commands
   </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#selecting-steady-or-transient">
+     Selecting Steady or Transient
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#selecting-pressure-based-or-density-based-solver">
+     Selecting Pressure Based or Density Based Solver
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#defining-gravitational-acceleration">
+     Defining Gravitational Acceleration
+    </a>
+   </li>
+  </ul>
  </li>
 </ul>
 
@@ -288,11 +305,42 @@
 <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI Commands</span></a> and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects</span></a>.</p>
 <section id="solver-tui-commands">
 <h2>Solver TUI Commands<a class="headerlink" href="#solver-tui-commands" title="Permalink to this headline">#</a></h2>
-<p>The following example demonstrates how you can specify solver
+<p>The following examples demonstrate how you can specify solver
 settings using the <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI Commands</span></a>:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">unsteady_2nd_order</span><span class="p">(</span><span class="s1">&#39;yes’)​</span>
+<section id="selecting-steady-or-transient">
+<h3>Selecting Steady or Transient<a class="headerlink" href="#selecting-steady-or-transient" title="Permalink to this headline">#</a></h3>
+<p>define/models/steady TUI: Enables/disables the steady solution model.</p>
+<p>define/models/unsteady-1st-order TUI: Selects the first-order implicit
+formulation for transient simulations.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
+<span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><span class="s1">&#39;file.cas.h5&#39;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">steady</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">unsteady_1st_order</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
+</section>
+<section id="selecting-pressure-based-or-density-based-solver">
+<h3>Selecting Pressure Based or Density Based Solver<a class="headerlink" href="#selecting-pressure-based-or-density-based-solver" title="Permalink to this headline">#</a></h3>
+<p>define/models/solver/density-based-explicit TUI: Enables/disables the
+density-based-explicit solver.</p>
+<p>define/models/solver/density-based-implicit TUI: Enables/disables the
+density-based-implicit solver.</p>
+<p>define/models/solver/pressure-based TUI: Enables/disables the
+pressure-based solver.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">density_based_explicit</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">density_based_implicit</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
+<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">pressure_based</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
+<section id="defining-gravitational-acceleration">
+<h3>Defining Gravitational Acceleration<a class="headerlink" href="#defining-gravitational-acceleration" title="Permalink to this headline">#</a></h3>
+<p>define/operating-conditions/gravity TUI: Sets gravitational acceleration.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">operating_conditions</span><span class="o">.</span><span class="n">gravity</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">,</span><span class="s1">&#39;0&#39;</span><span class="p">,</span><span class="s1">&#39;-9.81&#39;</span><span class="p">,</span><span class="s1">&#39;0&#39;</span><span class="p">)</span>
+</pre></div>
+</div>
+</section>
 </section>
 </section>
 
