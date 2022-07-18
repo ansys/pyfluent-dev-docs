@@ -158,10 +158,10 @@ Execute the Import Geometry task.
     argv[1] = -B
     argv[2] = /ansys_inc/v222/commonfiles/CPython/3_7/linx64/Release/python/../Ansys/TGrid/CADReaders.py
     argv[3] = -a
-    argv[4] = //FM_6c5ed915c668_283/options1658031776.935404283.xml
+    argv[4] = //FM_6510e393b091_283/options1658118598.301151283.xml
     argv[5] = -a
-    argv[6] = //FM_6c5ed915c668_283/options1658031776.935404283.xml
-        /ansys_inc/v222/aisol/CommonFiles/linx64/ansys.meshing.fieldmesher.exe started by root on 6c5ed915c668 linx64 on Sun Jul 17 04:22:57 2022
+    argv[6] = //FM_6510e393b091_283/options1658118598.301151283.xml
+        /ansys_inc/v222/aisol/CommonFiles/linx64/ansys.meshing.fieldmesher.exe started by root on 6510e393b091 linx64 on Mon Jul 18 04:29:59 2022
         using Python 3.7.13 (default, Apr 28 2022, 08:00:21) 
         [GCC 8.2.0]
     
@@ -171,8 +171,8 @@ Execute the Import Geometry task.
         setting up parameters ...
         setting up parameters done.
         running conversion ...
-        converting 1 file(s) from Workbench to FLTG using output path '//FM_6c5ed915c668_283/out1658031776.935404283.tgf'
-        converting file 'mixing_elbow.pmdb' (1 of 1) from Workbench to FLTG using output path '//FM_6c5ed915c668_283/'
+        converting 1 file(s) from Workbench to FLTG using output path '//FM_6510e393b091_283/out1658118598.301151283.tgf'
+        converting file 'mixing_elbow.pmdb' (1 of 1) from Workbench to FLTG using output path '//FM_6510e393b091_283/'
         importing data ...
         importing meshing model from PartMgr from file '/home/ansys/.local/share/ansys_fluent_core/examples/mixing_elbow.pmdb' ...
         setting enclosure and symmetry processing to False
@@ -236,8 +236,8 @@ Execute the Import Geometry task.
                         'wall-elbow'
     
     
-        exporting FLTG data to file '//FM_6c5ed915c668_283/out1658031776.935404283.tgf' ...
-        writing face-based mesh file '//FM_6c5ed915c668_283/out1658031776.935404283.tgf' ...
+        exporting FLTG data to file '//FM_6510e393b091_283/out1658118598.301151283.tgf' ...
+        writing face-based mesh file '//FM_6510e393b091_283/out1658118598.301151283.tgf' ...
         ======== Exported Data ========
         Entity summary:
             Object       : 1
@@ -246,9 +246,9 @@ Execute the Import Geometry task.
     
         running conversion done.
         running ANSYS TGrid CADToTGridConverter done.
-        ran ANSYS TGrid CADToTGridConverter in 0.077 [s]
+        ran ANSYS TGrid CADToTGridConverter in 0.078 [s]
 
-    Reading "//FM_6c5ed915c668_283/out1658031776.935404283.tgf"...
+    Reading "//FM_6510e393b091_283/out1658118598.301151283.tgf"...
 
     nodes: 776
     edges: 153
@@ -327,7 +327,7 @@ workflow.
 
  .. code-block:: none
 
-    Writing "//FM_6c5ed915c668_283/TaskObject3.msh.h5" ...
+    Writing "//FM_6510e393b091_283/TaskObject3.msh.h5" ...
     writing 1 node zones
     writing 9 edge zones 
     writing 6 face zones 
@@ -347,10 +347,10 @@ workflow.
     argv[1] = -B
     argv[2] = /ansys_inc/v222/commonfiles/CPython/3_7/linx64/Release/python/../Ansys/TGrid/CADReaders.py
     argv[3] = -a
-    argv[4] = //FM_6c5ed915c668_283/options1658031780.519203283.xml
+    argv[4] = //FM_6510e393b091_283/options1658118602.055812283.xml
     argv[5] = -a
-    argv[6] = //FM_6c5ed915c668_283/options1658031780.519203283.xml
-        /ansys_inc/v222/aisol/CommonFiles/linx64/ansys.meshing.fieldmesher.exe started by root on 6c5ed915c668 linx64 on Sun Jul 17 04:23:00 2022
+    argv[6] = //FM_6510e393b091_283/options1658118602.055812283.xml
+        /ansys_inc/v222/aisol/CommonFiles/linx64/ansys.meshing.fieldmesher.exe started by root on 6510e393b091 linx64 on Mon Jul 18 04:30:02 2022
         using Python 3.7.13 (default, Apr 28 2022, 08:00:21) 
         [GCC 8.2.0]
     
@@ -360,10 +360,10 @@ workflow.
         setting up parameters ...
         setting up parameters done.
         running conversion ...
-        converting 1 file(s) from Workbench to FLTG using output path '//FM_6c5ed915c668_283/out1658031780.519203283.tgf'
-        converting file 'mixing_elbow.pmdb' (1 of 1) from Workbench to FLTG using output path '//FM_6c5ed915c668_283/'
+        converting 1 file(s) from Workbench to FLTG using output path '//FM_6510e393b091_283/out1658118602.055812283.tgf'
+        converting file 'mixing_elbow.pmdb' (1 of 1) from Workbench to FLTG using output path '//FM_6510e393b091_283/'
         importing data ...
-        importing meshing model from PartMgr from file '//FM_6c5ed915c668_283//mixing_elbow.pmdb' ...
+        importing meshing model from PartMgr from file '//FM_6510e393b091_283//mixing_elbow.pmdb' ...
         setting enclosure and symmetry processing to False
         setting transfer named selections to True
         setting named selection prefixes to ''
@@ -389,8 +389,8 @@ workflow.
         processing named selection 'wall-inlet'
         processing named selection 'wall-elbow'
         processing data ...
-        saving size function background grid to file '//FM_6c5ed915c668_283/mixing_elbow.sf' ...
-        writing size function background grid file '//FM_6c5ed915c668_283/mixing_elbow.sf' ...
+        saving size function background grid to file '//FM_6510e393b091_283/mixing_elbow.sf' ...
+        writing size function background grid file '//FM_6510e393b091_283/mixing_elbow.sf' ...
         initializing size function background grid done in 0.04 [s]
         removing named collections of entities ...
         removing named collections of entities stopped, no named collections selected.
@@ -428,8 +428,8 @@ workflow.
                         'wall-elbow'
     
     
-        exporting FLTG data to file '//FM_6c5ed915c668_283/out1658031780.519203283.tgf' ...
-        writing face-based mesh file '//FM_6c5ed915c668_283/out1658031780.519203283.tgf' ...
+        exporting FLTG data to file '//FM_6510e393b091_283/out1658118602.055812283.tgf' ...
+        writing face-based mesh file '//FM_6510e393b091_283/out1658118602.055812283.tgf' ...
         ======== Exported Data ========
         Entity summary:
             Object       : 1
@@ -438,9 +438,9 @@ workflow.
     
         running conversion done.
         running ANSYS TGrid CADToTGridConverter done.
-        ran ANSYS TGrid CADToTGridConverter in 0.270 [s]
+        ran ANSYS TGrid CADToTGridConverter in 0.290 [s]
 
-    Reading "//FM_6c5ed915c668_283/out1658031780.519203283.tgf"...
+    Reading "//FM_6510e393b091_283/out1658118602.055812283.tgf"...
 
     nodes: 4229
     edges: 300
@@ -456,7 +456,7 @@ workflow.
      12 boundary face zones.
     done.
 
-    Reading "//FM_6c5ed915c668_283/mixing_elbow.sf"...
+    Reading "//FM_6510e393b091_283/mixing_elbow.sf"...
 
     ANSYS(R) TGLib(TM) 3D, revision 18.1.0
      Read 5406 vertices
@@ -663,7 +663,7 @@ Volume Mesh.
 
  .. code-block:: none
 
-    Writing "//FM_6c5ed915c668_283/TaskObject11.msh.h5" ...
+    Writing "//FM_6510e393b091_283/TaskObject11.msh.h5" ...
     writing 2 node zones
     writing 18 edge zones 
     writing 12 face zones 
@@ -722,7 +722,7 @@ Volume Mesh.
 
     [Quality Measure : Orthogonal Quality]
 
-    ---------------- 17587 cells were created in :  0.08 minutes
+    ---------------- 17587 cells were created in :  0.07 minutes
 
     ---------------- The mesh has a minimum Orthogonal Quality of:  0.21 
 
@@ -781,6 +781,7 @@ Check the mesh in Meshing mode
     Checking zones.
     Checking neighborhood.
     Checking modified centroid.
+    Checking non-positive or too small area.
 
 
 
@@ -814,7 +815,6 @@ solution mode.
 
  .. code-block:: none
 
-    Checking non-positive or too small area.
     Done.
     *********************************************
     Info: Your license enables 4-way parallel execution.
@@ -1025,7 +1025,6 @@ water-liquid from the Material list.
 
  .. code-block:: none
 
-    water-liquid copied from database.
 
     (elbow-fluid)
 
@@ -1296,50 +1295,50 @@ Solve for 100 Iterations.
 
 
       iter  continuity  x-velocity  y-velocity  z-velocity      energy           k       omega  con-outlet     time/iter
-         1  1.0000e+00  4.1473e-03  4.5546e-03  1.1663e-03  8.6235e-05  9.8088e-02  7.0288e-01              0:00:28   99
-         2  7.9671e-01  2.5425e-03  3.0861e-03  7.1310e-04  1.0048e-04  5.5492e-02  1.0036e-01              0:00:28   98
-         3  7.6860e-01  1.6180e-03  2.3032e-03  6.0820e-04  1.0789e-04  2.0352e-02  6.3102e-02              0:00:27   97
-         4  7.3437e-01  1.0737e-03  1.9806e-03  4.9718e-04  1.1694e-04  1.7442e-02  3.9505e-02              0:00:26   96
-         5  7.0314e-01  9.0678e-04  1.8322e-03  4.3132e-04  1.2305e-04  1.6217e-02  2.6976e-02              0:00:25   95
-         6  6.5018e-01  8.6029e-04  1.7296e-03  3.9416e-04  1.2525e-04  1.5967e-02  2.0508e-02              0:00:25   94
-         7  5.9081e-01  8.1091e-04  1.6600e-03  3.6385e-04  1.2500e-04  1.6259e-02  1.6972e-02              0:00:24   93
-         8  5.3465e-01  7.5380e-04  1.5984e-03  3.3625e-04  1.2238e-04  1.6977e-02  1.4388e-02              0:00:24   92
-         9  4.8446e-01  7.0850e-04  1.5405e-03  3.1487e-04  1.1661e-04  1.7772e-02  1.2405e-02              0:00:23   91
-        10  4.4761e-01  6.7937e-04  1.4649e-03  2.9654e-04  1.0937e-04  1.8243e-02  1.0660e-02              0:00:23   90
+         1  1.0000e+00  4.1473e-03  4.5546e-03  1.1663e-03  8.6235e-05  9.8088e-02  7.0288e-01              0:00:26   99
+         2  7.9671e-01  2.5425e-03  3.0861e-03  7.1310e-04  1.0048e-04  5.5492e-02  1.0036e-01              0:00:26   98
+         3  7.6860e-01  1.6180e-03  2.3032e-03  6.0820e-04  1.0789e-04  2.0352e-02  6.3102e-02              0:00:25   97
+         4  7.3437e-01  1.0737e-03  1.9806e-03  4.9718e-04  1.1694e-04  1.7442e-02  3.9505e-02              0:00:24   96
+         5  7.0314e-01  9.0678e-04  1.8322e-03  4.3132e-04  1.2305e-04  1.6217e-02  2.6976e-02              0:00:24   95
+         6  6.5018e-01  8.6029e-04  1.7296e-03  3.9416e-04  1.2525e-04  1.5967e-02  2.0508e-02              0:00:23   94
+         7  5.9081e-01  8.1091e-04  1.6600e-03  3.6385e-04  1.2500e-04  1.6259e-02  1.6972e-02              0:00:23   93
+         8  5.3465e-01  7.5380e-04  1.5984e-03  3.3625e-04  1.2238e-04  1.6977e-02  1.4388e-02              0:00:23   92
+         9  4.8446e-01  7.0850e-04  1.5405e-03  3.1487e-04  1.1661e-04  1.7772e-02  1.2405e-02              0:00:22   91
+        10  4.4761e-01  6.7937e-04  1.4649e-03  2.9654e-04  1.0937e-04  1.8243e-02  1.0660e-02              0:00:22   90
         11  4.1322e-01  6.4884e-04  1.3835e-03  2.8122e-04  1.0022e-04  1.8267e-02  9.3125e-03              0:00:22   89
 
       iter  continuity  x-velocity  y-velocity  z-velocity      energy           k       omega  con-outlet     time/iter
-        12  3.8382e-01  6.1879e-04  1.2983e-03  2.6803e-04  8.9377e-05  1.7834e-02  8.2411e-03              0:00:22   88
+        12  3.8382e-01  6.1879e-04  1.2983e-03  2.6803e-04  8.9377e-05  1.7834e-02  8.2411e-03              0:00:21   88
         13  3.5650e-01  5.8667e-04  1.2081e-03  2.5576e-04  7.7168e-05  1.6937e-02  7.3318e-03              0:00:21   87
-        14  3.3105e-01  5.5547e-04  1.1080e-03  2.4389e-04  6.5673e-05  1.5697e-02  6.5420e-03              0:00:21   86
-        15  3.0696e-01  5.2543e-04  1.0101e-03  2.3221e-04  5.5621e-05  1.4234e-02  5.8267e-03              0:00:21   85
-        16  2.9149e-01  4.9731e-04  9.1748e-04  2.2140e-04  4.8335e-05  1.2693e-02  5.1771e-03              0:00:21   84
+        14  3.3105e-01  5.5547e-04  1.1080e-03  2.4389e-04  6.5673e-05  1.5697e-02  6.5420e-03              0:00:20   86
+        15  3.0696e-01  5.2543e-04  1.0101e-03  2.3221e-04  5.5621e-05  1.4234e-02  5.8267e-03              0:00:20   85
+        16  2.9149e-01  4.9731e-04  9.1748e-04  2.2140e-04  4.8335e-05  1.2693e-02  5.1771e-03              0:00:20   84
         17  2.7734e-01  4.6941e-04  8.2719e-04  2.1146e-04  4.3351e-05  1.1139e-02  4.5914e-03              0:00:20   83
-        18  2.6399e-01  4.4155e-04  7.5083e-04  2.0266e-04  3.9974e-05  9.6705e-03  4.0592e-03              0:00:20   82
-        19  2.4924e-01  4.1325e-04  6.8276e-04  1.9449e-04  3.7364e-05  8.3371e-03  3.5917e-03              0:00:26   81
-        20  2.3736e-01  3.8378e-04  6.2487e-04  1.8685e-04  3.4384e-05  7.1199e-03  3.2183e-03              0:00:24   80
-        21  2.2569e-01  3.5724e-04  5.7743e-04  1.7983e-04  3.0985e-05  6.0599e-03  2.9084e-03              0:00:23   79
-        22  2.1377e-01  3.3225e-04  5.4005e-04  1.7328e-04  2.7467e-05  5.1465e-03  2.6390e-03              0:00:23   78
+        18  2.6399e-01  4.4155e-04  7.5083e-04  2.0266e-04  3.9974e-05  9.6705e-03  4.0592e-03              0:00:19   82
+        19  2.4924e-01  4.1325e-04  6.8276e-04  1.9449e-04  3.7364e-05  8.3371e-03  3.5917e-03              0:00:25   81
+        20  2.3736e-01  3.8378e-04  6.2487e-04  1.8685e-04  3.4384e-05  7.1199e-03  3.2183e-03              0:00:23   80
+        21  2.2569e-01  3.5724e-04  5.7743e-04  1.7983e-04  3.0985e-05  6.0599e-03  2.9084e-03              0:00:22   79
+        22  2.1377e-01  3.3225e-04  5.4005e-04  1.7328e-04  2.7467e-05  5.1465e-03  2.6390e-03              0:00:22   78
 
       iter  continuity  x-velocity  y-velocity  z-velocity      energy           k       omega  con-outlet     time/iter
-        23  2.0313e-01  3.0847e-04  5.1066e-04  1.6673e-04  2.4004e-05  4.3642e-03  2.4053e-03              0:00:23   77
+        23  2.0313e-01  3.0847e-04  5.1066e-04  1.6673e-04  2.4004e-05  4.3642e-03  2.4053e-03              0:00:22   77
         24  1.9228e-01  2.8591e-04  4.8596e-04  1.6017e-04  2.0891e-05  3.7343e-03  2.2000e-03              0:00:23   76
-        25  1.8217e-01  2.6505e-04  4.6437e-04  1.5325e-04  1.8156e-05  3.2595e-03  2.0241e-03              0:00:23   75
+        25  1.8217e-01  2.6505e-04  4.6437e-04  1.5325e-04  1.8156e-05  3.2595e-03  2.0241e-03              0:00:22   75
         26  1.7320e-01  2.4561e-04  4.4366e-04  1.4575e-04  1.5669e-05  2.8748e-03  1.8560e-03              0:00:22   74
         27  1.6331e-01  2.2766e-04  4.2309e-04  1.3779e-04  1.3451e-05  2.5426e-03  1.7017e-03              0:00:22   73
-        28  1.5300e-01  2.1108e-04  4.0129e-04  1.2984e-04  1.1597e-05  2.2661e-03  1.5652e-03              0:00:22   72
-        29  1.4389e-01  1.9541e-04  3.7872e-04  1.2190e-04  1.0054e-05  2.0407e-03  1.4398e-03              0:00:21   71
-        30  1.3453e-01  1.8027e-04  3.5552e-04  1.1380e-04  8.7389e-06  1.8550e-03  1.3254e-03              0:00:21   70
+        28  1.5300e-01  2.1108e-04  4.0129e-04  1.2984e-04  1.1597e-05  2.2661e-03  1.5652e-03              0:00:21   72
+        29  1.4389e-01  1.9541e-04  3.7872e-04  1.2190e-04  1.0054e-05  2.0407e-03  1.4398e-03              0:00:20   71
+        30  1.3453e-01  1.8027e-04  3.5552e-04  1.1380e-04  8.7389e-06  1.8550e-03  1.3254e-03              0:00:20   70
         31  1.2547e-01  1.6605e-04  3.3252e-04  1.0577e-04  7.6093e-06  1.7019e-03  1.2264e-03              0:00:20   69
         32  1.1688e-01  1.5274e-04  3.1030e-04  9.7723e-05  6.6460e-06  1.5702e-03  1.1421e-03              0:00:20   68
         33  1.0928e-01  1.4023e-04  2.8897e-04  8.9955e-05  5.8258e-06  1.4513e-03  1.0601e-03              0:00:20   67
 
       iter  continuity  x-velocity  y-velocity  z-velocity      energy           k       omega  con-outlet     time/iter
-        34  1.0093e-01  1.2839e-04  2.6821e-04  8.2506e-05  5.1250e-06  1.3439e-03  9.8181e-04              0:00:20   66
+        34  1.0093e-01  1.2839e-04  2.6821e-04  8.2506e-05  5.1250e-06  1.3439e-03  9.8181e-04              0:00:19   66
         35  9.3214e-02  1.1741e-04  2.4887e-04  7.5531e-05  4.5306e-06  1.2512e-03  9.1314e-04              0:00:19   65
         36  8.6251e-02  1.0734e-04  2.3087e-04  6.9041e-05  4.0182e-06  1.1653e-03  8.5005e-04  2.5025e-03  0:00:19   64
         37  7.9962e-02  9.7831e-05  2.1333e-04  6.3074e-05  3.5790e-06  1.0878e-03  7.9091e-04              0:00:19   63
-        38  7.4217e-02  8.9102e-05  1.9694e-04  5.7625e-05  3.2015e-06  1.0160e-03  7.3446e-04              0:00:19   62
+        38  7.4217e-02  8.9102e-05  1.9694e-04  5.7625e-05  3.2015e-06  1.0160e-03  7.3446e-04              0:00:18   62
         39  6.8948e-02  8.1135e-05  1.8182e-04  5.2637e-05  2.8747e-06  9.5052e-04  6.8192e-04  1.5924e-03  0:00:18   61
         40  6.3904e-02  7.3897e-05  1.6790e-04  4.8076e-05  2.5903e-06  8.9092e-04  6.3271e-04              0:00:18   60
         41  5.9306e-02  6.7371e-05  1.5513e-04  4.3932e-05  2.3451e-06  8.3366e-04  5.8617e-04              0:00:18   59
@@ -1352,13 +1351,13 @@ Solve for 100 Iterations.
         46  4.0618e-02  4.2454e-05  1.0302e-04  2.8242e-05  1.4916e-06  5.9506e-04  3.9462e-04              0:00:16   54
         47  3.7710e-02  3.8734e-05  9.4963e-05  2.5916e-05  1.3721e-06  5.5431e-04  3.6361e-04              0:00:16   53
         48  3.4996e-02  3.5361e-05  8.7586e-05  2.3804e-05  1.2625e-06  5.1526e-04  3.3574e-04  4.0972e-04  0:00:16   52
-        49  3.2530e-02  3.2335e-05  8.0802e-05  2.1871e-05  1.1617e-06  4.7819e-04  3.1003e-04              0:00:15   51
+        49  3.2530e-02  3.2335e-05  8.0802e-05  2.1871e-05  1.1617e-06  4.7819e-04  3.1003e-04              0:00:16   51
         50  3.0194e-02  2.9567e-05  7.4438e-05  2.0096e-05  1.0694e-06  4.4311e-04  2.8581e-04              0:00:15   50
         51  2.7983e-02  2.7032e-05  6.8542e-05  1.8466e-05  9.8428e-07  4.0933e-04  2.6333e-04  2.5346e-04  0:00:15   49
-        52  2.5838e-02  2.4722e-05  6.3027e-05  1.6965e-05  9.0586e-07  3.7712e-04  2.4184e-04              0:00:14   48
+        52  2.5838e-02  2.4722e-05  6.3027e-05  1.6965e-05  9.0586e-07  3.7712e-04  2.4184e-04              0:00:15   48
         53  2.3899e-02  2.2633e-05  5.7891e-05  1.5588e-05  8.3273e-07  3.4681e-04  2.2127e-04              0:00:14   47
         54  2.2157e-02  2.0699e-05  5.3068e-05  1.4317e-05  7.6474e-07  3.1780e-04  2.0227e-04  1.5407e-04  0:00:14   46
-        55  2.0579e-02  1.8940e-05  4.8514e-05  1.3156e-05  7.0188e-07  2.9051e-04  1.8466e-04              0:00:13   45
+        55  2.0579e-02  1.8940e-05  4.8514e-05  1.3156e-05  7.0188e-07  2.9051e-04  1.8466e-04              0:00:14   45
 
       iter  continuity  x-velocity  y-velocity  z-velocity      energy           k       omega  con-outlet     time/iter
         56  1.8933e-02  1.7317e-05  4.4373e-05  1.2096e-05  6.4372e-07  2.6516e-04  1.6837e-04              0:00:13   44
@@ -1369,7 +1368,7 @@ Solve for 100 Iterations.
     Solution for report definition outlet-temp-avg has converged
         60  1.3345e-02  1.2074e-05  3.0947e-05  8.6215e-06  4.4933e-07  1.8240e-04  1.1535e-04  5.3334e-05  0:00:12   40
         61  1.2201e-02  1.1024e-05  2.8212e-05  7.9185e-06  4.0881e-07  1.6621e-04  1.0480e-04              0:00:12   39
-        62  1.1154e-02  1.0058e-05  2.5683e-05  7.2721e-06  3.7101e-07  1.5126e-04  9.5158e-05              0:00:12   38
+        62  1.1154e-02  1.0058e-05  2.5683e-05  7.2721e-06  3.7101e-07  1.5126e-04  9.5158e-05              0:00:11   38
     Solution for report definition outlet-temp-avg has converged
         63  1.0215e-02  9.1755e-06  2.3363e-05  6.6727e-06  3.3587e-07  1.3752e-04  8.6334e-05  2.9665e-05  0:00:11   37
         64  9.3486e-03  8.3667e-06  2.1232e-05  6.1224e-06  3.0392e-07  1.2508e-04  7.8284e-05              0:00:11   36
@@ -1396,7 +1395,7 @@ Solve for 100 Iterations.
       iter  continuity  x-velocity  y-velocity  z-velocity      energy           k       omega  con-outlet     time/iter
     Solution for report definition outlet-temp-avg has converged
         78  2.5483e-03  2.1524e-06  5.1425e-06  1.6778e-06  6.3187e-08  3.0130e-05  1.7849e-05  6.3293e-07  0:00:07   22
-        79  2.3047e-03  1.9435e-06  4.6150e-06  1.5164e-06  5.5796e-08  2.6995e-05  1.5942e-05              0:00:07   21
+        79  2.3047e-03  1.9435e-06  4.6150e-06  1.5164e-06  5.5796e-08  2.6995e-05  1.5942e-05              0:00:06   21
         80  2.0823e-03  1.7542e-06  4.1376e-06  1.3687e-06  4.9193e-08  2.4156e-05  1.4229e-05              0:00:06   20
     Solution for report definition outlet-temp-avg has converged
         81  1.8792e-03  1.5823e-06  3.7060e-06  1.2339e-06  4.3297e-08  2.1591e-05  1.2690e-05  8.0161e-07  0:00:06   19
@@ -1608,7 +1607,7 @@ Close Fluent
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 1 minutes  14.664 seconds)
+   **Total running time of the script:** ( 1 minutes  14.491 seconds)
 
 
 .. _sphx_glr_download_examples_00-fluent_mixing_elbow.py:
