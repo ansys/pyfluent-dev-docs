@@ -158,10 +158,10 @@ Execute the Import Geometry task.
     argv[1] = -B
     argv[2] = /ansys_inc/v222/commonfiles/CPython/3_7/linx64/Release/python/../Ansys/TGrid/CADReaders.py
     argv[3] = -a
-    argv[4] = //FM_c8a717d4d1aa_283/options1658205477.77023283.xml
+    argv[4] = //FM_fef7907b37d8_283/options1658377586.53445283.xml
     argv[5] = -a
-    argv[6] = //FM_c8a717d4d1aa_283/options1658205477.77023283.xml
-        /ansys_inc/v222/aisol/CommonFiles/linx64/ansys.meshing.fieldmesher.exe started by root on c8a717d4d1aa linx64 on Tue Jul 19 04:37:58 2022
+    argv[6] = //FM_fef7907b37d8_283/options1658377586.53445283.xml
+        /ansys_inc/v222/aisol/CommonFiles/linx64/ansys.meshing.fieldmesher.exe started by root on fef7907b37d8 linx64 on Thu Jul 21 04:26:27 2022
         using Python 3.7.13 (default, Apr 28 2022, 08:00:21) 
         [GCC 8.2.0]
     
@@ -171,8 +171,8 @@ Execute the Import Geometry task.
         setting up parameters ...
         setting up parameters done.
         running conversion ...
-        converting 1 file(s) from Workbench to FLTG using output path '//FM_c8a717d4d1aa_283/out1658205477.77023283.tgf'
-        converting file 'mixing_elbow.pmdb' (1 of 1) from Workbench to FLTG using output path '//FM_c8a717d4d1aa_283/'
+        converting 1 file(s) from Workbench to FLTG using output path '//FM_fef7907b37d8_283/out1658377586.53445283.tgf'
+        converting file 'mixing_elbow.pmdb' (1 of 1) from Workbench to FLTG using output path '//FM_fef7907b37d8_283/'
         importing data ...
         importing meshing model from PartMgr from file '/home/ansys/.local/share/ansys_fluent_core/examples/mixing_elbow.pmdb' ...
         setting enclosure and symmetry processing to False
@@ -236,8 +236,8 @@ Execute the Import Geometry task.
                         'wall-elbow'
     
     
-        exporting FLTG data to file '//FM_c8a717d4d1aa_283/out1658205477.77023283.tgf' ...
-        writing face-based mesh file '//FM_c8a717d4d1aa_283/out1658205477.77023283.tgf' ...
+        exporting FLTG data to file '//FM_fef7907b37d8_283/out1658377586.53445283.tgf' ...
+        writing face-based mesh file '//FM_fef7907b37d8_283/out1658377586.53445283.tgf' ...
         ======== Exported Data ========
         Entity summary:
             Object       : 1
@@ -246,9 +246,9 @@ Execute the Import Geometry task.
     
         running conversion done.
         running ANSYS TGrid CADToTGridConverter done.
-        ran ANSYS TGrid CADToTGridConverter in 0.083 [s]
+        ran ANSYS TGrid CADToTGridConverter in 0.076 [s]
 
-    Reading "//FM_c8a717d4d1aa_283/out1658205477.77023283.tgf"...
+    Reading "//FM_fef7907b37d8_283/out1658377586.53445283.tgf"...
 
     nodes: 776
     edges: 153
@@ -327,7 +327,7 @@ workflow.
 
  .. code-block:: none
 
-    Writing "//FM_c8a717d4d1aa_283/TaskObject3.msh.h5" ...
+    Writing "//FM_fef7907b37d8_283/TaskObject3.msh.h5" ...
     writing 1 node zones
     writing 9 edge zones 
     writing 6 face zones 
@@ -347,10 +347,10 @@ workflow.
     argv[1] = -B
     argv[2] = /ansys_inc/v222/commonfiles/CPython/3_7/linx64/Release/python/../Ansys/TGrid/CADReaders.py
     argv[3] = -a
-    argv[4] = //FM_c8a717d4d1aa_283/options1658205481.590385283.xml
+    argv[4] = //FM_fef7907b37d8_283/options1658377590.122012283.xml
     argv[5] = -a
-    argv[6] = //FM_c8a717d4d1aa_283/options1658205481.590385283.xml
-        /ansys_inc/v222/aisol/CommonFiles/linx64/ansys.meshing.fieldmesher.exe started by root on c8a717d4d1aa linx64 on Tue Jul 19 04:38:02 2022
+    argv[6] = //FM_fef7907b37d8_283/options1658377590.122012283.xml
+        /ansys_inc/v222/aisol/CommonFiles/linx64/ansys.meshing.fieldmesher.exe started by root on fef7907b37d8 linx64 on Thu Jul 21 04:26:30 2022
         using Python 3.7.13 (default, Apr 28 2022, 08:00:21) 
         [GCC 8.2.0]
     
@@ -360,10 +360,10 @@ workflow.
         setting up parameters ...
         setting up parameters done.
         running conversion ...
-        converting 1 file(s) from Workbench to FLTG using output path '//FM_c8a717d4d1aa_283/out1658205481.590385283.tgf'
-        converting file 'mixing_elbow.pmdb' (1 of 1) from Workbench to FLTG using output path '//FM_c8a717d4d1aa_283/'
+        converting 1 file(s) from Workbench to FLTG using output path '//FM_fef7907b37d8_283/out1658377590.122012283.tgf'
+        converting file 'mixing_elbow.pmdb' (1 of 1) from Workbench to FLTG using output path '//FM_fef7907b37d8_283/'
         importing data ...
-        importing meshing model from PartMgr from file '//FM_c8a717d4d1aa_283//mixing_elbow.pmdb' ...
+        importing meshing model from PartMgr from file '//FM_fef7907b37d8_283//mixing_elbow.pmdb' ...
         setting enclosure and symmetry processing to False
         setting transfer named selections to True
         setting named selection prefixes to ''
@@ -389,9 +389,9 @@ workflow.
         processing named selection 'wall-inlet'
         processing named selection 'wall-elbow'
         processing data ...
-        saving size function background grid to file '//FM_c8a717d4d1aa_283/mixing_elbow.sf' ...
-        writing size function background grid file '//FM_c8a717d4d1aa_283/mixing_elbow.sf' ...
-        initializing size function background grid done in 0.05 [s]
+        saving size function background grid to file '//FM_fef7907b37d8_283/mixing_elbow.sf' ...
+        writing size function background grid file '//FM_fef7907b37d8_283/mixing_elbow.sf' ...
+        initializing size function background grid done in 0.03 [s]
         removing named collections of entities ...
         removing named collections of entities stopped, no named collections selected.
         analyzing feature edges ...
@@ -428,8 +428,8 @@ workflow.
                         'wall-elbow'
     
     
-        exporting FLTG data to file '//FM_c8a717d4d1aa_283/out1658205481.590385283.tgf' ...
-        writing face-based mesh file '//FM_c8a717d4d1aa_283/out1658205481.590385283.tgf' ...
+        exporting FLTG data to file '//FM_fef7907b37d8_283/out1658377590.122012283.tgf' ...
+        writing face-based mesh file '//FM_fef7907b37d8_283/out1658377590.122012283.tgf' ...
         ======== Exported Data ========
         Entity summary:
             Object       : 1
@@ -438,9 +438,9 @@ workflow.
     
         running conversion done.
         running ANSYS TGrid CADToTGridConverter done.
-        ran ANSYS TGrid CADToTGridConverter in 0.288 [s]
+        ran ANSYS TGrid CADToTGridConverter in 0.275 [s]
 
-    Reading "//FM_c8a717d4d1aa_283/out1658205481.590385283.tgf"...
+    Reading "//FM_fef7907b37d8_283/out1658377590.122012283.tgf"...
 
     nodes: 4229
     edges: 300
@@ -456,7 +456,7 @@ workflow.
      12 boundary face zones.
     done.
 
-    Reading "//FM_c8a717d4d1aa_283/mixing_elbow.sf"...
+    Reading "//FM_fef7907b37d8_283/mixing_elbow.sf"...
 
     ANSYS(R) TGLib(TM) 3D, revision 18.1.0
      Read 5406 vertices
@@ -641,9 +641,10 @@ Select the Generate the Volume Mesh task, where you can set properties of the
 volume mesh. Select the poly-hexcore for Fill With. Execute Generate the
 Volume Mesh.
 
-.. GENERATED FROM PYTHON SOURCE LINES 142-150
+.. GENERATED FROM PYTHON SOURCE LINES 142-151
 
 .. code-block:: default
+
 
     session.meshing.workflow.TaskObject["Generate the Volume Mesh"].Arguments = {
         "VolumeFill": "poly-hexcore",
@@ -663,7 +664,7 @@ Volume Mesh.
 
  .. code-block:: none
 
-    Writing "//FM_c8a717d4d1aa_283/TaskObject11.msh.h5" ...
+    Writing "//FM_fef7907b37d8_283/TaskObject11.msh.h5" ...
     writing 2 node zones
     writing 18 edge zones 
     writing 12 face zones 
@@ -733,11 +734,17 @@ Volume Mesh.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 151-152
+.. GENERATED FROM PYTHON SOURCE LINES 152-155
+
+.. image:: /_static/mixing_elbow_011.png
+  :width: 500pt
+  :align: center
+
+.. GENERATED FROM PYTHON SOURCE LINES 157-158
 
 Check the mesh in Meshing mode
 
-.. GENERATED FROM PYTHON SOURCE LINES 152-154
+.. GENERATED FROM PYTHON SOURCE LINES 158-160
 
 .. code-block:: default
 
@@ -786,12 +793,12 @@ Check the mesh in Meshing mode
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 155-157
+.. GENERATED FROM PYTHON SOURCE LINES 161-163
 
 Save the mesh file (mixing_elbow.msh.h5)
 session.meshing.tui.file.write_mesh('mixing_elbow.msh.h5')
 
-.. GENERATED FROM PYTHON SOURCE LINES 159-164
+.. GENERATED FROM PYTHON SOURCE LINES 165-170
 
 Switch to Solution mode:
 Now that a high-quality mesh has been generated using Ansys Fluent in meshing
@@ -799,7 +806,7 @@ mode, you can now switch to solver mode to complete the setup of the
 simulation. We have just checked the mesh, so select Yes to switch to
 solution mode.
 
-.. GENERATED FROM PYTHON SOURCE LINES 164-166
+.. GENERATED FROM PYTHON SOURCE LINES 170-172
 
 .. code-block:: default
 
@@ -881,7 +888,7 @@ solution mode.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 167-173
+.. GENERATED FROM PYTHON SOURCE LINES 173-179
 
 Check the mesh in Solver mode:
 The mesh check will list the minimum and maximum x, y, and z values from the
@@ -890,7 +897,7 @@ mesh features that are checked. Any errors in the mesh will be reported at
 this time. Ensure that the minimum volume is not negative, since Ansys Fluent
 cannot begin a calculation when this is the case.
 
-.. GENERATED FROM PYTHON SOURCE LINES 173-175
+.. GENERATED FROM PYTHON SOURCE LINES 179-181
 
 .. code-block:: default
 
@@ -924,7 +931,7 @@ cannot begin a calculation when this is the case.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 176-182
+.. GENERATED FROM PYTHON SOURCE LINES 182-188
 
 Set the working units for the mesh:
 select "in" to set inches as the working unit for length. Note:  Because the
@@ -933,7 +940,7 @@ to change any other units in this problem. If you want a different working
 unit for length, other than inches (for example, millimeters), make the
 appropriate change.
 
-.. GENERATED FROM PYTHON SOURCE LINES 182-184
+.. GENERATED FROM PYTHON SOURCE LINES 188-190
 
 .. code-block:: default
 
@@ -946,11 +953,11 @@ appropriate change.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 185-186
+.. GENERATED FROM PYTHON SOURCE LINES 191-192
 
 Enable heat transfer by activating the energy equation.
 
-.. GENERATED FROM PYTHON SOURCE LINES 186-188
+.. GENERATED FROM PYTHON SOURCE LINES 192-194
 
 .. code-block:: default
 
@@ -963,11 +970,11 @@ Enable heat transfer by activating the energy equation.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 189-190
+.. GENERATED FROM PYTHON SOURCE LINES 195-196
 
 Create a new material called water-liquid.
 
-.. GENERATED FROM PYTHON SOURCE LINES 190-192
+.. GENERATED FROM PYTHON SOURCE LINES 196-198
 
 .. code-block:: default
 
@@ -980,12 +987,12 @@ Create a new material called water-liquid.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 193-195
+.. GENERATED FROM PYTHON SOURCE LINES 199-201
 
 Set up the cell zone conditions for the fluid zone (elbow-fluid). Select
 water-liquid from the Material list.
 
-.. GENERATED FROM PYTHON SOURCE LINES 195-221
+.. GENERATED FROM PYTHON SOURCE LINES 201-227
 
 .. code-block:: default
 
@@ -1025,17 +1032,19 @@ water-liquid from the Material list.
 
  .. code-block:: none
 
+    water-liquid copied from database.
+
     (elbow-fluid)
 
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 222-224
+.. GENERATED FROM PYTHON SOURCE LINES 228-230
 
 Set up the boundary conditions for the inlets, outlet, and walls for your CFD
 analysis.
 
-.. GENERATED FROM PYTHON SOURCE LINES 224-244
+.. GENERATED FROM PYTHON SOURCE LINES 230-250
 
 .. code-block:: default
 
@@ -1066,15 +1075,14 @@ analysis.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 245-247
+.. GENERATED FROM PYTHON SOURCE LINES 251-253
 
 hot inlet (hot-inlet), Setting: Value:
 Velocity Specification Method: Magnitude, Normal to Boundary
 
-.. GENERATED FROM PYTHON SOURCE LINES 247-265
+.. GENERATED FROM PYTHON SOURCE LINES 253-270
 
 .. code-block:: default
-
 
 
     session.solver.tui.define.boundary_conditions.set.velocity_inlet(
@@ -1100,13 +1108,13 @@ Velocity Specification Method: Magnitude, Normal to Boundary
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 266-269
+.. GENERATED FROM PYTHON SOURCE LINES 271-274
 
 pressure outlet (outlet), Setting: Value:
 Backflow Turbulent Intensity: 5 [%]
 Backflow Turbulent Viscosity Ratio: 4
 
-.. GENERATED FROM PYTHON SOURCE LINES 269-277
+.. GENERATED FROM PYTHON SOURCE LINES 274-282
 
 .. code-block:: default
 
@@ -1125,11 +1133,11 @@ Backflow Turbulent Viscosity Ratio: 4
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 278-279
+.. GENERATED FROM PYTHON SOURCE LINES 283-284
 
 Enable the plotting of residuals during the calculation.
 
-.. GENERATED FROM PYTHON SOURCE LINES 279-281
+.. GENERATED FROM PYTHON SOURCE LINES 284-286
 
 .. code-block:: default
 
@@ -1142,12 +1150,12 @@ Enable the plotting of residuals during the calculation.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 282-284
+.. GENERATED FROM PYTHON SOURCE LINES 287-289
 
 Create a surface report definition of average temperature at the outlet
 (outlet) called "outlet-temp-avg
 
-.. GENERATED FROM PYTHON SOURCE LINES 284-295
+.. GENERATED FROM PYTHON SOURCE LINES 289-300
 
 .. code-block:: default
 
@@ -1169,7 +1177,7 @@ Create a surface report definition of average temperature at the outlet
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 296-301
+.. GENERATED FROM PYTHON SOURCE LINES 301-306
 
 Create a convergence condition for outlet-temp-avg:
 Provide con-outlet-temp-avg for Conditions. Select outlet-temp-avg Report
@@ -1177,7 +1185,7 @@ Definition. Provide 1e-5 for Stop Criterion. Provide 20 for Ignore Iterations
 Before. Provide 15 for Use Iterations. Enable Print. Set Every Iteration to
 3.
 
-.. GENERATED FROM PYTHON SOURCE LINES 301-334
+.. GENERATED FROM PYTHON SOURCE LINES 306-339
 
 .. code-block:: default
 
@@ -1221,11 +1229,11 @@ Before. Provide 15 for Use Iterations. Enable Print. Set Every Iteration to
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 335-336
+.. GENERATED FROM PYTHON SOURCE LINES 340-341
 
 Initialize the flow field using the Hybrid Initialization
 
-.. GENERATED FROM PYTHON SOURCE LINES 336-338
+.. GENERATED FROM PYTHON SOURCE LINES 341-343
 
 .. code-block:: default
 
@@ -1267,16 +1275,16 @@ Initialize the flow field using the Hybrid Initialization
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 339-341
+.. GENERATED FROM PYTHON SOURCE LINES 344-346
 
 Save the case file (mixing_elbow1.cas.h5).
 session.solver.tui.file.write_case('mixing_elbow1.cas.h5')
 
-.. GENERATED FROM PYTHON SOURCE LINES 343-344
+.. GENERATED FROM PYTHON SOURCE LINES 348-349
 
 Solve for 100 Iterations.
 
-.. GENERATED FROM PYTHON SOURCE LINES 344-346
+.. GENERATED FROM PYTHON SOURCE LINES 349-351
 
 .. code-block:: default
 
@@ -1294,35 +1302,35 @@ Solve for 100 Iterations.
 
 
       iter  continuity  x-velocity  y-velocity  z-velocity      energy           k       omega  con-outlet     time/iter
-         1  1.0000e+00  4.1473e-03  4.5546e-03  1.1663e-03  8.6235e-05  9.8088e-02  7.0288e-01              0:00:29   99
-         2  7.9671e-01  2.5425e-03  3.0861e-03  7.1310e-04  1.0048e-04  5.5492e-02  1.0036e-01              0:00:29   98
-         3  7.6860e-01  1.6180e-03  2.3032e-03  6.0820e-04  1.0789e-04  2.0352e-02  6.3102e-02              0:00:28   97
+         1  1.0000e+00  4.1473e-03  4.5546e-03  1.1663e-03  8.6235e-05  9.8088e-02  7.0288e-01              0:00:28   99
+         2  7.9671e-01  2.5425e-03  3.0861e-03  7.1310e-04  1.0048e-04  5.5492e-02  1.0036e-01              0:00:28   98
+         3  7.6860e-01  1.6180e-03  2.3032e-03  6.0820e-04  1.0789e-04  2.0352e-02  6.3102e-02              0:00:27   97
          4  7.3437e-01  1.0737e-03  1.9806e-03  4.9718e-04  1.1694e-04  1.7442e-02  3.9505e-02              0:00:27   96
-         5  7.0314e-01  9.0678e-04  1.8322e-03  4.3132e-04  1.2305e-04  1.6217e-02  2.6976e-02              0:00:27   95
-         6  6.5018e-01  8.6029e-04  1.7296e-03  3.9416e-04  1.2525e-04  1.5967e-02  2.0508e-02              0:00:26   94
+         5  7.0314e-01  9.0678e-04  1.8322e-03  4.3132e-04  1.2305e-04  1.6217e-02  2.6976e-02              0:00:26   95
+         6  6.5018e-01  8.6029e-04  1.7296e-03  3.9416e-04  1.2525e-04  1.5967e-02  2.0508e-02              0:00:25   94
          7  5.9081e-01  8.1091e-04  1.6600e-03  3.6385e-04  1.2500e-04  1.6259e-02  1.6972e-02              0:00:25   93
-         8  5.3465e-01  7.5380e-04  1.5984e-03  3.3625e-04  1.2238e-04  1.6977e-02  1.4388e-02              0:00:25   92
+         8  5.3465e-01  7.5380e-04  1.5984e-03  3.3625e-04  1.2238e-04  1.6977e-02  1.4388e-02              0:00:24   92
          9  4.8446e-01  7.0850e-04  1.5405e-03  3.1487e-04  1.1661e-04  1.7772e-02  1.2405e-02              0:00:24   91
         10  4.4761e-01  6.7937e-04  1.4649e-03  2.9654e-04  1.0937e-04  1.8243e-02  1.0660e-02              0:00:23   90
         11  4.1322e-01  6.4884e-04  1.3835e-03  2.8122e-04  1.0022e-04  1.8267e-02  9.3125e-03              0:00:23   89
 
       iter  continuity  x-velocity  y-velocity  z-velocity      energy           k       omega  con-outlet     time/iter
-        12  3.8382e-01  6.1879e-04  1.2983e-03  2.6803e-04  8.9377e-05  1.7834e-02  8.2411e-03              0:00:23   88
-        13  3.5650e-01  5.8667e-04  1.2081e-03  2.5576e-04  7.7168e-05  1.6937e-02  7.3318e-03              0:00:23   87
-        14  3.3105e-01  5.5547e-04  1.1080e-03  2.4389e-04  6.5673e-05  1.5697e-02  6.5420e-03              0:00:22   86
-        15  3.0696e-01  5.2543e-04  1.0101e-03  2.3221e-04  5.5621e-05  1.4234e-02  5.8267e-03              0:00:22   85
+        12  3.8382e-01  6.1879e-04  1.2983e-03  2.6803e-04  8.9377e-05  1.7834e-02  8.2411e-03              0:00:22   88
+        13  3.5650e-01  5.8667e-04  1.2081e-03  2.5576e-04  7.7168e-05  1.6937e-02  7.3318e-03              0:00:22   87
+        14  3.3105e-01  5.5547e-04  1.1080e-03  2.4389e-04  6.5673e-05  1.5697e-02  6.5420e-03              0:00:21   86
+        15  3.0696e-01  5.2543e-04  1.0101e-03  2.3221e-04  5.5621e-05  1.4234e-02  5.8267e-03              0:00:21   85
         16  2.9149e-01  4.9731e-04  9.1748e-04  2.2140e-04  4.8335e-05  1.2693e-02  5.1771e-03              0:00:21   84
         17  2.7734e-01  4.6941e-04  8.2719e-04  2.1146e-04  4.3351e-05  1.1139e-02  4.5914e-03              0:00:21   83
-        18  2.6399e-01  4.4155e-04  7.5083e-04  2.0266e-04  3.9974e-05  9.6705e-03  4.0592e-03              0:00:20   82
-        19  2.4924e-01  4.1325e-04  6.8276e-04  1.9449e-04  3.7364e-05  8.3371e-03  3.5917e-03              0:00:26   81
-        20  2.3736e-01  3.8378e-04  6.2487e-04  1.8685e-04  3.4384e-05  7.1199e-03  3.2183e-03              0:00:24   80
-        21  2.2569e-01  3.5724e-04  5.7743e-04  1.7983e-04  3.0985e-05  6.0599e-03  2.9084e-03              0:00:23   79
-        22  2.1377e-01  3.3225e-04  5.4005e-04  1.7328e-04  2.7467e-05  5.1465e-03  2.6390e-03              0:00:23   78
+        18  2.6399e-01  4.4155e-04  7.5083e-04  2.0266e-04  3.9974e-05  9.6705e-03  4.0592e-03              0:00:21   82
+        19  2.4924e-01  4.1325e-04  6.8276e-04  1.9449e-04  3.7364e-05  8.3371e-03  3.5917e-03              0:00:27   81
+        20  2.3736e-01  3.8378e-04  6.2487e-04  1.8685e-04  3.4384e-05  7.1199e-03  3.2183e-03              0:00:25   80
+        21  2.2569e-01  3.5724e-04  5.7743e-04  1.7983e-04  3.0985e-05  6.0599e-03  2.9084e-03              0:00:24   79
+        22  2.1377e-01  3.3225e-04  5.4005e-04  1.7328e-04  2.7467e-05  5.1465e-03  2.6390e-03              0:00:25   78
 
       iter  continuity  x-velocity  y-velocity  z-velocity      energy           k       omega  con-outlet     time/iter
-        23  2.0313e-01  3.0847e-04  5.1066e-04  1.6673e-04  2.4004e-05  4.3642e-03  2.4053e-03              0:00:23   77
-        24  1.9228e-01  2.8591e-04  4.8596e-04  1.6017e-04  2.0891e-05  3.7343e-03  2.2000e-03              0:00:23   76
-        25  1.8217e-01  2.6505e-04  4.6437e-04  1.5325e-04  1.8156e-05  3.2595e-03  2.0241e-03              0:00:23   75
+        23  2.0313e-01  3.0847e-04  5.1066e-04  1.6673e-04  2.4004e-05  4.3642e-03  2.4053e-03              0:00:24   77
+        24  1.9228e-01  2.8591e-04  4.8596e-04  1.6017e-04  2.0891e-05  3.7343e-03  2.2000e-03              0:00:24   76
+        25  1.8217e-01  2.6505e-04  4.6437e-04  1.5325e-04  1.8156e-05  3.2595e-03  2.0241e-03              0:00:24   75
         26  1.7320e-01  2.4561e-04  4.4366e-04  1.4575e-04  1.5669e-05  2.8748e-03  1.8560e-03              0:00:23   74
         27  1.6331e-01  2.2766e-04  4.2309e-04  1.3779e-04  1.3451e-05  2.5426e-03  1.7017e-03              0:00:23   73
         28  1.5300e-01  2.1108e-04  4.0129e-04  1.2984e-04  1.1597e-05  2.2661e-03  1.5652e-03              0:00:23   72
@@ -1338,31 +1346,31 @@ Solve for 100 Iterations.
         36  8.6251e-02  1.0734e-04  2.3087e-04  6.9041e-05  4.0182e-06  1.1653e-03  8.5005e-04  2.5025e-03  0:00:20   64
         37  7.9962e-02  9.7831e-05  2.1333e-04  6.3074e-05  3.5790e-06  1.0878e-03  7.9091e-04              0:00:20   63
         38  7.4217e-02  8.9102e-05  1.9694e-04  5.7625e-05  3.2015e-06  1.0160e-03  7.3446e-04              0:00:20   62
-        39  6.8948e-02  8.1135e-05  1.8182e-04  5.2637e-05  2.8747e-06  9.5052e-04  6.8192e-04  1.5924e-03  0:00:19   61
+        39  6.8948e-02  8.1135e-05  1.8182e-04  5.2637e-05  2.8747e-06  9.5052e-04  6.8192e-04  1.5924e-03  0:00:20   61
         40  6.3904e-02  7.3897e-05  1.6790e-04  4.8076e-05  2.5903e-06  8.9092e-04  6.3271e-04              0:00:19   60
         41  5.9306e-02  6.7371e-05  1.5513e-04  4.3932e-05  2.3451e-06  8.3366e-04  5.8617e-04              0:00:19   59
-        42  5.5121e-02  6.1327e-05  1.4284e-04  4.0157e-05  2.1284e-06  7.8055e-04  5.4302e-04  1.0083e-03  0:00:18   58
-        43  5.1132e-02  5.5893e-05  1.3155e-04  3.6738e-05  1.9399e-06  7.3166e-04  5.0254e-04              0:00:18   57
+        42  5.5121e-02  6.1327e-05  1.4284e-04  4.0157e-05  2.1284e-06  7.8055e-04  5.4302e-04  1.0083e-03  0:00:19   58
+        43  5.1132e-02  5.5893e-05  1.3155e-04  3.6738e-05  1.9399e-06  7.3166e-04  5.0254e-04              0:00:19   57
         44  4.7411e-02  5.0962e-05  1.2110e-04  3.3639e-05  1.7726e-06  6.8308e-04  4.6406e-04              0:00:18   56
 
       iter  continuity  x-velocity  y-velocity  z-velocity      energy           k       omega  con-outlet     time/iter
-        45  4.3892e-02  4.6455e-05  1.1160e-04  3.0807e-05  1.6244e-06  6.3737e-04  4.2820e-04  6.4758e-04  0:00:17   55
-        46  4.0618e-02  4.2454e-05  1.0302e-04  2.8242e-05  1.4916e-06  5.9506e-04  3.9462e-04              0:00:17   54
+        45  4.3892e-02  4.6455e-05  1.1160e-04  3.0807e-05  1.6244e-06  6.3737e-04  4.2820e-04  6.4758e-04  0:00:18   55
+        46  4.0618e-02  4.2454e-05  1.0302e-04  2.8242e-05  1.4916e-06  5.9506e-04  3.9462e-04              0:00:18   54
         47  3.7710e-02  3.8734e-05  9.4963e-05  2.5916e-05  1.3721e-06  5.5431e-04  3.6361e-04              0:00:17   53
-        48  3.4996e-02  3.5361e-05  8.7586e-05  2.3804e-05  1.2625e-06  5.1526e-04  3.3574e-04  4.0972e-04  0:00:16   52
-        49  3.2530e-02  3.2335e-05  8.0802e-05  2.1871e-05  1.1617e-06  4.7819e-04  3.1003e-04              0:00:16   51
+        48  3.4996e-02  3.5361e-05  8.7586e-05  2.3804e-05  1.2625e-06  5.1526e-04  3.3574e-04  4.0972e-04  0:00:17   52
+        49  3.2530e-02  3.2335e-05  8.0802e-05  2.1871e-05  1.1617e-06  4.7819e-04  3.1003e-04              0:00:17   51
         50  3.0194e-02  2.9567e-05  7.4438e-05  2.0096e-05  1.0694e-06  4.4311e-04  2.8581e-04              0:00:16   50
         51  2.7983e-02  2.7032e-05  6.8542e-05  1.8466e-05  9.8428e-07  4.0933e-04  2.6333e-04  2.5346e-04  0:00:16   49
         52  2.5838e-02  2.4722e-05  6.3027e-05  1.6965e-05  9.0586e-07  3.7712e-04  2.4184e-04              0:00:15   48
         53  2.3899e-02  2.2633e-05  5.7891e-05  1.5588e-05  8.3273e-07  3.4681e-04  2.2127e-04              0:00:15   47
         54  2.2157e-02  2.0699e-05  5.3068e-05  1.4317e-05  7.6474e-07  3.1780e-04  2.0227e-04  1.5407e-04  0:00:15   46
-        55  2.0579e-02  1.8940e-05  4.8514e-05  1.3156e-05  7.0188e-07  2.9051e-04  1.8466e-04              0:00:14   45
+        55  2.0579e-02  1.8940e-05  4.8514e-05  1.3156e-05  7.0188e-07  2.9051e-04  1.8466e-04              0:00:15   45
 
       iter  continuity  x-velocity  y-velocity  z-velocity      energy           k       omega  con-outlet     time/iter
         56  1.8933e-02  1.7317e-05  4.4373e-05  1.2096e-05  6.4372e-07  2.6516e-04  1.6837e-04              0:00:14   44
     Solution for report definition outlet-temp-avg has converged
-        57  1.7382e-02  1.5828e-05  4.0603e-05  1.1116e-05  5.8931e-07  2.4182e-04  1.5339e-04  9.1847e-05  0:00:13   43
-        58  1.5905e-02  1.4467e-05  3.7103e-05  1.0216e-05  5.3950e-07  2.2017e-04  1.3960e-04              0:00:13   42
+        57  1.7382e-02  1.5828e-05  4.0603e-05  1.1116e-05  5.8931e-07  2.4182e-04  1.5339e-04  9.1847e-05  0:00:14   43
+        58  1.5905e-02  1.4467e-05  3.7103e-05  1.0216e-05  5.3950e-07  2.2017e-04  1.3960e-04              0:00:14   42
         59  1.4564e-02  1.3218e-05  3.3896e-05  9.3858e-06  4.9283e-07  2.0023e-04  1.2693e-04              0:00:13   41
     Solution for report definition outlet-temp-avg has converged
         60  1.3345e-02  1.2074e-05  3.0947e-05  8.6215e-06  4.4933e-07  1.8240e-04  1.1535e-04  5.3334e-05  0:00:13   40
@@ -1376,15 +1384,15 @@ Solve for 100 Iterations.
         66  7.8414e-03  6.9423e-06  1.7484e-05  5.1452e-06  2.4775e-07  1.0341e-04  6.4268e-05  1.5356e-05  0:00:11   34
 
       iter  continuity  x-velocity  y-velocity  z-velocity      energy           k       omega  con-outlet     time/iter
-        67  7.1868e-03  6.3183e-06  1.5851e-05  4.7124e-06  2.2309e-07  9.3854e-05  5.8160e-05              0:00:11   33
+        67  7.1868e-03  6.3183e-06  1.5851e-05  4.7124e-06  2.2309e-07  9.3854e-05  5.8160e-05              0:00:10   33
         68  6.5811e-03  5.7483e-06  1.4366e-05  4.3127e-06  2.0058e-07  8.5005e-05  5.2570e-05              0:00:10   32
     Solution for report definition outlet-temp-avg has converged
         69  6.0180e-03  5.2291e-06  1.3013e-05  3.9429e-06  1.8008e-07  7.7042e-05  4.7417e-05  7.1330e-06  0:00:10   31
-        70  5.4927e-03  4.7527e-06  1.1778e-05  3.6025e-06  1.6139e-07  6.9764e-05  4.2729e-05              0:00:10   30
+        70  5.4927e-03  4.7527e-06  1.1778e-05  3.6025e-06  1.6139e-07  6.9764e-05  4.2729e-05              0:00:09   30
         71  5.0062e-03  4.3155e-06  1.0656e-05  3.2882e-06  1.4442e-07  6.3090e-05  3.8447e-05              0:00:09   29
     Solution for report definition outlet-temp-avg has converged
         72  4.5575e-03  3.9157e-06  9.6321e-06  2.9983e-06  1.2899e-07  5.6974e-05  3.4561e-05  2.7411e-06  0:00:09   28
-        73  4.1467e-03  3.5506e-06  8.6980e-06  2.7304e-06  1.1500e-07  5.1382e-05  3.1034e-05              0:00:09   27
+        73  4.1467e-03  3.5506e-06  8.6980e-06  2.7304e-06  1.1500e-07  5.1382e-05  3.1034e-05              0:00:08   27
         74  3.7692e-03  3.2169e-06  7.8473e-06  2.4833e-06  1.0234e-07  4.6265e-05  2.7834e-05              0:00:08   26
     Solution for report definition outlet-temp-avg has converged
         75  3.4222e-03  2.9126e-06  7.0721e-06  2.2558e-06  9.0925e-08  4.1625e-05  2.4941e-05  5.6109e-07  0:00:08   25
@@ -1407,24 +1415,35 @@ Solve for 100 Iterations.
     Solution for report definition outlet-temp-avg has converged
     !   87 report definition solution is converged
         87  9.8703e-04  8.4231e-07  1.8877e-06  6.4563e-07  1.9398e-08  1.0744e-05  6.2762e-06  8.2771e-07  0:00:04   13
-    !   87 solution is converged
 
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 347-349
+.. GENERATED FROM PYTHON SOURCE LINES 352-355
+
+.. image:: /_static/mixing_elbow_012.png
+  :width: 500pt
+  :align: center
+
+.. GENERATED FROM PYTHON SOURCE LINES 357-360
+
+.. image:: /_static/mixing_elbow_013.png
+  :width: 500pt
+  :align: center
+
+.. GENERATED FROM PYTHON SOURCE LINES 362-364
 
 Save the data file (mixing_elbow1.dat.h5).
 session.solver.tui.file.write_data('mixing_elbow1.dat.h5')
 
-.. GENERATED FROM PYTHON SOURCE LINES 351-355
+.. GENERATED FROM PYTHON SOURCE LINES 366-370
 
 Create and display a definition for velocity magnitude contours on the
 symmetry plane:
 Provide contour-vel for Contour Name. Select velocity magnitude. Select
 symmetry-xyplane from the Surfaces list. Display contour-vel contour.
 
-.. GENERATED FROM PYTHON SOURCE LINES 355-373
+.. GENERATED FROM PYTHON SOURCE LINES 370-388
 
 .. code-block:: default
 
@@ -1450,17 +1469,31 @@ symmetry-xyplane from the Surfaces list. Display contour-vel contour.
 
 
 
+.. rst-class:: sphx-glr-script-out
+
+ Out:
+
+ .. code-block:: none
+
+    !   87 solution is converged
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 374-378
+
+.. GENERATED FROM PYTHON SOURCE LINES 389-392
+
+.. image:: /_static/mixing_elbow_014.png
+  :width: 500pt
+  :align: center
+
+.. GENERATED FROM PYTHON SOURCE LINES 394-398
 
 Create and display a definition for temperature contours on the symmetry
 plane:
 Provide contour-temp for Contour Name. Select temperature. Select
 symmetry-xyplane from the Surfaces list. Display contour-temp contour.
 
-.. GENERATED FROM PYTHON SOURCE LINES 378-396
+.. GENERATED FROM PYTHON SOURCE LINES 398-416
 
 .. code-block:: default
 
@@ -1489,11 +1522,17 @@ symmetry-xyplane from the Surfaces list. Display contour-temp contour.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 397-398
+.. GENERATED FROM PYTHON SOURCE LINES 417-420
+
+.. image:: /_static/mixing_elbow_015.png
+  :width: 500pt
+  :align: center
+
+.. GENERATED FROM PYTHON SOURCE LINES 422-423
 
 Create and display velocity vectors on the symmetry-xyplane plane:
 
-.. GENERATED FROM PYTHON SOURCE LINES 398-419
+.. GENERATED FROM PYTHON SOURCE LINES 423-444
 
 .. code-block:: default
 
@@ -1525,12 +1564,18 @@ Create and display velocity vectors on the symmetry-xyplane plane:
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 420-422
+.. GENERATED FROM PYTHON SOURCE LINES 445-448
+
+.. image:: /_static/mixing_elbow_016.png
+  :width: 500pt
+  :align: center
+
+.. GENERATED FROM PYTHON SOURCE LINES 450-452
 
 Create an iso-surface representing the intersection of the plane z=0 and the
 surface outlet. Name: z=0_outlet
 
-.. GENERATED FROM PYTHON SOURCE LINES 422-426
+.. GENERATED FROM PYTHON SOURCE LINES 452-456
 
 .. code-block:: default
 
@@ -1553,12 +1598,12 @@ surface outlet. Name: z=0_outlet
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 427-429
+.. GENERATED FROM PYTHON SOURCE LINES 457-459
 
 Display and save an XY plot of the temperature profile across the centerline
 of the outlet for the initial solution
 
-.. GENERATED FROM PYTHON SOURCE LINES 429-440
+.. GENERATED FROM PYTHON SOURCE LINES 459-470
 
 .. code-block:: default
 
@@ -1580,16 +1625,22 @@ of the outlet for the initial solution
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 441-443
+.. GENERATED FROM PYTHON SOURCE LINES 471-474
+
+.. image:: /_static/mixing_elbow_017.png
+  :width: 500pt
+  :align: center
+
+.. GENERATED FROM PYTHON SOURCE LINES 476-478
 
 Write final case and data.
 session.solver.tui.file.write_case_data("mixing_elbow2_tui.cas.h5")
 
-.. GENERATED FROM PYTHON SOURCE LINES 445-446
+.. GENERATED FROM PYTHON SOURCE LINES 480-481
 
 Close Fluent
 
-.. GENERATED FROM PYTHON SOURCE LINES 446-449
+.. GENERATED FROM PYTHON SOURCE LINES 481-484
 
 .. code-block:: default
 
@@ -1606,7 +1657,7 @@ Close Fluent
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 1 minutes  16.462 seconds)
+   **Total running time of the script:** ( 1 minutes  16.872 seconds)
 
 
 .. _sphx_glr_download_examples_00-fluent_mixing_elbow.py:
