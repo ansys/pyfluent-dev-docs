@@ -14,7 +14,6 @@ ansys.fluent.core.solver.flobject.NamedObject
       :toctree:
    
       ~NamedObject.__init__
-      ~NamedObject.create
       ~NamedObject.get_attr
       ~NamedObject.get_attrs
       ~NamedObject.get_object_names
