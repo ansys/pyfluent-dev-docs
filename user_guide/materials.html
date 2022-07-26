@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Defining Materials &#8212; PyFluent</title>
+    <title>Defining materials &#8212; PyFluent</title>
     
 <script>
   document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
@@ -53,8 +53,8 @@
     <link rel="shortcut icon" href="../_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Defining Boundary Conditions" href="boundary_conditions.html" />
-    <link rel="prev" title="Defining Models" href="models.html" />
+    <link rel="next" title="Defining boundary conditions" href="boundary_conditions.html" />
+    <link rel="prev" title="Defining models" href="models.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="docsearch:language" content="None">
   </head>
@@ -101,19 +101,19 @@
         <ul id="navbar-main-elements" class="navbar-nav">
     <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../getting_started/index.html">
-  Getting Started
+  Getting started
  </a>
 </li>
 
 <li class="toctree-l1 current active nav-item">
  <a class="reference internal nav-link" href="index.html">
-  User Guide
+  User guide
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../api/index.html">
-  API Reference
+  API reference
  </a>
 </li>
 
@@ -175,8 +175,8 @@
         <li class="nav-item nav-item-0"><a href="../index.html">PyFluent</a> » </li>
     
 
-          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User Guide</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">Defining Materials</a></li> 
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User guide</a> » </li>
+        <li class="nav-item nav-item-this"><a href="">Defining materials</a></li> 
       </ul>
     </div>
         </div>
@@ -199,47 +199,47 @@
     <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="launching_ansys_fluent.html">
-   Launching Ansys Fluent Locally
+   Launching Fluent locally
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="tui_commands.html">
-   Using TUI Commands
+   Using TUI commands
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="meshing_workflows.html">
-   Using the Meshing Workflows
+   Using meshing workflows
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="general_settings.html">
-   Applying General Settings
+   Applying general settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="solver_settings.html">
-   Specifying Solver Settings
+   Specifying solver settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="models.html">
-   Defining Models
+   Defining models
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Defining Materials
+   Defining materials
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="boundary_conditions.html">
-   Defining Boundary Conditions
+   Defining boundary conditions
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="solution.html">
-   Applying Solution Settings
+   Applying solution settings
   </a>
  </li>
 </ul>
@@ -267,13 +267,13 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#solver-tui-commands">
-   Solver TUI Commands
+  <a class="reference internal nav-link" href="#using-solver-tui-commands">
+   Using solver TUI commands
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#settings-objects">
-   Settings Objects
+  <a class="reference internal nav-link" href="#using-settings-objects">
+   Using settings objects
   </a>
  </li>
 </ul>
@@ -296,14 +296,14 @@
               <article class="bd-article" role="main">
                 
   <section id="defining-materials">
-<h1>Defining Materials<a class="headerlink" href="#defining-materials" title="Permalink to this headline">#</a></h1>
-<p>PyFluent supports defining materials using the <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI Commands</span></a> and
-<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects</span></a>.</p>
-<section id="solver-tui-commands">
-<h2>Solver TUI Commands<a class="headerlink" href="#solver-tui-commands" title="Permalink to this headline">#</a></h2>
-<p>The following example demonstrates how you can define materials using
-the <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI Commands</span></a>:</p>
-<p>define/materials TUI: Enters the materials menu.</p>
+<h1>Defining materials<a class="headerlink" href="#defining-materials" title="Permalink to this headline">#</a></h1>
+<p>PyFluent supports defining materials using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and
+<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
+<section id="using-solver-tui-commands">
+<h2>Using solver TUI commands<a class="headerlink" href="#using-solver-tui-commands" title="Permalink to this headline">#</a></h2>
+<p>This example shows how you define materials using
+<a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">define.materials</span></code> TUI enters the materials menu.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><span class="s1">&#39;file.cas.h5&#39;</span><span class="p">)</span>
@@ -336,10 +336,10 @@ the <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-
 </pre></div>
 </div>
 </section>
-<section id="settings-objects">
-<h2>Settings Objects<a class="headerlink" href="#settings-objects" title="Permalink to this headline">#</a></h2>
-<p>The following example demonstrates how you can define materials using
-<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects</span></a>:</p>
+<section id="using-settings-objects">
+<h2>Using settings objects<a class="headerlink" href="#using-settings-objects" title="Permalink to this headline">#</a></h2>
+<p>This example shows how you define materials using
+<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">materials</span><span class="o">.</span><span class="n">copy_database_material_by_name</span><span class="p">(</span><span class="nb">type</span><span class="o">=</span><span class="s1">&#39;fluid&#39;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;water-liquid&#39;</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">cell_zone_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">[</span><span class="s1">&#39;elbow-fluid&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">material</span> <span class="o">=</span> <span class="s1">&#39;water-liquid&#39;</span>
 </pre></div>

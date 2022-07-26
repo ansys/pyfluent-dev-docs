@@ -19,40 +19,39 @@
 
 .. _ref_exhaust_system_tui_api:
 
-End-to-end Fault-tolerant Meshing Workflow
-------------------------------------------
-This tutorial illustrates the setup and solution of a three-dimensional
-turbulent fluid flow in a manifold exhaust system. The manifold configuration
-is encountered in the automotive industry. It is often important to predict
-the flow field in the area of the mixing region in order to properly design
-the junction. You will use the Fault-tolerant Meshing guided workflow, which
-unlike the watertight workflow used in Fluid Flow in a Mixing Elbow, is
-appropriate for geometries with imperfections, such as gaps and leakages.
+Fault-tolerant meshing workflow
+-------------------------------
+This example sets up and solves a three-dimensional turbulent fluid flow
+in a manifold exhaust system, which is common in the automotive industry.
+Predicting the flow field in the area of the mixing region is important
+to designing the junction properly.
 
-End-to-end Fault Tolerant Meshing Workflow example
+This example uses the guided workflow for fault-tolerant meshing because it
+is appropriate for geometries that can have imperfections, such as gaps and
+leakages.
 
-- Use the Fault-tolerant Meshing guided workflow to:
-    - Import a CAD geometry and manage individual parts
-    - Generate a surface mesh
-    - Cap inlets and outlets
-    - Extract a fluid region
-    - Define leakages
-    - Extract edge features
-    - Setup size controls
-    - Generate a volume mesh
-- Set up appropriate physics and boundary conditions.
-- Calculate a solution.
-- Review the results of the simulation.
+**Workflow tasks**
 
-Problem Description:
+The fault-tolerant meshing workflow guides you through these tasks:
 
-Air flows through the three inlets with a uniform velocity of 1 m/s, and then
-exits through the outlet. A small pipe is placed in the main portion of the
-manifold where edge extraction will be considered. There is also a known small
-leakage included that will be addressed in the meshing portion of the tutorial
+- Import a CAD geometry and manage individual parts
+- Generate a surface mesh
+- Cap inlets and outlets
+- Extract a fluid region
+- Define leakages
+- Extract edge features
+- Set up size controls
+- Generate a volume mesh
+
+**Problem description**
+
+In the manifold exhaust system, air flows through the three inlets
+with a uniform velocity of 1 m/s. The air then exits through the outlet.
+A small pipe is placed in the main portion of the manifold where edge
+extraction is considered. The example also includes a known small leakage
 to demonstrate the automatic leakage detection aspects of the meshing workflow.
 
-.. GENERATED FROM PYTHON SOURCE LINES 36-39
+.. GENERATED FROM PYTHON SOURCE LINES 35-38
 
 .. code-block:: default
 
@@ -66,12 +65,19 @@ to demonstrate the automatic leakage detection aspects of the meshing workflow.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 40-42
+.. GENERATED FROM PYTHON SOURCE LINES 39-48
 
-First, download the geometry file and start Fluent as a service with
-Meshing Mode, Double Precision, Number of Processors 2
+Example Setup
+-------------
+Before you can use the fault-tolerant meshing workflow, you must set up the
+example and initialize this workflow.
 
-.. GENERATED FROM PYTHON SOURCE LINES 42-50
+Perform required imports
+~~~~~~~~~~~~~~~~~~~~~~~~
+Perform required imports, which includes downloading and importing
+the geometry file.
+
+.. GENERATED FROM PYTHON SOURCE LINES 48-56
 
 .. code-block:: default
 
@@ -90,11 +96,14 @@ Meshing Mode, Double Precision, Number of Processors 2
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 51-52
+.. GENERATED FROM PYTHON SOURCE LINES 57-61
 
-Start Fluent in double precision running on 2 processors
+Launch Fluent
+~~~~~~~~~~~~~
+Launch Fluent as a service in meshing mode with double precision running on
+two processors.
 
-.. GENERATED FROM PYTHON SOURCE LINES 52-57
+.. GENERATED FROM PYTHON SOURCE LINES 61-66
 
 .. code-block:: default
 
@@ -110,11 +119,13 @@ Start Fluent in double precision running on 2 processors
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 58-59
+.. GENERATED FROM PYTHON SOURCE LINES 67-70
 
-Select the Fault Tolerant Meshing Workflow
+Initialize workflow
+~~~~~~~~~~~~~~~~~~~
+Initialize the fault-tolerant meshing workflow.
 
-.. GENERATED FROM PYTHON SOURCE LINES 59-62
+.. GENERATED FROM PYTHON SOURCE LINES 70-73
 
 .. code-block:: default
 
@@ -136,12 +147,19 @@ Select the Fault Tolerant Meshing Workflow
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 63-65
+.. GENERATED FROM PYTHON SOURCE LINES 74-83
 
-Import the CAD geometry (exhaust_system.fmd). Perform some selective part
-management.
+Fault-folerant meshing workflow
+-------------------------------
+The fault-tolerant meshing workflow guides you through the several tasks that
+follow.
 
-.. GENERATED FROM PYTHON SOURCE LINES 65-100
+Import CAD and manage parts
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Import the CAD geometry (``exhaust_system.fmd``) and selectively manage some
+parts.
+
+.. GENERATED FROM PYTHON SOURCE LINES 83-118
 
 .. code-block:: default
 
@@ -190,7 +208,8 @@ management.
 
  .. code-block:: none
 
-        loading data from '/h    classifying 115 edge occurrences ...
+        loading data from '/home/ansys/.local/share/ansys_fluent_core/examples/exhaust_system.fmd' ...
+        classifying 115 edge occurrences ...
         classified 67 feature edge edges by feature angle
         classified 0 single-connected edges as feature edge(s)
         classified 0 multi-connected edges as feature edge(s)
@@ -241,11 +260,13 @@ management.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 101-102
+.. GENERATED FROM PYTHON SOURCE LINES 119-122
 
-Provide a description for the geometry and the flow characteristics.
+Describe geometry and flow
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+Describe the geometry and the flow characteristics.
 
-.. GENERATED FROM PYTHON SOURCE LINES 102-129
+.. GENERATED FROM PYTHON SOURCE LINES 122-149
 
 .. code-block:: default
 
@@ -291,23 +312,25 @@ Provide a description for the geometry and the flow characteristics.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 130-131
+.. GENERATED FROM PYTHON SOURCE LINES 150-153
 
-Cover any openings in your geometry.
+Enclose openings
+~~~~~~~~~~~~~~~~
+Enclose (cap) any openings in the geometry.
 
-.. GENERATED FROM PYTHON SOURCE LINES 133-136
+.. GENERATED FROM PYTHON SOURCE LINES 155-158
 
 .. image:: /_static/exhaust_system_011.png
   :width: 400pt
   :align: center
 
-.. GENERATED FROM PYTHON SOURCE LINES 138-141
+.. GENERATED FROM PYTHON SOURCE LINES 160-163
 
 .. image:: /_static/exhaust_system_012.png
   :width: 400pt
   :align: center
 
-.. GENERATED FROM PYTHON SOURCE LINES 141-299
+.. GENERATED FROM PYTHON SOURCE LINES 163-321
 
 .. code-block:: default
 
@@ -504,11 +527,13 @@ Cover any openings in your geometry.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 300-301
+.. GENERATED FROM PYTHON SOURCE LINES 322-325
 
+Extract edge features
+~~~~~~~~~~~~~~~~~~~~~
 Extract edge features.
 
-.. GENERATED FROM PYTHON SOURCE LINES 301-323
+.. GENERATED FROM PYTHON SOURCE LINES 325-347
 
 .. code-block:: default
 
@@ -561,11 +586,13 @@ Extract edge features.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 324-325
+.. GENERATED FROM PYTHON SOURCE LINES 348-351
 
+Identify regions
+~~~~~~~~~~~~~~~~
 Identify regions.
 
-.. GENERATED FROM PYTHON SOURCE LINES 325-399
+.. GENERATED FROM PYTHON SOURCE LINES 351-425
 
 .. code-block:: default
 
@@ -698,11 +725,13 @@ Identify regions.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 400-401
+.. GENERATED FROM PYTHON SOURCE LINES 426-429
 
+Define thresholds for leakages
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Define thresholds for any potential leakages.
 
-.. GENERATED FROM PYTHON SOURCE LINES 401-431
+.. GENERATED FROM PYTHON SOURCE LINES 429-459
 
 .. code-block:: default
 
@@ -761,11 +790,13 @@ Define thresholds for any potential leakages.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 432-433
+.. GENERATED FROM PYTHON SOURCE LINES 460-463
 
-Review your region settings.
+Review region settings
+~~~~~~~~~~~~~~~~~~~~~~
+Review the region settings.
 
-.. GENERATED FROM PYTHON SOURCE LINES 433-471
+.. GENERATED FROM PYTHON SOURCE LINES 463-501
 
 .. code-block:: default
 
@@ -824,11 +855,13 @@ Review your region settings.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 472-473
+.. GENERATED FROM PYTHON SOURCE LINES 502-505
 
-Select options for controlling the mesh.
+Set mesh control options
+~~~~~~~~~~~~~~~~~~~~~~~~
+Set options for controlling the mesh.
 
-.. GENERATED FROM PYTHON SOURCE LINES 473-476
+.. GENERATED FROM PYTHON SOURCE LINES 505-508
 
 .. code-block:: default
 
@@ -852,17 +885,19 @@ Select options for controlling the mesh.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 477-478
+.. GENERATED FROM PYTHON SOURCE LINES 509-512
 
+Generate surface mesh
+~~~~~~~~~~~~~~~~~~~~~
 Generate the surface mesh.
 
-.. GENERATED FROM PYTHON SOURCE LINES 480-483
+.. GENERATED FROM PYTHON SOURCE LINES 514-517
 
 .. image:: /_static/exhaust_system_013.png
   :width: 500pt
   :align: center
 
-.. GENERATED FROM PYTHON SOURCE LINES 483-486
+.. GENERATED FROM PYTHON SOURCE LINES 517-520
 
 .. code-block:: default
 
@@ -879,16 +914,16 @@ Generate the surface mesh.
 
  .. code-block:: none
 
-    Writing "//FM_c8586708550b_283/TaskObject16.msh.h5" ...
+    Writing "//FM_eeb0b554d21f_283/TaskObject16.msh.h5" ...
     writing 19 node zones
     writing 11 edge zones 
     writing 13 face zones 
-    done.Writing "//FM_c8586708550b_283//ftm-wf-out-exhaust_system.msh.h5" ...
+    done.Writing "//FM_eeb0b554d21f_283//ftm-wf-out-exhaust_system.msh.h5" ...
     writing 19 node zones
     writing 11 edge zones 
     writing 13 face zones 
-    done.Scoped sizing written to the file "//FM_c8586708550b_283//ftm-wf-out-exhaust_system-target.szcontrol" successfully
-    Scoped sizing written to the file "//FM_c8586708550b_283//ftm-wf-out-exhaust_system-initial.szcontrol" successfully
+    done.Scoped sizing written to the file "//FM_eeb0b554d21f_283//ftm-wf-out-exhaust_system-target.szcontrol" successfully
+    Scoped sizing written to the file "//FM_eeb0b554d21f_283//ftm-wf-out-exhaust_system-initial.szcontrol" successfully
 
 
 
@@ -900,7 +935,7 @@ Generate the surface mesh.
 
 
 
-    Reading "//FM_c8586708550b_283/ftm-wf-out-exhaust_system-initial.sf"...
+    Reading "//FM_eeb0b554d21f_283/ftm-wf-out-exhaust_system-initial.sf"...
 
      Read 41911 vertices
         initializing octree...
@@ -919,7 +954,7 @@ Generate the surface mesh.
 
 
 
-    Reading "//FM_c8586708550b_283/ftm-wf-out-exhaust_system-target.sf"...
+    Reading "//FM_eeb0b554d21f_283/ftm-wf-out-exhaust_system-target.sf"...
 
      Read 41961 vertices
     Found 0 nodes with invalid normals
@@ -930,29 +965,29 @@ Generate the surface mesh.
 
 
 
-    Gentle Improve for wrapper-surf-fluid-region-1 in 0.0034863512 minutes (5.8106383e-05 hours)
+    Gentle Improve for wrapper-surf-fluid-region-1 in 0.0035205523 minutes (5.8676137e-05 hours)
 
 
 
 
-    Gentle Improve for wrapper-surf-fluid-region-1 in 0.0015423298 minutes (2.5705828e-05 hours)
+    Gentle Improve for wrapper-surf-fluid-region-1 in 0.0014265498 minutes (2.3776094e-05 hours)
 
 
 
 
-    Gentle Improve for wrapper-surf-fluid-region-1 in 0.0015150666 minutes (2.5251375e-05 hours)
-
-
-
-
-
+    Gentle Improve for wrapper-surf-fluid-region-1 in 0.001560382 minutes (2.6006699e-05 hours)
 
 
 
 
 
 
-    Reading "//FM_c8586708550b_283/ftm-wf-out-exhaust_system.msh.h5" ...
+
+
+
+
+
+    Reading "//FM_eeb0b554d21f_283/ftm-wf-out-exhaust_system.msh.h5" ...
     3D mesh
     nodes: 23322
     edges: 4754
@@ -972,18 +1007,18 @@ Generate the surface mesh.
 
     Surface Mesh:
     ==============================================================================
-    Computed SF in -----------------------------------0.049247897 minutes (0.00082079828 hours).
+    Computed SF in -----------------------------------0.050854917 minutes (0.00084758196 hours).
     Merge zones in -----------------------------------0 minutes (0 hours).
-    Automatic closing of holes (inner wrap) in -----0.050268014 minutes (0.00083780024 hours).
-    Wrapped all material point regions in ------------0.1621593 minutes (0.002702655 hours).
+    Automatic closing of holes (inner wrap) in -----0.052374915 minutes (0.00087291525 hours).
+    Wrapped all material point regions in ------------0.15907303 minutes (0.0026512172 hours).
     Surface mesh all fluid objects in ----------------0 minutes (0 hours).
-    Surface Improved in ------------------------------0.048310582 minutes (0.00080517636 hours).
-    Surface Improved (resolve_int) in ----------------0.0075470686 minutes (0.00012578448 hours).
-    Connected all fluid mesh objects in --------------4.6809514e-06 minutes (7.8015857e-08 hours).
-    Compute Volume-Fill Regions in -------------------3.4968058e-07 minutes (5.8280097e-09 hours).
+    Surface Improved in ------------------------------0.047984401 minutes (0.00079974002 hours).
+    Surface Improved (resolve_int) in ----------------0.0076784333 minutes (0.00012797389 hours).
+    Connected all fluid mesh objects in --------------5.4359436e-06 minutes (9.059906e-08 hours).
+    Compute Volume-Fill Regions in -------------------5.0067902e-07 minutes (8.3446503e-09 hours).
     Solid surface mesh generated and Improved in -----0 minutes (0 hours).
     ==============================================================================
-    Total (surface mesh)                              0.31753796 minutes (0.0052922993 hours)
+    Total (surface mesh)                              0.3179717 minutes (0.0052995284 hours)
 
 
     ------------------------- --------------------- -------------------- ---------------- ----------
@@ -1000,11 +1035,13 @@ Generate the surface mesh.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 487-488
+.. GENERATED FROM PYTHON SOURCE LINES 521-524
 
+Confirm and update boundaries
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Confirm and update the boundaries.
 
-.. GENERATED FROM PYTHON SOURCE LINES 488-491
+.. GENERATED FROM PYTHON SOURCE LINES 524-527
 
 .. code-block:: default
 
@@ -1028,11 +1065,13 @@ Confirm and update the boundaries.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 492-493
+.. GENERATED FROM PYTHON SOURCE LINES 528-531
 
+Add boundary layers
+~~~~~~~~~~~~~~~~~~~
 Add boundary layers.
 
-.. GENERATED FROM PYTHON SOURCE LINES 493-507
+.. GENERATED FROM PYTHON SOURCE LINES 531-545
 
 .. code-block:: default
 
@@ -1065,17 +1104,19 @@ Add boundary layers.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 508-509
+.. GENERATED FROM PYTHON SOURCE LINES 546-549
 
+Generate volume mesh
+~~~~~~~~~~~~~~~~~~~~
 Generate the volume mesh.
 
-.. GENERATED FROM PYTHON SOURCE LINES 511-514
+.. GENERATED FROM PYTHON SOURCE LINES 551-554
 
 .. image:: /_static/exhaust_system_014.png
   :width: 500pt
   :align: center
 
-.. GENERATED FROM PYTHON SOURCE LINES 514-533
+.. GENERATED FROM PYTHON SOURCE LINES 554-573
 
 .. code-block:: default
 
@@ -1108,7 +1149,7 @@ Generate the volume mesh.
 
  .. code-block:: none
 
-    Writing "//FM_c8586708550b_283/TaskObject23.msh.h5" ...
+    Writing "//FM_eeb0b554d21f_283/TaskObject23.msh.h5" ...
     writing 21 node zones
     writing 11 edge zones 
     writing 22 face zones 
@@ -1153,29 +1194,29 @@ Generate the volume mesh.
     Wall-Clock Usage (Estimate) for exhaust_system:
     Surface Mesh:
     ==============================================================================
-    Computed SF in -----------------------------------0.049247897 minutes (0.00082079828 hours).
+    Computed SF in -----------------------------------0.050854917 minutes (0.00084758196 hours).
     Merge zones in -----------------------------------0 minutes (0 hours).
-    Automatic closing of holes (inner wrap) in -----0.050268014 minutes (0.00083780024 hours).
-    Wrapped all material point regions in ------------0.1621593 minutes (0.002702655 hours).
+    Automatic closing of holes (inner wrap) in -----0.052374915 minutes (0.00087291525 hours).
+    Wrapped all material point regions in ------------0.15907303 minutes (0.0026512172 hours).
     Surface mesh all fluid objects in ----------------0 minutes (0 hours).
-    Surface Improved in ------------------------------0.048310582 minutes (0.00080517636 hours).
-    Surface Improved (resolve_int) in ----------------0.0075470686 minutes (0.00012578448 hours).
-    Connected all fluid mesh objects in --------------4.6809514e-06 minutes (7.8015857e-08 hours).
-    Compute Volume-Fill Regions in -------------------3.4968058e-07 minutes (5.8280097e-09 hours).
+    Surface Improved in ------------------------------0.047984401 minutes (0.00079974002 hours).
+    Surface Improved (resolve_int) in ----------------0.0076784333 minutes (0.00012797389 hours).
+    Connected all fluid mesh objects in --------------5.4359436e-06 minutes (9.059906e-08 hours).
+    Compute Volume-Fill Regions in -------------------5.0067902e-07 minutes (8.3446503e-09 hours).
     Solid surface mesh generated and Improved in -----0 minutes (0 hours).
     ==============================================================================
-    Total (surface mesh)                              0.31753796 minutes (0.0052922993 hours)
+    Total (surface mesh)                              0.3179717 minutes (0.0052995284 hours)
 
     Volume Mesh:
     ==============================================================================
-    Continuous Prisms generated and Improved in ------0.071798233 minutes (0.0011966372 hours).
-    Volume-fill in -----------------------------------0.059930197 minutes (0.00099883662 hours).
-    Solid volume mesh generated and Improved in ------0.00051021576 minutes (8.503596e-06 hours).
-    Rezoned and final volume mesh improve in ---------0.015651413 minutes (0.00026085688 hours).
+    Continuous Prisms generated and Improved in ------0.071880333 minutes (0.0011980055 hours).
+    Volume-fill in -----------------------------------0.065134533 minutes (0.0010855756 hours).
+    Solid volume mesh generated and Improved in ------0.0004853487 minutes (8.089145e-06 hours).
+    Rezoned and final volume mesh improve in ---------0.016506433 minutes (0.00027510722 hours).
     ==============================================================================
-    Total (volume mesh)                               0.14789006 minutes (0.0024648343 hours)
+    Total (volume mesh)                               0.15400665 minutes (0.0025667775 hours)
     ==============================================================================
-    Total                                             0.46542801 minutes (0.0077571336 hours)
+    Total                                             0.47197835 minutes (0.0078663058 hours)
     ==============================================================================
 
 
@@ -1186,20 +1227,20 @@ Generate the volume mesh.
            | Virtual Mem Usage (GB)   | Resident Mem Usage(GB)   |              
     ID     | Current      Peak        | Current      Peak        | Page Faults  
     ------------------------------------------------------------------------------
-    host   | 0.899612     0.899612    | 0.512753     0.512753    | 0          
-    n0     | 4.38561      4.71506     | 0.385807     1.06093     | 553        
-    n1     | 3.85929      3.85929     | 0.194637     0.194637    | 91         
+    host   | 0.900234     0.901978    | 0.512905     0.514286    | 0          
+    n0     | 4.38193      4.71217     | 0.387669     1.06404     | 549        
+    n1     | 3.86031      3.91803     | 0.197876     0.197876    | 74         
     ------------------------------------------------------------------------------
-    Total  | 9.14452      9.47396     | 1.0932       1.76832     | 644        
+    Total  | 9.14248      9.53217     | 1.09845      1.7762      | 623        
     ------------------------------------------------------------------------------
 
     ------------------------------------------------------------------------------------------------
                         | Virtual Mem Usage (GB)    | Resident Mem Usage(GB)    | System Mem (GB)          
     Hostname            | Current      Peak         | Current      Peak         |                          
     ------------------------------------------------------------------------------------------------
-    c8586708550b        | 9.14452      9.47396      | 1.0932       1.76832      | 31.3558      
+    eeb0b554d21f        | 9.14248      9.53217      | 1.09845      1.7762       | 31.3558      
     ------------------------------------------------------------------------------------------------
-    Total               | 9.14452      9.47396      | 1.0932       1.76832      |           
+    Total               | 9.14248      9.53217      | 1.09845      1.7762       |           
     ------------------------------------------------------------------------------------------------
 
 
@@ -1224,11 +1265,13 @@ Generate the volume mesh.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 534-535
+.. GENERATED FROM PYTHON SOURCE LINES 574-577
 
+Check mesh
+~~~~~~~~~~
 Check the mesh.
 
-.. GENERATED FROM PYTHON SOURCE LINES 535-538
+.. GENERATED FROM PYTHON SOURCE LINES 577-580
 
 .. code-block:: default
 
@@ -1279,11 +1322,18 @@ Check the mesh.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 539-540
+.. GENERATED FROM PYTHON SOURCE LINES 581-589
 
-Switch to Solution mode.
+Solve and postprocess
+---------------------
+Once you have completed the fault tolerate meshing workflow, you can solve and
+postprcess the results.
 
-.. GENERATED FROM PYTHON SOURCE LINES 540-545
+Switch to solution mode
+~~~~~~~~~~~~~~~~~~~~~~~
+Switch to the solution mode.
+
+.. GENERATED FROM PYTHON SOURCE LINES 589-594
 
 .. code-block:: default
 
@@ -1388,11 +1438,13 @@ Switch to Solution mode.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 546-547
+.. GENERATED FROM PYTHON SOURCE LINES 595-598
 
-Set the units for length
+Set units for length
+~~~~~~~~~~~~~~~~~~~~
+Set the units for length.
 
-.. GENERATED FROM PYTHON SOURCE LINES 547-550
+.. GENERATED FROM PYTHON SOURCE LINES 598-601
 
 .. code-block:: default
 
@@ -1406,11 +1458,13 @@ Set the units for length
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 551-552
+.. GENERATED FROM PYTHON SOURCE LINES 602-605
 
-Select kw sst turbulence model
+Select turbulence model
+~~~~~~~~~~~~~~~~~~~~~~~
+Select the kw sst turbulence model.
 
-.. GENERATED FROM PYTHON SOURCE LINES 552-555
+.. GENERATED FROM PYTHON SOURCE LINES 605-608
 
 .. code-block:: default
 
@@ -1424,12 +1478,14 @@ Select kw sst turbulence model
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 556-558
+.. GENERATED FROM PYTHON SOURCE LINES 609-613
 
+Set velocity and turbulence boundary conditions for first inlet
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Set the velocity and turbulence boundary conditions for the first inlet
 (inlet-1).
 
-.. GENERATED FROM PYTHON SOURCE LINES 558-563
+.. GENERATED FROM PYTHON SOURCE LINES 613-618
 
 .. code-block:: default
 
@@ -1445,12 +1501,14 @@ Set the velocity and turbulence boundary conditions for the first inlet
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 564-566
+.. GENERATED FROM PYTHON SOURCE LINES 619-623
 
-Apply the same conditions for the other velocity inlet boundaries (inlet_2,
+Set same boundary conditions for other velocity inlets
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Set the same boundary conditions for the other velocity inlets (inlet_2
 and inlet_3).
 
-.. GENERATED FROM PYTHON SOURCE LINES 566-571
+.. GENERATED FROM PYTHON SOURCE LINES 623-628
 
 .. code-block:: default
 
@@ -1475,11 +1533,13 @@ and inlet_3).
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 572-573
+.. GENERATED FROM PYTHON SOURCE LINES 629-632
 
+Set boundary conditions at outlet
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Set the boundary conditions at the outlet (outlet-1).
 
-.. GENERATED FROM PYTHON SOURCE LINES 573-579
+.. GENERATED FROM PYTHON SOURCE LINES 632-638
 
 .. code-block:: default
 
@@ -1496,11 +1556,13 @@ Set the boundary conditions at the outlet (outlet-1).
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 580-581
+.. GENERATED FROM PYTHON SOURCE LINES 639-642
 
-Initialize the flow field using the Initialization
+Initialize flow field
+~~~~~~~~~~~~~~~~~~~~~
+Initialize the flow field using the hybrid initialization.
 
-.. GENERATED FROM PYTHON SOURCE LINES 581-584
+.. GENERATED FROM PYTHON SOURCE LINES 642-645
 
 .. code-block:: default
 
@@ -1543,17 +1605,19 @@ Initialize the flow field using the Initialization
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 585-586
+.. GENERATED FROM PYTHON SOURCE LINES 646-649
 
-Start the calculation by requesting 100 iterations
+Start calculation
+~~~~~~~~~~~~~~~~~
+Start the calculation by requesting 100 iterations.
 
-.. GENERATED FROM PYTHON SOURCE LINES 588-591
+.. GENERATED FROM PYTHON SOURCE LINES 651-654
 
 .. image:: /_static/exhaust_system_015.png
   :width: 500pt
   :align: center
 
-.. GENERATED FROM PYTHON SOURCE LINES 591-597
+.. GENERATED FROM PYTHON SOURCE LINES 654-660
 
 .. code-block:: default
 
@@ -1575,78 +1639,78 @@ Start the calculation by requesting 100 iterations
 
 
       iter  continuity  x-velocity  y-velocity  z-velocity           k       omega     time/iter
-         1  1.0000e+00  6.5068e-03  6.7597e-03  7.3767e-03  6.2224e-01  2.7159e+00  0:03:27   99
-         2  4.5486e-01  3.8804e-03  4.2427e-03  5.3040e-03  1.6563e-01  1.5921e-01  0:03:30   98
-         3  3.5498e-01  2.0890e-03  2.4344e-03  3.7941e-03  1.1283e-01  1.0585e-01  0:03:32   97
-         4  3.3845e-01  1.3504e-03  1.6800e-03  2.7878e-03  7.8440e-02  6.0840e-02  0:03:29   96
-         5  3.1730e-01  9.4739e-04  1.2703e-03  2.4407e-03  5.8277e-02  3.3488e-02  0:03:25   95
+         1  1.0000e+00  6.5068e-03  6.7597e-03  7.3767e-03  6.2224e-01  2.7159e+00  0:03:21   99
+         2  4.5486e-01  3.8804e-03  4.2427e-03  5.3040e-03  1.6563e-01  1.5921e-01  0:03:27   98
+         3  3.5498e-01  2.0890e-03  2.4344e-03  3.7941e-03  1.1283e-01  1.0585e-01  0:03:30   97
+         4  3.3845e-01  1.3504e-03  1.6800e-03  2.7878e-03  7.8440e-02  6.0840e-02  0:03:27   96
+         5  3.1730e-01  9.4739e-04  1.2703e-03  2.4407e-03  5.8277e-02  3.3488e-02  0:03:24   95
          6  3.0081e-01  7.3345e-04  1.0398e-03  2.1476e-03  4.6960e-02  2.3629e-02  0:03:22   94
          7  2.8905e-01  6.1089e-04  8.9264e-04  2.0195e-03  3.9850e-02  1.8157e-02  0:03:20   93
          8  2.8022e-01  5.3452e-04  7.9714e-04  1.8873e-03  3.4381e-02  1.4434e-02  0:03:13   92
          9  2.7178e-01  4.8498e-04  7.2353e-04  1.7881e-03  2.9426e-02  1.1726e-02  0:03:08   91
         10  2.6184e-01  4.4510e-04  6.6952e-04  1.6765e-03  2.5615e-02  9.8688e-03  0:03:03   90
-        11  2.5018e-01  4.1956e-04  6.2827e-04  1.6096e-03  2.2006e-02  8.2531e-03  0:02:58   89
+        11  2.5018e-01  4.1956e-04  6.2827e-04  1.6096e-03  2.2006e-02  8.2531e-03  0:02:59   89
 
       iter  continuity  x-velocity  y-velocity  z-velocity           k       omega     time/iter
         12  2.3856e-01  4.0700e-04  5.9855e-04  1.5454e-03  2.0056e-02  7.1561e-03  0:02:54   88
         13  2.2712e-01  3.7681e-04  5.5504e-04  1.4524e-03  1.7659e-02  6.4050e-03  0:02:51   87
-        14  2.1787e-01  3.6691e-04  5.3098e-04  1.3819e-03  1.5899e-02  6.0361e-03  0:02:47   86
-        15  2.0955e-01  3.5114e-04  5.0119e-04  1.2823e-03  1.4095e-02  5.5489e-03  0:02:44   85
-        16  2.0347e-01  3.5706e-04  4.9008e-04  1.2223e-03  1.2826e-02  5.2584e-03  0:02:41   84
-        17  1.9762e-01  3.5601e-04  4.7374e-04  1.1312e-03  1.1652e-02  4.8375e-03  0:02:39   83
-        18  1.9228e-01  3.7102e-04  4.7387e-04  1.0861e-03  1.0808e-02  4.5563e-03  0:02:36   82
-        19  1.8632e-01  3.7725e-04  4.6833e-04  1.0068e-03  1.0123e-02  4.2402e-03  0:02:34   81
-        20  1.8170e-01  3.9750e-04  4.7850e-04  9.7780e-04  9.4611e-03  4.0838e-03  0:02:32   80
-        21  1.7588e-01  3.9927e-04  4.7473e-04  8.9826e-04  8.7497e-03  3.9598e-03  0:02:30   79
-        22  1.7040e-01  4.1160e-04  4.8064e-04  8.6386e-04  8.3512e-03  3.8720e-03  0:02:28   78
+        14  2.1787e-01  3.6691e-04  5.3098e-04  1.3819e-03  1.5899e-02  6.0361e-03  0:02:53   86
+        15  2.0955e-01  3.5114e-04  5.0119e-04  1.2823e-03  1.4095e-02  5.5489e-03  0:02:49   85
+        16  2.0347e-01  3.5706e-04  4.9008e-04  1.2223e-03  1.2826e-02  5.2584e-03  0:02:46   84
+        17  1.9762e-01  3.5601e-04  4.7374e-04  1.1312e-03  1.1652e-02  4.8375e-03  0:02:42   83
+        18  1.9228e-01  3.7102e-04  4.7387e-04  1.0861e-03  1.0808e-02  4.5563e-03  0:02:39   82
+        19  1.8632e-01  3.7725e-04  4.6833e-04  1.0068e-03  1.0123e-02  4.2402e-03  0:02:36   81
+        20  1.8170e-01  3.9750e-04  4.7850e-04  9.7780e-04  9.4611e-03  4.0838e-03  0:02:34   80
+        21  1.7588e-01  3.9927e-04  4.7473e-04  8.9826e-04  8.7497e-03  3.9598e-03  0:02:32   79
+        22  1.7040e-01  4.1160e-04  4.8064e-04  8.6386e-04  8.3512e-03  3.8720e-03  0:02:29   78
 
       iter  continuity  x-velocity  y-velocity  z-velocity           k       omega     time/iter
-        23  1.6467e-01  4.1818e-04  4.8248e-04  8.1043e-04  7.9148e-03  3.7827e-03  0:02:26   77
-        24  1.5932e-01  4.2516e-04  4.8440e-04  7.7419e-04  7.6300e-03  3.7043e-03  0:02:24   76
-        25  1.5349e-01  4.2783e-04  4.8342e-04  7.3654e-04  7.3090e-03  3.5669e-03  0:02:22   75
-        26  1.4757e-01  4.2826e-04  4.7825e-04  7.0547e-04  7.1055e-03  3.4844e-03  0:02:20   74
-        27  1.4222e-01  4.2711e-04  4.7040e-04  6.7993e-04  6.7947e-03  3.2309e-03  0:02:18   73
-        28  1.3665e-01  4.1719e-04  4.5460e-04  6.4244e-04  6.4595e-03  3.0867e-03  0:02:16   72
-        29  1.3157e-01  4.0665e-04  4.3836e-04  6.1239e-04  6.1668e-03  2.9013e-03  0:02:14   71
-        30  1.2620e-01  3.9250e-04  4.1861e-04  5.8230e-04  5.7816e-03  2.7418e-03  0:02:12   70
-        31  1.2123e-01  3.7680e-04  3.9735e-04  5.5438e-04  5.4399e-03  2.5502e-03  0:02:10   69
-        32  1.1679e-01  3.5821e-04  3.7505e-04  5.2705e-04  5.0673e-03  2.3851e-03  0:02:08   68
+        23  1.6467e-01  4.1818e-04  4.8248e-04  8.1043e-04  7.9148e-03  3.7827e-03  0:02:27   77
+        24  1.5932e-01  4.2516e-04  4.8440e-04  7.7419e-04  7.6300e-03  3.7043e-03  0:02:25   76
+        25  1.5349e-01  4.2783e-04  4.8342e-04  7.3654e-04  7.3090e-03  3.5669e-03  0:02:23   75
+        26  1.4757e-01  4.2826e-04  4.7825e-04  7.0547e-04  7.1055e-03  3.4844e-03  0:02:21   74
+        27  1.4222e-01  4.2711e-04  4.7040e-04  6.7993e-04  6.7947e-03  3.2309e-03  0:02:19   73
+        28  1.3665e-01  4.1719e-04  4.5460e-04  6.4244e-04  6.4595e-03  3.0867e-03  0:02:17   72
+        29  1.3157e-01  4.0665e-04  4.3836e-04  6.1239e-04  6.1668e-03  2.9013e-03  0:02:15   71
+        30  1.2620e-01  3.9250e-04  4.1861e-04  5.8230e-04  5.7816e-03  2.7418e-03  0:02:13   70
+        31  1.2123e-01  3.7680e-04  3.9735e-04  5.5438e-04  5.4399e-03  2.5502e-03  0:02:11   69
+        32  1.1679e-01  3.5821e-04  3.7505e-04  5.2705e-04  5.0673e-03  2.3851e-03  0:02:09   68
         33  1.1266e-01  3.3944e-04  3.5383e-04  5.0103e-04  4.7318e-03  2.2219e-03  0:02:07   67
 
       iter  continuity  x-velocity  y-velocity  z-velocity           k       omega     time/iter
-        34  1.0870e-01  3.2060e-04  3.3327e-04  4.7657e-04  4.3863e-03  2.0792e-03  0:02:04   66
-        35  1.0513e-01  3.0259e-04  3.1470e-04  4.5421e-04  4.0672e-03  1.9438e-03  0:02:02   65
-        36  1.0182e-01  2.8468e-04  2.9762e-04  4.3267e-04  3.7427e-03  1.8373e-03  0:02:00   64
-        37  9.9236e-02  2.6883e-04  2.8388e-04  4.1477e-04  3.4835e-03  1.7445e-03  0:01:58   63
+        34  1.0870e-01  3.2060e-04  3.3327e-04  4.7657e-04  4.3863e-03  2.0792e-03  0:02:05   66
+        35  1.0513e-01  3.0259e-04  3.1470e-04  4.5421e-04  4.0672e-03  1.9438e-03  0:02:03   65
+        36  1.0182e-01  2.8468e-04  2.9762e-04  4.3267e-04  3.7427e-03  1.8373e-03  0:02:01   64
+        37  9.9236e-02  2.6883e-04  2.8388e-04  4.1477e-04  3.4835e-03  1.7445e-03  0:01:59   63
         38  9.6858e-02  2.5435e-04  2.7222e-04  3.9841e-04  3.2483e-03  1.6726e-03  0:01:57   62
         39  9.5124e-02  2.4229e-04  2.6268e-04  3.8542e-04  3.0514e-03  1.6039e-03  0:01:55   61
         40  9.3375e-02  2.3049e-04  2.5296e-04  3.7061e-04  2.8506e-03  1.5581e-03  0:01:53   60
         41  9.2133e-02  2.2171e-04  2.4598e-04  3.5942e-04  2.7052e-03  1.5211e-03  0:01:51   59
         42  9.0768e-02  2.1302e-04  2.3856e-04  3.4624e-04  2.5669e-03  1.4862e-03  0:01:49   58
-        43  8.9806e-02  2.0738e-04  2.3272e-04  3.3592e-04  2.4694e-03  1.4751e-03  0:01:47   57
-        44  8.9091e-02  2.0170e-04  2.2744e-04  3.2565e-04  2.3628e-03  1.4314e-03  0:01:45   56
+        43  8.9806e-02  2.0738e-04  2.3272e-04  3.3592e-04  2.4694e-03  1.4751e-03  0:01:48   57
+        44  8.9091e-02  2.0170e-04  2.2744e-04  3.2565e-04  2.3628e-03  1.4314e-03  0:01:46   56
 
       iter  continuity  x-velocity  y-velocity  z-velocity           k       omega     time/iter
-        45  8.8216e-02  1.9737e-04  2.2276e-04  3.1576e-04  2.2738e-03  1.3977e-03  0:01:43   55
-        46  8.7287e-02  1.9314e-04  2.1808e-04  3.0739e-04  2.2063e-03  1.3632e-03  0:01:41   54
-        47  8.6363e-02  1.9079e-04  2.1408e-04  2.9985e-04  2.1527e-03  1.3458e-03  0:01:40   53
-        48  8.5284e-02  1.8881e-04  2.1061e-04  2.9404e-04  2.1016e-03  1.3191e-03  0:01:38   52
-        49  8.4296e-02  1.8828e-04  2.0804e-04  2.8814e-04  2.0792e-03  1.3079e-03  0:01:36   51
-        50  8.3144e-02  1.8728e-04  2.0594e-04  2.8372e-04  2.0389e-03  1.2870e-03  0:01:34   50
-        51  8.2215e-02  1.8723e-04  2.0451e-04  2.7992e-04  2.0295e-03  1.2827e-03  0:01:32   49
-        52  8.1154e-02  1.8609e-04  2.0275e-04  2.7706e-04  2.0014e-03  1.2663e-03  0:01:30   48
-        53  8.0302e-02  1.8603e-04  2.0135e-04  2.7519e-04  1.9881e-03  1.2678e-03  0:01:28   47
-        54  7.9364e-02  1.8510e-04  1.9963e-04  2.7363e-04  1.9575e-03  1.2573e-03  0:01:26   46
-        55  7.8512e-02  1.8473e-04  1.9850e-04  2.7339e-04  1.9494e-03  1.2605e-03  0:01:24   45
+        45  8.8216e-02  1.9737e-04  2.2276e-04  3.1576e-04  2.2738e-03  1.3977e-03  0:01:44   55
+        46  8.7287e-02  1.9314e-04  2.1808e-04  3.0739e-04  2.2063e-03  1.3632e-03  0:01:43   54
+        47  8.6363e-02  1.9079e-04  2.1408e-04  2.9985e-04  2.1527e-03  1.3458e-03  0:01:42   53
+        48  8.5284e-02  1.8881e-04  2.1061e-04  2.9404e-04  2.1016e-03  1.3191e-03  0:01:40   52
+        49  8.4296e-02  1.8828e-04  2.0804e-04  2.8814e-04  2.0792e-03  1.3079e-03  0:01:38   51
+        50  8.3144e-02  1.8728e-04  2.0594e-04  2.8372e-04  2.0389e-03  1.2870e-03  0:01:36   50
+        51  8.2215e-02  1.8723e-04  2.0451e-04  2.7992e-04  2.0295e-03  1.2827e-03  0:01:34   49
+        52  8.1154e-02  1.8609e-04  2.0275e-04  2.7706e-04  2.0014e-03  1.2663e-03  0:01:32   48
+        53  8.0302e-02  1.8603e-04  2.0135e-04  2.7519e-04  1.9881e-03  1.2678e-03  0:01:30   47
+        54  7.9364e-02  1.8510e-04  1.9963e-04  2.7363e-04  1.9575e-03  1.2573e-03  0:01:28   46
+        55  7.8512e-02  1.8473e-04  1.9850e-04  2.7339e-04  1.9494e-03  1.2605e-03  0:01:26   45
 
       iter  continuity  x-velocity  y-velocity  z-velocity           k       omega     time/iter
-        56  7.7392e-02  1.8342e-04  1.9713e-04  2.7317e-04  1.9402e-03  1.2581e-03  0:01:23   44
-        57  7.6376e-02  1.8262e-04  1.9612e-04  2.7461e-04  1.9612e-03  1.2659e-03  0:01:21   43
-        58  7.5361e-02  1.8091e-04  1.9477e-04  2.7510e-04  1.9740e-03  1.2678e-03  0:01:19   42
-        59  7.4302e-02  1.8028e-04  1.9377e-04  2.7605e-04  2.0097e-03  1.2719e-03  0:01:17   41
+        56  7.7392e-02  1.8342e-04  1.9713e-04  2.7317e-04  1.9402e-03  1.2581e-03  0:01:24   44
+        57  7.6376e-02  1.8262e-04  1.9612e-04  2.7461e-04  1.9612e-03  1.2659e-03  0:01:22   43
+        58  7.5361e-02  1.8091e-04  1.9477e-04  2.7510e-04  1.9740e-03  1.2678e-03  0:01:20   42
+        59  7.4302e-02  1.8028e-04  1.9377e-04  2.7605e-04  2.0097e-03  1.2719e-03  0:01:18   41
         60  7.3124e-02  1.7902e-04  1.9251e-04  2.7553e-04  2.0404e-03  1.2736e-03  0:01:16   40
         61  7.1965e-02  1.7828e-04  1.9193e-04  2.7589e-04  2.0742e-03  1.2740e-03  0:01:14   39
-        62  7.0783e-02  1.7687e-04  1.9052e-04  2.7510e-04  2.0872e-03  1.2737e-03  0:01:11   38
+        62  7.0783e-02  1.7687e-04  1.9052e-04  2.7510e-04  2.0872e-03  1.2737e-03  0:01:12   38
         63  6.9850e-02  1.7548e-04  1.8951e-04  2.7413e-04  2.1062e-03  1.2662e-03  0:01:10   37
         64  6.8877e-02  1.7369e-04  1.8763e-04  2.7181e-04  2.0928e-03  1.2548e-03  0:01:08   36
         65  6.8098e-02  1.7146e-04  1.8600e-04  2.6904e-04  2.0777e-03  1.2351e-03  0:01:06   35
@@ -1656,11 +1720,11 @@ Start the calculation by requesting 100 iterations
         67  6.6014e-02  1.6630e-04  1.8124e-04  2.5956e-04  1.9787e-03  1.1704e-03  0:01:02   33
         68  6.4764e-02  1.6295e-04  1.7827e-04  2.5285e-04  1.8971e-03  1.1311e-03  0:01:00   32
         69  6.3648e-02  1.5950e-04  1.7505e-04  2.4609e-04  1.8241e-03  1.0878e-03  0:00:59   31
-        70  6.2367e-02  1.5620e-04  1.7137e-04  2.3850e-04  1.7283e-03  1.0516e-03  0:00:59   30
-        71  6.1264e-02  1.5255e-04  1.6792e-04  2.3081e-04  1.6555e-03  1.0137e-03  0:00:56   29
-        72  6.0181e-02  1.4899e-04  1.6406e-04  2.2367e-04  1.5765e-03  9.8905e-04  0:00:54   28
-        73  5.9232e-02  1.4538e-04  1.6081e-04  2.1701e-04  1.5267e-03  9.6269e-04  0:00:52   27
-        74  5.8330e-02  1.4259e-04  1.5816e-04  2.1151e-04  1.4780e-03  9.5301e-04  0:00:50   26
+        70  6.2367e-02  1.5620e-04  1.7137e-04  2.3850e-04  1.7283e-03  1.0516e-03  0:00:57   30
+        71  6.1264e-02  1.5255e-04  1.6792e-04  2.3081e-04  1.6555e-03  1.0137e-03  0:00:55   29
+        72  6.0181e-02  1.4899e-04  1.6406e-04  2.2367e-04  1.5765e-03  9.8905e-04  0:00:53   28
+        73  5.9232e-02  1.4538e-04  1.6081e-04  2.1701e-04  1.5267e-03  9.6269e-04  0:00:51   27
+        74  5.8330e-02  1.4259e-04  1.5816e-04  2.1151e-04  1.4780e-03  9.5301e-04  0:00:49   26
         75  5.7778e-02  1.4024e-04  1.5602e-04  2.0712e-04  1.4664e-03  9.4213e-04  0:00:48   25
         76  5.7264e-02  1.3877e-04  1.5420e-04  2.0418e-04  1.4584e-03  9.4327e-04  0:00:46   24
         77  5.6948e-02  1.3784e-04  1.5277e-04  2.0211e-04  1.4786e-03  9.4504e-04  0:00:44   23
@@ -1674,9 +1738,9 @@ Start the calculation by requesting 100 iterations
         83  5.6723e-02  1.3515e-04  1.5925e-04  2.0939e-04  1.5898e-03  9.8684e-04  0:00:32   17
         84  5.7086e-02  1.3450e-04  1.6100e-04  2.1170e-04  1.5795e-03  9.9349e-04  0:00:30   16
         85  5.7475e-02  1.3297e-04  1.6213e-04  2.1328e-04  1.5629e-03  9.8756e-04  0:00:28   15
-        86  5.7682e-02  1.3115e-04  1.6166e-04  2.1298e-04  1.5318e-03  9.8194e-04  0:00:26   14
-        87  5.7629e-02  1.2858e-04  1.5924e-04  2.1114e-04  1.4825e-03  9.6017e-04  0:00:24   13
-        88  5.7271e-02  1.2611e-04  1.5588e-04  2.0804e-04  1.4297e-03  9.4309e-04  0:00:22   12
+        86  5.7682e-02  1.3115e-04  1.6166e-04  2.1298e-04  1.5318e-03  9.8194e-04  0:00:27   14
+        87  5.7629e-02  1.2858e-04  1.5924e-04  2.1114e-04  1.4825e-03  9.6017e-04  0:00:25   13
+        88  5.7271e-02  1.2611e-04  1.5588e-04  2.0804e-04  1.4297e-03  9.4309e-04  0:00:23   12
 
       iter  continuity  x-velocity  y-velocity  z-velocity           k       omega     time/iter
         89  5.6937e-02  1.2324e-04  1.5242e-04  2.0373e-04  1.3675e-03  9.1047e-04  0:00:21   11
@@ -1697,17 +1761,19 @@ Start the calculation by requesting 100 iterations
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 598-599
+.. GENERATED FROM PYTHON SOURCE LINES 661-664
 
-Create path lines highlighting the flow field
+Create path lines
+~~~~~~~~~~~~~~~~~
+Create path lines highlighting the flow field.
 
-.. GENERATED FROM PYTHON SOURCE LINES 601-604
+.. GENERATED FROM PYTHON SOURCE LINES 666-669
 
 .. image:: /_static/exhaust_system_016.png
   :width: 500pt
   :align: center
 
-.. GENERATED FROM PYTHON SOURCE LINES 604-623
+.. GENERATED FROM PYTHON SOURCE LINES 669-688
 
 .. code-block:: default
 
@@ -1737,11 +1803,13 @@ Create path lines highlighting the flow field
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 624-625
+.. GENERATED FROM PYTHON SOURCE LINES 689-692
 
+Create iso-surface
+~~~~~~~~~~~~~~~~~~
 Create an iso-surface through the manifold geometry.
 
-.. GENERATED FROM PYTHON SOURCE LINES 625-636
+.. GENERATED FROM PYTHON SOURCE LINES 692-703
 
 .. code-block:: default
 
@@ -1771,18 +1839,20 @@ Create an iso-surface through the manifold geometry.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 637-639
+.. GENERATED FROM PYTHON SOURCE LINES 704-708
 
-Create and define contours of velocity magnitude throughout the manifold
+Create contours of velocity magnitude
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create contours of the velocity magnitude throughout the manifold
 along with the mesh.
 
-.. GENERATED FROM PYTHON SOURCE LINES 641-644
+.. GENERATED FROM PYTHON SOURCE LINES 710-713
 
 .. image:: /_static/exhaust_system_017.png
   :width: 500pt
   :align: center
 
-.. GENERATED FROM PYTHON SOURCE LINES 644-667
+.. GENERATED FROM PYTHON SOURCE LINES 713-736
 
 .. code-block:: default
 
@@ -1825,17 +1895,19 @@ along with the mesh.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 668-669
+.. GENERATED FROM PYTHON SOURCE LINES 737-740
 
+Create scene
+~~~~~~~~~~~~
 Create a scene containing the mesh and the contours.
 
-.. GENERATED FROM PYTHON SOURCE LINES 671-674
+.. GENERATED FROM PYTHON SOURCE LINES 742-745
 
 .. image:: /_static/exhaust_system_018.png
   :width: 500pt
   :align: center
 
-.. GENERATED FROM PYTHON SOURCE LINES 674-691
+.. GENERATED FROM PYTHON SOURCE LINES 745-762
 
 .. code-block:: default
 
@@ -1863,11 +1935,13 @@ Create a scene containing the mesh and the contours.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 692-693
+.. GENERATED FROM PYTHON SOURCE LINES 763-766
 
 Close Fluent
+~~~~~~~~~~~~
+Close Fluent.
 
-.. GENERATED FROM PYTHON SOURCE LINES 693-695
+.. GENERATED FROM PYTHON SOURCE LINES 766-768
 
 .. code-block:: default
 
@@ -1883,7 +1957,7 @@ Close Fluent
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 4 minutes  32.887 seconds)
+   **Total running time of the script:** ( 4 minutes  34.470 seconds)
 
 
 .. _sphx_glr_download_examples_00-fluent_exhaust_system.py:

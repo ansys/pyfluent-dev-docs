@@ -54,7 +54,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="MonitorsManager" href="monitors.html" />
-    <link rel="prev" title="Field Data" href="fielddata.html" />
+    <link rel="prev" title="Field data" href="fielddata.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="docsearch:language" content="None">
   </head>
@@ -101,19 +101,19 @@
         <ul id="navbar-main-elements" class="navbar-nav">
     <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../../getting_started/index.html">
-  Getting Started
+  Getting started
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../../user_guide/index.html">
-  User Guide
+  User guide
  </a>
 </li>
 
 <li class="toctree-l1 current active nav-item">
  <a class="reference internal nav-link" href="../../index.html">
-  API Reference
+  API reference
  </a>
 </li>
 
@@ -175,7 +175,7 @@
         <li class="nav-item nav-item-0"><a href="../../../index.html">PyFluent</a> » </li>
     
 
-          <li class="nav-item nav-item-1"><a href="../../index.html" >API Reference</a> » </li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >API reference</a> » </li>
           <li class="nav-item nav-item-2"><a href="../index.html" >Core</a> » </li>
           <li class="nav-item nav-item-3"><a href="index.html" accesskey="U">Solver</a> » </li>
         <li class="nav-item nav-item-this"><a href="">EventsManager</a></li> 
@@ -228,7 +228,7 @@
    </li>
    <li class="toctree-l2 has-children">
     <a class="reference internal" href="../utils.html">
-     PyFluent Utils Functions
+     PyFluent Util functions
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
     <label for="toctree-checkbox-3">
@@ -1960,12 +1960,12 @@
     <ul class="current">
      <li class="toctree-l3">
       <a class="reference internal" href="settings.html">
-       Settings Objects
+       Settings objects
       </a>
      </li>
      <li class="toctree-l3 has-children">
       <a class="reference internal" href="tuicommands.html">
-       Solver TUI Commands
+       Solver TUI commands
       </a>
       <input class="toctree-checkbox" id="toctree-checkbox-80" name="toctree-checkbox-80" type="checkbox"/>
       <label for="toctree-checkbox-80">
@@ -8214,7 +8214,7 @@
      </li>
      <li class="toctree-l3">
       <a class="reference internal" href="fielddata.html">
-       Field Data
+       Field data
       </a>
      </li>
      <li class="toctree-l3 current active">
@@ -8272,14 +8272,21 @@
   <section id="eventsmanager">
 <span id="ref-events"></span><h1>EventsManager<a class="headerlink" href="#eventsmanager" title="Permalink to this headline">#</a></h1>
 <p>An instance of <code class="docutils literal notranslate"><span class="pre">EventsManager</span></code> exists as an active <code class="docutils literal notranslate"><span class="pre">events_manager</span></code> property in each
-solution-mode session object. It allows to register client callback with server side events.
-Whenever event occurs, the registered callback is triggered with session id and event info
-passed as arguments to callback. It is useful in solution monitoring and updating graphics
-during run time.</p>
-<p>Supported events are:
-<code class="docutils literal notranslate"><span class="pre">CalculationsEndedEvent,</span> <span class="pre">CalculationsStartedEvent,</span> <span class="pre">CaseReadEvent,</span> <span class="pre">DataReadEvent,</span>
-<span class="pre">InitializedEvent,</span> <span class="pre">IterationEndedEvent,</span> <span class="pre">ProgressEvent,</span> <span class="pre">TimestepEndedEvent</span></code></p>
-<p>Following code will trigger callback at end of every iteration.</p>
+solution-mode session object. You can register client callbacks with the EventsManager.
+The EventsManager calls each callback whenever a server-side event occurs, passing session ID
+and event information arguments to the callback. The EventsManager is useful for solution
+monitoring and updating graphics during runtime.</p>
+<p>Supported events are:</p>
+<ul class="simple">
+<li><p><code class="docutils literal notranslate"><span class="pre">CalculationsEndedEvent</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CalculationsStartedEvent</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">CaseReadEvent,</span> <span class="pre">DataReadEvent</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">InitializedEvent</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">IterationEndedEvent</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">ProgressEvent</span></code></p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">TimestepEndedEvent</span></code></p></li>
+</ul>
+<p>The following code triggers a callback at the end of every iteration.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="k">def</span> <span class="nf">callback_executed_at_end_of_iteration</span><span class="p">(</span><span class="n">session_id</span><span class="p">,</span> <span class="n">event_info</span><span class="p">):</span>
     <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Iteration ended index&quot;</span><span class="p">,</span> <span class="n">event_info</span><span class="o">.</span><span class="n">index</span><span class="p">)</span>
 
@@ -8301,7 +8308,7 @@ during run time.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>event_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Event name to which callback should be registered.</p>
+<dt><strong>event_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Event name to register the callback to.</p>
 </dd>
 <dt><strong>call_back</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Callable</span></code></span></dt><dd><p>Callback to register.</p>
 </dd>
@@ -8309,7 +8316,7 @@ during run time.</p>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></dt><dd><p>Registered callback Id.</p>
+<dt><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></dt><dd><p>Registered callback ID.</p>
 </dd>
 </dl>
 </dd>
@@ -8330,11 +8337,11 @@ during run time.</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.solver.events_manager.EventsManager.unregister_callback">
 <span class="sig-prename descclassname"><span class="pre">EventsManager.</span></span><span class="sig-name descname"><span class="pre">unregister_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">callback_id</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.events_manager.EventsManager.unregister_callback" title="Permalink to this definition">#</a></dt>
-<dd><p>Unregister <cite>Callback</cite>.</p>
+<dd><p>Unregister the callback.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>callback_id</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Registered callback Id.</p>
+<dt><strong>callback_id</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>ID of the registered callback.</p>
 </dd>
 </dl>
 </dd>

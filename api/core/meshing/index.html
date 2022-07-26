@@ -101,19 +101,19 @@
         <ul id="navbar-main-elements" class="navbar-nav">
     <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../../getting_started/index.html">
-  Getting Started
+  Getting started
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../../user_guide/index.html">
-  User Guide
+  User guide
  </a>
 </li>
 
 <li class="toctree-l1 current active nav-item">
  <a class="reference internal nav-link" href="../../index.html">
-  API Reference
+  API reference
  </a>
 </li>
 
@@ -175,7 +175,7 @@
         <li class="nav-item nav-item-0"><a href="../../../index.html">PyFluent</a> » </li>
     
 
-          <li class="nav-item nav-item-1"><a href="../../index.html" >API Reference</a> » </li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >API reference</a> » </li>
           <li class="nav-item nav-item-2"><a href="../index.html" accesskey="U">Core</a> » </li>
         <li class="nav-item nav-item-this"><a href="">Meshing</a></li> 
       </ul>
@@ -227,7 +227,7 @@
    </li>
    <li class="toctree-l2 has-children">
     <a class="reference internal" href="../utils.html">
-     PyFluent Utils Functions
+     PyFluent Util functions
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
     <label for="toctree-checkbox-3">
@@ -1959,12 +1959,12 @@
     <ul>
      <li class="toctree-l3">
       <a class="reference internal" href="../solver/settings.html">
-       Settings Objects
+       Settings objects
       </a>
      </li>
      <li class="toctree-l3 has-children">
       <a class="reference internal" href="../solver/tuicommands.html">
-       Solver TUI Commands
+       Solver TUI commands
       </a>
       <input class="toctree-checkbox" id="toctree-checkbox-80" name="toctree-checkbox-80" type="checkbox"/>
       <label for="toctree-checkbox-80">
@@ -8213,7 +8213,7 @@
      </li>
      <li class="toctree-l3">
       <a class="reference internal" href="../solver/fielddata.html">
-       Field Data
+       Field data
       </a>
      </li>
      <li class="toctree-l3">
@@ -8256,12 +8256,12 @@
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#workflow-example">
-   Workflow Example
+   Workflow example
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#tui-commands-example">
-   TUI Commands Example
+   TUI commands example
   </a>
  </li>
 </ul>
@@ -8285,10 +8285,10 @@
                 
   <section id="meshing">
 <span id="ref-meshing"></span><h1>Meshing<a class="headerlink" href="#meshing" title="Permalink to this headline">#</a></h1>
-<p>This module allows you to use Fluent meshing capabilities from Python.  Both
-the meshing workflows and meshing TUI commands are available.</p>
+<p>This module allows you to use Fluent meshing capabilities from Python. Both
+of the meshing workflows and the meshing TUI commands are available.</p>
 <section id="workflow-example">
-<h2>Workflow Example<a class="headerlink" href="#workflow-example" title="Permalink to this headline">#</a></h2>
+<h2>Workflow example<a class="headerlink" href="#workflow-example" title="Permalink to this headline">#</a></h2>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">start_transcript</span><span class="p">()</span>
@@ -8299,10 +8299,10 @@ the meshing workflows and meshing TUI commands are available.</p>
 <span class="n">exit</span><span class="p">()</span>
 </pre></div>
 </div>
-<p>Existing Fluent meshing workflows journals can also be converted to the
-session based PyFluent scripts with some manual modifications.
-For example:</p>
-<p>Fluent Journal:</p>
+<p>You can manually convert existing Fluent meshing workflow
+journals to session-based PyFluent scripts. Examples follow of a Fluent journal
+and the equivalent PyFluent script.</p>
+<p><strong>Fluent journal</strong></p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">(</span><span class="o">%</span><span class="n">py</span><span class="o">-</span><span class="n">exec</span> <span class="s2">&quot;workflow.InitializeWorkflow(WorkflowType=r&#39;Watertight Geometry&#39;)&quot;</span><span class="p">)</span>
 <span class="p">(</span><span class="o">%</span><span class="n">py</span><span class="o">-</span><span class="n">exec</span> <span class="s2">&quot;workflow.TaskObject[&#39;Import Geometry&#39;].Arguments.setState({r&#39;FileName&#39;: r&#39;file.pmdb&#39;,r&#39;LengthUnit&#39;: r&#39;in&#39;,})&quot;</span><span class="p">)</span>
 <span class="p">(</span><span class="o">%</span><span class="n">py</span><span class="o">-</span><span class="n">exec</span> <span class="s2">&quot;workflow.TaskObject[&#39;Import Geometry&#39;].Execute()&quot;</span><span class="p">)</span>
@@ -8326,7 +8326,7 @@ For example:</p>
 <span class="p">(</span><span class="o">%</span><span class="n">py</span><span class="o">-</span><span class="n">exec</span> <span class="s2">&quot;workflow.TaskObject[&#39;Generate the Volume Mesh&#39;].Execute()&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Equivalent PyFluent Journal:</p>
+<p><strong>PyFluent script</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">InitializeWorkflow</span><span class="p">(</span><span class="n">WorkflowType</span><span class="o">=</span><span class="s2">&quot;Watertight Geometry&quot;</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
     <span class="n">FileName</span><span class="o">=</span><span class="n">import_filename</span><span class="p">,</span> <span class="n">LengthUnit</span><span class="o">=</span><span class="s2">&quot;in&quot;</span>
@@ -8374,7 +8374,7 @@ For example:</p>
 </div>
 </section>
 <section id="tui-commands-example">
-<h2>TUI Commands Example<a class="headerlink" href="#tui-commands-example" title="Permalink to this headline">#</a></h2>
+<h2>TUI commands example<a class="headerlink" href="#tui-commands-example" title="Permalink to this headline">#</a></h2>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="s2">&quot;elbow.cas.gz&quot;</span><span class="p">)</span>

@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Applying Solution Settings &#8212; PyFluent</title>
+    <title>Applying solution settings &#8212; PyFluent</title>
     
 <script>
   document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
@@ -53,8 +53,8 @@
     <link rel="shortcut icon" href="../_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="API Reference" href="../api/index.html" />
-    <link rel="prev" title="Defining Boundary Conditions" href="boundary_conditions.html" />
+    <link rel="next" title="API reference" href="../api/index.html" />
+    <link rel="prev" title="Defining boundary conditions" href="boundary_conditions.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="docsearch:language" content="None">
   </head>
@@ -101,19 +101,19 @@
         <ul id="navbar-main-elements" class="navbar-nav">
     <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../getting_started/index.html">
-  Getting Started
+  Getting started
  </a>
 </li>
 
 <li class="toctree-l1 current active nav-item">
  <a class="reference internal nav-link" href="index.html">
-  User Guide
+  User guide
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../api/index.html">
-  API Reference
+  API reference
  </a>
 </li>
 
@@ -175,8 +175,8 @@
         <li class="nav-item nav-item-0"><a href="../index.html">PyFluent</a> » </li>
     
 
-          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User Guide</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">Applying Solution Settings</a></li> 
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User guide</a> » </li>
+        <li class="nav-item nav-item-this"><a href="">Applying solution settings</a></li> 
       </ul>
     </div>
         </div>
@@ -199,47 +199,47 @@
     <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="launching_ansys_fluent.html">
-   Launching Ansys Fluent Locally
+   Launching Fluent locally
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="tui_commands.html">
-   Using TUI Commands
+   Using TUI commands
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="meshing_workflows.html">
-   Using the Meshing Workflows
+   Using meshing workflows
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="general_settings.html">
-   Applying General Settings
+   Applying general settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="solver_settings.html">
-   Specifying Solver Settings
+   Specifying solver settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="models.html">
-   Defining Models
+   Defining models
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="materials.html">
-   Defining Materials
+   Defining materials
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="boundary_conditions.html">
-   Defining Boundary Conditions
+   Defining boundary conditions
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Applying Solution Settings
+   Applying solution settings
   </a>
  </li>
 </ul>
@@ -267,35 +267,35 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#solver-tui-commands">
-   Solver TUI Commands
+  <a class="reference internal nav-link" href="#using-solver-tui-commands">
+   Using solver TUI commands
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#selecting-solution-methods">
-     Selecting Solution Methods
+     Selecting solution methods
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#selecting-solution-controls">
-     Selecting Solution Controls
+     Selecting solution controls
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#creating-report-definition">
-     Creating Report Definition
+    <a class="reference internal nav-link" href="#creating-report-definitions">
+     Creating report definitions
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#initialize-and-solve">
-     Initialize and Solve
+    <a class="reference internal nav-link" href="#initializing-and-solving">
+     Initializing and solving
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#settings-objects">
-   Settings Objects
+  <a class="reference internal nav-link" href="#using-settings-objects">
+   Using settings objects
   </a>
  </li>
 </ul>
@@ -318,19 +318,19 @@
               <article class="bd-article" role="main">
                 
   <section id="applying-solution-settings">
-<h1>Applying Solution Settings<a class="headerlink" href="#applying-solution-settings" title="Permalink to this headline">#</a></h1>
-<p>PyFluent allows you to apply solution settings, initialize and solve using both
-<a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI Commands</span></a> and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects</span></a>.</p>
-<section id="solver-tui-commands">
-<h2>Solver TUI Commands<a class="headerlink" href="#solver-tui-commands" title="Permalink to this headline">#</a></h2>
-<p>The following example demonstrates how you can apply solution settings
-using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI Commands</span></a>:</p>
+<h1>Applying solution settings<a class="headerlink" href="#applying-solution-settings" title="Permalink to this headline">#</a></h1>
+<p>PyFluent allows you to apply solution settings, initialize, and solve using
+<a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
+<section id="using-solver-tui-commands">
+<h2>Using solver TUI commands<a class="headerlink" href="#using-solver-tui-commands" title="Permalink to this headline">#</a></h2>
+<p>The following examples show how you apply solution settings
+using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>.</p>
 <section id="selecting-solution-methods">
-<h3>Selecting Solution Methods<a class="headerlink" href="#selecting-solution-methods" title="Permalink to this headline">#</a></h3>
-<p>solve/set/p-v-coupling TUI: Selects which pressure-velocity coupling scheme is to be used.</p>
-<p>Five schemes are available: (Index-Model) 20-SIMPLE, 21-SIMPLEC, 22-PISO,
-24-Coupled, 25-Fractional Step</p>
-<p>solve/set/gradient-scheme: Sets gradient options.</p>
+<h3>Selecting solution methods<a class="headerlink" href="#selecting-solution-methods" title="Permalink to this headline">#</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">solve.set.p_v_coupling</span></code> TUI command selects which pressure-velocity coupling scheme to use.
+Five schemes (Index-Model) are available: 20-SIMPLE, 21-SIMPLEC, 22-PISO, 24-Coupled,
+and 25-Fractional Step.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">solve.set/gradient_scheme</span></code> TUI sets the gradient options.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><span class="s1">&#39;file.cas.h5&#39;</span><span class="p">)</span>
@@ -341,15 +341,15 @@ using <a class="reference internal" href="../api/core/solver/tuicommands.html#re
 </div>
 </section>
 <section id="selecting-solution-controls">
-<h3>Selecting Solution Controls<a class="headerlink" href="#selecting-solution-controls" title="Permalink to this headline">#</a></h3>
-<p>solve/set/p-v-controls TUI: Sets pressure-velocity controls.</p>
+<h3>Selecting solution controls<a class="headerlink" href="#selecting-solution-controls" title="Permalink to this headline">#</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">solve.set.p_v_controls</span></code> TUI sets pressure-velocity controls.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">p_v_controls</span><span class="p">(</span><span class="mf">0.3</span><span class="p">,</span><span class="mf">0.4</span><span class="p">)</span> <span class="c1"># Momentum and Pressure</span>
 </pre></div>
 </div>
 </section>
-<section id="creating-report-definition">
-<h3>Creating Report Definition<a class="headerlink" href="#creating-report-definition" title="Permalink to this headline">#</a></h3>
-<p>solve/report-definitions TUI: Enters the report definitions menu.</p>
+<section id="creating-report-definitions">
+<h3>Creating report definitions<a class="headerlink" href="#creating-report-definitions" title="Permalink to this headline">#</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">solve.report_definitions</span></code> TUI enters the report definitions menu.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">add</span><span class="p">(</span>
     <span class="s1">&#39;outlet-temp-avg&#39;</span><span class="p">,</span>
     <span class="s1">&#39;surface-massavg&#39;</span><span class="p">,</span>
@@ -363,22 +363,22 @@ using <a class="reference internal" href="../api/core/solver/tuicommands.html#re
 </pre></div>
 </div>
 </section>
-<section id="initialize-and-solve">
-<h3>Initialize and Solve<a class="headerlink" href="#initialize-and-solve" title="Permalink to this headline">#</a></h3>
-<p>solve/initialize TUI: Enters the flow initialization menu.</p>
-<p>solve/initialize/hyb-initialization TUI: Initializes using the hybrid
+<section id="initializing-and-solving">
+<h3>Initializing and solving<a class="headerlink" href="#initializing-and-solving" title="Permalink to this headline">#</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">solve.initialize</span></code> TUI enters the flow initialization menu.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">solve.initialize.hyb_initialization</span></code> TUI initializes using the hybrid
 initialization method.</p>
-<p>solve/iterate TUI: Performs a specified number of iterations.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">solve.iterate</span></code> TUI performs a specified number of iterations.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">initialize</span><span class="o">.</span><span class="n">hyb_initialization</span><span class="p">()</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">iterate</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 </section>
-<section id="settings-objects">
-<h2>Settings Objects<a class="headerlink" href="#settings-objects" title="Permalink to this headline">#</a></h2>
-<p>The following example demonstrates how you can apply solution settings
-using the <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects</span></a>:</p>
+<section id="using-settings-objects">
+<h2>Using settings objects<a class="headerlink" href="#using-settings-objects" title="Permalink to this headline">#</a></h2>
+<p>The following example shows how you apply solution settings
+using <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">initialization</span><span class="o">.</span><span class="n">hybrid_initialize</span><span class="p">()</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">run_calculation</span><span class="o">.</span><span class="n">iterate</span><span class="p">(</span><span class="n">number_of_iterations</span><span class="o">=</span><span class="mi">150</span><span class="p">)</span>
 </pre></div>

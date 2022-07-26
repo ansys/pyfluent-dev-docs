@@ -99,19 +99,19 @@
         <ul id="navbar-main-elements" class="navbar-nav">
     <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../../../getting_started/index.html">
-  Getting Started
+  Getting started
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../../../user_guide/index.html">
-  User Guide
+  User guide
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../../index.html">
-  API Reference
+  API reference
  </a>
 </li>
 
@@ -1355,10 +1355,10 @@
   <section id="module-ansys.fluent.core.solver.flobject">
 <span id="flobject"></span><h1>flobject<a class="headerlink" href="#module-ansys.fluent.core.solver.flobject" title="Permalink to this headline">#</a></h1>
 <p>Module for accessing and modifying hierarchy of Fluent settings.</p>
-<p>The only useful method is ‘get_root’ which returns the root object for
+<p>The only useful method is ‘<cite>get_root`</cite>, which returns the root object for
 accessing Fluent settings.</p>
-<p>Child objects can be generally accessed/modified using attribute access.
-Named child objects can be accessed/modified using index operator.</p>
+<p>Child objects can be generally accessed or modified using attribute access.
+Named child objects can be accessed or modified using index operators.</p>
 <p>Calling an object will return its current value.</p>
 <section id="example">
 <h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">#</a></h2>
@@ -1380,7 +1380,7 @@ r.boundary_conditions.velocity_inlet[‘inlet’].vmag.constant = 20</p>
 <td><p>Get the root settings object.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.to_python_name.html#ansys.fluent.core.solver.flobject.to_python_name" title="ansys.fluent.core.solver.flobject.to_python_name"><code class="xref py py-obj docutils literal notranslate"><span class="pre">to_python_name</span></code></a>(fluent_name)</p></td>
-<td><p>Convert a scheme string to python variable name.</p></td>
+<td><p>Convert a scheme string to a Python variable name.</p></td>
 </tr>
 </tbody>
 </table>
@@ -1395,55 +1395,55 @@ r.boundary_conditions.velocity_inlet[‘inlet’].vmag.constant = 20</p>
 <td><p>Base class for settings and command objects.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.Boolean.html#ansys.fluent.core.solver.flobject.Boolean" title="ansys.fluent.core.solver.flobject.Boolean"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Boolean</span></code></a>([name, parent])</p></td>
-<td><p>A Boolean object represents a boolean value setting.</p></td>
+<td><p>A <code class="docutils literal notranslate"><span class="pre">Boolean</span></code> object representing a Boolean value setting.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.BooleanList.html#ansys.fluent.core.solver.flobject.BooleanList" title="ansys.fluent.core.solver.flobject.BooleanList"><code class="xref py py-obj docutils literal notranslate"><span class="pre">BooleanList</span></code></a>([name, parent])</p></td>
-<td><p>A BooleanList object represents a boolean list setting.</p></td>
+<td><p>A <code class="docutils literal notranslate"><span class="pre">BooleanList</span></code> object representing a Boolean list setting.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.Command.html#ansys.fluent.core.solver.flobject.Command" title="ansys.fluent.core.solver.flobject.Command"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Command</span></code></a>([name, parent])</p></td>
 <td><p>Command object.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.Filename.html#ansys.fluent.core.solver.flobject.Filename" title="ansys.fluent.core.solver.flobject.Filename"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Filename</span></code></a>([name, parent])</p></td>
-<td><p>A Filename object represents a file name.</p></td>
+<td><p>A <code class="docutils literal notranslate"><span class="pre">Filename</span></code> object representing a file name.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.Group.html#ansys.fluent.core.solver.flobject.Group" title="ansys.fluent.core.solver.flobject.Group"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Group</span></code></a>([name, parent])</p></td>
-<td><p>A Group container object.</p></td>
+<td><p>A <code class="docutils literal notranslate"><span class="pre">Group</span></code> container object.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.Integer.html#ansys.fluent.core.solver.flobject.Integer" title="ansys.fluent.core.solver.flobject.Integer"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Integer</span></code></a>([name, parent])</p></td>
-<td><p>An Integer object represents an integer value setting.</p></td>
+<td><p>An <code class="docutils literal notranslate"><span class="pre">Integer</span></code> object representing an integer value setting.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.IntegerList.html#ansys.fluent.core.solver.flobject.IntegerList" title="ansys.fluent.core.solver.flobject.IntegerList"><code class="xref py py-obj docutils literal notranslate"><span class="pre">IntegerList</span></code></a>([name, parent])</p></td>
-<td><p>An Integer object represents a integer list setting.</p></td>
+<td><p>An <code class="docutils literal notranslate"><span class="pre">Integer</span></code> object representing an integer list setting.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.ListObject.html#ansys.fluent.core.solver.flobject.ListObject" title="ansys.fluent.core.solver.flobject.ListObject"><code class="xref py py-obj docutils literal notranslate"><span class="pre">ListObject</span></code></a>([name, parent])</p></td>
-<td><p>A ListObject container.</p></td>
+<td><p>A <code class="docutils literal notranslate"><span class="pre">ListObject</span></code> container is a container object, similar to a Python list object.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.Map.html#ansys.fluent.core.solver.flobject.Map" title="ansys.fluent.core.solver.flobject.Map"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Map</span></code></a>([name, parent])</p></td>
-<td><p>A Map object represents key-value settings.</p></td>
+<td><p>A <code class="docutils literal notranslate"><span class="pre">Map</span></code> object representing key-value settings.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.NamedObject.html#ansys.fluent.core.solver.flobject.NamedObject" title="ansys.fluent.core.solver.flobject.NamedObject"><code class="xref py py-obj docutils literal notranslate"><span class="pre">NamedObject</span></code></a>([name, parent])</p></td>
-<td><p>A NamedObject container.</p></td>
+<td><p>A <code class="docutils literal notranslate"><span class="pre">NamedObject</span></code> container is a container object similar to a Python dictionary object.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.Query.html#ansys.fluent.core.solver.flobject.Query" title="ansys.fluent.core.solver.flobject.Query"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Query</span></code></a>([name, parent])</p></td>
 <td><p>Query object.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.Real.html#ansys.fluent.core.solver.flobject.Real" title="ansys.fluent.core.solver.flobject.Real"><code class="xref py py-obj docutils literal notranslate"><span class="pre">Real</span></code></a>([name, parent])</p></td>
-<td><p>A Real object represents a real value setting.</p></td>
+<td><p>A <code class="docutils literal notranslate"><span class="pre">Real</span></code> object representing a real value setting.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.RealList.html#ansys.fluent.core.solver.flobject.RealList" title="ansys.fluent.core.solver.flobject.RealList"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RealList</span></code></a>([name, parent])</p></td>
-<td><p>A RealList object represents a real list setting.</p></td>
+<td><p>A <code class="docutils literal notranslate"><span class="pre">RealList</span></code> object representing a real list setting.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.RealVector.html#ansys.fluent.core.solver.flobject.RealVector" title="ansys.fluent.core.solver.flobject.RealVector"><code class="xref py py-obj docutils literal notranslate"><span class="pre">RealVector</span></code></a>([name, parent])</p></td>
-<td><p>An object to represent a 3D vector.</p></td>
+<td><p>An object representing a 3D vector.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.SettingsBase.html#ansys.fluent.core.solver.flobject.SettingsBase" title="ansys.fluent.core.solver.flobject.SettingsBase"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SettingsBase</span></code></a>([name, parent])</p></td>
 <td><p>Base class for settings objects.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.String.html#ansys.fluent.core.solver.flobject.String" title="ansys.fluent.core.solver.flobject.String"><code class="xref py py-obj docutils literal notranslate"><span class="pre">String</span></code></a>([name, parent])</p></td>
-<td><p>A String object represents a string value setting.</p></td>
+<td><p>A <code class="docutils literal notranslate"><span class="pre">String</span></code> object representing a string value setting.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="ansys.fluent.core.solver.flobject.StringList.html#ansys.fluent.core.solver.flobject.StringList" title="ansys.fluent.core.solver.flobject.StringList"><code class="xref py py-obj docutils literal notranslate"><span class="pre">StringList</span></code></a>([name, parent])</p></td>
-<td><p>A StringList object represents a string list setting.</p></td>
+<td><p>A <code class="docutils literal notranslate"><span class="pre">StringList</span></code> object representing a string list setting.</p></td>
 </tr>
 </tbody>
 </table>

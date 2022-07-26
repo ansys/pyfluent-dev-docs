@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Field Data &#8212; PyFluent</title>
+    <title>Field data &#8212; PyFluent</title>
     
 <script>
   document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
@@ -101,19 +101,19 @@
         <ul id="navbar-main-elements" class="navbar-nav">
     <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../../getting_started/index.html">
-  Getting Started
+  Getting started
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../../../user_guide/index.html">
-  User Guide
+  User guide
  </a>
 </li>
 
 <li class="toctree-l1 current active nav-item">
  <a class="reference internal nav-link" href="../../index.html">
-  API Reference
+  API reference
  </a>
 </li>
 
@@ -175,10 +175,10 @@
         <li class="nav-item nav-item-0"><a href="../../../index.html">PyFluent</a> » </li>
     
 
-          <li class="nav-item nav-item-1"><a href="../../index.html" >API Reference</a> » </li>
+          <li class="nav-item nav-item-1"><a href="../../index.html" >API reference</a> » </li>
           <li class="nav-item nav-item-2"><a href="../index.html" >Core</a> » </li>
           <li class="nav-item nav-item-3"><a href="index.html" accesskey="U">Solver</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">Field Data</a></li> 
+        <li class="nav-item nav-item-this"><a href="">Field data</a></li> 
       </ul>
     </div>
         </div>
@@ -228,7 +228,7 @@
    </li>
    <li class="toctree-l2 has-children">
     <a class="reference internal" href="../utils.html">
-     PyFluent Utils Functions
+     PyFluent Util functions
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
     <label for="toctree-checkbox-3">
@@ -1960,12 +1960,12 @@
     <ul class="current">
      <li class="toctree-l3">
       <a class="reference internal" href="settings.html">
-       Settings Objects
+       Settings objects
       </a>
      </li>
      <li class="toctree-l3 has-children">
       <a class="reference internal" href="tuicommands.html">
-       Solver TUI Commands
+       Solver TUI commands
       </a>
       <input class="toctree-checkbox" id="toctree-checkbox-80" name="toctree-checkbox-80" type="checkbox"/>
       <label for="toctree-checkbox-80">
@@ -8214,7 +8214,7 @@
      </li>
      <li class="toctree-l3 current active">
       <a class="current reference internal" href="#">
-       Field Data
+       Field data
       </a>
      </li>
      <li class="toctree-l3">
@@ -8256,23 +8256,38 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#muliple-fields-in-a-request">
-   Muliple fields in a request
+  <a class="reference internal nav-link" href="#multiple-fields-in-a-request">
+   Multiple fields in a request
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tag-id">
+   Tag ID
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#surface-id">
+   Surface ID
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#field-name">
+   Field name
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#tag-id">
-     Tag Id
+    <a class="reference internal nav-link" href="#surface-request">
+     Surface request
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#surface-id">
-     Surface ID
+    <a class="reference internal nav-link" href="#scalar-field-request">
+     Scalar field request
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#field-name">
-     Field Name
+    <a class="reference internal nav-link" href="#vector-field-request">
+     Vector field request
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -8314,104 +8329,68 @@
               <article class="bd-article" role="main">
                 
   <section id="field-data">
-<span id="ref-field-data"></span><h1>Field Data<a class="headerlink" href="#field-data" title="Permalink to this headline">#</a></h1>
-<p>The <code class="docutils literal notranslate"><span class="pre">FieldData</span></code> module provides access to Fluent surface, scalar and vector field
-data. It provides two sets of APIs.</p>
-<ol class="arabic simple">
-<li><p>APIs to get multiple fields in a single request.</p></li>
-<li><p>APIs to get one field per request.</p></li>
-</ol>
-<section id="muliple-fields-in-a-request">
-<h2>Muliple fields in a request<a class="headerlink" href="#muliple-fields-in-a-request" title="Permalink to this headline">#</a></h2>
-<p>In this approach, requests for multiple fields are combined in a single request and
-data for all fields is received in a single response.</p>
-<ul>
-<li><p>Request</p>
-<p>Requests for multiple fields can be combined in a single request via
-<cite>add_get_&lt;items&gt;_request</cite> APIs.</p>
+<span id="ref-field-data"></span><h1>Field data<a class="headerlink" href="#field-data" title="Permalink to this headline">#</a></h1>
+<p>Field data is an attribute of a session and thus an object. With PyFluent, you
+can access Fluent surface, scalar, and vector field data.</p>
+<section id="multiple-fields-in-a-request">
+<h2>Multiple fields in a request<a class="headerlink" href="#multiple-fields-in-a-request" title="Permalink to this headline">#</a></h2>
+<p>You can combine requests for multiple fields in a single request and receive
+the data for all fields in a single response.</p>
+<p><strong>Request</strong></p>
+<p>The <code class="docutils literal notranslate"><span class="pre">add_get_&lt;items&gt;_request</span></code> methods combine requests for multiple fields in a single request.</p>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">add_get_surfaces_request</span></code></p>
-<ul>
-<li><p>To add surfaces request</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">add_get_surfaces_request</span></code> adds a surfaces request.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">add_get_scalar_fields_request</span></code> adds a scalar fields request.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">add_get_vector_fields_request</span></code> adds a vector fields request.</p></li>
 </ul>
-</li>
-<li><p><code class="docutils literal notranslate"><span class="pre">add_get_scalar_fields_request</span></code></p>
-<ul>
-<li><p>To add scalar fields request</p></li>
-</ul>
-</li>
-<li><p><code class="docutils literal notranslate"><span class="pre">add_get_vector_fields_request</span></code></p>
-<ul>
-<li><p>To add vector fields request</p></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>Response</p>
-<p>All requested fields are returned in a single response with <code class="docutils literal notranslate"><span class="pre">get_fields</span></code> API. It provides
-the dictionary containing the requested fields as numpy array in the following order:</p>
-<ul class="simple">
-<li><p>tag_id [int]-&gt; surface_id [int] -&gt; field_name [str] -&gt; field_data[np.array]</p></li>
-</ul>
-</li>
-</ul>
+<p><strong>Response</strong>
+The <code class="docutils literal notranslate"><span class="pre">get_fields</span></code> method returns all requested fields in a single response. It provides
+the dictionary containing the requested fields as a numpy array in the following order:</p>
+<p><code class="docutils literal notranslate"><span class="pre">tag_id</span> <span class="pre">[int]-&gt;</span> <span class="pre">surface_id</span> <span class="pre">[int]</span> <span class="pre">-&gt;</span> <span class="pre">field_name</span> <span class="pre">[str]</span> <span class="pre">-&gt;</span> <span class="pre">field_data[np.array]</span></code></p>
+</section>
 <section id="tag-id">
-<h3>Tag Id<a class="headerlink" href="#tag-id" title="Permalink to this headline">#</a></h3>
-<p>Tag id is generated by applying <cite>bitwise or</cite> on all tags for a request. Following
-is the list of supported tags and their values:</p>
+<h2>Tag ID<a class="headerlink" href="#tag-id" title="Permalink to this headline">#</a></h2>
+<p>A tag ID is generated by applying <code class="docutils literal notranslate"><span class="pre">`bitwise</span> <span class="pre">or`</span></code> on all tags for a request. Here is a list
+of supported tags and their values:</p>
 <ul class="simple">
 <li><p>OVERSET_MESH: 1,</p></li>
 <li><p>ELEMENT_LOCATION: 2,</p></li>
 <li><p>NODE_LOCATION: 4,</p></li>
 <li><p>BOUNDARY_VALUES: 8,</p></li>
 </ul>
-<p>So if scalar field data is requested for element location[2] then tag_id in
-the dictionary will be 2. Similarly if boundary values[8] are requested for
-node location[4] then tag_id will be (4|8) i.e. 12.</p>
+<p>For example, if you request the scalar field data for element location[2], in the
+dictionary,  <code class="docutils literal notranslate"><span class="pre">tag_id</span></code> is <code class="docutils literal notranslate"><span class="pre">2</span></code>. Similarly, if you request the boundary values[8] for
+node location[4], <code class="docutils literal notranslate"><span class="pre">tag_id</span></code> is <code class="docutils literal notranslate"><span class="pre">(4|8)</span></code>, or 12.</p>
 </section>
 <section id="surface-id">
-<h3>Surface ID<a class="headerlink" href="#surface-id" title="Permalink to this headline">#</a></h3>
-<p>The Surface ID is the same one as passed in the request.</p>
+<h2>Surface ID<a class="headerlink" href="#surface-id" title="Permalink to this headline">#</a></h2>
+<p>The surface ID is the same one as passed in the request.</p>
 </section>
 <section id="field-name">
-<h3>Field Name<a class="headerlink" href="#field-name" title="Permalink to this headline">#</a></h3>
-<p>For a request multiple fields are returned. Number of fields depends upon the request type.</p>
-<ul>
-<li><p>Surface request</p>
-<p>Response will contain any of the following fields depending upon the request arguments.</p>
+<h2>Field name<a class="headerlink" href="#field-name" title="Permalink to this headline">#</a></h2>
+<p>A request returns multiple fields. The number of fields depends on the request type.</p>
+<section id="surface-request">
+<h3>Surface request<a class="headerlink" href="#surface-request" title="Permalink to this headline">#</a></h3>
+<p>The response to a surface request contains any of the following fields, depending on the
+request arguments:</p>
 <ul class="simple">
-<li><p>faces</p>
-<ul>
-<li><p>Contains faces connectivity</p></li>
+<li><p>faces, which contain face connectivity</p></li>
+<li><p>vertices, which contain node coordinates</p></li>
+<li><p>centroid, which contains face centroids</p></li>
+<li><p>face-normal, which contains face normals</p></li>
 </ul>
-</li>
-<li><p>vertices</p>
-<ul>
-<li><p>Contains node coordinates</p></li>
-</ul>
-</li>
-<li><p>centroid</p>
-<ul>
-<li><p>Contains face centroids</p></li>
-</ul>
-</li>
-<li><p>face-normal</p>
-<ul>
-<li><p>Contains face normals</p></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>Scalar field request</p>
-<p>Response will contain a single field with the same name as the scalar field name passed in the request.</p>
-</li>
-<li><p>vector field request</p>
-<p>Response will contain two fields</p>
+</section>
+<section id="scalar-field-request">
+<h3>Scalar field request<a class="headerlink" href="#scalar-field-request" title="Permalink to this headline">#</a></h3>
+<p>The response to a scalar field request contains a single field with the same name as the
+scalar field name passed in the request.</p>
+</section>
+<section id="vector-field-request">
+<h3>Vector field request<a class="headerlink" href="#vector-field-request" title="Permalink to this headline">#</a></h3>
+<p>The response to a vector field request contains two fields:</p>
 <ul class="simple">
-<li><p>Vector field, with name same as vector field name passed in the request.</p></li>
-<li><p>vector-scale.</p></li>
-</ul>
-</li>
+<li><p>vector field, with the same name as the vector field name passed in the request</p></li>
+<li><p>vector-scale</p></li>
 </ul>
 </section>
 <section id="example">
@@ -8492,37 +8471,21 @@ node location[4] then tag_id will be (4|8) i.e. 12.</p>
 </section>
 <section id="one-field-per-request">
 <h2>One field per request<a class="headerlink" href="#one-field-per-request" title="Permalink to this headline">#</a></h2>
-<p>In this approach, one field is received for each request. For each field i.e. surface, scalar
-and vector there is a separate API.</p>
-<ol class="arabic simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">get_surface_data</span></code></p>
+<p>You can receive one field for each request. There is a separate method for each type of field (surface, scalar,
+or vector):</p>
 <ul class="simple">
-<li><p>To get surface data.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">get_surface_data</span></code> gets surface data.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">get_scalar_field_data</span></code> gets scalar field data.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">get_vector_field_data</span></code> gets vector field data.</p></li>
 </ul>
-</li>
-<li><p><code class="docutils literal notranslate"><span class="pre">get_scalar_field_data</span></code></p>
-<ul class="simple">
-<li><p>To get scalar field data.</p></li>
-</ul>
-</li>
-<li><p><code class="docutils literal notranslate"><span class="pre">get_vector_field_data</span></code></p>
-<ul class="simple">
-<li><p>To get vector field data.</p></li>
-</ul>
-</li>
-</ol>
-<p>For surface and scalar field, response contains dictionary of surface ID and numpy array of
+<p>For a surface or scalar field request, the response contains a dictionary of surface IDs and a numpy array of
 the requested field.</p>
-<ul class="simple">
-<li><p>surface_id [int] -&gt; field[np.array]</p></li>
-</ul>
-<p>For vector field, response is dictionary of surface ID and Tuple of numpy array of vector field
-and vector scale.</p>
-<ul class="simple">
-<li><p>surface_id [int] -&gt; (vector field [np.array],  vector-scale [float])</p></li>
-</ul>
-<p>It is important to note that in Fluent, a surface name can be associated with multiple surface
-IDs. So response contains surface ID as key of returned dictionary.</p>
+<p><code class="docutils literal notranslate"><span class="pre">surface_id</span> <span class="pre">[int]</span> <span class="pre">-&gt;</span> <span class="pre">field[np.array]</span></code></p>
+<p>For a vector field request, the response is a dictionary of surface IDs and a tuple of a numpy array of <code class="docutils literal notranslate"><span class="pre">vector</span> <span class="pre">field</span></code>
+and <code class="docutils literal notranslate"><span class="pre">vector</span> <span class="pre">scale</span></code>.</p>
+<p><code class="docutils literal notranslate"><span class="pre">surface_id</span> <span class="pre">[int]</span> <span class="pre">-&gt;</span> <span class="pre">(vector</span> <span class="pre">field</span> <span class="pre">[np.array],</span>&#160; <span class="pre">vector-scale</span> <span class="pre">[float])</span></code></p>
+<p>It is important to note that in Fluent, you can associate a surface name with multiple surface
+IDs. Thus, a response can contain a surface ID as a key of the returned dictionary.</p>
 <section id="id1">
 <h3>Example<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ansys.fluent.core.services.field_data</span> <span class="kn">import</span> <span class="n">SurfaceDataType</span>
@@ -8558,22 +8521,22 @@ IDs. So response contains surface ID as key of returned dictionary.</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldData.add_get_surfaces_request">
 <span class="sig-prename descclassname"><span class="pre">FieldData.</span></span><span class="sig-name descname"><span class="pre">add_get_surfaces_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface_ids</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">overset_mesh</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">provide_vertices</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">provide_faces</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">provide_faces_centroid</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">provide_faces_normal</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldData.add_get_surfaces_request" title="Permalink to this definition">#</a></dt>
-<dd><p>Add request to get surfaces data i.e. vertices, faces connectivity,
-centroids and normals.</p>
+<dd><p>Add request to get surface data (vertices, face connectivity,
+centroids, and normals).</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>]</span></dt><dd><p>List of surface ids, for surface data.</p>
+<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>]</span></dt><dd><p>List of surface IDS for the surface data.</p>
 </dd>
-<dt><strong>overset_mesh</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>If set to True overset mesh will be provided.</p>
+<dt><strong>overset_mesh</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to get the overset met. The default is <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
 </dd>
-<dt><strong>provide_vertices</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>if set to True vertices i.e. node coordinates will be provided.</p>
+<dt><strong>provide_vertices</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to get node coordinates. The default is <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p>
 </dd>
-<dt><strong>provide_faces</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>if set to True faces connectivity will be provided.</p>
+<dt><strong>provide_faces</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to get face connectivity. The default is <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p>
 </dd>
-<dt><strong>provide_faces_centroid</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>if set to True faces centroid will be provided.</p>
+<dt><strong>provide_faces_centroid</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to get face centroids. The default is <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
 </dd>
-<dt><strong>provide_faces_normal</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>if set to True faces normal will be provided.</p>
+<dt><strong>provide_faces_normal</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to get faces normal. The default is <code class="docutils literal notranslate"><span class="pre">False</span></code></p>
 </dd>
 </dl>
 </dd>
@@ -8597,14 +8560,15 @@ centroids and normals.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>]</span></dt><dd><p>List of surface ids, for scalar field data.</p>
+<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>]</span></dt><dd><p>List of surface IDs for scalar field data.</p>
 </dd>
-<dt><strong>field_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Scalar field name.</p>
+<dt><strong>field_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the scalar field.</p>
 </dd>
-<dt><strong>node_value</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>if set to True data will be provided for nodal location otherwise
-data will be provided for element location.</p>
+<dt><strong>node_value</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to provide the nodal location. The default is <code class="docutils literal notranslate"><span class="pre">True</span></code>. If
+<code class="docutils literal notranslate"><span class="pre">False</span></code>, the element location is provided.</p>
 </dd>
-<dt><strong>boundary_value</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>if set to True, no slip velocity will be provided at wall boundaries.</p>
+<dt><strong>boundary_value</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to provide the slip velocity at the wall boundaries. The default
+is <code class="docutils literal notranslate"><span class="pre">False</span></code>. When <code class="docutils literal notranslate"><span class="pre">True</span></code>, no slip velocity is provided.</p>
 </dd>
 </dl>
 </dd>
@@ -8628,9 +8592,9 @@ data will be provided for element location.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>]</span></dt><dd><p>List of surface ids, for vector field data.</p>
+<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>]</span></dt><dd><p>List of surface IDs for vector field data.</p>
 </dd>
-<dt><strong>vector_field</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Vector field name.</p>
+<dt><strong>vector_field</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Name of the vector field.</p>
 </dd>
 </dl>
 </dd>
@@ -8650,7 +8614,7 @@ data will be provided for element location.</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldData.get_fields">
 <span class="sig-prename descclassname"><span class="pre">FieldData.</span></span><span class="sig-name descname"><span class="pre">get_fields</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldData.get_fields" title="Permalink to this definition">#</a></dt>
-<dd><p>Provide data for previously added requests.</p>
+<dd><p>Get data for previously added requests.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns</dt>
 <dd class="field-odd"><dl class="simple">
@@ -8670,22 +8634,22 @@ tag_id [int]-&gt; surface_id [int] -&gt; field_name [str] -&gt; field_data[np.ar
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldData.get_surface_data">
 <span class="sig-prename descclassname"><span class="pre">FieldData.</span></span><span class="sig-name descname"><span class="pre">get_surface_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data_type</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">overset_mesh</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldData.get_surface_data" title="Permalink to this definition">#</a></dt>
-<dd><p>Get surface data i.e. vertices, faces connectivity, centroids and
-normals.</p>
+<dd><p>Get surface data (vertices, faces connectivity, centroids, and
+normals).</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>surface_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Surface name for surface data.</p>
+<dt><strong>surface_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Surface name for the surface data.</p>
 </dd>
 <dt><strong>data_type</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SurfaceDataType</span></code></span></dt><dd><p>SurfaceDataType Enum member.</p>
 </dd>
-<dt><strong>overset_mesh</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>If set to True overset mesh will be provided.</p>
+<dt><strong>overset_mesh</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to provide the overset method. The default is <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
 </dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">Dict</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">np.array</span></code>]</dt><dd><p>Dictionary containing map of surface id to surface data.</p>
+<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">Dict</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">np.array</span></code>]</dt><dd><p>Dictionary containing a map of surface IDs to surface data.</p>
 </dd>
 </dl>
 </dd>
@@ -8704,20 +8668,21 @@ normals.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>surface_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Surface name, for scalar field data.</p>
+<dt><strong>surface_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the surface.</p>
 </dd>
-<dt><strong>field_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Scalar field name.</p>
+<dt><strong>field_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the scalar field.</p>
 </dd>
-<dt><strong>node_value</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>if set to True data will be provided for nodal location otherwise
-data will be provided for element location.</p>
+<dt><strong>node_value</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to provide data for the nodal location. The default is <code class="docutils literal notranslate"><span class="pre">True</span></code>.
+When <code class="docutils literal notranslate"><span class="pre">False</span></code>, data is provided for the element location.</p>
 </dd>
-<dt><strong>boundary_value</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>if set to True, no slip velocity will be provided at wall boundaries.</p>
+<dt><strong>boundary_value</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to provide slip velocity at the wall boundaries. The default is
+<code class="docutils literal notranslate"><span class="pre">False</span></code>. When <code class="docutils literal notranslate"><span class="pre">True</span></code>, no slip velocity is provided.</p>
 </dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">Dict</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">np.array</span></code>]</dt><dd><p>Dictionary containing map of surface id to scalar field.</p>
+<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">Dict</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">np.array</span></code>]</dt><dd><p>Dictionary containing a map of surface IDs to the scalar field.</p>
 </dd>
 </dl>
 </dd>
@@ -8732,19 +8697,19 @@ data will be provided for element location.</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldData.get_vector_field_data">
 <span class="sig-prename descclassname"><span class="pre">FieldData.</span></span><span class="sig-name descname"><span class="pre">get_vector_field_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vector_field</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'velocity'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldData.get_vector_field_data" title="Permalink to this definition">#</a></dt>
-<dd><p>Get vector field data on surface.</p>
+<dd><p>Get vector field data on a surface.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
-<dt><strong>surface_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Surface name, for vector field data.</p>
+<dt><strong>surface_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the surface.</p>
 </dd>
-<dt><strong>vector_field</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Vector field name.</p>
+<dt><strong>vector_field</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Name of the vector field.</p>
 </dd>
 </dl>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">Dict</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">Tuple</span></code>[<code class="xref py py-obj docutils literal notranslate"><span class="pre">np.array</span></code>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a>]]</dt><dd><p>Dictionary containing map of surface id to  Tuple of vector field and vector scale.</p>
+<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">Dict</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">Tuple</span></code>[<code class="xref py py-obj docutils literal notranslate"><span class="pre">np.array</span></code>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#float" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">float</span></code></a>]]</dt><dd><p>Dictionary containing a map of surface IDs to a tuple of vector field and vector scale.</p>
 </dd>
 </dl>
 </dd>

@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Defining Boundary Conditions &#8212; PyFluent</title>
+    <title>Defining boundary conditions &#8212; PyFluent</title>
     
 <script>
   document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
@@ -53,8 +53,8 @@
     <link rel="shortcut icon" href="../_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Applying Solution Settings" href="solution.html" />
-    <link rel="prev" title="Defining Materials" href="materials.html" />
+    <link rel="next" title="Applying solution settings" href="solution.html" />
+    <link rel="prev" title="Defining materials" href="materials.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="docsearch:language" content="None">
   </head>
@@ -101,19 +101,19 @@
         <ul id="navbar-main-elements" class="navbar-nav">
     <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../getting_started/index.html">
-  Getting Started
+  Getting started
  </a>
 </li>
 
 <li class="toctree-l1 current active nav-item">
  <a class="reference internal nav-link" href="index.html">
-  User Guide
+  User guide
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../api/index.html">
-  API Reference
+  API reference
  </a>
 </li>
 
@@ -175,8 +175,8 @@
         <li class="nav-item nav-item-0"><a href="../index.html">PyFluent</a> » </li>
     
 
-          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User Guide</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">Defining Boundary Conditions</a></li> 
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User guide</a> » </li>
+        <li class="nav-item nav-item-this"><a href="">Defining boundary conditions</a></li> 
       </ul>
     </div>
         </div>
@@ -199,47 +199,47 @@
     <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="launching_ansys_fluent.html">
-   Launching Ansys Fluent Locally
+   Launching Fluent locally
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="tui_commands.html">
-   Using TUI Commands
+   Using TUI commands
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="meshing_workflows.html">
-   Using the Meshing Workflows
+   Using meshing workflows
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="general_settings.html">
-   Applying General Settings
+   Applying general settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="solver_settings.html">
-   Specifying Solver Settings
+   Specifying solver settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="models.html">
-   Defining Models
+   Defining models
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="materials.html">
-   Defining Materials
+   Defining materials
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Defining Boundary Conditions
+   Defining boundary conditions
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="solution.html">
-   Applying Solution Settings
+   Applying solution settings
   </a>
  </li>
 </ul>
@@ -267,40 +267,45 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#solver-tui-commands">
-   Solver TUI Commands
+  <a class="reference internal nav-link" href="#using-solver-tui-commands">
+   Using solver TUI commands
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     Defining boundary conditions
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#copying-boundary-conditions">
-     Copying Boundary Conditions
+     Copying boundary conditions
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#listing-zones">
-     Listing Zones
+     Listing zones
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#modifying-cell-zone-conditions">
-     Modifying Cell Zone Conditions
+     Modifying cell zone conditions
     </a>
    </li>
   </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#settings-objects">
-   Settings Objects
+  <a class="reference internal nav-link" href="#using-settings-objects">
+   Using settings objects
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id1">
-     Defining Boundary Conditions
+    <a class="reference internal nav-link" href="#id2">
+     Defining boundary conditions
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id2">
-     Modifying Cell Zone Conditions
+    <a class="reference internal nav-link" href="#id3">
+     Modifying cell zone conditions
     </a>
    </li>
   </ul>
@@ -325,12 +330,17 @@
               <article class="bd-article" role="main">
                 
   <section id="defining-boundary-conditions">
-<h1>Defining Boundary Conditions<a class="headerlink" href="#defining-boundary-conditions" title="Permalink to this headline">#</a></h1>
-<p>PyFluent supports defining boundary conditions using the <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI Commands</span></a> and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects</span></a>.</p>
-<section id="solver-tui-commands">
-<h2>Solver TUI Commands<a class="headerlink" href="#solver-tui-commands" title="Permalink to this headline">#</a></h2>
-<p>The following example demonstrates how you can define boundary conditions using
-<a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI Commands</span></a>:</p>
+<h1>Defining boundary conditions<a class="headerlink" href="#defining-boundary-conditions" title="Permalink to this headline">#</a></h1>
+<p>PyFluent supports defining boundary conditions using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>
+and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
+<section id="using-solver-tui-commands">
+<h2>Using solver TUI commands<a class="headerlink" href="#using-solver-tui-commands" title="Permalink to this headline">#</a></h2>
+<p>These examples show how you define and copy boundary conditions, list zones,
+and modify cell zone conditions using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>.</p>
+<section id="id1">
+<h3>Defining boundary conditions<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">define.boundary_counditions.set.velocity_inlet</span></code> TUI command defines velocity
+boundary conditions at inlets.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><span class="s1">&#39;file.cas.h5&#39;</span><span class="p">)</span>
@@ -376,23 +386,26 @@
 <span class="p">)</span>
 </pre></div>
 </div>
+</section>
 <section id="copying-boundary-conditions">
-<h3>Copying Boundary Conditions<a class="headerlink" href="#copying-boundary-conditions" title="Permalink to this headline">#</a></h3>
-<p>define/boundary-conditions/copy-bc TUI: Copies boundary conditions to other zones.</p>
+<h3>Copying boundary conditions<a class="headerlink" href="#copying-boundary-conditions" title="Permalink to this headline">#</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">define.boundary_conditions.copy_bc</span></code> TUI command copies boundary conditions
+to other zones.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">copy_bc</span><span class="p">(</span><span class="s1">&#39;cold-inlet&#39;</span><span class="p">,</span><span class="s1">&#39;hot-inlet&#39;</span><span class="p">,</span><span class="s1">&#39;()&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 <section id="listing-zones">
-<h3>Listing Zones<a class="headerlink" href="#listing-zones" title="Permalink to this headline">#</a></h3>
-<p>define/boundary-conditions/list-zones TUI: Prints out the types and IDs of all
-zones in the console window.</p>
+<h3>Listing zones<a class="headerlink" href="#listing-zones" title="Permalink to this headline">#</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">define.boundary_conditions.list_zones</span></code> TUI command prints in the Fluent console
+the types and IDs of all zones.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">list_zones</span><span class="p">()</span>
 </pre></div>
 </div>
 </section>
 <section id="modifying-cell-zone-conditions">
-<h3>Modifying Cell Zone Conditions<a class="headerlink" href="#modifying-cell-zone-conditions" title="Permalink to this headline">#</a></h3>
+<h3>Modifying cell zone conditions<a class="headerlink" href="#modifying-cell-zone-conditions" title="Permalink to this headline">#</a></h3>
+<p>The <code class="docutils literal notranslate"><span class="pre">define.boundary_conditions.fluid</span></code> TUI command modifies cell zone conditions.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#Enabling Laminar Zone</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">(</span>
     <span class="s1">&#39;elbow-fluid&#39;</span><span class="p">,</span>
@@ -423,12 +436,12 @@ zones in the console window.</p>
 </div>
 </section>
 </section>
-<section id="settings-objects">
-<h2>Settings Objects<a class="headerlink" href="#settings-objects" title="Permalink to this headline">#</a></h2>
-<p>The following example demonstrates how you can define boundary conditions using
-<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings Objects</span></a>:</p>
-<section id="id1">
-<h3>Defining Boundary Conditions<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
+<section id="using-settings-objects">
+<h2>Using settings objects<a class="headerlink" href="#using-settings-objects" title="Permalink to this headline">#</a></h2>
+<p>The following examples show how you define boundary conditions using
+<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
+<section id="id2">
+<h3>Defining boundary conditions<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">[</span><span class="s1">&#39;cold-inlet&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">vmag</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s1">&#39;option&#39;</span><span class="p">:</span> <span class="s1">&#39;constant or expression&#39;</span><span class="p">,</span>
     <span class="s1">&#39;constant&#39;</span><span class="p">:</span> <span class="mf">0.4</span><span class="p">,</span>
@@ -449,8 +462,8 @@ zones in the console window.</p>
 </pre></div>
 </div>
 </section>
-<section id="id2">
-<h3>Modifying Cell Zone Conditions<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h3>
+<section id="id3">
+<h3>Modifying cell zone conditions<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#Enabling Laminar Zone</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">cell_zone_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">[</span><span class="s1">&#39;elbow-fluid&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;laminar&#39;</span> <span class="p">:</span> <span class="kc">True</span><span class="p">}</span>
 </pre></div>

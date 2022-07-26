@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Launching Ansys Fluent Locally &#8212; PyFluent</title>
+    <title>Launching Fluent locally &#8212; PyFluent</title>
     
 <script>
   document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
@@ -53,8 +53,8 @@
     <link rel="shortcut icon" href="../_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Using TUI Commands" href="tui_commands.html" />
-    <link rel="prev" title="User Guide" href="index.html" />
+    <link rel="next" title="Using TUI commands" href="tui_commands.html" />
+    <link rel="prev" title="User guide" href="index.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="docsearch:language" content="None">
   </head>
@@ -101,19 +101,19 @@
         <ul id="navbar-main-elements" class="navbar-nav">
     <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../getting_started/index.html">
-  Getting Started
+  Getting started
  </a>
 </li>
 
 <li class="toctree-l1 current active nav-item">
  <a class="reference internal nav-link" href="index.html">
-  User Guide
+  User guide
  </a>
 </li>
 
 <li class="toctree-l1 nav-item">
  <a class="reference internal nav-link" href="../api/index.html">
-  API Reference
+  API reference
  </a>
 </li>
 
@@ -175,8 +175,8 @@
         <li class="nav-item nav-item-0"><a href="../index.html">PyFluent</a> » </li>
     
 
-          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User Guide</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">Launching Ansys Fluent Locally</a></li> 
+          <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User guide</a> » </li>
+        <li class="nav-item nav-item-this"><a href="">Launching Fluent locally</a></li> 
       </ul>
     </div>
         </div>
@@ -199,47 +199,47 @@
     <ul class="current nav bd-sidenav">
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Launching Ansys Fluent Locally
+   Launching Fluent locally
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="tui_commands.html">
-   Using TUI Commands
+   Using TUI commands
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="meshing_workflows.html">
-   Using the Meshing Workflows
+   Using meshing workflows
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="general_settings.html">
-   Applying General Settings
+   Applying general settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="solver_settings.html">
-   Specifying Solver Settings
+   Specifying solver settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="models.html">
-   Defining Models
+   Defining models
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="materials.html">
-   Defining Materials
+   Defining materials
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="boundary_conditions.html">
-   Defining Boundary Conditions
+   Defining boundary conditions
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="solution.html">
-   Applying Solution Settings
+   Applying solution settings
   </a>
  </li>
 </ul>
@@ -268,17 +268,17 @@
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#launcher-options">
-   Launcher Options
+   Launcher options
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#solver-mode">
-     Solver Mode
+     Solver mode
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#meshing-mode">
-     Meshing Mode
+     Meshing mode
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -293,15 +293,10 @@
    </li>
    <li class="toc-h3 nav-item toc-entry">
     <a class="reference internal nav-link" href="#number-of-processors">
-     Number of Processors
+     Number of processors
     </a>
    </li>
   </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#api-reference">
-   API Reference
-  </a>
  </li>
 </ul>
 
@@ -322,20 +317,23 @@
               
               <article class="bd-article" role="main">
                 
-  <section id="launching-ansys-fluent-locally">
-<span id="ref-user-guide-launch"></span><h1>Launching Ansys Fluent Locally<a class="headerlink" href="#launching-ansys-fluent-locally" title="Permalink to this headline">#</a></h1>
-<p>Fluent can be started from Python in gRPC mode using
-<a class="reference internal" href="../api/core/_autosummary/ansys.fluent.core.launcher.launcher.launch_fluent.html#ansys.fluent.core.launcher.launcher.launch_fluent" title="ansys.fluent.core.launcher.launcher.launch_fluent"><code class="xref py py-func docutils literal notranslate"><span class="pre">launch_fluent()</span></code></a>.
-This starts Fluent in the background and sends commands to that service.</p>
+  <section id="launching-fluent-locally">
+<span id="ref-user-guide-launch"></span><h1>Launching Fluent locally<a class="headerlink" href="#launching-fluent-locally" title="Permalink to this headline">#</a></h1>
+<p>You can use the <a class="reference internal" href="../api/core/_autosummary/ansys.fluent.core.launcher.launcher.launch_fluent.html#ansys.fluent.core.launcher.launcher.launch_fluent" title="ansys.fluent.core.launcher.launcher.launch_fluent"><code class="xref py py-func docutils literal notranslate"><span class="pre">launch_fluent()</span></code></a>
+method to start Fluent from Python in gRPC mode. The following code starts Fluent in the
+background and sends commands to this service.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">()</span>
 </pre></div>
 </div>
 <section id="launcher-options">
-<h2>Launcher Options<a class="headerlink" href="#launcher-options" title="Permalink to this headline">#</a></h2>
+<h2>Launcher options<a class="headerlink" href="#launcher-options" title="Permalink to this headline">#</a></h2>
+<p>The following examples show different ways that you can launch Fluent locally.
+For more information, see the description for the <a class="reference internal" href="../api/core/_autosummary/ansys.fluent.core.launcher.launcher.launch_fluent.html#ansys.fluent.core.launcher.launcher.launch_fluent" title="ansys.fluent.core.launcher.launcher.launch_fluent"><code class="xref py py-func docutils literal notranslate"><span class="pre">launch_fluent()</span></code></a>
+method.</p>
 <section id="solver-mode">
-<h3>Solver Mode<a class="headerlink" href="#solver-mode" title="Permalink to this headline">#</a></h3>
-<p>The following examples demonstrate how you can start Fluent in solution mode:</p>
+<h3>Solver mode<a class="headerlink" href="#solver-mode" title="Permalink to this headline">#</a></h3>
+<p>This example shows how you can start Fluent in solution mode:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session_a</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">()</span>
 
 <span class="n">solver_session_b</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">meshing_mode</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
@@ -343,38 +341,33 @@ This starts Fluent in the background and sends commands to that service.</p>
 </div>
 </section>
 <section id="meshing-mode">
-<h3>Meshing Mode<a class="headerlink" href="#meshing-mode" title="Permalink to this headline">#</a></h3>
-<p>The following example demonstrates how you can start Fluent in meshing mode:</p>
+<h3>Meshing mode<a class="headerlink" href="#meshing-mode" title="Permalink to this headline">#</a></h3>
+<p>This example shows how you can start Fluent in meshing mode:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">meshing_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 <section id="precision">
 <h3>Precision<a class="headerlink" href="#precision" title="Permalink to this headline">#</a></h3>
-<p>The following example demonstrates how you can select double precision in solution mode:</p>
+<p>This example shows how you can select double precision in solution mode:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 <section id="dimension">
 <h3>Dimension<a class="headerlink" href="#dimension" title="Permalink to this headline">#</a></h3>
-<p>The following example demonstrates how you can select double precision and 2D in solution mode:</p>
+<p>This example shows how you can select double precision and 2D in solution mode:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="s1">&#39;2d&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 <section id="number-of-processors">
-<h3>Number of Processors<a class="headerlink" href="#number-of-processors" title="Permalink to this headline">#</a></h3>
-<p>The following example demonstrates how you can select the number of processors:</p>
+<h3>Number of processors<a class="headerlink" href="#number-of-processors" title="Permalink to this headline">#</a></h3>
+<p>This example shows how you can also select the number of processors:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="s1">&#39;2d&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
-</section>
-<section id="api-reference">
-<h2>API Reference<a class="headerlink" href="#api-reference" title="Permalink to this headline">#</a></h2>
-<p>For more details on controlling how Ansys Fluent launches locally, see the
-function description for <a class="reference internal" href="../api/core/_autosummary/ansys.fluent.core.launcher.launcher.launch_fluent.html#ansys.fluent.core.launcher.launcher.launch_fluent" title="ansys.fluent.core.launcher.launcher.launch_fluent"><code class="xref py py-func docutils literal notranslate"><span class="pre">launch_fluent()</span></code></a>.</p>
 </section>
 </section>
 
