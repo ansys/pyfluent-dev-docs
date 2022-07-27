@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -44,6 +44,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/thebelab-helper.js"></script>
     <script src="../_static/clipboard.min.js"></script>
@@ -56,7 +57,7 @@
     <link rel="next" title="Applying general settings" href="general_settings.html" />
     <link rel="prev" title="Using TUI commands" href="tui_commands.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="docsearch:language" content="None">
+<meta name="docsearch:language" content="en">
   </head>
   
   
@@ -410,14 +411,14 @@
               <article class="bd-article" role="main">
                 
   <section id="using-meshing-workflows">
-<span id="ref-user-guide-meshing-workflows"></span><h1>Using meshing workflows<a class="headerlink" href="#using-meshing-workflows" title="Permalink to this headline">#</a></h1>
+<span id="ref-user-guide-meshing-workflows"></span><h1>Using meshing workflows<a class="headerlink" href="#using-meshing-workflows" title="Permalink to this heading">#</a></h1>
 <p>PyFluent supports accessing all Fluent meshing functionalities, including
 guided meshing workflows.</p>
 <section id="using-the-watertight-geometry-meshing-workflow">
-<h2>Using the watertight geometry meshing workflow<a class="headerlink" href="#using-the-watertight-geometry-meshing-workflow" title="Permalink to this headline">#</a></h2>
+<h2>Using the watertight geometry meshing workflow<a class="headerlink" href="#using-the-watertight-geometry-meshing-workflow" title="Permalink to this heading">#</a></h2>
 <p>This simple example shows how you use the watertight geometry meshing workflow.</p>
 <section id="import-geometry">
-<h3>Import geometry<a class="headerlink" href="#import-geometry" title="Permalink to this headline">#</a></h3>
+<h3>Import geometry<a class="headerlink" href="#import-geometry" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
 
@@ -434,14 +435,14 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="add-local-sizing">
-<h3>Add local sizing<a class="headerlink" href="#add-local-sizing" title="Permalink to this headline">#</a></h3>
+<h3>Add local sizing<a class="headerlink" href="#add-local-sizing" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Add Local Sizing&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
 <span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Add Local Sizing&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 </pre></div>
 </div>
 </section>
 <section id="generate-surface-mesh">
-<h3>Generate surface mesh<a class="headerlink" href="#generate-surface-mesh" title="Permalink to this headline">#</a></h3>
+<h3>Generate surface mesh<a class="headerlink" href="#generate-surface-mesh" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Generate the Surface Mesh&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s1">&#39;CFDSurfaceMeshControls&#39;</span><span class="p">:</span> <span class="p">{</span><span class="s1">&#39;MaxSize&#39;</span><span class="p">:</span> <span class="mf">0.3</span><span class="p">}</span>
 <span class="p">}</span>
@@ -450,7 +451,7 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="describe-geometry">
-<h3>Describe geometry<a class="headerlink" href="#describe-geometry" title="Permalink to this headline">#</a></h3>
+<h3>Describe geometry<a class="headerlink" href="#describe-geometry" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Describe Geometry&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">UpdateChildTasks</span><span class="p">(</span>
     <span class="n">SetupTypeChanged</span><span class="o">=</span><span class="kc">False</span>
 <span class="p">)</span>
@@ -465,7 +466,7 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="update-boundaries">
-<h3>Update boundaries<a class="headerlink" href="#update-boundaries" title="Permalink to this headline">#</a></h3>
+<h3>Update boundaries<a class="headerlink" href="#update-boundaries" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Update Boundaries&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s1">&#39;BoundaryLabelList&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;wall-inlet&#39;</span><span class="p">],</span>
     <span class="s1">&#39;BoundaryLabelTypeList&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;wall&#39;</span><span class="p">],</span>
@@ -477,13 +478,13 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="update-regions">
-<h3>Update regions<a class="headerlink" href="#update-regions" title="Permalink to this headline">#</a></h3>
+<h3>Update regions<a class="headerlink" href="#update-regions" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Update Regions&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 </pre></div>
 </div>
 </section>
 <section id="add-boundary-layers">
-<h3>Add boundary layers<a class="headerlink" href="#add-boundary-layers" title="Permalink to this headline">#</a></h3>
+<h3>Add boundary layers<a class="headerlink" href="#add-boundary-layers" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Add Boundary Layers&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
 <span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Add Boundary Layers&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
 <span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;smooth-transition_1&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
@@ -495,7 +496,7 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="generate-volume-mesh">
-<h3>Generate volume mesh<a class="headerlink" href="#generate-volume-mesh" title="Permalink to this headline">#</a></h3>
+<h3>Generate volume mesh<a class="headerlink" href="#generate-volume-mesh" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Generate the Volume Mesh&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s1">&#39;VolumeFill&#39;</span><span class="p">:</span> <span class="s1">&#39;poly-hexcore&#39;</span><span class="p">,</span>
     <span class="s1">&#39;VolumeFillControls&#39;</span><span class="p">:</span> <span class="p">{</span>
@@ -507,17 +508,17 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="switch-to-solution-mode">
-<h3>Switch to solution mode<a class="headerlink" href="#switch-to-solution-mode" title="Permalink to this headline">#</a></h3>
+<h3>Switch to solution mode<a class="headerlink" href="#switch-to-solution-mode" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">switch_to_solution_mode</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 </section>
 <section id="using-the-fault-tolerant-meshing-workflow">
-<h2>Using the fault-tolerant meshing workflow<a class="headerlink" href="#using-the-fault-tolerant-meshing-workflow" title="Permalink to this headline">#</a></h2>
+<h2>Using the fault-tolerant meshing workflow<a class="headerlink" href="#using-the-fault-tolerant-meshing-workflow" title="Permalink to this heading">#</a></h2>
 <p>This simple example shows how you use the fault-tolerant meshing workflow.</p>
 <section id="import-cad-and-part-management">
-<h3>Import CAD and part management<a class="headerlink" href="#import-cad-and-part-management" title="Permalink to this headline">#</a></h3>
+<h3>Import CAD and part management<a class="headerlink" href="#import-cad-and-part-management" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
 
@@ -565,7 +566,7 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="describe-geometry-and-flow">
-<h3>Describe geometry and flow<a class="headerlink" href="#describe-geometry-and-flow" title="Permalink to this headline">#</a></h3>
+<h3>Describe geometry and flow<a class="headerlink" href="#describe-geometry-and-flow" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Describe Geometry and Flow&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
     <span class="p">{</span>
         <span class="s1">&#39;AddEnclosure&#39;</span><span class="p">:</span> <span class="s1">&#39;No&#39;</span><span class="p">,</span>
@@ -595,7 +596,7 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="enclose-fluid-regions-capping">
-<h3>Enclose fluid regions (capping)<a class="headerlink" href="#enclose-fluid-regions-capping" title="Permalink to this headline">#</a></h3>
+<h3>Enclose fluid regions (capping)<a class="headerlink" href="#enclose-fluid-regions-capping" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span>
     <span class="s1">&#39;Enclose Fluid Regions (Capping)&#39;</span>
 <span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
@@ -756,7 +757,7 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="extract-edge-features">
-<h3>Extract edge features<a class="headerlink" href="#extract-edge-features" title="Permalink to this headline">#</a></h3>
+<h3>Extract edge features<a class="headerlink" href="#extract-edge-features" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Extract Edge Features&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
     <span class="p">{</span>
         <span class="s1">&#39;ExtractMethodType&#39;</span><span class="p">:</span> <span class="s1">&#39;Intersection Loops&#39;</span><span class="p">,</span>
@@ -781,7 +782,7 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="identify-regions">
-<h3>Identify regions<a class="headerlink" href="#identify-regions" title="Permalink to this headline">#</a></h3>
+<h3>Identify regions<a class="headerlink" href="#identify-regions" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Identify Regions&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
     <span class="p">{</span>
         <span class="s1">&#39;SelectionType&#39;</span><span class="p">:</span> <span class="s1">&#39;zone&#39;</span><span class="p">,</span>
@@ -858,7 +859,7 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="define-leakage-threshold">
-<h3>Define leakage threshold<a class="headerlink" href="#define-leakage-threshold" title="Permalink to this headline">#</a></h3>
+<h3>Define leakage threshold<a class="headerlink" href="#define-leakage-threshold" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Define Leakage Threshold&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
     <span class="p">{</span>
         <span class="s1">&#39;AddChild&#39;</span><span class="p">:</span> <span class="s1">&#39;yes&#39;</span><span class="p">,</span>
@@ -891,7 +892,7 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="update-regions-settings">
-<h3>Update regions settings<a class="headerlink" href="#update-regions-settings" title="Permalink to this headline">#</a></h3>
+<h3>Update regions settings<a class="headerlink" href="#update-regions-settings" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Update Region Settings&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
     <span class="p">{</span>
         <span class="s1">&#39;AllRegionFilterCategories&#39;</span><span class="p">:</span> <span class="p">[</span><span class="s1">&#39;2&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">5</span> <span class="o">+</span> <span class="p">[</span><span class="s1">&#39;1&#39;</span><span class="p">]</span> <span class="o">*</span> <span class="mi">2</span><span class="p">,</span>
@@ -931,25 +932,25 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="choose-mesh-control-options">
-<h3>Choose mesh control options<a class="headerlink" href="#choose-mesh-control-options" title="Permalink to this headline">#</a></h3>
+<h3>Choose mesh control options<a class="headerlink" href="#choose-mesh-control-options" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Choose Mesh Control Options&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 </pre></div>
 </div>
 </section>
 <section id="generating-surface-mesh">
-<h3>Generating surface mesh<a class="headerlink" href="#generating-surface-mesh" title="Permalink to this headline">#</a></h3>
+<h3>Generating surface mesh<a class="headerlink" href="#generating-surface-mesh" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Generate the Surface Mesh&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 </pre></div>
 </div>
 </section>
 <section id="id1">
-<h3>Update boundaries<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
+<h3>Update boundaries<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Update Boundaries&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 </pre></div>
 </div>
 </section>
 <section id="id2">
-<h3>Add boundary layers<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h3>
+<h3>Add boundary layers<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Add Boundary Layers&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">AddChildToTask</span><span class="p">()</span>
 
 <span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Add Boundary Layers&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">InsertCompoundChildTask</span><span class="p">()</span>
@@ -966,7 +967,7 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="id3">
-<h3>Generate volume mesh<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h3>
+<h3>Generate volume mesh<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s1">&#39;Generate the Volume Mesh&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span>
     <span class="p">{</span>
         <span class="s1">&#39;AllRegionNameList&#39;</span><span class="p">:</span> <span class="p">[</span>
@@ -988,7 +989,7 @@ guided meshing workflows.</p>
 </div>
 </section>
 <section id="id4">
-<h3>Switch to solution mode<a class="headerlink" href="#id4" title="Permalink to this headline">#</a></h3>
+<h3>Switch to solution mode<a class="headerlink" href="#id4" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">switch_to_solution_mode</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -1021,7 +1022,7 @@ guided meshing workflows.</p>
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.0.<br>
 </p>
   </div>
   

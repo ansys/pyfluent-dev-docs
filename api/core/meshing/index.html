@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -44,6 +44,7 @@
     <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
     <script src="../../../_static/jquery.js"></script>
     <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../_static/doctools.js"></script>
     <script src="../../../_static/thebelab-helper.js"></script>
     <script src="../../../_static/clipboard.min.js"></script>
@@ -56,7 +57,7 @@
     <link rel="next" title="meshing.tui" href="tui/index.html" />
     <link rel="prev" title="asynchronous" href="../_autosummary/ansys.fluent.core.utils.async_execution.asynchronous.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="docsearch:language" content="None">
+<meta name="docsearch:language" content="en">
   </head>
   
   
@@ -8284,11 +8285,11 @@
               <article class="bd-article" role="main">
                 
   <section id="meshing">
-<span id="ref-meshing"></span><h1>Meshing<a class="headerlink" href="#meshing" title="Permalink to this headline">#</a></h1>
+<span id="ref-meshing"></span><h1>Meshing<a class="headerlink" href="#meshing" title="Permalink to this heading">#</a></h1>
 <p>This module allows you to use Fluent meshing capabilities from Python. Both
 of the meshing workflows and the meshing TUI commands are available.</p>
 <section id="workflow-example">
-<h2>Workflow example<a class="headerlink" href="#workflow-example" title="Permalink to this headline">#</a></h2>
+<h2>Workflow example<a class="headerlink" href="#workflow-example" title="Permalink to this heading">#</a></h2>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">start_transcript</span><span class="p">()</span>
@@ -8374,7 +8375,7 @@ and the equivalent PyFluent script.</p>
 </div>
 </section>
 <section id="tui-commands-example">
-<h2>TUI commands example<a class="headerlink" href="#tui-commands-example" title="Permalink to this headline">#</a></h2>
+<h2>TUI commands example<a class="headerlink" href="#tui-commands-example" title="Permalink to this heading">#</a></h2>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="s2">&quot;elbow.cas.gz&quot;</span><span class="p">)</span>
@@ -8383,7 +8384,7 @@ and the equivalent PyFluent script.</p>
 <span class="n">exit</span><span class="p">()</span>
 </pre></div>
 </div>
-<table class="longtable table autosummary">
+<table class="autosummary longtable table autosummary">
 <colgroup>
 <col style="width: 10%" />
 <col style="width: 90%" />
@@ -8421,7 +8422,7 @@ and the equivalent PyFluent script.</p>
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.0.<br>
 </p>
   </div>
   

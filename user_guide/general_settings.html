@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -44,6 +44,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/thebelab-helper.js"></script>
     <script src="../_static/clipboard.min.js"></script>
@@ -56,7 +57,7 @@
     <link rel="next" title="Specifying solver settings" href="solver_settings.html" />
     <link rel="prev" title="Using meshing workflows" href="meshing_workflows.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="docsearch:language" content="None">
+<meta name="docsearch:language" content="en">
   </head>
   
   
@@ -306,18 +307,25 @@
               <article class="bd-article" role="main">
                 
   <section id="applying-general-settings">
-<h1>Applying general settings<a class="headerlink" href="#applying-general-settings" title="Permalink to this headline">#</a></h1>
+<h1>Applying general settings<a class="headerlink" href="#applying-general-settings" title="Permalink to this heading">#</a></h1>
 <p>PyFluent supports applying general settings using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and
 <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
 <p>The following examples shows how you use solver meshing commands
 and set up units using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>.</p>
 <section id="checking-the-mesh">
-<h2>Checking the mesh<a class="headerlink" href="#checking-the-mesh" title="Permalink to this headline">#</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">mesh.check</span></code> TUI performs various mesh consistency checks and displays a
+<h2>Checking the mesh<a class="headerlink" href="#checking-the-mesh" title="Permalink to this heading">#</a></h2>
+<p>The following example shows a comparison between the TUI command and the
+Python code for performing mesh consistency checks and displaying a
 report in the console that lists domain extents, volume statistics,
-face area statistics, any warnings, and information about various check and mesh
-failures. THe level of information shown depends on the setting specified for
-<code class="docutils literal notranslate"><span class="pre">mesh.check-verbosity</span></code>.</p>
+face area statistics, any warnings, and information about failures.
+The level of information shown depends on the setting specified for
+the verbosity (level 0 to 3).</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/mesh/check</span><span class="w"></span>
+<span class="nv">/mesh/check-verbosity</span><span class="w"> </span><span class="mi">1</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><span class="s1">&#39;file.cas.h5&#39;</span><span class="p">)</span>
@@ -326,26 +334,42 @@ failures. THe level of information shown depends on the setting specified for
 </div>
 </section>
 <section id="reporting-mesh-quality">
-<h2>Reporting mesh quality<a class="headerlink" href="#reporting-mesh-quality" title="Permalink to this headline">#</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">mesh.quality</span></code> TUI displays information about the quality of the mesh in the
-console, including the minimum orthogonal quality and maximum aspect ratio.
-The level of information that is shown depends on the setting specified for
-<code class="docutils literal notranslate"><span class="pre">mesh.check-verbosity</span></code>.</p>
+<h2>Reporting mesh quality<a class="headerlink" href="#reporting-mesh-quality" title="Permalink to this heading">#</a></h2>
+<p>The following example shows a comparison between the TUI command and the
+Python code for displaying information about the quality of the mesh in the
+console, including the minimum orthogonal quality and maximum aspect ratio.</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/mesh/quality</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">quality</span><span class="p">()</span>
 </pre></div>
 </div>
 </section>
 <section id="scaling-mesh">
-<h2>Scaling mesh<a class="headerlink" href="#scaling-mesh" title="Permalink to this headline">#</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">mesh.scale</span></code> TUI prompts for the scaling factors in each of the active Cartesian
+<h2>Scaling mesh<a class="headerlink" href="#scaling-mesh" title="Permalink to this heading">#</a></h2>
+<p>The following example shows a comparison between the TUI command and the
+Python code for the scaling the mesh in each of the active Cartesian
 coordinate directions.</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/mesh/scale</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">1</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">scale</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 <section id="defining-units">
-<h2>Defining units<a class="headerlink" href="#defining-units" title="Permalink to this headline">#</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.units</span></code> TUI sets unit conversion factors.</p>
+<h2>Defining units<a class="headerlink" href="#defining-units" title="Permalink to this heading">#</a></h2>
+<p>The following example shows a comparison between the TUI command and the
+Python code for setting the unit conversion factors.</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/units</span><span class="w"> </span><span class="nb">length</span><span class="w"> </span><span class="ss">&#39;in</span><span class="o">&#39;</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">units</span><span class="p">(</span><span class="s1">&#39;length&#39;</span><span class="p">,</span> <span class="s1">&#39;in&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -377,7 +401,7 @@ coordinate directions.</p>
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.0.<br>
 </p>
   </div>
   

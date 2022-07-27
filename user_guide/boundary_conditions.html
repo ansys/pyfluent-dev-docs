@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -44,6 +44,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/thebelab-helper.js"></script>
     <script src="../_static/clipboard.min.js"></script>
@@ -56,7 +57,7 @@
     <link rel="next" title="Applying solution settings" href="solution.html" />
     <link rel="prev" title="Defining materials" href="materials.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="docsearch:language" content="None">
+<meta name="docsearch:language" content="en">
   </head>
   
   
@@ -330,23 +331,32 @@
               <article class="bd-article" role="main">
                 
   <section id="defining-boundary-conditions">
-<h1>Defining boundary conditions<a class="headerlink" href="#defining-boundary-conditions" title="Permalink to this headline">#</a></h1>
+<h1>Defining boundary conditions<a class="headerlink" href="#defining-boundary-conditions" title="Permalink to this heading">#</a></h1>
 <p>PyFluent supports defining boundary conditions using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>
 and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
 <section id="using-solver-tui-commands">
-<h2>Using solver TUI commands<a class="headerlink" href="#using-solver-tui-commands" title="Permalink to this headline">#</a></h2>
+<h2>Using solver TUI commands<a class="headerlink" href="#using-solver-tui-commands" title="Permalink to this heading">#</a></h2>
 <p>These examples show how you define and copy boundary conditions, list zones,
 and modify cell zone conditions using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>.</p>
 <section id="id1">
-<h3>Defining boundary conditions<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.boundary_counditions.set.velocity_inlet</span></code> TUI command defines velocity
-boundary conditions at inlets.</p>
+<h3>Defining boundary conditions<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<p>The following example shows a comparison between the TUI command and the
+Python code for defining velocity boundary conditions at inlets.</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/boundary-counditions/set/velocity-inlet</span><span class="w"> </span><span class="nv">cold-inlet</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="nv">vmag</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mf">0.4</span><span class="w"> </span><span class="nb">quit</span><span class="w"></span>
+<span class="nv">/define/boundary-counditions/set/velocity-inlet</span><span class="w"> </span><span class="nv">cold-inlet</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="nv">ke-spec</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">yes</span><span class="w"> </span><span class="nb">quit</span><span class="w"></span>
+<span class="nv">/define/boundary-counditions/set/velocity-inlet</span><span class="w"> </span><span class="nv">cold-inlet</span><span class="p">()</span><span class="w"> </span><span class="nv">cold-inlet</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="nv">turb-intensity</span><span class="w"> </span><span class="mi">5</span><span class="w"> </span><span class="nb">quit</span><span class="w"></span>
+<span class="nv">/define/boundary-counditions/set/velocity-inlet</span><span class="w"> </span><span class="nv">cold-inlet</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="nv">cold-inlet</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="nv">turb-hydraulic-diam</span><span class="w"> </span><span class="mi">4</span><span class="w"> </span><span class="nb">quit</span><span class="w"></span>
+<span class="nv">/define/boundary-counditions/set/velocity-inlet</span><span class="w"> </span><span class="nv">cold-inlet</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="nv">cold-inlet</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="nv">temperature</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mf">293.15</span><span class="w"> </span><span class="nb">quit</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><span class="s1">&#39;file.cas.h5&#39;</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s1">&#39;cold-inlet&#39;</span><span class="p">,</span>
-    <span class="p">[],</span>
+    <span class="p">(),</span>
     <span class="s1">&#39;vmag&#39;</span><span class="p">,</span>
     <span class="s1">&#39;no&#39;</span><span class="p">,</span>
     <span class="mf">0.4</span><span class="p">,</span>
@@ -354,7 +364,7 @@ boundary conditions at inlets.</p>
 <span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s1">&#39;cold-inlet&#39;</span><span class="p">,</span>
-    <span class="p">[],</span>
+    <span class="p">(),</span>
     <span class="s1">&#39;ke-spec&#39;</span><span class="p">,</span>
     <span class="s1">&#39;no&#39;</span><span class="p">,</span>
     <span class="s1">&#39;no&#39;</span><span class="p">,</span>
@@ -364,21 +374,21 @@ boundary conditions at inlets.</p>
 <span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s1">&#39;cold-inlet&#39;</span><span class="p">,</span>
-    <span class="p">[],</span>
+    <span class="p">(),</span>
     <span class="s1">&#39;turb-intensity&#39;</span><span class="p">,</span>
     <span class="mi">5</span><span class="p">,</span>
     <span class="s1">&#39;quit&#39;</span>
 <span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s1">&#39;cold-inlet&#39;</span><span class="p">,</span>
-    <span class="p">[],</span>
+    <span class="p">(),</span>
     <span class="s1">&#39;turb-hydraulic-diam&#39;</span><span class="p">,</span>
     <span class="mi">4</span><span class="p">,</span>
     <span class="s1">&#39;quit&#39;</span>
 <span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
     <span class="s1">&#39;cold-inlet&#39;</span><span class="p">,</span>
-    <span class="p">[],</span>
+    <span class="p">(),</span>
     <span class="s1">&#39;temperature&#39;</span><span class="p">,</span>
     <span class="s1">&#39;no&#39;</span><span class="p">,</span>
     <span class="mf">293.15</span><span class="p">,</span>
@@ -388,24 +398,40 @@ boundary conditions at inlets.</p>
 </div>
 </section>
 <section id="copying-boundary-conditions">
-<h3>Copying boundary conditions<a class="headerlink" href="#copying-boundary-conditions" title="Permalink to this headline">#</a></h3>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.boundary_conditions.copy_bc</span></code> TUI command copies boundary conditions
-to other zones.</p>
+<h3>Copying boundary conditions<a class="headerlink" href="#copying-boundary-conditions" title="Permalink to this heading">#</a></h3>
+<p>The following example shows a comparison between the TUI command and the
+Python code for copying boundary conditions to other zones.</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/boundary-conditions/copy-bc</span><span class="w"> </span><span class="nv">cold-inlet</span><span class="w"> </span><span class="nv">hot-inlet</span><span class="w"> </span><span class="p">()</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">copy_bc</span><span class="p">(</span><span class="s1">&#39;cold-inlet&#39;</span><span class="p">,</span><span class="s1">&#39;hot-inlet&#39;</span><span class="p">,</span><span class="s1">&#39;()&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 <section id="listing-zones">
-<h3>Listing zones<a class="headerlink" href="#listing-zones" title="Permalink to this headline">#</a></h3>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.boundary_conditions.list_zones</span></code> TUI command prints in the Fluent console
-the types and IDs of all zones.</p>
+<h3>Listing zones<a class="headerlink" href="#listing-zones" title="Permalink to this heading">#</a></h3>
+<p>The following example shows a comparison between the TUI command and the
+Python code for printing to the Fluent console the types and IDs of all zones.</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/boundary-conditions/list-zones</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">list_zones</span><span class="p">()</span>
 </pre></div>
 </div>
 </section>
 <section id="modifying-cell-zone-conditions">
-<h3>Modifying cell zone conditions<a class="headerlink" href="#modifying-cell-zone-conditions" title="Permalink to this headline">#</a></h3>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.boundary_conditions.fluid</span></code> TUI command modifies cell zone conditions.</p>
+<h3>Modifying cell zone conditions<a class="headerlink" href="#modifying-cell-zone-conditions" title="Permalink to this heading">#</a></h3>
+<p>The following example shows a comparison between the TUI command and the
+Python code for modifying cell zone conditions.</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/boundary-conditions/fluid</span><span class="w"> </span><span class="nv">elbow-fluid</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">yes</span><span class="w"> </span><span class="nv">yes</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#Enabling Laminar Zone</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">(</span>
     <span class="s1">&#39;elbow-fluid&#39;</span><span class="p">,</span>
@@ -437,11 +463,12 @@ the types and IDs of all zones.</p>
 </section>
 </section>
 <section id="using-settings-objects">
-<h2>Using settings objects<a class="headerlink" href="#using-settings-objects" title="Permalink to this headline">#</a></h2>
+<h2>Using settings objects<a class="headerlink" href="#using-settings-objects" title="Permalink to this heading">#</a></h2>
 <p>The following examples show how you define boundary conditions using
 <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
 <section id="id2">
-<h3>Defining boundary conditions<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h3>
+<h3>Defining boundary conditions<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">[</span><span class="s1">&#39;cold-inlet&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">vmag</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s1">&#39;option&#39;</span><span class="p">:</span> <span class="s1">&#39;constant or expression&#39;</span><span class="p">,</span>
     <span class="s1">&#39;constant&#39;</span><span class="p">:</span> <span class="mf">0.4</span><span class="p">,</span>
@@ -463,7 +490,8 @@ the types and IDs of all zones.</p>
 </div>
 </section>
 <section id="id3">
-<h3>Modifying cell zone conditions<a class="headerlink" href="#id3" title="Permalink to this headline">#</a></h3>
+<h3>Modifying cell zone conditions<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#Enabling Laminar Zone</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">cell_zone_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">[</span><span class="s1">&#39;elbow-fluid&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;laminar&#39;</span> <span class="p">:</span> <span class="kc">True</span><span class="p">}</span>
 </pre></div>
@@ -497,7 +525,7 @@ the types and IDs of all zones.</p>
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.0.<br>
 </p>
   </div>
   

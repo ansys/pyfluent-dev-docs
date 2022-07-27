@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -44,6 +44,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/thebelab-helper.js"></script>
     <script src="../_static/clipboard.min.js"></script>
@@ -56,7 +57,7 @@
     <link rel="next" title="Defining models" href="models.html" />
     <link rel="prev" title="Applying general settings" href="general_settings.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="docsearch:language" content="None">
+<meta name="docsearch:language" content="en">
   </head>
   
   
@@ -272,8 +273,8 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#selecting-pressure-based-or-density-based-solver">
-   Selecting pressure-based or density-based solver
+  <a class="reference internal nav-link" href="#selecting-a-pressure-based-or-density-based-solver">
+   Selecting a pressure-based or density-based solver
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -301,16 +302,21 @@
               <article class="bd-article" role="main">
                 
   <section id="specifying-solver-settings">
-<span id="ref-user-guide-solver-settings"></span><h1>Specifying solver settings<a class="headerlink" href="#specifying-solver-settings" title="Permalink to this headline">#</a></h1>
+<span id="ref-user-guide-solver-settings"></span><h1>Specifying solver settings<a class="headerlink" href="#specifying-solver-settings" title="Permalink to this heading">#</a></h1>
 <p>PyFluent supports specifying solver settings using
 <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
 <p>The following examples show how you specify solver
 settings using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>:</p>
 <section id="selecting-steady-or-transient">
-<h2>Selecting steady or transient<a class="headerlink" href="#selecting-steady-or-transient" title="Permalink to this headline">#</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.models.steady</span></code> TUI enables and disables the steady solution model.</p>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.models.unsteady.1st_order</span> <span class="pre">TUI</span></code> selects the first-order implicit
-formulation for a transient simulation.</p>
+<h2>Selecting steady or transient<a class="headerlink" href="#selecting-steady-or-transient" title="Permalink to this heading">#</a></h2>
+<p>The following example shows a comparison between the TUI commands and the
+Python code for enabling and disabling the steady and unsteady solution model.</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/models/steady</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
+<span class="nv">/define/models/unsteady_1st_order</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><span class="s1">&#39;file.cas.h5&#39;</span><span class="p">)</span>
@@ -319,14 +325,18 @@ formulation for a transient simulation.</p>
 </pre></div>
 </div>
 </section>
-<section id="selecting-pressure-based-or-density-based-solver">
-<h2>Selecting pressure-based or density-based solver<a class="headerlink" href="#selecting-pressure-based-or-density-based-solver" title="Permalink to this headline">#</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.models.solver.density_based_explicit</span></code> TUI enables and disables the
-density-based explicit solver.</p>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.models.solver.density_based-implicit</span></code> TUI enables and disables the
-density-based implicit solver.</p>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.models.solver.pressure_based</span></code> TUI enables and disables the
-pressure-based solver.</p>
+<section id="selecting-a-pressure-based-or-density-based-solver">
+<h2>Selecting a pressure-based or density-based solver<a class="headerlink" href="#selecting-a-pressure-based-or-density-based-solver" title="Permalink to this heading">#</a></h2>
+<p>The following examples show comparisons between the TUI commands and the
+Python code for enabling and disabling the pressure-based and density-based solver
+models.</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/models/solver/density-based-explicit</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
+<span class="nv">/define/models/solver/density-based-implicit</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
+<span class="nv">/define/models/solver/pressure-based</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">density_based_explicit</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">density_based_implicit</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">pressure_based</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
@@ -334,8 +344,14 @@ pressure-based solver.</p>
 </div>
 </section>
 <section id="defining-gravitational-acceleration">
-<h2>Defining gravitational acceleration<a class="headerlink" href="#defining-gravitational-acceleration" title="Permalink to this headline">#</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.operating_conditions.gravity</span></code> TUI sets the gravitational acceleration.</p>
+<h2>Defining gravitational acceleration<a class="headerlink" href="#defining-gravitational-acceleration" title="Permalink to this heading">#</a></h2>
+<p>The following example shows a comparison between the TUI command and the
+Python code for settings the gravitational acceleration</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/operating-conditions/gravity</span><span class="w"> </span><span class="nv">yes</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="mf">-9.81</span><span class="w"> </span><span class="mi">0</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">operating_conditions</span><span class="o">.</span><span class="n">gravity</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">,</span><span class="s1">&#39;0&#39;</span><span class="p">,</span><span class="s1">&#39;-9.81&#39;</span><span class="p">,</span><span class="s1">&#39;0&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
@@ -367,7 +383,7 @@ pressure-based solver.</p>
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.0.<br>
 </p>
   </div>
   

@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -44,6 +44,7 @@
     <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
     <script src="../../../_static/jquery.js"></script>
     <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../_static/doctools.js"></script>
     <script src="../../../_static/thebelab-helper.js"></script>
     <script src="../../../_static/clipboard.min.js"></script>
@@ -56,7 +57,7 @@
     <link rel="next" title="Solver TUI commands" href="tuicommands.html" />
     <link rel="prev" title="Solver" href="index.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="docsearch:language" content="None">
+<meta name="docsearch:language" content="en">
   </head>
   
   
@@ -8310,11 +8311,11 @@
               <article class="bd-article" role="main">
                 
   <section id="settings-objects">
-<span id="ref-settings"></span><h1>Settings objects<a class="headerlink" href="#settings-objects" title="Permalink to this headline">#</a></h1>
+<span id="ref-settings"></span><h1>Settings objects<a class="headerlink" href="#settings-objects" title="Permalink to this heading">#</a></h1>
 <p>Settings objects provide a natural way to access and modify Fluent settings and
 issue commands with a hierarchy of objects.</p>
 <section id="top-level-settings-objects">
-<h2>Top-level settings objects<a class="headerlink" href="#top-level-settings-objects" title="Permalink to this headline">#</a></h2>
+<h2>Top-level settings objects<a class="headerlink" href="#top-level-settings-objects" title="Permalink to this heading">#</a></h2>
 <p>The top-level settings object is available as the <a class="reference internal" href="#settings-root-section"><span class="std std-ref">root</span></a>
 property of <code class="docutils literal notranslate"><span class="pre">session.solver</span></code>.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
@@ -8327,7 +8328,7 @@ property of <code class="docutils literal notranslate"><span class="pre">session
 objects and roughly mirror the outline view in Fluent.</p>
 </section>
 <section id="types-of-settings-objects">
-<h2>Types of settings objects<a class="headerlink" href="#types-of-settings-objects" title="Permalink to this headline">#</a></h2>
+<h2>Types of settings objects<a class="headerlink" href="#types-of-settings-objects" title="Permalink to this heading">#</a></h2>
 <p>A settings object can be one of the primitive types, like <code class="docutils literal notranslate"><span class="pre">Integer</span></code>, <code class="docutils literal notranslate"><span class="pre">Real</span></code>,
 <code class="docutils literal notranslate"><span class="pre">String</span></code>, and <code class="docutils literal notranslate"><span class="pre">Boolean</span></code>, or a container object.</p>
 <p>There are three types of container objects: <code class="docutils literal notranslate"><span class="pre">Group</span></code>, <code class="docutils literal notranslate"><span class="pre">NamedObject</span></code>, and
@@ -8355,7 +8356,7 @@ named <code class="docutils literal notranslate"><span class="pre">fluid-1</span
 <code class="docutils literal notranslate"><span class="pre">get_size()</span></code> function.</p>
 </section>
 <section id="setting-and-modifying-state">
-<h2>Setting and modifying state<a class="headerlink" href="#setting-and-modifying-state" title="Permalink to this headline">#</a></h2>
+<h2>Setting and modifying state<a class="headerlink" href="#setting-and-modifying-state" title="Permalink to this heading">#</a></h2>
 <p>The state of any object can be accessed by “calling” it. For container objects,
 this returns the state of the children as a dictionary (for <code class="docutils literal notranslate"><span class="pre">Group</span></code> and
 <code class="docutils literal notranslate"><span class="pre">NamedObject</span></code> types) or a list (for <code class="docutils literal notranslate"><span class="pre">ListObject</span></code> types):</p>
@@ -8413,7 +8414,7 @@ multiphase :
 </div>
 </section>
 <section id="commands">
-<h2>Commands<a class="headerlink" href="#commands" title="Permalink to this headline">#</a></h2>
+<h2>Commands<a class="headerlink" href="#commands" title="Permalink to this heading">#</a></h2>
 <p>Commands are methods of settings objects that you use to modify the state of
 the application. For example, the <code class="docutils literal notranslate"><span class="pre">hybrid_initialize()</span></code> method of
 <code class="docutils literal notranslate"><span class="pre">solution.initialization</span></code> initializes the solution using the hybrid
@@ -8425,7 +8426,7 @@ not specified, its default value is used. Arguments are also settings objects
 and can be either the primitive type or the container type.</p>
 </section>
 <section id="additional-metadata">
-<h2>Additional metadata<a class="headerlink" href="#additional-metadata" title="Permalink to this headline">#</a></h2>
+<h2>Additional metadata<a class="headerlink" href="#additional-metadata" title="Permalink to this heading">#</a></h2>
 <p>Settings objects have some additional metadata that can be accessed using the
 <code class="docutils literal notranslate"><span class="pre">get_attr</span></code> and <code class="docutils literal notranslate"><span class="pre">get_attrs</span></code> methods.</p>
 <p>This example accesses the list of allowed values at a particular state for the viscous
@@ -8457,7 +8458,7 @@ model:</p>
 state.</p>
 </section>
 <section id="active-objects-and-commands">
-<h2>Active objects and commands<a class="headerlink" href="#active-objects-and-commands" title="Permalink to this headline">#</a></h2>
+<h2>Active objects and commands<a class="headerlink" href="#active-objects-and-commands" title="Permalink to this heading">#</a></h2>
 <p>Objects and commands can be active or inactive based on the application state.
 The <code class="docutils literal notranslate"><span class="pre">is_active()</span></code> method returns <code class="docutils literal notranslate"><span class="pre">True</span></code> if an object or command
 is active at a particular time.</p>
@@ -8475,7 +8476,7 @@ commands:</p>
 </div>
 </section>
 <section id="root-object">
-<span id="settings-root-section"></span><h2>Root object<a class="headerlink" href="#root-object" title="Permalink to this headline">#</a></h2>
+<span id="settings-root-section"></span><h2>Root object<a class="headerlink" href="#root-object" title="Permalink to this heading">#</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">root</span></code> object is the top-level settings object. It contains all other
 settings objects in a hierarchical structure. For more information, see <a class="reference internal" href="_autosummary/settings/root.html#root"><span class="std std-ref">root object’s page</span></a>.</p>
 </section>
@@ -8506,7 +8507,7 @@ settings objects in a hierarchical structure. For more information, see <a class
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.0.<br>
 </p>
   </div>
   

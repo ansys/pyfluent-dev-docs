@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -44,6 +44,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/thebelab-helper.js"></script>
     <script src="../_static/clipboard.min.js"></script>
@@ -56,7 +57,7 @@
     <link rel="next" title="Launching Fluent locally" href="launching_ansys_fluent.html" />
     <link rel="prev" title="Getting started" href="../getting_started/index.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="docsearch:language" content="None">
+<meta name="docsearch:language" content="en">
   </head>
   
   
@@ -315,13 +316,13 @@
               <article class="bd-article" role="main">
                 
   <section id="user-guide">
-<span id="ref-user-guide"></span><h1>User guide<a class="headerlink" href="#user-guide" title="Permalink to this headline">#</a></h1>
+<span id="ref-user-guide"></span><h1>User guide<a class="headerlink" href="#user-guide" title="Permalink to this heading">#</a></h1>
 <p>Anyone who wants to use PyFluent can import its Python modules develop
 Python code to control and monitor Ansys Fluent.</p>
 <div class="toctree-wrapper compound">
 </div>
 <section id="overview">
-<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">#</a></h2>
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h2>
 <p>The function <a class="reference internal" href="../api/core/_autosummary/ansys.fluent.core.launcher.launcher.launch_fluent.html#ansys.fluent.core.launcher.launcher.launch_fluent" title="ansys.fluent.core.launcher.launcher.launch_fluent"><code class="xref py py-func docutils literal notranslate"><span class="pre">launch_fluent()</span></code></a>
 launches an instance of Fluent, running it as a server in the background. You can launch
 Fluent in solution mode with no arguments:</p>
@@ -344,7 +345,7 @@ object provides full access to the Fluent capabilities relevant to the sessionâ€
 mode (solution or meshing).</p>
 </section>
 <section id="solution-mode-session">
-<h2>Solution mode session<a class="headerlink" href="#solution-mode-session" title="Permalink to this headline">#</a></h2>
+<h2>Solution mode session<a class="headerlink" href="#solution-mode-session" title="Permalink to this heading">#</a></h2>
 <p>A solution mode session has an active <code class="docutils literal notranslate"><span class="pre">solver</span></code> object, which provides two
 distinct interfaces to the solver. The <code class="docutils literal notranslate"><span class="pre">solver</span></code> object has a <code class="docutils literal notranslate"><span class="pre">tui</span></code> object,
 which is a complete Python exposure of the Fluent solverâ€™s TUI (text
@@ -379,7 +380,7 @@ object, see the API topic <a class="reference internal" href="../api/core/solver
 <a class="reference internal" href="solver_settings.html#ref-user-guide-solver-settings"><span class="std std-ref">Specifying solver settings</span></a>.</p>
 </section>
 <section id="meshing-mode-session">
-<h2>Meshing mode session<a class="headerlink" href="#meshing-mode-session" title="Permalink to this headline">#</a></h2>
+<h2>Meshing mode session<a class="headerlink" href="#meshing-mode-session" title="Permalink to this heading">#</a></h2>
 <p>A meshing mode session has an active <code class="docutils literal notranslate"><span class="pre">meshing</span></code> object, which provides
 three interfaces to the mesher.</p>
 <p>Like the <code class="docutils literal notranslate"><span class="pre">solver</span></code> object, the <code class="docutils literal notranslate"><span class="pre">meshing</span></code> object has a <code class="docutils literal notranslate"><span class="pre">tui</span></code> object, which
@@ -417,7 +418,7 @@ exposes directly:</p>
 For information on the full interface, see <a class="reference internal" href="../api/core/meshing/datamodel/index.html#ref-meshing-datamodel"><span class="std std-ref">meshing.datamodel</span></a>.</p>
 </section>
 <section id="session-object">
-<h2>Session object<a class="headerlink" href="#session-object" title="Permalink to this headline">#</a></h2>
+<h2>Session object<a class="headerlink" href="#session-object" title="Permalink to this heading">#</a></h2>
 <p>A session object in either the solution or meshing mode provides a more direct
 interaction via its <code class="docutils literal notranslate"><span class="pre">scheme_eval</span></code> attribute. Consider this example:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">unsteady</span> <span class="o">=</span> <span class="n">solver_session</span><span class="o">.</span><span class="n">scheme_eval</span><span class="o">.</span><span class="n">scheme_eval</span><span class="p">(</span><span class="s2">&quot;(rp-unsteady?)&quot;</span><span class="p">)</span>
@@ -438,7 +439,7 @@ the <code class="docutils literal notranslate"><span class="pre">field_data</spa
 <p><code class="docutils literal notranslate"><span class="pre">&quot;SERVING&quot;</span></code> is returned if and only if the connection is healthy.</p>
 </section>
 <section id="streaming">
-<h2>Streaming<a class="headerlink" href="#streaming" title="Permalink to this headline">#</a></h2>
+<h2>Streaming<a class="headerlink" href="#streaming" title="Permalink to this heading">#</a></h2>
 <p>Streaming of the Fluent transcript is automatically started by default.
 You can stop it and start it manually with:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span><span class="o">.</span><span class="n">stop_transcript</span><span class="p">()</span>
@@ -454,7 +455,7 @@ specific solver event types via the <code class="docutils literal notranslate"><
 <p>For more information on event management, see <a class="reference internal" href="../api/core/solver/events.html#ref-events"><span class="std std-ref">EventsManager</span></a>.</p>
 </section>
 <section id="global-logging">
-<h2>Global logging<a class="headerlink" href="#global-logging" title="Permalink to this headline">#</a></h2>
+<h2>Global logging<a class="headerlink" href="#global-logging" title="Permalink to this heading">#</a></h2>
 <p>You can control the global logging level at any time with:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">pyfluent</span><span class="o">.</span><span class="n">set_log_level</span><span class="p">(</span><span class="s1">&#39;DEBUG&#39;</span><span class="p">)</span> <span class="c1"># by default, only errors are shown</span>
@@ -488,7 +489,7 @@ specific solver event types via the <code class="docutils literal notranslate"><
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.0.<br>
 </p>
   </div>
   

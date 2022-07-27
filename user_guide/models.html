@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -44,6 +44,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/thebelab-helper.js"></script>
     <script src="../_static/clipboard.min.js"></script>
@@ -56,7 +57,7 @@
     <link rel="next" title="Defining materials" href="materials.html" />
     <link rel="prev" title="Specifying solver settings" href="solver_settings.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="docsearch:language" content="None">
+<meta name="docsearch:language" content="en">
   </head>
   
   
@@ -330,14 +331,20 @@
               <article class="bd-article" role="main">
                 
   <section id="defining-models">
-<h1>Defining models<a class="headerlink" href="#defining-models" title="Permalink to this headline">#</a></h1>
+<h1>Defining models<a class="headerlink" href="#defining-models" title="Permalink to this heading">#</a></h1>
 <p>PyFluent supports defining models using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
 <section id="using-solver-tui-commands">
-<h2>Using solver TUI commands<a class="headerlink" href="#using-solver-tui-commands" title="Permalink to this headline">#</a></h2>
+<h2>Using solver TUI commands<a class="headerlink" href="#using-solver-tui-commands" title="Permalink to this heading">#</a></h2>
 <p>The following examples show how you define models using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>.</p>
 <section id="enabling-the-energy-model">
-<h3>Enabling the energy model<a class="headerlink" href="#enabling-the-energy-model" title="Permalink to this headline">#</a></h3>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.models.energy</span></code> TUI enables and disables the energy model.</p>
+<h3>Enabling the energy model<a class="headerlink" href="#enabling-the-energy-model" title="Permalink to this heading">#</a></h3>
+<p>The following example shows a comparison between the TUI command and the
+Python code for enabling and disabling the energy model.</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/models/energy</span><span class="w"> </span><span class="nv">yes</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><span class="s1">&#39;file.cas.h5&#39;</span><span class="p">)</span>
@@ -346,11 +353,16 @@
 </div>
 </section>
 <section id="enabling-the-viscous-model">
-<h3>Enabling the viscous model<a class="headerlink" href="#enabling-the-viscous-model" title="Permalink to this headline">#</a></h3>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.models.viscous.laminar</span></code> TUI enables and disables the laminar flow model.</p>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.models.viscous.kw_sst</span></code> TUI enables and disables the SST-kw turbulence model.</p>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.models.viscous.ke_standard</span></code> TUI enables and disables the standard-ke
-turbulence model.</p>
+<h3>Enabling the viscous model<a class="headerlink" href="#enabling-the-viscous-model" title="Permalink to this heading">#</a></h3>
+<p>The following example shows a comparison between the TUI command and the
+Python code for enabling and disabling the various viscous models.</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/models/viscous/laminar</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
+<span class="nv">/define/models/viscous/kw-sst</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
+<span class="nv">/define/models/viscous/ke-standard</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">laminar</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">kw_sst</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">ke_standard</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
@@ -358,16 +370,32 @@ turbulence model.</p>
 </div>
 </section>
 <section id="enabling-the-radiation-model">
-<h3>Enabling the radiation model<a class="headerlink" href="#enabling-the-radiation-model" title="Permalink to this headline">#</a></h3>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.models.radiation</span></code> TUI provides options for selecting different radiation models.</p>
+<h3>Enabling the radiation model<a class="headerlink" href="#enabling-the-radiation-model" title="Permalink to this heading">#</a></h3>
+<p>The following example shows a comparison between the TUI command and the
+Python code for selecting different radiation models.</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/models/radiation/s2s</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
+<span class="nv">/define/models/radiation/p1</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">radiation</span><span class="o">.</span><span class="n">s2s</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">radiation</span><span class="o">.</span><span class="n">p1</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 <section id="enabling-the-multiphase-model">
-<h3>Enabling the multiphase model<a class="headerlink" href="#enabling-the-multiphase-model" title="Permalink to this headline">#</a></h3>
-<p>The <code class="docutils literal notranslate"><span class="pre">define.models.multiphase</span></code> TUI provides options for selecting different multiphase models.</p>
+<h3>Enabling the multiphase model<a class="headerlink" href="#enabling-the-multiphase-model" title="Permalink to this heading">#</a></h3>
+<p>The following example shows a comparison between the TUI command and the
+Python code for selecting different multiphase models.</p>
+<p><strong>TUI command</strong></p>
+<div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/models/multiphase/model</span><span class="w"> </span><span class="nv">vof</span><span class="w"></span>
+<span class="nv">/define/models/multiphase/model</span><span class="w"> </span><span class="nv">eulerian</span><span class="w"></span>
+<span class="nv">/define/models/multiphase/model</span><span class="w"> </span><span class="nv">mixture</span><span class="w"></span>
+<span class="nv">/define/models/multiphase/model</span><span class="w"> </span><span class="nv">wetsteam</span><span class="w"></span>
+</pre></div>
+</div>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">multiphase</span><span class="o">.</span><span class="n">model</span><span class="p">(</span><span class="s1">&#39;vof&#39;</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">multiphase</span><span class="o">.</span><span class="n">model</span><span class="p">(</span><span class="s1">&#39;eulerian&#39;</span><span class="p">)</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">multiphase</span><span class="o">.</span><span class="n">model</span><span class="p">(</span><span class="s1">&#39;mixture&#39;</span><span class="p">)</span>
@@ -377,16 +405,18 @@ turbulence model.</p>
 </section>
 </section>
 <section id="using-settings-objects">
-<h2>Using settings objects<a class="headerlink" href="#using-settings-objects" title="Permalink to this headline">#</a></h2>
+<h2>Using settings objects<a class="headerlink" href="#using-settings-objects" title="Permalink to this heading">#</a></h2>
 <p>The following examples show how you define models using <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
 <section id="id1">
-<h3>Enabling the energy model<a class="headerlink" href="#id1" title="Permalink to this headline">#</a></h3>
+<h3>Enabling the energy model<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">enabled</span> <span class="o">=</span> <span class="kc">True</span>
 </pre></div>
 </div>
 </section>
 <section id="id2">
-<h3>Enabling the viscous model<a class="headerlink" href="#id2" title="Permalink to this headline">#</a></h3>
+<h3>Enabling the viscous model<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">k_epsilon_model</span><span class="o">.</span><span class="n">enabled</span> <span class="o">=</span> <span class="kc">True</span>
 <span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">k_omega_model</span><span class="o">.</span><span class="n">enabled</span> <span class="o">=</span> <span class="kc">True</span>
 </pre></div>
@@ -420,7 +450,7 @@ turbulence model.</p>
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.0.<br>
 </p>
   </div>
   

@@ -1,7 +1,7 @@
 
 <!DOCTYPE html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
@@ -44,6 +44,7 @@
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
     <script src="../_static/underscore.js"></script>
+    <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
     <script src="../_static/thebelab-helper.js"></script>
     <script src="../_static/clipboard.min.js"></script>
@@ -56,7 +57,7 @@
     <link rel="next" title="User guide" href="../user_guide/index.html" />
     <link rel="prev" title="PyFluent documentation 0.10.1" href="../index.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="docsearch:language" content="None">
+<meta name="docsearch:language" content="en">
   </head>
   
   
@@ -248,12 +249,12 @@
               <article class="bd-article" role="main">
                 
   <section id="getting-started">
-<span id="id1"></span><h1>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this headline">#</a></h1>
+<span id="id1"></span><h1>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this heading">#</a></h1>
 <p>To run PyFluent, you must have a licensed copy of Ansys Fluent
 installed locally. PyFluent supports Ansys Fluent versions 2022 R2 or later.</p>
 <p>For more information on getting a licensed copy of Ansys Fluent, visit the <a class="reference external" href="https://www.ansys.com/">Ansys website</a> .</p>
 <section id="installing-the-package">
-<h2>Installing the package<a class="headerlink" href="#installing-the-package" title="Permalink to this headline">#</a></h2>
+<h2>Installing the package<a class="headerlink" href="#installing-the-package" title="Permalink to this heading">#</a></h2>
 <p>The <code class="docutils literal notranslate"><span class="pre">ansys-fluent-core</span></code> package currently supports Python 3.7 through
 Python 3.10 on Windows and Linux.</p>
 <p>Install the latest release from <a class="reference external" href="https://pypi.org/project/ansys-fluent-core/">PyPi</a> with:</p>
@@ -276,7 +277,7 @@ and modifying it locally. The changes that you make are reflected in your setup
 after you restart the Python kernel.</p>
 </section>
 <section id="launching-fluent">
-<h2>Launching Fluent<a class="headerlink" href="#launching-fluent" title="Permalink to this headline">#</a></h2>
+<h2>Launching Fluent<a class="headerlink" href="#launching-fluent" title="Permalink to this heading">#</a></h2>
 <p>You can launch Fluent from Python using the <code class="docutils literal notranslate"><span class="pre">launch_fluent</span></code> function:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
@@ -339,7 +340,7 @@ environment variable:</p>
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.4.0.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.0.<br>
 </p>
   </div>
   
