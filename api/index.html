@@ -8247,9 +8247,34 @@
     
     <div class="toc-item">
       
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
 <nav id="bd-toc-nav">
-    
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#launching-fluent">
+   Launching Fluent
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pythonic-utilities">
+   Pythonic utilities
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#meshing-mode">
+   Meshing mode
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#solver-mode">
+   Solver mode
+  </a>
+ </li>
+</ul>
+
 </nav>
     </div>
     
@@ -8269,6 +8294,35 @@
                 
   <section id="api-reference">
 <span id="ref-index-api"></span><h1>API reference<a class="headerlink" href="#api-reference" title="Permalink to this heading">#</a></h1>
+<p>This section describes the core Pythonic interfaces for Fluent.
+Here, you can find the application programming interfaces for
+such things as launching Fluent, assorted utilities, as well as
+the interfaces for the meshing and solver components of Fluent.</p>
+<section id="launching-fluent">
+<h2>Launching Fluent<a class="headerlink" href="#launching-fluent" title="Permalink to this heading">#</a></h2>
+<p>This component provides access to starting Fluent locally in
+server mode or connecting to a running Fluent server instance.</p>
+</section>
+<section id="pythonic-utilities">
+<h2>Pythonic utilities<a class="headerlink" href="#pythonic-utilities" title="Permalink to this heading">#</a></h2>
+<p>This component consists solely of a function to allow for
+asynchronous execution.</p>
+</section>
+<section id="meshing-mode">
+<h2>Meshing mode<a class="headerlink" href="#meshing-mode" title="Permalink to this heading">#</a></h2>
+<p>The meshing mode is dedicated to capturing the capabilities of
+the Fluent Meshing guided workflows and associated tools. This component
+consists of an interface that is derived from the Fluent (meshing)
+TUI, as well as a meshing workflow interface that manages workflow
+tasks, meshing functions, and part management.</p>
+</section>
+<section id="solver-mode">
+<h2>Solver mode<a class="headerlink" href="#solver-mode" title="Permalink to this heading">#</a></h2>
+<p>The solver mode is dedicated to capturing the power of the
+Fluent solver. This component consists of a <a class="reference internal" href="core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>-based
+interface or a <a class="reference internal" href="core/solver/tui/index.html#ref-solver-tui"><span class="std std-ref">solver.tui</span></a>-based interface that is derived
+from the Fluent (solver) TUI, as well as access to Fluent surface,
+scalar and vector field data.</p>
 <table class="autosummary longtable table autosummary">
 <colgroup>
 <col style="width: 10%" />
@@ -8279,6 +8333,7 @@
 </table>
 <div class="toctree-wrapper compound">
 </div>
+</section>
 </section>
 
 
