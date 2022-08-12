@@ -328,13 +328,13 @@ launches an instance of Fluent, running it as a server in the background. You ca
 Fluent in solution mode with no arguments:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">launch_fluent</span>
 
-<span class="n">solver_session</span> <span class="o">=</span> <span class="n">launch_fluent</span><span class="p">()</span>
+<span class="n">solver_session</span> <span class="o">=</span> <span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>You can launch Fluent in meshing mode with:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">launch_fluent</span>
 
-<span class="n">meshing_session</span> <span class="o">=</span> <span class="n">launch_fluent</span><span class="p">(</span><span class="n">meshing_mode</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+<span class="n">meshing_session</span> <span class="o">=</span> <span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;meshing&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>Setting the <code class="docutils literal notranslate"><span class="pre">meshing_mode</span></code> argument to <code class="docutils literal notranslate"><span class="pre">False</span></code> launches Fluent in solution mode.</p>
@@ -365,7 +365,7 @@ For general guidance on programming in terms of this interface, see <a class="re
 different interface to the Fluent solver. The <code class="docutils literal notranslate"><span class="pre">root</span></code> object exposes most of the
 solver capabilities covered by the <code class="docutils literal notranslate"><span class="pre">tui</span></code> object, while providing significant
 additional interface features that are not possible via the <code class="docutils literal notranslate"><span class="pre">tui</span></code> object:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">root</span> <span class="o">=</span> <span class="n">solver_session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">root</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">root</span> <span class="o">=</span> <span class="n">solver_session</span><span class="o">.</span><span class="n">solver</span>
 
 <span class="n">root</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">file_type</span><span class="o">=</span><span class="s2">&quot;case&quot;</span><span class="p">,</span> <span class="n">file_name</span><span class="o">=</span><span class="s2">&quot;pipe.cas.h5&quot;</span><span class="p">)</span>
 

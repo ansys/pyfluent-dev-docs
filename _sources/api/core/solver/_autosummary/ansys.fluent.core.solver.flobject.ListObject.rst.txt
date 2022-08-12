@@ -19,6 +19,7 @@ ansys.fluent.core.solver.flobject.ListObject
       ~ListObject.get_size
       ~ListObject.get_state
       ~ListObject.is_active
+      ~ListObject.is_read_only
       ~ListObject.print_state
       ~ListObject.resize
       ~ListObject.set_flproxy

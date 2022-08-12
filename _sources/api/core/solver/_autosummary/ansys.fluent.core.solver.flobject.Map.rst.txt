@@ -18,6 +18,7 @@ ansys.fluent.core.solver.flobject.Map
       ~Map.get_attrs
       ~Map.get_state
       ~Map.is_active
+      ~Map.is_read_only
       ~Map.print_state
       ~Map.set_flproxy
       ~Map.set_state

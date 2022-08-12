@@ -14,10 +14,14 @@ ansys.fluent.core.solver.flobject.RealVector
       :toctree:
    
       ~RealVector.__init__
+      ~RealVector.default_value
       ~RealVector.get_attr
       ~RealVector.get_attrs
       ~RealVector.get_state
       ~RealVector.is_active
+      ~RealVector.is_read_only
+      ~RealVector.max
+      ~RealVector.min
       ~RealVector.print_state
       ~RealVector.set_flproxy
       ~RealVector.set_state

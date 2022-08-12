@@ -17,6 +17,7 @@ ansys.fluent.core.solver.flobject.Command
       ~Command.get_attr
       ~Command.get_attrs
       ~Command.is_active
+      ~Command.is_read_only
       ~Command.set_flproxy
    
    

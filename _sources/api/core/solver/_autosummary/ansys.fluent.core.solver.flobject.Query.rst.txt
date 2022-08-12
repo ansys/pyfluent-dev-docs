@@ -17,6 +17,7 @@ ansys.fluent.core.solver.flobject.Query
       ~Query.get_attr
       ~Query.get_attrs
       ~Query.is_active
+      ~Query.is_read_only
       ~Query.set_flproxy
    
    

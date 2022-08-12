@@ -33,12 +33,15 @@
       BooleanList
       Command
       Filename
+      FilenameList
       Group
       Integer
       IntegerList
       ListObject
       Map
       NamedObject
+      Numerical
+      Property
       Query
       Real
       RealList
@@ -46,6 +49,7 @@
       SettingsBase
       String
       StringList
+      Textual
    
    
 

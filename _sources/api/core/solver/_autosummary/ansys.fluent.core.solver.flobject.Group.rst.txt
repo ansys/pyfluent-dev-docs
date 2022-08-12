@@ -21,6 +21,7 @@ ansys.fluent.core.solver.flobject.Group
       ~Group.get_attrs
       ~Group.get_state
       ~Group.is_active
+      ~Group.is_read_only
       ~Group.print_state
       ~Group.set_flproxy
       ~Group.set_state

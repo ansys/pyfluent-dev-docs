@@ -331,7 +331,7 @@ to each prompt in turn as follows:</p>
 arguments. With the full TUI call in hand, you can transform it to a Python call:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">launch_fluent</span>
 
-<span class="n">solver_session</span> <span class="o">=</span> <span class="n">launch_fluent</span><span class="p">()</span>
+<span class="n">solver_session</span> <span class="o">=</span> <span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
 
 <span class="n">tui</span> <span class="o">=</span> <span class="n">solver_session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span>
 

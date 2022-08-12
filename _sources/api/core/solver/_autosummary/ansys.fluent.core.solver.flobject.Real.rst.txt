@@ -14,10 +14,14 @@ ansys.fluent.core.solver.flobject.Real
       :toctree:
    
       ~Real.__init__
+      ~Real.default_value
       ~Real.get_attr
       ~Real.get_attrs
       ~Real.get_state
       ~Real.is_active
+      ~Real.is_read_only
+      ~Real.max
+      ~Real.min
       ~Real.print_state
       ~Real.set_flproxy
       ~Real.set_state

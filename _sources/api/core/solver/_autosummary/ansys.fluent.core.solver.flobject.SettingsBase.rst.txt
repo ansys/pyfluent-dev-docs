@@ -18,6 +18,7 @@ ansys.fluent.core.solver.flobject.SettingsBase
       ~SettingsBase.get_attrs
       ~SettingsBase.get_state
       ~SettingsBase.is_active
+      ~SettingsBase.is_read_only
       ~SettingsBase.print_state
       ~SettingsBase.set_flproxy
       ~SettingsBase.set_state

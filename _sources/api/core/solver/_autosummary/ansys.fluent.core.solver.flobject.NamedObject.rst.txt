@@ -19,6 +19,7 @@ ansys.fluent.core.solver.flobject.NamedObject
       ~NamedObject.get_object_names
       ~NamedObject.get_state
       ~NamedObject.is_active
+      ~NamedObject.is_read_only
       ~NamedObject.items
       ~NamedObject.keys
       ~NamedObject.print_state

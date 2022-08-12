@@ -14,10 +14,13 @@ ansys.fluent.core.solver.flobject.Filename
       :toctree:
    
       ~Filename.__init__
+      ~Filename.allowed_values
+      ~Filename.default_value
       ~Filename.get_attr
       ~Filename.get_attrs
       ~Filename.get_state
       ~Filename.is_active
+      ~Filename.is_read_only
       ~Filename.print_state
       ~Filename.set_flproxy
       ~Filename.set_state

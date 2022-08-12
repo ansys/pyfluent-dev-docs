@@ -14,10 +14,12 @@ ansys.fluent.core.solver.flobject.Boolean
       :toctree:
    
       ~Boolean.__init__
+      ~Boolean.default_value
       ~Boolean.get_attr
       ~Boolean.get_attrs
       ~Boolean.get_state
       ~Boolean.is_active
+      ~Boolean.is_read_only
       ~Boolean.print_state
       ~Boolean.set_flproxy
       ~Boolean.set_state

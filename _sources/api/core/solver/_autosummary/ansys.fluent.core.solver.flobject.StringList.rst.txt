@@ -14,10 +14,13 @@ ansys.fluent.core.solver.flobject.StringList
       :toctree:
    
       ~StringList.__init__
+      ~StringList.allowed_values
+      ~StringList.default_value
       ~StringList.get_attr
       ~StringList.get_attrs
       ~StringList.get_state
       ~StringList.is_active
+      ~StringList.is_read_only
       ~StringList.print_state
       ~StringList.set_flproxy
       ~StringList.set_state

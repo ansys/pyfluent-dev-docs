@@ -14,10 +14,13 @@ ansys.fluent.core.solver.flobject.String
       :toctree:
    
       ~String.__init__
+      ~String.allowed_values
+      ~String.default_value
       ~String.get_attr
       ~String.get_attrs
       ~String.get_state
       ~String.is_active
+      ~String.is_read_only
       ~String.print_state
       ~String.set_flproxy
       ~String.set_state

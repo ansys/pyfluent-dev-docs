@@ -14,10 +14,14 @@ ansys.fluent.core.solver.flobject.IntegerList
       :toctree:
    
       ~IntegerList.__init__
+      ~IntegerList.default_value
       ~IntegerList.get_attr
       ~IntegerList.get_attrs
       ~IntegerList.get_state
       ~IntegerList.is_active
+      ~IntegerList.is_read_only
+      ~IntegerList.max
+      ~IntegerList.min
       ~IntegerList.print_state
       ~IntegerList.set_flproxy
       ~IntegerList.set_state
