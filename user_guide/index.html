@@ -352,7 +352,7 @@ which is a complete Python exposure of the Fluent solver’s TUI (text
 user interface). This interface allows straightforward execution of commands and
 modification of settings in a manner that is familiar to existing Fluent
 users:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">tui</span> <span class="o">=</span> <span class="n">solver_session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">tui</span> <span class="o">=</span> <span class="n">solver_session</span><span class="o">.</span><span class="n">tui</span>
 
 <span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><span class="s2">&quot;pipe.cas.h5&quot;</span><span class="p">)</span>
 
@@ -365,7 +365,7 @@ For general guidance on programming in terms of this interface, see <a class="re
 different interface to the Fluent solver. The <code class="docutils literal notranslate"><span class="pre">root</span></code> object exposes most of the
 solver capabilities covered by the <code class="docutils literal notranslate"><span class="pre">tui</span></code> object, while providing significant
 additional interface features that are not possible via the <code class="docutils literal notranslate"><span class="pre">tui</span></code> object:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">root</span> <span class="o">=</span> <span class="n">solver_session</span><span class="o">.</span><span class="n">solver</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">root</span> <span class="o">=</span> <span class="n">solver_session</span>
 
 <span class="n">root</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">file_type</span><span class="o">=</span><span class="s2">&quot;case&quot;</span><span class="p">,</span> <span class="n">file_name</span><span class="o">=</span><span class="s2">&quot;pipe.cas.h5&quot;</span><span class="p">)</span>
 
@@ -386,7 +386,7 @@ three interfaces to the mesher.</p>
 <p>Like the <code class="docutils literal notranslate"><span class="pre">solver</span></code> object, the <code class="docutils literal notranslate"><span class="pre">meshing</span></code> object has a <code class="docutils literal notranslate"><span class="pre">tui</span></code> object, which
 is a complete Python exposure of the meshing’s TUI (text user interface). Again,
 straightforward and familiar command and settings interactions are available:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">tui</span> <span class="o">=</span> <span class="n">meshing_session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">tui</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">tui</span> <span class="o">=</span> <span class="n">meshing_session</span><span class="o">.</span><span class="n">tui</span>
 
 <span class="n">tui</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">prepare_for_solve</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
 
@@ -399,7 +399,7 @@ As mentioned earlier, for general guidance, see <a class="reference internal" hr
 which together provide access to Fluent’s <cite>meshing workflows</cite>. This interface
 is consistent with the Python meshing workflow interface that Fluent meshing
 exposes directly:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">workflow</span> <span class="o">=</span> <span class="n">meshing_session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">workflow</span> <span class="o">=</span> <span class="n">meshing_session</span><span class="o">.</span><span class="n">workflow</span>
 
 <span class="n">workflow</span><span class="o">.</span><span class="n">InitializeWorkflow</span><span class="p">(</span><span class="n">WorkflowType</span><span class="o">=</span><span class="s2">&quot;Watertight Geometry&quot;</span><span class="p">)</span>
 
@@ -409,7 +409,7 @@ exposes directly:</p>
 
 <span class="n">import_geometry</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 
-<span class="n">meshing</span> <span class="o">=</span> <span class="n">meshing_session</span><span class="o">.</span><span class="n">meshing</span><span class="o">.</span><span class="n">meshing</span>
+<span class="n">meshing</span> <span class="o">=</span> <span class="n">meshing_session</span><span class="o">.</span><span class="n">meshing</span>
 
 <span class="n">meshing</span><span class="o">.</span><span class="n">GlobalSettings</span><span class="o">.</span><span class="n">LengthUnit</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span><span class="s2">&quot;mm&quot;</span><span class="p">)</span>
 </pre></div>

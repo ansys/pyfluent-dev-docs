@@ -327,9 +327,9 @@ the verbosity (level 0 to 3).</p>
 </div>
 <p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
-<span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><span class="s1">&#39;file.cas.h5&#39;</span><span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">check</span><span class="p">()</span>
+<span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
+<span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><span class="s1">&#39;file.cas.h5&#39;</span><span class="p">)</span>
+<span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">check</span><span class="p">()</span>
 </pre></div>
 </div>
 </section>
@@ -343,7 +343,7 @@ console, including the minimum orthogonal quality and maximum aspect ratio.</p>
 </pre></div>
 </div>
 <p><strong>Python code</strong></p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">quality</span><span class="p">()</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">quality</span><span class="p">()</span>
 </pre></div>
 </div>
 </section>
@@ -357,7 +357,7 @@ coordinate directions.</p>
 </pre></div>
 </div>
 <p><strong>Python code</strong></p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">scale</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">scale</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
@@ -370,7 +370,7 @@ Python code for setting the unit conversion factors.</p>
 </pre></div>
 </div>
 <p><strong>Python code</strong></p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">units</span><span class="p">(</span><span class="s1">&#39;length&#39;</span><span class="p">,</span> <span class="s1">&#39;in&#39;</span><span class="p">)</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">units</span><span class="p">(</span><span class="s1">&#39;length&#39;</span><span class="p">,</span> <span class="s1">&#39;in&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>

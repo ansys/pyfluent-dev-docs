@@ -340,11 +340,11 @@ the gradient options. Five solution methods (Index-Model) are available:
 </div>
 <p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
-<span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><span class="s1">&#39;file.cas.h5&#39;</span><span class="p">)</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">p_v_coupling</span><span class="p">(</span><span class="mi">24</span><span class="p">)</span> <span class="c1"># Coupled</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">gradient_scheme</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>    <span class="c1"># Green-Gauss Node Based</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">gradient_scheme</span><span class="p">(</span><span class="s1">&#39;no&#39;</span><span class="p">,</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span> <span class="c1"># Least Squares Cell Based</span>
+<span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
+<span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><span class="s1">&#39;file.cas.h5&#39;</span><span class="p">)</span>
+<span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">p_v_coupling</span><span class="p">(</span><span class="mi">24</span><span class="p">)</span> <span class="c1"># Coupled</span>
+<span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">gradient_scheme</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span>    <span class="c1"># Green-Gauss Node Based</span>
+<span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">gradient_scheme</span><span class="p">(</span><span class="s1">&#39;no&#39;</span><span class="p">,</span><span class="s1">&#39;yes&#39;</span><span class="p">)</span> <span class="c1"># Least Squares Cell Based</span>
 </pre></div>
 </div>
 </section>
@@ -357,7 +357,7 @@ Python code for selecting the pressure velocity controls.</p>
 </pre></div>
 </div>
 <p><strong>Python code</strong></p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">p_v_controls</span><span class="p">(</span><span class="mf">0.3</span><span class="p">,</span><span class="mf">0.4</span><span class="p">)</span> <span class="c1"># Momentum and Pressure</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">p_v_controls</span><span class="p">(</span><span class="mf">0.3</span><span class="p">,</span><span class="mf">0.4</span><span class="p">)</span> <span class="c1"># Momentum and Pressure</span>
 </pre></div>
 </div>
 </section>
@@ -370,7 +370,7 @@ Python code for creating report definitions.</p>
 </pre></div>
 </div>
 <p><strong>Python code</strong></p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">add</span><span class="p">(</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">add</span><span class="p">(</span>
     <span class="s1">&#39;outlet-temp-avg&#39;</span><span class="p">,</span>
     <span class="s1">&#39;surface-massavg&#39;</span><span class="p">,</span>
     <span class="s1">&#39;field&#39;</span><span class="p">,</span>
@@ -393,8 +393,8 @@ Python code for initializing and performing a specified number of iterations.</p
 </pre></div>
 </div>
 <p><strong>Python code</strong></p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">initialize</span><span class="o">.</span><span class="n">hyb_initialization</span><span class="p">()</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">iterate</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">initialize</span><span class="o">.</span><span class="n">hyb_initialization</span><span class="p">()</span>
+<span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">iterate</span><span class="p">(</span><span class="mi">100</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
@@ -404,8 +404,8 @@ Python code for initializing and performing a specified number of iterations.</p
 <p>The following example shows how you apply solution settings
 using <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
 <p><strong>Python code</strong></p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">initialization</span><span class="o">.</span><span class="n">hybrid_initialize</span><span class="p">()</span>
-<span class="n">session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">run_calculation</span><span class="o">.</span><span class="n">iterate</span><span class="p">(</span><span class="n">number_of_iterations</span><span class="o">=</span><span class="mi">150</span><span class="p">)</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">initialization</span><span class="o">.</span><span class="n">hybrid_initialize</span><span class="p">()</span>
+<span class="n">solver</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">run_calculation</span><span class="o">.</span><span class="n">iterate</span><span class="p">(</span><span class="n">number_of_iterations</span><span class="o">=</span><span class="mi">150</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
