@@ -268,13 +268,13 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#using-solver-tui-commands">
-   Using solver TUI commands
+  <a class="reference internal nav-link" href="#use-solver-tui-commands">
+   Use solver TUI commands
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id1">
-     Defining boundary conditions
+    <a class="reference internal nav-link" href="#define-boundary-conditions">
+     Define boundary conditions
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
@@ -300,13 +300,13 @@
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id2">
-     Defining boundary conditions
+    <a class="reference internal nav-link" href="#id1">
+     Define boundary conditions
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#id3">
-     Modifying cell zone conditions
+    <a class="reference internal nav-link" href="#modify-cell-zone-conditions">
+     Modify cell zone conditions
     </a>
    </li>
   </ul>
@@ -332,15 +332,15 @@
                 
   <section id="defining-boundary-conditions">
 <h1>Defining boundary conditions<a class="headerlink" href="#defining-boundary-conditions" title="Permalink to this heading">#</a></h1>
-<p>PyFluent supports defining boundary conditions using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>
-and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
-<section id="using-solver-tui-commands">
-<h2>Using solver TUI commands<a class="headerlink" href="#using-solver-tui-commands" title="Permalink to this heading">#</a></h2>
-<p>These examples show how you define and copy boundary conditions, list zones,
-and modify cell zone conditions using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>.</p>
-<section id="id1">
-<h3>Defining boundary conditions<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
-<p>The following example shows a comparison between the TUI command and the
+<p>PyFluent supports using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>
+and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a> to define boundary conditions.</p>
+<section id="use-solver-tui-commands">
+<h2>Use solver TUI commands<a class="headerlink" href="#use-solver-tui-commands" title="Permalink to this heading">#</a></h2>
+<p>The examples in this section show how you use <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>
+to define boundary conditions.</p>
+<section id="define-boundary-conditions">
+<h3>Define boundary conditions<a class="headerlink" href="#define-boundary-conditions" title="Permalink to this heading">#</a></h3>
+<p>This example shows a comparison between the TUI command and the
 Python code for defining velocity boundary conditions at inlets.</p>
 <p><strong>TUI command</strong></p>
 <div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/boundary-counditions/set/velocity-inlet</span><span class="w"> </span><span class="nv">cold-inlet</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="nv">vmag</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mf">0.4</span><span class="w"> </span><span class="nb">quit</span><span class="w"></span>
@@ -399,7 +399,7 @@ Python code for defining velocity boundary conditions at inlets.</p>
 </section>
 <section id="copying-boundary-conditions">
 <h3>Copying boundary conditions<a class="headerlink" href="#copying-boundary-conditions" title="Permalink to this heading">#</a></h3>
-<p>The following example shows a comparison between the TUI command and the
+<p>This example shows a comparison between the TUI command and the
 Python code for copying boundary conditions to other zones.</p>
 <p><strong>TUI command</strong></p>
 <div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/boundary-conditions/copy-bc</span><span class="w"> </span><span class="nv">cold-inlet</span><span class="w"> </span><span class="nv">hot-inlet</span><span class="w"> </span><span class="p">()</span><span class="w"></span>
@@ -412,7 +412,7 @@ Python code for copying boundary conditions to other zones.</p>
 </section>
 <section id="listing-zones">
 <h3>Listing zones<a class="headerlink" href="#listing-zones" title="Permalink to this heading">#</a></h3>
-<p>The following example shows a comparison between the TUI command and the
+<p>This example shows a comparison between the TUI command and the
 Python code for printing to the Fluent console the types and IDs of all zones.</p>
 <p><strong>TUI command</strong></p>
 <div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/boundary-conditions/list-zones</span><span class="w"></span>
@@ -425,7 +425,7 @@ Python code for printing to the Fluent console the types and IDs of all zones.</
 </section>
 <section id="modifying-cell-zone-conditions">
 <h3>Modifying cell zone conditions<a class="headerlink" href="#modifying-cell-zone-conditions" title="Permalink to this heading">#</a></h3>
-<p>The following example shows a comparison between the TUI command and the
+<p>This example shows a comparison between the TUI command and the
 Python code for modifying cell zone conditions.</p>
 <p><strong>TUI command</strong></p>
 <div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/boundary-conditions/fluid</span><span class="w"> </span><span class="nv">elbow-fluid</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">yes</span><span class="w"> </span><span class="nv">yes</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"></span>
@@ -464,10 +464,10 @@ Python code for modifying cell zone conditions.</p>
 </section>
 <section id="using-settings-objects">
 <h2>Using settings objects<a class="headerlink" href="#using-settings-objects" title="Permalink to this heading">#</a></h2>
-<p>The following examples show how you define boundary conditions using
-<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
-<section id="id2">
-<h3>Defining boundary conditions<a class="headerlink" href="#id2" title="Permalink to this heading">#</a></h3>
+<p>The examples in this section show how you use <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a> to define
+boundary conditions.</p>
+<section id="id1">
+<h3>Define boundary conditions<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
 <p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">[</span><span class="s1">&#39;cold-inlet&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">vmag</span> <span class="o">=</span> <span class="p">{</span>
     <span class="s1">&#39;option&#39;</span><span class="p">:</span> <span class="s1">&#39;constant or expression&#39;</span><span class="p">,</span>
@@ -489,8 +489,8 @@ Python code for modifying cell zone conditions.</p>
 </pre></div>
 </div>
 </section>
-<section id="id3">
-<h3>Modifying cell zone conditions<a class="headerlink" href="#id3" title="Permalink to this heading">#</a></h3>
+<section id="modify-cell-zone-conditions">
+<h3>Modify cell zone conditions<a class="headerlink" href="#modify-cell-zone-conditions" title="Permalink to this heading">#</a></h3>
 <p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1">#Enabling Laminar Zone</span>
 <span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">cell_zone_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">[</span><span class="s1">&#39;elbow-fluid&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;laminar&#39;</span> <span class="p">:</span> <span class="kc">True</span><span class="p">}</span>

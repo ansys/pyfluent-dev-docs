@@ -299,7 +299,7 @@ Fluent’s solution mode, including:</p>
 <h2>What is PyFluent?<a class="headerlink" href="#what-is-pyfluent" title="Permalink to this heading">#</a></h2>
 <p>PyFluent is part of the <a class="reference external" href="https://docs.pyansys.com">PyAnsys</a> ecosystem that
 lets you use Fluent within a Python environment of your choice in
-conjunction with other PyAnsys libraries and with other external Python
+conjunction with other PyAnsys libraries and external Python
 libraries.</p>
 <p>PyFluent implements a client-server architecture. It uses Google remote procedure
 calls, or gRPC interfaces, to launch or connect with a running Fluent process as
@@ -311,8 +311,8 @@ customized scripts.</p>
 </section>
 <section id="features">
 <h2>Features<a class="headerlink" href="#features" title="Permalink to this heading">#</a></h2>
-<p>Some of the many features in the primary package, <code class="docutils literal notranslate"><span class="pre">ansys-fluent-core</span></code>, allow
-you to:</p>
+<p>Some of the many features in this primary PyFluent package, <code class="docutils literal notranslate"><span class="pre">ansys-fluent-core</span></code>,
+allow you to:</p>
 <ul class="simple">
 <li><p>Launch the Fluent solver in serial or parallel and connect to
 already-running Fluent sessions. For more information, see <a class="reference internal" href="user_guide/launching_ansys_fluent.html#ref-user-guide-launch"><span class="std std-ref">Launching Fluent locally</span></a>.</p></li>
@@ -321,34 +321,34 @@ already-running Fluent sessions. For more information, see <a class="reference i
 <li><p>Script using all of Fluent’s TUI  (text user interface) commands. For more
 information, see <a class="reference internal" href="user_guide/tui_commands.html#ref-user-guide-tui-commands"><span class="std std-ref">Using TUI commands</span></a>.</p></li>
 <li><p>Run more than one Fluent session asynchronously. For more information,
-see <a class="reference internal" href="api/core/utils.html#ref-utils"><span class="std std-ref">PyFluent Util functions</span></a>.</p></li>
+see <a class="reference internal" href="api/core/utils.html#ref-utils"><span class="std std-ref">PyFluent utility functions</span></a>.</p></li>
 <li><p>Retrieve Fluent field data as numpy arrays for custom postprocessing
-using standard Python libraries such as <a class="reference external" href="https://matplotlib.org/">Matplotlib</a>.
+using standard Python packages such as <a class="reference external" href="https://matplotlib.org/">matplotlib</a>.
 For more information, see <a class="reference internal" href="api/core/solver/fielddata.html#ref-field-data"><span class="std std-ref">Field data</span></a>.</p></li>
 <li><p>Register function callbacks on Fluent solver events such as when a
-case or data file is read or when the Fluent solver completes an iteration.
+case file or data file is read or when the Fluent solver completes an iteration.
 For more information, see <a class="reference internal" href="api/core/solver/events.html#ref-events"><span class="std std-ref">EventsManager</span></a>.</p></li>
-<li><p>Retrieve solver monitors such as residuals using the <a class="reference internal" href="api/core/solver/monitors.html#ref-monitors"><span class="std std-ref">MonitorsManager</span></a>.</p></li>
+<li><p>Retrieve solver monitors such as residuals. For more information, see <a class="reference internal" href="api/core/solver/monitors.html#ref-monitors"><span class="std std-ref">MonitorsManager</span></a>.</p></li>
 </ul>
 </section>
 <section id="documentation-and-issues">
 <h2>Documentation and issues<a class="headerlink" href="#documentation-and-issues" title="Permalink to this heading">#</a></h2>
 <p>In addition to installation and usage information, the PyFluent
-documentation provides an <a class="reference internal" href="api/index.html#ref-index-api"><span class="std std-ref">API reference</span></a>, <a class="reference internal" href="examples/index.html#ref-example-gallery"><span class="std std-ref">Examples</span></a>,
-and <a class="reference internal" href="contributing.html#ref-contributing"><span class="std std-ref">Contributing</span></a> guidelines.</p>
+documentation provides <a class="reference internal" href="api/index.html#ref-index-api"><span class="std std-ref">API reference</span></a>, <a class="reference internal" href="examples/index.html#ref-example-gallery"><span class="std std-ref">Examples</span></a>,
+and <a class="reference internal" href="contributing.html#ref-contributing"><span class="std std-ref">Contributing</span></a> sections.</p>
 <p>On the <a class="reference external" href="https://github.com/pyansys/pyfluent/issues">PyFluent Issues</a> page, you can create
 issues to submit questions, report bugs, and request new features. To reach
-the project support team, email <a class="reference external" href="mailto:pyansys&#46;support&#37;&#52;&#48;ansys&#46;com">pyansys<span>&#46;</span>support<span>&#64;</span>ansys<span>&#46;</span>com</a>.</p>
+the PyAnsys support team, email <a class="reference external" href="mailto:pyansys&#46;support&#37;&#52;&#48;ansys&#46;com">pyansys<span>&#46;</span>support<span>&#64;</span>ansys<span>&#46;</span>com</a>.</p>
 </section>
 <section id="license">
 <h2>License<a class="headerlink" href="#license" title="Permalink to this heading">#</a></h2>
 <p>PyFluent is licensed under the MIT license.</p>
-<p>This module makes no commercial claim over Ansys whatsoever. PyFluent
-extends the functionality of Fluent by adding a Python interface
+<p>PyFluent makes no commercial claim over Ansys whatsoever. This library
+extends the functionality of Ansys Fluent by adding a Python interface
 to Fluent without changing the core behavior or license of the original
-software. The use of the interactive control of <code class="docutils literal notranslate"><span class="pre">PyFluent</span></code> requires a
-legally licensed local copy of Fluent. For more information about Fluent,
-visit the <a class="reference external" href="https://www.ansys.com/products/fluids/ansys-fluent">Fluent page</a>
+software. The use of the interactive control of Fluent control of PyFluent
+requires a legally licensed copy of Fluent.</p>
+<p>For more information on Fluent, see the <a class="reference external" href="https://www.ansys.com/products/fluids/ansys-fluent">Ansys Fluent page</a>
 on the Ansys website.</p>
 </section>
 <section id="project-index">

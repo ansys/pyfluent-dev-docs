@@ -229,7 +229,7 @@
    </li>
    <li class="toctree-l2 has-children">
     <a class="reference internal" href="../utils.html">
-     PyFluent Util functions
+     PyFluent utility functions
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
     <label for="toctree-checkbox-3">
@@ -8319,8 +8319,8 @@ property in each solution-mode session object. It provides access to server moni
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">Tuple</span></code>[<code class="xref py py-obj docutils literal notranslate"><span class="pre">np.array</span></code>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">Dict</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">np.array</span></code>]]</dt><dd><p>Tuple containing a numpy array of x-axis values and a dictionary of monitor names
-and a numpy array of y-axis values.</p>
+<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">Tuple</span></code>[<code class="xref py py-obj docutils literal notranslate"><span class="pre">np.array</span></code>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">Dict</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">np.array</span></code>]]</dt><dd><p>Tuple containing two elements: a numpy array of x-axis values and a dictionary
+associating monitor names of type <code class="docutils literal notranslate"><span class="pre">str</span></code> to numpy arrays of y-axis values.</p>
 </dd>
 </dl>
 </dd>
@@ -8345,9 +8345,8 @@ and a numpy array of y-axis values.</p>
 </dd>
 <dt class="field-even">Returns</dt>
 <dd class="field-even"><dl class="simple">
-<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">Union</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/constants.html#None" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">None</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#object" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">object</span></code></a>]</dt><dd><p>Returns <code class="docutils literal notranslate"><span class="pre">None</span></code> if the DataFrame is empty. Otherwise, it returns the
-plot object, depending on the <code class="docutils literal notranslate"><span class="pre">plotting.backend</span></code>.
-<a class="reference external" href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html">https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html</a></p>
+<dt><code class="xref py py-obj docutils literal notranslate"><span class="pre">Union</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/constants.html#None" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">None</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/functions.html#object" title="(in Python v3.12)"><code class="xref py py-obj docutils literal notranslate"><span class="pre">object</span></code></a>]</dt><dd><p>Returns <code class="docutils literal notranslate"><span class="pre">None</span></code> if the <a class="reference external" href="https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.plot.html">DataFrame</a>
+is empty. Otherwise, it returns the plot object, depending on the <code class="docutils literal notranslate"><span class="pre">plotting.backend</span></code>.</p>
 </dd>
 </dl>
 </dd>

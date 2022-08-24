@@ -229,7 +229,7 @@
    </li>
    <li class="toctree-l2 has-children">
     <a class="reference internal" href="../utils.html">
-     PyFluent Util functions
+     PyFluent utility functions
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
     <label for="toctree-checkbox-3">
@@ -8335,10 +8335,10 @@
 can access Fluent surface, scalar, and vector field data.</p>
 <section id="multiple-fields-in-a-request">
 <h2>Multiple fields in a request<a class="headerlink" href="#multiple-fields-in-a-request" title="Permalink to this heading">#</a></h2>
-<p>You can combine requests for multiple fields in a single request and receive
-the data for all fields in a single response.</p>
+<p>You can get data for multiple fields in a single request and see
+the data for all of these fields in a single response.</p>
 <p><strong>Request</strong></p>
-<p>The <code class="docutils literal notranslate"><span class="pre">add_get_&lt;items&gt;_request</span></code> methods combine requests for multiple fields in a single request.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">add_get_&lt;items&gt;_request</span></code> methods combine requests for multiple fields in a single request:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">add_get_surfaces_request</span></code> adds a surfaces request.</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">add_get_scalar_fields_request</span></code> adds a scalar fields request.</p></li>
@@ -8346,7 +8346,7 @@ the data for all fields in a single response.</p>
 </ul>
 <p><strong>Response</strong>
 The <code class="docutils literal notranslate"><span class="pre">get_fields</span></code> method returns all requested fields in a single response. It provides
-the dictionary containing the requested fields as a numpy array in the following order:</p>
+a dictionary containing the requested fields as a numpy array in the following order:</p>
 <p><code class="docutils literal notranslate"><span class="pre">tag_id</span> <span class="pre">[int]-&gt;</span> <span class="pre">surface_id</span> <span class="pre">[int]</span> <span class="pre">-&gt;</span> <span class="pre">field_name</span> <span class="pre">[str]</span> <span class="pre">-&gt;</span> <span class="pre">field_data[np.array]</span></code></p>
 </section>
 <section id="tag-id">
@@ -8365,7 +8365,7 @@ node location[4], <code class="docutils literal notranslate"><span class="pre">t
 </section>
 <section id="surface-id">
 <h2>Surface ID<a class="headerlink" href="#surface-id" title="Permalink to this heading">#</a></h2>
-<p>The surface ID is the same one as passed in the request.</p>
+<p>The surface ID is the same one that is passed in the request.</p>
 </section>
 <section id="field-name">
 <h2>Field name<a class="headerlink" href="#field-name" title="Permalink to this heading">#</a></h2>
@@ -8375,10 +8375,10 @@ node location[4], <code class="docutils literal notranslate"><span class="pre">t
 <p>The response to a surface request contains any of the following fields, depending on the
 request arguments:</p>
 <ul class="simple">
-<li><p>faces, which contain face connectivity</p></li>
-<li><p>vertices, which contain node coordinates</p></li>
-<li><p>centroid, which contains face centroids</p></li>
-<li><p>face-normal, which contains face normals</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">faces</span></code>, which contain face connectivity</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">vertices</span></code>, which contain node coordinates</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">centroid</span></code>, which contains face centroids</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">face-normal</span></code>, which contains face normals</p></li>
 </ul>
 </section>
 <section id="scalar-field-request">
@@ -8390,8 +8390,8 @@ scalar field name passed in the request.</p>
 <h3>Vector field request<a class="headerlink" href="#vector-field-request" title="Permalink to this heading">#</a></h3>
 <p>The response to a vector field request contains two fields:</p>
 <ul class="simple">
-<li><p>vector field, with the same name as the vector field name passed in the request</p></li>
-<li><p>vector-scale</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">vector</span> <span class="pre">field</span></code>, with the same name as the vector field name that is passed in the request</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">vector-scale</span></code>, a float value indicating the vector scale.</p></li>
 </ul>
 </section>
 <section id="example">
@@ -8483,10 +8483,13 @@ or vector):</p>
 the requested field.</p>
 <p><code class="docutils literal notranslate"><span class="pre">surface_id</span> <span class="pre">[int]</span> <span class="pre">-&gt;</span> <span class="pre">field[np.array]</span></code></p>
 <p>For a vector field request, the response is a dictionary of surface IDs and a tuple of a numpy array of <code class="docutils literal notranslate"><span class="pre">vector</span> <span class="pre">field</span></code>
-and <code class="docutils literal notranslate"><span class="pre">vector</span> <span class="pre">scale</span></code>.</p>
+and <code class="docutils literal notranslate"><span class="pre">vector-scale</span></code>.</p>
 <p><code class="docutils literal notranslate"><span class="pre">surface_id</span> <span class="pre">[int]</span> <span class="pre">-&gt;</span> <span class="pre">(vector</span> <span class="pre">field</span> <span class="pre">[np.array],</span>&#160; <span class="pre">vector-scale</span> <span class="pre">[float])</span></code></p>
-<p>It is important to note that in Fluent, you can associate a surface name with multiple surface
-IDs. Thus, a response can contain a surface ID as a key of the returned dictionary.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>In Fluent, you can associate a surface name with multiple surface IDs.
+Thus, a response can contain a surface ID as a key of the returned dictionary.</p>
+</div>
 <section id="id1">
 <h3>Example<a class="headerlink" href="#id1" title="Permalink to this heading">#</a></h3>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ansys.fluent.core.services.field_data</span> <span class="kn">import</span> <span class="n">SurfaceDataType</span>

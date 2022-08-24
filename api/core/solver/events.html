@@ -229,7 +229,7 @@
    </li>
    <li class="toctree-l2 has-children">
     <a class="reference internal" href="../utils.html">
-     PyFluent Util functions
+     PyFluent utility functions
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
     <label for="toctree-checkbox-3">
@@ -8273,9 +8273,9 @@
   <section id="eventsmanager">
 <span id="ref-events"></span><h1>EventsManager<a class="headerlink" href="#eventsmanager" title="Permalink to this heading">#</a></h1>
 <p>An instance of <code class="docutils literal notranslate"><span class="pre">EventsManager</span></code> exists as an active <code class="docutils literal notranslate"><span class="pre">events_manager</span></code> property in each
-solution-mode session object. You can register client callbacks with the EventsManager.
-The EventsManager calls each callback whenever a server-side event occurs, passing session ID
-and event information arguments to the callback. The EventsManager is useful for solution
+solution mode session object. You can register client callbacks with the EventsManager.
+The EventsManager calls each callback whenever a server-side event occurs, passing the session
+ID and event information arguments to the callback. The EventsManager is useful for solution
 monitoring and updating graphics during runtime.</p>
 <p>Supported events are:</p>
 <ul class="simple">
@@ -8305,7 +8305,7 @@ monitoring and updating graphics during runtime.</p>
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.solver.events_manager.EventsManager.register_callback">
 <span class="sig-prename descclassname"><span class="pre">EventsManager.</span></span><span class="sig-name descname"><span class="pre">register_callback</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">event_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">call_back</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.events_manager.EventsManager.register_callback" title="Permalink to this definition">#</a></dt>
-<dd><p>Register <cite>Callback</cite>.</p>
+<dd><p>Register the callback.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>

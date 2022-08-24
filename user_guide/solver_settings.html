@@ -268,18 +268,18 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#selecting-steady-or-transient">
-   Selecting steady or transient
+  <a class="reference internal nav-link" href="#set-steady-or-transient-solution-model">
+   Set steady or transient solution model
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#selecting-a-pressure-based-or-density-based-solver">
-   Selecting a pressure-based or density-based solver
+  <a class="reference internal nav-link" href="#set-a-pressure-based-or-density-based-solver">
+   Set a pressure-based or density-based solver
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#defining-gravitational-acceleration">
-   Defining gravitational acceleration
+  <a class="reference internal nav-link" href="#set-gravitational-acceleration">
+   Set gravitational acceleration
   </a>
  </li>
 </ul>
@@ -303,14 +303,15 @@
                 
   <section id="specifying-solver-settings">
 <span id="ref-user-guide-solver-settings"></span><h1>Specifying solver settings<a class="headerlink" href="#specifying-solver-settings" title="Permalink to this heading">#</a></h1>
-<p>PyFluent supports specifying solver settings using
-<a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
-<p>The following examples show how you specify solver
-settings using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>:</p>
-<section id="selecting-steady-or-transient">
-<h2>Selecting steady or transient<a class="headerlink" href="#selecting-steady-or-transient" title="Permalink to this heading">#</a></h2>
-<p>The following example shows a comparison between the TUI commands and the
-Python code for enabling and disabling the steady and unsteady solution model.</p>
+<p>PyFluent supports using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>
+to specify solver settings.</p>
+<p>The examples in this topic show how you use <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> to
+specify solver settings.</p>
+<section id="set-steady-or-transient-solution-model">
+<h2>Set steady or transient solution model<a class="headerlink" href="#set-steady-or-transient-solution-model" title="Permalink to this heading">#</a></h2>
+<p>This example shows a comparison between the TUI commands and the
+Python code for enabling and disabling the steady and unsteady (transient)
+solution model.</p>
 <p><strong>TUI command</strong></p>
 <div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/models/steady</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
 <span class="nv">/define/models/unsteady_1st_order</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
@@ -325,11 +326,11 @@ Python code for enabling and disabling the steady and unsteady solution model.</
 </pre></div>
 </div>
 </section>
-<section id="selecting-a-pressure-based-or-density-based-solver">
-<h2>Selecting a pressure-based or density-based solver<a class="headerlink" href="#selecting-a-pressure-based-or-density-based-solver" title="Permalink to this heading">#</a></h2>
-<p>The following examples show comparisons between the TUI commands and the
-Python code for enabling and disabling the pressure-based and density-based solver
-models.</p>
+<section id="set-a-pressure-based-or-density-based-solver">
+<h2>Set a pressure-based or density-based solver<a class="headerlink" href="#set-a-pressure-based-or-density-based-solver" title="Permalink to this heading">#</a></h2>
+<p>This example shows a comparison between the TUI commands and the
+Python code for enabling and disabling the pressure-based and
+density-based solver models.</p>
 <p><strong>TUI command</strong></p>
 <div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/models/solver/density-based-explicit</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
 <span class="nv">/define/models/solver/density-based-implicit</span><span class="w"> </span><span class="nv">yes</span><span class="w"></span>
@@ -343,10 +344,10 @@ models.</p>
 </pre></div>
 </div>
 </section>
-<section id="defining-gravitational-acceleration">
-<h2>Defining gravitational acceleration<a class="headerlink" href="#defining-gravitational-acceleration" title="Permalink to this heading">#</a></h2>
-<p>The following example shows a comparison between the TUI command and the
-Python code for settings the gravitational acceleration</p>
+<section id="set-gravitational-acceleration">
+<h2>Set gravitational acceleration<a class="headerlink" href="#set-gravitational-acceleration" title="Permalink to this heading">#</a></h2>
+<p>This example shows a comparison between the TUI command and the
+Python code for setting the gravitational acceleration.</p>
 <p><strong>TUI command</strong></p>
 <div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/operating-conditions/gravity</span><span class="w"> </span><span class="nv">yes</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="mf">-9.81</span><span class="w"> </span><span class="mi">0</span><span class="w"></span>
 </pre></div>

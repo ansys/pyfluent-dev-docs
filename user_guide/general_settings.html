@@ -268,23 +268,23 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#checking-the-mesh">
-   Checking the mesh
+  <a class="reference internal nav-link" href="#check-the-mesh">
+   Check the mesh
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#reporting-mesh-quality">
-   Reporting mesh quality
+  <a class="reference internal nav-link" href="#report-mesh-quality">
+   Report mesh quality
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#scaling-mesh">
-   Scaling mesh
+  <a class="reference internal nav-link" href="#scale-mesh">
+   Scale mesh
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#defining-units">
-   Defining units
+  <a class="reference internal nav-link" href="#define-units">
+   Define units
   </a>
  </li>
 </ul>
@@ -308,15 +308,15 @@
                 
   <section id="applying-general-settings">
 <h1>Applying general settings<a class="headerlink" href="#applying-general-settings" title="Permalink to this heading">#</a></h1>
-<p>PyFluent supports applying general settings using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and
-<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
-<p>The following examples shows how you use solver meshing commands
-and set up units using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>.</p>
-<section id="checking-the-mesh">
-<h2>Checking the mesh<a class="headerlink" href="#checking-the-mesh" title="Permalink to this heading">#</a></h2>
-<p>The following example shows a comparison between the TUI command and the
+<p>PyFluent supports using both <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and
+<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a> to apply general settings.</p>
+<p>The examples in this topic show how you use <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>
+to run solver meshing commands and set up units.</p>
+<section id="check-the-mesh">
+<h2>Check the mesh<a class="headerlink" href="#check-the-mesh" title="Permalink to this heading">#</a></h2>
+<p>This example shows a comparison between the TUI command and the
 Python code for performing mesh consistency checks and displaying a
-report in the console that lists domain extents, volume statistics,
+report in the console. This report lists domain extents, volume statistics,
 face area statistics, any warnings, and information about failures.
 The level of information shown depends on the setting specified for
 the verbosity (level 0 to 3).</p>
@@ -333,9 +333,9 @@ the verbosity (level 0 to 3).</p>
 </pre></div>
 </div>
 </section>
-<section id="reporting-mesh-quality">
-<h2>Reporting mesh quality<a class="headerlink" href="#reporting-mesh-quality" title="Permalink to this heading">#</a></h2>
-<p>The following example shows a comparison between the TUI command and the
+<section id="report-mesh-quality">
+<h2>Report mesh quality<a class="headerlink" href="#report-mesh-quality" title="Permalink to this heading">#</a></h2>
+<p>This example shows a comparison between the TUI command and the
 Python code for displaying information about the quality of the mesh in the
 console, including the minimum orthogonal quality and maximum aspect ratio.</p>
 <p><strong>TUI command</strong></p>
@@ -347,10 +347,10 @@ console, including the minimum orthogonal quality and maximum aspect ratio.</p>
 </pre></div>
 </div>
 </section>
-<section id="scaling-mesh">
-<h2>Scaling mesh<a class="headerlink" href="#scaling-mesh" title="Permalink to this heading">#</a></h2>
-<p>The following example shows a comparison between the TUI command and the
-Python code for the scaling the mesh in each of the active Cartesian
+<section id="scale-mesh">
+<h2>Scale mesh<a class="headerlink" href="#scale-mesh" title="Permalink to this heading">#</a></h2>
+<p>This example shows a comparison between the TUI command and the
+Python code for scaling the mesh in each of the active Cartesian
 coordinate directions.</p>
 <p><strong>TUI command</strong></p>
 <div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/mesh/scale</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="mi">1</span><span class="w"></span>
@@ -361,8 +361,8 @@ coordinate directions.</p>
 </pre></div>
 </div>
 </section>
-<section id="defining-units">
-<h2>Defining units<a class="headerlink" href="#defining-units" title="Permalink to this heading">#</a></h2>
+<section id="define-units">
+<h2>Define units<a class="headerlink" href="#define-units" title="Permalink to this heading">#</a></h2>
 <p>The following example shows a comparison between the TUI command and the
 Python code for setting the unit conversion factors.</p>
 <p><strong>TUI command</strong></p>

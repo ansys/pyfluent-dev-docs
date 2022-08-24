@@ -219,23 +219,23 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#cloning-the-pyfluent-repository">
-   Cloning the PyFluent repository
+  <a class="reference internal nav-link" href="#clone-the-repository">
+   Clone the repository
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#building-documentation">
-   Building documentation
+  <a class="reference internal nav-link" href="#build-documentation">
+   Build documentation
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#posting-issues">
-   Posting issues
+  <a class="reference internal nav-link" href="#post-issues">
+   Post issues
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#adhering-to-code-style">
-   Adhering to code style
+  <a class="reference internal nav-link" href="#adhere-to-code-style">
+   Adhere to code style
   </a>
  </li>
 </ul>
@@ -265,10 +265,10 @@ in the <em>PyAnsys Developer’s Guide</em>. Ensure that you are thoroughly fami
 this guide, paying particular attention to the <a class="reference external" href="https://dev.docs.pyansys.com/coding-style/index.html#coding-style">Coding Style</a> topic, before
 attempting to contribute to PyFluent.</p>
 <p>The following contribution information is specific to PyFluent.</p>
-<section id="cloning-the-pyfluent-repository">
-<h2>Cloning the PyFluent repository<a class="headerlink" href="#cloning-the-pyfluent-repository" title="Permalink to this heading">#</a></h2>
-<p>Run this code to clone and install the latest version of PyFluent in development
-mode:</p>
+<section id="clone-the-repository">
+<h2>Clone the repository<a class="headerlink" href="#clone-the-repository" title="Permalink to this heading">#</a></h2>
+<p>To clone and install the latest PyFluent release in development
+mode, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">pyansys</span><span class="o">/</span><span class="n">pyfluent</span><span class="o">.</span><span class="n">git</span>
 <span class="n">cd</span> <span class="n">pyfluent</span>
 <span class="n">pip</span> <span class="n">install</span> <span class="n">pip</span> <span class="o">-</span><span class="n">U</span>
@@ -276,10 +276,10 @@ mode:</p>
 </pre></div>
 </div>
 </section>
-<section id="building-documentation">
-<h2>Building documentation<a class="headerlink" href="#building-documentation" title="Permalink to this heading">#</a></h2>
-<p>In the root directory of the repository, you can build documentation
-locally with:</p>
+<section id="build-documentation">
+<h2>Build documentation<a class="headerlink" href="#build-documentation" title="Permalink to this heading">#</a></h2>
+<p>To build the PyFluent documentation locally, in the root directory of the
+repository, run:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">r</span> <span class="n">requirements</span><span class="o">/</span><span class="n">requirements_doc</span><span class="o">.</span><span class="n">txt</span>
 <span class="n">cd</span> <span class="n">doc</span>
 <span class="n">make</span> <span class="n">html</span>
@@ -293,21 +293,21 @@ this directory into a web browser.</p>
 </pre></div>
 </div>
 </section>
-<section id="posting-issues">
-<h2>Posting issues<a class="headerlink" href="#posting-issues" title="Permalink to this heading">#</a></h2>
+<section id="post-issues">
+<h2>Post issues<a class="headerlink" href="#post-issues" title="Permalink to this heading">#</a></h2>
 <p>Use the <a class="reference external" href="https://github.com/pyansys/pyfluent/issues">PyFluent Issues</a> page to
 submit questions, report bugs, and request new features.</p>
 </section>
-<section id="adhering-to-code-style">
-<h2>Adhering to code style<a class="headerlink" href="#adhering-to-code-style" title="Permalink to this heading">#</a></h2>
-<p>PyFluent is compliant with the <a class="reference external" href="https://dev.docs.pyansys.com/coding_style/index.html">PyAnsys Development Code Style Guide</a>. It uses the tool
+<section id="adhere-to-code-style">
+<h2>Adhere to code style<a class="headerlink" href="#adhere-to-code-style" title="Permalink to this heading">#</a></h2>
+<p>PyFluent is compliant with the <a class="reference external" href="https://dev.docs.pyansys.com/coding_style/index.html">PyAnsys code style</a>. It uses the tool
 <a class="reference external" href="https://pre-commit.com/">pre-commit</a> to check the code style. You can
 install and activate this tool with:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>python -m pip install pre-commit
 pre-commit install
 </pre></div>
 </div>
-<p>You then use the <code class="docutils literal notranslate"><span class="pre">style</span></code> rule defined in <code class="docutils literal notranslate"><span class="pre">Makefile</span></code> with:</p>
+<p>You can then use the <code class="docutils literal notranslate"><span class="pre">style</span></code> rule defined in <code class="docutils literal notranslate"><span class="pre">Makefile</span></code> with:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>make style
 </pre></div>
 </div>

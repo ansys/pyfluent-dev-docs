@@ -261,9 +261,24 @@
     
     <div class="toc-item">
       
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
 <nav id="bd-toc-nav">
-    
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tui-command-construction">
+   TUI command construction
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#tui-command-transformation-rules">
+   TUI command transformation rules
+  </a>
+ </li>
+</ul>
+
 </nav>
     </div>
     
@@ -296,19 +311,20 @@ command abbreviation. To make using PyFluent commands in an interactive
 session easier, you can install a tool such as
 <a class="reference external" href="https://github.com/pyreadline3/pyreadline3">pyreadline3</a>, which provides
 both command line completion and history. To inspect any PyFluent TUI object further,
-you can also use the Python built-in
-<a class="reference external" href="https://docs.python.org/3/library/functions.html#help">help</a> and
-<a class="reference external" href="https://docs.python.org/3/library/functions.html#dir">dir</a> functions.</p>
-<p>The arguments to a TUI command are just those that would be passed in direct interaction in the
-Fluent console, but in a Pythonic style. The most productive way to write Python commands
+you can use the Python built-in`help &lt;<a class="reference external" href="https://docs.python.org/3/library/functions.html#help">https://docs.python.org/3/library/functions.html#help</a>&gt;`_
+and <a class="reference external" href="https://docs.python.org/3/library/functions.html#dir">dir</a> functions.</p>
+<p>The arguments to a TUI command are those that would be passed in direct interaction in the
+Fluent console, but they are in a Pythonic style. The most productive way to write Python commands
 is with reference to existing TUI commands. The following examples show how the Python usage
 mirrors the existing TUI usage.</p>
-<p>Assume in the solution mode, you typed the following in the Fluent console to set
+<section id="tui-command-construction">
+<h2>TUI command construction<a class="headerlink" href="#tui-command-construction" title="Permalink to this heading">#</a></h2>
+<p>Assume that you are in the solution mode and type the following in the Fluent console to set
 velocity inlet properties:</p>
 <div class="highlight-lisp notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/boundary_conditions/set/velocity-inlet</span><span class="w"></span>
 </pre></div>
 </div>
-<p>This command instigates a sequence of prompts for input in the console. Assume that you respond
+<p>This command instigates a sequence of prompts in the console. Assume that you respond
 to each prompt in turn as follows:</p>
 <div class="highlight-lisp notranslate"><div class="highlight"><pre><span></span><span class="nv">velocity-inlet-5</span><span class="w"></span>
 
@@ -323,12 +339,14 @@ to each prompt in turn as follows:</p>
 <span class="nv">quit</span><span class="w"></span>
 </pre></div>
 </div>
-<p>The effect is identical to the following code that specifies all the arguments in one call:</p>
+<p>The following code yields the same result but specifies all arguments in one call:</p>
 <div class="highlight-lisp notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/boundary-conditions/set/velocity-inlet</span><span class="w"> </span><span class="nv">velocity-inlet-5</span><span class="w"> </span><span class="p">()</span><span class="w"> </span><span class="nv">temperature</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mf">293.15</span><span class="w"> </span><span class="nv">quit</span><span class="w"></span>
 </pre></div>
 </div>
-<p>You can see how using the interactive TUI provides a reliable approach for constructing TUI calls, including full sequences of
-arguments. With the full TUI call in hand, you can transform it to a Python call:</p>
+<p>You can see how using the interactive TUI provides a reliable approach for
+constructing TUI calls that include full sequences of arguments.</p>
+<p>With the full TUI call in hand, you can transform it to a Python call. This
+code launches Fluent and makes the call to set velocity inlet properties:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">launch_fluent</span>
 
 <span class="n">solver_session</span> <span class="o">=</span> <span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
@@ -340,7 +358,7 @@ arguments. With the full TUI call in hand, you can transform it to a Python call
   <span class="p">)</span>
 </pre></div>
 </div>
-<p>Now look at another Fluent console interaction:</p>
+<p>Here is another Fluent console interaction:</p>
 <div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/units</span><span class="w"></span>
 
 <span class="nv">pressure</span><span class="w"></span>
@@ -348,13 +366,16 @@ arguments. With the full TUI call in hand, you can transform it to a Python call
 <span class="s">&quot;Pa&quot;</span><span class="w"></span>
 </pre></div>
 </div>
-<p>The Python call is:</p>
+<p>The corresponding Python call is:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">units</span><span class="p">(</span><span class="s2">&quot;pressure&quot;</span><span class="p">,</span> <span class="s1">&#39;&quot;Pa&quot;&#39;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>The string <code class="docutils literal notranslate"><span class="pre">&quot;Pa&quot;</span></code> is wrapped in single quotation marks to preserve the double quotation marks
-around the TUI argument.</p>
-<p>Note the following rules that are implied in the preceding examples:</p>
+<p>To preserve the double quotation marks around the TUI argument,
+you must wrap the string <code class="docutils literal notranslate"><span class="pre">&quot;Pa&quot;</span></code> in single quotation marks .</p>
+</section>
+<section id="tui-command-transformation-rules">
+<h2>TUI command transformation rules<a class="headerlink" href="#tui-command-transformation-rules" title="Permalink to this heading">#</a></h2>
+<p>The following rules are implied in the preceding examples:</p>
 <ul class="simple">
 <li><p>Each forward slash separator between elements in TUI paths is transformed to Python dot notation.</p></li>
 <li><p>Some characters in path elements are either removed or replaced because they are illegal inside Python names.
@@ -367,14 +388,14 @@ For example:</p>
 <li><p>Some are some rules about strings:</p>
 <ul>
 <li><p>String-type arguments must be surrounded by quotation marks in Python.</p></li>
-<li><p>Note the special case in the last Python call example where a target Fluent TUI argument was surrounded
-by quotation marks (<code class="docutils literal notranslate"><span class="pre">&quot;Pa&quot;</span></code>). To preserve  quotation marks, you must wrap the Python string in additional
-single quotation marks.</p></li>
+<li><p>A target Fluent TUI argument that is surrounded by quotation marks (like <code class="docutils literal notranslate"><span class="pre">&quot;Pa&quot;</span></code> in the preceding
+example) must be wrapped in single quotation marks so that the original quotation marks are preserved.</p></li>
 <li><p>The contents of string arguments are preserved.</p></li>
 </ul>
 </li>
 </ul>
 <p>For more examples of TUI command usage, see <a class="reference internal" href="../examples/00-fluent/mixing_elbow.html#ref-mixing-elbow-tui-api"><span class="std std-ref">Watertight geometry meshing workflow</span></a>.</p>
+</section>
 </section>
 
 

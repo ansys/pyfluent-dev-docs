@@ -54,7 +54,7 @@
     <link rel="shortcut icon" href="../../../_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="PyFluent Util functions" href="../utils.html" />
+    <link rel="next" title="PyFluent utility functions" href="../utils.html" />
     <link rel="prev" title="Launching Fluent" href="../launcher.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="docsearch:language" content="en">
@@ -229,7 +229,7 @@
    </li>
    <li class="toctree-l2 has-children">
     <a class="reference internal" href="../utils.html">
-     PyFluent Util functions
+     PyFluent utility functions
     </a>
     <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
     <label for="toctree-checkbox-3">
@@ -8281,50 +8281,50 @@ server instance.</p>
 <dt class="field-odd">Parameters</dt>
 <dd class="field-odd"><dl>
 <dt><strong>version</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Dimensions for modeling. The default is <code class="docutils literal notranslate"><span class="pre">None</span></code>, in which case <code class="docutils literal notranslate"><span class="pre">&quot;3d&quot;</span></code>
-is used. Options are <code class="docutils literal notranslate"><span class="pre">&quot;2d&quot;</span></code> and <code class="docutils literal notranslate"><span class="pre">&quot;3d&quot;</span></code>.</p>
+is used. Options are <code class="docutils literal notranslate"><span class="pre">&quot;3d&quot;</span></code> and <code class="docutils literal notranslate"><span class="pre">&quot;2d&quot;</span></code>.</p>
 </dd>
 <dt><strong>precision</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Floating point precision. The default is <code class="docutils literal notranslate"><span class="pre">None</span></code>, in which case <code class="docutils literal notranslate"><span class="pre">&quot;double&quot;</span></code>
-is used. Options are <code class="docutils literal notranslate"><span class="pre">&quot;single&quot;``or</span> <span class="pre">``&quot;double&quot;</span></code>.</p>
+is used. Options are <code class="docutils literal notranslate"><span class="pre">&quot;double&quot;</span></code> and <code class="docutils literal notranslate"><span class="pre">&quot;single&quot;</span></code>.</p>
 </dd>
 <dt><strong>processor_count</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Number of processors. The default is <code class="docutils literal notranslate"><span class="pre">None</span></code>, in which case <code class="docutils literal notranslate"><span class="pre">1</span></code>
 is used.</p>
 </dd>
 <dt><strong>journal_filename</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Name of the journal file to read. The default is <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
 </dd>
-<dt><strong>start_timeout</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Maximum allowable time in seconds to connect to the Fluent
+<dt><strong>start_timeout</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Maximum allowable time in seconds for connecting to the Fluent
 server. The default is <code class="docutils literal notranslate"><span class="pre">100</span></code>.</p>
 </dd>
-<dt><strong>additional_arguments</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Additional arguments to send to Fluent as is. The default is <code class="docutils literal notranslate"><span class="pre">&quot;&quot;</span></code>.</p>
+<dt><strong>additional_arguments</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Additional arguments to send to Fluent. The default is <code class="docutils literal notranslate"><span class="pre">&quot;&quot;</span></code>.</p>
 </dd>
 <dt><strong>env</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#dict" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">dict</span></code></a>[<a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>], <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Mapping to modify environment variables in Fluent. The default
 is <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
 </dd>
 <dt><strong>start_instance</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to connect to an existing Fluent instance at a specified IP
-address on a specified poort. The default is <code class="docutils literal notranslate"><span class="pre">None</span></code>, in which
+address on a specified port. The default is <code class="docutils literal notranslate"><span class="pre">None</span></code>, in which
 case a local instance of Fluent is started. When <code class="docutils literal notranslate"><span class="pre">False</span></code>, use
 the next two parameters to specify the IP address and port. You
 can also use the environment variable <code class="docutils literal notranslate"><span class="pre">PYFLUENT_START_INSTANCE=&lt;0</span> <span class="pre">or</span> <span class="pre">1&gt;</span></code>
 to set this parameter.</p>
 </dd>
-<dt><strong>ip</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>IP address to connect to an existing Fluent instance. This parameter
+<dt><strong>ip</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>IP address for connecting to an existing Fluent instance. This parameter
 is used only when <code class="docutils literal notranslate"><span class="pre">start_instance</span></code> is <code class="docutils literal notranslate"><span class="pre">False</span></code>. Otherwise, the
 IP address defaults to <code class="docutils literal notranslate"><span class="pre">&quot;127.0.0.1&quot;</span></code>. You can also use the environment
 variable <code class="docutils literal notranslate"><span class="pre">PYFLUENT_FLUENT_IP=&lt;ip&gt;</span></code> to set this parameter.</p>
 </dd>
-<dt><strong>port</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Port to connect to an existing Fluent instance. This parameter is
+<dt><strong>port</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Port to listen on for an existing Fluent instance. This parameter is
 used only when <code class="docutils literal notranslate"><span class="pre">start_instance</span></code> is <code class="docutils literal notranslate"><span class="pre">False</span></code>. You can use the
 environment variable <code class="docutils literal notranslate"><span class="pre">PYFLUENT_FLUENT_PORT=&lt;port&gt;</span></code> to set a default
 value.</p>
 </dd>
 <dt><strong>cleanup_on_exit</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to shut down the connected Fluent session when PyFluent is
-exited or the <code class="docutils literal notranslate"><span class="pre">exist()</span></code> method is called on the session instance.
+exited or the <code class="docutils literal notranslate"><span class="pre">exit()</span></code> method is called on the session instance.
 The default is <code class="docutils literal notranslate"><span class="pre">True</span></code>.</p>
 </dd>
-<dt><strong>start_transcript</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to start the Fluent transcript in the client. The default is
-<code class="docutils literal notranslate"><span class="pre">True</span></code>. You can stop and start the Fluent transcript subsequently
-via method calls on the Session object.</p>
+<dt><strong>start_transcript</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to start streaming the Fluent transcript in the client. The
+default is <code class="docutils literal notranslate"><span class="pre">True</span></code>. You can stop and start the streaming of the
+Fluent transcript subsequently via method calls on the session object.</p>
 </dd>
-<dt><strong>show_gui</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to display the Fluent GUI when <code class="docutils literal notranslate"><span class="pre">``start_instance</span></code>
+<dt><strong>show_gui</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to display the Fluent GUI when <code class="docutils literal notranslate"><span class="pre">start_instance</span></code>
 is set to ‘’True``. The default is <code class="docutils literal notranslate"><span class="pre">None</span></code> so that explicit
 <code class="docutils literal notranslate"><span class="pre">False</span></code> settings can be detected. This is because you can use
 also use the environment variable <code class="docutils literal notranslate"><span class="pre">PYFLUENT_SHOW_SERVER_GUI=&lt;0</span> <span class="pre">or</span> <span class="pre">1&gt;</span></code>
@@ -8340,8 +8340,8 @@ in the fluent session</p>
 in which case Fluent is launched in meshing mode.</p>
 </dd>
 <dt><strong>mode</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Launch mode of Fluent to point to a specific session type.
-Currently, available - “meshing”, “pure-meshing”, “solver” and “solver-lite”
-Default value is “None”</p>
+The default value is <code class="docutils literal notranslate"><span class="pre">None</span></code>. Options are <code class="docutils literal notranslate"><span class="pre">&quot;meshing&quot;</span></code>,
+<code class="docutils literal notranslate"><span class="pre">&quot;pure-meshing&quot;</span></code>, <code class="docutils literal notranslate"><span class="pre">&quot;solver&quot;</span></code>, and <code class="docutils literal notranslate"><span class="pre">&quot;solver-lite&quot;</span></code>.</p>
 </dd>
 </dl>
 </dd>

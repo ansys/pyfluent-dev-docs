@@ -55,7 +55,7 @@
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
     <link rel="next" title="Meshing" href="../meshing/index.html" />
-    <link rel="prev" title="PyFluent Util functions" href="../utils.html" />
+    <link rel="prev" title="PyFluent utility functions" href="../utils.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="docsearch:language" content="en">
   </head>
@@ -178,7 +178,7 @@
 
           <li class="nav-item nav-item-1"><a href="../../index.html" >API reference</a> » </li>
           <li class="nav-item nav-item-2"><a href="../index.html" >Core</a> » </li>
-          <li class="nav-item nav-item-3"><a href="../utils.html" accesskey="U">PyFluent Util functions</a> » </li>
+          <li class="nav-item nav-item-3"><a href="../utils.html" accesskey="U">PyFluent utility functions</a> » </li>
         <li class="nav-item nav-item-this"><a href="">asynchronous</a></li> 
       </ul>
     </div>
@@ -229,7 +229,7 @@
    </li>
    <li class="toctree-l2 current active has-children">
     <a class="reference internal" href="../utils.html">
-     PyFluent Util functions
+     PyFluent utility functions
     </a>
     <input checked="" class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
     <label for="toctree-checkbox-3">
@@ -8275,9 +8275,9 @@
 <dl class="py function">
 <dt class="sig sig-object py" id="ansys.fluent.core.utils.async_execution.asynchronous">
 <span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.utils.async_execution.</span></span><span class="sig-name descname"><span class="pre">asynchronous</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">f</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.utils.async_execution.asynchronous" title="Permalink to this definition">#</a></dt>
-<dd><p>Use for decorating functions to execute asynchronously. The decorated
-function returns a <a class="reference external" href="https://docs.python.org/3/library/asyncio-future.html#future-object#noqa:E501">future</a> object. Calling <a class="reference external" href="https://docs.python.org/3/library/asyncio-future.html#asyncio.Future.result#noqa:E501">result()</a> on the future
-object synchronizes the function execution.</p>
+<dd><p>Use for decorating functions that are to execute asynchronously. The
+decorated function returns a <a class="reference external" href="https://docs.python.org/3/library/asyncio-future.html#future-object#noqa:E501">future</a> object. Calling <a class="reference external" href="https://docs.python.org/3/library/asyncio-future.html#asyncio.Future.result#noqa:E501">result()</a> on the
+future object synchronizes the function execution.</p>
 <p class="rubric">Examples</p>
 <div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="c1"># asynchronous execution using @asynchronous decorator</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="nd">@asynchronous</span>

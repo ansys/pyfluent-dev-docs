@@ -268,13 +268,13 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#using-solver-tui-commands">
-   Using solver TUI commands
+  <a class="reference internal nav-link" href="#use-solver-tui-commands">
+   Use solver TUI commands
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#using-settings-objects">
-   Using settings objects
+  <a class="reference internal nav-link" href="#use-settings-objects">
+   Use settings objects
   </a>
  </li>
 </ul>
@@ -298,11 +298,11 @@
                 
   <section id="defining-materials">
 <h1>Defining materials<a class="headerlink" href="#defining-materials" title="Permalink to this heading">#</a></h1>
-<p>PyFluent supports defining materials using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and
-<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
-<section id="using-solver-tui-commands">
-<h2>Using solver TUI commands<a class="headerlink" href="#using-solver-tui-commands" title="Permalink to this heading">#</a></h2>
-<p>The following example shows a comparison between the TUI command and the
+<p>PyFluent supports using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and
+<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a> to define materials.</p>
+<section id="use-solver-tui-commands">
+<h2>Use solver TUI commands<a class="headerlink" href="#use-solver-tui-commands" title="Permalink to this heading">#</a></h2>
+<p>This example shows a comparison between the TUI command and the
 Python code for defining the fluid material being modelled on a cell zone.</p>
 <p><strong>TUI command</strong></p>
 <div class="highlight-scheme notranslate"><div class="highlight"><pre><span></span><span class="nv">/define/materials</span><span class="w"> </span><span class="nv">elbow-fluid</span><span class="w"> </span><span class="nv">yes</span><span class="w"> </span><span class="nv">water-liquid</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">0</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="mi">1</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"> </span><span class="nv">no</span><span class="w"></span>
@@ -341,10 +341,9 @@ Python code for defining the fluid material being modelled on a cell zone.</p>
 </pre></div>
 </div>
 </section>
-<section id="using-settings-objects">
-<h2>Using settings objects<a class="headerlink" href="#using-settings-objects" title="Permalink to this heading">#</a></h2>
-<p>This example shows how you define materials using
-<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>.</p>
+<section id="use-settings-objects">
+<h2>Use settings objects<a class="headerlink" href="#use-settings-objects" title="Permalink to this heading">#</a></h2>
+<p>This example shows how you use <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a> to define materials.</p>
 <p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">materials</span><span class="o">.</span><span class="n">copy_database_material_by_name</span><span class="p">(</span><span class="nb">type</span><span class="o">=</span><span class="s1">&#39;fluid&#39;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;water-liquid&#39;</span><span class="p">)</span>
 <span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">cell_zone_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">[</span><span class="s1">&#39;elbow-fluid&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">material</span> <span class="o">=</span> <span class="s1">&#39;water-liquid&#39;</span>

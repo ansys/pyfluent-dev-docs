@@ -329,40 +329,41 @@ background and sends commands to this service.</p>
 </div>
 <section id="launcher-options">
 <h2>Launcher options<a class="headerlink" href="#launcher-options" title="Permalink to this heading">#</a></h2>
-<p>The following examples show different ways that you can launch Fluent locally.
-For more information, see the description for the <a class="reference internal" href="../api/core/_autosummary/ansys.fluent.core.launcher.launcher.launch_fluent.html#ansys.fluent.core.launcher.launcher.launch_fluent" title="ansys.fluent.core.launcher.launcher.launch_fluent"><code class="xref py py-func docutils literal notranslate"><span class="pre">launch_fluent()</span></code></a>
-method.</p>
+<p>The following examples shows different ways that you can launch Fluent locally.
+For more information, see <a class="reference internal" href="../api/core/_autosummary/ansys.fluent.core.launcher.launcher.launch_fluent.html#ansys.fluent.core.launcher.launcher.launch_fluent" title="ansys.fluent.core.launcher.launcher.launch_fluent"><code class="xref py py-func docutils literal notranslate"><span class="pre">launch_fluent()</span></code></a>.</p>
 <section id="solver-mode">
 <h3>Solver mode<a class="headerlink" href="#solver-mode" title="Permalink to this heading">#</a></h3>
-<p>This example shows how you can start Fluent in solution mode:</p>
+<p>This example shows how you launch Fluent in solution mode:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 <section id="meshing-mode">
 <h3>Meshing mode<a class="headerlink" href="#meshing-mode" title="Permalink to this heading">#</a></h3>
-<p>This example shows how you can start Fluent in meshing mode:</p>
+<p>This example shows how you launch Fluent in meshing mode:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">meshing_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;meshing&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 <section id="precision">
 <h3>Precision<a class="headerlink" href="#precision" title="Permalink to this heading">#</a></h3>
-<p>This example shows how you can select double precision in solution mode:</p>
+<p>This example shows how you launch Fluent in solution mode
+and set the floating point precision:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 <section id="dimension">
 <h3>Dimension<a class="headerlink" href="#dimension" title="Permalink to this heading">#</a></h3>
-<p>This example shows how you can select double precision and 2D in solution mode:</p>
+<p>This example shows how you launch Fluent in solution mode and also set the
+modeling dimension:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="s1">&#39;2d&#39;</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
 <section id="number-of-processors">
 <h3>Number of processors<a class="headerlink" href="#number-of-processors" title="Permalink to this heading">#</a></h3>
-<p>This example shows how you can also select the number of processors:</p>
+<p>This example shows how you launch fluent in solution mode and also set the number of processors:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="s1">&#39;2d&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
 </pre></div>
 </div>

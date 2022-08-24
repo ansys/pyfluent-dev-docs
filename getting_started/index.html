@@ -220,13 +220,18 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#installing-the-package">
-   Installing the package
+  <a class="reference internal nav-link" href="#install-the-package">
+   Install the package
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#launching-fluent">
-   Launching Fluent
+  <a class="reference internal nav-link" href="#launch-fluent">
+   Launch Fluent
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#additional-pyfluent-libraries">
+   Additional PyFluent libraries
   </a>
  </li>
 </ul>
@@ -250,58 +255,52 @@
                 
   <section id="getting-started">
 <span id="id1"></span><h1>Getting started<a class="headerlink" href="#getting-started" title="Permalink to this heading">#</a></h1>
+<p>PyFluent provides Pythonic access to Ansys Fluent.</p>
 <p>To run PyFluent, you must have a licensed copy of Ansys Fluent
-installed locally. PyFluent supports Ansys Fluent versions 2022 R2 or later.</p>
-<p>For more information on getting a licensed copy of Ansys Fluent, visit the <a class="reference external" href="https://www.ansys.com/">Ansys website</a> .</p>
-<section id="installing-the-package">
-<h2>Installing the package<a class="headerlink" href="#installing-the-package" title="Permalink to this heading">#</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">ansys-fluent-core</span></code> package currently supports Python 3.7 through
+installed locally. PyFluent supports Fluent 2022 R2 and later.</p>
+<p>For more information on Fluent, see the <a class="reference external" href="https://www.ansys.com/products/fluids/ansys-fluent">Ansys Fluent page</a>
+on the Ansys website.</p>
+<section id="install-the-package">
+<h2>Install the package<a class="headerlink" href="#install-the-package" title="Permalink to this heading">#</a></h2>
+<p>The <code class="docutils literal notranslate"><span class="pre">ansys-fluent-core</span></code> package supports Python 3.7 through
 Python 3.10 on Windows and Linux.</p>
 <p>Install the latest release from <a class="reference external" href="https://pypi.org/project/ansys-fluent-core/">PyPi</a> with:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">ansys</span><span class="o">-</span><span class="n">fluent</span><span class="o">-</span><span class="n">core</span>
 </pre></div>
 </div>
-<p>Alternatively, install the latest from <a class="reference external" href="https://github.com/pyansys/pyfluent/issues">PyFluent GitHub</a> with:</p>
+<p>Alternatively, install the latest release from <a class="reference external" href="https://github.com/pyansys/pyfluent/issues">GitHub</a> with:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="n">git</span><span class="o">+</span><span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">pyansys</span><span class="o">/</span><span class="n">pyfluent</span><span class="o">.</span><span class="n">git</span>
 </pre></div>
 </div>
-<p>For a local “development” version, install with:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">pyansys</span><span class="o">/</span><span class="n">pyfluent</span><span class="o">.</span><span class="n">git</span>
-<span class="n">cd</span> <span class="n">pyfluent</span>
-<span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">e</span> <span class="o">.</span>
+<p>If you plan on doing local <em>development</em> of PyFluent with Git, install
+the latest release with:</p>
+<div class="highlight-console notranslate"><div class="highlight"><pre><span></span><span class="go">git clone https://github.com/pyansys/pyfluent.git</span>
+<span class="go">cd pyfluent</span>
+<span class="go">pip install pip -U</span>
+<span class="go">pip install -e .</span>
+<span class="go">python codegen/allapigen.py  # Generates the API files</span>
 </pre></div>
 </div>
-<p>See the <a class="reference external" href="https://github.com/pyansys/pyfluent/blob/main/README.rst">README.</a>
-for instructions on installing the PyFluent <code class="docutils literal notranslate"><span class="pre">ansys-fluent-core</span></code> package
-and modifying it locally. The changes that you make are reflected in your setup
-after you restart the Python kernel.</p>
+<p>Any changes that you make locally are reflected in your setup after you restart
+the Python kernel.</p>
 </section>
-<section id="launching-fluent">
-<h2>Launching Fluent<a class="headerlink" href="#launching-fluent" title="Permalink to this heading">#</a></h2>
-<p>You can launch Fluent from Python using the <code class="docutils literal notranslate"><span class="pre">launch_fluent</span></code> function:</p>
+<section id="launch-fluent">
+<h2>Launch Fluent<a class="headerlink" href="#launch-fluent" title="Permalink to this heading">#</a></h2>
+<p>To launch Fluent from PyFluent, use the <code class="docutils literal notranslate"><span class="pre">launch_fluent</span></code> method:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
 <span class="n">solver</span><span class="o">.</span><span class="n">check_health</span><span class="p">()</span>
 </pre></div>
 </div>
-<p>Fluent is now active. You can send commands to it as a genuine Python class.
-For example, if you wanted to read a case file, update a setting, and iterate the
-solver:</p>
+<p>Once Fluent is active, you can use the <code class="docutils literal notranslate"><span class="pre">session.solver.tui</span></code> interface to send
+Fluent TUI commands to Fluent. For example, you can read a
+case file, update a setting, and iterate the solver with:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="n">case_file_name</span><span class="o">=</span><span class="s1">&#39;elbow.cas.h5&#39;</span><span class="p">)</span>
 <span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">unsteady_2nd_order</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
 <span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">initialize</span><span class="o">.</span><span class="n">initialize_flow</span><span class="p">()</span>
 <span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">dual_time_iterate</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="mi">3</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>In addition to all TUI commands being available in this package, there are the
-<a class="reference external" href="https://github.com/pyansys/pyfluent-parametric">ansys-fluent-parametric</a> and
-<a class="reference external" href="https://github.com/pyansys/pyfluent-visualization">ansys-fluent-visualization</a>
-packages.</p>
-<ul class="simple">
-<li><p>The <code class="docutils literal notranslate"><span class="pre">ansys-fluent-parametric</span></code> package provides access to Fluent’s design point capability.</p></li>
-<li><p>The <code class="docutils literal notranslate"><span class="pre">ansys-fluent-visualization</span></code> package provides integrations with both PyVista
-<a class="reference external" href="https://matplotlib.org/">&lt;https://www.pyvista.org/&gt;`_and `Matplotlib</a>.</p></li>
-</ul>
 <p>If you want to interact with the Fluent graphical user interface, pass <code class="docutils literal notranslate"><span class="pre">show_gui=True</span></code>
 to the <code class="docutils literal notranslate"><span class="pre">launch_fluent</span></code> function:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">show_gui</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
@@ -312,6 +311,17 @@ environment variable:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">pyfluent</span><span class="o">.</span><span class="n">set_log_level</span><span class="p">(</span><span class="s1">&#39;DEBUG&#39;</span><span class="p">)</span> <span class="c1"># for development, by default only errors are shown</span>
 </pre></div>
 </div>
+</section>
+<section id="additional-pyfluent-libraries">
+<h2>Additional PyFluent libraries<a class="headerlink" href="#additional-pyfluent-libraries" title="Permalink to this heading">#</a></h2>
+<p>You can also install and use these additional PyFluent libraries:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://fluentparametric.docs.pyansys.com/">PyFluent Parametric</a>, which provides
+access to Fluent’s parametric workflows.</p></li>
+<li><p><a class="reference external" href="https://fluentvisualization.docs.pyansys.com/">PyFluent Visualization</a>, which
+provides postprocessing and visualization capabilities using the <a class="reference external" href="https://docs.pyvista.org/">pyvista</a>
+and <a class="reference external" href="https://matplotlib.org/">matplotlib</a> packages.</p></li>
+</ul>
 </section>
 </section>
 
