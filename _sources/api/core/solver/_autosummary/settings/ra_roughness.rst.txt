@@ -5,7 +5,7 @@
 ra_roughness
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ra_roughness
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ra_roughness
 
 .. autoclass:: ra_roughness
     :show-inheritance:

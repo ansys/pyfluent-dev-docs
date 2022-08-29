@@ -5,7 +5,7 @@
 density_func_expo
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.density_func_expo
+.. currentmodule:: ansys.fluent.core.solver.settings_222.density_func_expo
 
 .. autoclass:: density_func_expo
     :show-inheritance:

@@ -5,7 +5,7 @@
 data_sampling
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.data_sampling
+.. currentmodule:: ansys.fluent.core.solver.settings_222.data_sampling
 
 .. autoclass:: data_sampling
     :show-inheritance:

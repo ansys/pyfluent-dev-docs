@@ -5,7 +5,7 @@
 charge
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.charge
+.. currentmodule:: ansys.fluent.core.solver.settings_222.charge
 
 .. autoclass:: charge
     :show-inheritance:

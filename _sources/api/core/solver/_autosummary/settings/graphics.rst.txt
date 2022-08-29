@@ -5,7 +5,7 @@
 graphics
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.graphics
+.. currentmodule:: ansys.fluent.core.solver.settings_222.graphics
 
 .. autoclass:: graphics
     :show-inheritance:

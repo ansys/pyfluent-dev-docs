@@ -5,7 +5,7 @@
 new
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.new
+.. currentmodule:: ansys.fluent.core.solver.settings_222.new
 
 .. autoclass:: new
     :show-inheritance:

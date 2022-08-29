@@ -5,7 +5,7 @@
 beach_len_factor
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.beach_len_factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.beach_len_factor
 
 .. autoclass:: beach_len_factor
     :show-inheritance:

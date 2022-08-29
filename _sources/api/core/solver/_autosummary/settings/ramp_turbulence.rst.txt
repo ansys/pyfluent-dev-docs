@@ -5,7 +5,7 @@
 ramp_turbulence
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ramp_turbulence
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ramp_turbulence
 
 .. autoclass:: ramp_turbulence
     :show-inheritance:

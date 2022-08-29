@@ -5,7 +5,7 @@
 atomic_number
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.atomic_number
+.. currentmodule:: ansys.fluent.core.solver.settings_222.atomic_number
 
 .. autoclass:: atomic_number
     :show-inheritance:

@@ -5,7 +5,7 @@
 design_points
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.design_points_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.design_points_1
 
 .. autoclass:: design_points
     :show-inheritance:

@@ -5,7 +5,7 @@
 flow_direction_component
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.flow_direction_component
+.. currentmodule:: ansys.fluent.core.solver.settings_222.flow_direction_component
 
 .. autoclass:: flow_direction_component
     :show-inheritance:

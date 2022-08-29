@@ -5,7 +5,7 @@
 int_rad
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.int_rad
+.. currentmodule:: ansys.fluent.core.solver.settings_222.int_rad
 
 .. autoclass:: int_rad
     :show-inheritance:

@@ -5,7 +5,7 @@
 residual_smoothing_iteration
 ============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.residual_smoothing_iteration
+.. currentmodule:: ansys.fluent.core.solver.settings_222.residual_smoothing_iteration
 
 .. autoclass:: residual_smoothing_iteration
     :show-inheritance:

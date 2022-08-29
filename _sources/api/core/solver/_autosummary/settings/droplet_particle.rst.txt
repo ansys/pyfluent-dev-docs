@@ -5,7 +5,7 @@
 droplet_particle
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.droplet_particle
+.. currentmodule:: ansys.fluent.core.solver.settings_222.droplet_particle
 
 .. autoclass:: droplet_particle
     :show-inheritance:

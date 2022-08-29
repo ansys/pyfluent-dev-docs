@@ -5,7 +5,7 @@
 enable
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.enable
+.. currentmodule:: ansys.fluent.core.solver.settings_222.enable
 
 .. autoclass:: enable
     :show-inheritance:

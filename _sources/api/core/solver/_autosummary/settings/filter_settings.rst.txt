@@ -5,7 +5,7 @@
 filter_settings
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.filter_settings
+.. currentmodule:: ansys.fluent.core.solver.settings_222.filter_settings
 
 .. autoclass:: filter_settings
     :show-inheritance:

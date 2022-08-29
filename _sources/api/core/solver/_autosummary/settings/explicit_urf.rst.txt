@@ -5,7 +5,7 @@
 explicit_urf
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.explicit_urf
+.. currentmodule:: ansys.fluent.core.solver.settings_222.explicit_urf
 
 .. autoclass:: explicit_urf
     :show-inheritance:

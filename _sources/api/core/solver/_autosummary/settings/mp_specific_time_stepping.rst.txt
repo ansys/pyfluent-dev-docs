@@ -5,7 +5,7 @@
 mp_specific_time_stepping
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mp_specific_time_stepping
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mp_specific_time_stepping
 
 .. autoclass:: mp_specific_time_stepping
     :show-inheritance:

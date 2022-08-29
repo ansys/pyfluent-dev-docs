@@ -5,7 +5,7 @@
 film_roughness_ra
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.film_roughness_ra
+.. currentmodule:: ansys.fluent.core.solver.settings_222.film_roughness_ra
 
 .. autoclass:: film_roughness_ra
     :show-inheritance:

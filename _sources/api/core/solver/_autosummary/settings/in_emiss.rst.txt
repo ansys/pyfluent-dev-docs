@@ -5,7 +5,7 @@
 in_emiss
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.in_emiss
+.. currentmodule:: ansys.fluent.core.solver.settings_222.in_emiss
 
 .. autoclass:: in_emiss
     :show-inheritance:

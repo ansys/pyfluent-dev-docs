@@ -5,7 +5,7 @@
 duplicate
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.duplicate
+.. currentmodule:: ansys.fluent.core.solver.settings_222.duplicate
 
 .. autoclass:: duplicate
     :show-inheritance:

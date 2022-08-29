@@ -5,7 +5,7 @@
 per_dispx
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.per_dispx
+.. currentmodule:: ansys.fluent.core.solver.settings_222.per_dispx
 
 .. autoclass:: per_dispx
     :show-inheritance:

@@ -5,7 +5,7 @@
 phase
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.phase_6
+.. currentmodule:: ansys.fluent.core.solver.settings_222.phase_6
 
 .. autoclass:: phase
     :show-inheritance:

@@ -5,7 +5,7 @@
 id
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.id
+.. currentmodule:: ansys.fluent.core.solver.settings_222.id
 
 .. autoclass:: id
     :show-inheritance:

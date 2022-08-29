@@ -5,7 +5,7 @@
 amplitude
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.amplitude
+.. currentmodule:: ansys.fluent.core.solver.settings_222.amplitude
 
 .. autoclass:: amplitude
     :show-inheritance:

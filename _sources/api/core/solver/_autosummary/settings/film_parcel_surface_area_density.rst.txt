@@ -5,7 +5,7 @@
 film_parcel_surface_area_density
 ================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.film_parcel_surface_area_density
+.. currentmodule:: ansys.fluent.core.solver.settings_222.film_parcel_surface_area_density
 
 .. autoclass:: film_parcel_surface_area_density
     :show-inheritance:

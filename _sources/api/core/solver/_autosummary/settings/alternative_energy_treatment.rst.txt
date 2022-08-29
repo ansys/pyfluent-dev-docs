@@ -5,7 +5,7 @@
 alternative_energy_treatment
 ============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.alternative_energy_treatment
+.. currentmodule:: ansys.fluent.core.solver.settings_222.alternative_energy_treatment
 
 .. autoclass:: alternative_energy_treatment
     :show-inheritance:

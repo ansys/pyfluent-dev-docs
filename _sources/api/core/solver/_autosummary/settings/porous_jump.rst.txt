@@ -5,7 +5,7 @@
 porous_jump
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.porous_jump
+.. currentmodule:: ansys.fluent.core.solver.settings_222.porous_jump
 
 .. autoclass:: porous_jump
     :show-inheritance:

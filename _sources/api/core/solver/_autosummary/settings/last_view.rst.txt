@@ -5,7 +5,7 @@
 last_view
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.last_view
+.. currentmodule:: ansys.fluent.core.solver.settings_222.last_view
 
 .. autoclass:: last_view
     :show-inheritance:

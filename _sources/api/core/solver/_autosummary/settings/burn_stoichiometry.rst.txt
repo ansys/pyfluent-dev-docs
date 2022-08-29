@@ -5,7 +5,7 @@
 burn_stoichiometry
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.burn_stoichiometry
+.. currentmodule:: ansys.fluent.core.solver.settings_222.burn_stoichiometry
 
 .. autoclass:: burn_stoichiometry
     :show-inheritance:

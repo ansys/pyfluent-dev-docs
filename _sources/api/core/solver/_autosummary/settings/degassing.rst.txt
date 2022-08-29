@@ -5,7 +5,7 @@
 degassing
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.degassing
+.. currentmodule:: ansys.fluent.core.solver.settings_222.degassing
 
 .. autoclass:: degassing
     :show-inheritance:

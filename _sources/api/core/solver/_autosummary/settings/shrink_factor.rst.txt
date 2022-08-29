@@ -5,7 +5,7 @@
 shrink_factor
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.shrink_factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.shrink_factor
 
 .. autoclass:: shrink_factor
     :show-inheritance:

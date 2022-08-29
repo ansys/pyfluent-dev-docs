@@ -5,7 +5,7 @@
 v_max
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.v_max
+.. currentmodule:: ansys.fluent.core.solver.settings_222.v_max
 
 .. autoclass:: v_max
     :show-inheritance:

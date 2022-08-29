@@ -5,7 +5,7 @@
 pseudo_time_method
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pseudo_time_method
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pseudo_time_method
 
 .. autoclass:: pseudo_time_method
     :show-inheritance:

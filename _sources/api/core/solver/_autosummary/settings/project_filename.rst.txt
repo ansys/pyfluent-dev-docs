@@ -5,7 +5,7 @@
 project_filename
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.project_filename
+.. currentmodule:: ansys.fluent.core.solver.settings_222.project_filename
 
 .. autoclass:: project_filename
     :show-inheritance:

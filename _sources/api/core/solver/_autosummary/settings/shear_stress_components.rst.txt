@@ -5,7 +5,7 @@
 shear_stress_components
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.shear_stress_components
+.. currentmodule:: ansys.fluent.core.solver.settings_222.shear_stress_components
 
 .. autoclass:: shear_stress_components
     :show-inheritance:

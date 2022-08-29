@@ -5,7 +5,7 @@
 depth
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.depth
+.. currentmodule:: ansys.fluent.core.solver.settings_222.depth
 
 .. autoclass:: depth
     :show-inheritance:

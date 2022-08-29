@@ -5,7 +5,7 @@
 trad
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.trad
+.. currentmodule:: ansys.fluent.core.solver.settings_222.trad
 
 .. autoclass:: trad
     :show-inheritance:

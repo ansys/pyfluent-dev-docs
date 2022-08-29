@@ -5,7 +5,7 @@
 rans_les_interface
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rans_les_interface
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rans_les_interface
 
 .. autoclass:: rans_les_interface
     :show-inheritance:

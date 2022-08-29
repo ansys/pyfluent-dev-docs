@@ -5,7 +5,7 @@
 rhie_chow_flux
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rhie_chow_flux
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rhie_chow_flux
 
 .. autoclass:: rhie_chow_flux
     :show-inheritance:

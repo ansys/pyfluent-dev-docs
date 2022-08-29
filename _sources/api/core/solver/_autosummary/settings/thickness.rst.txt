@@ -5,7 +5,7 @@
 thickness
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.thickness
+.. currentmodule:: ansys.fluent.core.solver.settings_222.thickness
 
 .. autoclass:: thickness
     :show-inheritance:

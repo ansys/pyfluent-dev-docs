@@ -3,12 +3,12 @@
 solver.tui.define.materials
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.tui
+.. currentmodule:: ansys.fluent.core.solver.tui_222
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.solver.tui::main_menu.define.materials
+.. autoclass:: ansys.fluent.core.solver.tui_222::main_menu.define.materials
    :members: change_create, copy, copy_by_formula, delete, list_materials, list_properties
 
 .. toctree::

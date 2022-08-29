@@ -5,7 +5,7 @@
 enalbled
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.enalbled
+.. currentmodule:: ansys.fluent.core.solver.settings_222.enalbled
 
 .. autoclass:: enalbled
     :show-inheritance:

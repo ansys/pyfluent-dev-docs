@@ -5,7 +5,7 @@
 amp
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.amp
+.. currentmodule:: ansys.fluent.core.solver.settings_222.amp
 
 .. autoclass:: amp
     :show-inheritance:

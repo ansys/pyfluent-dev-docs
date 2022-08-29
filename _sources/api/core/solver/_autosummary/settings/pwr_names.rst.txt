@@ -5,7 +5,7 @@
 pwr_names
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pwr_names
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pwr_names
 
 .. autoclass:: pwr_names
     :show-inheritance:

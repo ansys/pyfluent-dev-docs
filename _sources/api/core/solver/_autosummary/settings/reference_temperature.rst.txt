@@ -5,7 +5,7 @@
 reference_temperature
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.reference_temperature
+.. currentmodule:: ansys.fluent.core.solver.settings_222.reference_temperature
 
 .. autoclass:: reference_temperature
     :show-inheritance:

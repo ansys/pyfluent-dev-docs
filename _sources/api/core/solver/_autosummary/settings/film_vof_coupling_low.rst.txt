@@ -5,7 +5,7 @@
 film_vof_coupling_low
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.film_vof_coupling_low
+.. currentmodule:: ansys.fluent.core.solver.settings_222.film_vof_coupling_low
 
 .. autoclass:: film_vof_coupling_low
     :show-inheritance:

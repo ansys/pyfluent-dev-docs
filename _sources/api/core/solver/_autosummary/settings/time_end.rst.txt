@@ -5,7 +5,7 @@
 time_end
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.time_end
+.. currentmodule:: ansys.fluent.core.solver.settings_222.time_end
 
 .. autoclass:: time_end
     :show-inheritance:

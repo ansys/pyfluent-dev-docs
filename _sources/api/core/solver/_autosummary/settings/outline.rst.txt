@@ -5,7 +5,7 @@
 outline
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.outline
+.. currentmodule:: ansys.fluent.core.solver.settings_222.outline
 
 .. autoclass:: outline
     :show-inheritance:

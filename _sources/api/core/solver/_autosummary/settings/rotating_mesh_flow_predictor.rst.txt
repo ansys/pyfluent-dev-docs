@@ -5,7 +5,7 @@
 rotating_mesh_flow_predictor
 ============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rotating_mesh_flow_predictor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rotating_mesh_flow_predictor
 
 .. autoclass:: rotating_mesh_flow_predictor
     :show-inheritance:

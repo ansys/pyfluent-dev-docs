@@ -5,7 +5,7 @@
 avg_press_spec
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.avg_press_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.avg_press_spec
 
 .. autoclass:: avg_press_spec
     :show-inheritance:

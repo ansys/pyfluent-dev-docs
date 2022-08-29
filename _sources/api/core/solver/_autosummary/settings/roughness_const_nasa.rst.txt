@@ -5,7 +5,7 @@
 roughness_const_nasa
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.roughness_const_nasa
+.. currentmodule:: ansys.fluent.core.solver.settings_222.roughness_const_nasa
 
 .. autoclass:: roughness_const_nasa
     :show-inheritance:

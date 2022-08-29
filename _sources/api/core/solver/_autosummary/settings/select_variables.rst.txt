@@ -5,7 +5,7 @@
 select_variables
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.select_variables
+.. currentmodule:: ansys.fluent.core.solver.settings_222.select_variables
 
 .. autoclass:: select_variables
     :show-inheritance:

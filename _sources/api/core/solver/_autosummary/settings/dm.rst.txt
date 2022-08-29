@@ -5,7 +5,7 @@
 dm
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dm
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dm
 
 .. autoclass:: dm
     :show-inheritance:

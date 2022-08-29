@@ -5,7 +5,7 @@
 ir_st_absorbtivity
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ir_st_absorbtivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ir_st_absorbtivity
 
 .. autoclass:: ir_st_absorbtivity
     :show-inheritance:

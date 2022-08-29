@@ -5,7 +5,7 @@
 outflow
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.outflow
+.. currentmodule:: ansys.fluent.core.solver.settings_222.outflow
 
 .. autoclass:: outflow
     :show-inheritance:

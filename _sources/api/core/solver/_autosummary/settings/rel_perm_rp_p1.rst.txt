@@ -5,7 +5,7 @@
 rel_perm_rp_p1
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rel_perm_rp_p1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rel_perm_rp_p1
 
 .. autoclass:: rel_perm_rp_p1
     :show-inheritance:

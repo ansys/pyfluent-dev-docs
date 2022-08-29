@@ -5,7 +5,7 @@
 auto_range
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.auto_range
+.. currentmodule:: ansys.fluent.core.solver.settings_222.auto_range
 
 .. autoclass:: auto_range
     :show-inheritance:

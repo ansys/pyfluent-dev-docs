@@ -5,7 +5,7 @@
 grid_plane
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.grid_plane
+.. currentmodule:: ansys.fluent.core.solver.settings_222.grid_plane
 
 .. autoclass:: grid_plane
     :show-inheritance:

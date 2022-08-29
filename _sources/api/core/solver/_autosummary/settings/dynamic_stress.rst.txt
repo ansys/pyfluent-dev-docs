@@ -5,7 +5,7 @@
 dynamic_stress
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dynamic_stress
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dynamic_stress
 
 .. autoclass:: dynamic_stress
     :show-inheritance:

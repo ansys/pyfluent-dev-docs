@@ -5,7 +5,7 @@
 plane_surface
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.plane_surface
+.. currentmodule:: ansys.fluent.core.solver.settings_222.plane_surface
 
 .. autoclass:: plane_surface
     :show-inheritance:

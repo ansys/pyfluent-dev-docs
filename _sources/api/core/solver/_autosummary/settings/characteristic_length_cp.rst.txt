@@ -5,7 +5,7 @@
 characteristic_length_cp
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.characteristic_length_cp
+.. currentmodule:: ansys.fluent.core.solver.settings_222.characteristic_length_cp
 
 .. autoclass:: characteristic_length_cp
     :show-inheritance:

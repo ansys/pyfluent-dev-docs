@@ -5,7 +5,7 @@
 front_faces_transparent
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.front_faces_transparent
+.. currentmodule:: ansys.fluent.core.solver.settings_222.front_faces_transparent
 
 .. autoclass:: front_faces_transparent
     :show-inheritance:

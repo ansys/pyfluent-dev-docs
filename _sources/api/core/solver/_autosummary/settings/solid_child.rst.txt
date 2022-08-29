@@ -5,7 +5,7 @@
 solid_child
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solid_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solid_child
 
 .. autoclass:: solid_child
     :show-inheritance:

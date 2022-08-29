@@ -5,7 +5,7 @@
 elec_potential_type
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.elec_potential_type
+.. currentmodule:: ansys.fluent.core.solver.settings_222.elec_potential_type
 
 .. autoclass:: elec_potential_type
     :show-inheritance:

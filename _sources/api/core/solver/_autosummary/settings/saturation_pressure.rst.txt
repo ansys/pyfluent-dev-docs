@@ -5,7 +5,7 @@
 saturation_pressure
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.saturation_pressure
+.. currentmodule:: ansys.fluent.core.solver.settings_222.saturation_pressure
 
 .. autoclass:: saturation_pressure
     :show-inheritance:

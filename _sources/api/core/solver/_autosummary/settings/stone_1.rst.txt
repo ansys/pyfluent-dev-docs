@@ -5,7 +5,7 @@
 stone_1
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.stone_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.stone_1
 
 .. autoclass:: stone_1
     :show-inheritance:

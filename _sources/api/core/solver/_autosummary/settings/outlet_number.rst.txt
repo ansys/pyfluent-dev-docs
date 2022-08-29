@@ -5,7 +5,7 @@
 outlet_number
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.outlet_number
+.. currentmodule:: ansys.fluent.core.solver.settings_222.outlet_number
 
 .. autoclass:: outlet_number
     :show-inheritance:

@@ -5,7 +5,7 @@
 sgs_turb_intensity
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.sgs_turb_intensity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.sgs_turb_intensity
 
 .. autoclass:: sgs_turb_intensity
     :show-inheritance:

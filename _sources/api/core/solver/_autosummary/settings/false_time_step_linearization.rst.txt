@@ -5,7 +5,7 @@
 false_time_step_linearization
 =============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.false_time_step_linearization
+.. currentmodule:: ansys.fluent.core.solver.settings_222.false_time_step_linearization
 
 .. autoclass:: false_time_step_linearization
     :show-inheritance:

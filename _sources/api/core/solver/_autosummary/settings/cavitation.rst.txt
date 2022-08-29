@@ -5,7 +5,7 @@
 cavitation
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.cavitation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.cavitation
 
 .. autoclass:: cavitation
     :show-inheritance:

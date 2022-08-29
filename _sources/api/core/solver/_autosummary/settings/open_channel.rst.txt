@@ -5,7 +5,7 @@
 open_channel
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.open_channel
+.. currentmodule:: ansys.fluent.core.solver.settings_222.open_channel
 
 .. autoclass:: open_channel
     :show-inheritance:

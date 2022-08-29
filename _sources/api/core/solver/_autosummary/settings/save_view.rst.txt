@@ -5,7 +5,7 @@
 save_view
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.save_view
+.. currentmodule:: ansys.fluent.core.solver.settings_222.save_view
 
 .. autoclass:: save_view
     :show-inheritance:

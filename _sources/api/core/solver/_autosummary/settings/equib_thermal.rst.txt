@@ -5,7 +5,7 @@
 equib_thermal
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.equib_thermal
+.. currentmodule:: ansys.fluent.core.solver.settings_222.equib_thermal
 
 .. autoclass:: equib_thermal
     :show-inheritance:

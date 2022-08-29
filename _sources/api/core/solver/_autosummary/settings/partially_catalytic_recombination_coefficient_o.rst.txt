@@ -5,7 +5,7 @@
 partially_catalytic_recombination_coefficient_o
 ===============================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.partially_catalytic_recombination_coefficient_o
+.. currentmodule:: ansys.fluent.core.solver.settings_222.partially_catalytic_recombination_coefficient_o
 
 .. autoclass:: partially_catalytic_recombination_coefficient_o
     :show-inheritance:

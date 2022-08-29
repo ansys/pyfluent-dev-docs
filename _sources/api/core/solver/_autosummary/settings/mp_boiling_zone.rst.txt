@@ -5,7 +5,7 @@
 mp_boiling_zone
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mp_boiling_zone
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mp_boiling_zone
 
 .. autoclass:: mp_boiling_zone
     :show-inheritance:

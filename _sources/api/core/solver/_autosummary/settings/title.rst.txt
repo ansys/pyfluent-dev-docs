@@ -5,7 +5,7 @@
 title
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.title
+.. currentmodule:: ansys.fluent.core.solver.settings_222.title
 
 .. autoclass:: title
     :show-inheritance:

@@ -5,7 +5,7 @@
 pole_real
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pole_real
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pole_real
 
 .. autoclass:: pole_real
     :show-inheritance:

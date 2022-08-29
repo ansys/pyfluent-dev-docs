@@ -5,7 +5,7 @@
 lennard_jones_energy
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.lennard_jones_energy
+.. currentmodule:: ansys.fluent.core.solver.settings_222.lennard_jones_energy
 
 .. autoclass:: lennard_jones_energy
     :show-inheritance:

@@ -5,7 +5,7 @@
 fan_poly_order
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fan_poly_order
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fan_poly_order
 
 .. autoclass:: fan_poly_order
     :show-inheritance:

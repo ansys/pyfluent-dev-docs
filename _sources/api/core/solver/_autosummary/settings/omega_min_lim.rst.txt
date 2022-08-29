@@ -5,7 +5,7 @@
 omega_min_lim
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.omega_min_lim
+.. currentmodule:: ansys.fluent.core.solver.settings_222.omega_min_lim
 
 .. autoclass:: omega_min_lim
     :show-inheritance:

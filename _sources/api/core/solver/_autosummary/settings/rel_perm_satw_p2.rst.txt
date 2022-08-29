@@ -5,7 +5,7 @@
 rel_perm_satw_p2
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rel_perm_satw_p2
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rel_perm_satw_p2
 
 .. autoclass:: rel_perm_satw_p2
     :show-inheritance:

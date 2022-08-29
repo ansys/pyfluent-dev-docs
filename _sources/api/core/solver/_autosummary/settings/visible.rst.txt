@@ -5,7 +5,7 @@
 visible
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.visible
+.. currentmodule:: ansys.fluent.core.solver.settings_222.visible
 
 .. autoclass:: visible
     :show-inheritance:

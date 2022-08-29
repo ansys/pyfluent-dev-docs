@@ -5,7 +5,7 @@
 velocity_limiting_treatment
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.velocity_limiting_treatment
+.. currentmodule:: ansys.fluent.core.solver.settings_222.velocity_limiting_treatment
 
 .. autoclass:: velocity_limiting_treatment
     :show-inheritance:

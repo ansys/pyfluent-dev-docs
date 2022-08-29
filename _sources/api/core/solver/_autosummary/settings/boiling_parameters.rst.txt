@@ -5,7 +5,7 @@
 boiling_parameters
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.boiling_parameters
+.. currentmodule:: ansys.fluent.core.solver.settings_222.boiling_parameters
 
 .. autoclass:: boiling_parameters
     :show-inheritance:

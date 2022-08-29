@@ -5,7 +5,7 @@
 mesh
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mesh_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mesh_1
 
 .. autoclass:: mesh
     :show-inheritance:

@@ -5,7 +5,7 @@
 rows
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rows
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rows
 
 .. autoclass:: rows
     :show-inheritance:

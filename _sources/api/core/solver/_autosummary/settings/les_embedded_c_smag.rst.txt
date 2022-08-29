@@ -5,7 +5,7 @@
 les_embedded_c_smag
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.les_embedded_c_smag
+.. currentmodule:: ansys.fluent.core.solver.settings_222.les_embedded_c_smag
 
 .. autoclass:: les_embedded_c_smag
     :show-inheritance:

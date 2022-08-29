@@ -5,7 +5,7 @@
 aero
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.aero
+.. currentmodule:: ansys.fluent.core.solver.settings_222.aero
 
 .. autoclass:: aero
     :show-inheritance:

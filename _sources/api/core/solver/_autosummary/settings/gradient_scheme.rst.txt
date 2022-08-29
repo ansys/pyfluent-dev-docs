@@ -5,7 +5,7 @@
 gradient_scheme
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.gradient_scheme
+.. currentmodule:: ansys.fluent.core.solver.settings_222.gradient_scheme
 
 .. autoclass:: gradient_scheme
     :show-inheritance:

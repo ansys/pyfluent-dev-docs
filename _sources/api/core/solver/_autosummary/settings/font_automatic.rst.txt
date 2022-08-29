@@ -5,7 +5,7 @@
 font_automatic
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.font_automatic
+.. currentmodule:: ansys.fluent.core.solver.settings_222.font_automatic
 
 .. autoclass:: font_automatic
     :show-inheritance:

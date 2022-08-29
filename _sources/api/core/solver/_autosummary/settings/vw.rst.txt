@@ -5,7 +5,7 @@
 vw
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vw
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vw
 
 .. autoclass:: vw
     :show-inheritance:

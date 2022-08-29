@@ -5,7 +5,7 @@
 solve_flow_last
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solve_flow_last
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solve_flow_last
 
 .. autoclass:: solve_flow_last
     :show-inheritance:

@@ -5,7 +5,7 @@
 pressure_inlet
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pressure_inlet
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pressure_inlet
 
 .. autoclass:: pressure_inlet
     :show-inheritance:

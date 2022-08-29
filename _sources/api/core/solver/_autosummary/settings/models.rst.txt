@@ -5,7 +5,7 @@
 models
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.models
+.. currentmodule:: ansys.fluent.core.solver.settings_222.models
 
 .. autoclass:: models
     :show-inheritance:

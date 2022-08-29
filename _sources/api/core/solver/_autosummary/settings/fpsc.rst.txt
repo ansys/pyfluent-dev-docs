@@ -5,7 +5,7 @@
 fpsc
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fpsc
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fpsc
 
 .. autoclass:: fpsc
     :show-inheritance:

@@ -5,7 +5,7 @@
 porosity
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.porosity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.porosity
 
 .. autoclass:: porosity
     :show-inheritance:

@@ -5,7 +5,7 @@
 pos_lim
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pos_lim
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pos_lim
 
 .. autoclass:: pos_lim
     :show-inheritance:

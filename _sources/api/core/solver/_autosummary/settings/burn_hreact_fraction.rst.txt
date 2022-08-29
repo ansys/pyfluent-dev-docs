@@ -5,7 +5,7 @@
 burn_hreact_fraction
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.burn_hreact_fraction
+.. currentmodule:: ansys.fluent.core.solver.settings_222.burn_hreact_fraction
 
 .. autoclass:: burn_hreact_fraction
     :show-inheritance:

@@ -5,7 +5,7 @@
 user_skip
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.user_skip
+.. currentmodule:: ansys.fluent.core.solver.settings_222.user_skip
 
 .. autoclass:: user_skip
     :show-inheritance:

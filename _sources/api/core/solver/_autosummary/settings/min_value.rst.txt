@@ -5,7 +5,7 @@
 min_value
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.min_value
+.. currentmodule:: ansys.fluent.core.solver.settings_222.min_value
 
 .. autoclass:: min_value
     :show-inheritance:

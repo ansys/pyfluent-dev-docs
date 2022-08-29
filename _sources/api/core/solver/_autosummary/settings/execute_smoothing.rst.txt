@@ -5,7 +5,7 @@
 execute_smoothing
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.execute_smoothing
+.. currentmodule:: ansys.fluent.core.solver.settings_222.execute_smoothing
 
 .. autoclass:: execute_smoothing
     :show-inheritance:

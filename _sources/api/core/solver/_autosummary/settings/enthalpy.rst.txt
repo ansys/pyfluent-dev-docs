@@ -5,7 +5,7 @@
 enthalpy
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.enthalpy
+.. currentmodule:: ansys.fluent.core.solver.settings_222.enthalpy
 
 .. autoclass:: enthalpy
     :show-inheritance:

@@ -5,7 +5,7 @@
 vapor_phase_realgas
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vapor_phase_realgas
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vapor_phase_realgas
 
 .. autoclass:: vapor_phase_realgas
     :show-inheritance:

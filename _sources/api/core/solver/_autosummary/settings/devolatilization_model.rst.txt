@@ -5,7 +5,7 @@
 devolatilization_model
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.devolatilization_model
+.. currentmodule:: ansys.fluent.core.solver.settings_222.devolatilization_model
 
 .. autoclass:: devolatilization_model
     :show-inheritance:

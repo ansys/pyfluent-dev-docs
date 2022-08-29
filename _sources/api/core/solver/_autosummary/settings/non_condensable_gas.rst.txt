@@ -5,7 +5,7 @@
 non_condensable_gas
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.non_condensable_gas
+.. currentmodule:: ansys.fluent.core.solver.settings_222.non_condensable_gas
 
 .. autoclass:: non_condensable_gas
     :show-inheritance:

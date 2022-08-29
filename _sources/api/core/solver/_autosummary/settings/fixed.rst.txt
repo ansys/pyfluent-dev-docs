@@ -5,7 +5,7 @@
 fixed
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fixed
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fixed
 
 .. autoclass:: fixed
     :show-inheritance:

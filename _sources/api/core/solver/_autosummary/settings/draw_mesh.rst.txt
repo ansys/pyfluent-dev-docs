@@ -5,7 +5,7 @@
 draw_mesh
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.draw_mesh
+.. currentmodule:: ansys.fluent.core.solver.settings_222.draw_mesh
 
 .. autoclass:: draw_mesh
     :show-inheritance:

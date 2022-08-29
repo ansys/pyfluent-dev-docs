@@ -3,11 +3,11 @@
 solver.tui.solve.set.advanced.turbo\_solver\_options
 ====================================================
 
-.. currentmodule:: ansys.fluent.core.solver.tui
+.. currentmodule:: ansys.fluent.core.solver.tui_222
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.solver.tui::main_menu.solve.set.advanced.turbo_solver_options
+.. autoclass:: ansys.fluent.core.solver.tui_222::main_menu.solve.set.advanced.turbo_solver_options
    :members: enable, continuity_relaxation_at_walls
 

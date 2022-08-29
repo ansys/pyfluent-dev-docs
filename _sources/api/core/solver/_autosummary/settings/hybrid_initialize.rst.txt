@@ -5,7 +5,7 @@
 hybrid_initialize
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.hybrid_initialize
+.. currentmodule:: ansys.fluent.core.solver.settings_222.hybrid_initialize
 
 .. autoclass:: hybrid_initialize
     :show-inheritance:

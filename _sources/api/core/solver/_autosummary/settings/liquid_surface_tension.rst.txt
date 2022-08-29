@@ -5,7 +5,7 @@
 liquid_surface_tension
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.liquid_surface_tension
+.. currentmodule:: ansys.fluent.core.solver.settings_222.liquid_surface_tension
 
 .. autoclass:: liquid_surface_tension
     :show-inheritance:

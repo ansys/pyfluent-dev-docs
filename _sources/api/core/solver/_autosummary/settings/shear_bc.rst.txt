@@ -5,7 +5,7 @@
 shear_bc
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.shear_bc
+.. currentmodule:: ansys.fluent.core.solver.settings_222.shear_bc
 
 .. autoclass:: shear_bc
     :show-inheritance:

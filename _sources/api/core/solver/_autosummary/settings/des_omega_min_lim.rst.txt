@@ -5,7 +5,7 @@
 des_omega_min_lim
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.des_omega_min_lim
+.. currentmodule:: ansys.fluent.core.solver.settings_222.des_omega_min_lim
 
 .. autoclass:: des_omega_min_lim
     :show-inheritance:

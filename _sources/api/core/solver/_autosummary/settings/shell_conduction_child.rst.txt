@@ -5,7 +5,7 @@
 shell_conduction_child
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.shell_conduction_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.shell_conduction_child
 
 .. autoclass:: shell_conduction_child
     :show-inheritance:

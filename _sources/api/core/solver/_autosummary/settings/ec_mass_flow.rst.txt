@@ -5,7 +5,7 @@
 ec_mass_flow
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ec_mass_flow
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ec_mass_flow
 
 .. autoclass:: ec_mass_flow
     :show-inheritance:

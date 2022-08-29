@@ -5,7 +5,7 @@
 auto_dt_advanced_controls
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.auto_dt_advanced_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_222.auto_dt_advanced_controls
 
 .. autoclass:: auto_dt_advanced_controls
     :show-inheritance:

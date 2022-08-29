@@ -5,7 +5,7 @@
 pass_number
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pass_number
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pass_number
 
 .. autoclass:: pass_number
     :show-inheritance:

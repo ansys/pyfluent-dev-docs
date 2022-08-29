@@ -3,12 +3,12 @@
 meshing.datamodel.meshing.GlobalSettings
 ========================================
 
-.. currentmodule:: ansys.fluent.core.datamodel.meshing
+.. currentmodule:: ansys.fluent.core.datamodel_222.meshing
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.datamodel.meshing::Root.GlobalSettings
+.. autoclass:: ansys.fluent.core.datamodel_222.meshing::Root.GlobalSettings
    :members: AreaUnit, EnableCleanCAD, EnableComplexMeshing, EnableOversetMeshing, InitialVersion, LengthUnit, NormalMode, VolumeUnit
 
 .. toctree::

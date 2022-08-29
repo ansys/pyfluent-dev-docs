@@ -5,7 +5,7 @@
 geom_bgthread
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.geom_bgthread
+.. currentmodule:: ansys.fluent.core.solver.settings_222.geom_bgthread
 
 .. autoclass:: geom_bgthread
     :show-inheritance:

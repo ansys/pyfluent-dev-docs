@@ -5,7 +5,7 @@
 expr_value
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.expr_value
+.. currentmodule:: ansys.fluent.core.solver.settings_222.expr_value
 
 .. autoclass:: expr_value
     :show-inheritance:

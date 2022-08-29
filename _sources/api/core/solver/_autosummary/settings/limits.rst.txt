@@ -5,7 +5,7 @@
 limits
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.limits
+.. currentmodule:: ansys.fluent.core.solver.settings_222.limits
 
 .. autoclass:: limits
     :show-inheritance:

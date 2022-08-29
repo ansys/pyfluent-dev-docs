@@ -5,7 +5,7 @@
 thermolysis_model
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.thermolysis_model
+.. currentmodule:: ansys.fluent.core.solver.settings_222.thermolysis_model
 
 .. autoclass:: thermolysis_model
     :show-inheritance:

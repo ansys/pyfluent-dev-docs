@@ -5,7 +5,7 @@
 xe
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.xe
+.. currentmodule:: ansys.fluent.core.solver.settings_222.xe
 
 .. autoclass:: xe
     :show-inheritance:

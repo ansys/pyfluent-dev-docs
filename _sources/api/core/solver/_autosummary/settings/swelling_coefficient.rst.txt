@@ -5,7 +5,7 @@
 swelling_coefficient
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.swelling_coefficient
+.. currentmodule:: ansys.fluent.core.solver.settings_222.swelling_coefficient
 
 .. autoclass:: swelling_coefficient
     :show-inheritance:

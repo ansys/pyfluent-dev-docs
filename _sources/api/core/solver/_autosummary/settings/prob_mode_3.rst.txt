@@ -5,7 +5,7 @@
 prob_mode_3
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.prob_mode_3
+.. currentmodule:: ansys.fluent.core.solver.settings_222.prob_mode_3
 
 .. autoclass:: prob_mode_3
     :show-inheritance:

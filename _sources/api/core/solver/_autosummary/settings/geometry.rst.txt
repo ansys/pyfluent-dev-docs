@@ -5,7 +5,7 @@
 geometry
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.geometry
+.. currentmodule:: ansys.fluent.core.solver.settings_222.geometry
 
 .. autoclass:: geometry
     :show-inheritance:

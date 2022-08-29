@@ -5,7 +5,7 @@
 spe_diff_xx
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.spe_diff_xx
+.. currentmodule:: ansys.fluent.core.solver.settings_222.spe_diff_xx
 
 .. autoclass:: spe_diff_xx
     :show-inheritance:

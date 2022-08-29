@@ -5,7 +5,7 @@
 ablation_vielle_a
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ablation_vielle_a
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ablation_vielle_a
 
 .. autoclass:: ablation_vielle_a
     :show-inheritance:

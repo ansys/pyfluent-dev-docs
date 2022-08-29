@@ -5,7 +5,7 @@
 y_velocity
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.y_velocity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.y_velocity
 
 .. autoclass:: y_velocity
     :show-inheritance:

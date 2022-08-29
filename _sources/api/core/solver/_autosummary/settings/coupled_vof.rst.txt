@@ -5,7 +5,7 @@
 coupled_vof
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.coupled_vof
+.. currentmodule:: ansys.fluent.core.solver.settings_222.coupled_vof
 
 .. autoclass:: coupled_vof
     :show-inheritance:

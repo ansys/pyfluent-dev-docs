@@ -5,7 +5,7 @@
 upstream_torque
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.upstream_torque
+.. currentmodule:: ansys.fluent.core.solver.settings_222.upstream_torque
 
 .. autoclass:: upstream_torque
     :show-inheritance:

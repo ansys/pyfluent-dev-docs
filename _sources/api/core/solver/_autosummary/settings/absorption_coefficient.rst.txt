@@ -5,7 +5,7 @@
 absorption_coefficient
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.absorption_coefficient
+.. currentmodule:: ansys.fluent.core.solver.settings_222.absorption_coefficient
 
 .. autoclass:: absorption_coefficient
     :show-inheritance:

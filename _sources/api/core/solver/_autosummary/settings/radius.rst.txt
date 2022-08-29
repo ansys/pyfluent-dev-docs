@@ -5,7 +5,7 @@
 radius
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.radius
+.. currentmodule:: ansys.fluent.core.solver.settings_222.radius
 
 .. autoclass:: radius
     :show-inheritance:

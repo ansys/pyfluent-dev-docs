@@ -5,7 +5,7 @@
 moving_object_direction_components
 ==================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.moving_object_direction_components
+.. currentmodule:: ansys.fluent.core.solver.settings_222.moving_object_direction_components
 
 .. autoclass:: moving_object_direction_components
     :show-inheritance:

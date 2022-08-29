@@ -5,7 +5,7 @@
 wall_restitution_coeff
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wall_restitution_coeff
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wall_restitution_coeff
 
 .. autoclass:: wall_restitution_coeff
     :show-inheritance:

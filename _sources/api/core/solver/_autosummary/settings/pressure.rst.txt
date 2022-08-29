@@ -5,7 +5,7 @@
 pressure
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pressure
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pressure
 
 .. autoclass:: pressure
     :show-inheritance:

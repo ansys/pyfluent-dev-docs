@@ -5,7 +5,7 @@
 dbns_cases
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dbns_cases
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dbns_cases
 
 .. autoclass:: dbns_cases
     :show-inheritance:

@@ -5,7 +5,7 @@
 point_vector
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.point_vector
+.. currentmodule:: ansys.fluent.core.solver.settings_222.point_vector
 
 .. autoclass:: point_vector
     :show-inheritance:

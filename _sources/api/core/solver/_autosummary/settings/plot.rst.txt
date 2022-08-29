@@ -5,7 +5,7 @@
 plot
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.plot
+.. currentmodule:: ansys.fluent.core.solver.settings_222.plot
 
 .. autoclass:: plot
     :show-inheritance:

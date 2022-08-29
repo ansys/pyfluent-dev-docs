@@ -5,7 +5,7 @@
 fmg_initialize
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fmg_initialize
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fmg_initialize
 
 .. autoclass:: fmg_initialize
     :show-inheritance:

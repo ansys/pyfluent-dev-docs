@@ -5,7 +5,7 @@
 cycle_type
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.cycle_type
+.. currentmodule:: ansys.fluent.core.solver.settings_222.cycle_type
 
 .. autoclass:: cycle_type
     :show-inheritance:

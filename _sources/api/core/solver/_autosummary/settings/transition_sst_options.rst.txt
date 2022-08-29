@@ -5,7 +5,7 @@
 transition_sst_options
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.transition_sst_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.transition_sst_options
 
 .. autoclass:: transition_sst_options
     :show-inheritance:

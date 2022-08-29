@@ -5,7 +5,7 @@
 dp_profile
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dp_profile
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dp_profile
 
 .. autoclass:: dp_profile
     :show-inheritance:

@@ -5,7 +5,7 @@
 new_framework_for_vof_specific_node_based_treatment
 ===================================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.new_framework_for_vof_specific_node_based_treatment
+.. currentmodule:: ansys.fluent.core.solver.settings_222.new_framework_for_vof_specific_node_based_treatment
 
 .. autoclass:: new_framework_for_vof_specific_node_based_treatment
     :show-inheritance:

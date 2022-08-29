@@ -5,7 +5,7 @@
 outlet_vent_child
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.outlet_vent_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.outlet_vent_child
 
 .. autoclass:: outlet_vent_child
     :show-inheritance:

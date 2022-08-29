@@ -5,7 +5,7 @@
 ac_wave
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ac_wave
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ac_wave
 
 .. autoclass:: ac_wave
     :show-inheritance:

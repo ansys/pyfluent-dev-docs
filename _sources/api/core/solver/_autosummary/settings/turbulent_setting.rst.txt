@@ -5,7 +5,7 @@
 turbulent_setting
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.turbulent_setting
+.. currentmodule:: ansys.fluent.core.solver.settings_222.turbulent_setting
 
 .. autoclass:: turbulent_setting
     :show-inheritance:

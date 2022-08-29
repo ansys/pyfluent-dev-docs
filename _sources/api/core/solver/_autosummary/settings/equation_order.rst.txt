@@ -5,7 +5,7 @@
 equation_order
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.equation_order
+.. currentmodule:: ansys.fluent.core.solver.settings_222.equation_order
 
 .. autoclass:: equation_order
     :show-inheritance:

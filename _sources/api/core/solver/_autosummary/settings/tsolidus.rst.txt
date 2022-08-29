@@ -5,7 +5,7 @@
 tsolidus
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.tsolidus
+.. currentmodule:: ansys.fluent.core.solver.settings_222.tsolidus
 
 .. autoclass:: tsolidus
     :show-inheritance:

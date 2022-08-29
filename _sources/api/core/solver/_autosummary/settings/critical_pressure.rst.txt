@@ -5,7 +5,7 @@
 critical_pressure
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.critical_pressure
+.. currentmodule:: ansys.fluent.core.solver.settings_222.critical_pressure
 
 .. autoclass:: critical_pressure
     :show-inheritance:

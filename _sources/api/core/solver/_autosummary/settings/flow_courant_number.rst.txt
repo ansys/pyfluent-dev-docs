@@ -5,7 +5,7 @@
 flow_courant_number
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.flow_courant_number
+.. currentmodule:: ansys.fluent.core.solver.settings_222.flow_courant_number
 
 .. autoclass:: flow_courant_number
     :show-inheritance:

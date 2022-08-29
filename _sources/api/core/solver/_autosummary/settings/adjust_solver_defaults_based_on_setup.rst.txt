@@ -5,7 +5,7 @@
 adjust_solver_defaults_based_on_setup
 =====================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.adjust_solver_defaults_based_on_setup
+.. currentmodule:: ansys.fluent.core.solver.settings_222.adjust_solver_defaults_based_on_setup
 
 .. autoclass:: adjust_solver_defaults_based_on_setup
     :show-inheritance:

@@ -5,7 +5,7 @@
 blended_compressive_scheme
 ==========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.blended_compressive_scheme
+.. currentmodule:: ansys.fluent.core.solver.settings_222.blended_compressive_scheme
 
 .. autoclass:: blended_compressive_scheme
     :show-inheritance:

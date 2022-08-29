@@ -5,7 +5,7 @@
 smoothing_relaxation_factor
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.smoothing_relaxation_factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.smoothing_relaxation_factor
 
 .. autoclass:: smoothing_relaxation_factor
     :show-inheritance:

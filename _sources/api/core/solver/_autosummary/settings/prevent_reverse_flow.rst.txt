@@ -5,7 +5,7 @@
 prevent_reverse_flow
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.prevent_reverse_flow
+.. currentmodule:: ansys.fluent.core.solver.settings_222.prevent_reverse_flow
 
 .. autoclass:: prevent_reverse_flow
     :show-inheritance:

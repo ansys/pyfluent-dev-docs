@@ -5,7 +5,7 @@
 separate_journals
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.separate_journals
+.. currentmodule:: ansys.fluent.core.solver.settings_222.separate_journals
 
 .. autoclass:: separate_journals
     :show-inheritance:

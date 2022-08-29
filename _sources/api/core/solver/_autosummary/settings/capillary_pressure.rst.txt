@@ -5,7 +5,7 @@
 capillary_pressure
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.capillary_pressure
+.. currentmodule:: ansys.fluent.core.solver.settings_222.capillary_pressure
 
 .. autoclass:: capillary_pressure
     :show-inheritance:

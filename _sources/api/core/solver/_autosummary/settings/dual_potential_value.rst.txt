@@ -5,7 +5,7 @@
 dual_potential_value
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dual_potential_value
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dual_potential_value
 
 .. autoclass:: dual_potential_value
     :show-inheritance:

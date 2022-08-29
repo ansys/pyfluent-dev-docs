@@ -5,7 +5,7 @@
 delete_view
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.delete_view
+.. currentmodule:: ansys.fluent.core.solver.settings_222.delete_view
 
 .. autoclass:: delete_view
     :show-inheritance:

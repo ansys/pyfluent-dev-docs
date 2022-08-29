@@ -5,7 +5,7 @@
 particle_mixture
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.particle_mixture
+.. currentmodule:: ansys.fluent.core.solver.settings_222.particle_mixture
 
 .. autoclass:: particle_mixture
     :show-inheritance:

@@ -5,7 +5,7 @@
 dt_factor_min
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dt_factor_min
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dt_factor_min
 
 .. autoclass:: dt_factor_min
     :show-inheritance:

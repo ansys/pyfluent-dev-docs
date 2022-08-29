@@ -5,7 +5,7 @@
 velocity_accom_coefficient
 ==========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.velocity_accom_coefficient
+.. currentmodule:: ansys.fluent.core.solver.settings_222.velocity_accom_coefficient
 
 .. autoclass:: velocity_accom_coefficient
     :show-inheritance:

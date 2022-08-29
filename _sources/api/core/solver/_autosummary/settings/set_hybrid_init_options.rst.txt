@@ -5,7 +5,7 @@
 set_hybrid_init_options
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.set_hybrid_init_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.set_hybrid_init_options
 
 .. autoclass:: set_hybrid_init_options
     :show-inheritance:

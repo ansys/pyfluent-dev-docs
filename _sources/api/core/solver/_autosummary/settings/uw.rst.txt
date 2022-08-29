@@ -5,7 +5,7 @@
 uw
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.uw
+.. currentmodule:: ansys.fluent.core.solver.settings_222.uw
 
 .. autoclass:: uw
     :show-inheritance:

@@ -5,7 +5,7 @@
 tref
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.tref
+.. currentmodule:: ansys.fluent.core.solver.settings_222.tref
 
 .. autoclass:: tref
     :show-inheritance:

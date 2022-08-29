@@ -5,7 +5,7 @@
 premix_adiabatic_temp
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.premix_adiabatic_temp
+.. currentmodule:: ansys.fluent.core.solver.settings_222.premix_adiabatic_temp
 
 .. autoclass:: premix_adiabatic_temp
     :show-inheritance:

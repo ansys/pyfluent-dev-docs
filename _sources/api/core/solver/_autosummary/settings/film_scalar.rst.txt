@@ -5,7 +5,7 @@
 film_scalar
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.film_scalar
+.. currentmodule:: ansys.fluent.core.solver.settings_222.film_scalar
 
 .. autoclass:: film_scalar
     :show-inheritance:

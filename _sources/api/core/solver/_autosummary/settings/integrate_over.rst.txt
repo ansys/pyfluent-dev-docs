@@ -5,7 +5,7 @@
 integrate_over
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.integrate_over
+.. currentmodule:: ansys.fluent.core.solver.settings_222.integrate_over
 
 .. autoclass:: integrate_over
     :show-inheritance:

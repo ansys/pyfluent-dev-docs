@@ -5,7 +5,7 @@
 thermophoretic_co
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.thermophoretic_co
+.. currentmodule:: ansys.fluent.core.solver.settings_222.thermophoretic_co
 
 .. autoclass:: thermophoretic_co
     :show-inheritance:

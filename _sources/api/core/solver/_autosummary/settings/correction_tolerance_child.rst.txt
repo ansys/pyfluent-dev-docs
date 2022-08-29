@@ -5,7 +5,7 @@
 correction_tolerance_child
 ==========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.correction_tolerance_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.correction_tolerance_child
 
 .. autoclass:: correction_tolerance_child
     :show-inheritance:

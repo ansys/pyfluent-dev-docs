@@ -5,7 +5,7 @@
 position
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.position
+.. currentmodule:: ansys.fluent.core.solver.settings_222.position
 
 .. autoclass:: position
     :show-inheritance:

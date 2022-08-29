@@ -5,7 +5,7 @@
 res_sat_p1
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.res_sat_p1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.res_sat_p1
 
 .. autoclass:: res_sat_p1
     :show-inheritance:

@@ -5,7 +5,7 @@
 relative_to_thread
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.relative_to_thread
+.. currentmodule:: ansys.fluent.core.solver.settings_222.relative_to_thread
 
 .. autoclass:: relative_to_thread
     :show-inheritance:

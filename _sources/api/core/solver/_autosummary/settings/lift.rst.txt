@@ -5,7 +5,7 @@
 lift
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.lift
+.. currentmodule:: ansys.fluent.core.solver.settings_222.lift
 
 .. autoclass:: lift
     :show-inheritance:

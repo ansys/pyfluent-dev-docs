@@ -5,7 +5,7 @@
 matrix_solv_min_lim
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.matrix_solv_min_lim
+.. currentmodule:: ansys.fluent.core.solver.settings_222.matrix_solv_min_lim
 
 .. autoclass:: matrix_solv_min_lim
     :show-inheritance:

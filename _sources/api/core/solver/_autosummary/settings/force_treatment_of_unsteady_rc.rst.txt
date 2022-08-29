@@ -5,7 +5,7 @@
 force_treatment_of_unsteady_rc
 ==============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.force_treatment_of_unsteady_rc
+.. currentmodule:: ansys.fluent.core.solver.settings_222.force_treatment_of_unsteady_rc
 
 .. autoclass:: force_treatment_of_unsteady_rc
     :show-inheritance:

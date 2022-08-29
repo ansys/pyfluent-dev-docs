@@ -5,7 +5,7 @@
 save_as
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.save_as
+.. currentmodule:: ansys.fluent.core.solver.settings_222.save_as
 
 .. autoclass:: save_as
     :show-inheritance:

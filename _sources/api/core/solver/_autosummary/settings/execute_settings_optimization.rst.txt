@@ -5,7 +5,7 @@
 execute_settings_optimization
 =============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.execute_settings_optimization
+.. currentmodule:: ansys.fluent.core.solver.settings_222.execute_settings_optimization
 
 .. autoclass:: execute_settings_optimization
     :show-inheritance:

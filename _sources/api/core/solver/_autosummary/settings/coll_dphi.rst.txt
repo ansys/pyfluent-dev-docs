@@ -5,7 +5,7 @@
 coll_dphi
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.coll_dphi
+.. currentmodule:: ansys.fluent.core.solver.settings_222.coll_dphi
 
 .. autoclass:: coll_dphi
     :show-inheritance:

@@ -5,7 +5,7 @@
 uds_diffusivity
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.uds_diffusivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.uds_diffusivity
 
 .. autoclass:: uds_diffusivity
     :show-inheritance:

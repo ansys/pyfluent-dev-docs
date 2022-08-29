@@ -5,7 +5,7 @@
 network
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.network
+.. currentmodule:: ansys.fluent.core.solver.settings_222.network
 
 .. autoclass:: network
     :show-inheritance:

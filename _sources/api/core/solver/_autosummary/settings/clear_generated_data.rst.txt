@@ -5,7 +5,7 @@
 clear_generated_data
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.clear_generated_data
+.. currentmodule:: ansys.fluent.core.solver.settings_222.clear_generated_data
 
 .. autoclass:: clear_generated_data
     :show-inheritance:

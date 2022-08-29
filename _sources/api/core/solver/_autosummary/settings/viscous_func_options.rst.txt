@@ -5,7 +5,7 @@
 viscous_func_options
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.viscous_func_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.viscous_func_options
 
 .. autoclass:: viscous_func_options
     :show-inheritance:

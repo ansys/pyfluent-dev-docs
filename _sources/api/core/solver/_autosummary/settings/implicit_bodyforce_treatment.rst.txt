@@ -5,7 +5,7 @@
 implicit_bodyforce_treatment
 ============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.implicit_bodyforce_treatment
+.. currentmodule:: ansys.fluent.core.solver.settings_222.implicit_bodyforce_treatment
 
 .. autoclass:: implicit_bodyforce_treatment
     :show-inheritance:

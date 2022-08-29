@@ -5,7 +5,7 @@
 error_tolerance
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.error_tolerance_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.error_tolerance_1
 
 .. autoclass:: error_tolerance
     :show-inheritance:

@@ -5,7 +5,7 @@
 per_imagy
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.per_imagy
+.. currentmodule:: ansys.fluent.core.solver.settings_222.per_imagy
 
 .. autoclass:: per_imagy
     :show-inheritance:

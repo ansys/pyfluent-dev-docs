@@ -5,7 +5,7 @@
 dynamic_energy_flux
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dynamic_energy_flux
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dynamic_energy_flux
 
 .. autoclass:: dynamic_energy_flux
     :show-inheritance:

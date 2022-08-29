@@ -5,7 +5,7 @@
 premix_unburnt_cp
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.premix_unburnt_cp
+.. currentmodule:: ansys.fluent.core.solver.settings_222.premix_unburnt_cp
 
 .. autoclass:: premix_unburnt_cp
     :show-inheritance:

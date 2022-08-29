@@ -5,7 +5,7 @@
 unstable_event_outer_iterations
 ===============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.unstable_event_outer_iterations
+.. currentmodule:: ansys.fluent.core.solver.settings_222.unstable_event_outer_iterations
 
 .. autoclass:: unstable_event_outer_iterations
     :show-inheritance:

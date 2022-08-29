@@ -5,7 +5,7 @@
 premix_unburnt_density
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.premix_unburnt_density
+.. currentmodule:: ansys.fluent.core.solver.settings_222.premix_unburnt_density
 
 .. autoclass:: premix_unburnt_density
     :show-inheritance:

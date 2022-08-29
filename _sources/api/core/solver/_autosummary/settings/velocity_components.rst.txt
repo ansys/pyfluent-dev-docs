@@ -5,7 +5,7 @@
 velocity_components
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.velocity_components
+.. currentmodule:: ansys.fluent.core.solver.settings_222.velocity_components
 
 .. autoclass:: velocity_components
     :show-inheritance:

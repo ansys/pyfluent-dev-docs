@@ -5,7 +5,7 @@
 output_parameters
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.output_parameters
+.. currentmodule:: ansys.fluent.core.solver.settings_222.output_parameters
 
 .. autoclass:: output_parameters
     :show-inheritance:

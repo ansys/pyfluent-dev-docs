@@ -5,7 +5,7 @@
 spatial_discretization_limiter
 ==============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.spatial_discretization_limiter
+.. currentmodule:: ansys.fluent.core.solver.settings_222.spatial_discretization_limiter
 
 .. autoclass:: spatial_discretization_limiter
     :show-inheritance:

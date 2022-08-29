@@ -5,7 +5,7 @@
 cone_angle
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.cone_angle
+.. currentmodule:: ansys.fluent.core.solver.settings_222.cone_angle
 
 .. autoclass:: cone_angle
     :show-inheritance:

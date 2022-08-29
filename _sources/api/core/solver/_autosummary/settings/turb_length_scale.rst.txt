@@ -5,7 +5,7 @@
 turb_length_scale
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.turb_length_scale
+.. currentmodule:: ansys.fluent.core.solver.settings_222.turb_length_scale
 
 .. autoclass:: turb_length_scale
     :show-inheritance:

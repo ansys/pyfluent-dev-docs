@@ -5,7 +5,7 @@
 report_type
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.report_type
+.. currentmodule:: ansys.fluent.core.solver.settings_222.report_type
 
 .. autoclass:: report_type
     :show-inheritance:

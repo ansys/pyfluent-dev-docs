@@ -5,7 +5,7 @@
 boundary_conditions
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.boundary_conditions
+.. currentmodule:: ansys.fluent.core.solver.settings_222.boundary_conditions
 
 .. autoclass:: boundary_conditions
     :show-inheritance:

@@ -5,7 +5,7 @@
 dpm_particle_stripping
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpm_particle_stripping
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpm_particle_stripping
 
 .. autoclass:: dpm_particle_stripping
     :show-inheritance:

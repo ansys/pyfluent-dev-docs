@@ -5,7 +5,7 @@
 beach_dir_list
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.beach_dir_list
+.. currentmodule:: ansys.fluent.core.solver.settings_222.beach_dir_list
 
 .. autoclass:: beach_dir_list
     :show-inheritance:

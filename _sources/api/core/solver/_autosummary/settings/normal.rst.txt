@@ -5,7 +5,7 @@
 normal
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.normal
+.. currentmodule:: ansys.fluent.core.solver.settings_222.normal
 
 .. autoclass:: normal
     :show-inheritance:

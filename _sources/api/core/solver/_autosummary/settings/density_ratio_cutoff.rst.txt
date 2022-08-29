@@ -5,7 +5,7 @@
 density_ratio_cutoff
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.density_ratio_cutoff
+.. currentmodule:: ansys.fluent.core.solver.settings_222.density_ratio_cutoff
 
 .. autoclass:: density_ratio_cutoff
     :show-inheritance:

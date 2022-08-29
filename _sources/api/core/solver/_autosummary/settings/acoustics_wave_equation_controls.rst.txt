@@ -5,7 +5,7 @@
 acoustics_wave_equation_controls
 ================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.acoustics_wave_equation_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_222.acoustics_wave_equation_controls
 
 .. autoclass:: acoustics_wave_equation_controls
     :show-inheritance:

@@ -5,7 +5,7 @@
 contour_lines
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.contour_lines
+.. currentmodule:: ansys.fluent.core.solver.settings_222.contour_lines
 
 .. autoclass:: contour_lines
     :show-inheritance:

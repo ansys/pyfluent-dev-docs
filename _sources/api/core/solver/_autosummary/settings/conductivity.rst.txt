@@ -5,7 +5,7 @@
 conductivity
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.conductivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.conductivity
 
 .. autoclass:: conductivity
     :show-inheritance:

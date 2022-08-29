@@ -5,7 +5,7 @@
 curvature_correction
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.curvature_correction
+.. currentmodule:: ansys.fluent.core.solver.settings_222.curvature_correction
 
 .. autoclass:: curvature_correction
     :show-inheritance:

@@ -5,7 +5,7 @@
 skjaeveland_nw_pc_coef
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.skjaeveland_nw_pc_coef
+.. currentmodule:: ansys.fluent.core.solver.settings_222.skjaeveland_nw_pc_coef
 
 .. autoclass:: skjaeveland_nw_pc_coef
     :show-inheritance:

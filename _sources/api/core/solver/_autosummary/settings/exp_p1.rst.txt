@@ -5,7 +5,7 @@
 exp_p1
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.exp_p1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.exp_p1
 
 .. autoclass:: exp_p1
     :show-inheritance:

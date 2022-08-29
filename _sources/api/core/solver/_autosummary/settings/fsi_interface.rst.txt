@@ -5,7 +5,7 @@
 fsi_interface
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fsi_interface
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fsi_interface
 
 .. autoclass:: fsi_interface
     :show-inheritance:

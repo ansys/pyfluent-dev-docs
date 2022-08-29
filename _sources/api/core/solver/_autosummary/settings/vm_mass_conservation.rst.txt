@@ -5,7 +5,7 @@
 vm_mass_conservation
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vm_mass_conservation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vm_mass_conservation
 
 .. autoclass:: vm_mass_conservation
     :show-inheritance:

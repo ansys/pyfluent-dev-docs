@@ -5,7 +5,7 @@
 expr_list
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.expr_list
+.. currentmodule:: ansys.fluent.core.solver.settings_222.expr_list
 
 .. autoclass:: expr_list
     :show-inheritance:

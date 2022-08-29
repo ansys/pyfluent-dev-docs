@@ -5,7 +5,7 @@
 reference_values
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.reference_values
+.. currentmodule:: ansys.fluent.core.solver.settings_222.reference_values
 
 .. autoclass:: reference_values
     :show-inheritance:

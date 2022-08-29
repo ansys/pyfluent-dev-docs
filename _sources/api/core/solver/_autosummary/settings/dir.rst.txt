@@ -5,7 +5,7 @@
 dir
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dir
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dir
 
 .. autoclass:: dir
     :show-inheritance:

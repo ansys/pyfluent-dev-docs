@@ -5,7 +5,7 @@
 image_to_display
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.image_to_display
+.. currentmodule:: ansys.fluent.core.solver.settings_222.image_to_display
 
 .. autoclass:: image_to_display
     :show-inheritance:

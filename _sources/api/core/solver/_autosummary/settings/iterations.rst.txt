@@ -5,7 +5,7 @@
 iterations
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.iterations
+.. currentmodule:: ansys.fluent.core.solver.settings_222.iterations
 
 .. autoclass:: iterations
     :show-inheritance:

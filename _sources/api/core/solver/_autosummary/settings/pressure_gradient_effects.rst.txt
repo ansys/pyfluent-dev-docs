@@ -5,7 +5,7 @@
 pressure_gradient_effects
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pressure_gradient_effects
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pressure_gradient_effects
 
 .. autoclass:: pressure_gradient_effects
     :show-inheritance:

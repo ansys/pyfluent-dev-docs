@@ -5,7 +5,7 @@
 dpm_laplace_number_constant
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpm_laplace_number_constant
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpm_laplace_number_constant
 
 .. autoclass:: dpm_laplace_number_constant
     :show-inheritance:

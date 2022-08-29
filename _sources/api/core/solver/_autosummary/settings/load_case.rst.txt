@@ -5,7 +5,7 @@
 load_case
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.load_case
+.. currentmodule:: ansys.fluent.core.solver.settings_222.load_case
 
 .. autoclass:: load_case
     :show-inheritance:

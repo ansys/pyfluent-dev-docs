@@ -5,7 +5,7 @@
 old_variant_of_pesto_for_cases_using_structured_mesh
 ====================================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.old_variant_of_pesto_for_cases_using_structured_mesh
+.. currentmodule:: ansys.fluent.core.solver.settings_222.old_variant_of_pesto_for_cases_using_structured_mesh
 
 .. autoclass:: old_variant_of_pesto_for_cases_using_structured_mesh
     :show-inheritance:

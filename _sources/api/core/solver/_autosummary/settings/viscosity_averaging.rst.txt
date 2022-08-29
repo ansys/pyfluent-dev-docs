@@ -5,7 +5,7 @@
 viscosity_averaging
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.viscosity_averaging
+.. currentmodule:: ansys.fluent.core.solver.settings_222.viscosity_averaging
 
 .. autoclass:: viscosity_averaging
     :show-inheritance:

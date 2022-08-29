@@ -5,7 +5,7 @@
 radial
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.radial
+.. currentmodule:: ansys.fluent.core.solver.settings_222.radial
 
 .. autoclass:: radial
     :show-inheritance:

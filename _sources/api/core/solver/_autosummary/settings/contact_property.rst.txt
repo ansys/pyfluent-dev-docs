@@ -5,7 +5,7 @@
 contact_property
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.contact_property
+.. currentmodule:: ansys.fluent.core.solver.settings_222.contact_property
 
 .. autoclass:: contact_property
     :show-inheritance:

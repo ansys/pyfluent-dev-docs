@@ -5,7 +5,7 @@
 rans_model
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rans_model
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rans_model
 
 .. autoclass:: rans_model
     :show-inheritance:

@@ -5,7 +5,7 @@
 wave_velocity_spec
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wave_velocity_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wave_velocity_spec
 
 .. autoclass:: wave_velocity_spec
     :show-inheritance:

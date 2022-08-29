@@ -5,7 +5,7 @@
 volumetric_synthetic_turbulence_generator
 =========================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.volumetric_synthetic_turbulence_generator
+.. currentmodule:: ansys.fluent.core.solver.settings_222.volumetric_synthetic_turbulence_generator
 
 .. autoclass:: volumetric_synthetic_turbulence_generator
     :show-inheritance:

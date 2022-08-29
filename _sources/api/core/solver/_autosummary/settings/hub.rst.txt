@@ -5,7 +5,7 @@
 hub
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.hub
+.. currentmodule:: ansys.fluent.core.solver.settings_222.hub
 
 .. autoclass:: hub
     :show-inheritance:

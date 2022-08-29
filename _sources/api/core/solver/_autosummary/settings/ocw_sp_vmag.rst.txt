@@ -5,7 +5,7 @@
 ocw_sp_vmag
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ocw_sp_vmag
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ocw_sp_vmag
 
 .. autoclass:: ocw_sp_vmag
     :show-inheritance:

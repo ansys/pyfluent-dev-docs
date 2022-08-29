@@ -5,7 +5,7 @@
 swirl_factor
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.swirl_factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.swirl_factor
 
 .. autoclass:: swirl_factor
     :show-inheritance:

@@ -5,7 +5,7 @@
 motion_bc
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.motion_bc
+.. currentmodule:: ansys.fluent.core.solver.settings_222.motion_bc
 
 .. autoclass:: motion_bc
     :show-inheritance:

@@ -5,7 +5,7 @@
 recirculation_inlet_child
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.recirculation_inlet_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.recirculation_inlet_child
 
 .. autoclass:: recirculation_inlet_child
     :show-inheritance:

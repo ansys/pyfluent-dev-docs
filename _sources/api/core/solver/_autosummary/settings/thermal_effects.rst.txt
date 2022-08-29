@@ -5,7 +5,7 @@
 thermal_effects
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.thermal_effects
+.. currentmodule:: ansys.fluent.core.solver.settings_222.thermal_effects
 
 .. autoclass:: thermal_effects
     :show-inheritance:

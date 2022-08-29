@@ -5,7 +5,7 @@
 lithium_diffusivity
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.lithium_diffusivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.lithium_diffusivity
 
 .. autoclass:: lithium_diffusivity
     :show-inheritance:

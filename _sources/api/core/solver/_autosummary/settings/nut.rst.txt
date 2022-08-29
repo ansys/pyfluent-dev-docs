@@ -5,7 +5,7 @@
 nut
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.nut
+.. currentmodule:: ansys.fluent.core.solver.settings_222.nut
 
 .. autoclass:: nut
     :show-inheritance:

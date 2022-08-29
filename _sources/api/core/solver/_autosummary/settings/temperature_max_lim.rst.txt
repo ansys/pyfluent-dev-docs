@@ -5,7 +5,7 @@
 temperature_max_lim
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.temperature_max_lim
+.. currentmodule:: ansys.fluent.core.solver.settings_222.temperature_max_lim
 
 .. autoclass:: temperature_max_lim
     :show-inheritance:

@@ -5,7 +5,7 @@
 oil_flow
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.oil_flow
+.. currentmodule:: ansys.fluent.core.solver.settings_222.oil_flow
 
 .. autoclass:: oil_flow
     :show-inheritance:

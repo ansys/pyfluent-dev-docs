@@ -5,7 +5,7 @@
 control_time_step_size_variation
 ================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.control_time_step_size_variation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.control_time_step_size_variation
 
 .. autoclass:: control_time_step_size_variation
     :show-inheritance:

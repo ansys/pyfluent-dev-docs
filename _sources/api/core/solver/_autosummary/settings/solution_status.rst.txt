@@ -5,7 +5,7 @@
 solution_status
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solution_status
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solution_status
 
 .. autoclass:: solution_status
     :show-inheritance:

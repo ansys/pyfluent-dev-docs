@@ -5,7 +5,7 @@
 thermal_ctk
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.thermal_ctk
+.. currentmodule:: ansys.fluent.core.solver.settings_222.thermal_ctk
 
 .. autoclass:: thermal_ctk
     :show-inheritance:

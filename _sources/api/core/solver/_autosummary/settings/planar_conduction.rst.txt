@@ -5,7 +5,7 @@
 planar_conduction
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.planar_conduction
+.. currentmodule:: ansys.fluent.core.solver.settings_222.planar_conduction
 
 .. autoclass:: planar_conduction
     :show-inheritance:

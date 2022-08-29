@@ -5,7 +5,7 @@
 mom_center
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mom_center
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mom_center
 
 .. autoclass:: mom_center
     :show-inheritance:

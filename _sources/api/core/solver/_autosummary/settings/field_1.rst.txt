@@ -5,7 +5,7 @@
 field
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.field_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.field_1
 
 .. autoclass:: field
     :show-inheritance:

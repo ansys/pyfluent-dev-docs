@@ -5,7 +5,7 @@
 flow_spec
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.flow_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.flow_spec
 
 .. autoclass:: flow_spec
     :show-inheritance:

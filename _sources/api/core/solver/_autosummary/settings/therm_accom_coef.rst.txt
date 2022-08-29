@@ -5,7 +5,7 @@
 therm_accom_coef
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.therm_accom_coef
+.. currentmodule:: ansys.fluent.core.solver.settings_222.therm_accom_coef
 
 .. autoclass:: therm_accom_coef
     :show-inheritance:

@@ -5,7 +5,7 @@
 dissipation
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dissipation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dissipation
 
 .. autoclass:: dissipation
     :show-inheritance:

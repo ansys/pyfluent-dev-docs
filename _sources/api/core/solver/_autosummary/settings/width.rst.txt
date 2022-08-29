@@ -5,7 +5,7 @@
 width
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.width
+.. currentmodule:: ansys.fluent.core.solver.settings_222.width
 
 .. autoclass:: width
     :show-inheritance:

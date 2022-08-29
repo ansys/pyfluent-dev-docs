@@ -5,7 +5,7 @@
 setup_unsteady_statistics
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.setup_unsteady_statistics
+.. currentmodule:: ansys.fluent.core.solver.settings_222.setup_unsteady_statistics
 
 .. autoclass:: setup_unsteady_statistics
     :show-inheritance:

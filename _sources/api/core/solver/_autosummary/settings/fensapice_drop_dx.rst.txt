@@ -5,7 +5,7 @@
 fensapice_drop_dx
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fensapice_drop_dx
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fensapice_drop_dx
 
 .. autoclass:: fensapice_drop_dx
     :show-inheritance:

@@ -5,7 +5,7 @@
 list_materials
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.list_materials
+.. currentmodule:: ansys.fluent.core.solver.settings_222.list_materials
 
 .. autoclass:: list_materials
     :show-inheritance:

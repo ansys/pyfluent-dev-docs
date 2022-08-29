@@ -5,7 +5,7 @@
 eslip
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.eslip
+.. currentmodule:: ansys.fluent.core.solver.settings_222.eslip
 
 .. autoclass:: eslip
     :show-inheritance:

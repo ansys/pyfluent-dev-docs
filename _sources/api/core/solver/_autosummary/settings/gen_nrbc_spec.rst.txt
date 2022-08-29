@@ -5,7 +5,7 @@
 gen_nrbc_spec
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.gen_nrbc_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.gen_nrbc_spec
 
 .. autoclass:: gen_nrbc_spec
     :show-inheritance:

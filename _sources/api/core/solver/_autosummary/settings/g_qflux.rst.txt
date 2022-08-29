@@ -5,7 +5,7 @@
 g_qflux
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.g_qflux
+.. currentmodule:: ansys.fluent.core.solver.settings_222.g_qflux
 
 .. autoclass:: g_qflux
     :show-inheritance:

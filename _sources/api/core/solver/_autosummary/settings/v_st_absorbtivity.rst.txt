@@ -5,7 +5,7 @@
 v_st_absorbtivity
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.v_st_absorbtivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.v_st_absorbtivity
 
 .. autoclass:: v_st_absorbtivity
     :show-inheritance:

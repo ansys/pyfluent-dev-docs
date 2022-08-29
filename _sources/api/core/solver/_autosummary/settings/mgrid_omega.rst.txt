@@ -5,7 +5,7 @@
 mgrid_omega
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mgrid_omega
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mgrid_omega
 
 .. autoclass:: mgrid_omega
     :show-inheritance:

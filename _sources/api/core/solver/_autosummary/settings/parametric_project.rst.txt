@@ -5,7 +5,7 @@
 parametric_project
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.parametric_project
+.. currentmodule:: ansys.fluent.core.solver.settings_222.parametric_project
 
 .. autoclass:: parametric_project
     :show-inheritance:

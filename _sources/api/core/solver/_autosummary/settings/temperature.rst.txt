@@ -5,7 +5,7 @@
 temperature
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.temperature
+.. currentmodule:: ansys.fluent.core.solver.settings_222.temperature
 
 .. autoclass:: temperature
     :show-inheritance:

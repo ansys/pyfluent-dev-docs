@@ -5,7 +5,7 @@
 limiter_filter
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.limiter_filter
+.. currentmodule:: ansys.fluent.core.solver.settings_222.limiter_filter
 
 .. autoclass:: limiter_filter
     :show-inheritance:

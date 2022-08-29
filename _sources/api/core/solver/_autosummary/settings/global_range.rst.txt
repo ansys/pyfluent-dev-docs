@@ -5,7 +5,7 @@
 global_range
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.global_range
+.. currentmodule:: ansys.fluent.core.solver.settings_222.global_range
 
 .. autoclass:: global_range
     :show-inheritance:

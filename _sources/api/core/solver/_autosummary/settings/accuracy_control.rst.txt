@@ -5,7 +5,7 @@
 accuracy_control
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.accuracy_control
+.. currentmodule:: ansys.fluent.core.solver.settings_222.accuracy_control
 
 .. autoclass:: accuracy_control
     :show-inheritance:

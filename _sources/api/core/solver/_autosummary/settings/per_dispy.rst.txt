@@ -5,7 +5,7 @@
 per_dispy
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.per_dispy
+.. currentmodule:: ansys.fluent.core.solver.settings_222.per_dispy
 
 .. autoclass:: per_dispy
     :show-inheritance:

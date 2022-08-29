@@ -5,7 +5,7 @@
 enhanced_numerics
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.enhanced_numerics
+.. currentmodule:: ansys.fluent.core.solver.settings_222.enhanced_numerics
 
 .. autoclass:: enhanced_numerics
     :show-inheritance:

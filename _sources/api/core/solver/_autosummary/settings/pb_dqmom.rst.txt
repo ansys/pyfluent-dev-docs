@@ -5,7 +5,7 @@
 pb_dqmom
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pb_dqmom
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pb_dqmom
 
 .. autoclass:: pb_dqmom
     :show-inheritance:

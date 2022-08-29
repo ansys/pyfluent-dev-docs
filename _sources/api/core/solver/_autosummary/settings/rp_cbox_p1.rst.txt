@@ -5,7 +5,7 @@
 rp_cbox_p1
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rp_cbox_p1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rp_cbox_p1
 
 .. autoclass:: rp_cbox_p1
     :show-inheritance:

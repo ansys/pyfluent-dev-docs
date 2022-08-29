@@ -5,7 +5,7 @@
 boussinesq
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.boussinesq
+.. currentmodule:: ansys.fluent.core.solver.settings_222.boussinesq
 
 .. autoclass:: boussinesq
     :show-inheritance:

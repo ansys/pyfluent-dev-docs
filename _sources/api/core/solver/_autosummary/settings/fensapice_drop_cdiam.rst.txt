@@ -5,7 +5,7 @@
 fensapice_drop_cdiam
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fensapice_drop_cdiam
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fensapice_drop_cdiam
 
 .. autoclass:: fensapice_drop_cdiam
     :show-inheritance:

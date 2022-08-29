@@ -5,7 +5,7 @@
 function_name
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.function_name
+.. currentmodule:: ansys.fluent.core.solver.settings_222.function_name
 
 .. autoclass:: function_name
     :show-inheritance:

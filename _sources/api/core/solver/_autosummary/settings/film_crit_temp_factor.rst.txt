@@ -5,7 +5,7 @@
 film_crit_temp_factor
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.film_crit_temp_factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.film_crit_temp_factor
 
 .. autoclass:: film_crit_temp_factor
     :show-inheritance:

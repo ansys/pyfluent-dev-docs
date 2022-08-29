@@ -5,7 +5,7 @@
 fan_pre_jump
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fan_pre_jump
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fan_pre_jump
 
 .. autoclass:: fan_pre_jump
     :show-inheritance:

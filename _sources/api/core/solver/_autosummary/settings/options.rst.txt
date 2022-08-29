@@ -5,7 +5,7 @@
 options
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.options
 
 .. autoclass:: options
     :show-inheritance:

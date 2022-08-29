@@ -5,7 +5,7 @@
 radiating
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.radiating
+.. currentmodule:: ansys.fluent.core.solver.settings_222.radiating
 
 .. autoclass:: radiating
     :show-inheritance:

@@ -5,7 +5,7 @@
 k_min_lim
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.k_min_lim
+.. currentmodule:: ansys.fluent.core.solver.settings_222.k_min_lim
 
 .. autoclass:: k_min_lim
     :show-inheritance:

@@ -5,7 +5,7 @@
 vm_nvortices
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vm_nvortices
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vm_nvortices
 
 .. autoclass:: vm_nvortices
     :show-inheritance:

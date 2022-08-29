@@ -5,7 +5,7 @@
 magnetic_permeability
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.magnetic_permeability
+.. currentmodule:: ansys.fluent.core.solver.settings_222.magnetic_permeability
 
 .. autoclass:: magnetic_permeability
     :show-inheritance:

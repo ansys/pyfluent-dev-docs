@@ -5,7 +5,7 @@
 film_u_src
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.film_u_src
+.. currentmodule:: ansys.fluent.core.solver.settings_222.film_u_src
 
 .. autoclass:: film_u_src
     :show-inheritance:

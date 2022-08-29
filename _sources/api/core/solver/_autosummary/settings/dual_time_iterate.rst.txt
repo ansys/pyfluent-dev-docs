@@ -5,7 +5,7 @@
 dual_time_iterate
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dual_time_iterate
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dual_time_iterate
 
 .. autoclass:: dual_time_iterate
     :show-inheritance:

@@ -5,7 +5,7 @@
 face_pressure_options
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.face_pressure_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.face_pressure_options
 
 .. autoclass:: face_pressure_options
     :show-inheritance:

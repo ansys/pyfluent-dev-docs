@@ -5,7 +5,7 @@
 beach_damp_len_spec
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.beach_damp_len_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.beach_damp_len_spec
 
 .. autoclass:: beach_damp_len_spec
     :show-inheritance:

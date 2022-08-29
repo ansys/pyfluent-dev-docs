@@ -5,7 +5,7 @@
 localized_turb_init
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.localized_turb_init
+.. currentmodule:: ansys.fluent.core.solver.settings_222.localized_turb_init
 
 .. autoclass:: localized_turb_init
     :show-inheritance:

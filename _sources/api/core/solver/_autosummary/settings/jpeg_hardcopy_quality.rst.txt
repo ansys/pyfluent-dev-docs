@@ -5,7 +5,7 @@
 jpeg_hardcopy_quality
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.jpeg_hardcopy_quality
+.. currentmodule:: ansys.fluent.core.solver.settings_222.jpeg_hardcopy_quality
 
 .. autoclass:: jpeg_hardcopy_quality
     :show-inheritance:

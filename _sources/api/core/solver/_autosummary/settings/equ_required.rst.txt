@@ -5,7 +5,7 @@
 equ_required
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.equ_required
+.. currentmodule:: ansys.fluent.core.solver.settings_222.equ_required
 
 .. autoclass:: equ_required
     :show-inheritance:

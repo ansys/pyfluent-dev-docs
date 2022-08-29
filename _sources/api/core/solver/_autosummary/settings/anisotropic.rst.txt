@@ -5,7 +5,7 @@
 anisotropic
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.anisotropic
+.. currentmodule:: ansys.fluent.core.solver.settings_222.anisotropic
 
 .. autoclass:: anisotropic
     :show-inheritance:

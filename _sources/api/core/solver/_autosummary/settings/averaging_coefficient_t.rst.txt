@@ -5,7 +5,7 @@
 averaging_coefficient_t
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.averaging_coefficient_t
+.. currentmodule:: ansys.fluent.core.solver.settings_222.averaging_coefficient_t
 
 .. autoclass:: averaging_coefficient_t
     :show-inheritance:

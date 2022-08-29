@@ -5,7 +5,7 @@
 solid_material
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solid_material
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solid_material
 
 .. autoclass:: solid_material
     :show-inheritance:

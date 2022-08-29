@@ -5,7 +5,7 @@
 capture_simulation_report_data
 ==============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.capture_simulation_report_data_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.capture_simulation_report_data_1
 
 .. autoclass:: capture_simulation_report_data
     :show-inheritance:

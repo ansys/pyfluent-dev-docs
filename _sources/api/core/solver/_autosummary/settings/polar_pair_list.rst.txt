@@ -5,7 +5,7 @@
 polar_pair_list
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.polar_pair_list
+.. currentmodule:: ansys.fluent.core.solver.settings_222.polar_pair_list
 
 .. autoclass:: polar_pair_list
     :show-inheritance:

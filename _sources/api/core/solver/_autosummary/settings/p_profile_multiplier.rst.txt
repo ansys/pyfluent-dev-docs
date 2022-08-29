@@ -5,7 +5,7 @@
 p_profile_multiplier
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.p_profile_multiplier
+.. currentmodule:: ansys.fluent.core.solver.settings_222.p_profile_multiplier
 
 .. autoclass:: p_profile_multiplier
     :show-inheritance:

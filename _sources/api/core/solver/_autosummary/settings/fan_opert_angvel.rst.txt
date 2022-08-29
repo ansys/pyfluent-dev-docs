@@ -5,7 +5,7 @@
 fan_opert_angvel
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fan_opert_angvel
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fan_opert_angvel
 
 .. autoclass:: fan_opert_angvel
     :show-inheritance:

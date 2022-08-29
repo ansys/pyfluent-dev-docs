@@ -5,7 +5,7 @@
 slip_velocity
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.slip_velocity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.slip_velocity
 
 .. autoclass:: slip_velocity
     :show-inheritance:

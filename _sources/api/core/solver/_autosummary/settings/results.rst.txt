@@ -5,7 +5,7 @@
 results
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.results
+.. currentmodule:: ansys.fluent.core.solver.settings_222.results
 
 .. autoclass:: results
     :show-inheritance:

@@ -5,7 +5,7 @@
 explicit_momentum_under_relaxation
 ==================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.explicit_momentum_under_relaxation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.explicit_momentum_under_relaxation
 
 .. autoclass:: explicit_momentum_under_relaxation
     :show-inheritance:

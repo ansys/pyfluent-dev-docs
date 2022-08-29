@@ -5,7 +5,7 @@
 spatial
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.spatial
+.. currentmodule:: ansys.fluent.core.solver.settings_222.spatial
 
 .. autoclass:: spatial
     :show-inheritance:

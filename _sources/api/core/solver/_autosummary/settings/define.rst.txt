@@ -5,7 +5,7 @@
 define
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.define
+.. currentmodule:: ansys.fluent.core.solver.settings_222.define
 
 .. autoclass:: define
     :show-inheritance:

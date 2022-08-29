@@ -5,7 +5,7 @@
 dpm_upper_deposition_limit_offset
 =================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpm_upper_deposition_limit_offset
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpm_upper_deposition_limit_offset
 
 .. autoclass:: dpm_upper_deposition_limit_offset
     :show-inheritance:

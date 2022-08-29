@@ -5,7 +5,7 @@
 species_in_mole_fractions
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.species_in_mole_fractions
+.. currentmodule:: ansys.fluent.core.solver.settings_222.species_in_mole_fractions
 
 .. autoclass:: species_in_mole_fractions
     :show-inheritance:

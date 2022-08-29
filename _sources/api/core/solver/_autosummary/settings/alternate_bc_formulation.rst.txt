@@ -5,7 +5,7 @@
 alternate_bc_formulation
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.alternate_bc_formulation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.alternate_bc_formulation
 
 .. autoclass:: alternate_bc_formulation
     :show-inheritance:

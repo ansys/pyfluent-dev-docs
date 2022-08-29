@@ -5,7 +5,7 @@
 list_val
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.list_val
+.. currentmodule:: ansys.fluent.core.solver.settings_222.list_val
 
 .. autoclass:: list_val
     :show-inheritance:

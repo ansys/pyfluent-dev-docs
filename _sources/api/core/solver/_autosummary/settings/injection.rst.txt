@@ -5,7 +5,7 @@
 injection
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.injection
+.. currentmodule:: ansys.fluent.core.solver.settings_222.injection
 
 .. autoclass:: injection
     :show-inheritance:

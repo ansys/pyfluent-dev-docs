@@ -5,7 +5,7 @@
 material
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.material
+.. currentmodule:: ansys.fluent.core.solver.settings_222.material
 
 .. autoclass:: material
     :show-inheritance:

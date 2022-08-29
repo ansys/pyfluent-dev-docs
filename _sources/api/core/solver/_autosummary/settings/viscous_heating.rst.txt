@@ -5,7 +5,7 @@
 viscous_heating
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.viscous_heating
+.. currentmodule:: ansys.fluent.core.solver.settings_222.viscous_heating
 
 .. autoclass:: viscous_heating
     :show-inheritance:

@@ -5,7 +5,7 @@
 fan_hub_rad
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fan_hub_rad
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fan_hub_rad
 
 .. autoclass:: fan_hub_rad
     :show-inheritance:

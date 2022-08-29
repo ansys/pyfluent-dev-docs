@@ -5,7 +5,7 @@
 characteristic_vibrational_temperature
 ======================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.characteristic_vibrational_temperature
+.. currentmodule:: ansys.fluent.core.solver.settings_222.characteristic_vibrational_temperature
 
 .. autoclass:: characteristic_vibrational_temperature
     :show-inheritance:

@@ -5,7 +5,7 @@
 drag
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.drag
+.. currentmodule:: ansys.fluent.core.solver.settings_222.drag
 
 .. autoclass:: drag
     :show-inheritance:

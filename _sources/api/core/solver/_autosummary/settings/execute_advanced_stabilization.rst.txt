@@ -5,7 +5,7 @@
 execute_advanced_stabilization
 ==============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.execute_advanced_stabilization
+.. currentmodule:: ansys.fluent.core.solver.settings_222.execute_advanced_stabilization
 
 .. autoclass:: execute_advanced_stabilization
     :show-inheritance:

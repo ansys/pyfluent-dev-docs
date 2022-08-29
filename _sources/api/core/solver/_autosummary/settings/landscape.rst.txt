@@ -5,7 +5,7 @@
 landscape
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.landscape
+.. currentmodule:: ansys.fluent.core.solver.settings_222.landscape
 
 .. autoclass:: landscape
     :show-inheritance:

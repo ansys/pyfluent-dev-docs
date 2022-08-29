@@ -5,7 +5,7 @@
 formulation
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.formulation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.formulation
 
 .. autoclass:: formulation
     :show-inheritance:

@@ -5,7 +5,7 @@
 coupled_form
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.coupled_form
+.. currentmodule:: ansys.fluent.core.solver.settings_222.coupled_form
 
 .. autoclass:: coupled_form
     :show-inheritance:

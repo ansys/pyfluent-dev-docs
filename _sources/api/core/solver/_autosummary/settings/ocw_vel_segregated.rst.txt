@@ -5,7 +5,7 @@
 ocw_vel_segregated
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ocw_vel_segregated
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ocw_vel_segregated
 
 .. autoclass:: ocw_vel_segregated
     :show-inheritance:

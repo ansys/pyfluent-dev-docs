@@ -5,7 +5,7 @@
 old_default_of_operating_density_method
 =======================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.old_default_of_operating_density_method
+.. currentmodule:: ansys.fluent.core.solver.settings_222.old_default_of_operating_density_method
 
 .. autoclass:: old_default_of_operating_density_method
     :show-inheritance:

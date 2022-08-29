@@ -5,7 +5,7 @@
 initialize
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.initialize
+.. currentmodule:: ansys.fluent.core.solver.settings_222.initialize
 
 .. autoclass:: initialize
     :show-inheritance:

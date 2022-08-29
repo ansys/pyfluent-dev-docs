@@ -5,7 +5,7 @@
 number_of_total_periods
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.number_of_total_periods
+.. currentmodule:: ansys.fluent.core.solver.settings_222.number_of_total_periods
 
 .. autoclass:: number_of_total_periods
     :show-inheritance:

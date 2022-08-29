@@ -5,7 +5,7 @@
 init_acoustics_options
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.init_acoustics_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.init_acoustics_options
 
 .. autoclass:: init_acoustics_options
     :show-inheritance:

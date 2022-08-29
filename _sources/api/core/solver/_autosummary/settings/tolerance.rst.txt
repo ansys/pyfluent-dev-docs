@@ -5,7 +5,7 @@
 tolerance
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.tolerance
+.. currentmodule:: ansys.fluent.core.solver.settings_222.tolerance
 
 .. autoclass:: tolerance
     :show-inheritance:

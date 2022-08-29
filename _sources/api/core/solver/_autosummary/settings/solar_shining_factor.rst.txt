@@ -5,7 +5,7 @@
 solar_shining_factor
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solar_shining_factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solar_shining_factor
 
 .. autoclass:: solar_shining_factor
     :show-inheritance:

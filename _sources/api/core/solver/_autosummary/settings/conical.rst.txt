@@ -5,7 +5,7 @@
 conical
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.conical
+.. currentmodule:: ansys.fluent.core.solver.settings_222.conical
 
 .. autoclass:: conical
     :show-inheritance:

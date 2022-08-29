@@ -5,7 +5,7 @@
 boundry_treatment
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.boundry_treatment
+.. currentmodule:: ansys.fluent.core.solver.settings_222.boundry_treatment
 
 .. autoclass:: boundry_treatment
     :show-inheritance:

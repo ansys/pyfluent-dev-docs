@@ -5,7 +5,7 @@
 pid
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pid
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pid
 
 .. autoclass:: pid
     :show-inheritance:

@@ -5,7 +5,7 @@
 dynamic_shadows
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dynamic_shadows
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dynamic_shadows
 
 .. autoclass:: dynamic_shadows
     :show-inheritance:

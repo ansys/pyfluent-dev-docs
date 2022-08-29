@@ -5,7 +5,7 @@
 report_definitions
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.report_definitions
+.. currentmodule:: ansys.fluent.core.solver.settings_222.report_definitions
 
 .. autoclass:: report_definitions
     :show-inheritance:

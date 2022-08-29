@@ -5,7 +5,7 @@
 non_equib_thermal
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.non_equib_thermal
+.. currentmodule:: ansys.fluent.core.solver.settings_222.non_equib_thermal
 
 .. autoclass:: non_equib_thermal
     :show-inheritance:

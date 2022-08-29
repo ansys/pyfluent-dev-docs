@@ -5,7 +5,7 @@
 ocw_sp_vel_spec
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ocw_sp_vel_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ocw_sp_vel_spec
 
 .. autoclass:: ocw_sp_vel_spec
     :show-inheritance:

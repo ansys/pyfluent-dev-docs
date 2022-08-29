@@ -5,7 +5,7 @@
 coefficient
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.coefficient
+.. currentmodule:: ansys.fluent.core.solver.settings_222.coefficient
 
 .. autoclass:: coefficient
     :show-inheritance:

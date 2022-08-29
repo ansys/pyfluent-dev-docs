@@ -5,7 +5,7 @@
 piecewise_polynomial
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.piecewise_polynomial
+.. currentmodule:: ansys.fluent.core.solver.settings_222.piecewise_polynomial
 
 .. autoclass:: piecewise_polynomial
     :show-inheritance:

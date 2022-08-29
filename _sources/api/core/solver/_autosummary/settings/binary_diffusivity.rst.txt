@@ -5,7 +5,7 @@
 binary_diffusivity
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.binary_diffusivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.binary_diffusivity
 
 .. autoclass:: binary_diffusivity
     :show-inheritance:

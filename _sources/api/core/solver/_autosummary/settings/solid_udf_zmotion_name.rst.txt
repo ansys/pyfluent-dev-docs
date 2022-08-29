@@ -5,7 +5,7 @@
 solid_udf_zmotion_name
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solid_udf_zmotion_name
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solid_udf_zmotion_name
 
 .. autoclass:: solid_udf_zmotion_name
     :show-inheritance:

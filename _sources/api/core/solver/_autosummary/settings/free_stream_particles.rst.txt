@@ -5,7 +5,7 @@
 free_stream_particles
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.free_stream_particles
+.. currentmodule:: ansys.fluent.core.solver.settings_222.free_stream_particles
 
 .. autoclass:: free_stream_particles
     :show-inheritance:

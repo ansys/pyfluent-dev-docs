@@ -5,7 +5,7 @@
 volume_child
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.volume_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.volume_child
 
 .. autoclass:: volume_child
     :show-inheritance:

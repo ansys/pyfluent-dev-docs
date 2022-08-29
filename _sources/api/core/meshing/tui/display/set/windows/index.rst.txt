@@ -3,12 +3,12 @@
 meshing.tui.display.set.windows
 ===============================
 
-.. currentmodule:: ansys.fluent.core.meshing.tui
+.. currentmodule:: ansys.fluent.core.meshing.tui_222
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.meshing.tui::main_menu.display.set.windows
+.. autoclass:: ansys.fluent.core.meshing.tui_222::main_menu.display.set.windows
    :members: aspect_ratio, logo, ruler, logo_color
 
 .. toctree::

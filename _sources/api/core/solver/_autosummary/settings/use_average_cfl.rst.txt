@@ -5,7 +5,7 @@
 use_average_cfl
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.use_average_cfl
+.. currentmodule:: ansys.fluent.core.solver.settings_222.use_average_cfl
 
 .. autoclass:: use_average_cfl
     :show-inheritance:

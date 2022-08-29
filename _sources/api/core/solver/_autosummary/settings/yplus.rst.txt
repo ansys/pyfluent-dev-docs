@@ -5,7 +5,7 @@
 yplus
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.yplus
+.. currentmodule:: ansys.fluent.core.solver.settings_222.yplus
 
 .. autoclass:: yplus
     :show-inheritance:

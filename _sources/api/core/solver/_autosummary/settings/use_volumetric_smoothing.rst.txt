@@ -5,7 +5,7 @@
 use_volumetric_smoothing
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.use_volumetric_smoothing
+.. currentmodule:: ansys.fluent.core.solver.settings_222.use_volumetric_smoothing
 
 .. autoclass:: use_volumetric_smoothing
     :show-inheritance:

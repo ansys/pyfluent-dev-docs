@@ -5,7 +5,7 @@
 liquid_content_cp
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.liquid_content_cp
+.. currentmodule:: ansys.fluent.core.solver.settings_222.liquid_content_cp
 
 .. autoclass:: liquid_content_cp
     :show-inheritance:

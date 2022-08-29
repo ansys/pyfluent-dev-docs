@@ -5,7 +5,7 @@
 electrolyte
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.electrolyte
+.. currentmodule:: ansys.fluent.core.solver.settings_222.electrolyte
 
 .. autoclass:: electrolyte
     :show-inheritance:

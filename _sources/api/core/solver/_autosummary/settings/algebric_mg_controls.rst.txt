@@ -5,7 +5,7 @@
 algebric_mg_controls
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.algebric_mg_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_222.algebric_mg_controls
 
 .. autoclass:: algebric_mg_controls
     :show-inheritance:

@@ -5,7 +5,7 @@
 manual
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.manual
+.. currentmodule:: ansys.fluent.core.solver.settings_222.manual
 
 .. autoclass:: manual
     :show-inheritance:

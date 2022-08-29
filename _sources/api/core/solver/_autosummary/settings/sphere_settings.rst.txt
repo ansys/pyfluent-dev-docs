@@ -5,7 +5,7 @@
 sphere_settings
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.sphere_settings
+.. currentmodule:: ansys.fluent.core.solver.settings_222.sphere_settings
 
 .. autoclass:: sphere_settings
     :show-inheritance:

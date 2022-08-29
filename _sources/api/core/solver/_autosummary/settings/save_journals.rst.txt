@@ -5,7 +5,7 @@
 save_journals
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.save_journals
+.. currentmodule:: ansys.fluent.core.solver.settings_222.save_journals
 
 .. autoclass:: save_journals
     :show-inheritance:

@@ -5,7 +5,7 @@
 ir_transmissivity
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ir_transmissivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ir_transmissivity
 
 .. autoclass:: ir_transmissivity
     :show-inheritance:

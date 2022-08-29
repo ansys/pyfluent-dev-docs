@@ -5,7 +5,7 @@
 ht_local
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ht_local
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ht_local
 
 .. autoclass:: ht_local
     :show-inheritance:

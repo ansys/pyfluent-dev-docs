@@ -5,7 +5,7 @@
 presto_pressure_scheme
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.presto_pressure_scheme
+.. currentmodule:: ansys.fluent.core.solver.settings_222.presto_pressure_scheme
 
 .. autoclass:: presto_pressure_scheme
     :show-inheritance:

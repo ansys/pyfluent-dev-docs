@@ -5,7 +5,7 @@
 intermit
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.intermit
+.. currentmodule:: ansys.fluent.core.solver.settings_222.intermit
 
 .. autoclass:: intermit
     :show-inheritance:

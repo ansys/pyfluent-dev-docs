@@ -5,7 +5,7 @@
 k_omega_model
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.k_omega_model
+.. currentmodule:: ansys.fluent.core.solver.settings_222.k_omega_model
 
 .. autoclass:: k_omega_model
     :show-inheritance:

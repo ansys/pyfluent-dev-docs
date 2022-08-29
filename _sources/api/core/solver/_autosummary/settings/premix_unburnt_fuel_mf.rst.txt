@@ -5,7 +5,7 @@
 premix_unburnt_fuel_mf
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.premix_unburnt_fuel_mf
+.. currentmodule:: ansys.fluent.core.solver.settings_222.premix_unburnt_fuel_mf
 
 .. autoclass:: premix_unburnt_fuel_mf
     :show-inheritance:

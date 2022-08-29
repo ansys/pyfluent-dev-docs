@@ -5,7 +5,7 @@
 force_statistics
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.force_statistics
+.. currentmodule:: ansys.fluent.core.solver.settings_222.force_statistics
 
 .. autoclass:: force_statistics
     :show-inheritance:

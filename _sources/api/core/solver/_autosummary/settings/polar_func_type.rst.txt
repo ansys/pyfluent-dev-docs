@@ -5,7 +5,7 @@
 polar_func_type
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.polar_func_type
+.. currentmodule:: ansys.fluent.core.solver.settings_222.polar_func_type
 
 .. autoclass:: polar_func_type
     :show-inheritance:

@@ -5,7 +5,7 @@
 iac
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.iac
+.. currentmodule:: ansys.fluent.core.solver.settings_222.iac
 
 .. autoclass:: iac
     :show-inheritance:

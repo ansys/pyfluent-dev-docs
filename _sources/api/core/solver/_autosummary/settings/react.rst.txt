@@ -5,7 +5,7 @@
 react
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.react
+.. currentmodule:: ansys.fluent.core.solver.settings_222.react
 
 .. autoclass:: react
     :show-inheritance:

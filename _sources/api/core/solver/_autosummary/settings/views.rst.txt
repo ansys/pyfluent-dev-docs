@@ -5,7 +5,7 @@
 views
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.views
+.. currentmodule:: ansys.fluent.core.solver.settings_222.views
 
 .. autoclass:: views
     :show-inheritance:

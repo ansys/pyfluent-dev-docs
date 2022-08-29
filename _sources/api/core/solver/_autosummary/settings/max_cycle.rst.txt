@@ -5,7 +5,7 @@
 max_cycle
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.max_cycle
+.. currentmodule:: ansys.fluent.core.solver.settings_222.max_cycle
 
 .. autoclass:: max_cycle
     :show-inheritance:

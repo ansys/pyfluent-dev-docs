@@ -5,7 +5,7 @@
 network_end_child
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.network_end_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.network_end_child
 
 .. autoclass:: network_end_child
     :show-inheritance:

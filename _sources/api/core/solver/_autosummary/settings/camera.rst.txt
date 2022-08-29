@@ -5,7 +5,7 @@
 camera
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.camera
+.. currentmodule:: ansys.fluent.core.solver.settings_222.camera
 
 .. autoclass:: camera
     :show-inheritance:

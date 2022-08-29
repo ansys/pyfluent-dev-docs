@@ -5,7 +5,7 @@
 radial_direction_component
 ==========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.radial_direction_component
+.. currentmodule:: ansys.fluent.core.solver.settings_222.radial_direction_component
 
 .. autoclass:: radial_direction_component
     :show-inheritance:

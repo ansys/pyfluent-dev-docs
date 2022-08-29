@@ -5,7 +5,7 @@
 compute_statistics
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.compute_statistics
+.. currentmodule:: ansys.fluent.core.solver.settings_222.compute_statistics
 
 .. autoclass:: compute_statistics
     :show-inheritance:

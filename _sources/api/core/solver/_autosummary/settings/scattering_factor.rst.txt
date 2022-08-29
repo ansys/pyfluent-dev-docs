@@ -5,7 +5,7 @@
 scattering_factor
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.scattering_factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.scattering_factor
 
 .. autoclass:: scattering_factor
     :show-inheritance:

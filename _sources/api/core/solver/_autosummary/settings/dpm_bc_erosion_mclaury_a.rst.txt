@@ -5,7 +5,7 @@
 dpm_bc_erosion_mclaury_a
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpm_bc_erosion_mclaury_a
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpm_bc_erosion_mclaury_a
 
 .. autoclass:: dpm_bc_erosion_mclaury_a
     :show-inheritance:

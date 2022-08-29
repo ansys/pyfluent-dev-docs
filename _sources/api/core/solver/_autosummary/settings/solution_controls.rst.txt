@@ -5,7 +5,7 @@
 solution_controls
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solution_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solution_controls
 
 .. autoclass:: solution_controls
     :show-inheritance:

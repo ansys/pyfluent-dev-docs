@@ -3,12 +3,12 @@
 meshing.tui.objects.wrap
 ========================
 
-.. currentmodule:: ansys.fluent.core.meshing.tui
+.. currentmodule:: ansys.fluent.core.meshing.tui_222
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.meshing.tui::main_menu.objects.wrap
+.. autoclass:: ansys.fluent.core.meshing.tui_222::main_menu.objects.wrap
    :members: wrap, check_holes, object_zone_separate, debug
 
 .. toctree::

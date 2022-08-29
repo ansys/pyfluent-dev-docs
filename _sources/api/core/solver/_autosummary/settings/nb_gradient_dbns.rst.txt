@@ -5,7 +5,7 @@
 nb_gradient_dbns
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.nb_gradient_dbns
+.. currentmodule:: ansys.fluent.core.solver.settings_222.nb_gradient_dbns
 
 .. autoclass:: nb_gradient_dbns
     :show-inheritance:

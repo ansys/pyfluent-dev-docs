@@ -5,7 +5,7 @@
 patch_reconstructed_interface
 =============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.patch_reconstructed_interface
+.. currentmodule:: ansys.fluent.core.solver.settings_222.patch_reconstructed_interface
 
 .. autoclass:: patch_reconstructed_interface
     :show-inheritance:

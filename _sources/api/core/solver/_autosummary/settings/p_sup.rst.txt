@@ -5,7 +5,7 @@
 p_sup
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.p_sup
+.. currentmodule:: ansys.fluent.core.solver.settings_222.p_sup
 
 .. autoclass:: p_sup
     :show-inheritance:

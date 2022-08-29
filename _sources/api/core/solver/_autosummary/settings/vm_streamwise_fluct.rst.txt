@@ -5,7 +5,7 @@
 vm_streamwise_fluct
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vm_streamwise_fluct
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vm_streamwise_fluct
 
 .. autoclass:: vm_streamwise_fluct
     :show-inheritance:

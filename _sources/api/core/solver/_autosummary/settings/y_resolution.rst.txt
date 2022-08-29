@@ -5,7 +5,7 @@
 y_resolution
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.y_resolution
+.. currentmodule:: ansys.fluent.core.solver.settings_222.y_resolution
 
 .. autoclass:: y_resolution
     :show-inheritance:

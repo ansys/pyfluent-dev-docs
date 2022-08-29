@@ -5,7 +5,7 @@
 per_surface
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.per_surface
+.. currentmodule:: ansys.fluent.core.solver.settings_222.per_surface
 
 .. autoclass:: per_surface
     :show-inheritance:

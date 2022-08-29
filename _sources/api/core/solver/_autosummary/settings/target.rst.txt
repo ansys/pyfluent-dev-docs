@@ -5,7 +5,7 @@
 target
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.target
+.. currentmodule:: ansys.fluent.core.solver.settings_222.target
 
 .. autoclass:: target
     :show-inheritance:

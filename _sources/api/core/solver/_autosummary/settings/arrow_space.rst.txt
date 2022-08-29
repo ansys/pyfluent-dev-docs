@@ -5,7 +5,7 @@
 arrow_space
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.arrow_space
+.. currentmodule:: ansys.fluent.core.solver.settings_222.arrow_space
 
 .. autoclass:: arrow_space
     :show-inheritance:

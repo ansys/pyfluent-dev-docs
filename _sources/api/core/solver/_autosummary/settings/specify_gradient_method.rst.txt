@@ -5,7 +5,7 @@
 specify_gradient_method
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.specify_gradient_method
+.. currentmodule:: ansys.fluent.core.solver.settings_222.specify_gradient_method
 
 .. autoclass:: specify_gradient_method
     :show-inheritance:

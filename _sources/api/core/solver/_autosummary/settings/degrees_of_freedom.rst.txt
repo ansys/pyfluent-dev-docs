@@ -5,7 +5,7 @@
 degrees_of_freedom
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.degrees_of_freedom
+.. currentmodule:: ansys.fluent.core.solver.settings_222.degrees_of_freedom
 
 .. autoclass:: degrees_of_freedom
     :show-inheritance:

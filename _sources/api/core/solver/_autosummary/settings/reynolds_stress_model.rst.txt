@@ -5,7 +5,7 @@
 reynolds_stress_model
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.reynolds_stress_model
+.. currentmodule:: ansys.fluent.core.solver.settings_222.reynolds_stress_model
 
 .. autoclass:: reynolds_stress_model
     :show-inheritance:

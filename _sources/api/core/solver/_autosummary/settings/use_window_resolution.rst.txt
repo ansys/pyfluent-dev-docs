@@ -5,7 +5,7 @@
 use_window_resolution
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.use_window_resolution
+.. currentmodule:: ansys.fluent.core.solver.settings_222.use_window_resolution
 
 .. autoclass:: use_window_resolution
     :show-inheritance:

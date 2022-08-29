@@ -5,7 +5,7 @@
 heading_angle
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.heading_angle
+.. currentmodule:: ansys.fluent.core.solver.settings_222.heading_angle
 
 .. autoclass:: heading_angle
     :show-inheritance:

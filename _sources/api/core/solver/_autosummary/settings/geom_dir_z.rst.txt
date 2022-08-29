@@ -5,7 +5,7 @@
 geom_dir_z
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.geom_dir_z
+.. currentmodule:: ansys.fluent.core.solver.settings_222.geom_dir_z
 
 .. autoclass:: geom_dir_z
     :show-inheritance:

@@ -5,7 +5,7 @@
 open
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.open
+.. currentmodule:: ansys.fluent.core.solver.settings_222.open
 
 .. autoclass:: open
     :show-inheritance:

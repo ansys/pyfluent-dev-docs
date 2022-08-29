@@ -5,7 +5,7 @@
 impedance_1_child
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.impedance_1_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.impedance_1_child
 
 .. autoclass:: impedance_1_child
     :show-inheritance:

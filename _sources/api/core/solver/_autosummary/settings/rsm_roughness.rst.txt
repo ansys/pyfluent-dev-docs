@@ -5,7 +5,7 @@
 rsm_roughness
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rsm_roughness
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rsm_roughness
 
 .. autoclass:: rsm_roughness
     :show-inheritance:

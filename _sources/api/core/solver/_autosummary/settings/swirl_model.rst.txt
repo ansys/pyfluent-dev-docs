@@ -5,7 +5,7 @@
 swirl_model
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.swirl_model
+.. currentmodule:: ansys.fluent.core.solver.settings_222.swirl_model
 
 .. autoclass:: swirl_model
     :show-inheritance:

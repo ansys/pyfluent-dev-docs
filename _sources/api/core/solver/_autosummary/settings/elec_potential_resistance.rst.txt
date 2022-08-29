@@ -5,7 +5,7 @@
 elec_potential_resistance
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.elec_potential_resistance
+.. currentmodule:: ansys.fluent.core.solver.settings_222.elec_potential_resistance
 
 .. autoclass:: elec_potential_resistance
     :show-inheritance:

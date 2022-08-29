@@ -5,7 +5,7 @@
 premix_critical_strain
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.premix_critical_strain
+.. currentmodule:: ansys.fluent.core.solver.settings_222.premix_critical_strain
 
 .. autoclass:: premix_critical_strain
     :show-inheritance:

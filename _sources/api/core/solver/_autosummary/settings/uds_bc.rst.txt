@@ -5,7 +5,7 @@
 uds_bc
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.uds_bc
+.. currentmodule:: ansys.fluent.core.solver.settings_222.uds_bc
 
 .. autoclass:: uds_bc
     :show-inheritance:

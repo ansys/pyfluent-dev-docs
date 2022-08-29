@@ -5,7 +5,7 @@
 lic_intensity_alpha
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.lic_intensity_alpha
+.. currentmodule:: ansys.fluent.core.solver.settings_222.lic_intensity_alpha
 
 .. autoclass:: lic_intensity_alpha
     :show-inheritance:

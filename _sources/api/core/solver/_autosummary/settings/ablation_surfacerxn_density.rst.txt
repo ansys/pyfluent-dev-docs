@@ -5,7 +5,7 @@
 ablation_surfacerxn_density
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ablation_surfacerxn_density
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ablation_surfacerxn_density
 
 .. autoclass:: ablation_surfacerxn_density
     :show-inheritance:

@@ -5,7 +5,7 @@
 solar_irradiation
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solar_irradiation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solar_irradiation
 
 .. autoclass:: solar_irradiation
     :show-inheritance:

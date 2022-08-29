@@ -5,7 +5,7 @@
 solution_stabilization_persistence
 ==================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solution_stabilization_persistence
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solution_stabilization_persistence
 
 .. autoclass:: solution_stabilization_persistence
     :show-inheritance:

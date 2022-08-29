@@ -5,7 +5,7 @@
 inert_particle
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.inert_particle
+.. currentmodule:: ansys.fluent.core.solver.settings_222.inert_particle
 
 .. autoclass:: inert_particle
     :show-inheritance:

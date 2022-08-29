@@ -5,7 +5,7 @@
 lic_normalize
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.lic_normalize
+.. currentmodule:: ansys.fluent.core.solver.settings_222.lic_normalize
 
 .. autoclass:: lic_normalize
     :show-inheritance:

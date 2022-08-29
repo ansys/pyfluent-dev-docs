@@ -5,7 +5,7 @@
 feature_angle
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.feature_angle
+.. currentmodule:: ansys.fluent.core.solver.settings_222.feature_angle
 
 .. autoclass:: feature_angle
     :show-inheritance:

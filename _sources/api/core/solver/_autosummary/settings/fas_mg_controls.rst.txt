@@ -5,7 +5,7 @@
 fas_mg_controls
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fas_mg_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fas_mg_controls
 
 .. autoclass:: fas_mg_controls
     :show-inheritance:

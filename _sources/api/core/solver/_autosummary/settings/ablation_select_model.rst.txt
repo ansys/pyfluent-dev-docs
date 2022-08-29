@@ -5,7 +5,7 @@
 ablation_select_model
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ablation_select_model
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ablation_select_model
 
 .. autoclass:: ablation_select_model
     :show-inheritance:

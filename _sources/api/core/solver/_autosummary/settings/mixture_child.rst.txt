@@ -5,7 +5,7 @@
 mixture_child
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mixture_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mixture_child
 
 .. autoclass:: mixture_child
     :show-inheritance:

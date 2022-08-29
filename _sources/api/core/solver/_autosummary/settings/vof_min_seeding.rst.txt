@@ -5,7 +5,7 @@
 vof_min_seeding
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vof_min_seeding
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vof_min_seeding
 
 .. autoclass:: vof_min_seeding
     :show-inheritance:

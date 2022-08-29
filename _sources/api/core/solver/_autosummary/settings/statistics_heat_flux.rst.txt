@@ -5,7 +5,7 @@
 statistics_heat_flux
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.statistics_heat_flux
+.. currentmodule:: ansys.fluent.core.solver.settings_222.statistics_heat_flux
 
 .. autoclass:: statistics_heat_flux
     :show-inheritance:

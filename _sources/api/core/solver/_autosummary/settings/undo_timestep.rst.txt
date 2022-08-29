@@ -5,7 +5,7 @@
 undo_timestep
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.undo_timestep
+.. currentmodule:: ansys.fluent.core.solver.settings_222.undo_timestep
 
 .. autoclass:: undo_timestep
     :show-inheritance:

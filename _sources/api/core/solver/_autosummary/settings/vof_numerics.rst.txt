@@ -5,7 +5,7 @@
 vof_numerics
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vof_numerics
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vof_numerics
 
 .. autoclass:: vof_numerics
     :show-inheritance:

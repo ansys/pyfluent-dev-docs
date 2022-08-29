@@ -5,7 +5,7 @@
 pcb_zone_info
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pcb_zone_info
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pcb_zone_info
 
 .. autoclass:: pcb_zone_info
     :show-inheritance:

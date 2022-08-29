@@ -5,7 +5,7 @@
 dpi
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpi
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpi
 
 .. autoclass:: dpi
     :show-inheritance:

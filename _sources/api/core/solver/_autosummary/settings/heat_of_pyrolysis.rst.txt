@@ -5,7 +5,7 @@
 heat_of_pyrolysis
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.heat_of_pyrolysis
+.. currentmodule:: ansys.fluent.core.solver.settings_222.heat_of_pyrolysis
 
 .. autoclass:: heat_of_pyrolysis
     :show-inheritance:

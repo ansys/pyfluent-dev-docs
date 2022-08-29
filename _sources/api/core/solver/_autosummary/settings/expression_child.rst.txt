@@ -5,7 +5,7 @@
 expression_child
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.expression_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.expression_child
 
 .. autoclass:: expression_child
     :show-inheritance:

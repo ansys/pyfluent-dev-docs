@@ -5,7 +5,7 @@
 exponent_smoothing_func
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.exponent_smoothing_func
+.. currentmodule:: ansys.fluent.core.solver.settings_222.exponent_smoothing_func
 
 .. autoclass:: exponent_smoothing_func
     :show-inheritance:

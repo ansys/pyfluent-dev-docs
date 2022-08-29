@@ -5,7 +5,7 @@
 under_relaxation
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.under_relaxation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.under_relaxation
 
 .. autoclass:: under_relaxation
     :show-inheritance:

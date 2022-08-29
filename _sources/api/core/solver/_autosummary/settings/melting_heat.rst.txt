@@ -5,7 +5,7 @@
 melting_heat
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.melting_heat
+.. currentmodule:: ansys.fluent.core.solver.settings_222.melting_heat
 
 .. autoclass:: melting_heat
     :show-inheritance:

@@ -5,7 +5,7 @@
 beach_wave_len
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.beach_wave_len
+.. currentmodule:: ansys.fluent.core.solver.settings_222.beach_wave_len
 
 .. autoclass:: beach_wave_len
     :show-inheritance:

@@ -5,7 +5,7 @@
 components
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.components
+.. currentmodule:: ansys.fluent.core.solver.settings_222.components
 
 .. autoclass:: components
     :show-inheritance:

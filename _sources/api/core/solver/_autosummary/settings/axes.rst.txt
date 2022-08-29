@@ -5,7 +5,7 @@
 axes
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.axes
+.. currentmodule:: ansys.fluent.core.solver.settings_222.axes
 
 .. autoclass:: axes
     :show-inheritance:

@@ -5,7 +5,7 @@
 viscosity_ratio
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.viscosity_ratio
+.. currentmodule:: ansys.fluent.core.solver.settings_222.viscosity_ratio
 
 .. autoclass:: viscosity_ratio
     :show-inheritance:

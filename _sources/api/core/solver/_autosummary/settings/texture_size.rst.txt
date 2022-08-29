@@ -5,7 +5,7 @@
 texture_size
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.texture_size
+.. currentmodule:: ansys.fluent.core.solver.settings_222.texture_size
 
 .. autoclass:: texture_size
     :show-inheritance:

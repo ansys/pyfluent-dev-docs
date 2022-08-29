@@ -5,7 +5,7 @@
 initial_outer_iterations
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.initial_outer_iterations
+.. currentmodule:: ansys.fluent.core.solver.settings_222.initial_outer_iterations
 
 .. autoclass:: initial_outer_iterations
     :show-inheritance:

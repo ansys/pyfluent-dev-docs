@@ -5,7 +5,7 @@
 headlights
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.headlights
+.. currentmodule:: ansys.fluent.core.solver.settings_222.headlights
 
 .. autoclass:: headlights
     :show-inheritance:

@@ -5,7 +5,7 @@
 pressure_far_field
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pressure_far_field
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pressure_far_field
 
 .. autoclass:: pressure_far_field
     :show-inheritance:

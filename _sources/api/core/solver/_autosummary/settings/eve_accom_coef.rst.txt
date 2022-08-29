@@ -5,7 +5,7 @@
 eve_accom_coef
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.eve_accom_coef
+.. currentmodule:: ansys.fluent.core.solver.settings_222.eve_accom_coef
 
 .. autoclass:: eve_accom_coef
     :show-inheritance:

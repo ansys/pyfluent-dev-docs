@@ -5,7 +5,7 @@
 step
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.step
+.. currentmodule:: ansys.fluent.core.solver.settings_222.step
 
 .. autoclass:: step
     :show-inheritance:

@@ -5,7 +5,7 @@
 patch
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.patch
+.. currentmodule:: ansys.fluent.core.solver.settings_222.patch
 
 .. autoclass:: patch
     :show-inheritance:

@@ -5,7 +5,7 @@
 enhanced_wall_treatment_options
 ===============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.enhanced_wall_treatment_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.enhanced_wall_treatment_options
 
 .. autoclass:: enhanced_wall_treatment_options
     :show-inheritance:

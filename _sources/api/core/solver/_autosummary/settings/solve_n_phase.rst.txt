@@ -5,7 +5,7 @@
 solve_n_phase
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solve_n_phase
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solve_n_phase
 
 .. autoclass:: solve_n_phase
     :show-inheritance:

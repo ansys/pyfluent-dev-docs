@@ -5,7 +5,7 @@
 non_overlap_zone_name
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.non_overlap_zone_name
+.. currentmodule:: ansys.fluent.core.solver.settings_222.non_overlap_zone_name
 
 .. autoclass:: non_overlap_zone_name
     :show-inheritance:

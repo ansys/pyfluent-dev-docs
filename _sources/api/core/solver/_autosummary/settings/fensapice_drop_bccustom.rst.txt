@@ -5,7 +5,7 @@
 fensapice_drop_bccustom
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fensapice_drop_bccustom
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fensapice_drop_bccustom
 
 .. autoclass:: fensapice_drop_bccustom
     :show-inheritance:

@@ -5,7 +5,7 @@
 driver_options
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.driver_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.driver_options
 
 .. autoclass:: driver_options
     :show-inheritance:

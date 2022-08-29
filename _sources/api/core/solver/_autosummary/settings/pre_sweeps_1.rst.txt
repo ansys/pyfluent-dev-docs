@@ -5,7 +5,7 @@
 pre_sweeps
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pre_sweeps_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pre_sweeps_1
 
 .. autoclass:: pre_sweeps
     :show-inheritance:

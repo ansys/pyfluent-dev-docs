@@ -5,7 +5,7 @@
 critical_volume
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.critical_volume
+.. currentmodule:: ansys.fluent.core.solver.settings_222.critical_volume
 
 .. autoclass:: critical_volume
     :show-inheritance:

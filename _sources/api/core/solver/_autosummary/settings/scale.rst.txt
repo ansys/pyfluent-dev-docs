@@ -5,7 +5,7 @@
 scale
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.scale
+.. currentmodule:: ansys.fluent.core.solver.settings_222.scale
 
 .. autoclass:: scale
     :show-inheritance:

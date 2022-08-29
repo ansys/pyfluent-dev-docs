@@ -5,7 +5,7 @@
 combusting_particle
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.combusting_particle
+.. currentmodule:: ansys.fluent.core.solver.settings_222.combusting_particle
 
 .. autoclass:: combusting_particle
     :show-inheritance:

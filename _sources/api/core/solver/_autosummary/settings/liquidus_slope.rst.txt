@@ -5,7 +5,7 @@
 liquidus_slope
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.liquidus_slope
+.. currentmodule:: ansys.fluent.core.solver.settings_222.liquidus_slope
 
 .. autoclass:: liquidus_slope
     :show-inheritance:

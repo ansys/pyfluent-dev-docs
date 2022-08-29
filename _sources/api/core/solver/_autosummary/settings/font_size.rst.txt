@@ -5,7 +5,7 @@
 font_size
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.font_size
+.. currentmodule:: ansys.fluent.core.solver.settings_222.font_size
 
 .. autoclass:: font_size
     :show-inheritance:

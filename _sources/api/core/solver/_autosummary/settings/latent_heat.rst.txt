@@ -5,7 +5,7 @@
 latent_heat
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.latent_heat
+.. currentmodule:: ansys.fluent.core.solver.settings_222.latent_heat
 
 .. autoclass:: latent_heat
     :show-inheritance:

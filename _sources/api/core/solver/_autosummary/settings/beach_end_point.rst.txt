@@ -5,7 +5,7 @@
 beach_end_point
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.beach_end_point
+.. currentmodule:: ansys.fluent.core.solver.settings_222.beach_end_point
 
 .. autoclass:: beach_end_point
     :show-inheritance:

@@ -5,7 +5,7 @@
 min_step_change_factor
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.min_step_change_factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.min_step_change_factor
 
 .. autoclass:: min_step_change_factor
     :show-inheritance:

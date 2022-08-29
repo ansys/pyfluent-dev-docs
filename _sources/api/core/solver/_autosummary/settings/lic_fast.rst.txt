@@ -5,7 +5,7 @@
 lic_fast
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.lic_fast
+.. currentmodule:: ansys.fluent.core.solver.settings_222.lic_fast
 
 .. autoclass:: lic_fast
     :show-inheritance:

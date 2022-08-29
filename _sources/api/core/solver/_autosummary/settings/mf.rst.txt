@@ -5,7 +5,7 @@
 mf
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mf
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mf
 
 .. autoclass:: mf
     :show-inheritance:

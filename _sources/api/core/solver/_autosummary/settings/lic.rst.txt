@@ -5,7 +5,7 @@
 lic
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.lic
+.. currentmodule:: ansys.fluent.core.solver.settings_222.lic
 
 .. autoclass:: lic
     :show-inheritance:

@@ -5,7 +5,7 @@
 ocw_pp_power_coeff
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ocw_pp_power_coeff
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ocw_pp_power_coeff
 
 .. autoclass:: ocw_pp_power_coeff
     :show-inheritance:

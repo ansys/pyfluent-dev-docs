@@ -5,7 +5,7 @@
 automatic
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.automatic
+.. currentmodule:: ansys.fluent.core.solver.settings_222.automatic
 
 .. autoclass:: automatic
     :show-inheritance:

@@ -5,7 +5,7 @@
 gap
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.gap
+.. currentmodule:: ansys.fluent.core.solver.settings_222.gap
 
 .. autoclass:: gap
     :show-inheritance:

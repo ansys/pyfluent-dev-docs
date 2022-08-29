@@ -5,7 +5,7 @@
 mc_bsource_p
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mc_bsource_p
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mc_bsource_p
 
 .. autoclass:: mc_bsource_p
     :show-inheritance:

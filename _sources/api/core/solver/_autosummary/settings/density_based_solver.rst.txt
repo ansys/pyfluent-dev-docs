@@ -5,7 +5,7 @@
 density_based_solver
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.density_based_solver
+.. currentmodule:: ansys.fluent.core.solver.settings_222.density_based_solver
 
 .. autoclass:: density_based_solver
     :show-inheritance:

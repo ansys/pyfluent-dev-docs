@@ -5,7 +5,7 @@
 p_jump
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.p_jump
+.. currentmodule:: ansys.fluent.core.solver.settings_222.p_jump
 
 .. autoclass:: p_jump
     :show-inheritance:

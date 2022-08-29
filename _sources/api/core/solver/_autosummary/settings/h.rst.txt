@@ -5,7 +5,7 @@
 h
 =
 
-.. currentmodule:: ansys.fluent.core.solver.settings.h
+.. currentmodule:: ansys.fluent.core.solver.settings_222.h
 
 .. autoclass:: h
     :show-inheritance:

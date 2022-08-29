@@ -5,7 +5,7 @@
 child_object_type_child
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.child_object_type_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.child_object_type_child
 
 .. autoclass:: child_object_type_child
     :show-inheritance:

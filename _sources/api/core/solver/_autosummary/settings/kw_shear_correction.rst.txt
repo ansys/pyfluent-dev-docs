@@ -5,7 +5,7 @@
 kw_shear_correction
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.kw_shear_correction
+.. currentmodule:: ansys.fluent.core.solver.settings_222.kw_shear_correction
 
 .. autoclass:: kw_shear_correction
     :show-inheritance:

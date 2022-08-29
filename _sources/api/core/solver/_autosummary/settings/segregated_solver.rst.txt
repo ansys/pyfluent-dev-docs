@@ -5,7 +5,7 @@
 segregated_solver
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.segregated_solver
+.. currentmodule:: ansys.fluent.core.solver.settings_222.segregated_solver
 
 .. autoclass:: segregated_solver
     :show-inheritance:

@@ -5,7 +5,7 @@
 parametric_studies_child
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.parametric_studies_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.parametric_studies_child
 
 .. autoclass:: parametric_studies_child
     :show-inheritance:

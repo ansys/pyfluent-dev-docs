@@ -5,7 +5,7 @@
 anisotropic_spe_diff
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.anisotropic_spe_diff
+.. currentmodule:: ansys.fluent.core.solver.settings_222.anisotropic_spe_diff
 
 .. autoclass:: anisotropic_spe_diff
     :show-inheritance:

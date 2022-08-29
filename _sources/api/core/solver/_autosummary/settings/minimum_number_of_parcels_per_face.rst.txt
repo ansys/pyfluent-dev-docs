@@ -5,7 +5,7 @@
 minimum_number_of_parcels_per_face
 ==================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.minimum_number_of_parcels_per_face
+.. currentmodule:: ansys.fluent.core.solver.settings_222.minimum_number_of_parcels_per_face
 
 .. autoclass:: minimum_number_of_parcels_per_face
     :show-inheritance:

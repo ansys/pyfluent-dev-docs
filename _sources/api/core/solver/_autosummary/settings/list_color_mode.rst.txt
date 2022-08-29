@@ -5,7 +5,7 @@
 list_color_mode
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.list_color_mode
+.. currentmodule:: ansys.fluent.core.solver.settings_222.list_color_mode
 
 .. autoclass:: list_color_mode
     :show-inheritance:

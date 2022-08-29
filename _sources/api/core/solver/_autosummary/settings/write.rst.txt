@@ -5,7 +5,7 @@
 write
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.write
+.. currentmodule:: ansys.fluent.core.solver.settings_222.write
 
 .. autoclass:: write
     :show-inheritance:

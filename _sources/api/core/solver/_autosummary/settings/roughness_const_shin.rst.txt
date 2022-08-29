@@ -5,7 +5,7 @@
 roughness_const_shin
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.roughness_const_shin
+.. currentmodule:: ansys.fluent.core.solver.settings_222.roughness_const_shin
 
 .. autoclass:: roughness_const_shin
     :show-inheritance:

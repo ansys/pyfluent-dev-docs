@@ -5,7 +5,7 @@
 error_based_time_stepping
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.error_based_time_stepping
+.. currentmodule:: ansys.fluent.core.solver.settings_222.error_based_time_stepping
 
 .. autoclass:: error_based_time_stepping
     :show-inheritance:

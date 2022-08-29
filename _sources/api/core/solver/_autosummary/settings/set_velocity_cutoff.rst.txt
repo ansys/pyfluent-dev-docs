@@ -5,7 +5,7 @@
 set_velocity_cutoff
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.set_velocity_cutoff
+.. currentmodule:: ansys.fluent.core.solver.settings_222.set_velocity_cutoff
 
 .. autoclass:: set_velocity_cutoff
     :show-inheritance:

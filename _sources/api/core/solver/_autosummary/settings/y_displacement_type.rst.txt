@@ -5,7 +5,7 @@
 y_displacement_type
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.y_displacement_type
+.. currentmodule:: ansys.fluent.core.solver.settings_222.y_displacement_type
 
 .. autoclass:: y_displacement_type
     :show-inheritance:

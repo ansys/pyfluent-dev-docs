@@ -5,7 +5,7 @@
 brooks_corey_ng
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.brooks_corey_ng
+.. currentmodule:: ansys.fluent.core.solver.settings_222.brooks_corey_ng
 
 .. autoclass:: brooks_corey_ng
     :show-inheritance:

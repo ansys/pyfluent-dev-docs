@@ -5,7 +5,7 @@
 time_statistics_dpm
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.time_statistics_dpm
+.. currentmodule:: ansys.fluent.core.solver.settings_222.time_statistics_dpm
 
 .. autoclass:: time_statistics_dpm
     :show-inheritance:

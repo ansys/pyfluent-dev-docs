@@ -5,7 +5,7 @@
 porous_jump_turb_wall_treatment
 ===============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.porous_jump_turb_wall_treatment
+.. currentmodule:: ansys.fluent.core.solver.settings_222.porous_jump_turb_wall_treatment
 
 .. autoclass:: porous_jump_turb_wall_treatment
     :show-inheritance:

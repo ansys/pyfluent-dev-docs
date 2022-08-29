@@ -5,7 +5,7 @@
 enable_gpu
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.enable_gpu
+.. currentmodule:: ansys.fluent.core.solver.settings_222.enable_gpu
 
 .. autoclass:: enable_gpu
     :show-inheritance:

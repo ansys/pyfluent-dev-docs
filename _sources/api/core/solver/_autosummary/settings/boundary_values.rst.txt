@@ -5,7 +5,7 @@
 boundary_values
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.boundary_values
+.. currentmodule:: ansys.fluent.core.solver.settings_222.boundary_values
 
 .. autoclass:: boundary_values
     :show-inheritance:

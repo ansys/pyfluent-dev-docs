@@ -5,7 +5,7 @@
 mesh_child
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mesh_child_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mesh_child_1
 
 .. autoclass:: mesh_child
     :show-inheritance:

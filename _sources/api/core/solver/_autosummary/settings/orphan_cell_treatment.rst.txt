@@ -5,7 +5,7 @@
 orphan_cell_treatment
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.orphan_cell_treatment
+.. currentmodule:: ansys.fluent.core.solver.settings_222.orphan_cell_treatment
 
 .. autoclass:: orphan_cell_treatment
     :show-inheritance:

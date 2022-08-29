@@ -5,7 +5,7 @@
 adhesion_angle
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.adhesion_angle
+.. currentmodule:: ansys.fluent.core.solver.settings_222.adhesion_angle
 
 .. autoclass:: adhesion_angle
     :show-inheritance:

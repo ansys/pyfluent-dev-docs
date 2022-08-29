@@ -5,7 +5,7 @@
 instability_detector
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.instability_detector
+.. currentmodule:: ansys.fluent.core.solver.settings_222.instability_detector
 
 .. autoclass:: instability_detector
     :show-inheritance:

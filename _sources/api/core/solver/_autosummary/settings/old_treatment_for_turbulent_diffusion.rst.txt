@@ -5,7 +5,7 @@
 old_treatment_for_turbulent_diffusion
 =====================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.old_treatment_for_turbulent_diffusion
+.. currentmodule:: ansys.fluent.core.solver.settings_222.old_treatment_for_turbulent_diffusion
 
 .. autoclass:: old_treatment_for_turbulent_diffusion
     :show-inheritance:

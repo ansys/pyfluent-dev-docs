@@ -5,7 +5,7 @@
 num_of_post_iter_per_timestep
 =============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.num_of_post_iter_per_timestep
+.. currentmodule:: ansys.fluent.core.solver.settings_222.num_of_post_iter_per_timestep
 
 .. autoclass:: num_of_post_iter_per_timestep
     :show-inheritance:

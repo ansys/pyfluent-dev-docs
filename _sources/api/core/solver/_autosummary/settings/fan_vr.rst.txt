@@ -5,7 +5,7 @@
 fan_vr
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fan_vr
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fan_vr
 
 .. autoclass:: fan_vr
     :show-inheritance:

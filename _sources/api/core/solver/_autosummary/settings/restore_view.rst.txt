@@ -5,7 +5,7 @@
 restore_view
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.restore_view
+.. currentmodule:: ansys.fluent.core.solver.settings_222.restore_view
 
 .. autoclass:: restore_view
     :show-inheritance:

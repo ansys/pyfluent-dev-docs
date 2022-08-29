@@ -5,7 +5,7 @@
 flexible_cycle_paramters
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.flexible_cycle_paramters
+.. currentmodule:: ansys.fluent.core.solver.settings_222.flexible_cycle_paramters
 
 .. autoclass:: flexible_cycle_paramters
     :show-inheritance:

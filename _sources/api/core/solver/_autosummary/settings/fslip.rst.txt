@@ -5,7 +5,7 @@
 fslip
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fslip
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fslip
 
 .. autoclass:: fslip
     :show-inheritance:

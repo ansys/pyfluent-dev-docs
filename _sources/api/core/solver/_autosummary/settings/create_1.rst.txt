@@ -5,7 +5,7 @@
 create_1
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.create_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.create_1
 
 .. autoclass:: create_1
     :show-inheritance:

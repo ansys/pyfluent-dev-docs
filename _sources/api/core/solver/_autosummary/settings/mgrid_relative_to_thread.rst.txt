@@ -5,7 +5,7 @@
 mgrid_relative_to_thread
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mgrid_relative_to_thread
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mgrid_relative_to_thread
 
 .. autoclass:: mgrid_relative_to_thread
     :show-inheritance:

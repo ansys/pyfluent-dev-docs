@@ -5,7 +5,7 @@
 reaction_mechs
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.reaction_mechs
+.. currentmodule:: ansys.fluent.core.solver.settings_222.reaction_mechs
 
 .. autoclass:: reaction_mechs
     :show-inheritance:

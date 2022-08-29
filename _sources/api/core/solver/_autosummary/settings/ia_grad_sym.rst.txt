@@ -5,7 +5,7 @@
 ia_grad_sym
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ia_grad_sym
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ia_grad_sym
 
 .. autoclass:: ia_grad_sym
     :show-inheritance:

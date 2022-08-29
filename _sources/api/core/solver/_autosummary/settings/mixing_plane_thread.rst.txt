@@ -5,7 +5,7 @@
 mixing_plane_thread
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mixing_plane_thread
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mixing_plane_thread
 
 .. autoclass:: mixing_plane_thread
     :show-inheritance:

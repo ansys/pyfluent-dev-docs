@@ -5,7 +5,7 @@
 ablation_species_mf
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ablation_species_mf
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ablation_species_mf
 
 .. autoclass:: ablation_species_mf
     :show-inheritance:

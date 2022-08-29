@@ -5,7 +5,7 @@
 struct_thermal_expansion
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.struct_thermal_expansion
+.. currentmodule:: ansys.fluent.core.solver.settings_222.struct_thermal_expansion
 
 .. autoclass:: struct_thermal_expansion
     :show-inheritance:

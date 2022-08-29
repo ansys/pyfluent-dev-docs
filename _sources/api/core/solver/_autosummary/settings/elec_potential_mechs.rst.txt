@@ -5,7 +5,7 @@
 elec_potential_mechs
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.elec_potential_mechs
+.. currentmodule:: ansys.fluent.core.solver.settings_222.elec_potential_mechs
 
 .. autoclass:: elec_potential_mechs
     :show-inheritance:

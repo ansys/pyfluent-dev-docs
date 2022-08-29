@@ -5,7 +5,7 @@
 udf_cf_names
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.udf_cf_names
+.. currentmodule:: ansys.fluent.core.solver.settings_222.udf_cf_names
 
 .. autoclass:: udf_cf_names
     :show-inheritance:

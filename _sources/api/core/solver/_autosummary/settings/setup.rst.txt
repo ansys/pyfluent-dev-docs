@@ -5,7 +5,7 @@
 setup
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.setup
+.. currentmodule:: ansys.fluent.core.solver.settings_222.setup
 
 .. autoclass:: setup
     :show-inheritance:

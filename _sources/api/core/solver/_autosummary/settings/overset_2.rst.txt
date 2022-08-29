@@ -5,7 +5,7 @@
 overset
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.overset_2
+.. currentmodule:: ansys.fluent.core.solver.settings_222.overset_2
 
 .. autoclass:: overset
     :show-inheritance:

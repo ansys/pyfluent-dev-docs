@@ -5,7 +5,7 @@
 per_dispz
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.per_dispz
+.. currentmodule:: ansys.fluent.core.solver.settings_222.per_dispz
 
 .. autoclass:: per_dispz
     :show-inheritance:

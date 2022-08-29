@@ -5,7 +5,7 @@
 current_parametric_study
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.current_parametric_study
+.. currentmodule:: ansys.fluent.core.solver.settings_222.current_parametric_study
 
 .. autoclass:: current_parametric_study
     :show-inheritance:

@@ -5,7 +5,7 @@
 mass_diffusivity
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mass_diffusivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mass_diffusivity
 
 .. autoclass:: mass_diffusivity
     :show-inheritance:

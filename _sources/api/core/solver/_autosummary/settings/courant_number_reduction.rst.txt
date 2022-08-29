@@ -5,7 +5,7 @@
 courant_number_reduction
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.courant_number_reduction
+.. currentmodule:: ansys.fluent.core.solver.settings_222.courant_number_reduction
 
 .. autoclass:: courant_number_reduction
     :show-inheritance:

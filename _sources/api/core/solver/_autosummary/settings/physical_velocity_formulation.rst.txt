@@ -5,7 +5,7 @@
 physical_velocity_formulation
 =============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.physical_velocity_formulation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.physical_velocity_formulation
 
 .. autoclass:: physical_velocity_formulation
     :show-inheritance:

@@ -5,7 +5,7 @@
 invert_background
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.invert_background
+.. currentmodule:: ansys.fluent.core.solver.settings_222.invert_background
 
 .. autoclass:: invert_background
     :show-inheritance:

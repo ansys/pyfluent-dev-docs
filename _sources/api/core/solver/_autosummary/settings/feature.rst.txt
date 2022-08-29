@@ -5,7 +5,7 @@
 feature
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.feature
+.. currentmodule:: ansys.fluent.core.solver.settings_222.feature
 
 .. autoclass:: feature
     :show-inheritance:

@@ -5,7 +5,7 @@
 v2
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.v2
+.. currentmodule:: ansys.fluent.core.solver.settings_222.v2
 
 .. autoclass:: v2
     :show-inheritance:

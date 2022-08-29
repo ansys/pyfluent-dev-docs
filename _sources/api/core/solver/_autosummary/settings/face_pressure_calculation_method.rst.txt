@@ -5,7 +5,7 @@
 face_pressure_calculation_method
 ================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.face_pressure_calculation_method
+.. currentmodule:: ansys.fluent.core.solver.settings_222.face_pressure_calculation_method
 
 .. autoclass:: face_pressure_calculation_method
     :show-inheritance:

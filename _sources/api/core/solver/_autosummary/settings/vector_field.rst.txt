@@ -5,7 +5,7 @@
 vector_field
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vector_field
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vector_field
 
 .. autoclass:: vector_field
     :show-inheritance:

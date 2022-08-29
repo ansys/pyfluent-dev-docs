@@ -5,7 +5,7 @@
 volume_frac
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.volume_frac
+.. currentmodule:: ansys.fluent.core.solver.settings_222.volume_frac
 
 .. autoclass:: volume_frac
     :show-inheritance:

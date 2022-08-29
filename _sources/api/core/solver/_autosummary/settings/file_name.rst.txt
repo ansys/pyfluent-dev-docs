@@ -5,7 +5,7 @@
 file_name
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.file_name
+.. currentmodule:: ansys.fluent.core.solver.settings_222.file_name
 
 .. autoclass:: file_name
     :show-inheritance:

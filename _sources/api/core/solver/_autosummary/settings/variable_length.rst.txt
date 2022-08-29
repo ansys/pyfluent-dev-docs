@@ -5,7 +5,7 @@
 variable_length
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.variable_length
+.. currentmodule:: ansys.fluent.core.solver.settings_222.variable_length
 
 .. autoclass:: variable_length
     :show-inheritance:

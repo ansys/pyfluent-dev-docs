@@ -5,7 +5,7 @@
 exp_p3
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.exp_p3
+.. currentmodule:: ansys.fluent.core.solver.settings_222.exp_p3
 
 .. autoclass:: exp_p3
     :show-inheritance:

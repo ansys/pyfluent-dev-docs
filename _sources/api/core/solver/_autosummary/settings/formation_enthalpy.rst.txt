@@ -5,7 +5,7 @@
 formation_enthalpy
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.formation_enthalpy
+.. currentmodule:: ansys.fluent.core.solver.settings_222.formation_enthalpy
 
 .. autoclass:: formation_enthalpy
     :show-inheritance:

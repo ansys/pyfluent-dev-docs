@@ -5,7 +5,7 @@
 kw_low_re_correction
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.kw_low_re_correction
+.. currentmodule:: ansys.fluent.core.solver.settings_222.kw_low_re_correction
 
 .. autoclass:: kw_low_re_correction
     :show-inheritance:

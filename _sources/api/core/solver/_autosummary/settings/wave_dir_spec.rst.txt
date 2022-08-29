@@ -5,7 +5,7 @@
 wave_dir_spec
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wave_dir_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wave_dir_spec
 
 .. autoclass:: wave_dir_spec
     :show-inheritance:

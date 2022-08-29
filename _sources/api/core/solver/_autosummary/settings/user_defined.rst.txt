@@ -5,7 +5,7 @@
 user_defined
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.user_defined
+.. currentmodule:: ansys.fluent.core.solver.settings_222.user_defined
 
 .. autoclass:: user_defined
     :show-inheritance:

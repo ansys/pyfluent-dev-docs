@@ -5,7 +5,7 @@
 pseudo_time_step_method_solid_zone
 ==================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pseudo_time_step_method_solid_zone
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pseudo_time_step_method_solid_zone
 
 .. autoclass:: pseudo_time_step_method_solid_zone
     :show-inheritance:

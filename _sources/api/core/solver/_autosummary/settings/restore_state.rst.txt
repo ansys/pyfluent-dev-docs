@@ -5,7 +5,7 @@
 restore_state
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.restore_state
+.. currentmodule:: ansys.fluent.core.solver.settings_222.restore_state
 
 .. autoclass:: restore_state
     :show-inheritance:

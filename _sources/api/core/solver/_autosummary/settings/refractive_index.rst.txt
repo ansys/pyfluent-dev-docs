@@ -5,7 +5,7 @@
 refractive_index
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.refractive_index
+.. currentmodule:: ansys.fluent.core.solver.settings_222.refractive_index
 
 .. autoclass:: refractive_index
     :show-inheritance:

@@ -5,7 +5,7 @@
 ocw_ship_vel_spec
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ocw_ship_vel_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ocw_ship_vel_spec
 
 .. autoclass:: ocw_ship_vel_spec
     :show-inheritance:

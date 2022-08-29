@@ -5,7 +5,7 @@
 wetting_phase
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wetting_phase
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wetting_phase
 
 .. autoclass:: wetting_phase
     :show-inheritance:

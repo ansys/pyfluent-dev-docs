@@ -5,7 +5,7 @@
 vof_spec
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vof_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vof_spec
 
 .. autoclass:: vof_spec
     :show-inheritance:

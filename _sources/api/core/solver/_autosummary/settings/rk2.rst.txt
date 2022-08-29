@@ -5,7 +5,7 @@
 rk2
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rk2
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rk2
 
 .. autoclass:: rk2
     :show-inheritance:

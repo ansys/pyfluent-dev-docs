@@ -5,7 +5,7 @@
 var_class
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.var_class
+.. currentmodule:: ansys.fluent.core.solver.settings_222.var_class
 
 .. autoclass:: var_class
     :show-inheritance:

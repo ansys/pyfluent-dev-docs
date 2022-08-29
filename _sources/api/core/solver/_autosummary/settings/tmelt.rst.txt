@@ -5,7 +5,7 @@
 tmelt
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.tmelt
+.. currentmodule:: ansys.fluent.core.solver.settings_222.tmelt
 
 .. autoclass:: tmelt
     :show-inheritance:

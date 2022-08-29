@@ -5,7 +5,7 @@
 exhaust_fan_child
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.exhaust_fan_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.exhaust_fan_child
 
 .. autoclass:: exhaust_fan_child
     :show-inheritance:

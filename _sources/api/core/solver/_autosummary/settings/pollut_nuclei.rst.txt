@@ -5,7 +5,7 @@
 pollut_nuclei
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pollut_nuclei
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pollut_nuclei
 
 .. autoclass:: pollut_nuclei
     :show-inheritance:

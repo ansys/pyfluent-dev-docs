@@ -5,7 +5,7 @@
 fan
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fan
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fan
 
 .. autoclass:: fan
     :show-inheritance:

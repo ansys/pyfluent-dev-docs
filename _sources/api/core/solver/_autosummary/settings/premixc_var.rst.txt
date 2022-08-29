@@ -5,7 +5,7 @@
 premixc_var
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.premixc_var
+.. currentmodule:: ansys.fluent.core.solver.settings_222.premixc_var
 
 .. autoclass:: premixc_var
     :show-inheritance:

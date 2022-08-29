@@ -5,7 +5,7 @@
 viscous_terms
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.viscous_terms
+.. currentmodule:: ansys.fluent.core.solver.settings_222.viscous_terms
 
 .. autoclass:: viscous_terms
     :show-inheritance:

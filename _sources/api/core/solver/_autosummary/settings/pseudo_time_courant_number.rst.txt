@@ -5,7 +5,7 @@
 pseudo_time_courant_number
 ==========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pseudo_time_courant_number
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pseudo_time_courant_number
 
 .. autoclass:: pseudo_time_courant_number
     :show-inheritance:

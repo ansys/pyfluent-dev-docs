@@ -5,7 +5,7 @@
 heat_mass_transfer
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.heat_mass_transfer
+.. currentmodule:: ansys.fluent.core.solver.settings_222.heat_mass_transfer
 
 .. autoclass:: heat_mass_transfer
     :show-inheritance:

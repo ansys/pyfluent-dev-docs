@@ -5,7 +5,7 @@
 dpm_bc_udf
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpm_bc_udf
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpm_bc_udf
 
 .. autoclass:: dpm_bc_udf
     :show-inheritance:

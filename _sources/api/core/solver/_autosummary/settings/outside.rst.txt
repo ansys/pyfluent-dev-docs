@@ -5,7 +5,7 @@
 outside
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.outside
+.. currentmodule:: ansys.fluent.core.solver.settings_222.outside
 
 .. autoclass:: outside
     :show-inheritance:

@@ -5,7 +5,7 @@
 min_time_step
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.min_time_step
+.. currentmodule:: ansys.fluent.core.solver.settings_222.min_time_step
 
 .. autoclass:: min_time_step
     :show-inheritance:

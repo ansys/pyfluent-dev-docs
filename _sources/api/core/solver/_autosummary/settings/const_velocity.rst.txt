@@ -5,7 +5,7 @@
 const_velocity
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.const_velocity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.const_velocity
 
 .. autoclass:: const_velocity
     :show-inheritance:

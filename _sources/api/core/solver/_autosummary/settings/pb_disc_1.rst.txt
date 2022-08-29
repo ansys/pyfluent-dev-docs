@@ -5,7 +5,7 @@
 pb_disc
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pb_disc_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pb_disc_1
 
 .. autoclass:: pb_disc
     :show-inheritance:

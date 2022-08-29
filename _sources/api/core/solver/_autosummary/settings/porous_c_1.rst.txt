@@ -5,7 +5,7 @@
 porous_c_1
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.porous_c_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.porous_c_1
 
 .. autoclass:: porous_c_1
     :show-inheritance:

@@ -5,7 +5,7 @@
 droplet_diameter
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.droplet_diameter
+.. currentmodule:: ansys.fluent.core.solver.settings_222.droplet_diameter
 
 .. autoclass:: droplet_diameter
     :show-inheritance:

@@ -5,7 +5,7 @@
 c1
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.c1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.c1
 
 .. autoclass:: c1
     :show-inheritance:

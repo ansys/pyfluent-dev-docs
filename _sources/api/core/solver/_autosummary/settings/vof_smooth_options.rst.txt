@@ -5,7 +5,7 @@
 vof_smooth_options
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vof_smooth_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vof_smooth_options
 
 .. autoclass:: vof_smooth_options
     :show-inheritance:

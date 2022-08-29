@@ -5,7 +5,7 @@
 reflections
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.reflections
+.. currentmodule:: ansys.fluent.core.solver.settings_222.reflections
 
 .. autoclass:: reflections
     :show-inheritance:

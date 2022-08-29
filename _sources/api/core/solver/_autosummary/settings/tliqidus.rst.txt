@@ -5,7 +5,7 @@
 tliqidus
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.tliqidus
+.. currentmodule:: ansys.fluent.core.solver.settings_222.tliqidus
 
 .. autoclass:: tliqidus
     :show-inheritance:

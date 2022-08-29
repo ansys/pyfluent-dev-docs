@@ -5,7 +5,7 @@
 iterate
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.iterate
+.. currentmodule:: ansys.fluent.core.solver.settings_222.iterate
 
 .. autoclass:: iterate
     :show-inheritance:

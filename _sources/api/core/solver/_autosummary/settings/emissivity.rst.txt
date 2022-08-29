@@ -5,7 +5,7 @@
 emissivity
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.emissivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.emissivity
 
 .. autoclass:: emissivity
     :show-inheritance:

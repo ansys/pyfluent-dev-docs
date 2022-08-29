@@ -5,7 +5,7 @@
 band_q_irrad_diffuse
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.band_q_irrad_diffuse
+.. currentmodule:: ansys.fluent.core.solver.settings_222.band_q_irrad_diffuse
 
 .. autoclass:: band_q_irrad_diffuse
     :show-inheritance:

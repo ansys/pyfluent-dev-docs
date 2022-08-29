@@ -5,7 +5,7 @@
 statistics_mixture_fraction
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.statistics_mixture_fraction
+.. currentmodule:: ansys.fluent.core.solver.settings_222.statistics_mixture_fraction
 
 .. autoclass:: statistics_mixture_fraction
     :show-inheritance:

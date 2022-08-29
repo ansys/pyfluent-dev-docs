@@ -5,7 +5,7 @@
 mass_flow_outlet
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mass_flow_outlet
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mass_flow_outlet
 
 .. autoclass:: mass_flow_outlet
     :show-inheritance:

@@ -5,7 +5,7 @@
 initial_time_step
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.initial_time_step
+.. currentmodule:: ansys.fluent.core.solver.settings_222.initial_time_step
 
 .. autoclass:: initial_time_step
     :show-inheritance:

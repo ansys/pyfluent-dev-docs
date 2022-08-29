@@ -5,7 +5,7 @@
 inlet_number
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.inlet_number
+.. currentmodule:: ansys.fluent.core.solver.settings_222.inlet_number
 
 .. autoclass:: inlet_number
     :show-inheritance:

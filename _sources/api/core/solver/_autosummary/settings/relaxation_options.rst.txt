@@ -5,7 +5,7 @@
 relaxation_options
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.relaxation_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.relaxation_options
 
 .. autoclass:: relaxation_options
     :show-inheritance:

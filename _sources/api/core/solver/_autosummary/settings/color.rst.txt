@@ -5,7 +5,7 @@
 color
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.color
+.. currentmodule:: ansys.fluent.core.solver.settings_222.color
 
 .. autoclass:: color
     :show-inheritance:

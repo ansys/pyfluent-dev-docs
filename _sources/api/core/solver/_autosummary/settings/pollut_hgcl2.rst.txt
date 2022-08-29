@@ -5,7 +5,7 @@
 pollut_hgcl2
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pollut_hgcl2
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pollut_hgcl2
 
 .. autoclass:: pollut_hgcl2
     :show-inheritance:

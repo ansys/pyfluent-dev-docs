@@ -5,7 +5,7 @@
 zoom
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.zoom
+.. currentmodule:: ansys.fluent.core.solver.settings_222.zoom
 
 .. autoclass:: zoom
     :show-inheritance:

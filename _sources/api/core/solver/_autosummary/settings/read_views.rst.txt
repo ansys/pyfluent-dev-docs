@@ -5,7 +5,7 @@
 read_views
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.read_views
+.. currentmodule:: ansys.fluent.core.solver.settings_222.read_views
 
 .. autoclass:: read_views
     :show-inheritance:

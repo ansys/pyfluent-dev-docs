@@ -5,7 +5,7 @@
 additional_stabilization_controls
 =================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.additional_stabilization_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_222.additional_stabilization_controls
 
 .. autoclass:: additional_stabilization_controls
     :show-inheritance:

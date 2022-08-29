@@ -5,7 +5,7 @@
 color_map
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.color_map
+.. currentmodule:: ansys.fluent.core.solver.settings_222.color_map
 
 .. autoclass:: color_map
     :show-inheritance:

@@ -5,7 +5,7 @@
 premix_heat_of_comb
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.premix_heat_of_comb
+.. currentmodule:: ansys.fluent.core.solver.settings_222.premix_heat_of_comb
 
 .. autoclass:: premix_heat_of_comb
     :show-inheritance:

@@ -5,7 +5,7 @@
 retain_instantaneous_values
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.retain_instantaneous_values
+.. currentmodule:: ansys.fluent.core.solver.settings_222.retain_instantaneous_values
 
 .. autoclass:: retain_instantaneous_values
     :show-inheritance:

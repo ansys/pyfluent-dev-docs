@@ -5,7 +5,7 @@
 set_turbulent_viscosity_ratio
 =============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.set_turbulent_viscosity_ratio
+.. currentmodule:: ansys.fluent.core.solver.settings_222.set_turbulent_viscosity_ratio
 
 .. autoclass:: set_turbulent_viscosity_ratio
     :show-inheritance:

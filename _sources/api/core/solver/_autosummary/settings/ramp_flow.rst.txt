@@ -5,7 +5,7 @@
 ramp_flow
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ramp_flow
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ramp_flow
 
 .. autoclass:: ramp_flow
     :show-inheritance:

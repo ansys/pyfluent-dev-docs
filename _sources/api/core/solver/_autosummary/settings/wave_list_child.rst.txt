@@ -5,7 +5,7 @@
 wave_list_child
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wave_list_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wave_list_child
 
 .. autoclass:: wave_list_child
     :show-inheritance:

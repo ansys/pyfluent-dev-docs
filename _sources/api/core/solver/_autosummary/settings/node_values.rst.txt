@@ -5,7 +5,7 @@
 node_values
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.node_values
+.. currentmodule:: ansys.fluent.core.solver.settings_222.node_values
 
 .. autoclass:: node_values
     :show-inheritance:

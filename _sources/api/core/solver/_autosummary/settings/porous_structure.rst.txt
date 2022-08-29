@@ -5,7 +5,7 @@
 porous_structure
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.porous_structure
+.. currentmodule:: ansys.fluent.core.solver.settings_222.porous_structure
 
 .. autoclass:: porous_structure
     :show-inheritance:

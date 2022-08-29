@@ -5,7 +5,7 @@
 combustion_model
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.combustion_model
+.. currentmodule:: ansys.fluent.core.solver.settings_222.combustion_model
 
 .. autoclass:: combustion_model
     :show-inheritance:

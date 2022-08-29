@@ -5,7 +5,7 @@
 wave_spect_max_freq
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wave_spect_max_freq
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wave_spect_max_freq
 
 .. autoclass:: wave_spect_max_freq
     :show-inheritance:

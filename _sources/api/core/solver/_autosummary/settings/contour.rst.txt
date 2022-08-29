@@ -5,7 +5,7 @@
 contour
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.contour
+.. currentmodule:: ansys.fluent.core.solver.settings_222.contour
 
 .. autoclass:: contour
     :show-inheritance:

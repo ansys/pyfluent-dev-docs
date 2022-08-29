@@ -5,7 +5,7 @@
 residual_reduction_tolerance
 ============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.residual_reduction_tolerance
+.. currentmodule:: ansys.fluent.core.solver.settings_222.residual_reduction_tolerance
 
 .. autoclass:: residual_reduction_tolerance
     :show-inheritance:

@@ -5,7 +5,7 @@
 vp_equilib
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vp_equilib
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vp_equilib
 
 .. autoclass:: vp_equilib
     :show-inheritance:

@@ -5,7 +5,7 @@
 les_spec
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.les_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.les_spec
 
 .. autoclass:: les_spec
     :show-inheritance:

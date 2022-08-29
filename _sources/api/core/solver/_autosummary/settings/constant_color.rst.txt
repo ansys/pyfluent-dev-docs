@@ -5,7 +5,7 @@
 constant_color
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.constant_color
+.. currentmodule:: ansys.fluent.core.solver.settings_222.constant_color
 
 .. autoclass:: constant_color
     :show-inheritance:

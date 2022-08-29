@@ -5,7 +5,7 @@
 averaged_turbulent_parameters
 =============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.averaged_turbulent_parameters
+.. currentmodule:: ansys.fluent.core.solver.settings_222.averaged_turbulent_parameters
 
 .. autoclass:: averaged_turbulent_parameters
     :show-inheritance:

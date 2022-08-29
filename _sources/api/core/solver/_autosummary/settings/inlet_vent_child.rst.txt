@@ -5,7 +5,7 @@
 inlet_vent_child
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.inlet_vent_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.inlet_vent_child
 
 .. autoclass:: inlet_vent_child
     :show-inheritance:

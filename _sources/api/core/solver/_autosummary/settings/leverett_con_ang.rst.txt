@@ -5,7 +5,7 @@
 leverett_con_ang
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.leverett_con_ang
+.. currentmodule:: ansys.fluent.core.solver.settings_222.leverett_con_ang
 
 .. autoclass:: leverett_con_ang
     :show-inheritance:

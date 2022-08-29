@@ -5,7 +5,7 @@
 write_data
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.write_data_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.write_data_1
 
 .. autoclass:: write_data
     :show-inheritance:

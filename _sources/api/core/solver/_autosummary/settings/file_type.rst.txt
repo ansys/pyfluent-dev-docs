@@ -5,7 +5,7 @@
 file_type
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.file_type
+.. currentmodule:: ansys.fluent.core.solver.settings_222.file_type
 
 .. autoclass:: file_type
     :show-inheritance:

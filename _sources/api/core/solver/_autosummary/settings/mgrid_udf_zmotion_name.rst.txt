@@ -5,7 +5,7 @@
 mgrid_udf_zmotion_name
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mgrid_udf_zmotion_name
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mgrid_udf_zmotion_name
 
 .. autoclass:: mgrid_udf_zmotion_name
     :show-inheritance:

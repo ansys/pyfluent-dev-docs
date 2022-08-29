@@ -5,7 +5,7 @@
 reactions
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.reactions
+.. currentmodule:: ansys.fluent.core.solver.settings_222.reactions
 
 .. autoclass:: reactions
     :show-inheritance:

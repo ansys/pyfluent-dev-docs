@@ -5,7 +5,7 @@
 direction_vector_components
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.direction_vector_components
+.. currentmodule:: ansys.fluent.core.solver.settings_222.direction_vector_components
 
 .. autoclass:: direction_vector_components
     :show-inheritance:

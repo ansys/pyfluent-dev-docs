@@ -5,7 +5,7 @@
 copy_database_material_by_formula
 =================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.copy_database_material_by_formula
+.. currentmodule:: ansys.fluent.core.solver.settings_222.copy_database_material_by_formula
 
 .. autoclass:: copy_database_material_by_formula
     :show-inheritance:

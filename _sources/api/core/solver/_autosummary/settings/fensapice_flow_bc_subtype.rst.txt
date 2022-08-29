@@ -5,7 +5,7 @@
 fensapice_flow_bc_subtype
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fensapice_flow_bc_subtype
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fensapice_flow_bc_subtype
 
 .. autoclass:: fensapice_flow_bc_subtype
     :show-inheritance:

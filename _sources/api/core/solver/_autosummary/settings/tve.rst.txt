@@ -5,7 +5,7 @@
 tve
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.tve
+.. currentmodule:: ansys.fluent.core.solver.settings_222.tve
 
 .. autoclass:: tve
     :show-inheritance:

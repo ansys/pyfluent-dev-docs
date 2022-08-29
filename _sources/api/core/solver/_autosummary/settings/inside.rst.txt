@@ -5,7 +5,7 @@
 inside
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.inside
+.. currentmodule:: ansys.fluent.core.solver.settings_222.inside
 
 .. autoclass:: inside
     :show-inheritance:

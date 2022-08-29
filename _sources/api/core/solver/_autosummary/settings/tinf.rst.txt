@@ -5,7 +5,7 @@
 tinf
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.tinf
+.. currentmodule:: ansys.fluent.core.solver.settings_222.tinf
 
 .. autoclass:: tinf
     :show-inheritance:

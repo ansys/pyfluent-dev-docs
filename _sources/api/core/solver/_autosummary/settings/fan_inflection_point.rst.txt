@@ -5,7 +5,7 @@
 fan_inflection_point
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fan_inflection_point
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fan_inflection_point
 
 .. autoclass:: fan_inflection_point
     :show-inheritance:

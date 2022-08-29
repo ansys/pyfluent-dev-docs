@@ -5,7 +5,7 @@
 y_comp
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.y_comp
+.. currentmodule:: ansys.fluent.core.solver.settings_222.y_comp
 
 .. autoclass:: y_comp
     :show-inheritance:

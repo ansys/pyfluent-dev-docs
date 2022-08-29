@@ -5,7 +5,7 @@
 max_fixed_time_step
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.max_fixed_time_step
+.. currentmodule:: ansys.fluent.core.solver.settings_222.max_fixed_time_step
 
 .. autoclass:: max_fixed_time_step
     :show-inheritance:

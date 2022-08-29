@@ -5,7 +5,7 @@
 enhanced_casm_formulation
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.enhanced_casm_formulation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.enhanced_casm_formulation
 
 .. autoclass:: enhanced_casm_formulation
     :show-inheritance:

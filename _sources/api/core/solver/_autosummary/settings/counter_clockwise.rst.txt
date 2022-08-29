@@ -5,7 +5,7 @@
 counter_clockwise
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.counter_clockwise
+.. currentmodule:: ansys.fluent.core.solver.settings_222.counter_clockwise
 
 .. autoclass:: counter_clockwise
     :show-inheritance:

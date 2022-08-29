@@ -5,7 +5,7 @@
 dpm_film_separation_angle
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpm_film_separation_angle
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpm_film_separation_angle
 
 .. autoclass:: dpm_film_separation_angle
     :show-inheritance:

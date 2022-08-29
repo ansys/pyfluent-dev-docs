@@ -5,7 +5,7 @@
 termination_criteria
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.termination_criteria
+.. currentmodule:: ansys.fluent.core.solver.settings_222.termination_criteria
 
 .. autoclass:: termination_criteria
     :show-inheritance:

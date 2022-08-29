@@ -5,7 +5,7 @@
 update_interval_time_step_size
 ==============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.update_interval_time_step_size
+.. currentmodule:: ansys.fluent.core.solver.settings_222.update_interval_time_step_size
 
 .. autoclass:: update_interval_time_step_size
     :show-inheritance:

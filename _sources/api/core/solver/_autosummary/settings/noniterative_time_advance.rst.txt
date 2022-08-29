@@ -5,7 +5,7 @@
 noniterative_time_advance
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.noniterative_time_advance
+.. currentmodule:: ansys.fluent.core.solver.settings_222.noniterative_time_advance
 
 .. autoclass:: noniterative_time_advance
     :show-inheritance:

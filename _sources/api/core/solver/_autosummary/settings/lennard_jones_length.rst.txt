@@ -5,7 +5,7 @@
 lennard_jones_length
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.lennard_jones_length
+.. currentmodule:: ansys.fluent.core.solver.settings_222.lennard_jones_length
 
 .. autoclass:: lennard_jones_length
     :show-inheritance:

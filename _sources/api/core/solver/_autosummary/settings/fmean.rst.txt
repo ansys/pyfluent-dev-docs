@@ -5,7 +5,7 @@
 fmean
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fmean
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fmean
 
 .. autoclass:: fmean
     :show-inheritance:

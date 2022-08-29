@@ -5,7 +5,7 @@
 mrf_motion
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mrf_motion
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mrf_motion
 
 .. autoclass:: mrf_motion
     :show-inheritance:

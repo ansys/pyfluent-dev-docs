@@ -5,7 +5,7 @@
 vmag
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vmag
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vmag
 
 .. autoclass:: vmag
     :show-inheritance:

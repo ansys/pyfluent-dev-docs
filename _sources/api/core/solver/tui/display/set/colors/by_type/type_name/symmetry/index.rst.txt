@@ -3,11 +3,11 @@
 solver.tui.display.set.colors.by\_type.type\_name.symmetry
 ==========================================================
 
-.. currentmodule:: ansys.fluent.core.solver.tui
+.. currentmodule:: ansys.fluent.core.solver.tui_222
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.solver.tui::main_menu.display.set.colors.by_type.type_name.symmetry
+.. autoclass:: ansys.fluent.core.solver.tui_222::main_menu.display.set.colors.by_type.type_name.symmetry
    :members: color, material
 

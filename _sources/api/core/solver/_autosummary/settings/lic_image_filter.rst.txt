@@ -5,7 +5,7 @@
 lic_image_filter
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.lic_image_filter
+.. currentmodule:: ansys.fluent.core.solver.settings_222.lic_image_filter
 
 .. autoclass:: lic_image_filter
     :show-inheritance:

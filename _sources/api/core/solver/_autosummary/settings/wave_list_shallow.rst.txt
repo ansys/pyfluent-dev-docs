@@ -5,7 +5,7 @@
 wave_list_shallow
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wave_list_shallow
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wave_list_shallow
 
 .. autoclass:: wave_list_shallow
     :show-inheritance:

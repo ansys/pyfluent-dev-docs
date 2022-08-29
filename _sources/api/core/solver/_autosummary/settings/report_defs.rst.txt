@@ -5,7 +5,7 @@
 report_defs
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.report_defs
+.. currentmodule:: ansys.fluent.core.solver.settings_222.report_defs
 
 .. autoclass:: report_defs
     :show-inheritance:

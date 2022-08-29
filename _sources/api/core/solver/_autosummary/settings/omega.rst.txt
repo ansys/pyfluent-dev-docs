@@ -5,7 +5,7 @@
 omega
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.omega
+.. currentmodule:: ansys.fluent.core.solver.settings_222.omega
 
 .. autoclass:: omega
     :show-inheritance:

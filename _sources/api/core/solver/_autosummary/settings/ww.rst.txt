@@ -5,7 +5,7 @@
 ww
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ww
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ww
 
 .. autoclass:: ww
     :show-inheritance:

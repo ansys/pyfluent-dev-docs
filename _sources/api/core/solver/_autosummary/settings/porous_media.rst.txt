@@ -5,7 +5,7 @@
 porous_media
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.porous_media
+.. currentmodule:: ansys.fluent.core.solver.settings_222.porous_media
 
 .. autoclass:: porous_media
     :show-inheritance:

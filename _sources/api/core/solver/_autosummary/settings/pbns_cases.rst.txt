@@ -5,7 +5,7 @@
 pbns_cases
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pbns_cases
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pbns_cases
 
 .. autoclass:: pbns_cases
     :show-inheritance:

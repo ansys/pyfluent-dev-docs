@@ -5,7 +5,7 @@
 thermal_diffusivity
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.thermal_diffusivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.thermal_diffusivity
 
 .. autoclass:: thermal_diffusivity
     :show-inheritance:

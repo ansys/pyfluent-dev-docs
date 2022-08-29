@@ -5,7 +5,7 @@
 specified_shear
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.specified_shear
+.. currentmodule:: ansys.fluent.core.solver.settings_222.specified_shear
 
 .. autoclass:: specified_shear
     :show-inheritance:

@@ -5,7 +5,7 @@
 filepath
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.filepath
+.. currentmodule:: ansys.fluent.core.solver.settings_222.filepath
 
 .. autoclass:: filepath
     :show-inheritance:

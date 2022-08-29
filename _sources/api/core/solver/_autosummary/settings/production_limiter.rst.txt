@@ -5,7 +5,7 @@
 production_limiter
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.production_limiter
+.. currentmodule:: ansys.fluent.core.solver.settings_222.production_limiter
 
 .. autoclass:: production_limiter
     :show-inheritance:

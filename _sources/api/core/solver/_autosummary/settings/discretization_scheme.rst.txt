@@ -5,7 +5,7 @@
 discretization_scheme
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.discretization_scheme
+.. currentmodule:: ansys.fluent.core.solver.settings_222.discretization_scheme
 
 .. autoclass:: discretization_scheme
     :show-inheritance:

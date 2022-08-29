@@ -5,7 +5,7 @@
 nb_gradient_boundary_option
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.nb_gradient_boundary_option
+.. currentmodule:: ansys.fluent.core.solver.settings_222.nb_gradient_boundary_option
 
 .. autoclass:: nb_gradient_boundary_option
     :show-inheritance:

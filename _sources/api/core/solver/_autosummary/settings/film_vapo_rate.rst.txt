@@ -5,7 +5,7 @@
 film_vapo_rate
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.film_vapo_rate
+.. currentmodule:: ansys.fluent.core.solver.settings_222.film_vapo_rate
 
 .. autoclass:: film_vapo_rate
     :show-inheritance:

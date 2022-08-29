@@ -5,7 +5,7 @@
 geom_levels
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.geom_levels
+.. currentmodule:: ansys.fluent.core.solver.settings_222.geom_levels
 
 .. autoclass:: geom_levels
     :show-inheritance:

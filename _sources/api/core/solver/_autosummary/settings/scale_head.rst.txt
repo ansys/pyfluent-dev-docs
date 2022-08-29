@@ -5,7 +5,7 @@
 scale_head
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.scale_head
+.. currentmodule:: ansys.fluent.core.solver.settings_222.scale_head
 
 .. autoclass:: scale_head
     :show-inheritance:

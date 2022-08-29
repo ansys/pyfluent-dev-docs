@@ -5,7 +5,7 @@
 coarsen_rate
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.coarsen_rate
+.. currentmodule:: ansys.fluent.core.solver.settings_222.coarsen_rate
 
 .. autoclass:: coarsen_rate
     :show-inheritance:

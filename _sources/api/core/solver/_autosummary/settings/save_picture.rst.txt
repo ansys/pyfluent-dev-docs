@@ -5,7 +5,7 @@
 save_picture
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.save_picture
+.. currentmodule:: ansys.fluent.core.solver.settings_222.save_picture
 
 .. autoclass:: save_picture
     :show-inheritance:

@@ -5,7 +5,7 @@
 hardcopy_options
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.hardcopy_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.hardcopy_options
 
 .. autoclass:: hardcopy_options
     :show-inheritance:

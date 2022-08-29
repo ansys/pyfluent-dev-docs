@@ -5,7 +5,7 @@
 primary_phase_direction_components
 ==================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.primary_phase_direction_components
+.. currentmodule:: ansys.fluent.core.solver.settings_222.primary_phase_direction_components
 
 .. autoclass:: primary_phase_direction_components
     :show-inheritance:

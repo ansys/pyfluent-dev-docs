@@ -5,7 +5,7 @@
 velocity_inlet_child
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.velocity_inlet_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.velocity_inlet_child
 
 .. autoclass:: velocity_inlet_child
     :show-inheritance:

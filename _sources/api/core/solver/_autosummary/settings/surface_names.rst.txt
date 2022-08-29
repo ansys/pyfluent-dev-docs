@@ -5,7 +5,7 @@
 surface_names
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.surface_names
+.. currentmodule:: ansys.fluent.core.solver.settings_222.surface_names
 
 .. autoclass:: surface_names
     :show-inheritance:

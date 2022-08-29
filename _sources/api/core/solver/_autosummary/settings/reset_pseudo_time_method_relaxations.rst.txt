@@ -5,7 +5,7 @@
 reset_pseudo_time_method_relaxations
 ====================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.reset_pseudo_time_method_relaxations
+.. currentmodule:: ansys.fluent.core.solver.settings_222.reset_pseudo_time_method_relaxations
 
 .. autoclass:: reset_pseudo_time_method_relaxations
     :show-inheritance:

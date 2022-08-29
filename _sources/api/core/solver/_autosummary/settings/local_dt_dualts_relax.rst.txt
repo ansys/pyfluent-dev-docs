@@ -5,7 +5,7 @@
 local_dt_dualts_relax
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.local_dt_dualts_relax
+.. currentmodule:: ansys.fluent.core.solver.settings_222.local_dt_dualts_relax
 
 .. autoclass:: local_dt_dualts_relax
     :show-inheritance:

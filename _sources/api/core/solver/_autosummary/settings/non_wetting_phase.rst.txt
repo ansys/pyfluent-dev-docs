@@ -5,7 +5,7 @@
 non_wetting_phase
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.non_wetting_phase
+.. currentmodule:: ansys.fluent.core.solver.settings_222.non_wetting_phase
 
 .. autoclass:: non_wetting_phase
     :show-inheritance:

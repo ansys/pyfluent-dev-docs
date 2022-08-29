@@ -5,7 +5,7 @@
 compute_from_view_plane
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.compute_from_view_plane
+.. currentmodule:: ansys.fluent.core.solver.settings_222.compute_from_view_plane
 
 .. autoclass:: compute_from_view_plane
     :show-inheritance:

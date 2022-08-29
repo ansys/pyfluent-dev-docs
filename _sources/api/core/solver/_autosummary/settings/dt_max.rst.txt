@@ -5,7 +5,7 @@
 dt_max
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dt_max
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dt_max
 
 .. autoclass:: dt_max
     :show-inheritance:

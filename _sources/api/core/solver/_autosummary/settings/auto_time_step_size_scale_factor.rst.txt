@@ -5,7 +5,7 @@
 auto_time_step_size_scale_factor
 ================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.auto_time_step_size_scale_factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.auto_time_step_size_scale_factor
 
 .. autoclass:: auto_time_step_size_scale_factor
     :show-inheritance:

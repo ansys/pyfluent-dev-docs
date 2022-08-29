@@ -5,7 +5,7 @@
 hybrid_mode_selection
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.hybrid_mode_selection
+.. currentmodule:: ansys.fluent.core.solver.settings_222.hybrid_mode_selection
 
 .. autoclass:: hybrid_mode_selection
     :show-inheritance:

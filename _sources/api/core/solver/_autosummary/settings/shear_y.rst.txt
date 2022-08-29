@@ -5,7 +5,7 @@
 shear_y
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.shear_y
+.. currentmodule:: ansys.fluent.core.solver.settings_222.shear_y
 
 .. autoclass:: shear_y
     :show-inheritance:

@@ -5,7 +5,7 @@
 show_all
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.show_all
+.. currentmodule:: ansys.fluent.core.solver.settings_222.show_all
 
 .. autoclass:: show_all
     :show-inheritance:

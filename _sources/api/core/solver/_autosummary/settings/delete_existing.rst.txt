@@ -5,7 +5,7 @@
 delete_existing
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.delete_existing
+.. currentmodule:: ansys.fluent.core.solver.settings_222.delete_existing
 
 .. autoclass:: delete_existing
     :show-inheritance:

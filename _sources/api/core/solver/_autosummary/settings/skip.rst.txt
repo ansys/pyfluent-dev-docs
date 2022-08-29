@@ -5,7 +5,7 @@
 skip
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.skip
+.. currentmodule:: ansys.fluent.core.solver.settings_222.skip
 
 .. autoclass:: skip
     :show-inheritance:

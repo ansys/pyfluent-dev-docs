@@ -5,7 +5,7 @@
 supersonic_or_initial_gauge_pressure
 ====================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.supersonic_or_initial_gauge_pressure
+.. currentmodule:: ansys.fluent.core.solver.settings_222.supersonic_or_initial_gauge_pressure
 
 .. autoclass:: supersonic_or_initial_gauge_pressure
     :show-inheritance:

@@ -5,7 +5,7 @@
 normalization
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.normalization
+.. currentmodule:: ansys.fluent.core.solver.settings_222.normalization
 
 .. autoclass:: normalization
     :show-inheritance:

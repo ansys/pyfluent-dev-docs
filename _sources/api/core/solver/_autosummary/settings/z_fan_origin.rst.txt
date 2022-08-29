@@ -5,7 +5,7 @@
 z_fan_origin
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.z_fan_origin
+.. currentmodule:: ansys.fluent.core.solver.settings_222.z_fan_origin
 
 .. autoclass:: z_fan_origin
     :show-inheritance:

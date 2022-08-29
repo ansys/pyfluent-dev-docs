@@ -5,7 +5,7 @@
 filter_minimum
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.filter_minimum
+.. currentmodule:: ansys.fluent.core.solver.settings_222.filter_minimum
 
 .. autoclass:: filter_minimum
     :show-inheritance:

@@ -5,7 +5,7 @@
 acentric_factor
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.acentric_factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.acentric_factor
 
 .. autoclass:: acentric_factor
     :show-inheritance:

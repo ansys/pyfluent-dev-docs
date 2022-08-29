@@ -5,7 +5,7 @@
 kinetic_energy
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.kinetic_energy
+.. currentmodule:: ansys.fluent.core.solver.settings_222.kinetic_energy
 
 .. autoclass:: kinetic_energy
     :show-inheritance:

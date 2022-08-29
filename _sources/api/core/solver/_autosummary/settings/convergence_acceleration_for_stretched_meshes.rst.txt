@@ -5,7 +5,7 @@
 convergence_acceleration_for_stretched_meshes
 =============================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.convergence_acceleration_for_stretched_meshes
+.. currentmodule:: ansys.fluent.core.solver.settings_222.convergence_acceleration_for_stretched_meshes
 
 .. autoclass:: convergence_acceleration_for_stretched_meshes
     :show-inheritance:

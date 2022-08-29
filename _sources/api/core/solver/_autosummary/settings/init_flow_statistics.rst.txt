@@ -5,7 +5,7 @@
 init_flow_statistics
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.init_flow_statistics
+.. currentmodule:: ansys.fluent.core.solver.settings_222.init_flow_statistics
 
 .. autoclass:: init_flow_statistics
     :show-inheritance:

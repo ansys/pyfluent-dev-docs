@@ -5,7 +5,7 @@
 nj
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.nj
+.. currentmodule:: ansys.fluent.core.solver.settings_222.nj
 
 .. autoclass:: nj
     :show-inheritance:

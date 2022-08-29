@@ -5,7 +5,7 @@
 ecad_name
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ecad_name
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ecad_name
 
 .. autoclass:: ecad_name
     :show-inheritance:

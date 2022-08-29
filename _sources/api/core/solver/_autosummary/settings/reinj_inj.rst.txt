@@ -5,7 +5,7 @@
 reinj_inj
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.reinj_inj
+.. currentmodule:: ansys.fluent.core.solver.settings_222.reinj_inj
 
 .. autoclass:: reinj_inj
     :show-inheritance:

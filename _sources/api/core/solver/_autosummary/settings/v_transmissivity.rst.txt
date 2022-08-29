@@ -5,7 +5,7 @@
 v_transmissivity
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.v_transmissivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.v_transmissivity
 
 .. autoclass:: v_transmissivity
     :show-inheritance:

@@ -5,7 +5,7 @@
 pressure_outlet
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pressure_outlet
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pressure_outlet
 
 .. autoclass:: pressure_outlet
     :show-inheritance:

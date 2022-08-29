@@ -5,7 +5,7 @@
 boundary_marker
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.boundary_marker
+.. currentmodule:: ansys.fluent.core.solver.settings_222.boundary_marker
 
 .. autoclass:: boundary_marker
     :show-inheritance:

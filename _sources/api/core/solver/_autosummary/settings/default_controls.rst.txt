@@ -5,7 +5,7 @@
 default_controls
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.default_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_222.default_controls
 
 .. autoclass:: default_controls
     :show-inheritance:

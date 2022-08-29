@@ -5,7 +5,7 @@
 ht_total
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ht_total
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ht_total
 
 .. autoclass:: ht_total
     :show-inheritance:

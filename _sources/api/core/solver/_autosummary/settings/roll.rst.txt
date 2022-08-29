@@ -5,7 +5,7 @@
 roll
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.roll
+.. currentmodule:: ansys.fluent.core.solver.settings_222.roll
 
 .. autoclass:: roll
     :show-inheritance:

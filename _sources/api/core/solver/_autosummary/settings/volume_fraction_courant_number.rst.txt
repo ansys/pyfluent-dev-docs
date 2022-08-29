@@ -5,7 +5,7 @@
 volume_fraction_courant_number
 ==============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.volume_fraction_courant_number
+.. currentmodule:: ansys.fluent.core.solver.settings_222.volume_fraction_courant_number
 
 .. autoclass:: volume_fraction_courant_number
     :show-inheritance:

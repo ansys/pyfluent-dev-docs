@@ -5,7 +5,7 @@
 dpm_critical_shear_stress
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpm_critical_shear_stress
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpm_critical_shear_stress
 
 .. autoclass:: dpm_critical_shear_stress
     :show-inheritance:

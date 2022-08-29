@@ -5,7 +5,7 @@
 moment_child
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.moment_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.moment_child
 
 .. autoclass:: moment_child
     :show-inheritance:

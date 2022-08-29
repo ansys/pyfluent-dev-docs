@@ -5,7 +5,7 @@
 press_spec
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.press_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.press_spec
 
 .. autoclass:: press_spec
     :show-inheritance:

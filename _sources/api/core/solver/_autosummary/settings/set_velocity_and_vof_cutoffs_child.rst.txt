@@ -5,7 +5,7 @@
 set_velocity_and_vof_cutoffs_child
 ==================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.set_velocity_and_vof_cutoffs_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.set_velocity_and_vof_cutoffs_child
 
 .. autoclass:: set_velocity_and_vof_cutoffs_child
     :show-inheritance:

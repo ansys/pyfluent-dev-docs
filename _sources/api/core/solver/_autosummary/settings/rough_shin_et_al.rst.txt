@@ -5,7 +5,7 @@
 rough_shin_et_al
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rough_shin_et_al
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rough_shin_et_al
 
 .. autoclass:: rough_shin_et_al
     :show-inheritance:

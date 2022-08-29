@@ -5,7 +5,7 @@
 vapor_pressure
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vapor_pressure
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vapor_pressure
 
 .. autoclass:: vapor_pressure
     :show-inheritance:

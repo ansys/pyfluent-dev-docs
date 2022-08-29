@@ -5,7 +5,7 @@
 rough_bc
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rough_bc
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rough_bc
 
 .. autoclass:: rough_bc
     :show-inheritance:

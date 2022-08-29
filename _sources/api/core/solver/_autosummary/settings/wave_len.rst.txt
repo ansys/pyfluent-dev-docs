@@ -5,7 +5,7 @@
 wave_len
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wave_len
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wave_len
 
 .. autoclass:: wave_len
     :show-inheritance:

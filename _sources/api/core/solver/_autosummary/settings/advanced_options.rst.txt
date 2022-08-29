@@ -5,7 +5,7 @@
 advanced_options
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.advanced_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.advanced_options
 
 .. autoclass:: advanced_options
     :show-inheritance:

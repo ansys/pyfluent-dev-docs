@@ -5,7 +5,7 @@
 length_to_head_ratio
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.length_to_head_ratio
+.. currentmodule:: ansys.fluent.core.solver.settings_222.length_to_head_ratio
 
 .. autoclass:: length_to_head_ratio
     :show-inheritance:

@@ -5,7 +5,7 @@
 first_to_second_order_blending_list
 ===================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.first_to_second_order_blending_list
+.. currentmodule:: ansys.fluent.core.solver.settings_222.first_to_second_order_blending_list
 
 .. autoclass:: first_to_second_order_blending_list
     :show-inheritance:

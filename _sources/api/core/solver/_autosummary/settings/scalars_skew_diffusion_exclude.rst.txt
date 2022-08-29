@@ -5,7 +5,7 @@
 scalars_skew_diffusion_exclude
 ==============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.scalars_skew_diffusion_exclude
+.. currentmodule:: ansys.fluent.core.solver.settings_222.scalars_skew_diffusion_exclude
 
 .. autoclass:: scalars_skew_diffusion_exclude
     :show-inheritance:

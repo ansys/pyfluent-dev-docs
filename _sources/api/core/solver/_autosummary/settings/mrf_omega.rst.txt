@@ -5,7 +5,7 @@
 mrf_omega
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mrf_omega
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mrf_omega
 
 .. autoclass:: mrf_omega
     :show-inheritance:

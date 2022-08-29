@@ -5,7 +5,7 @@
 type
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.type
+.. currentmodule:: ansys.fluent.core.solver.settings_222.type
 
 .. autoclass:: type
     :show-inheritance:

@@ -5,7 +5,7 @@
 fluid_child
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fluid_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fluid_child
 
 .. autoclass:: fluid_child
     :show-inheritance:

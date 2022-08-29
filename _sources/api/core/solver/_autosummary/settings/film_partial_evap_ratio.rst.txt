@@ -5,7 +5,7 @@
 film_partial_evap_ratio
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.film_partial_evap_ratio
+.. currentmodule:: ansys.fluent.core.solver.settings_222.film_partial_evap_ratio
 
 .. autoclass:: film_partial_evap_ratio
     :show-inheritance:

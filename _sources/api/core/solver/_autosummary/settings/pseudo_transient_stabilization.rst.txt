@@ -5,7 +5,7 @@
 pseudo_transient_stabilization
 ==============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pseudo_transient_stabilization
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pseudo_transient_stabilization
 
 .. autoclass:: pseudo_transient_stabilization
     :show-inheritance:

@@ -5,7 +5,7 @@
 specified_time_step
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.specified_time_step
+.. currentmodule:: ansys.fluent.core.solver.settings_222.specified_time_step
 
 .. autoclass:: specified_time_step
     :show-inheritance:

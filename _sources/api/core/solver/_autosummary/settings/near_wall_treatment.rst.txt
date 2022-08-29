@@ -5,7 +5,7 @@
 near_wall_treatment
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.near_wall_treatment
+.. currentmodule:: ansys.fluent.core.solver.settings_222.near_wall_treatment
 
 .. autoclass:: near_wall_treatment
     :show-inheritance:

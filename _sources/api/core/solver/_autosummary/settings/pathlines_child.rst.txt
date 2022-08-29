@@ -5,7 +5,7 @@
 pathlines_child
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pathlines_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pathlines_child
 
 .. autoclass:: pathlines_child
     :show-inheritance:

@@ -5,7 +5,7 @@
 up_vector
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.up_vector
+.. currentmodule:: ansys.fluent.core.solver.settings_222.up_vector
 
 .. autoclass:: up_vector
     :show-inheritance:

@@ -5,7 +5,7 @@
 ht_bottom
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ht_bottom
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ht_bottom
 
 .. autoclass:: ht_bottom
     :show-inheritance:

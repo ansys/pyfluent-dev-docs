@@ -5,7 +5,7 @@
 wsn
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wsn
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wsn
 
 .. autoclass:: wsn
     :show-inheritance:

@@ -5,7 +5,7 @@
 max_step_change_factor
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.max_step_change_factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.max_step_change_factor
 
 .. autoclass:: max_step_change_factor
     :show-inheritance:

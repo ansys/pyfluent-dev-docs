@@ -5,7 +5,7 @@
 heat_flux_relaxation_factor
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.heat_flux_relaxation_factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.heat_flux_relaxation_factor
 
 .. autoclass:: heat_flux_relaxation_factor
     :show-inheritance:

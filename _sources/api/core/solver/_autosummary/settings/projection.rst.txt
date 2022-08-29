@@ -5,7 +5,7 @@
 projection
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.projection
+.. currentmodule:: ansys.fluent.core.solver.settings_222.projection
 
 .. autoclass:: projection
     :show-inheritance:

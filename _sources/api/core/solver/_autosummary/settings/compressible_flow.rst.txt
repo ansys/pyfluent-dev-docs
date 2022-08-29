@@ -5,7 +5,7 @@
 compressible_flow
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.compressible_flow
+.. currentmodule:: ansys.fluent.core.solver.settings_222.compressible_flow
 
 .. autoclass:: compressible_flow
     :show-inheritance:

@@ -5,7 +5,7 @@
 edge_type
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.edge_type
+.. currentmodule:: ansys.fluent.core.solver.settings_222.edge_type
 
 .. autoclass:: edge_type
     :show-inheritance:

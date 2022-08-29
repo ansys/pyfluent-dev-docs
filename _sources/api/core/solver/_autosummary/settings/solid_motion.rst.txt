@@ -5,7 +5,7 @@
 solid_motion
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solid_motion
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solid_motion
 
 .. autoclass:: solid_motion
     :show-inheritance:

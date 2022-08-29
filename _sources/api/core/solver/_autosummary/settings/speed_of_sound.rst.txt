@@ -5,7 +5,7 @@
 speed_of_sound
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.speed_of_sound
+.. currentmodule:: ansys.fluent.core.solver.settings_222.speed_of_sound
 
 .. autoclass:: speed_of_sound
     :show-inheritance:

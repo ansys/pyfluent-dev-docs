@@ -5,7 +5,7 @@
 hybrid_nita_settings
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.hybrid_nita_settings
+.. currentmodule:: ansys.fluent.core.solver.settings_222.hybrid_nita_settings
 
 .. autoclass:: hybrid_nita_settings
     :show-inheritance:

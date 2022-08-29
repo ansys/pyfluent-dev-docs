@@ -5,7 +5,7 @@
 pressure_outlet_child
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pressure_outlet_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pressure_outlet_child
 
 .. autoclass:: pressure_outlet_child
     :show-inheritance:

@@ -5,7 +5,7 @@
 equations_child
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.equations_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.equations_child
 
 .. autoclass:: equations_child
     :show-inheritance:

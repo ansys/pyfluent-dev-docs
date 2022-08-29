@@ -5,7 +5,7 @@
 boiling
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.boiling
+.. currentmodule:: ansys.fluent.core.solver.settings_222.boiling
 
 .. autoclass:: boiling
     :show-inheritance:

@@ -5,7 +5,7 @@
 vector_settings
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vector_settings
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vector_settings
 
 .. autoclass:: vector_settings
     :show-inheritance:

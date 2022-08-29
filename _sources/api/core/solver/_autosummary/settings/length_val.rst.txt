@@ -5,7 +5,7 @@
 length_val
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.length_val
+.. currentmodule:: ansys.fluent.core.solver.settings_222.length_val
 
 .. autoclass:: length_val
     :show-inheritance:

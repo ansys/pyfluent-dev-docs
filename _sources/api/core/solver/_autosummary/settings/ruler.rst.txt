@@ -5,7 +5,7 @@
 ruler
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ruler
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ruler
 
 .. autoclass:: ruler
     :show-inheritance:

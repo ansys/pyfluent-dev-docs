@@ -5,7 +5,7 @@
 wsf
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wsf
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wsf
 
 .. autoclass:: wsf
     :show-inheritance:

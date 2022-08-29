@@ -5,7 +5,7 @@
 profile_vt
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.profile_vt
+.. currentmodule:: ansys.fluent.core.solver.settings_222.profile_vt
 
 .. autoclass:: profile_vt
     :show-inheritance:

@@ -5,7 +5,7 @@
 specular_coeff
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.specular_coeff
+.. currentmodule:: ansys.fluent.core.solver.settings_222.specular_coeff
 
 .. autoclass:: specular_coeff
     :show-inheritance:

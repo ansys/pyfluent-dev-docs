@@ -5,7 +5,7 @@
 uu
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.uu
+.. currentmodule:: ansys.fluent.core.solver.settings_222.uu
 
 .. autoclass:: uu
     :show-inheritance:

@@ -5,7 +5,7 @@
 c0
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.c0
+.. currentmodule:: ansys.fluent.core.solver.settings_222.c0
 
 .. autoclass:: c0
     :show-inheritance:

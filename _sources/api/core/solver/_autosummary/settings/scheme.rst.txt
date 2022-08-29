@@ -5,7 +5,7 @@
 scheme
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.scheme
+.. currentmodule:: ansys.fluent.core.solver.settings_222.scheme
 
 .. autoclass:: scheme
     :show-inheritance:

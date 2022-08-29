@@ -5,7 +5,7 @@
 fixed_time_steps
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fixed_time_steps
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fixed_time_steps
 
 .. autoclass:: fixed_time_steps
     :show-inheritance:

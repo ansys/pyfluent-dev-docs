@@ -5,7 +5,7 @@
 outer_iterations
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.outer_iterations
+.. currentmodule:: ansys.fluent.core.solver.settings_222.outer_iterations
 
 .. autoclass:: outer_iterations
     :show-inheritance:

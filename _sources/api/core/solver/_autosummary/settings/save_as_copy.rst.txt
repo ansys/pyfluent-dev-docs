@@ -5,7 +5,7 @@
 save_as_copy
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.save_as_copy
+.. currentmodule:: ansys.fluent.core.solver.settings_222.save_as_copy
 
 .. autoclass:: save_as_copy
     :show-inheritance:

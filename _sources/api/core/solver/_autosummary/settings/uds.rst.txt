@@ -5,7 +5,7 @@
 uds
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.uds
+.. currentmodule:: ansys.fluent.core.solver.settings_222.uds
 
 .. autoclass:: uds
     :show-inheritance:

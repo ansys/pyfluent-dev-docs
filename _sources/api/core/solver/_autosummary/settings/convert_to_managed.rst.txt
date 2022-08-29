@@ -5,7 +5,7 @@
 convert_to_managed
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.convert_to_managed
+.. currentmodule:: ansys.fluent.core.solver.settings_222.convert_to_managed
 
 .. autoclass:: convert_to_managed
     :show-inheritance:

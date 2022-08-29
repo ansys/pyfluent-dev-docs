@@ -5,7 +5,7 @@
 angular
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.angular
+.. currentmodule:: ansys.fluent.core.solver.settings_222.angular
 
 .. autoclass:: angular
     :show-inheritance:

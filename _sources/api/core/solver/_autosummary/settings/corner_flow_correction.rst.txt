@@ -5,7 +5,7 @@
 corner_flow_correction
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.corner_flow_correction
+.. currentmodule:: ansys.fluent.core.solver.settings_222.corner_flow_correction
 
 .. autoclass:: corner_flow_correction
     :show-inheritance:

@@ -5,7 +5,7 @@
 unsteady_2nd_order
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.unsteady_2nd_order
+.. currentmodule:: ansys.fluent.core.solver.settings_222.unsteady_2nd_order
 
 .. autoclass:: unsteady_2nd_order
     :show-inheritance:

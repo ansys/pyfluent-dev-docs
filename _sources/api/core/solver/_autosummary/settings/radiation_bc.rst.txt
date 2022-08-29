@@ -5,7 +5,7 @@
 radiation_bc
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.radiation_bc
+.. currentmodule:: ansys.fluent.core.solver.settings_222.radiation_bc
 
 .. autoclass:: radiation_bc
     :show-inheritance:

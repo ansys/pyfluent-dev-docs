@@ -5,7 +5,7 @@
 p
 =
 
-.. currentmodule:: ansys.fluent.core.solver.settings.p
+.. currentmodule:: ansys.fluent.core.solver.settings_222.p
 
 .. autoclass:: p
     :show-inheritance:

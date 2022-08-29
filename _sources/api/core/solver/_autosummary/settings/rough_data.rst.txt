@@ -5,7 +5,7 @@
 rough_data
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rough_data
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rough_data
 
 .. autoclass:: rough_data
     :show-inheritance:

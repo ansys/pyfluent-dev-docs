@@ -5,7 +5,7 @@
 recirculation_outlet
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.recirculation_outlet
+.. currentmodule:: ansys.fluent.core.solver.settings_222.recirculation_outlet
 
 .. autoclass:: recirculation_outlet
     :show-inheritance:

@@ -5,7 +5,7 @@
 pb_smm_bc
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pb_smm_bc
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pb_smm_bc
 
 .. autoclass:: pb_smm_bc
     :show-inheritance:

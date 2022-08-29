@@ -5,7 +5,7 @@
 average_over
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.average_over
+.. currentmodule:: ansys.fluent.core.solver.settings_222.average_over
 
 .. autoclass:: average_over
     :show-inheritance:

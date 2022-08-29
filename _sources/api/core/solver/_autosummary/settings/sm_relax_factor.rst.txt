@@ -5,7 +5,7 @@
 sm_relax_factor
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.sm_relax_factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.sm_relax_factor
 
 .. autoclass:: sm_relax_factor
     :show-inheritance:

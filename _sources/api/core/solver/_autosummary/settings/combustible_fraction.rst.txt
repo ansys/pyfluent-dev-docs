@@ -5,7 +5,7 @@
 combustible_fraction
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.combustible_fraction
+.. currentmodule:: ansys.fluent.core.solver.settings_222.combustible_fraction
 
 .. autoclass:: combustible_fraction
     :show-inheritance:

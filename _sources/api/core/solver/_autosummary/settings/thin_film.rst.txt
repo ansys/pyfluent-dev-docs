@@ -5,7 +5,7 @@
 thin_film
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.thin_film
+.. currentmodule:: ansys.fluent.core.solver.settings_222.thin_film
 
 .. autoclass:: thin_film
     :show-inheritance:

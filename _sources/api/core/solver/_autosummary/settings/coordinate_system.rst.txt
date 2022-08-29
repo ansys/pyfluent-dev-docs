@@ -5,7 +5,7 @@
 coordinate_system
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.coordinate_system
+.. currentmodule:: ansys.fluent.core.solver.settings_222.coordinate_system
 
 .. autoclass:: coordinate_system
     :show-inheritance:

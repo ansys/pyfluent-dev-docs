@@ -5,7 +5,7 @@
 root
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.root
+.. currentmodule:: ansys.fluent.core.solver.settings_222.root
 
 .. autoclass:: root
     :show-inheritance:

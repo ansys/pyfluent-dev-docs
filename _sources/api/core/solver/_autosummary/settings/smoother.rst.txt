@@ -5,7 +5,7 @@
 smoother
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.smoother
+.. currentmodule:: ansys.fluent.core.solver.settings_222.smoother
 
 .. autoclass:: smoother
     :show-inheritance:

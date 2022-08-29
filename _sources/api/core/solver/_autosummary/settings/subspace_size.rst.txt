@@ -5,7 +5,7 @@
 subspace_size
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.subspace_size
+.. currentmodule:: ansys.fluent.core.solver.settings_222.subspace_size
 
 .. autoclass:: subspace_size
     :show-inheritance:

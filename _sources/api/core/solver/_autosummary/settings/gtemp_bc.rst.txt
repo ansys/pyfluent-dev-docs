@@ -5,7 +5,7 @@
 gtemp_bc
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.gtemp_bc
+.. currentmodule:: ansys.fluent.core.solver.settings_222.gtemp_bc
 
 .. autoclass:: gtemp_bc
     :show-inheritance:

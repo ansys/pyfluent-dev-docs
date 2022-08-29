@@ -5,7 +5,7 @@
 turbulent_intensity
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.turbulent_intensity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.turbulent_intensity
 
 .. autoclass:: turbulent_intensity
     :show-inheritance:

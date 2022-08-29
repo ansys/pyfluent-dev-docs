@@ -5,7 +5,7 @@
 contact_resistance
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.contact_resistance
+.. currentmodule:: ansys.fluent.core.solver.settings_222.contact_resistance
 
 .. autoclass:: contact_resistance
     :show-inheritance:

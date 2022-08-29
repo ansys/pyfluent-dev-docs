@@ -5,7 +5,7 @@
 free_stream_velocity
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.free_stream_velocity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.free_stream_velocity
 
 .. autoclass:: free_stream_velocity
     :show-inheritance:

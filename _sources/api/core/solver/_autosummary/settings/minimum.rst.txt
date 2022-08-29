@@ -5,7 +5,7 @@
 minimum
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.minimum
+.. currentmodule:: ansys.fluent.core.solver.settings_222.minimum
 
 .. autoclass:: minimum
     :show-inheritance:

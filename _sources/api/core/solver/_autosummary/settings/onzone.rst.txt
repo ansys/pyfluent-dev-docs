@@ -5,7 +5,7 @@
 onzone
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.onzone
+.. currentmodule:: ansys.fluent.core.solver.settings_222.onzone
 
 .. autoclass:: onzone
     :show-inheritance:

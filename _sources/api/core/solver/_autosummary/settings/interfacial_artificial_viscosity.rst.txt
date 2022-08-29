@@ -5,7 +5,7 @@
 interfacial_artificial_viscosity
 ================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.interfacial_artificial_viscosity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.interfacial_artificial_viscosity
 
 .. autoclass:: interfacial_artificial_viscosity
     :show-inheritance:

@@ -5,7 +5,7 @@
 interior
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.interior
+.. currentmodule:: ansys.fluent.core.solver.settings_222.interior
 
 .. autoclass:: interior
     :show-inheritance:

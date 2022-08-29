@@ -5,7 +5,7 @@
 time
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.time
+.. currentmodule:: ansys.fluent.core.solver.settings_222.time
 
 .. autoclass:: time
     :show-inheritance:

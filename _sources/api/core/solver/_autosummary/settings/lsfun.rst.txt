@@ -5,7 +5,7 @@
 lsfun
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.lsfun
+.. currentmodule:: ansys.fluent.core.solver.settings_222.lsfun
 
 .. autoclass:: lsfun
     :show-inheritance:

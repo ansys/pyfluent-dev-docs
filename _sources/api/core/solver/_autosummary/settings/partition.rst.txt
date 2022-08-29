@@ -5,7 +5,7 @@
 partition
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.partition
+.. currentmodule:: ansys.fluent.core.solver.settings_222.partition
 
 .. autoclass:: partition
     :show-inheritance:

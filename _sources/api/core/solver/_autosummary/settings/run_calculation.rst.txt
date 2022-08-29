@@ -5,7 +5,7 @@
 run_calculation
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.run_calculation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.run_calculation
 
 .. autoclass:: run_calculation
     :show-inheritance:

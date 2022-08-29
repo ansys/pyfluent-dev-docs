@@ -5,7 +5,7 @@
 epsilon_min_lim
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.epsilon_min_lim
+.. currentmodule:: ansys.fluent.core.solver.settings_222.epsilon_min_lim
 
 .. autoclass:: epsilon_min_lim
     :show-inheritance:

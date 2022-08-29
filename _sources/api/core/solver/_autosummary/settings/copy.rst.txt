@@ -5,7 +5,7 @@
 copy
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.copy
+.. currentmodule:: ansys.fluent.core.solver.settings_222.copy
 
 .. autoclass:: copy
     :show-inheritance:

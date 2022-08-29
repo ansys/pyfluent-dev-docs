@@ -5,7 +5,7 @@
 v_opq_absorbtivity
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.v_opq_absorbtivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.v_opq_absorbtivity
 
 .. autoclass:: v_opq_absorbtivity
     :show-inheritance:

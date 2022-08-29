@@ -5,7 +5,7 @@
 new_fan_definition
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.new_fan_definition
+.. currentmodule:: ansys.fluent.core.solver.settings_222.new_fan_definition
 
 .. autoclass:: new_fan_definition
     :show-inheritance:

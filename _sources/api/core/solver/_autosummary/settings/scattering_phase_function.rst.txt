@@ -5,7 +5,7 @@
 scattering_phase_function
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.scattering_phase_function
+.. currentmodule:: ansys.fluent.core.solver.settings_222.scattering_phase_function
 
 .. autoclass:: scattering_phase_function
     :show-inheritance:

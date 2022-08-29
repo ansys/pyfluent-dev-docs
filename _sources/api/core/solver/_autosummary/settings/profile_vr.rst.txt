@@ -5,7 +5,7 @@
 profile_vr
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.profile_vr
+.. currentmodule:: ansys.fluent.core.solver.settings_222.profile_vr
 
 .. autoclass:: profile_vr
     :show-inheritance:

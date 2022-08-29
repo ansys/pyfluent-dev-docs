@@ -5,7 +5,7 @@
 relative_permeability
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.relative_permeability
+.. currentmodule:: ansys.fluent.core.solver.settings_222.relative_permeability
 
 .. autoclass:: relative_permeability
     :show-inheritance:

@@ -5,7 +5,7 @@
 cell_to_limiting
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.cell_to_limiting
+.. currentmodule:: ansys.fluent.core.solver.settings_222.cell_to_limiting
 
 .. autoclass:: cell_to_limiting
     :show-inheritance:

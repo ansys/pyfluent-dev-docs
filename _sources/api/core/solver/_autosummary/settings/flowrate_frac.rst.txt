@@ -5,7 +5,7 @@
 flowrate_frac
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.flowrate_frac
+.. currentmodule:: ansys.fluent.core.solver.settings_222.flowrate_frac
 
 .. autoclass:: flowrate_frac
     :show-inheritance:

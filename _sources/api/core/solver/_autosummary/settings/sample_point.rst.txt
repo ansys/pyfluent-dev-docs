@@ -5,7 +5,7 @@
 sample_point
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.sample_point
+.. currentmodule:: ansys.fluent.core.solver.settings_222.sample_point
 
 .. autoclass:: sample_point
     :show-inheritance:

@@ -5,7 +5,7 @@
 anti_diffusion
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.anti_diffusion
+.. currentmodule:: ansys.fluent.core.solver.settings_222.anti_diffusion
 
 .. autoclass:: anti_diffusion
     :show-inheritance:

@@ -5,7 +5,7 @@
 struct_youngs_modulus
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.struct_youngs_modulus
+.. currentmodule:: ansys.fluent.core.solver.settings_222.struct_youngs_modulus
 
 .. autoclass:: struct_youngs_modulus
     :show-inheritance:

@@ -5,7 +5,7 @@
 rad_source_term
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rad_source_term
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rad_source_term
 
 .. autoclass:: rad_source_term
     :show-inheritance:

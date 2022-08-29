@@ -5,7 +5,7 @@
 eutectic_mf
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.eutectic_mf
+.. currentmodule:: ansys.fluent.core.solver.settings_222.eutectic_mf
 
 .. autoclass:: eutectic_mf
     :show-inheritance:

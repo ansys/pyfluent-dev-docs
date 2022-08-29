@@ -5,7 +5,7 @@
 vector
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vector
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vector
 
 .. autoclass:: vector
     :show-inheritance:

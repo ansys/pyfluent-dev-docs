@@ -5,7 +5,7 @@
 skjaeveland_wet_pc_pwr
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.skjaeveland_wet_pc_pwr
+.. currentmodule:: ansys.fluent.core.solver.settings_222.skjaeveland_wet_pc_pwr
 
 .. autoclass:: skjaeveland_wet_pc_pwr
     :show-inheritance:

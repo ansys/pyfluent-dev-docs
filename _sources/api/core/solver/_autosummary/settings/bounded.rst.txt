@@ -5,7 +5,7 @@
 bounded
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.bounded
+.. currentmodule:: ansys.fluent.core.solver.settings_222.bounded
 
 .. autoclass:: bounded
     :show-inheritance:

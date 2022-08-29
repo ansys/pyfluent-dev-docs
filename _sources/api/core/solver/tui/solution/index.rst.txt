@@ -3,12 +3,12 @@
 solver.tui.solution
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.tui
+.. currentmodule:: ansys.fluent.core.solver.tui_222
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.solver.tui::main_menu.solution
+.. autoclass:: ansys.fluent.core.solver.tui_222::main_menu.solution
 .. toctree::
    :hidden:
 

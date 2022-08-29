@@ -5,7 +5,7 @@
 polar_real_angle
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.polar_real_angle
+.. currentmodule:: ansys.fluent.core.solver.settings_222.polar_real_angle
 
 .. autoclass:: polar_real_angle
     :show-inheritance:

@@ -5,7 +5,7 @@
 cmplx
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.cmplx
+.. currentmodule:: ansys.fluent.core.solver.settings_222.cmplx
 
 .. autoclass:: cmplx
     :show-inheritance:

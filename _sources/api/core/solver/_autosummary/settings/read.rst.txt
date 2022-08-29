@@ -5,7 +5,7 @@
 read
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.read
+.. currentmodule:: ansys.fluent.core.solver.settings_222.read
 
 .. autoclass:: read
     :show-inheritance:

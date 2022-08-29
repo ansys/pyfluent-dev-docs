@@ -5,7 +5,7 @@
 read_fan_curve
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.read_fan_curve
+.. currentmodule:: ansys.fluent.core.solver.settings_222.read_fan_curve
 
 .. autoclass:: read_fan_curve
     :show-inheritance:

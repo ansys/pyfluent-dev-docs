@@ -5,7 +5,7 @@
 ramp_scalars
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ramp_scalars
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ramp_scalars
 
 .. autoclass:: ramp_scalars
     :show-inheritance:

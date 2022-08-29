@@ -5,7 +5,7 @@
 numerical_beach
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.numerical_beach
+.. currentmodule:: ansys.fluent.core.solver.settings_222.numerical_beach
 
 .. autoclass:: numerical_beach
     :show-inheritance:

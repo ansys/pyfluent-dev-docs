@@ -5,7 +5,7 @@
 volatile_fraction
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.volatile_fraction
+.. currentmodule:: ansys.fluent.core.solver.settings_222.volatile_fraction
 
 .. autoclass:: volatile_fraction
     :show-inheritance:

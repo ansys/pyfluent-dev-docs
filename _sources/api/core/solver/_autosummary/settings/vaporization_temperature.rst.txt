@@ -5,7 +5,7 @@
 vaporization_temperature
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vaporization_temperature
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vaporization_temperature
 
 .. autoclass:: vaporization_temperature
     :show-inheritance:

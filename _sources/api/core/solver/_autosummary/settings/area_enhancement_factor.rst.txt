@@ -5,7 +5,7 @@
 area_enhancement_factor
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.area_enhancement_factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.area_enhancement_factor
 
 .. autoclass:: area_enhancement_factor
     :show-inheritance:

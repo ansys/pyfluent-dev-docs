@@ -5,7 +5,7 @@
 rotating
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rotating
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rotating
 
 .. autoclass:: rotating
     :show-inheritance:

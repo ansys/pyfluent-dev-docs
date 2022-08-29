@@ -5,7 +5,7 @@
 molecular_weight
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.molecular_weight
+.. currentmodule:: ansys.fluent.core.solver.settings_222.molecular_weight
 
 .. autoclass:: molecular_weight
     :show-inheritance:

@@ -5,7 +5,7 @@
 fr
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fr
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fr
 
 .. autoclass:: fr
     :show-inheritance:

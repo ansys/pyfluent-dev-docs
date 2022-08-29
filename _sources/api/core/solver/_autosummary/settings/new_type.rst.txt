@@ -5,7 +5,7 @@
 new_type
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.new_type
+.. currentmodule:: ansys.fluent.core.solver.settings_222.new_type
 
 .. autoclass:: new_type
     :show-inheritance:

@@ -5,7 +5,7 @@
 v2f_epsilon_min_lim
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.v2f_epsilon_min_lim
+.. currentmodule:: ansys.fluent.core.solver.settings_222.v2f_epsilon_min_lim
 
 .. autoclass:: v2f_epsilon_min_lim
     :show-inheritance:

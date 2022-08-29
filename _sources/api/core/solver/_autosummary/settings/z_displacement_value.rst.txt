@@ -5,7 +5,7 @@
 z_displacement_value
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.z_displacement_value
+.. currentmodule:: ansys.fluent.core.solver.settings_222.z_displacement_value
 
 .. autoclass:: z_displacement_value
     :show-inheritance:

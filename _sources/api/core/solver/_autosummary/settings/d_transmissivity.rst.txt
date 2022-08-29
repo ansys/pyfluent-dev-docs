@@ -5,7 +5,7 @@
 d_transmissivity
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.d_transmissivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.d_transmissivity
 
 .. autoclass:: d_transmissivity
     :show-inheritance:

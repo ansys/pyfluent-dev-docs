@@ -5,7 +5,7 @@
 trad_internal
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.trad_internal
+.. currentmodule:: ansys.fluent.core.solver.settings_222.trad_internal
 
 .. autoclass:: trad_internal
     :show-inheritance:

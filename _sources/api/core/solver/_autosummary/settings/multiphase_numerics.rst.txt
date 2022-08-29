@@ -5,7 +5,7 @@
 multiphase_numerics
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.multiphase_numerics
+.. currentmodule:: ansys.fluent.core.solver.settings_222.multiphase_numerics
 
 .. autoclass:: multiphase_numerics
     :show-inheritance:

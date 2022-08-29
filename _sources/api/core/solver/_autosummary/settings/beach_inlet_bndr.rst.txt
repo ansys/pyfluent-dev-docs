@@ -5,7 +5,7 @@
 beach_inlet_bndr
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.beach_inlet_bndr
+.. currentmodule:: ansys.fluent.core.solver.settings_222.beach_inlet_bndr
 
 .. autoclass:: beach_inlet_bndr
     :show-inheritance:

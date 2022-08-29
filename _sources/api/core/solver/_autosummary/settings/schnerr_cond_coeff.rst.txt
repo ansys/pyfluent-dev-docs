@@ -5,7 +5,7 @@
 schnerr_cond_coeff
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.schnerr_cond_coeff
+.. currentmodule:: ansys.fluent.core.solver.settings_222.schnerr_cond_coeff
 
 .. autoclass:: schnerr_cond_coeff
     :show-inheritance:

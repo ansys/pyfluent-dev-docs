@@ -5,7 +5,7 @@
 swirl_dominated_flow
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.swirl_dominated_flow
+.. currentmodule:: ansys.fluent.core.solver.settings_222.swirl_dominated_flow
 
 .. autoclass:: swirl_dominated_flow
     :show-inheritance:

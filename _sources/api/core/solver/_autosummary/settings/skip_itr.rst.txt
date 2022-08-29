@@ -5,7 +5,7 @@
 skip_itr
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.skip_itr
+.. currentmodule:: ansys.fluent.core.solver.settings_222.skip_itr
 
 .. autoclass:: skip_itr
     :show-inheritance:

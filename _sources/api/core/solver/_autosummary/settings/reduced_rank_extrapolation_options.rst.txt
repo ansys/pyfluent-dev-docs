@@ -5,7 +5,7 @@
 reduced_rank_extrapolation_options
 ==================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.reduced_rank_extrapolation_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.reduced_rank_extrapolation_options
 
 .. autoclass:: reduced_rank_extrapolation_options
     :show-inheritance:

@@ -5,7 +5,7 @@
 film_vof_trans_low_relax
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.film_vof_trans_low_relax
+.. currentmodule:: ansys.fluent.core.solver.settings_222.film_vof_trans_low_relax
 
 .. autoclass:: film_vof_trans_low_relax
     :show-inheritance:

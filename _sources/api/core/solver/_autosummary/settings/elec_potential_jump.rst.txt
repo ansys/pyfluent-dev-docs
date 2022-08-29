@@ -5,7 +5,7 @@
 elec_potential_jump
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.elec_potential_jump
+.. currentmodule:: ansys.fluent.core.solver.settings_222.elec_potential_jump
 
 .. autoclass:: elec_potential_jump
     :show-inheritance:

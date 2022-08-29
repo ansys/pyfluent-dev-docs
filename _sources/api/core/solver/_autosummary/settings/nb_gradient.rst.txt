@@ -5,7 +5,7 @@
 nb_gradient
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.nb_gradient
+.. currentmodule:: ansys.fluent.core.solver.settings_222.nb_gradient
 
 .. autoclass:: nb_gradient
     :show-inheritance:

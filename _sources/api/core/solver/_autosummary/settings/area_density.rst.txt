@@ -5,7 +5,7 @@
 area_density
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.area_density
+.. currentmodule:: ansys.fluent.core.solver.settings_222.area_density
 
 .. autoclass:: area_density
     :show-inheritance:

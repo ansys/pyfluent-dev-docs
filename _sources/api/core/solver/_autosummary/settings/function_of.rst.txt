@@ -5,7 +5,7 @@
 function_of
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.function_of
+.. currentmodule:: ansys.fluent.core.solver.settings_222.function_of
 
 .. autoclass:: function_of
     :show-inheritance:

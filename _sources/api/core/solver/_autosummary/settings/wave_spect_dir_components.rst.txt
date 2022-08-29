@@ -5,7 +5,7 @@
 wave_spect_dir_components
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wave_spect_dir_components
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wave_spect_dir_components
 
 .. autoclass:: wave_spect_dir_components
     :show-inheritance:

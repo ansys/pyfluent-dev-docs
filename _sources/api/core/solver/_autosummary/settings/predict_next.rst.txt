@@ -5,7 +5,7 @@
 predict_next
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.predict_next
+.. currentmodule:: ansys.fluent.core.solver.settings_222.predict_next
 
 .. autoclass:: predict_next
     :show-inheritance:

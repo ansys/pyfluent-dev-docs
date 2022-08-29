@@ -3,11 +3,11 @@
 meshing.datamodel.workflow.Workflow
 ===================================
 
-.. currentmodule:: ansys.fluent.core.datamodel.workflow
+.. currentmodule:: ansys.fluent.core.datamodel_222.workflow
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.datamodel.workflow::Root.Workflow
+.. autoclass:: ansys.fluent.core.datamodel_222.workflow::Root.Workflow
    :members: CurrentTask, TaskList
 

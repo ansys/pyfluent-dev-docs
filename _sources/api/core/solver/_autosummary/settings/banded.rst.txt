@@ -5,7 +5,7 @@
 banded
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.banded
+.. currentmodule:: ansys.fluent.core.solver.settings_222.banded
 
 .. autoclass:: banded
     :show-inheritance:

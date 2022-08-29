@@ -5,7 +5,7 @@
 dpm_initial_temperature
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpm_initial_temperature
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpm_initial_temperature
 
 .. autoclass:: dpm_initial_temperature
     :show-inheritance:

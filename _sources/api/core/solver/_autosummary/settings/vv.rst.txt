@@ -5,7 +5,7 @@
 vv
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vv
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vv
 
 .. autoclass:: vv
     :show-inheritance:

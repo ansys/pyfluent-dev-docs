@@ -5,7 +5,7 @@
 dpm_initial_injection
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpm_initial_injection
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpm_initial_injection
 
 .. autoclass:: dpm_initial_injection
     :show-inheritance:

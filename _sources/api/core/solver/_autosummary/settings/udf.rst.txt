@@ -5,7 +5,7 @@
 udf
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.udf
+.. currentmodule:: ansys.fluent.core.solver.settings_222.udf
 
 .. autoclass:: udf
     :show-inheritance:

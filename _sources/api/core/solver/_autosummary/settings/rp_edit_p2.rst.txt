@@ -5,7 +5,7 @@
 rp_edit_p2
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rp_edit_p2
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rp_edit_p2
 
 .. autoclass:: rp_edit_p2
     :show-inheritance:

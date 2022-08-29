@@ -5,7 +5,7 @@
 fixed_time_step_size
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fixed_time_step_size
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fixed_time_step_size
 
 .. autoclass:: fixed_time_step_size
     :show-inheritance:

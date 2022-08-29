@@ -5,7 +5,7 @@
 limit_pressure_correction_gradient
 ==================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.limit_pressure_correction_gradient
+.. currentmodule:: ansys.fluent.core.solver.settings_222.limit_pressure_correction_gradient
 
 .. autoclass:: limit_pressure_correction_gradient
     :show-inheritance:

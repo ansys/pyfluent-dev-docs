@@ -5,7 +5,7 @@
 heat_source
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.heat_source
+.. currentmodule:: ansys.fluent.core.solver.settings_222.heat_source
 
 .. autoclass:: heat_source
     :show-inheritance:

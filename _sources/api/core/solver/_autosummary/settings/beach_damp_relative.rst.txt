@@ -5,7 +5,7 @@
 beach_damp_relative
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.beach_damp_relative
+.. currentmodule:: ansys.fluent.core.solver.settings_222.beach_damp_relative
 
 .. autoclass:: beach_damp_relative
     :show-inheritance:

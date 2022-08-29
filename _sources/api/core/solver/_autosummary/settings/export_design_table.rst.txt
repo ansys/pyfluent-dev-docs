@@ -5,7 +5,7 @@
 export_design_table
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.export_design_table
+.. currentmodule:: ansys.fluent.core.solver.settings_222.export_design_table
 
 .. autoclass:: export_design_table
     :show-inheritance:

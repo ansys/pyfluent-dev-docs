@@ -5,7 +5,7 @@
 beach_dir_nk
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.beach_dir_nk
+.. currentmodule:: ansys.fluent.core.solver.settings_222.beach_dir_nk
 
 .. autoclass:: beach_dir_nk
     :show-inheritance:

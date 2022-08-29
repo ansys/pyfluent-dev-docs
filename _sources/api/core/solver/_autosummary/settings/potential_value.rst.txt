@@ -5,7 +5,7 @@
 potential_value
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.potential_value
+.. currentmodule:: ansys.fluent.core.solver.settings_222.potential_value
 
 .. autoclass:: potential_value
     :show-inheritance:

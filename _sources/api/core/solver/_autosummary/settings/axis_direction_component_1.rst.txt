@@ -5,7 +5,7 @@
 axis_direction_component
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.axis_direction_component_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.axis_direction_component_1
 
 .. autoclass:: axis_direction_component
     :show-inheritance:

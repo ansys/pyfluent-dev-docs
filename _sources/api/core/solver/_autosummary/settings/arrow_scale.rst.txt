@@ -5,7 +5,7 @@
 arrow_scale
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.arrow_scale
+.. currentmodule:: ansys.fluent.core.solver.settings_222.arrow_scale
 
 .. autoclass:: arrow_scale
     :show-inheritance:

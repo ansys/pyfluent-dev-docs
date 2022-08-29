@@ -5,7 +5,7 @@
 udf_hook
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.udf_hook
+.. currentmodule:: ansys.fluent.core.solver.settings_222.udf_hook
 
 .. autoclass:: udf_hook
     :show-inheritance:

@@ -5,7 +5,7 @@
 update_selected
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.update_selected
+.. currentmodule:: ansys.fluent.core.solver.settings_222.update_selected
 
 .. autoclass:: update_selected
     :show-inheritance:

@@ -5,7 +5,7 @@
 edges
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.edges
+.. currentmodule:: ansys.fluent.core.solver.settings_222.edges
 
 .. autoclass:: edges
     :show-inheritance:

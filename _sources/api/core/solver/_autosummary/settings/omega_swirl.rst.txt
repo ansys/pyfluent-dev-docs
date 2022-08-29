@@ -5,7 +5,7 @@
 omega_swirl
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.omega_swirl
+.. currentmodule:: ansys.fluent.core.solver.settings_222.omega_swirl
 
 .. autoclass:: omega_swirl
     :show-inheritance:

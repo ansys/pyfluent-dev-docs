@@ -5,7 +5,7 @@
 skewness_neighbor_coupling
 ==========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.skewness_neighbor_coupling
+.. currentmodule:: ansys.fluent.core.solver.settings_222.skewness_neighbor_coupling
 
 .. autoclass:: skewness_neighbor_coupling
     :show-inheritance:

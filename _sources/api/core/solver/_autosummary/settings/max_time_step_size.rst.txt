@@ -5,7 +5,7 @@
 max_time_step_size
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.max_time_step_size
+.. currentmodule:: ansys.fluent.core.solver.settings_222.max_time_step_size
 
 .. autoclass:: max_time_step_size
     :show-inheritance:

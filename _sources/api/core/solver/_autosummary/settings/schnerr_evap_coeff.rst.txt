@@ -5,7 +5,7 @@
 schnerr_evap_coeff
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.schnerr_evap_coeff
+.. currentmodule:: ansys.fluent.core.solver.settings_222.schnerr_evap_coeff
 
 .. autoclass:: schnerr_evap_coeff
     :show-inheritance:

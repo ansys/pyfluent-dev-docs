@@ -5,7 +5,7 @@
 execute_additional_stability_controls
 =====================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.execute_additional_stability_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_222.execute_additional_stability_controls
 
 .. autoclass:: execute_additional_stability_controls
     :show-inheritance:

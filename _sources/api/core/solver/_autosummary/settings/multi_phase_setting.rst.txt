@@ -5,7 +5,7 @@
 multi_phase_setting
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.multi_phase_setting
+.. currentmodule:: ansys.fluent.core.solver.settings_222.multi_phase_setting
 
 .. autoclass:: multi_phase_setting
     :show-inheritance:

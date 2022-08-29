@@ -5,7 +5,7 @@
 direction_2_z
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.direction_2_z
+.. currentmodule:: ansys.fluent.core.solver.settings_222.direction_2_z
 
 .. autoclass:: direction_2_z
     :show-inheritance:

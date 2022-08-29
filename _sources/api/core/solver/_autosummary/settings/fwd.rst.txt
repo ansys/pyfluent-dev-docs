@@ -5,7 +5,7 @@
 fwd
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fwd
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fwd
 
 .. autoclass:: fwd
     :show-inheritance:

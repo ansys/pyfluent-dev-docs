@@ -5,7 +5,7 @@
 exponent_density_func
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.exponent_density_func
+.. currentmodule:: ansys.fluent.core.solver.settings_222.exponent_density_func
 
 .. autoclass:: exponent_density_func
     :show-inheritance:

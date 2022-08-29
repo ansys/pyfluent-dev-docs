@@ -5,7 +5,7 @@
 wave_modeling_type
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wave_modeling_type
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wave_modeling_type
 
 .. autoclass:: wave_modeling_type
     :show-inheritance:

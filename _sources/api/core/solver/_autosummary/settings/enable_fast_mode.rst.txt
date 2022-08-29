@@ -5,7 +5,7 @@
 enable_fast_mode
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.enable_fast_mode
+.. currentmodule:: ansys.fluent.core.solver.settings_222.enable_fast_mode
 
 .. autoclass:: enable_fast_mode
     :show-inheritance:

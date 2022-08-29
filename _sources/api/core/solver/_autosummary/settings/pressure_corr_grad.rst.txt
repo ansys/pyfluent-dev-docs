@@ -5,7 +5,7 @@
 pressure_corr_grad
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pressure_corr_grad
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pressure_corr_grad
 
 .. autoclass:: pressure_corr_grad
     :show-inheritance:

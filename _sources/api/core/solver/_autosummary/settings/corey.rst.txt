@@ -5,7 +5,7 @@
 corey
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.corey
+.. currentmodule:: ansys.fluent.core.solver.settings_222.corey
 
 .. autoclass:: corey
     :show-inheritance:

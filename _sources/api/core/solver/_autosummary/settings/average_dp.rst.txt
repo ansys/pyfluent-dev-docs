@@ -5,7 +5,7 @@
 average_dp
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.average_dp
+.. currentmodule:: ansys.fluent.core.solver.settings_222.average_dp
 
 .. autoclass:: average_dp
     :show-inheritance:

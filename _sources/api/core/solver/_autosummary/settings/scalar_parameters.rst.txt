@@ -5,7 +5,7 @@
 scalar_parameters
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.scalar_parameters
+.. currentmodule:: ansys.fluent.core.solver.settings_222.scalar_parameters
 
 .. autoclass:: scalar_parameters
     :show-inheritance:

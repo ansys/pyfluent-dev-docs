@@ -5,7 +5,7 @@
 ref_perm_p1
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ref_perm_p1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ref_perm_p1
 
 .. autoclass:: ref_perm_p1
     :show-inheritance:

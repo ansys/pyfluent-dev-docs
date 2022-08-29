@@ -5,7 +5,7 @@
 min_flow_rate
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.min_flow_rate
+.. currentmodule:: ansys.fluent.core.solver.settings_222.min_flow_rate
 
 .. autoclass:: min_flow_rate
     :show-inheritance:

@@ -5,7 +5,7 @@
 t_b_b_spec
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.t_b_b_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.t_b_b_spec
 
 .. autoclass:: t_b_b_spec
     :show-inheritance:

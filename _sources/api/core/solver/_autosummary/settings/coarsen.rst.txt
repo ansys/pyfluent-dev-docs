@@ -5,7 +5,7 @@
 coarsen
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.coarsen
+.. currentmodule:: ansys.fluent.core.solver.settings_222.coarsen
 
 .. autoclass:: coarsen
     :show-inheritance:

@@ -5,7 +5,7 @@
 static_shadows
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.static_shadows
+.. currentmodule:: ansys.fluent.core.solver.settings_222.static_shadows
 
 .. autoclass:: static_shadows
     :show-inheritance:

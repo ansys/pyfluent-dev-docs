@@ -5,7 +5,7 @@
 transient_scheme
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.transient_scheme
+.. currentmodule:: ansys.fluent.core.solver.settings_222.transient_scheme
 
 .. autoclass:: transient_scheme
     :show-inheritance:

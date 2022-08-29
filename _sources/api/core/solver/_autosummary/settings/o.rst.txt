@@ -5,7 +5,7 @@
 o
 =
 
-.. currentmodule:: ansys.fluent.core.solver.settings.o
+.. currentmodule:: ansys.fluent.core.solver.settings_222.o
 
 .. autoclass:: o
     :show-inheritance:

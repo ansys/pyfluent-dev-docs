@@ -5,7 +5,7 @@
 surface_ids
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.surface_ids
+.. currentmodule:: ansys.fluent.core.solver.settings_222.surface_ids
 
 .. autoclass:: surface_ids
     :show-inheritance:

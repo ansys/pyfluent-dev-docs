@@ -5,7 +5,7 @@
 thin_wall
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.thin_wall
+.. currentmodule:: ansys.fluent.core.solver.settings_222.thin_wall
 
 .. autoclass:: thin_wall
     :show-inheritance:

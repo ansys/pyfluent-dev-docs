@@ -5,7 +5,7 @@
 standard_resolution
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.standard_resolution
+.. currentmodule:: ansys.fluent.core.solver.settings_222.standard_resolution
 
 .. autoclass:: standard_resolution
     :show-inheritance:

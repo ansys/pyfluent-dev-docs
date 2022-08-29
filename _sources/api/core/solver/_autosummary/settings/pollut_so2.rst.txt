@@ -5,7 +5,7 @@
 pollut_so2
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pollut_so2
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pollut_so2
 
 .. autoclass:: pollut_so2
     :show-inheritance:

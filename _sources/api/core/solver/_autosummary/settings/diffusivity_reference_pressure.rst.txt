@@ -5,7 +5,7 @@
 diffusivity_reference_pressure
 ==============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.diffusivity_reference_pressure
+.. currentmodule:: ansys.fluent.core.solver.settings_222.diffusivity_reference_pressure
 
 .. autoclass:: diffusivity_reference_pressure
     :show-inheritance:

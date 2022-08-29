@@ -5,7 +5,7 @@
 skewness_correction
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.skewness_correction
+.. currentmodule:: ansys.fluent.core.solver.settings_222.skewness_correction
 
 .. autoclass:: skewness_correction
     :show-inheritance:

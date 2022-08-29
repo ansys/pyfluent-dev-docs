@@ -5,7 +5,7 @@
 force_vector
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.force_vector
+.. currentmodule:: ansys.fluent.core.solver.settings_222.force_vector
 
 .. autoclass:: force_vector
     :show-inheritance:

@@ -5,7 +5,7 @@
 line_width
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.line_width
+.. currentmodule:: ansys.fluent.core.solver.settings_222.line_width
 
 .. autoclass:: line_width
     :show-inheritance:

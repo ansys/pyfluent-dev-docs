@@ -5,7 +5,7 @@
 wave_bc_type
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wave_bc_type
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wave_bc_type
 
 .. autoclass:: wave_bc_type
     :show-inheritance:

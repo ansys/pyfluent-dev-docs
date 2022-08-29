@@ -5,7 +5,7 @@
 number_of_phases
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.number_of_phases
+.. currentmodule:: ansys.fluent.core.solver.settings_222.number_of_phases
 
 .. autoclass:: number_of_phases
     :show-inheritance:

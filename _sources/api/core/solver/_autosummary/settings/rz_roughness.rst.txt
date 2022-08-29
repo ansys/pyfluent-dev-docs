@@ -5,7 +5,7 @@
 rz_roughness
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rz_roughness
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rz_roughness
 
 .. autoclass:: rz_roughness
     :show-inheritance:

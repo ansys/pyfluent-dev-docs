@@ -5,7 +5,7 @@
 multi_grid
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.multi_grid
+.. currentmodule:: ansys.fluent.core.solver.settings_222.multi_grid
 
 .. autoclass:: multi_grid
     :show-inheritance:

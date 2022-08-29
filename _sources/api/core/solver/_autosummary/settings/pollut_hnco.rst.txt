@@ -5,7 +5,7 @@
 pollut_hnco
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pollut_hnco
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pollut_hnco
 
 .. autoclass:: pollut_hnco
     :show-inheritance:

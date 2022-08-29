@@ -5,7 +5,7 @@
 numerics
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.numerics
+.. currentmodule:: ansys.fluent.core.solver.settings_222.numerics
 
 .. autoclass:: numerics
     :show-inheritance:

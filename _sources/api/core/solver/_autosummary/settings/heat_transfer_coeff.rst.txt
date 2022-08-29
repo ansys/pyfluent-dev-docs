@@ -5,7 +5,7 @@
 heat_transfer_coeff
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.heat_transfer_coeff
+.. currentmodule:: ansys.fluent.core.solver.settings_222.heat_transfer_coeff
 
 .. autoclass:: heat_transfer_coeff
     :show-inheritance:

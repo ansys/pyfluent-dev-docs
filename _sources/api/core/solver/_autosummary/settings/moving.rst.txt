@@ -5,7 +5,7 @@
 moving
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.moving
+.. currentmodule:: ansys.fluent.core.solver.settings_222.moving
 
 .. autoclass:: moving
     :show-inheritance:

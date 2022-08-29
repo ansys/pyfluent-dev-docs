@@ -5,7 +5,7 @@
 vm_number_of_vortices
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vm_number_of_vortices
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vm_number_of_vortices
 
 .. autoclass:: vm_number_of_vortices
     :show-inheritance:

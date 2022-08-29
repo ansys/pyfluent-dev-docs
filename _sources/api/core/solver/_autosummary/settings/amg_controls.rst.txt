@@ -5,7 +5,7 @@
 amg_controls
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.amg_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_222.amg_controls
 
 .. autoclass:: amg_controls
     :show-inheritance:

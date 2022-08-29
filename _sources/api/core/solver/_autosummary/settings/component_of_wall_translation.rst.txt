@@ -5,7 +5,7 @@
 component_of_wall_translation
 =============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.component_of_wall_translation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.component_of_wall_translation
 
 .. autoclass:: component_of_wall_translation
     :show-inheritance:

@@ -5,7 +5,7 @@
 choice
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.choice
+.. currentmodule:: ansys.fluent.core.solver.settings_222.choice
 
 .. autoclass:: choice
     :show-inheritance:

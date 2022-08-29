@@ -5,7 +5,7 @@
 wave_ht
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wave_ht
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wave_ht
 
 .. autoclass:: wave_ht
     :show-inheritance:

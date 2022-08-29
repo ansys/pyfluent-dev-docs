@@ -5,7 +5,7 @@
 granular_temperature
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.granular_temperature
+.. currentmodule:: ansys.fluent.core.solver.settings_222.granular_temperature
 
 .. autoclass:: granular_temperature
     :show-inheritance:

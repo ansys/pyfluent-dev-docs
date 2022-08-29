@@ -5,7 +5,7 @@
 upstream_t_enthalpy
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.upstream_t_enthalpy
+.. currentmodule:: ansys.fluent.core.solver.settings_222.upstream_t_enthalpy
 
 .. autoclass:: upstream_t_enthalpy
     :show-inheritance:

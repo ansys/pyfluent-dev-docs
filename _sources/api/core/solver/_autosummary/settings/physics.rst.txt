@@ -5,7 +5,7 @@
 physics
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.physics
+.. currentmodule:: ansys.fluent.core.solver.settings_222.physics
 
 .. autoclass:: physics
     :show-inheritance:

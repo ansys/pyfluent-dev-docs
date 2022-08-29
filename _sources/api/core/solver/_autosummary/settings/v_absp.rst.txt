@@ -5,7 +5,7 @@
 v_absp
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.v_absp
+.. currentmodule:: ansys.fluent.core.solver.settings_222.v_absp
 
 .. autoclass:: v_absp
     :show-inheritance:

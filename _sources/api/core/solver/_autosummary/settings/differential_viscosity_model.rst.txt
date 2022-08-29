@@ -5,7 +5,7 @@
 differential_viscosity_model
 ============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.differential_viscosity_model
+.. currentmodule:: ansys.fluent.core.solver.settings_222.differential_viscosity_model
 
 .. autoclass:: differential_viscosity_model
     :show-inheritance:

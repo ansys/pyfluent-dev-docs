@@ -5,7 +5,7 @@
 stabilization
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.stabilization
+.. currentmodule:: ansys.fluent.core.solver.settings_222.stabilization
 
 .. autoclass:: stabilization
     :show-inheritance:

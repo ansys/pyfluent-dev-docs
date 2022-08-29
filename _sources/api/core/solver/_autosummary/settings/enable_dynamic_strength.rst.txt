@@ -5,7 +5,7 @@
 enable_dynamic_strength
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.enable_dynamic_strength
+.. currentmodule:: ansys.fluent.core.solver.settings_222.enable_dynamic_strength
 
 .. autoclass:: enable_dynamic_strength
     :show-inheritance:

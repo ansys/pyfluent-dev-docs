@@ -5,7 +5,7 @@
 compute
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.compute
+.. currentmodule:: ansys.fluent.core.solver.settings_222.compute
 
 .. autoclass:: compute
     :show-inheritance:

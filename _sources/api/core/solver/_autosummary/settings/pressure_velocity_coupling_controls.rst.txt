@@ -5,7 +5,7 @@
 pressure_velocity_coupling_controls
 ===================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pressure_velocity_coupling_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pressure_velocity_coupling_controls
 
 .. autoclass:: pressure_velocity_coupling_controls
     :show-inheritance:

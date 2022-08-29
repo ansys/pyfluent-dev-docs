@@ -5,7 +5,7 @@
 rst_spec
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rst_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rst_spec
 
 .. autoclass:: rst_spec
     :show-inheritance:

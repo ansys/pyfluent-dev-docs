@@ -5,7 +5,7 @@
 fmg_options
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fmg_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fmg_options
 
 .. autoclass:: fmg_options
     :show-inheritance:

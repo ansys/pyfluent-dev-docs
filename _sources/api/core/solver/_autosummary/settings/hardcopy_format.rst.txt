@@ -5,7 +5,7 @@
 hardcopy_format
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.hardcopy_format
+.. currentmodule:: ansys.fluent.core.solver.settings_222.hardcopy_format
 
 .. autoclass:: hardcopy_format
     :show-inheritance:

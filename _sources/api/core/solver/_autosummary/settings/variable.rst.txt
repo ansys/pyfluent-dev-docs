@@ -5,7 +5,7 @@
 variable
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.variable
+.. currentmodule:: ansys.fluent.core.solver.settings_222.variable
 
 .. autoclass:: variable
     :show-inheritance:

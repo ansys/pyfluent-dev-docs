@@ -5,7 +5,7 @@
 kc
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.kc
+.. currentmodule:: ansys.fluent.core.solver.settings_222.kc
 
 .. autoclass:: kc
     :show-inheritance:

@@ -5,7 +5,7 @@
 momentum_source_components
 ==========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.momentum_source_components
+.. currentmodule:: ansys.fluent.core.solver.settings_222.momentum_source_components
 
 .. autoclass:: momentum_source_components
     :show-inheritance:

@@ -5,7 +5,7 @@
 dolly
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dolly
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dolly
 
 .. autoclass:: dolly
     :show-inheritance:

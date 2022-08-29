@@ -5,7 +5,7 @@
 v_min
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.v_min
+.. currentmodule:: ansys.fluent.core.solver.settings_222.v_min
 
 .. autoclass:: v_min
     :show-inheritance:

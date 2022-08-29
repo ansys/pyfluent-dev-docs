@@ -5,7 +5,7 @@
 columns
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.columns
+.. currentmodule:: ansys.fluent.core.solver.settings_222.columns
 
 .. autoclass:: columns
     :show-inheritance:

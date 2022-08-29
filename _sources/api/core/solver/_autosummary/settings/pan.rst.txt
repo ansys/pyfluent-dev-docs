@@ -5,7 +5,7 @@
 pan
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pan
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pan
 
 .. autoclass:: pan
     :show-inheritance:

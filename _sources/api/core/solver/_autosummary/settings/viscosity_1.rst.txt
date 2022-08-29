@@ -5,7 +5,7 @@
 viscosity
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.viscosity_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.viscosity_1
 
 .. autoclass:: viscosity
     :show-inheritance:

@@ -5,7 +5,7 @@
 amg_gpgpu_options
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.amg_gpgpu_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.amg_gpgpu_options
 
 .. autoclass:: amg_gpgpu_options
     :show-inheritance:

@@ -5,7 +5,7 @@
 mc_polar_expr
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mc_polar_expr
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mc_polar_expr
 
 .. autoclass:: mc_polar_expr
     :show-inheritance:

@@ -5,7 +5,7 @@
 picture_options
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.picture_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.picture_options
 
 .. autoclass:: picture_options
     :show-inheritance:

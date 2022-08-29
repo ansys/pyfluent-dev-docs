@@ -5,7 +5,7 @@
 k_epsilon_model
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.k_epsilon_model
+.. currentmodule:: ansys.fluent.core.solver.settings_222.k_epsilon_model
 
 .. autoclass:: k_epsilon_model
     :show-inheritance:

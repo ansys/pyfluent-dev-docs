@@ -5,7 +5,7 @@
 uds_bc_child
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.uds_bc_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.uds_bc_child
 
 .. autoclass:: uds_bc_child
     :show-inheritance:

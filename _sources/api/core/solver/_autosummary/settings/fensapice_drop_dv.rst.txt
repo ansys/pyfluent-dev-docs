@@ -5,7 +5,7 @@
 fensapice_drop_dv
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fensapice_drop_dv
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fensapice_drop_dv
 
 .. autoclass:: fensapice_drop_dv
     :show-inheritance:

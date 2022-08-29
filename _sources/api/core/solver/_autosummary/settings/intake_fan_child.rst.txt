@@ -5,7 +5,7 @@
 intake_fan_child
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.intake_fan_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.intake_fan_child
 
 .. autoclass:: intake_fan_child
     :show-inheritance:

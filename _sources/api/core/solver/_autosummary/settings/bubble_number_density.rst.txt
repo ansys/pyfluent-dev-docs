@@ -5,7 +5,7 @@
 bubble_number_density
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.bubble_number_density
+.. currentmodule:: ansys.fluent.core.solver.settings_222.bubble_number_density
 
 .. autoclass:: bubble_number_density
     :show-inheritance:

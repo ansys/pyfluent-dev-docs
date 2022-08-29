@@ -5,7 +5,7 @@
 echem_reaction
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.echem_reaction
+.. currentmodule:: ansys.fluent.core.solver.settings_222.echem_reaction
 
 .. autoclass:: echem_reaction
     :show-inheritance:

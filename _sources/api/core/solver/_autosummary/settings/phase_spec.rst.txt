@@ -5,7 +5,7 @@
 phase_spec
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.phase_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.phase_spec
 
 .. autoclass:: phase_spec
     :show-inheritance:

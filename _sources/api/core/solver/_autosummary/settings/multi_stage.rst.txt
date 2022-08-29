@@ -5,7 +5,7 @@
 multi_stage
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.multi_stage
+.. currentmodule:: ansys.fluent.core.solver.settings_222.multi_stage
 
 .. autoclass:: multi_stage
     :show-inheritance:

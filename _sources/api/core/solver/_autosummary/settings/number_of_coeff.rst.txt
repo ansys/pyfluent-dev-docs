@@ -5,7 +5,7 @@
 number_of_coeff
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.number_of_coeff
+.. currentmodule:: ansys.fluent.core.solver.settings_222.number_of_coeff
 
 .. autoclass:: number_of_coeff
     :show-inheritance:

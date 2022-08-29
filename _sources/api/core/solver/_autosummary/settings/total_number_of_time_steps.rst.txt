@@ -5,7 +5,7 @@
 total_number_of_time_steps
 ==========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.total_number_of_time_steps
+.. currentmodule:: ansys.fluent.core.solver.settings_222.total_number_of_time_steps
 
 .. autoclass:: total_number_of_time_steps
     :show-inheritance:

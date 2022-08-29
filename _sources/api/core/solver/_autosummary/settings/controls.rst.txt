@@ -5,7 +5,7 @@
 controls
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.controls
+.. currentmodule:: ansys.fluent.core.solver.settings_222.controls
 
 .. autoclass:: controls
     :show-inheritance:

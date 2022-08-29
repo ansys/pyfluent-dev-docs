@@ -5,7 +5,7 @@
 dpm_bc_erosion_shear
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpm_bc_erosion_shear
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpm_bc_erosion_shear
 
 .. autoclass:: dpm_bc_erosion_shear
     :show-inheritance:

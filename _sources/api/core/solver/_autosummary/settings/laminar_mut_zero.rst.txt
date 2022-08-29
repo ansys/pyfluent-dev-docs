@@ -5,7 +5,7 @@
 laminar_mut_zero
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.laminar_mut_zero
+.. currentmodule:: ansys.fluent.core.solver.settings_222.laminar_mut_zero
 
 .. autoclass:: laminar_mut_zero
     :show-inheritance:

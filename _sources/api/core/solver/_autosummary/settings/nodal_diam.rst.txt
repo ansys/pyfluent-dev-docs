@@ -5,7 +5,7 @@
 nodal_diam
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.nodal_diam
+.. currentmodule:: ansys.fluent.core.solver.settings_222.nodal_diam
 
 .. autoclass:: nodal_diam
     :show-inheritance:

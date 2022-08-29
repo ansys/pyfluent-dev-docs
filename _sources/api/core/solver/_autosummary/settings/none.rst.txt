@@ -5,7 +5,7 @@
 none
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.none
+.. currentmodule:: ansys.fluent.core.solver.settings_222.none
 
 .. autoclass:: none
     :show-inheritance:

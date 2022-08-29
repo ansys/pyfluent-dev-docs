@@ -5,7 +5,7 @@
 total_time
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.total_time
+.. currentmodule:: ansys.fluent.core.solver.settings_222.total_time
 
 .. autoclass:: total_time
     :show-inheritance:

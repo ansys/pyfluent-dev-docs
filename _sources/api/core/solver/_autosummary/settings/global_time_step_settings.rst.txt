@@ -5,7 +5,7 @@
 global_time_step_settings
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.global_time_step_settings
+.. currentmodule:: ansys.fluent.core.solver.settings_222.global_time_step_settings
 
 .. autoclass:: global_time_step_settings
     :show-inheritance:

@@ -5,7 +5,7 @@
 scalefactor
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.scalefactor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.scalefactor
 
 .. autoclass:: scalefactor
     :show-inheritance:

@@ -5,7 +5,7 @@
 fan_zone_list
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fan_zone_list
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fan_zone_list
 
 .. autoclass:: fan_zone_list
     :show-inheritance:

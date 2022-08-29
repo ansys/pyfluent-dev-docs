@@ -5,7 +5,7 @@
 limiter_type
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.limiter_type
+.. currentmodule:: ansys.fluent.core.solver.settings_222.limiter_type
 
 .. autoclass:: limiter_type
     :show-inheritance:

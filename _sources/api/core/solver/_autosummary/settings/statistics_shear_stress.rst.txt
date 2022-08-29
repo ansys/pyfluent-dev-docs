@@ -5,7 +5,7 @@
 statistics_shear_stress
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.statistics_shear_stress
+.. currentmodule:: ansys.fluent.core.solver.settings_222.statistics_shear_stress
 
 .. autoclass:: statistics_shear_stress
     :show-inheritance:

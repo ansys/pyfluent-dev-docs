@@ -5,7 +5,7 @@
 rough_nasa
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rough_nasa
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rough_nasa
 
 .. autoclass:: rough_nasa
     :show-inheritance:

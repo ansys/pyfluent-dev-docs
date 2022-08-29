@@ -5,7 +5,7 @@
 secondary_phase_direction_components
 ====================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.secondary_phase_direction_components
+.. currentmodule:: ansys.fluent.core.solver.settings_222.secondary_phase_direction_components
 
 .. autoclass:: secondary_phase_direction_components
     :show-inheritance:

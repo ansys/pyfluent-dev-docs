@@ -5,7 +5,7 @@
 orthotropic
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.orthotropic
+.. currentmodule:: ansys.fluent.core.solver.settings_222.orthotropic
 
 .. autoclass:: orthotropic
     :show-inheritance:

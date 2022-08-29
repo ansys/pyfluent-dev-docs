@@ -5,7 +5,7 @@
 radiating_s2s_surface
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.radiating_s2s_surface
+.. currentmodule:: ansys.fluent.core.solver.settings_222.radiating_s2s_surface
 
 .. autoclass:: radiating_s2s_surface
     :show-inheritance:

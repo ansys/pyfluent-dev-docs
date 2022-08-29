@@ -5,7 +5,7 @@
 x_displacement_value
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.x_displacement_value
+.. currentmodule:: ansys.fluent.core.solver.settings_222.x_displacement_value
 
 .. autoclass:: x_displacement_value
     :show-inheritance:

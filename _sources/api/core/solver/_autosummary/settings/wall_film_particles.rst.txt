@@ -5,7 +5,7 @@
 wall_film_particles
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wall_film_particles
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wall_film_particles
 
 .. autoclass:: wall_film_particles
     :show-inheritance:

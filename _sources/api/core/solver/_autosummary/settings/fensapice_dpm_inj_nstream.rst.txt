@@ -5,7 +5,7 @@
 fensapice_dpm_inj_nstream
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fensapice_dpm_inj_nstream
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fensapice_dpm_inj_nstream
 
 .. autoclass:: fensapice_dpm_inj_nstream
     :show-inheritance:

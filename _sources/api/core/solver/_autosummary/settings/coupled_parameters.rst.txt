@@ -5,7 +5,7 @@
 coupled_parameters
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.coupled_parameters
+.. currentmodule:: ansys.fluent.core.solver.settings_222.coupled_parameters
 
 .. autoclass:: coupled_parameters
     :show-inheritance:

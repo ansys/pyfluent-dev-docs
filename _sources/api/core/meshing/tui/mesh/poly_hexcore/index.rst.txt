@@ -3,12 +3,12 @@
 meshing.tui.mesh.poly\_hexcore
 ==============================
 
-.. currentmodule:: ansys.fluent.core.meshing.tui
+.. currentmodule:: ansys.fluent.core.meshing.tui_222
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.meshing.tui::main_menu.mesh.poly_hexcore
+.. autoclass:: ansys.fluent.core.meshing.tui_222::main_menu.mesh.poly_hexcore
 .. toctree::
    :hidden:
 

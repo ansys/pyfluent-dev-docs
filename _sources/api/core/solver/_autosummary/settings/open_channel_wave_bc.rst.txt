@@ -5,7 +5,7 @@
 open_channel_wave_bc
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.open_channel_wave_bc
+.. currentmodule:: ansys.fluent.core.solver.settings_222.open_channel_wave_bc
 
 .. autoclass:: open_channel_wave_bc
     :show-inheritance:

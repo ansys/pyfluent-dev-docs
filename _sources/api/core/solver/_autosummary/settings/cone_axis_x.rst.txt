@@ -5,7 +5,7 @@
 cone_axis_x
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.cone_axis_x
+.. currentmodule:: ansys.fluent.core.solver.settings_222.cone_axis_x
 
 .. autoclass:: cone_axis_x
     :show-inheritance:

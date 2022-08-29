@@ -5,7 +5,7 @@
 zone_names
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.zone_names
+.. currentmodule:: ansys.fluent.core.solver.settings_222.zone_names
 
 .. autoclass:: zone_names
     :show-inheritance:

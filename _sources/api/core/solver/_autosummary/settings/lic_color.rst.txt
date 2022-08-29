@@ -5,7 +5,7 @@
 lic_color
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.lic_color
+.. currentmodule:: ansys.fluent.core.solver.settings_222.lic_color
 
 .. autoclass:: lic_color
     :show-inheritance:

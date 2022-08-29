@@ -5,7 +5,7 @@
 max_iterations_per_timestep
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.max_iterations_per_timestep
+.. currentmodule:: ansys.fluent.core.solver.settings_222.max_iterations_per_timestep
 
 .. autoclass:: max_iterations_per_timestep
     :show-inheritance:

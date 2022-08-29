@@ -5,7 +5,7 @@
 axis_origin_component
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.axis_origin_component_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.axis_origin_component_1
 
 .. autoclass:: axis_origin_component
     :show-inheritance:

@@ -5,7 +5,7 @@
 energy
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.energy
+.. currentmodule:: ansys.fluent.core.solver.settings_222.energy
 
 .. autoclass:: energy
     :show-inheritance:

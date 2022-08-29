@@ -5,7 +5,7 @@
 z_velocity
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.z_velocity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.z_velocity
 
 .. autoclass:: z_velocity
     :show-inheritance:

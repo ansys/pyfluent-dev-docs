@@ -5,7 +5,7 @@
 particle_tracks_child
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.particle_tracks_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.particle_tracks_child
 
 .. autoclass:: particle_tracks_child
     :show-inheritance:

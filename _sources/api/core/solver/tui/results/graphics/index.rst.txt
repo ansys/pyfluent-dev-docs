@@ -3,12 +3,12 @@
 solver.tui.results.graphics
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.tui
+.. currentmodule:: ansys.fluent.core.solver.tui_222
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.solver.tui::main_menu.results.graphics
+.. autoclass:: ansys.fluent.core.solver.tui_222::main_menu.results.graphics
    :members: annotate, clear_annotations, color_map, hsf_file
 
 .. toctree::

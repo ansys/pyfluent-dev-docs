@@ -5,7 +5,7 @@
 wsb
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings.wsb
+.. currentmodule:: ansys.fluent.core.solver.settings_222.wsb
 
 .. autoclass:: wsb
     :show-inheritance:

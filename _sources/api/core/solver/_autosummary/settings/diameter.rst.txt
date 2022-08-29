@@ -5,7 +5,7 @@
 diameter
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.diameter
+.. currentmodule:: ansys.fluent.core.solver.settings_222.diameter
 
 .. autoclass:: diameter
     :show-inheritance:

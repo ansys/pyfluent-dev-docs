@@ -5,7 +5,7 @@
 up
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.up
+.. currentmodule:: ansys.fluent.core.solver.settings_222.up
 
 .. autoclass:: up
     :show-inheritance:

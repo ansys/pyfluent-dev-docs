@@ -5,7 +5,7 @@
 mrf_relative_to_thread
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mrf_relative_to_thread
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mrf_relative_to_thread
 
 .. autoclass:: mrf_relative_to_thread
     :show-inheritance:

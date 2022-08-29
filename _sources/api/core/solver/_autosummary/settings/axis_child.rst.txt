@@ -5,7 +5,7 @@
 axis_child
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.axis_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.axis_child
 
 .. autoclass:: axis_child
     :show-inheritance:

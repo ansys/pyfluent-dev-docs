@@ -5,7 +5,7 @@
 fast_transient_settings
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fast_transient_settings
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fast_transient_settings
 
 .. autoclass:: fast_transient_settings
     :show-inheritance:

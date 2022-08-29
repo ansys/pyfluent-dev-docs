@@ -5,7 +5,7 @@
 extrapolate_vars
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.extrapolate_vars
+.. currentmodule:: ansys.fluent.core.solver.settings_222.extrapolate_vars
 
 .. autoclass:: extrapolate_vars
     :show-inheritance:

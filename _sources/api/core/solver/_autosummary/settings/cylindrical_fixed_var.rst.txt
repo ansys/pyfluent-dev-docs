@@ -5,7 +5,7 @@
 cylindrical_fixed_var
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.cylindrical_fixed_var
+.. currentmodule:: ansys.fluent.core.solver.settings_222.cylindrical_fixed_var
 
 .. autoclass:: cylindrical_fixed_var
     :show-inheritance:

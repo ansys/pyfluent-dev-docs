@@ -5,7 +5,7 @@
 local_dt_child
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.local_dt_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.local_dt_child
 
 .. autoclass:: local_dt_child
     :show-inheritance:

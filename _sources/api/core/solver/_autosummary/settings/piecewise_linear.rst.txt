@@ -5,7 +5,7 @@
 piecewise_linear
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.piecewise_linear
+.. currentmodule:: ansys.fluent.core.solver.settings_222.piecewise_linear
 
 .. autoclass:: piecewise_linear
     :show-inheritance:

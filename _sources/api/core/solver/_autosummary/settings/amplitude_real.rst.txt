@@ -5,7 +5,7 @@
 amplitude_real
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.amplitude_real
+.. currentmodule:: ansys.fluent.core.solver.settings_222.amplitude_real
 
 .. autoclass:: amplitude_real
     :show-inheritance:

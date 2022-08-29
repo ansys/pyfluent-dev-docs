@@ -5,7 +5,7 @@
 track_single_particle_stream
 ============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.track_single_particle_stream
+.. currentmodule:: ansys.fluent.core.solver.settings_222.track_single_particle_stream
 
 .. autoclass:: track_single_particle_stream
     :show-inheritance:

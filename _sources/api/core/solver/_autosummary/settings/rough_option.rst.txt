@@ -5,7 +5,7 @@
 rough_option
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rough_option
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rough_option
 
 .. autoclass:: rough_option
     :show-inheritance:

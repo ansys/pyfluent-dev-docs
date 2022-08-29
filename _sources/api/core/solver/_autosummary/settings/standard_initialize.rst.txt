@@ -5,7 +5,7 @@
 standard_initialize
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.standard_initialize
+.. currentmodule:: ansys.fluent.core.solver.settings_222.standard_initialize
 
 .. autoclass:: standard_initialize
     :show-inheritance:

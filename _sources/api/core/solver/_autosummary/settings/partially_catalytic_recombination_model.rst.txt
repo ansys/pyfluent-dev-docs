@@ -5,7 +5,7 @@
 partially_catalytic_recombination_model
 =======================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.partially_catalytic_recombination_model
+.. currentmodule:: ansys.fluent.core.solver.settings_222.partially_catalytic_recombination_model
 
 .. autoclass:: partially_catalytic_recombination_model
     :show-inheritance:

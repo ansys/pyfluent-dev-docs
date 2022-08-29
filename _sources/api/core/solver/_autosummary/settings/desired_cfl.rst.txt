@@ -5,7 +5,7 @@
 desired_cfl
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.desired_cfl
+.. currentmodule:: ansys.fluent.core.solver.settings_222.desired_cfl
 
 .. autoclass:: desired_cfl
     :show-inheritance:

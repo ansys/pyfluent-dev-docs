@@ -5,7 +5,7 @@
 track_pdf_particles
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.track_pdf_particles
+.. currentmodule:: ansys.fluent.core.solver.settings_222.track_pdf_particles
 
 .. autoclass:: track_pdf_particles
     :show-inheritance:

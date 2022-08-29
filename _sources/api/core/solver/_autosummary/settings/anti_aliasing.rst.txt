@@ -5,7 +5,7 @@
 anti_aliasing
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.anti_aliasing
+.. currentmodule:: ansys.fluent.core.solver.settings_222.anti_aliasing
 
 .. autoclass:: anti_aliasing
     :show-inheritance:

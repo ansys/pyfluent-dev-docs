@@ -5,7 +5,7 @@
 charge_density
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.charge_density
+.. currentmodule:: ansys.fluent.core.solver.settings_222.charge_density
 
 .. autoclass:: charge_density
     :show-inheritance:

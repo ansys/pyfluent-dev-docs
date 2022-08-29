@@ -5,7 +5,7 @@
 filter_maximum
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.filter_maximum
+.. currentmodule:: ansys.fluent.core.solver.settings_222.filter_maximum
 
 .. autoclass:: filter_maximum
     :show-inheritance:

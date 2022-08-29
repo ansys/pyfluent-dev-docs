@@ -5,7 +5,7 @@
 dir_spec_cond
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dir_spec_cond
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dir_spec_cond
 
 .. autoclass:: dir_spec_cond
     :show-inheritance:

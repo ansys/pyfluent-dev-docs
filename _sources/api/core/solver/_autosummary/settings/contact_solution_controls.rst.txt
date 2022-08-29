@@ -5,7 +5,7 @@
 contact_solution_controls
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.contact_solution_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_222.contact_solution_controls
 
 .. autoclass:: contact_solution_controls
     :show-inheritance:

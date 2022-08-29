@@ -5,7 +5,7 @@
 mgrid_enable_transient
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.mgrid_enable_transient
+.. currentmodule:: ansys.fluent.core.solver.settings_222.mgrid_enable_transient
 
 .. autoclass:: mgrid_enable_transient
     :show-inheritance:

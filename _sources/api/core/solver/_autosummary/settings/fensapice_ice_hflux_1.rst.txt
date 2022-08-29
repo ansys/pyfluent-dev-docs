@@ -5,7 +5,7 @@
 fensapice_ice_hflux_1
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fensapice_ice_hflux_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fensapice_ice_hflux_1
 
 .. autoclass:: fensapice_ice_hflux_1
     :show-inheritance:

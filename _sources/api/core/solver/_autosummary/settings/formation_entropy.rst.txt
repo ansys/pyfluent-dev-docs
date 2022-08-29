@@ -5,7 +5,7 @@
 formation_entropy
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.formation_entropy
+.. currentmodule:: ansys.fluent.core.solver.settings_222.formation_entropy
 
 .. autoclass:: formation_entropy
     :show-inheritance:

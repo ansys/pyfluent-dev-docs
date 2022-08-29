@@ -5,7 +5,7 @@
 dpm_allow_lwf_to_vof
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpm_allow_lwf_to_vof
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpm_allow_lwf_to_vof
 
 .. autoclass:: dpm_allow_lwf_to_vof
     :show-inheritance:

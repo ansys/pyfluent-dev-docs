@@ -5,7 +5,7 @@
 default_multi_stage_runge_kutta
 ===============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.default_multi_stage_runge_kutta
+.. currentmodule:: ansys.fluent.core.solver.settings_222.default_multi_stage_runge_kutta
 
 .. autoclass:: default_multi_stage_runge_kutta
     :show-inheritance:

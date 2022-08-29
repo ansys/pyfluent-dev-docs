@@ -5,7 +5,7 @@
 max_value
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.max_value
+.. currentmodule:: ansys.fluent.core.solver.settings_222.max_value
 
 .. autoclass:: max_value
     :show-inheritance:

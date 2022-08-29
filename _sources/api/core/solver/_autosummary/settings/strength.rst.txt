@@ -5,7 +5,7 @@
 strength
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.strength
+.. currentmodule:: ansys.fluent.core.solver.settings_222.strength
 
 .. autoclass:: strength
     :show-inheritance:

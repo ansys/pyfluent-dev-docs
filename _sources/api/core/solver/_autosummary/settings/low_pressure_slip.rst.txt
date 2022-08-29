@@ -5,7 +5,7 @@
 low_pressure_slip
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.low_pressure_slip
+.. currentmodule:: ansys.fluent.core.solver.settings_222.low_pressure_slip
 
 .. autoclass:: low_pressure_slip
     :show-inheritance:

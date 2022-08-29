@@ -5,7 +5,7 @@
 solut_exp_coeff
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solut_exp_coeff
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solut_exp_coeff
 
 .. autoclass:: solut_exp_coeff
     :show-inheritance:

@@ -5,7 +5,7 @@
 flux_child
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.flux_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.flux_child
 
 .. autoclass:: flux_child
     :show-inheritance:

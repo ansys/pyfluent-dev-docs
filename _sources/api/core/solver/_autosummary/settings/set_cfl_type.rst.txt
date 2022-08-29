@@ -5,7 +5,7 @@
 set_cfl_type
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.set_cfl_type
+.. currentmodule:: ansys.fluent.core.solver.settings_222.set_cfl_type
 
 .. autoclass:: set_cfl_type
     :show-inheritance:

@@ -5,7 +5,7 @@
 uv
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings.uv
+.. currentmodule:: ansys.fluent.core.solver.settings_222.uv
 
 .. autoclass:: uv
     :show-inheritance:

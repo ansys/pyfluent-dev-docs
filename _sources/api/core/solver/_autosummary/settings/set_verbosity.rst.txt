@@ -5,7 +5,7 @@
 set_verbosity
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.set_verbosity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.set_verbosity
 
 .. autoclass:: set_verbosity
     :show-inheritance:

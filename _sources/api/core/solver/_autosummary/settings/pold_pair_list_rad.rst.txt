@@ -5,7 +5,7 @@
 pold_pair_list_rad
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pold_pair_list_rad
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pold_pair_list_rad
 
 .. autoclass:: pold_pair_list_rad
     :show-inheritance:

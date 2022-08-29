@@ -5,7 +5,7 @@
 solid_motion_velocity_components
 ================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solid_motion_velocity_components
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solid_motion_velocity_components
 
 .. autoclass:: solid_motion_velocity_components
     :show-inheritance:

@@ -5,7 +5,7 @@
 velocity_formulation
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.velocity_formulation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.velocity_formulation
 
 .. autoclass:: velocity_formulation
     :show-inheritance:

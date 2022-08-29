@@ -5,7 +5,7 @@
 turbulence_options
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.turbulence_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.turbulence_options
 
 .. autoclass:: turbulence_options
     :show-inheritance:

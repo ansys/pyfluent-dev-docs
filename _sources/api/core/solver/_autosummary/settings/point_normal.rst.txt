@@ -5,7 +5,7 @@
 point_normal
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.point_normal
+.. currentmodule:: ansys.fluent.core.solver.settings_222.point_normal
 
 .. autoclass:: point_normal
     :show-inheritance:

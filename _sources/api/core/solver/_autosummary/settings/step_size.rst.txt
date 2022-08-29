@@ -5,7 +5,7 @@
 step_size
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.step_size
+.. currentmodule:: ansys.fluent.core.solver.settings_222.step_size
 
 .. autoclass:: step_size
     :show-inheritance:

@@ -5,7 +5,7 @@
 per_zone
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.per_zone
+.. currentmodule:: ansys.fluent.core.solver.settings_222.per_zone
 
 .. autoclass:: per_zone
     :show-inheritance:

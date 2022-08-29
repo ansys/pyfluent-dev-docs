@@ -5,7 +5,7 @@
 p_v_coupling
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.p_v_coupling
+.. currentmodule:: ansys.fluent.core.solver.settings_222.p_v_coupling
 
 .. autoclass:: p_v_coupling
     :show-inheritance:

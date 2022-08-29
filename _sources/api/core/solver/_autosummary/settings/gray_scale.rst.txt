@@ -5,7 +5,7 @@
 gray_scale
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.gray_scale
+.. currentmodule:: ansys.fluent.core.solver.settings_222.gray_scale
 
 .. autoclass:: gray_scale
     :show-inheritance:

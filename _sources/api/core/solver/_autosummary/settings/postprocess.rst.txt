@@ -5,7 +5,7 @@
 postprocess
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.postprocess
+.. currentmodule:: ansys.fluent.core.solver.settings_222.postprocess
 
 .. autoclass:: postprocess
     :show-inheritance:

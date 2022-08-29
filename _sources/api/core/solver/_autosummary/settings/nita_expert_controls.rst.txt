@@ -5,7 +5,7 @@
 nita_expert_controls
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.nita_expert_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_222.nita_expert_controls
 
 .. autoclass:: nita_expert_controls
     :show-inheritance:

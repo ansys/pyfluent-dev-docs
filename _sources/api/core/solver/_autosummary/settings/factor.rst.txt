@@ -5,7 +5,7 @@
 factor
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.factor
+.. currentmodule:: ansys.fluent.core.solver.settings_222.factor
 
 .. autoclass:: factor
     :show-inheritance:

@@ -5,7 +5,7 @@
 offset
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.offset
+.. currentmodule:: ansys.fluent.core.solver.settings_222.offset
 
 .. autoclass:: offset
     :show-inheritance:

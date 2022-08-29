@@ -5,7 +5,7 @@
 limit_range
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.limit_range
+.. currentmodule:: ansys.fluent.core.solver.settings_222.limit_range
 
 .. autoclass:: limit_range
     :show-inheritance:

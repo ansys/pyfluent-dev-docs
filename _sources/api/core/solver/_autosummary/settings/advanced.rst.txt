@@ -5,7 +5,7 @@
 advanced
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.advanced
+.. currentmodule:: ansys.fluent.core.solver.settings_222.advanced
 
 .. autoclass:: advanced
     :show-inheritance:

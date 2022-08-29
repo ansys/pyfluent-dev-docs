@@ -5,7 +5,7 @@
 transient_parameters_specify
 ============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.transient_parameters_specify
+.. currentmodule:: ansys.fluent.core.solver.settings_222.transient_parameters_specify
 
 .. autoclass:: transient_parameters_specify
     :show-inheritance:

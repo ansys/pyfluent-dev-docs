@@ -5,7 +5,7 @@
 expert
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.expert_2
+.. currentmodule:: ansys.fluent.core.solver.settings_222.expert_2
 
 .. autoclass:: expert
     :show-inheritance:

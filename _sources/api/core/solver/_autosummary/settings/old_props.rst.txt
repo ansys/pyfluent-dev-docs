@@ -5,7 +5,7 @@
 old_props
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.old_props
+.. currentmodule:: ansys.fluent.core.solver.settings_222.old_props
 
 .. autoclass:: old_props
     :show-inheritance:

@@ -3,11 +3,11 @@
 meshing.datamodel.PMFileManagement.FileManager
 ==============================================
 
-.. currentmodule:: ansys.fluent.core.datamodel.PMFileManagement
+.. currentmodule:: ansys.fluent.core.datamodel_222.PMFileManagement
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.datamodel.PMFileManagement::Root.FileManager
+.. autoclass:: ansys.fluent.core.datamodel_222.PMFileManagement::Root.FileManager
    :members: Children, Name, DeleteCadKey, LoadFiles, Reload, Unload
 

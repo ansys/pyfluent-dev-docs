@@ -5,7 +5,7 @@
 replace_mesh
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.replace_mesh
+.. currentmodule:: ansys.fluent.core.solver.settings_222.replace_mesh
 
 .. autoclass:: replace_mesh
     :show-inheritance:

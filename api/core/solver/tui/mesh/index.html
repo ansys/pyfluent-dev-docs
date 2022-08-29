@@ -8283,120 +8283,120 @@
 </tbody>
 </table>
 <dl class="py class">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">main_menu.</span></span><span class="sig-name descname"><span class="pre">mesh</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">service</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">main_menu.</span></span><span class="sig-name descname"><span class="pre">mesh</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">path</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">service</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh" title="Permalink to this definition">#</a></dt>
 <dd><p>Enter the mesh menu.</p>
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.adjacency">
-<span class="sig-name descname"><span class="pre">adjacency</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.adjacency" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.adjacency">
+<span class="sig-name descname"><span class="pre">adjacency</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.adjacency" title="Permalink to this definition">#</a></dt>
 <dd><p>Views and renames face zones adjacent to selected cell  zones.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.check">
-<span class="sig-name descname"><span class="pre">check</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.check" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.check">
+<span class="sig-name descname"><span class="pre">check</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.check" title="Permalink to this definition">#</a></dt>
 <dd><p>Performs various mesh consistency checks and displays a report in the console that lists the domain extents, the volume statistics, the face area statistics, and any warnings, as well as details about the various checks and mesh failures (depending on the setting specified for mesh/check-verbosity).</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.check_before_solve">
-<span class="sig-name descname"><span class="pre">check_before_solve</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.check_before_solve" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.check_before_solve">
+<span class="sig-name descname"><span class="pre">check_before_solve</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.check_before_solve" title="Permalink to this definition">#</a></dt>
 <dd><p>The default value for mesh/check-before-solve is “no”. If mesh/check-before-solve is set to “yes”, a mesh check operation will be invoked prior to starting solver. If grid check fails, solver will be interrupted, and relevant information will be printed in the Fluent console.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.check_verbosity">
-<span class="sig-name descname"><span class="pre">check_verbosity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.check_verbosity" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.check_verbosity">
+<span class="sig-name descname"><span class="pre">check_verbosity</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.check_verbosity" title="Permalink to this definition">#</a></dt>
 <dd><p>Sets the level of details that will be added to the mesh check report generated by mesh/check. A value of 0 (the default) notes when checks are being performed, but does not list them individually. A value of 1 lists the individual checks as they are performed. A value of 2 enables the availability of additional mesh field variables, lists the individual checks as they are performed, and provides additional details (for example, the location of the problem, the affected cells).  The check-verbosity text command can also be used to set the level of detail displayed in the mesh quality report generated by mesh/quality. A value of 0 (the default) or 1 lists the minimum orthogonal quality and the maximum aspect ratio. A value of 2 adds information about the zones that contain the cells with the lowest quality, and additional metrics such as the maximum cell squish index and the minimum expansion ratio.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.enhanced_orthogonal_quality">
-<span class="sig-name descname"><span class="pre">enhanced_orthogonal_quality</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.enhanced_orthogonal_quality" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.enhanced_orthogonal_quality">
+<span class="sig-name descname"><span class="pre">enhanced_orthogonal_quality</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.enhanced_orthogonal_quality" title="Permalink to this definition">#</a></dt>
 <dd><p>Enables / disables an enhanced definition when calculating the orthogonal quality. When enabled, the orthogonal quality is defined using a variety quality measures, including: the orthogonality of a face relative to a vector between the face and cell centroids; a metric that detects poor cell shape at a local edge (such as twisting and/or concavity); and the variation of normals between the faces that can be constructed from the cell face. This enhanced definition is optimal for evaluating thin prism cells.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.memory_usage">
-<span class="sig-name descname"><span class="pre">memory_usage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.memory_usage" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.memory_usage">
+<span class="sig-name descname"><span class="pre">memory_usage</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.memory_usage" title="Permalink to this definition">#</a></dt>
 <dd><p>Reports solver memory use.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.mesh_info">
-<span class="sig-name descname"><span class="pre">mesh_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.mesh_info" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.mesh_info">
+<span class="sig-name descname"><span class="pre">mesh_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.mesh_info" title="Permalink to this definition">#</a></dt>
 <dd><p>Prints zone information size.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.quality">
-<span class="sig-name descname"><span class="pre">quality</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.quality" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.quality">
+<span class="sig-name descname"><span class="pre">quality</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.quality" title="Permalink to this definition">#</a></dt>
 <dd><p>Displays information about the quality of the mesh in the console, including the minimum orthogonal quality and the maximum aspect ratio. The level of detail displayed depends on the setting specified for mesh/check-verbosity.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.redistribute_boundary_layer">
-<span class="sig-name descname"><span class="pre">redistribute_boundary_layer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.redistribute_boundary_layer" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.redistribute_boundary_layer">
+<span class="sig-name descname"><span class="pre">redistribute_boundary_layer</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.redistribute_boundary_layer" title="Permalink to this definition">#</a></dt>
 <dd><p>Redistributes the nodes in a boundary layer zone to achieve a desired growth rate after anisotropic adaption.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.replace">
-<span class="sig-name descname"><span class="pre">replace</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.replace" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.replace">
+<span class="sig-name descname"><span class="pre">replace</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.replace" title="Permalink to this definition">#</a></dt>
 <dd><p>Replace mesh and interpolate data.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.rotate">
-<span class="sig-name descname"><span class="pre">rotate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.rotate" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.rotate">
+<span class="sig-name descname"><span class="pre">rotate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.rotate" title="Permalink to this definition">#</a></dt>
 <dd><p>Rotates the mesh.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.scale">
-<span class="sig-name descname"><span class="pre">scale</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.scale" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.scale">
+<span class="sig-name descname"><span class="pre">scale</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.scale" title="Permalink to this definition">#</a></dt>
 <dd><p>Prompts for the scaling factors in each of the active Cartesian coordinate directions.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.set_unit_system">
-<span class="sig-name descname"><span class="pre">set_unit_system</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.set_unit_system" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.set_unit_system">
+<span class="sig-name descname"><span class="pre">set_unit_system</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.set_unit_system" title="Permalink to this definition">#</a></dt>
 <dd><p>To apply standard set of units to all quantities.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.show_periodic_shadow_zones">
-<span class="sig-name descname"><span class="pre">show_periodic_shadow_zones</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.show_periodic_shadow_zones" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.show_periodic_shadow_zones">
+<span class="sig-name descname"><span class="pre">show_periodic_shadow_zones</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.show_periodic_shadow_zones" title="Permalink to this definition">#</a></dt>
 <dd><p>Option to show periodic shadow zones in user interface.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.size_info">
-<span class="sig-name descname"><span class="pre">size_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.size_info" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.size_info">
+<span class="sig-name descname"><span class="pre">size_info</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.size_info" title="Permalink to this definition">#</a></dt>
 <dd><p>Prints mesh size.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.smooth_mesh">
-<span class="sig-name descname"><span class="pre">smooth_mesh</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.smooth_mesh" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.smooth_mesh">
+<span class="sig-name descname"><span class="pre">smooth_mesh</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.smooth_mesh" title="Permalink to this definition">#</a></dt>
 <dd><p>Smooths the mesh using quality-based, Laplacian, or skewness methods.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.swap_mesh_faces">
-<span class="sig-name descname"><span class="pre">swap_mesh_faces</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.swap_mesh_faces" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.swap_mesh_faces">
+<span class="sig-name descname"><span class="pre">swap_mesh_faces</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.swap_mesh_faces" title="Permalink to this definition">#</a></dt>
 <dd><p>Swaps mesh faces.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.translate">
-<span class="sig-name descname"><span class="pre">translate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.translate" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.translate">
+<span class="sig-name descname"><span class="pre">translate</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.translate" title="Permalink to this definition">#</a></dt>
 <dd><p>Prompts for the translation offset in each of the active Cartesian coordinate directions.</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui.main_menu.mesh.units">
-<span class="sig-name descname"><span class="pre">units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui.main_menu.mesh.units" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.tui_222.main_menu.mesh.units">
+<span class="sig-name descname"><span class="pre">units</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.tui_222.main_menu.mesh.units" title="Permalink to this definition">#</a></dt>
 <dd><p>Set unit conversion factors.</p>
 </dd></dl>
 

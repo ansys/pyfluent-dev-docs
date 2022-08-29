@@ -5,7 +5,7 @@
 height
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.height
+.. currentmodule:: ansys.fluent.core.solver.settings_222.height
 
 .. autoclass:: height
     :show-inheritance:

@@ -5,7 +5,7 @@
 film_phase_change
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.film_phase_change
+.. currentmodule:: ansys.fluent.core.solver.settings_222.film_phase_change
 
 .. autoclass:: film_phase_change
     :show-inheritance:

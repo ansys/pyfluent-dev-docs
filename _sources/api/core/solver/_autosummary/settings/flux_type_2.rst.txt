@@ -5,7 +5,7 @@
 flux_type
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.flux_type_2
+.. currentmodule:: ansys.fluent.core.solver.settings_222.flux_type_2
 
 .. autoclass:: flux_type
     :show-inheritance:

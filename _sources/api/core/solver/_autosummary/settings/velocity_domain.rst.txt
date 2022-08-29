@@ -5,7 +5,7 @@
 velocity_domain
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.velocity_domain
+.. currentmodule:: ansys.fluent.core.solver.settings_222.velocity_domain
 
 .. autoclass:: velocity_domain
     :show-inheritance:

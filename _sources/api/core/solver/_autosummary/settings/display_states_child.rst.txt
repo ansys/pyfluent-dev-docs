@@ -5,7 +5,7 @@
 display_states_child
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.display_states_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.display_states_child
 
 .. autoclass:: display_states_child
     :show-inheritance:

@@ -5,7 +5,7 @@
 tss_scalar
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.tss_scalar
+.. currentmodule:: ansys.fluent.core.solver.settings_222.tss_scalar
 
 .. autoclass:: tss_scalar
     :show-inheritance:

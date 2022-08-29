@@ -5,7 +5,7 @@
 fixed_length
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fixed_length
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fixed_length
 
 .. autoclass:: fixed_length
     :show-inheritance:

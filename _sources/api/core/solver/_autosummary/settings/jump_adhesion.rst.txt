@@ -5,7 +5,7 @@
 jump_adhesion
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.jump_adhesion
+.. currentmodule:: ansys.fluent.core.solver.settings_222.jump_adhesion
 
 .. autoclass:: jump_adhesion
     :show-inheritance:

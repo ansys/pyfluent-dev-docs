@@ -5,7 +5,7 @@
 relaxation_factors
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.relaxation_factors
+.. currentmodule:: ansys.fluent.core.solver.settings_222.relaxation_factors
 
 .. autoclass:: relaxation_factors
     :show-inheritance:

@@ -5,7 +5,7 @@
 constant_length
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.constant_length
+.. currentmodule:: ansys.fluent.core.solver.settings_222.constant_length
 
 .. autoclass:: constant_length
     :show-inheritance:

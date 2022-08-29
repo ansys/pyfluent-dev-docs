@@ -5,7 +5,7 @@
 q_dot
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.q_dot
+.. currentmodule:: ansys.fluent.core.solver.settings_222.q_dot
 
 .. autoclass:: q_dot
     :show-inheritance:

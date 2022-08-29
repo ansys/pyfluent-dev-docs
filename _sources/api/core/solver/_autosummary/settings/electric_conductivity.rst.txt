@@ -5,7 +5,7 @@
 electric_conductivity
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.electric_conductivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.electric_conductivity
 
 .. autoclass:: electric_conductivity
     :show-inheritance:

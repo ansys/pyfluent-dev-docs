@@ -5,7 +5,7 @@
 filled
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.filled
+.. currentmodule:: ansys.fluent.core.solver.settings_222.filled
 
 .. autoclass:: filled
     :show-inheritance:

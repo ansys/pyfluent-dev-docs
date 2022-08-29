@@ -5,7 +5,7 @@
 thread_ids
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.thread_ids
+.. currentmodule:: ansys.fluent.core.solver.settings_222.thread_ids
 
 .. autoclass:: thread_ids
     :show-inheritance:

@@ -5,7 +5,7 @@
 struct_damping_beta
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.struct_damping_beta
+.. currentmodule:: ansys.fluent.core.solver.settings_222.struct_damping_beta
 
 .. autoclass:: struct_damping_beta
     :show-inheritance:

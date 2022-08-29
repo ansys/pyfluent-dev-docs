@@ -5,7 +5,7 @@
 flux_auto_select
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.flux_auto_select
+.. currentmodule:: ansys.fluent.core.solver.settings_222.flux_auto_select
 
 .. autoclass:: flux_auto_select
     :show-inheritance:

@@ -5,7 +5,7 @@
 cfl_based_adaptive_time_stepping
 ================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.cfl_based_adaptive_time_stepping
+.. currentmodule:: ansys.fluent.core.solver.settings_222.cfl_based_adaptive_time_stepping
 
 .. autoclass:: cfl_based_adaptive_time_stepping
     :show-inheritance:

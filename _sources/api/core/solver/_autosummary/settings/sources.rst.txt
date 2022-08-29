@@ -5,7 +5,7 @@
 sources
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.sources
+.. currentmodule:: ansys.fluent.core.solver.settings_222.sources
 
 .. autoclass:: sources
     :show-inheritance:

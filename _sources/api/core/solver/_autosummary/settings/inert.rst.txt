@@ -5,7 +5,7 @@
 inert
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.inert
+.. currentmodule:: ansys.fluent.core.solver.settings_222.inert
 
 .. autoclass:: inert
     :show-inheritance:

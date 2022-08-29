@@ -5,7 +5,7 @@
 premix_heat_trans_coeff
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.premix_heat_trans_coeff
+.. currentmodule:: ansys.fluent.core.solver.settings_222.premix_heat_trans_coeff
 
 .. autoclass:: premix_heat_trans_coeff
     :show-inheritance:

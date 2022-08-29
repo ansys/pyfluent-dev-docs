@@ -5,7 +5,7 @@
 origin_position_of_rotation_axis
 ================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.origin_position_of_rotation_axis
+.. currentmodule:: ansys.fluent.core.solver.settings_222.origin_position_of_rotation_axis
 
 .. autoclass:: origin_position_of_rotation_axis
     :show-inheritance:

@@ -5,7 +5,7 @@
 film_momentum_coupling
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.film_momentum_coupling
+.. currentmodule:: ansys.fluent.core.solver.settings_222.film_momentum_coupling
 
 .. autoclass:: film_momentum_coupling
     :show-inheritance:

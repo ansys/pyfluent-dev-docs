@@ -5,7 +5,7 @@
 production_kato_launder
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.production_kato_launder
+.. currentmodule:: ansys.fluent.core.solver.settings_222.production_kato_launder
 
 .. autoclass:: production_kato_launder
     :show-inheritance:

@@ -5,7 +5,7 @@
 solve_tke
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solve_tke
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solve_tke
 
 .. autoclass:: solve_tke
     :show-inheritance:

@@ -5,7 +5,7 @@
 film_wall_bc
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.film_wall_bc
+.. currentmodule:: ansys.fluent.core.solver.settings_222.film_wall_bc
 
 .. autoclass:: film_wall_bc
     :show-inheritance:

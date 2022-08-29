@@ -5,7 +5,7 @@
 pressure_work
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pressure_work
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pressure_work
 
 .. autoclass:: pressure_work
     :show-inheritance:

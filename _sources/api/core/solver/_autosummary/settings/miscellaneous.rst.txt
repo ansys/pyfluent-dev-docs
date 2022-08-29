@@ -5,7 +5,7 @@
 miscellaneous
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.miscellaneous
+.. currentmodule:: ansys.fluent.core.solver.settings_222.miscellaneous
 
 .. autoclass:: miscellaneous
     :show-inheritance:

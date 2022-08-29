@@ -5,7 +5,7 @@
 external_aero
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.external_aero
+.. currentmodule:: ansys.fluent.core.solver.settings_222.external_aero
 
 .. autoclass:: external_aero
     :show-inheritance:

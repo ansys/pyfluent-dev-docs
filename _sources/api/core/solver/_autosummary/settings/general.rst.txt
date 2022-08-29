@@ -5,7 +5,7 @@
 general
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.general
+.. currentmodule:: ansys.fluent.core.solver.settings_222.general
 
 .. autoclass:: general
     :show-inheritance:

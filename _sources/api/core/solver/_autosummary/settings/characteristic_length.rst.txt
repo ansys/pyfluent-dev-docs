@@ -5,7 +5,7 @@
 characteristic_length
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.characteristic_length
+.. currentmodule:: ansys.fluent.core.solver.settings_222.characteristic_length
 
 .. autoclass:: characteristic_length
     :show-inheritance:

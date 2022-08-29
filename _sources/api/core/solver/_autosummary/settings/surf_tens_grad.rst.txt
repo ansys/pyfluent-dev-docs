@@ -5,7 +5,7 @@
 surf_tens_grad
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.surf_tens_grad
+.. currentmodule:: ansys.fluent.core.solver.settings_222.surf_tens_grad
 
 .. autoclass:: surf_tens_grad
     :show-inheritance:

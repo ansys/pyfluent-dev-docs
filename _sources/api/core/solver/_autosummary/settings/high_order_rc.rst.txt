@@ -5,7 +5,7 @@
 high_order_rc
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.high_order_rc
+.. currentmodule:: ansys.fluent.core.solver.settings_222.high_order_rc
 
 .. autoclass:: high_order_rc
     :show-inheritance:

@@ -5,7 +5,7 @@
 incremental_time
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.incremental_time
+.. currentmodule:: ansys.fluent.core.solver.settings_222.incremental_time
 
 .. autoclass:: incremental_time
     :show-inheritance:

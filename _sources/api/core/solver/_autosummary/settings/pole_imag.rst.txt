@@ -5,7 +5,7 @@
 pole_imag
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pole_imag
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pole_imag
 
 .. autoclass:: pole_imag
     :show-inheritance:

@@ -5,7 +5,7 @@
 ac_options
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ac_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ac_options
 
 .. autoclass:: ac_options
     :show-inheritance:

@@ -5,7 +5,7 @@
 lwf_reset
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.lwf_reset
+.. currentmodule:: ansys.fluent.core.solver.settings_222.lwf_reset
 
 .. autoclass:: lwf_reset
     :show-inheritance:

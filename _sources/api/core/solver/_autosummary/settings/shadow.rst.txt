@@ -5,7 +5,7 @@
 shadow
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.shadow
+.. currentmodule:: ansys.fluent.core.solver.settings_222.shadow
 
 .. autoclass:: shadow
     :show-inheritance:

@@ -5,7 +5,7 @@
 fvar
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fvar
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fvar
 
 .. autoclass:: fvar
     :show-inheritance:

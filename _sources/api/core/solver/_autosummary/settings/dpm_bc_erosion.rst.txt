@@ -5,7 +5,7 @@
 dpm_bc_erosion
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpm_bc_erosion
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpm_bc_erosion
 
 .. autoclass:: dpm_bc_erosion
     :show-inheritance:

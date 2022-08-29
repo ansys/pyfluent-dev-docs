@@ -5,7 +5,7 @@
 global_dt
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.global_dt
+.. currentmodule:: ansys.fluent.core.solver.settings_222.global_dt
 
 .. autoclass:: global_dt
     :show-inheritance:

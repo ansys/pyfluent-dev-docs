@@ -5,7 +5,7 @@
 density
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.density
+.. currentmodule:: ansys.fluent.core.solver.settings_222.density
 
 .. autoclass:: density
     :show-inheritance:

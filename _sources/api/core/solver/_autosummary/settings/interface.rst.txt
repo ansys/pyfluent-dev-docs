@@ -5,7 +5,7 @@
 interface
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.interface
+.. currentmodule:: ansys.fluent.core.solver.settings_222.interface
 
 .. autoclass:: interface
     :show-inheritance:

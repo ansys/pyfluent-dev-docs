@@ -5,7 +5,7 @@
 solid_diffusion
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solid_diffusion
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solid_diffusion
 
 .. autoclass:: solid_diffusion
     :show-inheritance:

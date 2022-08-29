@@ -5,7 +5,7 @@
 neighbor_correction_itr
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.neighbor_correction_itr
+.. currentmodule:: ansys.fluent.core.solver.settings_222.neighbor_correction_itr
 
 .. autoclass:: neighbor_correction_itr
     :show-inheritance:

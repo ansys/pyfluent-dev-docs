@@ -5,7 +5,7 @@
 ksgs
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ksgs
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ksgs
 
 .. autoclass:: ksgs
     :show-inheritance:

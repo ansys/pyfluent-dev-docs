@@ -5,7 +5,7 @@
 evaporation_condensation
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.evaporation_condensation
+.. currentmodule:: ansys.fluent.core.solver.settings_222.evaporation_condensation
 
 .. autoclass:: evaporation_condensation
     :show-inheritance:

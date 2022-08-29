@@ -5,7 +5,7 @@
 archive
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.archive
+.. currentmodule:: ansys.fluent.core.solver.settings_222.archive
 
 .. autoclass:: archive
     :show-inheritance:

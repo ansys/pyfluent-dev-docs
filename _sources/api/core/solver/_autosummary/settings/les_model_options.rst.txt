@@ -5,7 +5,7 @@
 les_model_options
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.les_model_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.les_model_options
 
 .. autoclass:: les_model_options
     :show-inheritance:

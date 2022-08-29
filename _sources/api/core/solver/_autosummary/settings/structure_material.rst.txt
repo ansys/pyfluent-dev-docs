@@ -5,7 +5,7 @@
 structure_material
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.structure_material
+.. currentmodule:: ansys.fluent.core.solver.settings_222.structure_material
 
 .. autoclass:: structure_material
     :show-inheritance:

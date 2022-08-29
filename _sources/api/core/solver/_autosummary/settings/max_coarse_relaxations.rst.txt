@@ -5,7 +5,7 @@
 max_coarse_relaxations
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.max_coarse_relaxations
+.. currentmodule:: ansys.fluent.core.solver.settings_222.max_coarse_relaxations
 
 .. autoclass:: max_coarse_relaxations
     :show-inheritance:

@@ -5,7 +5,7 @@
 method
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.method
+.. currentmodule:: ansys.fluent.core.solver.settings_222.method
 
 .. autoclass:: method
     :show-inheritance:

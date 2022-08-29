@@ -5,7 +5,7 @@
 van_genuchten_pg
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.van_genuchten_pg
+.. currentmodule:: ansys.fluent.core.solver.settings_222.van_genuchten_pg
 
 .. autoclass:: van_genuchten_pg
     :show-inheritance:

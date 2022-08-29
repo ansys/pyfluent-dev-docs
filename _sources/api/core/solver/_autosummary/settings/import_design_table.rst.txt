@@ -5,7 +5,7 @@
 import_design_table
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.import_design_table
+.. currentmodule:: ansys.fluent.core.solver.settings_222.import_design_table
 
 .. autoclass:: import_design_table
     :show-inheritance:

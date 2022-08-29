@@ -5,7 +5,7 @@
 advanced_stability_controls
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.advanced_stability_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_222.advanced_stability_controls
 
 .. autoclass:: advanced_stability_controls
     :show-inheritance:

@@ -5,7 +5,7 @@
 film_contact_angle_mean
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.film_contact_angle_mean
+.. currentmodule:: ansys.fluent.core.solver.settings_222.film_contact_angle_mean
 
 .. autoclass:: film_contact_angle_mean
     :show-inheritance:

@@ -5,7 +5,7 @@
 marker_size
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.marker_size
+.. currentmodule:: ansys.fluent.core.solver.settings_222.marker_size
 
 .. autoclass:: marker_size
     :show-inheritance:

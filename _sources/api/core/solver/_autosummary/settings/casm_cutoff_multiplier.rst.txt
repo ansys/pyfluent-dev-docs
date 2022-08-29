@@ -5,7 +5,7 @@
 casm_cutoff_multiplier
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.casm_cutoff_multiplier
+.. currentmodule:: ansys.fluent.core.solver.settings_222.casm_cutoff_multiplier
 
 .. autoclass:: casm_cutoff_multiplier
     :show-inheritance:

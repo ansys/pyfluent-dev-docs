@@ -5,7 +5,7 @@
 periodic_child
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.periodic_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.periodic_child
 
 .. autoclass:: periodic_child
     :show-inheritance:

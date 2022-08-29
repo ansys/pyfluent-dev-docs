@@ -5,7 +5,7 @@
 viscous
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.viscous_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.viscous_1
 
 .. autoclass:: viscous
     :show-inheritance:

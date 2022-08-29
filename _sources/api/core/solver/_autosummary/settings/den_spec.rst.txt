@@ -5,7 +5,7 @@
 den_spec
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.den_spec
+.. currentmodule:: ansys.fluent.core.solver.settings_222.den_spec
 
 .. autoclass:: den_spec
     :show-inheritance:

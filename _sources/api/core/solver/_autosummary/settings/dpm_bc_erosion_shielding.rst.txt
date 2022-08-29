@@ -5,7 +5,7 @@
 dpm_bc_erosion_shielding
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpm_bc_erosion_shielding
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpm_bc_erosion_shielding
 
 .. autoclass:: dpm_bc_erosion_shielding
     :show-inheritance:

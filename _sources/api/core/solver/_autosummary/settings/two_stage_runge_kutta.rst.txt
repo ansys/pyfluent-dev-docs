@@ -5,7 +5,7 @@
 two_stage_runge_kutta
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.two_stage_runge_kutta
+.. currentmodule:: ansys.fluent.core.solver.settings_222.two_stage_runge_kutta
 
 .. autoclass:: two_stage_runge_kutta
     :show-inheritance:

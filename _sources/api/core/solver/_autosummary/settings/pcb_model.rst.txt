@@ -5,7 +5,7 @@
 pcb_model
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pcb_model
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pcb_model
 
 .. autoclass:: pcb_model
     :show-inheritance:

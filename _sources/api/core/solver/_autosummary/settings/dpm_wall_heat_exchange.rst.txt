@@ -5,7 +5,7 @@
 dpm_wall_heat_exchange
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dpm_wall_heat_exchange
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dpm_wall_heat_exchange
 
 .. autoclass:: dpm_wall_heat_exchange
     :show-inheritance:

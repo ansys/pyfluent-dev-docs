@@ -5,7 +5,7 @@
 scattering_coefficient
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.scattering_coefficient
+.. currentmodule:: ansys.fluent.core.solver.settings_222.scattering_coefficient
 
 .. autoclass:: scattering_coefficient
     :show-inheritance:

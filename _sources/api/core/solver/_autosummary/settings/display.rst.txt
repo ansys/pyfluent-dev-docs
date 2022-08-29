@@ -5,7 +5,7 @@
 display
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.display
+.. currentmodule:: ansys.fluent.core.solver.settings_222.display
 
 .. autoclass:: display
     :show-inheritance:

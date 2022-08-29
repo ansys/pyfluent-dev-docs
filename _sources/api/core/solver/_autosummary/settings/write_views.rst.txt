@@ -5,7 +5,7 @@
 write_views
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.write_views
+.. currentmodule:: ansys.fluent.core.solver.settings_222.write_views
 
 .. autoclass:: write_views
     :show-inheritance:

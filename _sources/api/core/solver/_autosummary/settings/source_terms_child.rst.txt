@@ -5,7 +5,7 @@
 source_terms_child
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.source_terms_child
+.. currentmodule:: ansys.fluent.core.solver.settings_222.source_terms_child
 
 .. autoclass:: source_terms_child
     :show-inheritance:

@@ -5,7 +5,7 @@
 direction_1_x
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.direction_1_x
+.. currentmodule:: ansys.fluent.core.solver.settings_222.direction_1_x
 
 .. autoclass:: direction_1_x
     :show-inheritance:

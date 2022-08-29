@@ -5,7 +5,7 @@
 van_genuchten_ng
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.van_genuchten_ng
+.. currentmodule:: ansys.fluent.core.solver.settings_222.van_genuchten_ng
 
 .. autoclass:: van_genuchten_ng
     :show-inheritance:

@@ -5,7 +5,7 @@
 symmetry
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.symmetry
+.. currentmodule:: ansys.fluent.core.solver.settings_222.symmetry
 
 .. autoclass:: symmetry
     :show-inheritance:

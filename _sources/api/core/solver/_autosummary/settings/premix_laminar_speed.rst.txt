@@ -5,7 +5,7 @@
 premix_laminar_speed
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.premix_laminar_speed
+.. currentmodule:: ansys.fluent.core.solver.settings_222.premix_laminar_speed
 
 .. autoclass:: premix_laminar_speed
     :show-inheritance:

@@ -5,7 +5,7 @@
 coarsening_parameters
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.coarsening_parameters
+.. currentmodule:: ansys.fluent.core.solver.settings_222.coarsening_parameters
 
 .. autoclass:: coarsening_parameters
     :show-inheritance:

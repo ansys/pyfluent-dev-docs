@@ -5,7 +5,7 @@
 area
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.area
+.. currentmodule:: ansys.fluent.core.solver.settings_222.area
 
 .. autoclass:: area
     :show-inheritance:

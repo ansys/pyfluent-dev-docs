@@ -5,7 +5,7 @@
 nodes
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings.nodes_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.nodes_1
 
 .. autoclass:: nodes
     :show-inheritance:

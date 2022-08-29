@@ -5,7 +5,7 @@
 rng_options
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.rng_options
+.. currentmodule:: ansys.fluent.core.solver.settings_222.rng_options
 
 .. autoclass:: rng_options
     :show-inheritance:

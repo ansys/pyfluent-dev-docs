@@ -5,7 +5,7 @@
 aeromechanics
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.aeromechanics
+.. currentmodule:: ansys.fluent.core.solver.settings_222.aeromechanics
 
 .. autoclass:: aeromechanics
     :show-inheritance:

@@ -5,7 +5,7 @@
 global_dt_pseudo_relax
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.global_dt_pseudo_relax
+.. currentmodule:: ansys.fluent.core.solver.settings_222.global_dt_pseudo_relax
 
 .. autoclass:: global_dt_pseudo_relax
     :show-inheritance:

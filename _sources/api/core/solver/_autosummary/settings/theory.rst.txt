@@ -5,7 +5,7 @@
 theory
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings.theory
+.. currentmodule:: ansys.fluent.core.solver.settings_222.theory
 
 .. autoclass:: theory
     :show-inheritance:

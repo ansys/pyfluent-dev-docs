@@ -5,7 +5,7 @@
 relative
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.relative_1
+.. currentmodule:: ansys.fluent.core.solver.settings_222.relative_1
 
 .. autoclass:: relative
     :show-inheritance:

@@ -5,7 +5,7 @@
 material_color
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.material_color
+.. currentmodule:: ansys.fluent.core.solver.settings_222.material_color
 
 .. autoclass:: material_color
     :show-inheritance:

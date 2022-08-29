@@ -5,7 +5,7 @@
 solid_relative_to_thread
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solid_relative_to_thread
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solid_relative_to_thread
 
 .. autoclass:: solid_relative_to_thread
     :show-inheritance:

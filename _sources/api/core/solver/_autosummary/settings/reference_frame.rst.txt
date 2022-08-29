@@ -5,7 +5,7 @@
 reference_frame
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.reference_frame
+.. currentmodule:: ansys.fluent.core.solver.settings_222.reference_frame
 
 .. autoclass:: reference_frame
     :show-inheritance:

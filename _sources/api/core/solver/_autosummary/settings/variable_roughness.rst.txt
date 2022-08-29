@@ -5,7 +5,7 @@
 variable_roughness
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.variable_roughness
+.. currentmodule:: ansys.fluent.core.solver.settings_222.variable_roughness
 
 .. autoclass:: variable_roughness
     :show-inheritance:

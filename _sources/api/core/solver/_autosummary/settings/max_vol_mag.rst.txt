@@ -5,7 +5,7 @@
 max_vol_mag
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.max_vol_mag
+.. currentmodule:: ansys.fluent.core.solver.settings_222.max_vol_mag
 
 .. autoclass:: max_vol_mag
     :show-inheritance:

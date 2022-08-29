@@ -5,7 +5,7 @@
 pb_disc_components
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pb_disc_components
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pb_disc_components
 
 .. autoclass:: pb_disc_components
     :show-inheritance:

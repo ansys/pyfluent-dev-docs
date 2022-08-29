@@ -5,7 +5,7 @@
 alt_inertial_form
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.alt_inertial_form
+.. currentmodule:: ansys.fluent.core.solver.settings_222.alt_inertial_form
 
 .. autoclass:: alt_inertial_form
     :show-inheritance:

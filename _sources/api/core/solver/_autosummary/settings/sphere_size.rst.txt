@@ -5,7 +5,7 @@
 sphere_size
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.sphere_size
+.. currentmodule:: ansys.fluent.core.solver.settings_222.sphere_size
 
 .. autoclass:: sphere_size
     :show-inheritance:

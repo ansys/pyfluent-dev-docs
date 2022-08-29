@@ -5,7 +5,7 @@
 solid_omega
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solid_omega
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solid_omega
 
 .. autoclass:: solid_omega
     :show-inheritance:

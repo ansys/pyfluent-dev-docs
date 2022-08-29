@@ -5,7 +5,7 @@
 amplitude_imag
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.amplitude_imag
+.. currentmodule:: ansys.fluent.core.solver.settings_222.amplitude_imag
 
 .. autoclass:: amplitude_imag
     :show-inheritance:

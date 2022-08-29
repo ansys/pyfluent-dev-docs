@@ -5,7 +5,7 @@
 turbulent_diffusion
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.turbulent_diffusion
+.. currentmodule:: ansys.fluent.core.solver.settings_222.turbulent_diffusion
 
 .. autoclass:: turbulent_diffusion
     :show-inheritance:

@@ -5,7 +5,7 @@
 dual_electric_conductivity
 ==========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.dual_electric_conductivity
+.. currentmodule:: ansys.fluent.core.solver.settings_222.dual_electric_conductivity
 
 .. autoclass:: dual_electric_conductivity
     :show-inheritance:

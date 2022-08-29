@@ -5,7 +5,7 @@
 aggressive_coarsening
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.aggressive_coarsening
+.. currentmodule:: ansys.fluent.core.solver.settings_222.aggressive_coarsening
 
 .. autoclass:: aggressive_coarsening
     :show-inheritance:

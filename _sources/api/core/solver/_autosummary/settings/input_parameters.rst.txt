@@ -5,7 +5,7 @@
 input_parameters
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.input_parameters
+.. currentmodule:: ansys.fluent.core.solver.settings_222.input_parameters
 
 .. autoclass:: input_parameters
     :show-inheritance:

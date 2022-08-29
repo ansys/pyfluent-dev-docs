@@ -5,7 +5,7 @@
 vol_frac_cutoff
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.vol_frac_cutoff
+.. currentmodule:: ansys.fluent.core.solver.settings_222.vol_frac_cutoff
 
 .. autoclass:: vol_frac_cutoff
     :show-inheritance:

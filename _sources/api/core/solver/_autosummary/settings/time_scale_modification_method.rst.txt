@@ -5,7 +5,7 @@
 time_scale_modification_method
 ==============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.time_scale_modification_method
+.. currentmodule:: ansys.fluent.core.solver.settings_222.time_scale_modification_method
 
 .. autoclass:: time_scale_modification_method
     :show-inheritance:

@@ -5,7 +5,7 @@
 band_diffuse_frac
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.band_diffuse_frac
+.. currentmodule:: ansys.fluent.core.solver.settings_222.band_diffuse_frac
 
 .. autoclass:: band_diffuse_frac
     :show-inheritance:

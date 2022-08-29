@@ -5,7 +5,7 @@
 partition_coeff
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.partition_coeff
+.. currentmodule:: ansys.fluent.core.solver.settings_222.partition_coeff
 
 .. autoclass:: partition_coeff
     :show-inheritance:

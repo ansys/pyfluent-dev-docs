@@ -5,7 +5,7 @@
 extended_boundary_treatment
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.extended_boundary_treatment
+.. currentmodule:: ansys.fluent.core.solver.settings_222.extended_boundary_treatment
 
 .. autoclass:: extended_boundary_treatment
     :show-inheritance:

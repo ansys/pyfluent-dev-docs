@@ -5,7 +5,7 @@
 fan_thickness
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.fan_thickness
+.. currentmodule:: ansys.fluent.core.solver.settings_222.fan_thickness
 
 .. autoclass:: fan_thickness
     :show-inheritance:

@@ -5,7 +5,7 @@
 solar_direction
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.solar_direction
+.. currentmodule:: ansys.fluent.core.solver.settings_222.solar_direction
 
 .. autoclass:: solar_direction
     :show-inheritance:

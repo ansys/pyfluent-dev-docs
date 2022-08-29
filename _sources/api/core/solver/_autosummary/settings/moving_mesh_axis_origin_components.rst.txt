@@ -5,7 +5,7 @@
 moving_mesh_axis_origin_components
 ==================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.moving_mesh_axis_origin_components
+.. currentmodule:: ansys.fluent.core.solver.settings_222.moving_mesh_axis_origin_components
 
 .. autoclass:: moving_mesh_axis_origin_components
     :show-inheritance:

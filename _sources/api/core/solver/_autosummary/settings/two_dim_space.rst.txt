@@ -5,7 +5,7 @@
 two_dim_space
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.two_dim_space
+.. currentmodule:: ansys.fluent.core.solver.settings_222.two_dim_space
 
 .. autoclass:: two_dim_space
     :show-inheritance:

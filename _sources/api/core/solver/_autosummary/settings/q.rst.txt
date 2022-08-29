@@ -5,7 +5,7 @@
 q
 =
 
-.. currentmodule:: ansys.fluent.core.solver.settings.q
+.. currentmodule:: ansys.fluent.core.solver.settings_222.q
 
 .. autoclass:: q
     :show-inheritance:

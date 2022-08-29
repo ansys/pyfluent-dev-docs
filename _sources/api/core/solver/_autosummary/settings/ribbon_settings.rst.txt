@@ -5,7 +5,7 @@
 ribbon_settings
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.ribbon_settings
+.. currentmodule:: ansys.fluent.core.solver.settings_222.ribbon_settings
 
 .. autoclass:: ribbon_settings
     :show-inheritance:

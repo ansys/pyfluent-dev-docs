@@ -5,7 +5,7 @@
 profile_name
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings.profile_name
+.. currentmodule:: ansys.fluent.core.solver.settings_222.profile_name
 
 .. autoclass:: profile_name
     :show-inheritance:

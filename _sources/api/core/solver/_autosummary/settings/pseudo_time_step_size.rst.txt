@@ -5,7 +5,7 @@
 pseudo_time_step_size
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings.pseudo_time_step_size
+.. currentmodule:: ansys.fluent.core.solver.settings_222.pseudo_time_step_size
 
 .. autoclass:: pseudo_time_step_size
     :show-inheritance:

@@ -5,7 +5,7 @@
 update_all
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.update_all
+.. currentmodule:: ansys.fluent.core.solver.settings_222.update_all
 
 .. autoclass:: update_all
     :show-inheritance:

@@ -5,7 +5,7 @@
 post_sweeps
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings.post_sweeps_2
+.. currentmodule:: ansys.fluent.core.solver.settings_222.post_sweeps_2
 
 .. autoclass:: post_sweeps
     :show-inheritance:
