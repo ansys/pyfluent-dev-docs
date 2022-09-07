@@ -15,3 +15,4 @@ meshing.datamodel
    meshing/index
    PartManagement/index
    PMFileManagement/index
+   preferences/index
