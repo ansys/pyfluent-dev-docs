@@ -8564,7 +8564,8 @@ is used. Options are <code class="docutils literal notranslate"><span class="pre
 is used. Options are <code class="docutils literal notranslate"><span class="pre">&quot;double&quot;</span></code> and <code class="docutils literal notranslate"><span class="pre">&quot;single&quot;</span></code>.</p>
 </dd>
 <dt><strong>processor_count</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Number of processors. The default is <code class="docutils literal notranslate"><span class="pre">None</span></code>, in which case <code class="docutils literal notranslate"><span class="pre">1</span></code>
-is used.</p>
+processor is used.  In job scheduler environments the total number of
+allocated cores is clamped to this value.</p>
 </dd>
 <dt><strong>journal_filename</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Name of the journal file to read. The default is <code class="docutils literal notranslate"><span class="pre">None</span></code>.</p>
 </dd>
@@ -8633,6 +8634,10 @@ The default value is <code class="docutils literal notranslate"><span class="pre
 </dl>
 </dd>
 </dl>
+<p class="rubric">Notes</p>
+<p>In job scheduler environments such as SLURM, LSF, PBS, etc… the allocated
+machines and core counts are queried from the scheduler environment and
+passed to Fluent.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Return type</dt>
 <dd class="field-odd"><p><a class="reference external" href="https://docs.python.org/dev/library/typing.html#typing.Union" title="(in Python v3.12)"><code class="xref py py-data docutils literal notranslate"><span class="pre">Union</span></code></a>[<code class="xref py py-class docutils literal notranslate"><span class="pre">_BaseSession</span></code>, <code class="xref py py-class docutils literal notranslate"><span class="pre">Session</span></code>]</p>
