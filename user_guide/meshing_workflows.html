@@ -391,6 +391,11 @@
    </li>
   </ul>
  </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#sample-use-of-commandarguments">
+   Sample use of CommandArguments
+  </a>
+ </li>
 </ul>
 
 </nav>
@@ -994,6 +999,30 @@ guided meshing workflows.</p>
 </pre></div>
 </div>
 </section>
+</section>
+<section id="sample-use-of-commandarguments">
+<h2>Sample use of CommandArguments<a class="headerlink" href="#sample-use-of-commandarguments" title="Permalink to this heading">#</a></h2>
+<p>This simple example shows you how to use the CommandArgument attributes and explicit
+attribute access methods in a watertight geometry meshing workflow.
+Note: CommandArgument attributes are read-only.</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
+<span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
+
+<span class="n">import_filename</span> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">download_file</span><span class="p">(</span><span class="s1">&#39;mixing_elbow.pmdb&#39;</span><span class="p">,</span> <span class="s1">&#39;pyfluent/mixing_elbow&#39;</span><span class="p">)</span>
+<span class="n">meshing</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;meshing&quot;</span><span class="p">,</span> <span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">)</span>
+<span class="n">w</span> <span class="o">=</span> <span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span>
+<span class="n">w</span><span class="o">.</span><span class="n">InitializeWorkflow</span><span class="p">(</span><span class="n">WorkflowType</span><span class="o">=</span><span class="s1">&#39;Watertight Geometry&#39;</span><span class="p">)</span>
+
+<span class="n">w</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">CommandArguments</span><span class="p">()</span>
+<span class="n">w</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">CommandArguments</span><span class="o">.</span><span class="n">FileName</span><span class="o">.</span><span class="n">is_read_only</span><span class="p">()</span>
+<span class="n">w</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">CommandArguments</span><span class="o">.</span><span class="n">LengthUnit</span><span class="o">.</span><span class="n">is_active</span><span class="p">()</span>
+<span class="n">w</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">CommandArguments</span><span class="o">.</span><span class="n">LengthUnit</span><span class="o">.</span><span class="n">allowed_values</span><span class="p">()</span>
+<span class="n">w</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">CommandArguments</span><span class="o">.</span><span class="n">LengthUnit</span><span class="o">.</span><span class="n">default_value</span><span class="p">()</span>
+<span class="n">w</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">CommandArguments</span><span class="o">.</span><span class="n">LengthUnit</span><span class="p">()</span>
+<span class="n">w</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">CommandArguments</span><span class="o">.</span><span class="n">CadImportOptions</span><span class="o">.</span><span class="n">OneZonePer</span><span class="p">()</span>
+<span class="n">w</span><span class="o">.</span><span class="n">task</span><span class="p">(</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">)</span><span class="o">.</span><span class="n">CommandArguments</span><span class="o">.</span><span class="n">CadImportOptions</span><span class="o">.</span><span class="n">FeatureAngle</span><span class="o">.</span><span class="n">min</span><span class="p">()</span>
+</pre></div>
+</div>
 </section>
 </section>
 
