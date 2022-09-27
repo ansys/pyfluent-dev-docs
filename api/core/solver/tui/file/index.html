@@ -46,6 +46,7 @@
     <script src="../../../../../_static/underscore.js"></script>
     <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../_static/doctools.js"></script>
+    <script src="../../../../../_static/sphinx_highlight.js"></script>
     <script src="../../../../../_static/thebelab-helper.js"></script>
     <script src="../../../../../_static/clipboard.min.js"></script>
     <script src="../../../../../_static/copybutton.js"></script>
@@ -8529,9 +8530,565 @@
     
     <div class="toc-item">
       
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
 <nav id="bd-toc-nav">
-    
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file">
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     main_menu.file
+    </span>
+   </code>
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.async_optimize">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.async_optimize()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.binary_legacy_files">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.binary_legacy_files()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.cff_files">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.cff_files()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.close_without_save">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.close_without_save()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.confirm_overwrite">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.confirm_overwrite()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.data_file_options">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.data_file_options()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.define_macro">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.define_macro()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.execute_macro">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.execute_macro()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.export_to_cfd_post">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.export_to_cfd_post()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.load_act_tool">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.load_act_tool()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_case">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_case()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_case_data">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_case_data()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_case_info">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_case_info()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_case_light">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_case_light()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_data">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_data()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_field_functions">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_field_functions()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_injections">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_injections()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_isat_table">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_isat_table()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_journal">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_journal()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_macros">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_macros()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_pdf">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_pdf()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_profile">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_profile()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_rays">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_rays()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_settings">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_settings()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_surface_clusters">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_surface_clusters()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_transient_table">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_transient_table()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.read_viewfactors">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.read_viewfactors()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.reload_setup">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.reload_setup()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.replace_mesh">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.replace_mesh()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.set_batch_options">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.set_batch_options()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.set_idle_timeout">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.set_idle_timeout()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.set_target_reference_frame_for_write_profiles">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.set_target_reference_frame_for_write_profiles()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.set_tui_version">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.set_tui_version()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.show_configuration">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.show_configuration()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.single_precision_coordinates">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.single_precision_coordinates()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.start_journal">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.start_journal()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.start_transcript">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.start_transcript()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.stop_journal">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.stop_journal()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.stop_macro">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.stop_macro()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.stop_transcript">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.stop_transcript()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.sync_workbench">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.sync_workbench()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_boundary_mesh">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_boundary_mesh()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_case">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_case()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_case_data">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_case_data()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_case_light">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_case_light()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_circumferential_averaged_profile">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_circumferential_averaged_profile()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_cleanup_script">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_cleanup_script()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_currently_defined_profiles">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_currently_defined_profiles()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_data">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_data()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_fan_profile">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_fan_profile()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_field_functions">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_field_functions()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_flamelet">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_flamelet()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_injections">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_injections()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_isat_table">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_isat_table()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_macros">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_macros()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_merge_profiles">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_merge_profiles()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_pdat">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_pdat()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_pdf">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_pdf()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_profile">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_profile()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.file.write_settings">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.file.write_settings()
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
 </nav>
     </div>
     
@@ -8957,7 +9514,7 @@ case_file_name : str.</p>
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.1.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.2.1.<br>
 </p>
   </div>
   

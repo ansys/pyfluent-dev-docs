@@ -46,6 +46,7 @@
     <script src="../_static/underscore.js"></script>
     <script src="../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../_static/doctools.js"></script>
+    <script src="../_static/sphinx_highlight.js"></script>
     <script src="../_static/thebelab-helper.js"></script>
     <script src="../_static/clipboard.min.js"></script>
     <script src="../_static/copybutton.js"></script>
@@ -288,9 +289,19 @@ the Python kernel.</p>
 <span class="n">solver_session</span><span class="o">.</span><span class="n">check_health</span><span class="p">()</span>
 </pre></div>
 </div>
-<p>Once Fluent is active, you can use the <code class="docutils literal notranslate"><span class="pre">solver_session.tui</span></code> interface to send
-Fluent TUI commands to Fluent. For example, you can read a
-case file, update a setting, and iterate the solver with:</p>
+<p>On Windows systems the environment variable <code class="docutils literal notranslate"><span class="pre">AWP_ROOT&lt;ver&gt;</span></code>, is configured
+when Fluent is installed, where <code class="docutils literal notranslate"><span class="pre">&lt;ver&gt;</span></code> is the Fluent release number such as
+<code class="docutils literal notranslate"><span class="pre">222</span></code> for release 2022 R2.  PyFluent automatically uses this environment
+variable to locate the Fluent installation. On Linux systems configure
+<code class="docutils literal notranslate"><span class="pre">AWP_ROOT&lt;ver&gt;</span></code> to point to the absolute path of an Ansys installation such as
+<code class="docutils literal notranslate"><span class="pre">/apps/ansys_inc/v222</span></code>.</p>
+<p>To use a non-default installation location set <code class="docutils literal notranslate"><span class="pre">AWP_ROOT&lt;ver&gt;</span></code> or set the
+<code class="docutils literal notranslate"><span class="pre">PYFLUENT_FLUENT_ROOT</span></code> environment variable to the <code class="docutils literal notranslate"><span class="pre">&lt;install</span>
+<span class="pre">location&gt;/&lt;version&gt;/fluent</span></code> directory, where <code class="docutils literal notranslate"><span class="pre">&lt;version&gt;</span></code> is the Fluent
+release that you would like to use. For example, <code class="docutils literal notranslate"><span class="pre">v222</span></code> uses release 2022 R2.
+Once Fluent is active, you can use the <code class="docutils literal notranslate"><span class="pre">solver_session.tui</span></code> interface to send
+Fluent TUI commands to Fluent. For example, you can read a case file, update a
+setting, and iterate the solver with:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="s1">&#39;elbow.cas.h5&#39;</span><span class="p">)</span>
 <span class="n">solver_session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">unsteady_2nd_order</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
 <span class="n">solver_session</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">initialize</span><span class="o">.</span><span class="n">initialize_flow</span><span class="p">()</span>
@@ -346,7 +357,7 @@ and <a class="reference external" href="https://matplotlib.org/">matplotlib</a> 
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.1.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.2.1.<br>
 </p>
   </div>
   

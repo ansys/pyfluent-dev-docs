@@ -46,6 +46,7 @@
     <script src="../../../../../_static/underscore.js"></script>
     <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../_static/doctools.js"></script>
+    <script src="../../../../../_static/sphinx_highlight.js"></script>
     <script src="../../../../../_static/thebelab-helper.js"></script>
     <script src="../../../../../_static/clipboard.min.js"></script>
     <script src="../../../../../_static/copybutton.js"></script>
@@ -8528,9 +8529,493 @@
     
     <div class="toc-item">
       
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
 <nav id="bd-toc-nav">
-    
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary">
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     main_menu.boundary
+    </span>
+   </code>
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.auto_slit_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.auto_slit_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.check_boundary_mesh">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.check_boundary_mesh()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.check_duplicate_geom">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.check_duplicate_geom()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.clear_marked_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.clear_marked_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.clear_marked_nodes">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.clear_marked_nodes()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.coarsen_boundary_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.coarsen_boundary_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.compute_bounding_box">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.compute_bounding_box()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.count_free_nodes">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.count_free_nodes()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.count_marked_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.count_marked_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.count_unused_bound_node">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.count_unused_bound_node()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.count_unused_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.count_unused_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.count_unused_nodes">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.count_unused_nodes()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.create_bounding_box">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.create_bounding_box()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.create_cylinder">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.create_cylinder()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.create_plane_surface">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.create_plane_surface()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.create_revolved_surface">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.create_revolved_surface()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.create_swept_surface">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.create_swept_surface()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.delete_all_dup_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.delete_all_dup_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.delete_duplicate_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.delete_duplicate_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.delete_free_edge_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.delete_free_edge_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.delete_island_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.delete_island_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.delete_unconnected_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.delete_unconnected_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.delete_unused_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.delete_unused_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.delete_unused_nodes">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.delete_unused_nodes()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.edge_limits">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.edge_limits()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.expand_marked_faces_by_rings">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.expand_marked_faces_by_rings()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.face_distribution">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.face_distribution()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.face_skewness">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.face_skewness()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.fix_mconnected_edges">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.fix_mconnected_edges()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.improve_surface_mesh">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.improve_surface_mesh()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.jiggle_boundary_nodes">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.jiggle_boundary_nodes()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.make_periodic">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.make_periodic()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.mark_bad_quality_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.mark_bad_quality_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.mark_duplicate_nodes">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.mark_duplicate_nodes()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.mark_face_intersection">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.mark_face_intersection()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.mark_face_proximity">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.mark_face_proximity()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.mark_faces_in_region">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.mark_faces_in_region()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.merge_nodes">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.merge_nodes()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.merge_small_face_zones">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.merge_small_face_zones()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.orient_faces_by_point">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.orient_faces_by_point()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.print_info">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.print_info()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.project_face_zone">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.project_face_zone()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.recover_periodic_surfaces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.recover_periodic_surfaces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.reset_element_type">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.reset_element_type()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.resolve_face_intersection">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.resolve_face_intersection()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.scale_nodes">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.scale_nodes()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.set_periodicity">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.set_periodicity()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.slit_boundary_face">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.slit_boundary_face()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.smooth_marked_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.smooth_marked_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.unmark_faces_in_zones">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.unmark_faces_in_zones()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.unmark_selected_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.unmark_selected_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.wrapper">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.wrapper()
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
 </nav>
     </div>
     
@@ -8906,7 +9391,7 @@ where Delaunay violations occur.</p>
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.1.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.2.1.<br>
 </p>
   </div>
   

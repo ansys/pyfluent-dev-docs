@@ -46,6 +46,7 @@
     <script src="../../../../../../_static/underscore.js"></script>
     <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../../_static/doctools.js"></script>
+    <script src="../../../../../../_static/sphinx_highlight.js"></script>
     <script src="../../../../../../_static/thebelab-helper.js"></script>
     <script src="../../../../../../_static/clipboard.min.js"></script>
     <script src="../../../../../../_static/copybutton.js"></script>
@@ -8529,9 +8530,313 @@
     
     <div class="toc-item">
       
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
 <nav id="bd-toc-nav">
-    
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify">
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     main_menu.boundary.modify
+    </span>
+   </code>
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.analyze_bnd_connectvty">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.analyze_bnd_connectvty()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.auto_patch_holes">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.auto_patch_holes()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.clear_selections">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.clear_selections()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.clear_skew_faces">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.clear_skew_faces()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.collapse">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.collapse()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.create">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.create()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.create_mid_node">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.create_mid_node()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.delete">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.delete()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.delta_move">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.delta_move()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.deselect_last">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.deselect_last()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.hole_feature_angle">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.hole_feature_angle()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.list_selections">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.list_selections()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.local_remesh">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.local_remesh()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.mark_skew_face">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.mark_skew_face()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.merge">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.merge()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.move">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.move()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.next_skew">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.next_skew()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.rezone">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.rezone()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.select_entity">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.select_entity()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.select_filter">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.select_filter()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.select_position">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.select_position()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.select_probe">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.select_probe()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.select_visible_entities">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.select_visible_entities()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.select_zone">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.select_zone()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.show_filter">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.show_filter()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.show_probe">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.show_probe()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.skew">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.skew()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.skew_report_zone">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.skew_report_zone()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.smooth">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.smooth()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.split_face">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.split_face()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.swap">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.swap()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.meshing.tui_222.main_menu.boundary.modify.undo">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.boundary.modify.undo()
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
 </nav>
     </div>
     
@@ -8786,7 +9091,7 @@
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.1.1.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.2.1.<br>
 </p>
   </div>
   
