@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Settings objects &#8212; PyFluent</title>
+    <title>Solver settings objects &#8212; PyFluent</title>
     
 <script>
   document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
@@ -180,7 +180,7 @@
           <li class="nav-item nav-item-1"><a href="../../index.html" >API reference</a> » </li>
           <li class="nav-item nav-item-2"><a href="../index.html" >Core</a> » </li>
           <li class="nav-item nav-item-3"><a href="index.html" accesskey="U">Solver</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">Settings objects</a></li> 
+        <li class="nav-item nav-item-this"><a href="">Solver settings objects</a></li> 
       </ul>
     </div>
         </div>
@@ -2239,7 +2239,7 @@
     <ul class="current">
      <li class="toctree-l3 current active">
       <a class="current reference internal" href="#">
-       Settings objects
+       Solver settings objects
       </a>
      </li>
      <li class="toctree-l3 has-children">
@@ -8540,8 +8540,8 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#top-level-settings-objects">
-   Top-level settings objects
+  <a class="reference internal nav-link" href="#accessing-solver-settings">
+   Accessing solver settings
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
@@ -8593,45 +8593,45 @@
               
               <article class="bd-article" role="main">
                 
-  <section id="settings-objects">
-<span id="ref-settings"></span><h1>Settings objects<a class="headerlink" href="#settings-objects" title="Permalink to this heading">#</a></h1>
-<p>Settings objects provide a natural way to access and modify Fluent settings and
-issue commands with a hierarchy of objects.</p>
-<section id="top-level-settings-objects">
-<h2>Top-level settings objects<a class="headerlink" href="#top-level-settings-objects" title="Permalink to this heading">#</a></h2>
-<p>The top-level settings object is available as the <a class="reference internal" href="#settings-root-section"><span class="std std-ref">root</span></a>
-property of <code class="docutils literal notranslate"><span class="pre">session.solver</span></code>.</p>
+  <section id="solver-settings-objects">
+<span id="ref-settings"></span><h1>Solver settings objects<a class="headerlink" href="#solver-settings-objects" title="Permalink to this heading">#</a></h1>
+<p>Solver settings objects provide a natural way to access and modify Fluent solver
+settings and issue commands to be executed in the Fluent solver.</p>
+<section id="accessing-solver-settings">
+<h2>Accessing solver settings<a class="headerlink" href="#accessing-solver-settings" title="Permalink to this heading">#</a></h2>
+<p>An appropriate call to the <code class="docutils literal notranslate"><span class="pre">launch_fluent</span></code> function returns an object (named <code class="docutils literal notranslate"><span class="pre">solver</span></code> in
+the following code snippets) whose interface directly exposes the
+<a class="reference internal" href="#settings-root-section"><span class="std std-ref">root</span></a> of the solver settings hierarchy.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">root</span> <span class="o">=</span> <span class="n">solver</span>
 </pre></div>
 </div>
-<p>The <code class="docutils literal notranslate"><span class="pre">root</span></code> object contains attributes such as <code class="docutils literal notranslate"><span class="pre">file</span></code>, <code class="docutils literal notranslate"><span class="pre">setup</span></code>,
-<code class="docutils literal notranslate"><span class="pre">solution</span></code>, and <code class="docutils literal notranslate"><span class="pre">results</span></code>.  These objects are also instances of settings
-objects and roughly mirror the outline view in Fluent.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">solver</span></code> object contains attributes such as <code class="docutils literal notranslate"><span class="pre">file</span></code>, <code class="docutils literal notranslate"><span class="pre">setup</span></code>, <code class="docutils literal notranslate"><span class="pre">solution</span></code>, and
+<code class="docutils literal notranslate"><span class="pre">results</span></code>, which are also instances of settings objects. Note that the last three are
+top-level nodes in the outline tree view in Fluent’s graphical user interface (GUI) — much
+of this settings hierarchy has been designed in close alignment with this GUI hierarchy.</p>
 </section>
 <section id="types-of-settings-objects">
 <h2>Types of settings objects<a class="headerlink" href="#types-of-settings-objects" title="Permalink to this heading">#</a></h2>
-<p>A settings object can be one of the primitive types, like <code class="docutils literal notranslate"><span class="pre">Integer</span></code>, <code class="docutils literal notranslate"><span class="pre">Real</span></code>,
-<code class="docutils literal notranslate"><span class="pre">String</span></code>, and <code class="docutils literal notranslate"><span class="pre">Boolean</span></code>. It can also be a container object, of which there
-are three types: <code class="docutils literal notranslate"><span class="pre">Group</span></code>, <code class="docutils literal notranslate"><span class="pre">NamedObject</span></code>, and <code class="docutils literal notranslate"><span class="pre">ListObject</span></code>.</p>
+<p>A settings object can be one of the primitive types: <code class="docutils literal notranslate"><span class="pre">Integer</span></code>, <code class="docutils literal notranslate"><span class="pre">Real</span></code>,``String``, and
+<code class="docutils literal notranslate"><span class="pre">Boolean</span></code>. A settings object can also be one of the three types of container objects:
+<code class="docutils literal notranslate"><span class="pre">Group</span></code>, <code class="docutils literal notranslate"><span class="pre">NamedObject</span></code>, and <code class="docutils literal notranslate"><span class="pre">ListObject</span></code>.</p>
 <ul class="simple">
 <li><p>The <code class="docutils literal notranslate"><span class="pre">Group</span></code> type is a static container with predefined child objects that
-can be accessed via attributes. For example, <code class="docutils literal notranslate"><span class="pre">setup.models.energy</span></code>
-refers to the <code class="docutils literal notranslate"><span class="pre">energy</span></code> child of the <code class="docutils literal notranslate"><span class="pre">models</span></code> child of the <code class="docutils literal notranslate"><span class="pre">setup</span></code> object. The
-names of the child objects of a group can be accessed with the <code class="docutils literal notranslate"><span class="pre">child_names</span></code>
-attribute of a <code class="docutils literal notranslate"><span class="pre">Group</span></code> object.</p></li>
-<li><p>The <code class="docutils literal notranslate"><span class="pre">NamedObject</span></code> type is a container holding dynamically created named objects of
-its specified child type (accessible via a <code class="docutils literal notranslate"><span class="pre">child_object_type</span></code> attribute),
-similar to a dictionary. A specified named object can be accessed using the
-index operator. For example, <code class="docutils literal notranslate"><span class="pre">root.setup.boundary_conditions.velocity_inlet['inlet2']</span></code>
-refers to the <code class="docutils literal notranslate"><span class="pre">velocity_object</span></code> object with the name <code class="docutils literal notranslate"><span class="pre">inlet2</span></code>. The current
-list of named object children can be accessed with the <code class="docutils literal notranslate"><span class="pre">get_object_names()</span></code> method
-of the container class.</p></li>
+can be accessed as attributes. For example, in <code class="docutils literal notranslate"><span class="pre">setup.models.energy</span></code>
+<code class="docutils literal notranslate"><span class="pre">energy</span></code> is a child of <code class="docutils literal notranslate"><span class="pre">models</span></code>, which itself is a child of <code class="docutils literal notranslate"><span class="pre">setup</span></code>, and each of those
+three objects is a <code class="docutils literal notranslate"><span class="pre">Group</span></code>. The names of the child objects of a group can be accessed
+via <code class="docutils literal notranslate"><span class="pre">&lt;Group&gt;.child_names</span></code>.</p></li>
+<li><p>The <code class="docutils literal notranslate"><span class="pre">NamedObject</span></code> type is a container holding dynamically created named objects. For
+a given <code class="docutils literal notranslate"><span class="pre">NamedObject</span></code> container, each contained object is of the same
+specific type. A given named object can be accessed using the index operator. For example,
+<code class="docutils literal notranslate"><span class="pre">solver.setup.boundary_conditions.velocity_inlet['inlet2']</span></code> yields a <code class="docutils literal notranslate"><span class="pre">velocity_inlet</span></code>
+object with the name <code class="docutils literal notranslate"><span class="pre">inlet2</span></code>, assuming it exists. The current list of named object
+children can be accessed via <code class="docutils literal notranslate"><span class="pre">&lt;NamedObject&gt;.get_object_names()</span></code>.</p></li>
 <li><p>The <code class="docutils literal notranslate"><span class="pre">ListObject</span></code> type is a container holding dynamically created unnamed objects of
 its specified child type (accessible via a <code class="docutils literal notranslate"><span class="pre">child_object_type</span></code> attribute) in a
 list. Children of a <code class="docutils literal notranslate"><span class="pre">ListObject</span></code> object can be accessed using the index operator.
-For example, <code class="docutils literal notranslate"><span class="pre">root.setup.cell_zone_conditions.fluid['fluid-1'].source_terms['mass'][2]</span></code>
+For example, <code class="docutils literal notranslate"><span class="pre">solver.setup.cell_zone_conditions.fluid['fluid-1'].source_terms['mass'][2]</span></code>
 refers to the third (starting from index 0) mass source entry for the fluid zone
 named <code class="docutils literal notranslate"><span class="pre">fluid-1</span></code>. The current number of child objects can be accessed with the
 <code class="docutils literal notranslate"><span class="pre">get_size()</span></code> method.</p></li>
@@ -8639,21 +8639,20 @@ named <code class="docutils literal notranslate"><span class="pre">fluid-1</span
 </section>
 <section id="object-state">
 <h2>Object state<a class="headerlink" href="#object-state" title="Permalink to this heading">#</a></h2>
-<p>You can access the state of any object by “calling” it. For container objects,
-this returns the state of the children as a dictionary for <code class="docutils literal notranslate"><span class="pre">Group</span></code> and
-<code class="docutils literal notranslate"><span class="pre">NamedObject</span></code> types or as a list for <code class="docutils literal notranslate"><span class="pre">ListObject</span></code> types:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="p">()</span>
+<p>You can access the state of any object by “calling” it. This returns the state of the children
+as a dictionary for <code class="docutils literal notranslate"><span class="pre">Group</span></code> and <code class="docutils literal notranslate"><span class="pre">NamedObject</span></code> types or as a list for <code class="docutils literal notranslate"><span class="pre">ListObject</span></code> types:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="p">()</span>
 <span class="go">&#39;k-epsilon-standard&#39;</span>
 </pre></div>
 </div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">pprint</span> <span class="p">(</span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="p">())</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pprint</span> <span class="p">(</span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="p">())</span>
 <span class="go">{&#39;enabled&#39;: True,</span>
 <span class="go"> &#39;inlet_diffusion&#39;: True,</span>
 <span class="go"> &#39;kinetic_energy&#39;: False,</span>
 <span class="go"> &#39;pressure_work&#39;: False,</span>
 <span class="go"> &#39;viscous_dissipation&#39;: False}</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">[</span><span class="s1">&#39;inlet1&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">vmag</span><span class="o">.</span><span class="n">constant</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">[</span><span class="s1">&#39;inlet1&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">vmag</span><span class="o">.</span><span class="n">constant</span><span class="p">()</span>
 <span class="go">10.0</span>
 </pre></div>
 </div>
@@ -8661,16 +8660,16 @@ this returns the state of the children as a dictionary for <code class="docutils
 in its parent object. This assignment can be done at any level. For <code class="docutils literal notranslate"><span class="pre">Group</span></code>
 and <code class="docutils literal notranslate"><span class="pre">NamedObject</span></code> types, the state value is a dictionary. For the
 <code class="docutils literal notranslate"><span class="pre">ListObject</span></code> type, the state value is a list.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="s1">&#39;laminar&#39;</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span> <span class="o">=</span> <span class="p">{</span> <span class="s1">&#39;enabled&#39;</span> <span class="p">:</span> <span class="kc">False</span> <span class="p">}</span>
-<span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">[</span><span class="s1">&#39;inlet1&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">vmag</span><span class="o">.</span><span class="n">constant</span> <span class="o">=</span> <span class="mi">14</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span> <span class="o">=</span> <span class="s1">&#39;laminar&#39;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span> <span class="o">=</span> <span class="p">{</span> <span class="s1">&#39;enabled&#39;</span> <span class="p">:</span> <span class="kc">False</span> <span class="p">}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">[</span><span class="s1">&#39;inlet1&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">vmag</span><span class="o">.</span><span class="n">constant</span> <span class="o">=</span> <span class="mi">14</span>
 </pre></div>
 </div>
 <p>You can also access the state of an object with the <code class="docutils literal notranslate"><span class="pre">get_state</span></code> method and
 modify it with the <code class="docutils literal notranslate"><span class="pre">set_state</span></code> method.</p>
 <p>You can print the current state in a simple text format with the
 <code class="docutils literal notranslate"><span class="pre">print_state</span></code> method. For example, assume you entered:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">print_state</span><span class="p">()</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">print_state</span><span class="p">()</span>
 </pre></div>
 </div>
 <p>The following output is returned:</p>
@@ -8705,23 +8704,36 @@ provides the names of its commands.</p>
 <p>If keyword arguments are needed, you can use commands to pass them. To access a
 list of valid arguments, use the <code class="docutils literal notranslate"><span class="pre">arguments</span></code> attribute. If you do not specify
 an argument, its default value is used. Arguments are also settings objects
-and can be either the primitive type or the container type.</p>
+and can be of either primitive or container type.</p>
 </section>
 <section id="additional-metadata">
 <h2>Additional metadata<a class="headerlink" href="#additional-metadata" title="Permalink to this heading">#</a></h2>
-<p>Settings objects have some additional metadata that you can use the
-<code class="docutils literal notranslate"><span class="pre">get_attr</span></code> and <code class="docutils literal notranslate"><span class="pre">get_attrs</span></code> methods to access.</p>
-<p>This example accesses the list of allowed values at a particular state for
-the viscous model:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">get_attr</span><span class="p">(</span><span class="s1">&#39;allowed-values&#39;</span><span class="p">)</span>
+<p>Settings object methods are provided to access some additional metadata. There are
+a number of explicit methods and two generic methods: <code class="docutils literal notranslate"><span class="pre">get_attr</span></code> and <code class="docutils literal notranslate"><span class="pre">get_attrs</span></code>.</p>
+<p>The following examples access the list of allowed values for a particular state of
+the viscous model. All string and string list objects have an <code class="docutils literal notranslate"><span class="pre">allowed_values</span></code>
+method, which returns a list of allowed string values if such a constraint currently applies
+for that object or returns <code class="docutils literal notranslate"><span class="pre">None</span></code> otherwise.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">allowed_values</span><span class="p">()</span>
 <span class="go">[&#39;inviscid&#39;, &#39;laminar&#39;, &#39;k-epsilon-standard&#39;, &#39;k-omega-standard&#39;, &#39;mixing-length&#39;, &#39;spalart-allmaras&#39;, &#39;k-kl-w&#39;, &#39;transition-sst&#39;, &#39;reynolds-stress&#39;, &#39;scale-adaptive-simulation&#39;, &#39;detached-eddy-simulation&#39;, &#39;large-eddy-simulation&#39;]</span>
 </pre></div>
 </div>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">get_attrs</span><span class="p">([</span><span class="s1">&#39;allowed-values&#39;</span><span class="p">])</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">get_attr</span><span class="p">(</span><span class="s1">&#39;allowed-values&#39;</span><span class="p">)</span>
+<span class="go">[&#39;inviscid&#39;, &#39;laminar&#39;, &#39;k-epsilon-standard&#39;, &#39;k-omega-standard&#39;, &#39;mixing-length&#39;, &#39;spalart-allmaras&#39;, &#39;k-kl-w&#39;, &#39;transition-sst&#39;, &#39;reynolds-stress&#39;, &#39;scale-adaptive-simulation&#39;, &#39;detached-eddy-simulation&#39;, &#39;large-eddy-simulation&#39;]</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">get_attrs</span><span class="p">([</span><span class="s1">&#39;allowed-values&#39;</span><span class="p">])</span>
 <span class="go">{&#39;allowed-values&#39;: [&#39;inviscid&#39;, &#39;laminar&#39;, &#39;k-epsilon&#39;, &#39;k-omega&#39;, &#39;mixing-length&#39;, &#39;spalart-allmaras&#39;, &#39;k-kl-w&#39;, &#39;transition-sst&#39;, &#39;reynolds-stress&#39;, &#39;scale-adaptive-simulation&#39;, &#39;detached-eddy-simulation&#39;, &#39;large-eddy-simulation&#39;]}</span>
 </pre></div>
 </div>
-<p>This example accesses the list of zone surfaces:</p>
+<p>These examples accesses the list of zone surfaces:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">flux</span><span class="p">[</span><span class="s2">&quot;mass_flow_rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">flux</span><span class="p">[</span>
+<span class="go">        &quot;mass_flow_rate&quot;</span>
+<span class="go">    ].zone_names.allowed_values()</span>
+<span class="go">[&#39;symmetry-xyplane&#39;, &#39;hot-inlet&#39;, &#39;cold-inlet&#39;, &#39;outlet&#39;, &#39;wall-inlet&#39;, &#39;wall-elbow&#39;, &#39;interior--elbow-fluid&#39;]</span>
+</pre></div>
+</div>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">flux</span><span class="p">[</span><span class="s2">&quot;mass_flow_rate&quot;</span><span class="p">]</span> <span class="o">=</span> <span class="p">{}</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">flux</span><span class="p">[</span>
 <span class="go">        &quot;mass_flow_rate&quot;</span>
@@ -8736,31 +8748,125 @@ the viscous model:</p>
 <span class="go">{&#39;allowed-values&#39;: [&#39;symmetry-xyplane&#39;, &#39;hot-inlet&#39;, &#39;cold-inlet&#39;, &#39;outlet&#39;, &#39;wall-inlet&#39;, &#39;wall-elbow&#39;, &#39;interior--elbow-fluid&#39;]}</span>
 </pre></div>
 </div>
-<p>Attributes are dynamic. Values can change based on the app
-state.</p>
+<p>The following table contains metadata names, corresponding methods to access this metadata, whether the method can return None, applicable object types, and returned data types:</p>
+<table class="table">
+<colgroup>
+<col style="width: 19%" />
+<col style="width: 19%" />
+<col style="width: 18%" />
+<col style="width: 22%" />
+<col style="width: 21%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Metadata name</p></th>
+<th class="head"><p>Method</p></th>
+<th class="head"><p>Can return None</p></th>
+<th class="head"><p>Type applicability</p></th>
+<th class="head"><p>Metadata type</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">is-active?</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">is_active</span></code></p></td>
+<td><p>no</p></td>
+<td><p>all</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bool</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">is-read-only?</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">is_read_only</span></code></p></td>
+<td><p>no</p></td>
+<td><p>all</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">bool</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">default-value</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">default</span></code></p></td>
+<td><p>yes</p></td>
+<td><p>all primitives</p></td>
+<td><p>type of primitive</p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">allowed-values</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">allowed_values</span></code></p></td>
+<td><p>yes</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">str</span></code>, <code class="docutils literal notranslate"><span class="pre">str</span> <span class="pre">list</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">str</span> <span class="pre">list</span></code></p></td>
+</tr>
+<tr class="row-even"><td><p><code class="docutils literal notranslate"><span class="pre">min</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">min</span></code></p></td>
+<td><p>yes</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">int</span></code>, <code class="docutils literal notranslate"><span class="pre">float</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">int</span></code> or <code class="docutils literal notranslate"><span class="pre">float</span></code></p></td>
+</tr>
+<tr class="row-odd"><td><p><code class="docutils literal notranslate"><span class="pre">max</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">max</span></code></p></td>
+<td><p>yes</p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">int</span></code>, <code class="docutils literal notranslate"><span class="pre">float</span></code></p></td>
+<td><p><code class="docutils literal notranslate"><span class="pre">int</span></code> or <code class="docutils literal notranslate"><span class="pre">float</span></code></p></td>
+</tr>
+</tbody>
+</table>
+<p>Using the <code class="docutils literal notranslate"><span class="pre">get_attr</span></code> method requires knowledge of metadata names, their applicability, and
+the ability to interpret the raw values of the metadata. You can avoid all these issues by
+using the explicitly named methods. Note also that the metadata is dynamic, which means
+values can change based on the application state. A <code class="docutils literal notranslate"><span class="pre">None</span></code> value signifies that no value
+is currently designated for this metadata.</p>
+<p>This simple example shows you how to use a number of these explicit metadata access methods
+in a single solver session:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">pprint</span> <span class="kn">import</span> <span class="n">pprint</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">import_filename</span> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">download_file</span><span class="p">(</span><span class="s2">&quot;mixing_elbow.msh.h5&quot;</span><span class="p">,</span> <span class="s2">&quot;pyfluent/mixing_elbow&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">file_type</span><span class="o">=</span><span class="s2">&quot;case&quot;</span><span class="p">,</span> <span class="n">file_name</span><span class="o">=</span><span class="n">import_filename</span><span class="p">)</span>
+<span class="go">Fast-loading...</span>
+<span class="go">...Done</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">is_active</span><span class="p">()</span>
+<span class="go">True</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">is_read_only</span><span class="p">()</span>
+<span class="go">False</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">default_value</span><span class="p">()</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">pprint</span><span class="p">(</span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">allowed_values</span><span class="p">())</span>
+<span class="go">[&#39;inviscid&#39;,</span>
+<span class="go"> &#39;laminar&#39;,</span>
+<span class="go"> &#39;k-epsilon&#39;,</span>
+<span class="go"> &#39;k-omega&#39;,</span>
+<span class="go"> &#39;mixing-length&#39;,</span>
+<span class="go"> &#39;spalart-allmaras&#39;,</span>
+<span class="go"> &#39;k-kl-w&#39;,</span>
+<span class="go"> &#39;transition-sst&#39;,</span>
+<span class="go"> &#39;reynolds-stress&#39;,</span>
+<span class="go"> &#39;scale-adaptive-simulation&#39;,</span>
+<span class="go"> &#39;detached-eddy-simulation&#39;,</span>
+<span class="go"> &#39;large-eddy-simulation&#39;]</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">[</span><span class="s1">&#39;cold-inlet&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">turb_intensity</span><span class="o">.</span><span class="n">min</span><span class="p">()</span>
+<span class="go">0</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">[</span><span class="s1">&#39;cold-inlet&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">turb_intensity</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+<span class="go">1</span>
+</pre></div>
+</div>
 </section>
 <section id="active-objects-and-commands">
 <h2>Active objects and commands<a class="headerlink" href="#active-objects-and-commands" title="Permalink to this heading">#</a></h2>
-<p>Objects and commands can be active or inactive based on the app state.
+<p>Objects and commands can be active or inactive based on the application state.
 The <code class="docutils literal notranslate"><span class="pre">is_active()</span></code> method returns <code class="docutils literal notranslate"><span class="pre">True</span></code> if an object or command
-is active at a particular time.</p>
-<p>The <code class="docutils literal notranslate"><span class="pre">get_active_child_names</span></code> method returns the list of
+is currently active.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">get_active_child_names</span></code> method returns a list of
 active children:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">get_active_child_names</span><span class="p">()</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">get_active_child_names</span><span class="p">()</span>
 <span class="go">[&#39;energy&#39;, &#39;multiphase&#39;, &#39;viscous&#39;]</span>
 </pre></div>
 </div>
 <p>The <code class="docutils literal notranslate"><span class="pre">get_active_command_names</span></code> method returns the list of active
 commands:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">root</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">run_calculation</span><span class="o">.</span><span class="n">get_active_command_names</span><span class="p">()</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">solver</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">run_calculation</span><span class="o">.</span><span class="n">get_active_command_names</span><span class="p">()</span>
 <span class="go">[&#39;iterate&#39;]</span>
 </pre></div>
 </div>
 </section>
 <section id="root-object">
 <span id="settings-root-section"></span><h2>Root object<a class="headerlink" href="#root-object" title="Permalink to this heading">#</a></h2>
-<p>The <code class="docutils literal notranslate"><span class="pre">root</span></code> object is the top-level settings object. It contains all other
-settings objects in a hierarchical structure. For more information, see <a class="reference internal" href="_autosummary/settings/root.html#root"><span class="std std-ref">root</span></a>.</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">root</span></code> object (named solver in the preceding examples) is the top-level
+solver settings object. It contains all other settings objects in a hierarchical structure.
+For more information, see <a class="reference internal" href="_autosummary/settings/root.html#root"><span class="std std-ref">root</span></a>.</p>
 </section>
 </section>
 

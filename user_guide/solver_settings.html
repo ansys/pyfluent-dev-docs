@@ -283,11 +283,6 @@
    Set gravitational acceleration
   </a>
  </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#sample-use-of-explicit-attribute-access-methods">
-   Sample use of explicit attribute access methods
-  </a>
- </li>
 </ul>
 
 </nav>
@@ -309,7 +304,7 @@
                 
   <section id="specifying-solver-settings">
 <span id="ref-user-guide-solver-settings"></span><h1>Specifying solver settings<a class="headerlink" href="#specifying-solver-settings" title="Permalink to this heading">#</a></h1>
-<p>PyFluent supports using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a>
+<p>PyFluent supports using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Solver settings objects</span></a>
 to specify solver settings.</p>
 <p>The examples in this topic show how you use <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> to
 specify solver settings.</p>
@@ -360,26 +355,6 @@ Python code for setting the gravitational acceleration.</p>
 </div>
 <p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">operating_conditions</span><span class="o">.</span><span class="n">gravity</span><span class="p">(</span><span class="s1">&#39;yes&#39;</span><span class="p">,</span><span class="s1">&#39;0&#39;</span><span class="p">,</span><span class="s1">&#39;-9.81&#39;</span><span class="p">,</span><span class="s1">&#39;0&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-</section>
-<section id="sample-use-of-explicit-attribute-access-methods">
-<h2>Sample use of explicit attribute access methods<a class="headerlink" href="#sample-use-of-explicit-attribute-access-methods" title="Permalink to this heading">#</a></h2>
-<p>This simple example shows how you use the explicit attribute access methods
-in a simple solver session.</p>
-<p><strong>Python code</strong></p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
-<span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
-
-<span class="n">import_filename</span> <span class="o">=</span> <span class="n">examples</span><span class="o">.</span><span class="n">download_file</span><span class="p">(</span><span class="s2">&quot;mixing_elbow.msh.h5&quot;</span><span class="p">,</span> <span class="s2">&quot;pyfluent/mixing_elbow&quot;</span><span class="p">)</span>
-<span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
-
-<span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">is_active</span><span class="p">()</span>
-<span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">is_read_only</span><span class="p">()</span>
-<span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">default_value</span><span class="p">()</span>
-<span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">viscous</span><span class="o">.</span><span class="n">model</span><span class="o">.</span><span class="n">allowed_values</span><span class="p">()</span>
-<span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">discrete_phase</span><span class="o">.</span><span class="n">tracking</span><span class="o">.</span><span class="n">tracking_parameters</span><span class="o">.</span><span class="n">max_number_of_steps</span><span class="o">.</span><span class="n">min</span><span class="p">()</span>
-<span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">discrete_phase</span><span class="o">.</span><span class="n">tracking</span><span class="o">.</span><span class="n">tracking_parameters</span><span class="o">.</span><span class="n">max_number_of_steps</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
 </pre></div>
 </div>
 </section>

@@ -336,7 +336,7 @@ method to start Fluent from Python in gRPC mode. The following code snippets
 start Fluent in the background so that commands can be sent to Fluent from the
 Python interpreter.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
-<span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
+<span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <section id="launcher-options">
@@ -346,7 +346,7 @@ For more information, see <a class="reference internal" href="../api/core/_autos
 <section id="solver-mode">
 <h3>Solver mode<a class="headerlink" href="#solver-mode" title="Permalink to this heading">#</a></h3>
 <p>This example shows you how to launch Fluent in solution mode:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
@@ -361,7 +361,7 @@ For more information, see <a class="reference internal" href="../api/core/_autos
 <h3>Precision<a class="headerlink" href="#precision" title="Permalink to this heading">#</a></h3>
 <p>This example shows you how to launch Fluent in solution mode
 and set the floating point precision:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
@@ -369,7 +369,7 @@ and set the floating point precision:</p>
 <h3>Dimension<a class="headerlink" href="#dimension" title="Permalink to this heading">#</a></h3>
 <p>This example shows you how to launch Fluent in solution mode and also set the
 modeling dimension:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="s2">&quot;2d&quot;</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="s2">&quot;2d&quot;</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 </section>
@@ -377,7 +377,7 @@ modeling dimension:</p>
 <h3>Local parallel<a class="headerlink" href="#local-parallel" title="Permalink to this heading">#</a></h3>
 <p>This example shows you how to launch fluent in solution mode and also set the
 number of processors for local parallel execution:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
    <span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="s2">&quot;2d&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span>
 <span class="p">)</span>
 </pre></div>
@@ -387,7 +387,7 @@ number of processors for local parallel execution:</p>
 <h3>Distributed parallel<a class="headerlink" href="#distributed-parallel" title="Permalink to this heading">#</a></h3>
 <p>This example shows you how to launch fluent in solution mode with 16 processors
 distributed across more than one machine:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
    <span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span>
    <span class="n">version</span><span class="o">=</span><span class="s2">&quot;3d&quot;</span><span class="p">,</span>
    <span class="n">processor_count</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span>
@@ -442,12 +442,12 @@ the supported interfaces.</p></li>
 <p>Once running within the scheduler environment <a class="reference internal" href="../api/core/_autosummary/ansys.fluent.core.launcher.launcher.launch_fluent.html#ansys.fluent.core.launcher.launcher.launch_fluent" title="ansys.fluent.core.launcher.launcher.launch_fluent"><code class="xref py py-func docutils literal notranslate"><span class="pre">launch_fluent()</span></code></a> can be used in a few
 different ways. This example shows you how to start up the three-dimensional
 double precision version of Fluent on all the requested machines and cores:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="s2">&quot;3d&quot;</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="s2">&quot;3d&quot;</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>If you want to clamp the number of cores that Fluent is launched on you can
 provide the <code class="docutils literal notranslate"><span class="pre">processor_count</span></code> option:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
    <span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="s2">&quot;3d&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">16</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span>
 <span class="p">)</span>
 </pre></div>
@@ -460,13 +460,13 @@ not scale well on all the allocated cores.</p>
 <p>Finally, if you want to ignore the scheduler allocation you can pass the <code class="docutils literal notranslate"><span class="pre">-t</span></code>
 or <code class="docutils literal notranslate"><span class="pre">-t</span></code> and <code class="docutils literal notranslate"><span class="pre">-cnf</span></code> arguments to <a class="reference internal" href="../api/core/_autosummary/ansys.fluent.core.launcher.launcher.launch_fluent.html#ansys.fluent.core.launcher.launcher.launch_fluent" title="ansys.fluent.core.launcher.launcher.launch_fluent"><code class="xref py py-func docutils literal notranslate"><span class="pre">launch_fluent()</span></code></a> using the
 <code class="docutils literal notranslate"><span class="pre">additional_arguments</span></code> parameter. For local parallel execution just pass <code class="docutils literal notranslate"><span class="pre">-t</span></code>:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
    <span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">version</span><span class="o">=</span><span class="s2">&quot;3d&quot;</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">,</span> <span class="n">additional_arguments</span><span class="o">=</span><span class="s2">&quot;-t16&quot;</span>
 <span class="p">)</span>
 </pre></div>
 </div>
 <p>and for distributed parallel you would usually pass both parameters:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver_session</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span>
    <span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span>
    <span class="n">version</span><span class="o">=</span><span class="s2">&quot;3d&quot;</span><span class="p">,</span>
    <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">,</span>

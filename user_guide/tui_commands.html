@@ -350,9 +350,9 @@ constructing TUI calls that include full sequences of arguments.</p>
 code launches Fluent and makes the call to set velocity inlet properties:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">launch_fluent</span>
 
-<span class="n">solver_session</span> <span class="o">=</span> <span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
+<span class="n">solver</span> <span class="o">=</span> <span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
 
-<span class="n">tui</span> <span class="o">=</span> <span class="n">solver_session</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span>
+<span class="n">tui</span> <span class="o">=</span> <span class="n">solver</span><span class="o">.</span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span>
 
 <span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">set</span><span class="o">.</span><span class="n">velocity_inlet</span><span class="p">(</span>
   <span class="s2">&quot;velocity-inlet-5&quot;</span><span class="p">,</span> <span class="p">[],</span> <span class="s2">&quot;temperature&quot;</span><span class="p">,</span> <span class="s2">&quot;no&quot;</span><span class="p">,</span> <span class="mf">293.15</span><span class="p">,</span> <span class="s2">&quot;quit&quot;</span>

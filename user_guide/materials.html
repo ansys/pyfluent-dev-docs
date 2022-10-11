@@ -300,7 +300,7 @@
   <section id="defining-materials">
 <h1>Defining materials<a class="headerlink" href="#defining-materials" title="Permalink to this heading">#</a></h1>
 <p>PyFluent supports using <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and
-<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a> to define materials.</p>
+<a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Solver settings objects</span></a> to define materials.</p>
 <section id="use-solver-tui-commands">
 <h2>Use solver TUI commands<a class="headerlink" href="#use-solver-tui-commands" title="Permalink to this heading">#</a></h2>
 <p>This example shows a comparison between the TUI command and the
@@ -344,7 +344,7 @@ Python code for defining the fluid material being modelled on a cell zone.</p>
 </section>
 <section id="use-settings-objects">
 <h2>Use settings objects<a class="headerlink" href="#use-settings-objects" title="Permalink to this heading">#</a></h2>
-<p>This example shows how you use <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Settings objects</span></a> to define materials.</p>
+<p>This example shows how you use <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Solver settings objects</span></a> to define materials.</p>
 <p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">materials</span><span class="o">.</span><span class="n">copy_database_material_by_name</span><span class="p">(</span><span class="nb">type</span><span class="o">=</span><span class="s1">&#39;fluid&#39;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;water-liquid&#39;</span><span class="p">)</span>
 <span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">cell_zone_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">[</span><span class="s1">&#39;elbow-fluid&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">material</span> <span class="o">=</span> <span class="s1">&#39;water-liquid&#39;</span>
