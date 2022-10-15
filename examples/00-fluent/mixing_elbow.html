@@ -540,9 +540,10 @@ follow.</p>
 <section id="import-cad-and-set-length-units">
 <h2>Import CAD and set length units<a class="headerlink" href="#import-cad-and-set-length-units" title="Permalink to this heading">#</a></h2>
 <p>Import the CAD geometry and set the length units to inches.</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-    <span class="n">FileName</span><span class="o">=</span><a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_filename</span></a><span class="p">,</span> <span class="n">LengthUnit</span><span class="o">=</span><span class="s2">&quot;in&quot;</span>
-<span class="p">)</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Import Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;FileName&quot;</span><span class="p">:</span> <a href="https://docs.python.org/dev/library/stdtypes.html#str" title="builtins.str" class="sphx-glr-backref-module-builtins sphx-glr-backref-type-py-class sphx-glr-backref-instance"><span class="n">import_filename</span></a><span class="p">,</span>
+    <span class="s2">&quot;LengthUnit&quot;</span><span class="p">:</span> <span class="s2">&quot;in&quot;</span><span class="p">,</span>
+<span class="p">}</span>
 
 <span class="c1"># Import geometry</span>
 <span class="c1"># ~~~~~~~~~~~~~~~</span>
@@ -589,9 +590,9 @@ the fluid region. The geometry consists of only fluid regions.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">UpdateChildTasks</span><span class="p">(</span>
     <span class="n">SetupTypeChanged</span><span class="o">=</span><span class="kc">False</span>
 <span class="p">)</span>
-<span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="nb">dict</span><span class="p">(</span>
-    <span class="n">SetupType</span><span class="o">=</span><span class="s2">&quot;The geometry consists of only fluid regions with no voids&quot;</span>
-<span class="p">)</span>
+<span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Arguments</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="s2">&quot;SetupType&quot;</span><span class="p">:</span> <span class="s2">&quot;The geometry consists of only fluid regions with no voids&quot;</span>
+<span class="p">}</span>
 <span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">UpdateChildTasks</span><span class="p">(</span><span class="n">SetupTypeChanged</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
 <span class="n">meshing</span><span class="o">.</span><span class="n">workflow</span><span class="o">.</span><span class="n">TaskObject</span><span class="p">[</span><span class="s2">&quot;Describe Geometry&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">Execute</span><span class="p">()</span>
 </pre></div>
@@ -1045,7 +1046,7 @@ of the outlet for the initial solution.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 1 minutes  20.456 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 1 minutes  18.325 seconds)</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-00-fluent-mixing-elbow-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/22546cbeb5353b0a571e27915fd89dcf/mixing_elbow.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">mixing_elbow.py</span></code></a></p>

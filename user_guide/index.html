@@ -393,24 +393,26 @@ to launch an instance of Fluent that runs as a server in the background.</p>
 </div>
 <p>For more information, see <a class="reference internal" href="launching_ansys_fluent.html#ref-user-guide-launch"><span class="std std-ref">Launching Fluent locally</span></a>
 and <a class="reference internal" href="../api/core/launcher.html#ref-launcher-launcher"><span class="std std-ref">Launching Fluent</span></a>.</p>
-<p>You can use PyFluent to create and initialize multiple, independent session objects.
-Each session object provides full access to the Fluent components relevant to the
-session’s current mode (solution or meshing).</p>
+<p>You can use PyFluent to create and initialize multiple, independent session
+objects. Each session object provides full access to the Fluent components
+relevant to the session’s current mode (solution or meshing).</p>
 </section>
 <section id="solution-mode-session">
 <h2>Solution mode session<a class="headerlink" href="#solution-mode-session" title="Permalink to this heading">#</a></h2>
-<p>A solution mode session has an active <code class="docutils literal notranslate"><span class="pre">solver</span></code> object that provides two distinct
-interfaces to the solver:</p>
+<p>A solution mode session has an active <code class="docutils literal notranslate"><span class="pre">solver</span></code> object that provides two
+distinct interfaces to the solver:</p>
 <ul class="simple">
 <li><p><code class="docutils literal notranslate"><span class="pre">tui</span></code> object</p></li>
 <li><p><code class="docutils literal notranslate"><span class="pre">root</span></code> object</p></li>
 </ul>
-<p>For general guidance on using these two objects, see <a class="reference internal" href="solver_settings.html#ref-user-guide-solver-settings"><span class="std std-ref">Specifying solver settings</span></a>.</p>
+<p>For general guidance on using these two objects, see
+<a class="reference internal" href="solver_settings.html#ref-user-guide-solver-settings"><span class="std std-ref">Specifying solver settings</span></a>.</p>
 <section id="solver-tui-object">
 <h3>Solver <code class="docutils literal notranslate"><span class="pre">tui</span></code> object<a class="headerlink" href="#solver-tui-object" title="Permalink to this heading">#</a></h3>
-<p>The solver <code class="docutils literal notranslate"><span class="pre">tui</span></code> object is a complete Python exposure of the Fluent solver TUI (text
-user interface). This object allows straightforward execution of solver commands and
-modification of solve settings in a manner that is familiar to existing Fluent users:</p>
+<p>The solver <code class="docutils literal notranslate"><span class="pre">tui</span></code> object is a complete Python exposure of the Fluent solver TUI
+(text user interface). This object allows straightforward execution of solver
+commands and modification of solve settings in a manner that is familiar to
+existing Fluent users:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">tui</span> <span class="o">=</span> <span class="n">solver</span><span class="o">.</span><span class="n">tui</span>
 
 <span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="s2">&quot;pipe.cas.h5&quot;</span><span class="p">)</span>
@@ -423,9 +425,9 @@ For general guidance on using TUI commands, see <a class="reference internal" hr
 </section>
 <section id="solver-root-object">
 <h3>Solver <code class="docutils literal notranslate"><span class="pre">root</span></code> object<a class="headerlink" href="#solver-root-object" title="Permalink to this heading">#</a></h3>
-<p>The solver <code class="docutils literal notranslate"><span class="pre">root</span></code> object exposes most of the solver capabilities covered by the solver
-<code class="docutils literal notranslate"><span class="pre">tui</span></code> object and provides significant additional interface features that are not possible
-via the <code class="docutils literal notranslate"><span class="pre">tui</span></code> object:</p>
+<p>The solver <code class="docutils literal notranslate"><span class="pre">root</span></code> object exposes most of the solver capabilities covered by
+the solver <code class="docutils literal notranslate"><span class="pre">tui</span></code> object and provides significant additional interface features
+that are not possible via the <code class="docutils literal notranslate"><span class="pre">tui</span></code> object:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="n">file_type</span><span class="o">=</span><span class="s2">&quot;case&quot;</span><span class="p">,</span> <span class="n">file_name</span><span class="o">=</span><span class="s2">&quot;pipe.cas.h5&quot;</span><span class="p">)</span>
 
 <span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">enabled</span> <span class="o">=</span> <span class="kc">True</span>
@@ -448,10 +450,10 @@ distinct interfaces to the mesher:</p>
 </ul>
 <section id="meshing-tui-object">
 <h3>Meshing <code class="docutils literal notranslate"><span class="pre">tui</span></code> object<a class="headerlink" href="#meshing-tui-object" title="Permalink to this heading">#</a></h3>
-<p>The meshing <code class="docutils literal notranslate"><span class="pre">tui</span></code> object is a complete Python exposure of the Fluent meshing TUI
-(text user interface). This object allows straightforward execution of meshing
-commands and modification of meshing settings in a manner that is familiar
-to existing Fluent users:</p>
+<p>The meshing <code class="docutils literal notranslate"><span class="pre">tui</span></code> object is a complete Python exposure of the Fluent meshing
+TUI (text user interface). This object allows straightforward execution of
+meshing commands and modification of meshing settings in a manner that is
+familiar to existing Fluent users:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">tui</span> <span class="o">=</span> <span class="n">meshing_session</span><span class="o">.</span><span class="n">tui</span>
 
 <span class="n">tui</span><span class="o">.</span><span class="n">mesh</span><span class="o">.</span><span class="n">prepare_for_solve</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
@@ -459,15 +461,15 @@ to existing Fluent users:</p>
 <span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">write_case</span><span class="p">(</span><span class="s2">&quot;pipe.cas.h5&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>For the full hierarchy under the meshing <code class="docutils literal notranslate"><span class="pre">tui</span></code> object, see <a class="reference internal" href="../api/core/meshing/tui/index.html#ref-meshing-tui"><span class="std std-ref">meshing.tui</span></a>.
-For general guidance on using TUI commands, see <a class="reference internal" href="tui_commands.html#ref-user-guide-tui-commands"><span class="std std-ref">Using TUI commands</span></a>.</p>
+<p>For the full hierarchy under the meshing <code class="docutils literal notranslate"><span class="pre">tui</span></code> object, see
+<a class="reference internal" href="../api/core/meshing/tui/index.html#ref-meshing-tui"><span class="std std-ref">meshing.tui</span></a>. For general guidance on using TUI commands, see
+<a class="reference internal" href="tui_commands.html#ref-user-guide-tui-commands"><span class="std std-ref">Using TUI commands</span></a>.</p>
 </section>
 <section id="meshing-and-workflow-properties">
 <h3><code class="docutils literal notranslate"><span class="pre">Meshing</span></code> and <code class="docutils literal notranslate"><span class="pre">Workflow</span></code> properties<a class="headerlink" href="#meshing-and-workflow-properties" title="Permalink to this heading">#</a></h3>
-<p>The <code class="docutils literal notranslate"><span class="pre">meshing</span></code> object has <code class="docutils literal notranslate"><span class="pre">meshing</span></code> and <code class="docutils literal notranslate"><span class="pre">workflow</span></code> properties that
-together provide access to Fluent’s meshing workflows. This interface
-is consistent with the Python meshing workflow interface that Fluent meshing
-exposes directly:</p>
+<p>The <code class="docutils literal notranslate"><span class="pre">meshing</span></code> object has <code class="docutils literal notranslate"><span class="pre">meshing</span></code> and <code class="docutils literal notranslate"><span class="pre">workflow</span></code> properties that together
+provide access to Fluent’s meshing workflows. This interface is consistent with
+the Python meshing workflow interface that Fluent meshing exposes directly:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">workflow</span> <span class="o">=</span> <span class="n">meshing_session</span><span class="o">.</span><span class="n">workflow</span>
 
 <span class="n">workflow</span><span class="o">.</span><span class="n">InitializeWorkflow</span><span class="p">(</span><span class="n">WorkflowType</span><span class="o">=</span><span class="s2">&quot;Watertight Geometry&quot;</span><span class="p">)</span>
@@ -480,7 +482,7 @@ exposes directly:</p>
 
 <span class="n">meshing</span> <span class="o">=</span> <span class="n">meshing_session</span><span class="o">.</span><span class="n">meshing</span>
 
-<span class="n">meshing</span><span class="o">.</span><span class="n">GlobalSettings</span><span class="o">.</span><span class="n">LengthUnit</span><span class="o">.</span><span class="n">setState</span><span class="p">(</span><span class="s2">&quot;mm&quot;</span><span class="p">)</span>
+<span class="n">meshing</span><span class="o">.</span><span class="n">GlobalSettings</span><span class="o">.</span><span class="n">LengthUnit</span><span class="o">.</span><span class="n">set_state</span><span class="p">(</span><span class="s2">&quot;mm&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
 <p>For additional examples, see <a class="reference internal" href="meshing_workflows.html#ref-user-guide-meshing-workflows"><span class="std std-ref">Using meshing workflows</span></a>.
@@ -489,15 +491,15 @@ For information on the full interface, see <a class="reference internal" href=".
 </section>
 <section id="session-object">
 <h2>Session object<a class="headerlink" href="#session-object" title="Permalink to this heading">#</a></h2>
-<p>In either a solution or meshing mode session, the <code class="docutils literal notranslate"><span class="pre">session</span></code> object provides
-a more direct interaction via its <code class="docutils literal notranslate"><span class="pre">scheme_eval</span></code> attribute:</p>
+<p>In either a solution or meshing mode session, the <code class="docutils literal notranslate"><span class="pre">session</span></code> object provides a
+more direct interaction via its <code class="docutils literal notranslate"><span class="pre">scheme_eval</span></code> attribute:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">unsteady</span> <span class="o">=</span> <span class="n">solver</span><span class="o">.</span><span class="n">scheme_eval</span><span class="o">.</span><span class="n">scheme_eval</span><span class="p">(</span><span class="s2">&quot;(rp-unsteady?)&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>The argument to <code class="docutils literal notranslate"><span class="pre">scheme_eval</span></code> is a string that contains any scheme
-code that can be executed in Fluent for the current mode.</p>
-<p>Surface field and mesh data services are available in solution mode only via
-the <code class="docutils literal notranslate"><span class="pre">field_data</span></code> object attribute of the session object:</p>
+<p>The argument to <code class="docutils literal notranslate"><span class="pre">scheme_eval</span></code> is a string that contains any scheme code that
+can be executed in Fluent for the current mode.</p>
+<p>Surface field and mesh data services are available in solution mode only via the
+<code class="docutils literal notranslate"><span class="pre">field_data</span></code> object attribute of the session object:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">surface_data</span> <span class="o">=</span> <span class="n">solver</span><span class="o">.</span><span class="n">field_data</span><span class="o">.</span><span class="n">get_fields</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -510,15 +512,15 @@ the <code class="docutils literal notranslate"><span class="pre">field_data</spa
 </section>
 <section id="streaming">
 <h2>Streaming<a class="headerlink" href="#streaming" title="Permalink to this heading">#</a></h2>
-<p>Streaming of a Fluent transcript is automatically started by default.
-You can stop and start the streaming of a transcript manually with:</p>
+<p>Streaming of a Fluent transcript is automatically started by default. You can
+stop and start the streaming of a transcript manually with:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">stop_transcript</span><span class="p">()</span>
 
 <span class="n">solver</span><span class="o">.</span><span class="n">start_transcript</span><span class="p">()</span>
 </pre></div>
 </div>
-<p>You can enable and disable the streaming of events pertaining to various
-solver event types via the <code class="docutils literal notranslate"><span class="pre">events_manager</span></code> attribute of a solution mode session:</p>
+<p>You can enable and disable the streaming of events pertaining to various solver
+event types via the <code class="docutils literal notranslate"><span class="pre">events_manager</span></code> attribute of a solution mode session:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">events_manager</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
 </pre></div>
 </div>
@@ -528,7 +530,7 @@ solver event types via the <code class="docutils literal notranslate"><span clas
 <h2>Global logging<a class="headerlink" href="#global-logging" title="Permalink to this heading">#</a></h2>
 <p>You can control the global logging level at any time with:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
-<span class="n">pyfluent</span><span class="o">.</span><span class="n">set_log_level</span><span class="p">(</span><span class="s1">&#39;DEBUG&#39;</span><span class="p">)</span> <span class="c1"># by default, only errors are shown</span>
+<span class="n">pyfluent</span><span class="o">.</span><span class="n">set_log_level</span><span class="p">(</span><span class="s2">&quot;DEBUG&quot;</span><span class="p">)</span> <span class="c1"># by default, only errors are shown</span>
 </pre></div>
 </div>
 </section>

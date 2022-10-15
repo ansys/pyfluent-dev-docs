@@ -311,33 +311,34 @@ Python code for defining the fluid material being modelled on a cell zone.</p>
 </div>
 <p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
-<span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s1">&#39;double&#39;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
-<span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="s1">&#39;file.cas.h5&#39;</span><span class="p">)</span>
-<span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">materials</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="s1">&#39;fluid&#39;</span><span class="p">,</span> <span class="s1">&#39;water-liquid&#39;</span><span class="p">)</span>
+
+<span class="n">solver</span> <span class="o">=</span> <span class="n">pyfluent</span><span class="o">.</span><span class="n">launch_fluent</span><span class="p">(</span><span class="n">precision</span><span class="o">=</span><span class="s2">&quot;double&quot;</span><span class="p">,</span> <span class="n">processor_count</span><span class="o">=</span><span class="mi">2</span><span class="p">,</span> <span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
+<span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">file</span><span class="o">.</span><span class="n">read_case</span><span class="p">(</span><span class="s2">&quot;file.cas.h5&quot;</span><span class="p">)</span>
+<span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">materials</span><span class="o">.</span><span class="n">copy</span><span class="p">(</span><span class="s2">&quot;fluid&quot;</span><span class="p">,</span> <span class="s2">&quot;water-liquid&quot;</span><span class="p">)</span>
 <span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">boundary_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">(</span>
-    <span class="s1">&#39;elbow-fluid&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;yes&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;water-liquid&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;no&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;no&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;no&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;no&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;0&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;no&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;0&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;no&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;0&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;no&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;0&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;no&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;0&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;no&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;1&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;no&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;no&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;no&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;no&#39;</span><span class="p">,</span>
-    <span class="s1">&#39;no&#39;</span><span class="p">,</span>
+    <span class="s2">&quot;elbow-fluid&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;yes&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;water-liquid&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;0&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;0&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;0&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;0&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;0&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;1&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;no&quot;</span><span class="p">,</span>
 <span class="p">)</span>
 </pre></div>
 </div>
@@ -346,8 +347,8 @@ Python code for defining the fluid material being modelled on a cell zone.</p>
 <h2>Use settings objects<a class="headerlink" href="#use-settings-objects" title="Permalink to this heading">#</a></h2>
 <p>This example shows how you use <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Solver settings objects</span></a> to define materials.</p>
 <p><strong>Python code</strong></p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">materials</span><span class="o">.</span><span class="n">copy_database_material_by_name</span><span class="p">(</span><span class="nb">type</span><span class="o">=</span><span class="s1">&#39;fluid&#39;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s1">&#39;water-liquid&#39;</span><span class="p">)</span>
-<span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">cell_zone_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">[</span><span class="s1">&#39;elbow-fluid&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">material</span> <span class="o">=</span> <span class="s1">&#39;water-liquid&#39;</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">materials</span><span class="o">.</span><span class="n">copy_database_material_by_name</span><span class="p">(</span><span class="nb">type</span><span class="o">=</span><span class="s2">&quot;fluid&quot;</span><span class="p">,</span> <span class="n">name</span><span class="o">=</span><span class="s2">&quot;water-liquid&quot;</span><span class="p">)</span>
+<span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">cell_zone_conditions</span><span class="o">.</span><span class="n">fluid</span><span class="p">[</span><span class="s2">&quot;elbow-fluid&quot;</span><span class="p">]</span><span class="o">.</span><span class="n">material</span> <span class="o">=</span> <span class="s2">&quot;water-liquid&quot;</span>
 </pre></div>
 </div>
 </section>
