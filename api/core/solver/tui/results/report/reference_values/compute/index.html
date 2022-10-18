@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>solver.tui.results.report.reference_values.compute &#8212; PyFluent</title>
     
@@ -46,7 +46,6 @@
     <script src="../../../../../../../../_static/underscore.js"></script>
     <script src="../../../../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../../../../_static/doctools.js"></script>
-    <script src="../../../../../../../../_static/sphinx_highlight.js"></script>
     <script src="../../../../../../../../_static/thebelab-helper.js"></script>
     <script src="../../../../../../../../_static/clipboard.min.js"></script>
     <script src="../../../../../../../../_static/copybutton.js"></script>
@@ -8538,313 +8537,9 @@
     
     <div class="toc-item">
       
-<div class="tocsection onthispage mt-5 pt-1 pb-3">
-    <i class="fas fa-list"></i> On this page
-</div>
 
 <nav id="bd-toc-nav">
-    <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute">
-   <code class="docutils literal notranslate">
-    <span class="pre">
-     main_menu.results.report.reference_values.compute
-    </span>
-   </code>
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.axis">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.axis()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.degassing">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.degassing()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.dummy_entry">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.dummy_entry()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.exhaust_fan">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.exhaust_fan()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.fan">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.fan()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.fluid">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.fluid()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.geometry">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.geometry()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.inlet_vent">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.inlet_vent()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.intake_fan">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.intake_fan()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.interface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.interface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.interior">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.interior()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.mass_flow_inlet">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.mass_flow_inlet()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.mass_flow_outlet">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.mass_flow_outlet()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.network">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.network()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.network_end">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.network_end()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.outflow">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.outflow()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.outlet_vent">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.outlet_vent()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.overset">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.overset()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.periodic">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.periodic()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.porous_jump">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.porous_jump()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.pressure_far_field">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.pressure_far_field()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.pressure_inlet">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.pressure_inlet()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.pressure_outlet">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.pressure_outlet()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.radiator">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.radiator()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.rans_les_interface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.rans_les_interface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.recirculation_inlet">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.recirculation_inlet()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.recirculation_outlet">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.recirculation_outlet()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.shadow">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.shadow()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.solid">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.solid()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.symmetry">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.symmetry()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.velocity_inlet">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.velocity_inlet()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.reference_values.compute.wall">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.reference_values.compute.wall()
-      </span>
-     </code>
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
-
+    
 </nav>
     </div>
     
@@ -8865,10 +8560,6 @@
   <section id="solver-tui-results-report-reference-values-compute">
 <span id="ref-solver-tui-results-report-reference-values-compute"></span><h1>solver.tui.results.report.reference_values.compute<a class="headerlink" href="#solver-tui-results-report-reference-values-compute" title="Permalink to this heading">#</a></h1>
 <table class="autosummary longtable table autosummary">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 </tbody>
 </table>
@@ -9097,7 +8788,7 @@
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.2.3.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.0.2.<br>
 </p>
   </div>
   

@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>solver.tui.define.models.viscous.turbulence_expert &#8212; PyFluent</title>
     
@@ -46,7 +46,6 @@
     <script src="../../../../../../../../_static/underscore.js"></script>
     <script src="../../../../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../../../../_static/doctools.js"></script>
-    <script src="../../../../../../../../_static/sphinx_highlight.js"></script>
     <script src="../../../../../../../../_static/thebelab-helper.js"></script>
     <script src="../../../../../../../../_static/clipboard.min.js"></script>
     <script src="../../../../../../../../_static/copybutton.js"></script>
@@ -8538,205 +8537,9 @@
     
     <div class="toc-item">
       
-<div class="tocsection onthispage mt-5 pt-1 pb-3">
-    <i class="fas fa-list"></i> On this page
-</div>
 
 <nav id="bd-toc-nav">
-    <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert">
-   <code class="docutils literal notranslate">
-    <span class="pre">
-     main_menu.define.models.viscous.turbulence_expert
-    </span>
-   </code>
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.kato_launder_model">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.kato_launder_model()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.kw_add_des">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.kw_add_des()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.kw_add_sas">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.kw_add_sas()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.kw_vorticity_based_production">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.kw_vorticity_based_production()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.low_re_ke">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.low_re_ke()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.low_re_ke_index">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.low_re_ke_index()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.non_newtonian_modification">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.non_newtonian_modification()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.production_limiter">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.production_limiter()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.restore_sst_v61">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.restore_sst_v61()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.rke_cmu_rotation_term">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.rke_cmu_rotation_term()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.sbes_les_subgrid_dynamic_fvar">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.sbes_les_subgrid_dynamic_fvar()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.sbes_sdes_hybrid_model">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.sbes_sdes_hybrid_model()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.sbes_sgs_option">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.sbes_sgs_option()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.sbes_update_interval_k_omega">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.sbes_update_interval_k_omega()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.stg_set_ti_and_tvr_limiters">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.stg_set_ti_and_tvr_limiters()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.thermal_p_function">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.thermal_p_function()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.turb_add_sbes_sdes">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.turb_add_sbes_sdes()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.turb_non_newtonian">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.turb_non_newtonian()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.turb_pk_compressible">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.turb_pk_compressible()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.define.models.viscous.turbulence_expert.turbulence_damping">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.define.models.viscous.turbulence_expert.turbulence_damping()
-      </span>
-     </code>
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
-
+    
 </nav>
     </div>
     
@@ -8757,10 +8560,6 @@
   <section id="solver-tui-define-models-viscous-turbulence-expert">
 <span id="ref-solver-tui-define-models-viscous-turbulence-expert"></span><h1>solver.tui.define.models.viscous.turbulence_expert<a class="headerlink" href="#solver-tui-define-models-viscous-turbulence-expert" title="Permalink to this heading">#</a></h1>
 <table class="autosummary longtable table autosummary">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 </tbody>
 </table>
@@ -8933,7 +8732,7 @@ to search STG scales only at inlet areas where TVR &gt; TVR_min and TI &gt; TI_m
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.2.3.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.0.2.<br>
 </p>
   </div>
   

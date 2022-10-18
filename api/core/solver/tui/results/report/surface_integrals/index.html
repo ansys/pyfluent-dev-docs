@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>solver.tui.results.report.surface_integrals &#8212; PyFluent</title>
     
@@ -46,7 +46,6 @@
     <script src="../../../../../../../_static/underscore.js"></script>
     <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../../../_static/doctools.js"></script>
-    <script src="../../../../../../../_static/sphinx_highlight.js"></script>
     <script src="../../../../../../../_static/thebelab-helper.js"></script>
     <script src="../../../../../../../_static/clipboard.min.js"></script>
     <script src="../../../../../../../_static/copybutton.js"></script>
@@ -8537,205 +8536,9 @@
     
     <div class="toc-item">
       
-<div class="tocsection onthispage mt-5 pt-1 pb-3">
-    <i class="fas fa-list"></i> On this page
-</div>
 
 <nav id="bd-toc-nav">
-    <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals">
-   <code class="docutils literal notranslate">
-    <span class="pre">
-     main_menu.results.report.surface_integrals
-    </span>
-   </code>
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.area">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.area()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.area_weighted_avg">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.area_weighted_avg()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.facet_avg">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.facet_avg()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.facet_max">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.facet_max()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.facet_min">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.facet_min()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.flow_rate">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.flow_rate()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.integral">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.integral()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.mass_flow_rate">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.mass_flow_rate()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.mass_weighted_avg">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.mass_weighted_avg()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.standard_deviation">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.standard_deviation()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.sum">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.sum()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.uniformity_index_area_weighted">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.uniformity_index_area_weighted()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.uniformity_index_mass_weighted">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.uniformity_index_mass_weighted()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.vector_based_flux">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.vector_based_flux()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.vector_flux">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.vector_flux()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.vector_weighted_average">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.vector_weighted_average()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.vertex_avg">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.vertex_avg()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.vertex_max">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.vertex_max()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.vertex_min">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.vertex_min()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.results.report.surface_integrals.volume_flow_rate">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.results.report.surface_integrals.volume_flow_rate()
-      </span>
-     </code>
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
-
+    
 </nav>
     </div>
     
@@ -8756,10 +8559,6 @@
   <section id="solver-tui-results-report-surface-integrals">
 <span id="ref-solver-tui-results-report-surface-integrals"></span><h1>solver.tui.results.report.surface_integrals<a class="headerlink" href="#solver-tui-results-report-surface-integrals" title="Permalink to this heading">#</a></h1>
 <table class="autosummary longtable table autosummary">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 </tbody>
 </table>
@@ -8916,7 +8715,7 @@
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.2.3.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.0.2.<br>
 </p>
   </div>
   

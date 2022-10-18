@@ -4,7 +4,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
     <title>solver.tui.surface &#8212; PyFluent</title>
     
@@ -46,7 +46,6 @@
     <script src="../../../../../_static/underscore.js"></script>
     <script src="../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../_static/doctools.js"></script>
-    <script src="../../../../../_static/sphinx_highlight.js"></script>
     <script src="../../../../../_static/thebelab-helper.js"></script>
     <script src="../../../../../_static/clipboard.min.js"></script>
     <script src="../../../../../_static/copybutton.js"></script>
@@ -8535,340 +8534,9 @@
     
     <div class="toc-item">
       
-<div class="tocsection onthispage mt-5 pt-1 pb-3">
-    <i class="fas fa-list"></i> On this page
-</div>
 
 <nav id="bd-toc-nav">
-    <ul class="visible nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface">
-   <code class="docutils literal notranslate">
-    <span class="pre">
-     main_menu.surface
-    </span>
-   </code>
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.circle_slice">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.circle_slice()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.cone_slice">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.cone_slice()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.create_imprint_surface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.create_imprint_surface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.delete_surface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.delete_surface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.edit_surface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.edit_surface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.ellipsoid_slice">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.ellipsoid_slice()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.expression_volume">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.expression_volume()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.group_surfaces">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.group_surfaces()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.iso_clip">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.iso_clip()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.iso_surface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.iso_surface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.line_slice">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.line_slice()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.line_surface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.line_surface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.list_surfaces">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.list_surfaces()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.mouse_line">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.mouse_line()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.mouse_plane">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.mouse_plane()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.mouse_rake">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.mouse_rake()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.multiple_iso_surfaces">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.multiple_iso_surfaces()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.multiple_plane_surfaces">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.multiple_plane_surfaces()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.multiple_zone_surfaces">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.multiple_zone_surfaces()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.partition_surface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.partition_surface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.plane">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.plane()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.plane_slice">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.plane_slice()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.plane_surface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.plane_surface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.point_array">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.point_array()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.point_surface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.point_surface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.quadric_slice">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.quadric_slice()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.rake_surface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.rake_surface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.rename_surface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.rename_surface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.reset_zone_surfaces">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.reset_zone_surfaces()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.sphere_slice">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.sphere_slice()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.structural_point_surface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.structural_point_surface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.surface_cells">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.surface_cells()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.transform_surface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.transform_surface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.ungroup_surface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.ungroup_surface()
-      </span>
-     </code>
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.surface.zone_surface">
-     <code class="docutils literal notranslate">
-      <span class="pre">
-       main_menu.surface.zone_surface()
-      </span>
-     </code>
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
-
+    
 </nav>
     </div>
     
@@ -8889,10 +8557,6 @@
   <section id="solver-tui-surface">
 <span id="ref-solver-tui-surface"></span><h1>solver.tui.surface<a class="headerlink" href="#solver-tui-surface" title="Permalink to this heading">#</a></h1>
 <table class="autosummary longtable table autosummary">
-<colgroup>
-<col style="width: 10%" />
-<col style="width: 90%" />
-</colgroup>
 <tbody>
 </tbody>
 </table>
@@ -9141,7 +8805,7 @@
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.2.3.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.0.2.<br>
 </p>
   </div>
   
