@@ -46,6 +46,7 @@
     <script src="../../../../../../_static/underscore.js"></script>
     <script src="../../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../../_static/doctools.js"></script>
+    <script src="../../../../../../_static/sphinx_highlight.js"></script>
     <script src="../../../../../../_static/thebelab-helper.js"></script>
     <script src="../../../../../../_static/clipboard.min.js"></script>
     <script src="../../../../../../_static/copybutton.js"></script>
@@ -8535,9 +8536,358 @@
     
     <div class="toc-item">
       
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
 <nav id="bd-toc-nav">
-    
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance">
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     main_menu.preferences.appearance
+    </span>
+   </code>
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.application_font_size">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.application_font_size()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.axis_triad">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.axis_triad()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.color_theme">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.color_theme()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.completer">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.completer()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.custom_title_bar">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.custom_title_bar()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.default_view">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.default_view()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.graphics_background_color1">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.graphics_background_color1()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.graphics_background_color2">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.graphics_background_color2()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.graphics_background_style">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.graphics_background_style()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.graphics_color_theme">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.graphics_color_theme()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.graphics_default_manual_face_color">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.graphics_default_manual_face_color()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.graphics_default_manual_node_color">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.graphics_default_manual_node_color()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.graphics_edge_color">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.graphics_edge_color()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.graphics_foreground_color">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.graphics_foreground_color()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.graphics_partition_boundary_color">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.graphics_partition_boundary_color()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.graphics_surface_color">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.graphics_surface_color()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.graphics_title_window_framecolor">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.graphics_title_window_framecolor()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.graphics_view">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.graphics_view()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.graphics_wall_face_color">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.graphics_wall_face_color()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.group_by_tree_view">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.group_by_tree_view()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.model_color_scheme">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.model_color_scheme()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.number_of_files_recently_used">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.number_of_files_recently_used()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.number_of_pastel_colors">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.number_of_pastel_colors()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.pastel_color_saturation">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.pastel_color_saturation()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.pastel_color_value">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.pastel_color_value()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.quick_property_view">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.quick_property_view()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.ruler">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.ruler()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.show_enabled_models">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.show_enabled_models()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.show_interface_children_zone">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.show_interface_children_zone()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.show_model_edges">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.show_model_edges()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.solution_mode_edge_color_in_meshing_mode">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.solution_mode_edge_color_in_meshing_mode()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.startup_page">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.startup_page()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.surface_emissivity">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.surface_emissivity()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.surface_specularity">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.surface_specularity()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.surface_specularity_for_contours">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.surface_specularity_for_contours()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.titles">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.titles()
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.solver.tui_222.main_menu.preferences.appearance.titles_border_offset">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       main_menu.preferences.appearance.titles_border_offset()
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
 </nav>
     </div>
     
@@ -8818,7 +9168,7 @@
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.0.2.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.2.3.<br>
 </p>
   </div>
   

@@ -46,6 +46,7 @@
     <script src="../../../_static/underscore.js"></script>
     <script src="../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../_static/doctools.js"></script>
+    <script src="../../../_static/sphinx_highlight.js"></script>
     <script src="../../../_static/thebelab-helper.js"></script>
     <script src="../../../_static/clipboard.min.js"></script>
     <script src="../../../_static/copybutton.js"></script>
@@ -8587,6 +8588,71 @@
     <a class="reference internal nav-link" href="#vector-field-request">
      Vector field request
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#ansys.fluent.core.services.field_data.FieldTransaction.add_surfaces_request">
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         FieldTransaction.add_surfaces_request()
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#ansys.fluent.core.services.field_data.FieldTransaction.add_scalar_fields_request">
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         FieldTransaction.add_scalar_fields_request()
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#ansys.fluent.core.services.field_data.FieldTransaction.add_vector_fields_request">
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         FieldTransaction.add_vector_fields_request()
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#ansys.fluent.core.services.field_data.FieldTransaction.get_fields">
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         FieldTransaction.get_fields()
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#ansys.fluent.core.services.field_data.FieldData.get_surface_data">
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         FieldData.get_surface_data()
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#ansys.fluent.core.services.field_data.FieldData.get_scalar_field_data">
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         FieldData.get_scalar_field_data()
+        </span>
+       </code>
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#ansys.fluent.core.services.field_data.FieldData.get_vector_field_data">
+       <code class="docutils literal notranslate">
+        <span class="pre">
+         FieldData.get_vector_field_data()
+        </span>
+       </code>
+      </a>
+     </li>
+    </ul>
    </li>
   </ul>
  </li>
@@ -8721,9 +8787,9 @@ the following order (see below to find out about <code class="docutils literal n
 and receive all the requested data in a single response.</p>
 <p>The <code class="docutils literal notranslate"><span class="pre">add_get_&lt;items&gt;_request</span></code> methods combine requests for multiple fields in a single request:</p>
 <ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">add_get_surfaces_request</span></code> adds a surfaces request.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">add_get_scalar_fields_request</span></code> adds a scalar fields request.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">add_get_vector_fields_request</span></code> adds a vector fields request.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">add_surfaces_request</span></code> adds a surfaces request.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">add_scalar_fields_request</span></code> adds a scalar fields request.</p></li>
+<li><p><code class="docutils literal notranslate"><span class="pre">add_vector_fields_request</span></code> adds a vector fields request.</p></li>
 </ul>
 <p>The <code class="docutils literal notranslate"><span class="pre">get_fields</span></code> method returns all requested fields in a single response. It provides
 a dictionary containing the requested fields as a numpy array in the following order:</p>
@@ -8778,14 +8844,16 @@ scalar field name passed in the request.</p>
 </tbody>
 </table>
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldData.add_get_surfaces_request">
-<span class="sig-prename descclassname"><span class="pre">FieldData.</span></span><span class="sig-name descname"><span class="pre">add_get_surfaces_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface_ids</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">overset_mesh</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">provide_vertices</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">provide_faces</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">provide_faces_centroid</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">provide_faces_normal</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldData.add_get_surfaces_request" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldTransaction.add_surfaces_request">
+<span class="sig-prename descclassname"><span class="pre">FieldTransaction.</span></span><span class="sig-name descname"><span class="pre">add_surfaces_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface_ids</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">surface_names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">overset_mesh</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">provide_vertices</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">provide_faces</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">provide_faces_centroid</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">provide_faces_normal</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldTransaction.add_surfaces_request" title="Permalink to this definition">#</a></dt>
 <dd><p>Add request to get surface data (vertices, face connectivity,
 centroids, and normals).</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><dl>
-<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>]</span></dt><dd><p>List of surface IDS for the surface data.</p>
+<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>], <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>List of surface IDS for the surface data.</p>
+</dd>
+<dt><strong>surface_names: List[str], optional</strong></dt><dd><p>List of surface names for the surface data.</p>
 </dd>
 <dt><strong>overset_mesh</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to get the overset met. The default is <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
 </dd>
@@ -8813,15 +8881,17 @@ centroids, and normals).</p>
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldData.add_get_scalar_fields_request">
-<span class="sig-prename descclassname"><span class="pre">FieldData.</span></span><span class="sig-name descname"><span class="pre">add_get_scalar_fields_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface_ids</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">field_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node_value</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary_value</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldData.add_get_scalar_fields_request" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldTransaction.add_scalar_fields_request">
+<span class="sig-prename descclassname"><span class="pre">FieldTransaction.</span></span><span class="sig-name descname"><span class="pre">add_scalar_fields_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">field_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">surface_ids</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">surface_names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node_value</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary_value</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldTransaction.add_scalar_fields_request" title="Permalink to this definition">#</a></dt>
 <dd><p>Add request to get scalar field data on surfaces.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><dl>
-<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>]</span></dt><dd><p>List of surface IDs for scalar field data.</p>
-</dd>
 <dt><strong>field_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the scalar field.</p>
+</dd>
+<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>], <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>List of surface IDs for scalar field data.</p>
+</dd>
+<dt><strong>surface_names: List[str], optional</strong></dt><dd><p>List of surface names for scalar field data.</p>
 </dd>
 <dt><strong>node_value</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to provide the nodal location. The default is <code class="docutils literal notranslate"><span class="pre">True</span></code>. If
 <code class="docutils literal notranslate"><span class="pre">False</span></code>, the element location is provided.</p>
@@ -8845,15 +8915,17 @@ is <code class="docutils literal notranslate"><span class="pre">False</span></co
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldData.add_get_vector_fields_request">
-<span class="sig-prename descclassname"><span class="pre">FieldData.</span></span><span class="sig-name descname"><span class="pre">add_get_vector_fields_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface_ids</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vector_field</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'velocity'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldData.add_get_vector_fields_request" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldTransaction.add_vector_fields_request">
+<span class="sig-prename descclassname"><span class="pre">FieldTransaction.</span></span><span class="sig-name descname"><span class="pre">add_vector_fields_request</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">field_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">surface_ids</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">surface_names</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldTransaction.add_vector_fields_request" title="Permalink to this definition">#</a></dt>
 <dd><p>Add request to get vector field data on surfaces.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><dl>
-<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>]</span></dt><dd><p>List of surface IDs for vector field data.</p>
+<dt><strong>field_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the vector field.</p>
 </dd>
-<dt><strong>vector_field</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Name of the vector field.</p>
+<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>], <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>List of surface IDs for vector field data.</p>
+</dd>
+<dt><strong>surface_names: List[str], optional</strong></dt><dd><p>List of surface names for vector field data.</p>
 </dd>
 </dl>
 </dd>
@@ -8871,8 +8943,8 @@ is <code class="docutils literal notranslate"><span class="pre">False</span></co
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldData.get_fields">
-<span class="sig-prename descclassname"><span class="pre">FieldData.</span></span><span class="sig-name descname"><span class="pre">get_fields</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldData.get_fields" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldTransaction.get_fields">
+<span class="sig-prename descclassname"><span class="pre">FieldTransaction.</span></span><span class="sig-name descname"><span class="pre">get_fields</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldTransaction.get_fields" title="Permalink to this definition">#</a></dt>
 <dd><p>Get data for previously added requests, and clear all requests.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Returns<span class="colon">:</span></dt>
@@ -8892,15 +8964,17 @@ tag_id [int]-&gt; surface_id [int] -&gt; field_name [str] -&gt; field_data[np.ar
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldData.get_surface_data">
-<span class="sig-prename descclassname"><span class="pre">FieldData.</span></span><span class="sig-name descname"><span class="pre">get_surface_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">data_type</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">overset_mesh</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldData.get_surface_data" title="Permalink to this definition">#</a></dt>
+<span class="sig-prename descclassname"><span class="pre">FieldData.</span></span><span class="sig-name descname"><span class="pre">get_surface_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">data_type</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">surface_ids</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">surface_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">overset_mesh</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldData.get_surface_data" title="Permalink to this definition">#</a></dt>
 <dd><p>Get surface data (vertices, faces connectivity, centroids, and
 normals).</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><dl>
-<dt><strong>surface_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Surface name for the surface data.</p>
-</dd>
 <dt><strong>data_type</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">SurfaceDataType</span></code></span></dt><dd><p>SurfaceDataType Enum member.</p>
+</dd>
+<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>], <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>List of surface IDs for the surface data.</p>
+</dd>
+<dt><strong>surface_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Surface name for the surface data.</p>
 </dd>
 <dt><strong>overset_mesh</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to provide the overset method. The default is <code class="docutils literal notranslate"><span class="pre">False</span></code>.</p>
 </dd>
@@ -8922,14 +8996,16 @@ normals).</p>
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldData.get_scalar_field_data">
-<span class="sig-prename descclassname"><span class="pre">FieldData.</span></span><span class="sig-name descname"><span class="pre">get_scalar_field_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">field_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node_value</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary_value</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldData.get_scalar_field_data" title="Permalink to this definition">#</a></dt>
+<span class="sig-prename descclassname"><span class="pre">FieldData.</span></span><span class="sig-name descname"><span class="pre">get_scalar_field_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">field_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">surface_ids</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">surface_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">node_value</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">boundary_value</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">False</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldData.get_scalar_field_data" title="Permalink to this definition">#</a></dt>
 <dd><p>Get scalar field data on a surface.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><dl>
-<dt><strong>surface_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the surface.</p>
-</dd>
 <dt><strong>field_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the scalar field.</p>
+</dd>
+<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>], <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>List of surface IDs for scalar field data.</p>
+</dd>
+<dt><strong>surface_name: str, optional</strong></dt><dd><p>Surface Name for scalar field data.</p>
 </dd>
 <dt><strong>node_value</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Whether to provide data for the nodal location. The default is <code class="docutils literal notranslate"><span class="pre">True</span></code>.
 When <code class="docutils literal notranslate"><span class="pre">False</span></code>, data is provided for the element location.</p>
@@ -8955,14 +9031,16 @@ When <code class="docutils literal notranslate"><span class="pre">False</span></
 
 <dl class="py method">
 <dt class="sig sig-object py" id="ansys.fluent.core.services.field_data.FieldData.get_vector_field_data">
-<span class="sig-prename descclassname"><span class="pre">FieldData.</span></span><span class="sig-name descname"><span class="pre">get_vector_field_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">surface_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">vector_field</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">'velocity'</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldData.get_vector_field_data" title="Permalink to this definition">#</a></dt>
+<span class="sig-prename descclassname"><span class="pre">FieldData.</span></span><span class="sig-name descname"><span class="pre">get_vector_field_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">field_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">surface_ids</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">surface_name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.services.field_data.FieldData.get_vector_field_data" title="Permalink to this definition">#</a></dt>
 <dd><p>Get vector field data on a surface.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><dl>
-<dt><strong>surface_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the surface.</p>
+<dt><strong>field_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Name of the vector field.</p>
 </dd>
-<dt><strong>vector_field</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a>, <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>Name of the vector field.</p>
+<dt><strong>surface_ids</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">List</span></code>[<a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a>], <code class="xref py py-obj docutils literal notranslate"><span class="pre">optional</span></code></span></dt><dd><p>List of surface IDs for vector field data.</p>
+</dd>
+<dt><strong>surface_name: str, optional</strong></dt><dd><p>Surface Name for vector field data.</p>
 </dd>
 </dl>
 </dd>
@@ -9009,7 +9087,7 @@ When <code class="docutils literal notranslate"><span class="pre">False</span></
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.0.2.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.2.3.<br>
 </p>
   </div>
   

@@ -46,6 +46,7 @@
     <script src="../../../../../../../_static/underscore.js"></script>
     <script src="../../../../../../../_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="../../../../../../../_static/doctools.js"></script>
+    <script src="../../../../../../../_static/sphinx_highlight.js"></script>
     <script src="../../../../../../../_static/thebelab-helper.js"></script>
     <script src="../../../../../../../_static/clipboard.min.js"></script>
     <script src="../../../../../../../_static/copybutton.js"></script>
@@ -8535,9 +8536,331 @@
     
     <div class="toc-item">
       
+<div class="tocsection onthispage mt-5 pt-1 pb-3">
+    <i class="fas fa-list"></i> On this page
+</div>
 
 <nav id="bd-toc-nav">
-    
+    <ul class="visible nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings">
+   <code class="docutils literal notranslate">
+    <span class="pre">
+     Root.Graphics.ColormapSettings
+    </span>
+   </code>
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.Alignment">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.Alignment
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.AspectRatioWhenHorizontal">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.AspectRatioWhenHorizontal
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.AspectRatioWhenVertical">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.AspectRatioWhenVertical
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.AutoRefitOnResize">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.AutoRefitOnResize
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.AutomaticResize">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.AutomaticResize
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.BorderStyle">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.BorderStyle
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.Colormap">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.Colormap
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.IsolinesPositionOffset">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.IsolinesPositionOffset
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.Labels">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.Labels
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.Levels">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.Levels
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.LogScale">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.LogScale
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.MajorLengthToScreenRatioWhenHorizontal">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.MajorLengthToScreenRatioWhenHorizontal
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.MajorLengthToScreenRatioWhenVertical">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.MajorLengthToScreenRatioWhenVertical
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.MarginFromEdgeToScreenRatio">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.MarginFromEdgeToScreenRatio
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.MaxSizeScaleFactor">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.MaxSizeScaleFactor
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.MinSizeScaleFactor">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.MinSizeScaleFactor
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.NumberFormatPrecision">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.NumberFormatPrecision
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.NumberFormatType">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.NumberFormatType
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.ShowColormap">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.ShowColormap
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.SkipValue">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.SkipValue
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.TextBehavior">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.TextBehavior
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.TextFontAutomaticHorizontalSize">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.TextFontAutomaticHorizontalSize
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.TextFontAutomaticSize">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.TextFontAutomaticSize
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.TextFontAutomaticUnits">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.TextFontAutomaticUnits
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.TextFontAutomaticVerticalSize">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.TextFontAutomaticVerticalSize
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.TextFontFixedHorizontalSize">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.TextFontFixedHorizontalSize
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.TextFontFixedSize">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.TextFontFixedSize
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.TextFontFixedUnits">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.TextFontFixedUnits
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.TextFontFixedVerticalSize">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.TextFontFixedVerticalSize
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.TextFontName">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.TextFontName
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.TextTruncationLimitForHorizontalColormaps">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.TextTruncationLimitForHorizontalColormaps
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.TextTruncationLimitForVerticalColormaps">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.TextTruncationLimitForVerticalColormaps
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.Type">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.Type
+      </span>
+     </code>
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#ansys.fluent.core.datamodel_222.preferences.Root.Graphics.ColormapSettings.UseNoSubWindows">
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       Root.Graphics.ColormapSettings.UseNoSubWindows
+      </span>
+     </code>
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
 </nav>
     </div>
     
@@ -8798,7 +9121,7 @@
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.0.2.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.2.3.<br>
 </p>
   </div>
   

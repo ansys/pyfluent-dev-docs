@@ -45,6 +45,7 @@
     <script src="_static/underscore.js"></script>
     <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
     <script src="_static/doctools.js"></script>
+    <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/thebelab-helper.js"></script>
     <script src="_static/clipboard.min.js"></script>
     <script src="_static/copybutton.js"></script>
@@ -556,12 +557,6 @@
       </ul></li>
       <li><a href="api/core/meshing/tui/objects/wrap/set/index.html#ansys.fluent.core.meshing.tui_222.main_menu.objects.wrap.set.add_geometry_recovery_level_to_zones">add_geometry_recovery_level_to_zones() (ansys.fluent.core.meshing.tui_222.main_menu.objects.wrap.set method)</a>
 </li>
-      <li><a href="api/core/solver/fielddata.html#ansys.fluent.core.services.field_data.FieldData.add_get_scalar_fields_request">add_get_scalar_fields_request() (ansys.fluent.core.services.field_data.FieldData method)</a>
-</li>
-      <li><a href="api/core/solver/fielddata.html#ansys.fluent.core.services.field_data.FieldData.add_get_surfaces_request">add_get_surfaces_request() (ansys.fluent.core.services.field_data.FieldData method)</a>
-</li>
-      <li><a href="api/core/solver/fielddata.html#ansys.fluent.core.services.field_data.FieldData.add_get_vector_fields_request">add_get_vector_fields_request() (ansys.fluent.core.services.field_data.FieldData method)</a>
-</li>
       <li><a href="api/core/solver/tui/define/models/heat_exchanger/dual_cell_model/index.html#ansys.fluent.core.solver.tui_222.main_menu.define.models.heat_exchanger.dual_cell_model.add_heat_exchanger">add_heat_exchanger() (ansys.fluent.core.solver.tui_222.main_menu.define.models.heat_exchanger.dual_cell_model method)</a>
 
       <ul>
@@ -580,6 +575,8 @@
         <li><a href="api/core/solver/tui/solve/set/data_sampling_options/index.html#ansys.fluent.core.solver.tui_222.main_menu.solve.set.data_sampling_options.add_rtdft_datasets">(ansys.fluent.core.solver.tui_222.main_menu.solve.set.data_sampling_options method)</a>
 </li>
       </ul></li>
+      <li><a href="api/core/solver/fielddata.html#ansys.fluent.core.services.field_data.FieldTransaction.add_scalar_fields_request">add_scalar_fields_request() (ansys.fluent.core.services.field_data.FieldTransaction method)</a>
+</li>
       <li><a href="api/core/solver/tui/define/models/acoustics/wave_equation_options/basic_shapes/index.html#ansys.fluent.core.solver.tui_222.main_menu.define.models.acoustics.wave_equation_options.basic_shapes.add_source_mask_shape">add_source_mask_shape() (ansys.fluent.core.solver.tui_222.main_menu.define.models.acoustics.wave_equation_options.basic_shapes method)</a>
 
       <ul>
@@ -600,6 +597,8 @@
       </ul></li>
       <li><a href="api/core/meshing/tui/mesh/rapid_octree/mesh_sizing/index.html#ansys.fluent.core.meshing.tui_222.main_menu.mesh.rapid_octree.mesh_sizing.add_surface_sizing">add_surface_sizing() (ansys.fluent.core.meshing.tui_222.main_menu.mesh.rapid_octree.mesh_sizing method)</a>
 </li>
+      <li><a href="api/core/solver/fielddata.html#ansys.fluent.core.services.field_data.FieldTransaction.add_surfaces_request">add_surfaces_request() (ansys.fluent.core.services.field_data.FieldTransaction method)</a>
+</li>
       <li><a href="api/core/meshing/tui/cad_assemblies/draw_options/index.html#ansys.fluent.core.meshing.tui_222.main_menu.cad_assemblies.draw_options.add_to_graphics">add_to_graphics() (ansys.fluent.core.meshing.tui_222.main_menu.cad_assemblies.draw_options method)</a>
 
       <ul>
@@ -618,6 +617,8 @@
         <li><a href="api/core/solver/tui/setup/models/viscous/index.html#ansys.fluent.core.solver.tui_222.main_menu.setup.models.viscous.add_transition_model">(ansys.fluent.core.solver.tui_222.main_menu.setup.models.viscous method)</a>
 </li>
       </ul></li>
+      <li><a href="api/core/solver/fielddata.html#ansys.fluent.core.services.field_data.FieldTransaction.add_vector_fields_request">add_vector_fields_request() (ansys.fluent.core.services.field_data.FieldTransaction method)</a>
+</li>
       <li><a href="api/core/meshing/tui/mesh/cavity/index.html#ansys.fluent.core.meshing.tui_222.main_menu.mesh.cavity.add_zones">add_zones() (ansys.fluent.core.meshing.tui_222.main_menu.mesh.cavity method)</a>
 
       <ul>
@@ -8481,7 +8482,7 @@
 </li>
       <li><a href="api/core/solver/tui/parametric_study/design_points/index.html#ansys.fluent.core.solver.tui_222.main_menu.parametric_study.design_points.get_current_design_point">get_current_design_point() (ansys.fluent.core.solver.tui_222.main_menu.parametric_study.design_points method)</a>
 </li>
-      <li><a href="api/core/solver/fielddata.html#ansys.fluent.core.services.field_data.FieldData.get_fields">get_fields() (ansys.fluent.core.services.field_data.FieldData method)</a>
+      <li><a href="api/core/solver/fielddata.html#ansys.fluent.core.services.field_data.FieldTransaction.get_fields">get_fields() (ansys.fluent.core.services.field_data.FieldTransaction method)</a>
 </li>
       <li><a href="api/core/solver/tui/parametric_study/design_points/index.html#ansys.fluent.core.solver.tui_222.main_menu.parametric_study.design_points.get_input_parameters_of_dp">get_input_parameters_of_dp() (ansys.fluent.core.solver.tui_222.main_menu.parametric_study.design_points method)</a>
 </li>
@@ -30929,7 +30930,7 @@
   
   <div class="footer-item">
     <p class="sphinx-version">
-Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.0.2.<br>
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 5.2.3.<br>
 </p>
   </div>
   
