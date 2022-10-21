@@ -14,6 +14,7 @@ ansys.fluent.core.solver.flobject.Query
       :toctree:
    
       ~Query.__init__
+      ~Query.arguments
       ~Query.get_attr
       ~Query.get_attrs
       ~Query.is_active

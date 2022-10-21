@@ -14,6 +14,7 @@ ansys.fluent.core.solver.flobject.Command
       :toctree:
    
       ~Command.__init__
+      ~Command.arguments
       ~Command.get_attr
       ~Command.get_attrs
       ~Command.is_active
