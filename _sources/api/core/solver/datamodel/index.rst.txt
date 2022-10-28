@@ -11,3 +11,5 @@ solver.datamodel
 .. toctree::
    :hidden:
 
+   workflow/index
+   preferences/index
