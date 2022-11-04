@@ -382,6 +382,51 @@ Create and display velocity vectors on the ``symmetry-xyplane`` plane.
 
 
 
+.. rst-class:: sphx-glr-script-out
+
+ .. code-block:: none
+
+
+    name : velocity_vector_symmetry
+    field : velocity-magnitude
+    vector_field : velocity
+    scale : 
+      auto_scale : True
+      scale_f : 1
+    style : 3d arrow
+    skip : 0
+    vector_opt : 
+      in_plane : False
+      fixed_length : False
+      x_comp : True
+      y_comp : True
+      z_comp : True
+      scale_head : 0.3
+      color : 
+    range_option : 
+      option : auto-range-on
+      auto_range_on : 
+        global_range : True
+      auto_range_off : 
+        clip_to_range : False
+        minimum : 0.0
+        maximum : 0.0
+    color_map : 
+      visible : True
+      size : 100
+      color : field-velocity
+      log_scale : False
+      format : %0.2e
+      user_skip : 9
+      show_all : True
+      position : 1
+      font_name : Helvetica
+      font_automatic : True
+      font_size : 0.032
+      length : 0.54
+      width : 6.0
+    display_state_name : None
+
 
 
 
@@ -423,6 +468,14 @@ Compute the mass flow rate.
  .. code-block:: none
 
 
+    report_type : flux-massflow
+    average_over : 1
+    per_zone : False
+    zone_names : 
+      0 : cold-inlet
+      1 : hot-inlet
+      2 : outlet
+
     {'mass_flow_rate': [-5.191642632018656e-06, 0]}
 
 
@@ -449,7 +502,7 @@ Close Fluent.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 0 minutes  53.588 seconds)
+   **Total running time of the script:** ( 0 minutes  53.751 seconds)
 
 
 .. _sphx_glr_download_examples_00-fluent_mixing_elbow_settings_api.py:

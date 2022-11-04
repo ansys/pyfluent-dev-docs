@@ -243,6 +243,16 @@
    Applying solution settings
   </a>
  </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="case_reader.html">
+   Case reader
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="data_transfer.html">
+   Data transfer
+  </a>
+ </li>
 </ul>
 
   </div>
@@ -377,7 +387,7 @@ Python code to control and monitor Ansys Fluent.</p>
 </div>
 <section id="overview">
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h2>
-<p>You use the <a class="reference internal" href="../api/core/_autosummary/ansys.fluent.core.launcher.launcher.launch_fluent.html#ansys.fluent.core.launcher.launcher.launch_fluent" title="ansys.fluent.core.launcher.launcher.launch_fluent"><code class="xref py py-func docutils literal notranslate"><span class="pre">launch_fluent()</span></code></a> method
+<p>You use the <a class="reference internal" href="../api/_autosummary/ansys.fluent.core.launcher.launcher.launch_fluent.html#ansys.fluent.core.launcher.launcher.launch_fluent" title="ansys.fluent.core.launcher.launcher.launch_fluent"><code class="xref py py-func docutils literal notranslate"><span class="pre">launch_fluent()</span></code></a> method
 to launch an instance of Fluent that runs as a server in the background.</p>
 <p>You can launch Fluent in solution mode with:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">launch_fluent</span>
@@ -392,7 +402,7 @@ to launch an instance of Fluent that runs as a server in the background.</p>
 </pre></div>
 </div>
 <p>For more information, see <a class="reference internal" href="launching_ansys_fluent.html#ref-user-guide-launch"><span class="std std-ref">Launching Fluent locally</span></a>
-and <a class="reference internal" href="../api/core/launcher.html#ref-launcher-launcher"><span class="std std-ref">Launching Fluent</span></a>.</p>
+and <a class="reference internal" href="../api/launcher.html#ref-launcher-launcher"><span class="std std-ref">Launching Fluent</span></a>.</p>
 <p>You can use PyFluent to create and initialize multiple, independent session
 objects. Each session object provides full access to the Fluent components
 relevant to the session’s current mode (solution or meshing).</p>
@@ -420,7 +430,7 @@ existing Fluent users:</p>
 <span class="n">tui</span><span class="o">.</span><span class="n">define</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="p">(</span><span class="s2">&quot;yes&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>For the full hierarchy under the solver <code class="docutils literal notranslate"><span class="pre">tui</span></code> object, see <a class="reference internal" href="../api/core/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>.
+<p>For the full hierarchy under the solver <code class="docutils literal notranslate"><span class="pre">tui</span></code> object, see <a class="reference internal" href="../api/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a>.
 For general guidance on using TUI commands, see <a class="reference internal" href="tui_commands.html#ref-user-guide-tui-commands"><span class="std std-ref">Using TUI commands</span></a>.</p>
 </section>
 <section id="solver-root-object">
@@ -435,8 +445,8 @@ that are not possible via the <code class="docutils literal notranslate"><span c
 <span class="n">energy_is_enabled</span> <span class="o">=</span> <span class="n">solver</span><span class="o">.</span><span class="n">setup</span><span class="o">.</span><span class="n">models</span><span class="o">.</span><span class="n">energy</span><span class="o">.</span><span class="n">enabled</span><span class="p">()</span>
 </pre></div>
 </div>
-<p>For the full hierarchy under the solver <code class="docutils literal notranslate"><span class="pre">root</span></code> object, see <a class="reference internal" href="../api/core/solver/tui/index.html#ref-solver-tui"><span class="std std-ref">solver.tui</span></a>.
-For additional interface features, see <a class="reference internal" href="../api/core/solver/settings.html#ref-settings"><span class="std std-ref">Solver settings objects</span></a>.</p>
+<p>For the full hierarchy under the solver <code class="docutils literal notranslate"><span class="pre">root</span></code> object, see <a class="reference internal" href="../api/solver/tui/index.html#ref-solver-tui"><span class="std std-ref">solver.tui</span></a>.
+For additional interface features, see <a class="reference internal" href="../api/solver/settings.html#ref-settings"><span class="std std-ref">Solver settings objects</span></a>.</p>
 </section>
 </section>
 <section id="meshing-mode-session">
@@ -462,7 +472,7 @@ familiar to existing Fluent users:</p>
 </pre></div>
 </div>
 <p>For the full hierarchy under the meshing <code class="docutils literal notranslate"><span class="pre">tui</span></code> object, see
-<a class="reference internal" href="../api/core/meshing/tui/index.html#ref-meshing-tui"><span class="std std-ref">meshing.tui</span></a>. For general guidance on using TUI commands, see
+<a class="reference internal" href="../api/meshing/tui/index.html#ref-meshing-tui"><span class="std std-ref">meshing.tui</span></a>. For general guidance on using TUI commands, see
 <a class="reference internal" href="tui_commands.html#ref-user-guide-tui-commands"><span class="std std-ref">Using TUI commands</span></a>.</p>
 </section>
 <section id="meshing-and-workflow-properties">
@@ -486,7 +496,7 @@ the Python meshing workflow interface that Fluent meshing exposes directly:</p>
 </pre></div>
 </div>
 <p>For additional examples, see <a class="reference internal" href="meshing_workflows.html#ref-user-guide-meshing-workflows"><span class="std std-ref">Using meshing workflows</span></a>.
-For information on the full interface, see <a class="reference internal" href="../api/core/meshing/datamodel/index.html#ref-meshing-datamodel"><span class="std std-ref">meshing.datamodel</span></a>.</p>
+For information on the full interface, see <a class="reference internal" href="../api/meshing/datamodel/index.html#ref-meshing-datamodel"><span class="std std-ref">meshing.datamodel</span></a>.</p>
 </section>
 </section>
 <section id="session-object">
@@ -503,7 +513,7 @@ can be executed in Fluent for the current mode.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">surface_data</span> <span class="o">=</span> <span class="n">solver</span><span class="o">.</span><span class="n">field_data</span><span class="o">.</span><span class="n">get_fields</span><span class="p">()</span>
 </pre></div>
 </div>
-<p>For more information, see <a class="reference internal" href="../api/core/solver/fielddata.html#ref-field-data"><span class="std std-ref">Field data</span></a>.</p>
+<p>For more information, see <a class="reference internal" href="../api/solver/fielddata.html#ref-field-data"><span class="std std-ref">Field data</span></a>.</p>
 <p>The connection status of any session can be verified with:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">health</span> <span class="o">=</span> <span class="n">solver</span><span class="o">.</span><span class="n">check_health</span><span class="p">()</span>
 </pre></div>
@@ -524,7 +534,7 @@ event types via the <code class="docutils literal notranslate"><span class="pre"
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">events_manager</span><span class="o">.</span><span class="n">start</span><span class="p">()</span>
 </pre></div>
 </div>
-<p>For more information, see <a class="reference internal" href="../api/core/solver/events.html#ref-events"><span class="std std-ref">EventsManager</span></a>.</p>
+<p>For more information, see <a class="reference internal" href="../api/solver/events.html#ref-events"><span class="std std-ref">EventsManager</span></a>.</p>
 </section>
 <section id="global-logging">
 <h2>Global logging<a class="headerlink" href="#global-logging" title="Permalink to this heading">#</a></h2>
