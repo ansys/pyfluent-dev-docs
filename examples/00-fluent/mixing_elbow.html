@@ -386,6 +386,11 @@
     </a>
    </li>
    <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#create-expression-report-definition">
+     Create expression report definition
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
     <a class="reference internal nav-link" href="#create-convergence-condition">
      Create convergence condition
     </a>
@@ -840,6 +845,21 @@ named <code class="docutils literal notranslate"><span class="pre">&quot;outlet-
 </pre></div>
 </div>
 </section>
+<section id="create-expression-report-definition">
+<h2>Create expression report definition<a class="headerlink" href="#create-expression-report-definition" title="Permalink to this heading">#</a></h2>
+<p>Create a report definition of single value expression type computing the difference
+of area-averaged static pressure over cold-inlet and oulet. The name of the
+report definition is <code class="docutils literal notranslate"><span class="pre">&quot;ave-pressure-diff&quot;</span></code>.</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">tui</span><span class="o">.</span><span class="n">solve</span><span class="o">.</span><span class="n">report_definitions</span><span class="o">.</span><span class="n">add</span><span class="p">(</span>
+    <span class="s2">&quot;ave-pressure-diff&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;single-val-expression&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;define&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;</span><span class="se">\&quot;</span><span class="s2">AreaAve(StaticPressure, [&#39;cold-inlet&#39;])-AreaAve(StaticPressure, [&#39;outlet&#39;])</span><span class="se">\&quot;</span><span class="s2">&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;quit&quot;</span><span class="p">,</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</section>
 <section id="create-convergence-condition">
 <h2>Create convergence condition<a class="headerlink" href="#create-convergence-condition" title="Permalink to this heading">#</a></h2>
 <p>Create a convergence condition for <code class="docutils literal notranslate"><span class="pre">outlet-temp-avg</span></code>.</p>
@@ -1046,7 +1066,7 @@ of the outlet for the initial solution.</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
 </pre></div>
 </div>
-<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 1 minutes  18.005 seconds)</p>
+<p class="sphx-glr-timing"><strong>Total running time of the script:</strong> ( 1 minutes  20.557 seconds)</p>
 <div class="sphx-glr-footer sphx-glr-footer-example docutils container" id="sphx-glr-download-examples-00-fluent-mixing-elbow-py">
 <div class="sphx-glr-download sphx-glr-download-python docutils container">
 <p><a class="reference download internal" download="" href="../../_downloads/22546cbeb5353b0a571e27915fd89dcf/mixing_elbow.py"><code class="xref download docutils literal notranslate"><span class="pre">Download</span> <span class="pre">Python</span> <span class="pre">source</span> <span class="pre">code:</span> <span class="pre">mixing_elbow.py</span></code></a></p>

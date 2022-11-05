@@ -724,13 +724,41 @@ named ``"outlet-temp-avg"``.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 357-360
+.. GENERATED FROM PYTHON SOURCE LINES 357-362
+
+Create expression report definition
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Create a report definition of single value expression type computing the difference
+of area-averaged static pressure over cold-inlet and oulet. The name of the
+report definition is ``"ave-pressure-diff"``.
+
+.. GENERATED FROM PYTHON SOURCE LINES 362-371
+
+.. code-block:: default
+
+
+    solver.tui.solve.report_definitions.add(
+        "ave-pressure-diff",
+        "single-val-expression",
+        "define",
+        "\"AreaAve(StaticPressure, ['cold-inlet'])-AreaAve(StaticPressure, ['outlet'])\"",
+        "quit",
+    )
+
+
+
+
+
+
+
+
+.. GENERATED FROM PYTHON SOURCE LINES 372-375
 
 Create convergence condition
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Create a convergence condition for ``outlet-temp-avg``.
 
-.. GENERATED FROM PYTHON SOURCE LINES 360-401
+.. GENERATED FROM PYTHON SOURCE LINES 375-416
 
 .. code-block:: default
 
@@ -782,13 +810,13 @@ Create a convergence condition for ``outlet-temp-avg``.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 402-405
+.. GENERATED FROM PYTHON SOURCE LINES 417-420
 
 Initialize flow field
 ~~~~~~~~~~~~~~~~~~~~~
 Initialize the flow field using hybrid initialization.
 
-.. GENERATED FROM PYTHON SOURCE LINES 405-408
+.. GENERATED FROM PYTHON SOURCE LINES 420-423
 
 .. code-block:: default
 
@@ -802,13 +830,13 @@ Initialize the flow field using hybrid initialization.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 409-412
+.. GENERATED FROM PYTHON SOURCE LINES 424-427
 
 Save case file
 ~~~~~~~~~~~~~~
 Solve the case file (``mixing_elbow1.cas.h5``).
 
-.. GENERATED FROM PYTHON SOURCE LINES 412-415
+.. GENERATED FROM PYTHON SOURCE LINES 427-430
 
 .. code-block:: default
 
@@ -822,13 +850,13 @@ Solve the case file (``mixing_elbow1.cas.h5``).
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 416-419
+.. GENERATED FROM PYTHON SOURCE LINES 431-434
 
 Solve for 100 iterations
 ~~~~~~~~~~~~~~~~~~~~~~~~
 Solve for 100 iterations.
 
-.. GENERATED FROM PYTHON SOURCE LINES 419-422
+.. GENERATED FROM PYTHON SOURCE LINES 434-437
 
 .. code-block:: default
 
@@ -842,25 +870,25 @@ Solve for 100 iterations.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 423-426
+.. GENERATED FROM PYTHON SOURCE LINES 438-441
 
 .. image:: /_static/mixing_elbow_012.png
   :width: 500pt
   :align: center
 
-.. GENERATED FROM PYTHON SOURCE LINES 428-431
+.. GENERATED FROM PYTHON SOURCE LINES 443-446
 
 .. image:: /_static/mixing_elbow_013.png
   :width: 500pt
   :align: center
 
-.. GENERATED FROM PYTHON SOURCE LINES 433-436
+.. GENERATED FROM PYTHON SOURCE LINES 448-451
 
 Save data file
 ~~~~~~~~~~~~~~
 Save the data file (``mixing_elbow1.dat.h5``).
 
-.. GENERATED FROM PYTHON SOURCE LINES 436-439
+.. GENERATED FROM PYTHON SOURCE LINES 451-454
 
 .. code-block:: default
 
@@ -874,7 +902,7 @@ Save the data file (``mixing_elbow1.dat.h5``).
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 440-449
+.. GENERATED FROM PYTHON SOURCE LINES 455-464
 
 Create definition for velocity magnitude contours
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -886,7 +914,7 @@ symmetry plane.
 - Set ``"surfaces-list"`` to ``"symmetry-xyplane"``.
 - Set ``"display"`` to ``"contour-vel contour"``.
 
-.. GENERATED FROM PYTHON SOURCE LINES 449-467
+.. GENERATED FROM PYTHON SOURCE LINES 464-482
 
 .. code-block:: default
 
@@ -915,13 +943,13 @@ symmetry plane.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 468-471
+.. GENERATED FROM PYTHON SOURCE LINES 483-486
 
 .. image:: /_static/mixing_elbow_014.png
   :width: 500pt
   :align: center
 
-.. GENERATED FROM PYTHON SOURCE LINES 473-482
+.. GENERATED FROM PYTHON SOURCE LINES 488-497
 
 Create definition for temperature contours
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -933,7 +961,7 @@ plane.
 - Set ``"surfaces-list"`` to ``"symmetry-xyplane"``.
 - Set ``"display"`` to ``"contour-temp contour"``.
 
-.. GENERATED FROM PYTHON SOURCE LINES 482-500
+.. GENERATED FROM PYTHON SOURCE LINES 497-515
 
 .. code-block:: default
 
@@ -962,13 +990,13 @@ plane.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 501-504
+.. GENERATED FROM PYTHON SOURCE LINES 516-519
 
 .. image:: /_static/mixing_elbow_015.png
   :width: 500pt
   :align: center
 
-.. GENERATED FROM PYTHON SOURCE LINES 506-515
+.. GENERATED FROM PYTHON SOURCE LINES 521-530
 
 Create velocity vectors
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -980,7 +1008,7 @@ Create and display velocity vectors on the symmetry-xyplane plane.
 - Set ``"scale"`` to ``"4"``.
 - Set ``"skip"`` to ``"2"``.
 
-.. GENERATED FROM PYTHON SOURCE LINES 515-533
+.. GENERATED FROM PYTHON SOURCE LINES 530-548
 
 .. code-block:: default
 
@@ -1009,20 +1037,20 @@ Create and display velocity vectors on the symmetry-xyplane plane.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 534-537
+.. GENERATED FROM PYTHON SOURCE LINES 549-552
 
 .. image:: /_static/mixing_elbow_016.png
   :width: 500pt
   :align: center
 
-.. GENERATED FROM PYTHON SOURCE LINES 539-543
+.. GENERATED FROM PYTHON SOURCE LINES 554-558
 
 Create iso-surface
 ~~~~~~~~~~~~~~~~~~
 Create an iso-surface representing the intersection of the plane z=0 and the
 surface outlet. Name it ``"z=0_outlet"``.
 
-.. GENERATED FROM PYTHON SOURCE LINES 543-548
+.. GENERATED FROM PYTHON SOURCE LINES 558-563
 
 .. code-block:: default
 
@@ -1038,14 +1066,14 @@ surface outlet. Name it ``"z=0_outlet"``.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 549-553
+.. GENERATED FROM PYTHON SOURCE LINES 564-568
 
 Display and save XY plot
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 Display and save an XY plot of the temperature profile across the centerline
 of the outlet for the initial solution.
 
-.. GENERATED FROM PYTHON SOURCE LINES 553-565
+.. GENERATED FROM PYTHON SOURCE LINES 568-580
 
 .. code-block:: default
 
@@ -1068,19 +1096,19 @@ of the outlet for the initial solution.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 566-569
+.. GENERATED FROM PYTHON SOURCE LINES 581-584
 
 .. image:: /_static/mixing_elbow_017.png
   :width: 500pt
   :align: center
 
-.. GENERATED FROM PYTHON SOURCE LINES 571-574
+.. GENERATED FROM PYTHON SOURCE LINES 586-589
 
 Write final case file and data
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 Write the final case file and the data.
 
-.. GENERATED FROM PYTHON SOURCE LINES 574-577
+.. GENERATED FROM PYTHON SOURCE LINES 589-592
 
 .. code-block:: default
 
@@ -1094,13 +1122,13 @@ Write the final case file and the data.
 
 
 
-.. GENERATED FROM PYTHON SOURCE LINES 578-581
+.. GENERATED FROM PYTHON SOURCE LINES 593-596
 
 Close Fluent
 ~~~~~~~~~~~~
 Close Fluent.
 
-.. GENERATED FROM PYTHON SOURCE LINES 581-584
+.. GENERATED FROM PYTHON SOURCE LINES 596-599
 
 .. code-block:: default
 
@@ -1117,7 +1145,7 @@ Close Fluent.
 
 .. rst-class:: sphx-glr-timing
 
-   **Total running time of the script:** ( 1 minutes  18.005 seconds)
+   **Total running time of the script:** ( 1 minutes  20.557 seconds)
 
 
 .. _sphx_glr_download_examples_00-fluent_mixing_elbow.py:
