@@ -28,6 +28,7 @@
       :toctree:
       :template: flobject-class-template.rst
    
+      Action
       Base
       Boolean
       BooleanList
