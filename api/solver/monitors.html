@@ -8831,7 +8831,7 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.monitors_manager.MonitorsManager.get_monitor_set_names">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.streaming_services.monitor_streaming.MonitorsManager.get_monitor_set_names">
    <code class="docutils literal notranslate">
     <span class="pre">
      MonitorsManager.get_monitor_set_names()
@@ -8840,7 +8840,7 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.monitors_manager.MonitorsManager.get_monitor_set_data">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.streaming_services.monitor_streaming.MonitorsManager.get_monitor_set_data">
    <code class="docutils literal notranslate">
     <span class="pre">
      MonitorsManager.get_monitor_set_data()
@@ -8849,7 +8849,7 @@
   </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.monitors_manager.MonitorsManager.get_monitor_set_plot">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.streaming_services.monitor_streaming.MonitorsManager.get_monitor_set_plot">
    <code class="docutils literal notranslate">
     <span class="pre">
      MonitorsManager.get_monitor_set_plot()
@@ -8878,15 +8878,15 @@
                 
   <section id="monitorsmanager">
 <span id="ref-monitors"></span><h1>MonitorsManager<a class="headerlink" href="#monitorsmanager" title="Permalink to this heading">#</a></h1>
-<p>An instance of <code class="docutils literal notranslate"><span class="pre">MonitorsManager</span></code> exists as an active <code class="docutils literal notranslate"><span class="pre">monitors_manager</span></code>
+<p>An instance of <code class="docutils literal notranslate"><span class="pre">MonitorsManager</span></code> exists as an active <code class="docutils literal notranslate"><span class="pre">monitors_streaming</span></code>
 property in each solution-mode session object. It provides access to server monitors.</p>
 <table class="autosummary longtable table autosummary">
 <tbody>
 </tbody>
 </table>
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.monitors_manager.MonitorsManager.get_monitor_set_names">
-<span class="sig-prename descclassname"><span class="pre">MonitorsManager.</span></span><span class="sig-name descname"><span class="pre">get_monitor_set_names</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.monitors_manager.MonitorsManager.get_monitor_set_names" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.streaming_services.monitor_streaming.MonitorsManager.get_monitor_set_names">
+<span class="sig-prename descclassname"><span class="pre">MonitorsManager.</span></span><span class="sig-name descname"><span class="pre">get_monitor_set_names</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.streaming_services.monitor_streaming.MonitorsManager.get_monitor_set_names" title="Permalink to this definition">#</a></dt>
 <dd><p>Get monitor set names.</p>
 <dl class="field-list simple">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -8909,8 +8909,8 @@ property in each solution-mode session object. It provides access to server moni
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.monitors_manager.MonitorsManager.get_monitor_set_data">
-<span class="sig-prename descclassname"><span class="pre">MonitorsManager.</span></span><span class="sig-name descname"><span class="pre">get_monitor_set_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">monitor_set_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_index</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_index</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.monitors_manager.MonitorsManager.get_monitor_set_data" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.streaming_services.monitor_streaming.MonitorsManager.get_monitor_set_data">
+<span class="sig-prename descclassname"><span class="pre">MonitorsManager.</span></span><span class="sig-name descname"><span class="pre">get_monitor_set_data</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">monitor_set_name</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">start_index</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">end_index</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.streaming_services.monitor_streaming.MonitorsManager.get_monitor_set_data" title="Permalink to this definition">#</a></dt>
 <dd><p>Get monitor set data.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
@@ -8939,8 +8939,8 @@ associating monitor names of type <code class="docutils literal notranslate"><sp
 </dd></dl>
 
 <dl class="py method">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.monitors_manager.MonitorsManager.get_monitor_set_plot">
-<span class="sig-prename descclassname"><span class="pre">MonitorsManager.</span></span><span class="sig-name descname"><span class="pre">get_monitor_set_plot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">monitor_set_name</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.monitors_manager.MonitorsManager.get_monitor_set_plot" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.streaming_services.monitor_streaming.MonitorsManager.get_monitor_set_plot">
+<span class="sig-prename descclassname"><span class="pre">MonitorsManager.</span></span><span class="sig-name descname"><span class="pre">get_monitor_set_plot</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">monitor_set_name</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">*</span></span><span class="n"><span class="pre">args</span></span></em>, <em class="sig-param"><span class="o"><span class="pre">**</span></span><span class="n"><span class="pre">kwargs</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.streaming_services.monitor_streaming.MonitorsManager.get_monitor_set_plot" title="Permalink to this definition">#</a></dt>
 <dd><p>Get monitor set plot.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
