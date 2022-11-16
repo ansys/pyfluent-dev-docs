@@ -515,7 +515,7 @@ can be executed in Fluent for the current mode.</p>
 </div>
 <p>For more information, see <a class="reference internal" href="../api/solver/fielddata.html#ref-field-data"><span class="std std-ref">Field data</span></a>.</p>
 <p>The connection status of any session can be verified with:</p>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">health</span> <span class="o">=</span> <span class="n">solver</span><span class="o">.</span><span class="n">check_health</span><span class="p">()</span>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">health</span> <span class="o">=</span> <span class="n">solver</span><span class="o">.</span><span class="n">health_check_service</span><span class="o">.</span><span class="n">status</span><span class="p">()</span>
 </pre></div>
 </div>
 <p><code class="docutils literal notranslate"><span class="pre">&quot;SERVING&quot;</span></code> is returned if and only if the connection is healthy.</p>
