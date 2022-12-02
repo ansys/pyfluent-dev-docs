@@ -28,6 +28,7 @@ ansys.fluent.core.solver.flobject.NamedObject
       ~NamedObject.set_state
       ~NamedObject.to_python_keys
       ~NamedObject.to_scheme_keys
+      ~NamedObject.user_creatable
       ~NamedObject.values
    
    
