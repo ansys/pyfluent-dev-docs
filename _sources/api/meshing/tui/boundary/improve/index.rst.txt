@@ -3,11 +3,11 @@
 meshing.tui.boundary.improve
 ============================
 
-.. currentmodule:: ansys.fluent.core.meshing.tui_222
+.. currentmodule:: ansys.fluent.core.meshing.tui_231
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.meshing.tui_222::main_menu.boundary.improve
-   :members: collapse_bad_faces, improve, smooth, swap, degree_swap
+.. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.boundary.improve
+   :members: swap, smooth, degree_swap, improve, collapse_bad_faces
 

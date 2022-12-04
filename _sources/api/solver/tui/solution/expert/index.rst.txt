@@ -3,21 +3,21 @@
 solver.tui.solution.expert
 ==========================
 
-.. currentmodule:: ansys.fluent.core.solver.tui_222
+.. currentmodule:: ansys.fluent.core.solver.tui_231
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.solver.tui_222::main_menu.solution.expert
-   :members: alternate_wall_temp_formulation, bc_pressure_extrapolations, bcd_boundedness, bcd_weights_freeze, correction_form, disable_reconstruction, energy_numerical_noise_filter, explicit_under_relaxation_value, equation_ordering, flow_warnings, limiter_warnings, linearized_mass_transfer_udf, lock_solid_temperature, material_property_warnings, mp_mfluid_aniso_drag, mp_reference_density, numerical_beach_controls, open_channel_controls, retain_cell_residuals, retain_temporary_solver_mem, set_all_species_together, show_all_discretization_schemes, singhal_et_al_cavitation_model, surface_tension, surface_tension_expert, vof_explicit_controls
+.. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.solution.expert
+   :members: retain_cell_residuals, numerical_beach_controls, alternate_wall_temp_formulation, linearized_mass_transfer_udf, mp_reference_density, material_property_warnings, disable_reconstruction, retain_temporary_solver_mem, flow_warnings, mp_mfluid_aniso_drag, bcd_boundedness, limiter_warnings, singhal_et_al_cavitation_model, open_channel_controls, equation_ordering, vof_explicit_controls, energy_numerical_noise_filter, lock_solid_temperature, explicit_under_relaxation_value, bcd_weights_freeze, show_all_discretization_schemes, surface_tension_expert, correction_form, bc_pressure_extrapolations, surface_tension, set_all_species_together
 
 .. toctree::
    :hidden:
 
-   divergence_prevention/index
-   high_speed_numerics/index
-   poor_mesh_numerics/index
    previous_defaults/index
-   non_reflecting_boundary_treatment/index
+   divergence_prevention/index
+   poor_mesh_numerics/index
    open_channel_wave_options/index
    secondary_gradient_limiting/index
+   non_reflecting_boundary_treatment/index
+   high_speed_numerics/index

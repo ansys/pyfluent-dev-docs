@@ -5,7 +5,7 @@
 lighting
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.lighting
+.. currentmodule:: ansys.fluent.core.solver.settings_231.lighting
 
 .. autoclass:: lighting
     :show-inheritance:

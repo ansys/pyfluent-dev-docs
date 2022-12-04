@@ -5,23 +5,29 @@
 color
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.color
+.. currentmodule:: ansys.fluent.core.solver.settings_231.color
 
 .. autoclass:: color
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-======================================   ===========================
+========================================   ===================================
 
-Parent                                                       Summary
+Parent                                                                 Summary
 
-======================================   ===========================
-:ref:`color_map <color_map>`                      'color_map' child.
+========================================   ===================================
+:ref:`display_options <display_options>`              'display_options' child.
 
-:ref:`vector_opt <vector_opt>`                   'vector_opt' child.
+:ref:`color_map <color_map>`                                'color_map' child.
 
-:ref:`constant_color <constant_color>`       'constant_color' child.
+:ref:`vector_opt <vector_opt>`                             'vector_opt' child.
 
-======================================   ===========================
+:ref:`lines_child <lines_child>`                 'child_object_type' of lines.
+
+:ref:`markers_child <markers_child>`           'child_object_type' of markers.
+
+:ref:`constant_color <constant_color>`                 'constant_color' child.
+
+========================================   ===================================
 

@@ -5,29 +5,35 @@
 solution
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.solution
+.. currentmodule:: ansys.fluent.core.solver.settings_231.solution
 
 .. autoclass:: solution
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-==============================================   ===============================
+==================================================   =================================
 
-Child                                                                    Summary
+Child                                                                          Summary
 
-==============================================   ===============================
-:ref:`controls <controls>`                                     'controls' child.
+==================================================   =================================
+:ref:`controls <controls>`                                           'controls' child.
 
-:ref:`methods <methods_1>`                                      'methods' child.
+:ref:`methods <methods_1>`                                            'methods' child.
 
-:ref:`report_definitions <report_definitions>`       'report_definitions' child.
+:ref:`report_definitions <report_definitions>`             'report_definitions' child.
 
-:ref:`initialization <initialization>`                   'initialization' child.
+:ref:`monitor <monitor>`                                              'monitor' child.
 
-:ref:`run_calculation <run_calculation>`                'run_calculation' child.
+:ref:`cell_registers <cell_registers>`                         'cell_registers' child.
 
-==============================================   ===============================
+:ref:`initialization <initialization>`                         'initialization' child.
+
+:ref:`calculation_activity <calculation_activity>`       'calculation_activity' child.
+
+:ref:`run_calculation <run_calculation>`                      'run_calculation' child.
+
+==================================================   =================================
 
 .. rubric:: Included in:
 

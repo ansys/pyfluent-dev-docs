@@ -5,21 +5,21 @@
 velocity_formulation
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.velocity_formulation
+.. currentmodule:: ansys.fluent.core.solver.settings_231.velocity_formulation
 
 .. autoclass:: velocity_formulation
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==========================   =====================
+====================================   ========================
 
-Parent                                     Summary
+Parent                                                  Summary
 
-==========================   =====================
-:ref:`solver <solver>`             'solver' child.
+====================================   ========================
+:ref:`solver <solver>`                          'solver' child.
 
-:ref:`numerics <numerics>`       'numerics' child.
+:ref:`numerics_pbns <numerics_pbns>`       Set numeric options.
 
-==========================   =====================
+====================================   ========================
 

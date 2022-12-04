@@ -5,7 +5,7 @@
 rhie_chow_flux
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.rhie_chow_flux
+.. currentmodule:: ansys.fluent.core.solver.settings_231.rhie_chow_flux
 
 .. autoclass:: rhie_chow_flux
     :show-inheritance:
@@ -23,12 +23,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-==================================   =========================
+==================================   ============================================================
 
-Parent                                                 Summary
+Parent                                                                                    Summary
 
-==================================   =========================
-:ref:`p_v_coupling <p_v_coupling>`       'p_v_coupling' child.
+==================================   ============================================================
+:ref:`p_v_coupling <p_v_coupling>`       Pressure velocity coupling controls for multiphase flow.
 
-==================================   =========================
+==================================   ============================================================
 

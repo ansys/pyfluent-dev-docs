@@ -3,11 +3,11 @@
 solver.tui.setup.models.dpm.options
 ===================================
 
-.. currentmodule:: ansys.fluent.core.solver.tui_222
+.. currentmodule:: ansys.fluent.core.solver.tui_231
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.solver.tui_222::main_menu.setup.models.dpm.options
-   :members: enable_contour_plots, ensemble_average, particle_radiation, track_in_absolute_frame, thermophoretic_force, convective_film_heat_transfer, saffman_lift_force, pressure_gradient_force, virtual_mass_force, two_way_coupling, remove_wall_film_temperature_limiter, maximum_udf_species, brownian_motion, stagger_spatially_standard_injections, stagger_spatially_atomizer_injections, stagger_temporally, staggering_factor, stagger_radius, uniform_mass_distribution_for_injections, use_absolute_pressure_for_vaporization, vaporization_options, vaporization_heat_transfer_averaging, allow_supercritical_pressure_vaporization, treat_multicomponent_saturation_temperature_failure, set_thermolysis_limit, lowest_volatiles_mass_fraction, erosion_accretion, init_erosion_accretion_rate, step_report_sig_figures, include_lwf_particles_in_dpm_concentration, current_positions_in_sample_file_format, scr_urea_deposition_risk_analysis
+.. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.setup.models.dpm.options
+   :members: thermophoretic_force, stagger_spatially_atomizer_injections, stagger_spatially_standard_injections, use_absolute_pressure_for_vaporization, virtual_mass_force, uniform_mass_distribution_for_injections, treat_multicomponent_saturation_temperature_failure, step_report_sig_figures, maximum_udf_species, current_positions_in_sample_file_format, saffman_lift_force, init_erosion_accretion_rate, set_minimum_particle_diameter, lowest_volatiles_mass_fraction, include_lwf_particles_in_dpm_concentration, erosion_accretion, convective_film_heat_transfer, two_way_coupling, stagger_radius, scr_urea_deposition_risk_analysis, particle_radiation, set_thermolysis_limit, remove_wall_film_temperature_limiter, brownian_motion, vaporization_heat_transfer_averaging, enable_contour_plots, allow_supercritical_pressure_vaporization, staggering_factor, pressure_gradient_force, stagger_temporally, track_in_absolute_frame, vaporization_options, ensemble_average
 

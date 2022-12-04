@@ -5,7 +5,7 @@
 root
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.root
+.. currentmodule:: ansys.fluent.core.solver.settings_231.root
 
 .. autoclass:: root
     :show-inheritance:
@@ -19,6 +19,10 @@ Child                                                                           
 ==========================================================   =====================================
 :ref:`file <file>`                                                                   'file' child.
 
+:ref:`mesh <mesh>`                                                                   'mesh' child.
+
+:ref:`server <server>`                                                             'server' child.
+
 :ref:`setup <setup>`                                                                'setup' child.
 
 :ref:`solution <solution>`                                                       'solution' child.
@@ -29,5 +33,20 @@ Child                                                                           
 
 :ref:`current_parametric_study <current_parametric_study>`       Name of Current Parametric Study.
 
+:ref:`parallel <parallel_1>`                                                     'parallel' child.
+
+:ref:`report <report_1>`                                                           'report' child.
+
 ==========================================================   =====================================
+
+.. rubric:: Commands
+
+==================   =================
+
+Command                        Summary
+
+==================   =================
+:ref:`exit <exit>`       Exit program.
+
+==================   =================
 

@@ -5,19 +5,19 @@
 set_dynamic_strength_exponent
 =============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.set_dynamic_strength_exponent
+.. currentmodule:: ansys.fluent.core.solver.settings_231.set_dynamic_strength_exponent
 
 .. autoclass:: set_dynamic_strength_exponent
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-======================================   ===========================
+======================================   =======================================================
 
-Parent                                                       Summary
+Parent                                                                                   Summary
 
-======================================   ===========================
-:ref:`anti_diffusion <anti_diffusion>`       'anti_diffusion' child.
+======================================   =======================================================
+:ref:`anti_diffusion <anti_diffusion>`       Anti Diffusion Menu for VOF/Multi-Fluid VOF Models.
 
-======================================   ===========================
+======================================   =======================================================
 

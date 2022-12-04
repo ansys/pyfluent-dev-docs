@@ -5,35 +5,30 @@
 geometry
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.geometry
+.. currentmodule:: ansys.fluent.core.solver.settings_231.geometry
 
 .. autoclass:: geometry
     :show-inheritance:
     :undoc-members:
-.. rubric:: Commands
+.. rubric:: Children
 
-================================   ==========================
+==================================================   ===========================================
 
-Command                                               Summary
+Child                                                                                    Summary
 
-================================   ==========================
-:ref:`change_type <change_type>`       'change_type' command.
+==================================================   ===========================================
+:ref:`reconstruct_geometry <reconstruct_geometry>`       Enable/Disable geometry based adaption.
 
-================================   ==========================
-
-.. rubric:: Named object type
-
-:ref:`axis_child <axis_child>`
-
+==================================================   ===========================================
 
 .. rubric:: Included in:
 
-================================================   ================================
+====================   ==================
 
-Parent                                                                      Summary
+Parent                            Summary
 
-================================================   ================================
-:ref:`boundary_conditions <boundary_conditions>`       'boundary_conditions' child.
+====================   ==================
+:ref:`adapt <adapt>`       'adapt' child.
 
-================================================   ================================
+====================   ==================
 

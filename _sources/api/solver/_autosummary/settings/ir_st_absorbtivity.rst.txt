@@ -5,7 +5,7 @@
 ir_st_absorbtivity
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.ir_st_absorbtivity
+.. currentmodule:: ansys.fluent.core.solver.settings_231.ir_st_absorbtivity
 
 .. autoclass:: ir_st_absorbtivity
     :show-inheritance:
@@ -17,9 +17,9 @@ ir_st_absorbtivity
 Child                                                  Summary
 
 ==================================   =========================
-:ref:`option <option>`                         'option' child.
+:ref:`option <option_2>`                       'option' child.
 
-:ref:`constant <constant>`                   'constant' child.
+:ref:`value <value>`                            'value' child.
 
 :ref:`profile_name <profile_name>`       'profile_name' child.
 

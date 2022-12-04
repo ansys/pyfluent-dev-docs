@@ -5,19 +5,19 @@
 persistence_fixed_duration
 ==========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.persistence_fixed_duration
+.. currentmodule:: ansys.fluent.core.solver.settings_231.persistence_fixed_duration
 
 .. autoclass:: persistence_fixed_duration
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==============================   =======================
+================================   =======================
 
-Parent                                           Summary
+Parent                                             Summary
 
-==============================   =======================
-:ref:`parameters <parameters>`       'parameters' child.
+================================   =======================
+:ref:`parameters <parameters_1>`       'parameters' child.
 
-==============================   =======================
+================================   =======================
 

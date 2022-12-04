@@ -5,7 +5,7 @@
 phase_child
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.phase_child_5
+.. currentmodule:: ansys.fluent.core.solver.settings_231.phase_child_5
 
 .. autoclass:: phase_child
     :show-inheritance:
@@ -39,9 +39,9 @@ Child                                                                           
 
 :ref:`frame_of_reference <frame_of_reference>`                                                                                                                               'frame_of_reference' child.
 
-:ref:`p0 <p0>`                                                                                                                                                                               'p0' child.
+:ref:`gauge_total_pressure <gauge_total_pressure>`                                                                                                                         'gauge_total_pressure' child.
 
-:ref:`supersonic_or_initial_gauge_pressure <supersonic_or_initial_gauge_pressure>`                                                                         'supersonic_or_initial_gauge_pressure' child.
+:ref:`gauge_pressure <gauge_pressure>`                                                                                                                                           'gauge_pressure' child.
 
 :ref:`t0 <t0>`                                                                                                                                                                               't0' child.
 
@@ -61,13 +61,13 @@ Child                                                                           
 
 :ref:`coordinate_system <coordinate_system>`                                                                                                                                  'coordinate_system' child.
 
-:ref:`flow_direction_component <flow_direction_component>`                                                                                                             'flow_direction_component' child.
+:ref:`flow_direction <flow_direction>`                                                                                                                                           'flow_direction' child.
 
-:ref:`direction_vector_components <direction_vector_components>`                                                                                                    'direction_vector_components' child.
+:ref:`direction_vector <direction_vector>`                                                                                                                                     'direction_vector' child.
 
-:ref:`axis_direction_component <axis_direction_component_1>`                                                                                                           'axis_direction_component' child.
+:ref:`axis_direction <axis_direction_2>`                                                                                                                                         'axis_direction' child.
 
-:ref:`axis_origin_component <axis_origin_component_1>`                                                                                                                    'axis_origin_component' child.
+:ref:`axis_origin <axis_origin_2>`                                                                                                                                                  'axis_origin' child.
 
 :ref:`les_spec_name <les_spec_name>`                                                                                                                                              'les_spec_name' child.
 
@@ -78,6 +78,14 @@ Child                                                                           
 :ref:`vm_streamwise_fluct <vm_streamwise_fluct>`                                                                                                                            'vm_streamwise_fluct' child.
 
 :ref:`vm_mass_conservation <vm_mass_conservation>`                                                                                                                         'vm_mass_conservation' child.
+
+:ref:`stg_scale_limiter_type <stg_scale_limiter_type>`                                                                                                                   'stg_scale_limiter_type' child.
+
+:ref:`stg_ti_limiter <stg_ti_limiter>`                                                                                                                                           'stg_ti_limiter' child.
+
+:ref:`stg_tvr_limiter <stg_tvr_limiter>`                                                                                                                                        'stg_tvr_limiter' child.
+
+:ref:`stg_dw_limiter <stg_dw_limiter>`                                                                                                                                           'stg_dw_limiter' child.
 
 :ref:`volumetric_synthetic_turbulence_generator <volumetric_synthetic_turbulence_generator>`                                                          'volumetric_synthetic_turbulence_generator' child.
 
@@ -195,7 +203,7 @@ Child                                                                           
 
 :ref:`radiation_bc <radiation_bc>`                                                                                                                                                 'radiation_bc' child.
 
-:ref:`radial_direction_component <radial_direction_component>`                                                                                                       'radial_direction_component' child.
+:ref:`radial_direction <radial_direction>`                                                                                                                                     'radial_direction' child.
 
 :ref:`coll_dtheta <coll_dtheta>`                                                                                                                                                    'coll_dtheta' child.
 
@@ -357,7 +365,7 @@ Child                                                                           
 
 :ref:`les_spec <les_spec>`                                                                                                                                                             'les_spec' child.
 
-:ref:`b <b>`                                                                                                                                                                                  'b' child.
+:ref:`b <b_1>`                                                                                                                                                                                'b' child.
 
 :ref:`strength <strength>`                                                                                                                                                             'strength' child.
 

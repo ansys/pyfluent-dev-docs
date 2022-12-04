@@ -5,19 +5,19 @@
 two_resistance_boiling_framework
 ================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.two_resistance_boiling_framework
+.. currentmodule:: ansys.fluent.core.solver.settings_231.two_resistance_boiling_framework
 
 .. autoclass:: two_resistance_boiling_framework
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-========================   ====================
+========================   ==================================
 
-Parent                                  Summary
+Parent                                                Summary
 
-========================   ====================
-:ref:`boiling <boiling>`       'boiling' child.
+========================   ==================================
+:ref:`boiling <boiling>`       Boiling advanced options menu.
 
-========================   ====================
+========================   ==================================
 

@@ -5,7 +5,7 @@
 c2
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.c2
+.. currentmodule:: ansys.fluent.core.solver.settings_231.c2
 
 .. autoclass:: c2
     :show-inheritance:
@@ -17,6 +17,8 @@ c2
 Parent                                                                         Summary
 
 ============================================   =======================================
+:ref:`sutherland <sutherland>`                                     'sutherland' child.
+
 :ref:`porous_jump_child <porous_jump_child>`       'child_object_type' of porous_jump.
 
 :ref:`phase_child <phase_child_15>`                      'child_object_type' of phase.

@@ -5,7 +5,7 @@
 interfacial_artificial_viscosity
 ================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.interfacial_artificial_viscosity
+.. currentmodule:: ansys.fluent.core.solver.settings_231.interfacial_artificial_viscosity
 
 .. autoclass:: interfacial_artificial_viscosity
     :show-inheritance:
@@ -37,12 +37,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-==================================   =========================
+==================================   ==================================================
 
-Parent                                                 Summary
+Parent                                                                          Summary
 
-==================================   =========================
-:ref:`viscous_flow <viscous_flow>`       'viscous_flow' child.
+==================================   ==================================================
+:ref:`viscous_flow <viscous_flow>`       Multiphase viscous flow numerics options menu.
 
-==================================   =========================
+==================================   ==================================================
 

@@ -5,7 +5,7 @@
 format
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.format
+.. currentmodule:: ansys.fluent.core.solver.settings_231.format
 
 .. autoclass:: format
     :show-inheritance:

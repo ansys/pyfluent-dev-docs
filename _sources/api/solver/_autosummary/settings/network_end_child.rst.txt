@@ -5,27 +5,27 @@
 network_end_child
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.network_end_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.network_end_child
 
 .. autoclass:: network_end_child
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-================================   ========================
+==================================   ========================
 
-Child                                               Summary
+Child                                                 Summary
 
-================================   ========================
-:ref:`phase <phase_11>`                      'phase' child.
+==================================   ========================
+:ref:`phase <phase_11>`                        'phase' child.
 
-:ref:`thermal_bc <thermal_bc>`          'thermal_bc' child.
+:ref:`thermal_bc <thermal_bc>`            'thermal_bc' child.
 
-:ref:`temperature <temperature>`       'temperature' child.
+:ref:`temperature <temperature_1>`       'temperature' child.
 
-:ref:`q <q>`                                     'q' child.
+:ref:`q <q>`                                       'q' child.
 
-================================   ========================
+==================================   ========================
 
 .. rubric:: Included in:
 

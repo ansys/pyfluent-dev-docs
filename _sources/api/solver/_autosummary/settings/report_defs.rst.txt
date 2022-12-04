@@ -5,19 +5,23 @@
 report_defs
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.report_defs
+.. currentmodule:: ansys.fluent.core.solver.settings_231.report_defs
 
 .. autoclass:: report_defs
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==========================   ======================
+==============================================   ========================================
 
-Parent                                      Summary
+Parent                                                                            Summary
 
-==========================   ======================
-:ref:`compute <compute_2>`       'compute' command.
+==============================================   ========================================
+:ref:`compute <compute_1>`                                             'compute' command.
 
-==========================   ======================
+:ref:`report_files_child <report_files_child>`       'child_object_type' of report_files.
+
+:ref:`report_plots_child <report_plots_child>`       'child_object_type' of report_plots.
+
+==============================================   ========================================
 

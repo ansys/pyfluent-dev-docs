@@ -5,7 +5,7 @@
 vector_settings
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.vector_settings
+.. currentmodule:: ansys.fluent.core.solver.settings_231.vector_settings
 
 .. autoclass:: vector_settings
     :show-inheritance:
@@ -25,7 +25,7 @@ Child                                                                          S
 
 :ref:`vector_of <vector_of>`                                        'vector_of' child.
 
-:ref:`scale <scale_1>`                                                  'scale' child.
+:ref:`scale <scale_2>`                                                  'scale' child.
 
 :ref:`length_to_head_ratio <length_to_head_ratio>`       'length_to_head_ratio' child.
 
@@ -33,12 +33,12 @@ Child                                                                          S
 
 .. rubric:: Included in:
 
-====================================================   ===========================================
+==================================================   ==========================================
 
-Parent                                                                                     Summary
+Parent                                                                                  Summary
 
-====================================================   ===========================================
-:ref:`particle_tracks_child <particle_tracks_child>`       'child_object_type' of particle_tracks.
+==================================================   ==========================================
+:ref:`particle_track_child <particle_track_child>`       'child_object_type' of particle_track.
 
-====================================================   ===========================================
+==================================================   ==========================================
 

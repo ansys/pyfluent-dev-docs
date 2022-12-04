@@ -3,11 +3,11 @@
 solver.tui.file.parametric\_project
 ===================================
 
-.. currentmodule:: ansys.fluent.core.solver.tui_222
+.. currentmodule:: ansys.fluent.core.solver.tui_231
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.solver.tui_222::main_menu.file.parametric_project
-   :members: open, save, save_as, save_a_copy, archive
+.. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.file.parametric_project
+   :members: save_as, save_a_copy, archive, open, save
 

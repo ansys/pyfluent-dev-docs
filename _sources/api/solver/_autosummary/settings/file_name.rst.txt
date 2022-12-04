@@ -5,31 +5,21 @@
 file_name
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.file_name
+.. currentmodule:: ansys.fluent.core.solver.settings_231.file_name
 
 .. autoclass:: file_name
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==================================   ========================================
+==============================================   ==================================================
 
-Parent                                                                Summary
+Parent                                                                                      Summary
 
-==================================   ========================================
-:ref:`read <read>`                                            'read' command.
+==============================================   ==================================================
+:ref:`write_sc_file <write_sc_file>`                 Write a Fluent Input File for System Coupling.
 
-:ref:`replace_mesh <replace_mesh>`                    'replace_mesh' command.
+:ref:`report_files_child <report_files_child>`                 'child_object_type' of report_files.
 
-:ref:`write <write>`                                         'write' command.
-
-:ref:`read <read_1>`                         Read display states from a file.
-
-:ref:`write <write_1>`                        Write display states to a file.
-
-:ref:`save_picture <save_picture>`                    'save_picture' command.
-
-:ref:`write_views <write_views>`         Write selected views to a view file.
-
-==================================   ========================================
+==============================================   ==================================================
 

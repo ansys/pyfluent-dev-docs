@@ -5,7 +5,7 @@
 axis_child
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.axis_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.axis_child
 
 .. autoclass:: axis_child
     :show-inheritance:
@@ -46,7 +46,7 @@ Parent                                        Summary
 
 :ref:`degassing <degassing>`       'degassing' child.
 
-:ref:`geometry <geometry>`          'geometry' child.
+:ref:`geometry <geometry_2>`        'geometry' child.
 
 :ref:`overset <overset>`             'overset' child.
 

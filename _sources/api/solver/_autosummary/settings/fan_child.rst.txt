@@ -5,7 +5,7 @@
 fan_child
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.fan_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.fan_child
 
 .. autoclass:: fan_child
     :show-inheritance:
@@ -39,7 +39,7 @@ Child                                                                           
 
 :ref:`average_dp <average_dp>`                                                                      'average_dp' child.
 
-:ref:`c <c>`                                                                                                 'c' child.
+:ref:`c <c_1>`                                                                                               'c' child.
 
 :ref:`limit_range <limit_range>`                                                                   'limit_range' child.
 
@@ -61,9 +61,9 @@ Child                                                                           
 
 :ref:`hub <hub>`                                                                                           'hub' child.
 
-:ref:`axis_origin_component <axis_origin_component_1>`                                   'axis_origin_component' child.
+:ref:`axis_origin <axis_origin_2>`                                                                 'axis_origin' child.
 
-:ref:`axis_direction_component <axis_direction_component_1>`                          'axis_direction_component' child.
+:ref:`axis_direction <axis_direction_2>`                                                        'axis_direction' child.
 
 :ref:`profile_vt <profile_vt>`                                                                      'profile_vt' child.
 

@@ -219,7 +219,7 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_222.initialization.initialization">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_231.initialization.initialization">
    <code class="docutils literal notranslate">
     <span class="pre">
      initialization
@@ -249,8 +249,8 @@
   <section id="initialization">
 <span id="id1"></span><h1>initialization<a class="headerlink" href="#initialization" title="Permalink to this heading">#</a></h1>
 <dl class="py class">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_222.initialization.initialization">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_222.initialization.</span></span><span class="sig-name descname"><span class="pre">initialization</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_222.initialization.initialization" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_231.initialization.initialization">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_231.initialization.</span></span><span class="sig-name descname"><span class="pre">initialization</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_231.initialization.initialization" title="Permalink to this definition">#</a></dt>
 <dd><p>Bases: <a class="reference internal" href="../ansys.fluent.core.solver.flobject.Group.html#ansys.fluent.core.solver.flobject.Group" title="ansys.fluent.core.solver.flobject.Group"><code class="xref py py-class docutils literal notranslate"><span class="pre">Group</span></code></a></p>
 <p>‘initialization’ child.</p>
 </dd></dl>
@@ -267,19 +267,31 @@
 <td><p>Initialize using the full-multigrid initialization (FMG).</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="localized_turb_init.html#localized-turb-init"><span class="std std-ref">localized_turb_init</span></a></p></td>
-<td><p>‘localized_turb_init’ child.</p></td>
+<td><p>Localized initialization of turbulent flow variables for VOF/Mixture multiphase flow models.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="reference_frame_1.html#reference-frame-1"><span class="std std-ref">reference_frame</span></a></p></td>
 <td><p>Set reference frame absolute or relative.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="fmg_options.html#fmg-options"><span class="std std-ref">fmg_options</span></a></p></td>
-<td><p>‘fmg_options’ child.</p></td>
+<td><p>Enter the full-multigrid option menu.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="set_hybrid_init_options.html#set-hybrid-init-options"><span class="std std-ref">set_hybrid_init_options</span></a></p></td>
-<td><p>‘set_hybrid_init_options’ child.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="hybrid_init_options.html#hybrid-init-options"><span class="std std-ref">hybrid_init_options</span></a></p></td>
+<td><p>Enter the settings for hybrid initialization method.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="patch.html#patch"><span class="std std-ref">patch</span></a></p></td>
 <td><p>‘patch’ child.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="set_defaults.html#set-defaults"><span class="std std-ref">set_defaults</span></a></p></td>
+<td><p>‘set_defaults’ child.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="open_channel_auto_init.html#open-channel-auto-init"><span class="std std-ref">open_channel_auto_init</span></a></p></td>
+<td><p>Open channel automatic initialization.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="fmg_initialization.html#fmg-initialization"><span class="std std-ref">fmg_initialization</span></a></p></td>
+<td><p>Enter the set full-multigrid for initialization menu.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="initialization_type.html#initialization-type"><span class="std std-ref">initialization_type</span></a></p></td>
+<td><p>‘initialization_type’ child.</p></td>
 </tr>
 </tbody>
 </table>
@@ -297,17 +309,35 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="hybrid_initialize.html#hybrid-initialize"><span class="std std-ref">hybrid_initialize</span></a></p></td>
 <td><p>Initialize using the hybrid initialization method.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="dpm_reset.html#dpm-reset"><span class="std std-ref">dpm_reset</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="initialize.html#initialize"><span class="std std-ref">initialize</span></a></p></td>
+<td><p>‘initialize’ command.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="dpm_reset.html#dpm-reset"><span class="std std-ref">dpm_reset</span></a></p></td>
 <td><p>Reset discrete phase source terms to zero.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="lwf_reset.html#lwf-reset"><span class="std std-ref">lwf_reset</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="lwf_reset.html#lwf-reset"><span class="std std-ref">lwf_reset</span></a></p></td>
 <td><p>Delete wall film particles and initialize wall film variables to zero.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="init_flow_statistics.html#init-flow-statistics"><span class="std std-ref">init_flow_statistics</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="init_flow_statistics.html#init-flow-statistics"><span class="std std-ref">init_flow_statistics</span></a></p></td>
 <td><p>Initialize statistics.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="init_acoustics_options.html#init-acoustics-options"><span class="std std-ref">init_acoustics_options</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="init_acoustics_options.html#init-acoustics-options"><span class="std std-ref">init_acoustics_options</span></a></p></td>
 <td><p>‘init_acoustics_options’ command.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="list_defaults.html#list-defaults"><span class="std std-ref">list_defaults</span></a></p></td>
+<td><p>List default values.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="init_turb_vel_fluctuations.html#init-turb-vel-fluctuations"><span class="std std-ref">init_turb_vel_fluctuations</span></a></p></td>
+<td><p>Initialize turbulent velocity fluctuations.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="show_iterations_sampled.html#show-iterations-sampled"><span class="std std-ref">show_iterations_sampled</span></a></p></td>
+<td><p>‘show_iterations_sampled’ command.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="show_time_sampled.html#show-time-sampled"><span class="std std-ref">show_time_sampled</span></a></p></td>
+<td><p>Display the amount of simulated time covered by the data sampled for unsteady statistics.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="levelset_auto_init.html#levelset-auto-init"><span class="std std-ref">levelset_auto_init</span></a></p></td>
+<td><p>‘levelset_auto_init’ command.</p></td>
 </tr>
 </tbody>
 </table>

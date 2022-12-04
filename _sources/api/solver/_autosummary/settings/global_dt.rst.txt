@@ -5,7 +5,7 @@
 global_dt
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.global_dt
+.. currentmodule:: ansys.fluent.core.solver.settings_231.global_dt
 
 .. autoclass:: global_dt
     :show-inheritance:
@@ -17,12 +17,12 @@ global_dt
 
 .. rubric:: Included in:
 
-==========================================   =============================
+==========================================================   =====================================
 
-Parent                                                             Summary
+Parent                                                                                     Summary
 
-==========================================   =============================
-:ref:`advanced_options <advanced_options>`       'advanced_options' child.
+==========================================================   =====================================
+:ref:`pseudo_time_method_usage <pseudo_time_method_usage>`       'pseudo_time_method_usage' child.
 
-==========================================   =============================
+==========================================================   =====================================
 

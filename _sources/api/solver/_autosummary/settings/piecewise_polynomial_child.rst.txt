@@ -5,27 +5,27 @@
 piecewise_polynomial_child
 ==========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.piecewise_polynomial_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.piecewise_polynomial_child
 
 .. autoclass:: piecewise_polynomial_child
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-========================================   ============================
+======================================================   ==========================================================================
 
-Child                                                           Summary
+Child                                                                                                                       Summary
 
-========================================   ============================
-:ref:`minimum <minimum>`                               'minimum' child.
+======================================================   ==========================================================================
+:ref:`minimum <minimum>`                                                        Minimum argument range for this polynomial segment.
 
-:ref:`maximum <maximum>`                               'maximum' child.
+:ref:`maximum <maximum>`                                                        Maximum argument range for this polynomial segment.
 
-:ref:`number_of_coeff <number_of_coeff>`       'number_of_coeff' child.
+:ref:`number_of_coefficients <number_of_coefficients>`       Specify number of polynomial coefficients (polynomial order plus one).
 
-:ref:`coefficients <coefficients>`                'coefficients' child.
+:ref:`coefficients <coefficients>`                                                                 Specify polynomial coefficients.
 
-========================================   ============================
+======================================================   ==========================================================================
 
 .. rubric:: Included in:
 

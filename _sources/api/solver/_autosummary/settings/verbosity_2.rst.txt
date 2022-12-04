@@ -5,19 +5,19 @@
 verbosity
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.verbosity_2
+.. currentmodule:: ansys.fluent.core.solver.settings_231.verbosity_2
 
 .. autoclass:: verbosity
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-================================================================   ========================================
+======================   ================================
 
-Parent                                                                                              Summary
+Parent                                            Summary
 
-================================================================   ========================================
-:ref:`velocity_limiting_treatment <velocity_limiting_treatment>`       'velocity_limiting_treatment' child.
+======================   ================================
+:ref:`optics <optics>`       Enter the optics model menu.
 
-================================================================   ========================================
+======================   ================================
 

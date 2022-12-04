@@ -5,7 +5,7 @@
 parametric_studies
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.parametric_studies
+.. currentmodule:: ansys.fluent.core.solver.settings_231.parametric_studies
 
 .. autoclass:: parametric_studies
     :show-inheritance:
@@ -17,7 +17,7 @@ parametric_studies
 Command                                                                    Summary
 
 ================================================   ===============================
-:ref:`initialize <initialize>`                             Start Parametric Study.
+:ref:`initialize <initialize_1>`                           Start Parametric Study.
 
 :ref:`duplicate <duplicate>`                           Duplicate Parametric Study.
 

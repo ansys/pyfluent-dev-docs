@@ -5,34 +5,34 @@
 coloring
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.coloring_1
+.. currentmodule:: ansys.fluent.core.solver.settings_231.coloring_1
 
 .. autoclass:: coloring
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-======================   ===================
+============================   ======================
 
-Child                                Summary
+Child                                         Summary
 
-======================   ===================
-:ref:`option <option>`       'option' child.
+============================   ======================
+:ref:`option <option_2>`              'option' child.
 
-:ref:`smooth <smooth>`       'smooth' child.
+:ref:`automatic <automatic>`       'automatic' child.
 
-:ref:`banded <banded>`       'banded' child.
+:ref:`manual <manual>`                'manual' child.
 
-======================   ===================
+============================   ======================
 
 .. rubric:: Included in:
 
-====================================   ===================================
+================================   ================================
 
-Parent                                                             Summary
+Parent                                                      Summary
 
-====================================   ===================================
-:ref:`contour_child <contour_child>`       'child_object_type' of contour.
+================================   ================================
+:ref:`mesh_child <mesh_child_1>`       'child_object_type' of mesh.
 
-====================================   ===================================
+================================   ================================
 

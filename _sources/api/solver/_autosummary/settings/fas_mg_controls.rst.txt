@@ -5,7 +5,7 @@
 fas_mg_controls
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.fas_mg_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_231.fas_mg_controls
 
 .. autoclass:: fas_mg_controls
     :show-inheritance:
@@ -23,7 +23,7 @@ Child                                                                           
 
 :ref:`relaxation_factor <relaxation_factor>`                        'relaxation_factor' child.
 
-:ref:`options <options_1>`                                                    'options' child.
+:ref:`options <options_2>`                                                    'options' child.
 
 ========================================================   ===================================
 

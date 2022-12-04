@@ -5,7 +5,7 @@
 node_values
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.node_values
+.. currentmodule:: ansys.fluent.core.solver.settings_231.node_values
 
 .. autoclass:: node_values
     :show-inheritance:
@@ -18,6 +18,8 @@ Parent                                                             Summary
 
 ====================================   ===================================
 :ref:`contour_child <contour_child>`       'child_object_type' of contour.
+
+:ref:`options <options_10>`                               'options' child.
 
 ====================================   ===================================
 

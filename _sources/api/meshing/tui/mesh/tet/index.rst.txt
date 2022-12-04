@@ -3,13 +3,13 @@
 meshing.tui.mesh.tet
 ====================
 
-.. currentmodule:: ansys.fluent.core.meshing.tui_222
+.. currentmodule:: ansys.fluent.core.meshing.tui_231
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.meshing.tui_222::main_menu.mesh.tet
-   :members: delete_virtual_cells, init, init_refine, mesh_object, preserve_cell_zone, un_preserve_cell_zone, refine, trace_path_between_cells
+.. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.mesh.tet
+   :members: preserve_cell_zone, init_refine, mesh_object, delete_virtual_cells, un_preserve_cell_zone, trace_path_between_cells, init, refine
 
 .. toctree::
    :hidden:

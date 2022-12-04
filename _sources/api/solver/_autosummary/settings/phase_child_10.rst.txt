@@ -5,23 +5,21 @@
 phase_child
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.phase_child_10
+.. currentmodule:: ansys.fluent.core.solver.settings_231.phase_child_10
 
 .. autoclass:: phase_child
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-============================   ======================
+=======================   ===================
 
-Parent                                        Summary
+Parent                                Summary
 
-============================   ======================
-:ref:`phase <phase_10>`                'phase' child.
+=======================   ===================
+:ref:`phase <phase_10>`        'phase' child.
 
-:ref:`injection <injection>`       'injection' child.
+:ref:`custom <custom>`        'custom' child.
 
-:ref:`custom <custom>`                'custom' child.
-
-============================   ======================
+=======================   ===================
 

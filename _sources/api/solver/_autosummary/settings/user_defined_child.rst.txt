@@ -5,7 +5,7 @@
 user_defined_child
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.user_defined_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.user_defined_child
 
 .. autoclass:: user_defined_child
     :show-inheritance:
@@ -31,12 +31,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-==================================   =========================
+====================================   =========================
 
-Parent                                                 Summary
+Parent                                                   Summary
 
-==================================   =========================
-:ref:`user_defined <user_defined>`       'user_defined' child.
+====================================   =========================
+:ref:`user_defined <user_defined_1>`       'user_defined' child.
 
-==================================   =========================
+====================================   =========================
 

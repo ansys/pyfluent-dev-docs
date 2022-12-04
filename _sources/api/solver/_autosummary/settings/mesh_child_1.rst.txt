@@ -5,7 +5,7 @@
 mesh_child
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.mesh_child_1
+.. currentmodule:: ansys.fluent.core.solver.settings_231.mesh_child_1
 
 .. autoclass:: mesh_child
     :show-inheritance:
@@ -17,9 +17,9 @@ mesh_child
 Child                                                                    Summary
 
 ==============================================   ===============================
-:ref:`name <name>`                                                 'name' child.
+:ref:`name <name_1>`                                               'name' child.
 
-:ref:`options <options_4>`                                      'options' child.
+:ref:`options <options_5>`                                      'options' child.
 
 :ref:`edge_type <edge_type>`                                  'edge_type' child.
 
@@ -27,13 +27,13 @@ Child                                                                    Summary
 
 :ref:`surfaces_list <surfaces_list>`                      'surfaces_list' child.
 
-:ref:`coloring <coloring>`                                     'coloring' child.
+:ref:`coloring <coloring_1>`                                   'coloring' child.
 
 :ref:`display_state_name <display_state_name>`       'display_state_name' child.
 
 :ref:`physics <physics>`                                        'physics' child.
 
-:ref:`geometry <geometry_1>`                                   'geometry' child.
+:ref:`geometry <geometry_3>`                                   'geometry' child.
 
 :ref:`surfaces <surfaces>`                                     'surfaces' child.
 
@@ -46,7 +46,7 @@ Child                                                                    Summary
 Command                                     Summary
 
 ==========================   ======================
-:ref:`display <display_1>`       'display' command.
+:ref:`display <display_2>`       'display' command.
 
 ==========================   ======================
 
@@ -57,7 +57,7 @@ Command                                     Summary
 Parent                           Summary
 
 ====================   =================
-:ref:`mesh <mesh_1>`       'mesh' child.
+:ref:`mesh <mesh_2>`       'mesh' child.
 
 ====================   =================
 

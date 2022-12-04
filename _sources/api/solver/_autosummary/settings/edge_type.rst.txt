@@ -5,7 +5,7 @@
 edge_type
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.edge_type
+.. currentmodule:: ansys.fluent.core.solver.settings_231.edge_type
 
 .. autoclass:: edge_type
     :show-inheritance:
@@ -17,7 +17,7 @@ edge_type
 Child                                   Summary
 
 ========================   ====================
-:ref:`option <option>`          'option' child.
+:ref:`option <option_2>`        'option' child.
 
 :ref:`all <all>`                   'all' child.
 

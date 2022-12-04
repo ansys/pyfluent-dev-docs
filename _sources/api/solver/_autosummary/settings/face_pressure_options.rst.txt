@@ -5,7 +5,7 @@
 face_pressure_options
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.face_pressure_options
+.. currentmodule:: ansys.fluent.core.solver.settings_231.face_pressure_options
 
 .. autoclass:: face_pressure_options
     :show-inheritance:
@@ -27,12 +27,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-======================================================   ===================================
+======================================================   =================================================
 
-Parent                                                                               Summary
+Parent                                                                                             Summary
 
-======================================================   ===================================
-:ref:`face_pressure_controls <face_pressure_controls>`       'face_pressure_controls' child.
+======================================================   =================================================
+:ref:`face_pressure_controls <face_pressure_controls>`       Enter the face pressure expert controls menu.
 
-======================================================   ===================================
+======================================================   =================================================
 

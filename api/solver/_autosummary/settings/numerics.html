@@ -219,7 +219,7 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_222.numerics.numerics">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_231.numerics.numerics">
    <code class="docutils literal notranslate">
     <span class="pre">
      numerics
@@ -249,10 +249,12 @@
   <section id="numerics">
 <span id="id1"></span><h1>numerics<a class="headerlink" href="#numerics" title="Permalink to this heading">#</a></h1>
 <dl class="py class">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_222.numerics.numerics">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_222.numerics.</span></span><span class="sig-name descname"><span class="pre">numerics</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_222.numerics.numerics" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_231.numerics.numerics">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_231.numerics.</span></span><span class="sig-name descname"><span class="pre">numerics</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_231.numerics.numerics" title="Permalink to this definition">#</a></dt>
 <dd><p>Bases: <a class="reference internal" href="../ansys.fluent.core.solver.flobject.Group.html#ansys.fluent.core.solver.flobject.Group" title="ansys.fluent.core.solver.flobject.Group"><code class="xref py py-class docutils literal notranslate"><span class="pre">Group</span></code></a></p>
-<p>‘numerics’ child.</p>
+<p>Main menu to allow users to set options controlling the solution of ordinary differential equations describing 
+the underlying physics of the Discrete Phase Model.
+For more details consult the help option of the corresponding menu or TUI command.</p>
 </dd></dl>
 
 <p class="rubric">Children</p>
@@ -263,26 +265,14 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><a class="reference internal" href="implicit_bodyforce_treatment.html#implicit-bodyforce-treatment"><span class="std std-ref">implicit_bodyforce_treatment</span></a></p></td>
-<td><p>Enable/disable implicit body force treatment.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="averaging.html#averaging"><span class="std std-ref">averaging</span></a></p></td>
+<td><p>Menu containing options to enable/disable node-based averaging of DPM variables and DPM source terms.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="velocity_formulation.html#velocity-formulation"><span class="std std-ref">velocity_formulation</span></a></p></td>
-<td><p>Set velocity formulation.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="source_terms.html#source-terms"><span class="std std-ref">source_terms</span></a></p></td>
+<td><p>‘source_terms’ child.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="physical_velocity_formulation.html#physical-velocity-formulation"><span class="std std-ref">physical_velocity_formulation</span></a></p></td>
-<td><p>Enable/disable use of physical velocity formulation for porous media.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="disable_rhie_chow_flux.html#disable-rhie-chow-flux"><span class="std std-ref">disable_rhie_chow_flux</span></a></p></td>
-<td><p>Use low order velocity interpolation in flux calculation.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="presto_pressure_scheme.html#presto-pressure-scheme"><span class="std std-ref">presto_pressure_scheme</span></a></p></td>
-<td><p>Limit high-order terms for PRESTO! pressure scheme.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="first_to_second_order_blending_1.html#first-to-second-order-blending-1"><span class="std std-ref">first_to_second_order_blending</span></a></p></td>
-<td><p>1st-order to higher-order blending factor [min=0.0 - max=1.0].</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="alternate_diffusion_for_porous_region_solids.html#alternate-diffusion-for-porous-region-solids"><span class="std std-ref">alternate_diffusion_for_porous_region_solids</span></a></p></td>
-<td><p>Enable/disable use of alternate diffusion for porous region solids.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="tracking.html#tracking"><span class="std std-ref">tracking</span></a></p></td>
+<td><p>‘tracking’ child.</p></td>
 </tr>
 </tbody>
 </table>
@@ -294,8 +284,8 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><a class="reference internal" href="expert_2.html#expert-2"><span class="std std-ref">expert</span></a></p></td>
-<td><p>‘expert’ child.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="discrete_phase.html#discrete-phase"><span class="std std-ref">discrete_phase</span></a></p></td>
+<td><p>Toplevel menu of the Discrete Phase multiphase model. A discrete phase model (DPM) is used when the aim is to investigate the behavior of the particles from a Lagrangian view and a discrete perspective.</p></td>
 </tr>
 </tbody>
 </table>

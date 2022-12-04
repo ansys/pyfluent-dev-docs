@@ -5,22 +5,11 @@
 rans_les_interface
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.rans_les_interface
+.. currentmodule:: ansys.fluent.core.solver.settings_231.rans_les_interface
 
 .. autoclass:: rans_les_interface
     :show-inheritance:
     :undoc-members:
-.. rubric:: Commands
-
-================================   ==========================
-
-Command                                               Summary
-
-================================   ==========================
-:ref:`change_type <change_type>`       'change_type' command.
-
-================================   ==========================
-
 .. rubric:: Named object type
 
 :ref:`rans_les_interface_child <rans_les_interface_child>`

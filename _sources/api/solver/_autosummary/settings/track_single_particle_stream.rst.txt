@@ -5,7 +5,7 @@
 track_single_particle_stream
 ============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.track_single_particle_stream
+.. currentmodule:: ansys.fluent.core.solver.settings_231.track_single_particle_stream
 
 .. autoclass:: track_single_particle_stream
     :show-inheritance:
@@ -25,12 +25,12 @@ Child                                         Summary
 
 .. rubric:: Included in:
 
-====================================================   ===========================================
+==================================================   ==========================================
 
-Parent                                                                                     Summary
+Parent                                                                                  Summary
 
-====================================================   ===========================================
-:ref:`particle_tracks_child <particle_tracks_child>`       'child_object_type' of particle_tracks.
+==================================================   ==========================================
+:ref:`particle_track_child <particle_track_child>`       'child_object_type' of particle_track.
 
-====================================================   ===========================================
+==================================================   ==========================================
 

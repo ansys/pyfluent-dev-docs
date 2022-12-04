@@ -5,21 +5,21 @@
 fast_transient_settings
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.fast_transient_settings
+.. currentmodule:: ansys.fluent.core.solver.settings_231.fast_transient_settings
 
 .. autoclass:: fast_transient_settings
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-================   ================
+================================   ========================
 
-Child                       Summary
+Child                                               Summary
 
-================   ================
-:ref:`rk2 <rk2>`       'rk2' child.
+================================   ========================
+:ref:`runge_kutta <runge_kutta>`       'runge_kutta' child.
 
-================   ================
+================================   ========================
 
 .. rubric:: Included in:
 

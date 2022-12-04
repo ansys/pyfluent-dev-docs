@@ -5,7 +5,7 @@
 li_ion_value
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.li_ion_value
+.. currentmodule:: ansys.fluent.core.solver.settings_231.li_ion_value
 
 .. autoclass:: li_ion_value
     :show-inheritance:
@@ -17,9 +17,9 @@ li_ion_value
 Child                                                  Summary
 
 ==================================   =========================
-:ref:`option <option>`                         'option' child.
+:ref:`option <option_2>`                       'option' child.
 
-:ref:`constant <constant>`                   'constant' child.
+:ref:`value <value>`                            'value' child.
 
 :ref:`profile_name <profile_name>`       'profile_name' child.
 

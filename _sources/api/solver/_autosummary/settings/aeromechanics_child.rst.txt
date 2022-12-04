@@ -5,35 +5,39 @@
 aeromechanics_child
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.aeromechanics_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.aeromechanics_child
 
 .. autoclass:: aeromechanics_child
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-======================================   ===========================
+========================================   ============================
 
-Child                                                        Summary
+Child                                                           Summary
 
-======================================   ===========================
-:ref:`normalization <normalization>`          'normalization' child.
+========================================   ============================
+:ref:`report_type <report_type>`                   'report_type' child.
 
-:ref:`integrate_over <integrate_over>`       'integrate_over' child.
+:ref:`realcomponent <realcomponent>`             'realcomponent' child.
 
-:ref:`report_type <report_type>`                'report_type' child.
+:ref:`nodal_diameters <nodal_diameters>`       'nodal_diameters' child.
 
-:ref:`average_over <average_over>`             'average_over' child.
+:ref:`normalization <normalization>`             'normalization' child.
 
-:ref:`per_zone <per_zone>`                         'per_zone' child.
+:ref:`integrate_over <integrate_over>`          'integrate_over' child.
 
-:ref:`old_props <old_props>`                      'old_props' child.
+:ref:`average_over <average_over>`                'average_over' child.
 
-:ref:`thread_names <thread_names>`             'thread_names' child.
+:ref:`per_zone <per_zone>`                            'per_zone' child.
 
-:ref:`thread_ids <thread_ids>`                   'thread_ids' child.
+:ref:`old_props <old_props>`                         'old_props' child.
 
-======================================   ===========================
+:ref:`thread_names <thread_names>`                'thread_names' child.
+
+:ref:`thread_ids <thread_ids>`                      'thread_ids' child.
+
+========================================   ============================
 
 .. rubric:: Included in:
 

@@ -5,7 +5,7 @@
 plane_surface_child
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.plane_surface_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.plane_surface_child
 
 .. autoclass:: plane_surface_child
     :show-inheritance:
@@ -33,7 +33,7 @@ Child                                                                           
 
 :ref:`surface_aligned_normal <surface_aligned_normal>`          'surface_aligned_normal' child.
 
-:ref:`p0 <p0_1>`                                                                    'p0' child.
+:ref:`p0 <p0>`                                                                      'p0' child.
 
 :ref:`p1 <p1>`                                                                      'p1' child.
 

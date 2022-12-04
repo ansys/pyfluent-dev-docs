@@ -5,19 +5,21 @@
 filled
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.filled
+.. currentmodule:: ansys.fluent.core.solver.settings_231.filled
 
 .. autoclass:: filled
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-====================================   ===================================
+========================================   ===================================
 
-Parent                                                             Summary
+Parent                                                                 Summary
 
-====================================   ===================================
-:ref:`contour_child <contour_child>`       'child_object_type' of contour.
+========================================   ===================================
+:ref:`display_options <display_options>`              'display_options' child.
 
-====================================   ===================================
+:ref:`contour_child <contour_child>`           'child_object_type' of contour.
+
+========================================   ===================================
 

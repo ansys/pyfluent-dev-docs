@@ -5,24 +5,19 @@
 flux
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.flux
+.. currentmodule:: ansys.fluent.core.solver.settings_231.flux
 
 .. autoclass:: flux
     :show-inheritance:
     :undoc-members:
-.. rubric:: Named object type
-
-:ref:`flux_child <flux_child>`
-
-
 .. rubric:: Included in:
 
-==============================================   ===============================
+========================================================================   ============================================
 
-Parent                                                                   Summary
+Parent                                                                                                          Summary
 
-==============================================   ===============================
-:ref:`report_definitions <report_definitions>`       'report_definitions' child.
+========================================================================   ============================================
+:ref:`anisotropic_solid_heat_transfer <anisotropic_solid_heat_transfer>`       'anisotropic_solid_heat_transfer' child.
 
-==============================================   ===============================
+========================================================================   ============================================
 

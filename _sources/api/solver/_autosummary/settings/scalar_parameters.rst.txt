@@ -5,7 +5,7 @@
 scalar_parameters
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.scalar_parameters
+.. currentmodule:: ansys.fluent.core.solver.settings_231.scalar_parameters
 
 .. autoclass:: scalar_parameters
     :show-inheritance:
@@ -27,12 +27,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-==================================================   =================================
+==================================   =========================
 
-Parent                                                                         Summary
+Parent                                                 Summary
 
-==================================================   =================================
-:ref:`algebric_mg_controls <algebric_mg_controls>`       'algebric_mg_controls' child.
+==================================   =========================
+:ref:`amg_controls <amg_controls>`       'amg_controls' child.
 
-==================================================   =================================
+==================================   =========================
 

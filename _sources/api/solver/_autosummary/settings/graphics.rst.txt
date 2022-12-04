@@ -5,33 +5,47 @@
 graphics
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.graphics
+.. currentmodule:: ansys.fluent.core.solver.settings_231.graphics
 
 .. autoclass:: graphics
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-========================================   ============================
+========================================   =================================================
 
-Child                                                           Summary
+Child                                                                                Summary
 
-========================================   ============================
-:ref:`mesh <mesh_1>`                                      'mesh' child.
+========================================   =================================================
+:ref:`contour <contour>`                                                    'contour' child.
 
-:ref:`contour <contour>`                               'contour' child.
+:ref:`mesh <mesh_2>`                                                           'mesh' child.
 
-:ref:`vector <vector>`                                  'vector' child.
+:ref:`vector <vector>`                                                       'vector' child.
 
-:ref:`pathlines <pathlines>`                         'pathlines' child.
+:ref:`pathline <pathline>`                                                 'pathline' child.
 
-:ref:`particle_tracks <particle_tracks>`       'particle_tracks' child.
+:ref:`particle_track <particle_track>`                               'particle_track' child.
 
-:ref:`lic <lic>`                                           'lic' child.
+:ref:`lic <lic>`                                                                'lic' child.
 
-:ref:`views <views>`                                     'views' child.
+:ref:`olic <olic>`                                                             'olic' child.
 
-========================================   ============================
+:ref:`contours <contours>`                                                 'contours' child.
+
+:ref:`particle_tracks <particle_tracks>`                            'particle_tracks' child.
+
+:ref:`colors <colors>`                                                       'colors' child.
+
+:ref:`lights <lights>`                                                       'lights' child.
+
+:ref:`picture <picture>`                       Enter the hardcopy/save-picture options menu.
+
+:ref:`views <views>`                                                          'views' child.
+
+:ref:`windows <windows>`                                                    'windows' child.
+
+========================================   =================================================
 
 .. rubric:: Included in:
 

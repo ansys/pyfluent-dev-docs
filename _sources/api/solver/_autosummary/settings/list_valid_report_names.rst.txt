@@ -5,19 +5,21 @@
 list_valid_report_names
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.list_valid_report_names
+.. currentmodule:: ansys.fluent.core.solver.settings_231.list_valid_report_names
 
 .. autoclass:: list_valid_report_names
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==========================================   ======================================
+================================================================   =================================================
 
-Parent                                                                      Summary
+Parent                                                                                                       Summary
 
-==========================================   ======================================
-:ref:`expression_child <expression_child>`       'child_object_type' of expression.
+================================================================   =================================================
+:ref:`expression_child <expression_child>`                                        'child_object_type' of expression.
 
-==========================================   ======================================
+:ref:`single_val_expression_child <single_val_expression_child>`       'child_object_type' of single_val_expression.
+
+================================================================   =================================================
 

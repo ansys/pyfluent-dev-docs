@@ -5,23 +5,23 @@
 residual_smoothing
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.residual_smoothing
+.. currentmodule:: ansys.fluent.core.solver.settings_231.residual_smoothing
 
 .. autoclass:: residual_smoothing
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-==================================================================   ======================================
+====================================================================   ======================================
 
-Child                                                                                               Summary
+Child                                                                                                 Summary
 
-==================================================================   ======================================
-:ref:`residual_smoothing_factor <residual_smoothing_factor>`                 Set residual smoothing factor.
+====================================================================   ======================================
+:ref:`residual_smoothing_factor <residual_smoothing_factor>`                   Set residual smoothing factor.
 
-:ref:`residual_smoothing_iteration <residual_smoothing_iteration>`       Set number of implicit iterations.
+:ref:`residual_smoothing_iter_count <residual_smoothing_iter_count>`       Set number of implicit iterations.
 
-==================================================================   ======================================
+====================================================================   ======================================
 
 .. rubric:: Included in:
 

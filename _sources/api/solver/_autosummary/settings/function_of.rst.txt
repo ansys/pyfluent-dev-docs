@@ -5,7 +5,7 @@
 function_of
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.function_of
+.. currentmodule:: ansys.fluent.core.solver.settings_231.function_of
 
 .. autoclass:: function_of
     :show-inheritance:
@@ -21,11 +21,11 @@ Parent                                                                      Summ
 
 :ref:`capillary_pressure <capillary_pressure>`          'capillary_pressure' child.
 
-:ref:`a <a>`                                                             'a' child.
+:ref:`a <a_1>`                                                           'a' child.
 
-:ref:`c <c>`                                                             'c' child.
+:ref:`c <c_1>`                                                           'c' child.
 
-:ref:`b <b>`                                                             'b' child.
+:ref:`b <b_1>`                                                           'b' child.
 
 :ref:`kc <kc>`                                                          'kc' child.
 

@@ -5,7 +5,7 @@
 auto_range_off
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.auto_range_off
+.. currentmodule:: ansys.fluent.core.solver.settings_231.auto_range_off
 
 .. autoclass:: auto_range_off
     :show-inheritance:
@@ -19,9 +19,9 @@ Child                                                     Summary
 ====================================   ==========================
 :ref:`clip_to_range <clip_to_range>`       'clip_to_range' child.
 
-:ref:`minimum <minimum>`                         'minimum' child.
+:ref:`minimum <minimum_1>`                       'minimum' child.
 
-:ref:`maximum <maximum>`                         'maximum' child.
+:ref:`maximum <maximum_1>`                       'maximum' child.
 
 ====================================   ==========================
 

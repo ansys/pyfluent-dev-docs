@@ -3,27 +3,28 @@
 solver.tui.display
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.tui_222
+.. currentmodule:: ansys.fluent.core.solver.tui_231
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.solver.tui_222::main_menu.display
-   :members: add_custom_vector, annotate, clear_annotations, close_window, close_window_by_name, contour, display_custom_vector, mesh, mesh_outline, hsf_file, mesh_partition_boundary, save_picture, multigrid_coarsening, open_window, graphics_window_layout, reacting_channel_curves, profile, re_render, re_scale, set_window, set_window_by_name, surface_cells, surface_mesh, vector, velocity_vector, zone_mesh, set_list_tree_separator, update_layout, switch_to_post_processing_volume, switch_to_primary_volume
+.. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.display
+   :members: save_picture, re_render, hsf_file, set_list_tree_separator, set_window, annotate, switch_to_primary_volume, re_scale, open_window, add_custom_vector, update_layout, surface_mesh, display_custom_vector, close_window_by_name, mesh, profile, close_window, graphics_window_layout, surface_cells, zone_mesh, contour, reacting_channel_curves, mesh_partition_boundary, mesh_outline, multigrid_coarsening, velocity_vector, clear_annotations, set_window_by_name, switch_to_post_processing_volume, vector
 
 .. toctree::
    :hidden:
 
-   embedded_windows/index
    objects/index
-   flamelet_data/index
    particle_tracks/index
-   path_lines/index
-   pdf_data/index
    set/index
-   surface/index
-   views/index
-   display_states/index
    view_sync/index
-   update_scene/index
+   display_states/index
+   embedded_windows/index
    inverse_dft/index
+   flamelet_data/index
+   define/index
+   surface/index
+   path_lines/index
+   update_scene/index
+   views/index
+   pdf_data/index

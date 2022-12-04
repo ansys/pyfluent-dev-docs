@@ -3,22 +3,22 @@
 solver.tui.solution.methods
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.tui_222
+.. currentmodule:: ansys.fluent.core.solver.tui_231
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.solver.tui_222::main_menu.solution.methods
-   :members: accelerated_non_iterative_time_marching, convergence_acceleration_for_stretched_meshes, discretization_scheme, flux_type, frozen_flux, gradient_scheme, nb_gradient_boundary_option, noniterative_time_advance, p_v_coupling, phase_based_vof_discretization, reduced_rank_extrapolation, reduced_rank_extrapolation_options, residual_smoothing, set_solution_methods_to_default, unsteady_1st_order, unsteady_2nd_order, unsteady_2nd_order_bounded, unsteady_global_time, vof_numerics
+.. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.solution.methods
+   :members: unsteady_1st_order, noniterative_time_advance, frozen_flux, nb_gradient_boundary_option, phase_based_vof_discretization, unsteady_global_time, reduced_rank_extrapolation, reduced_rank_extrapolation_options, set_solution_methods_to_default, accelerated_non_iterative_time_marching, unsteady_2nd_order, residual_smoothing, gradient_scheme, unsteady_2nd_order_bounded, p_v_coupling, convergence_acceleration_for_stretched_meshes, flux_type, discretization_scheme, vof_numerics
 
 .. toctree::
    :hidden:
 
+   warped_face_gradient_correction/index
    expert/index
-   high_order_term_relaxation/index
-   multiphase_numerics/index
-   nita_expert_controls/index
-   overset/index
    pseudo_time_method/index
    query/index
-   warped_face_gradient_correction/index
+   overset/index
+   nita_expert_controls/index
+   high_order_term_relaxation/index
+   multiphase_numerics/index

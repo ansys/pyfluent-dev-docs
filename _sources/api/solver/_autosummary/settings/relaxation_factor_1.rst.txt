@@ -5,14 +5,14 @@
 relaxation_factor
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.relaxation_factor_1
+.. currentmodule:: ansys.fluent.core.solver.settings_231.relaxation_factor_1
 
 .. autoclass:: relaxation_factor
     :show-inheritance:
     :undoc-members:
 .. rubric:: Named object type
 
-:ref:`axis_direction_component_child <axis_direction_component_child>`
+:ref:`axis_direction_child <axis_direction_child>`
 
 
 .. rubric:: Included in:

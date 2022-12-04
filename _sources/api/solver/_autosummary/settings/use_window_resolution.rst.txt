@@ -5,19 +5,19 @@
 use_window_resolution
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.use_window_resolution
+.. currentmodule:: ansys.fluent.core.solver.settings_231.use_window_resolution
 
 .. autoclass:: use_window_resolution
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-========================================   ============================
+========================   =================================================
 
-Parent                                                          Summary
+Parent                                                               Summary
 
-========================================   ============================
-:ref:`picture_options <picture_options>`       'picture_options' child.
+========================   =================================================
+:ref:`picture <picture>`       Enter the hardcopy/save-picture options menu.
 
-========================================   ============================
+========================   =================================================
 

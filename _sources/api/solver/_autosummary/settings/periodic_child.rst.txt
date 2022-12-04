@@ -5,7 +5,7 @@
 periodic_child
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.periodic_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.periodic_child
 
 .. autoclass:: periodic_child
     :show-inheritance:
@@ -36,6 +36,26 @@ Child                                                     Summary
 :ref:`angular <angular>`                         'angular' child.
 
 :ref:`p_jump <p_jump>`                            'p_jump' child.
+
+:ref:`ai <ai>`                                        'ai' child.
+
+:ref:`aj <aj>`                                        'aj' child.
+
+:ref:`ak <ak>`                                        'ak' child.
+
+:ref:`x_origin <x_origin>`                      'x_origin' child.
+
+:ref:`y_origin <y_origin>`                      'y_origin' child.
+
+:ref:`z_origin <z_origin>`                      'z_origin' child.
+
+:ref:`shift_x <shift_x>`                         'shift_x' child.
+
+:ref:`shift_y <shift_y>`                         'shift_y' child.
+
+:ref:`shift_z <shift_z>`                         'shift_z' child.
+
+:ref:`per_angle <per_angle>`                   'per_angle' child.
 
 ====================================   ==========================
 

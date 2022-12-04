@@ -5,22 +5,11 @@
 periodic
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.periodic
+.. currentmodule:: ansys.fluent.core.solver.settings_231.periodic
 
 .. autoclass:: periodic
     :show-inheritance:
     :undoc-members:
-.. rubric:: Commands
-
-================================   ==========================
-
-Command                                               Summary
-
-================================   ==========================
-:ref:`change_type <change_type>`       'change_type' command.
-
-================================   ==========================
-
 .. rubric:: Named object type
 
 :ref:`periodic_child <periodic_child>`

@@ -5,7 +5,7 @@
 xyz
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.xyz
+.. currentmodule:: ansys.fluent.core.solver.settings_231.xyz
 
 .. autoclass:: xyz
     :show-inheritance:

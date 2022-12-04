@@ -5,40 +5,34 @@
 options
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.options
+.. currentmodule:: ansys.fluent.core.solver.settings_231.options
 
 .. autoclass:: options
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-========================================================   ==============================================
+========================================================   ============================================================================
 
-Child                                                                                             Summary
+Child                                                                                                                           Summary
 
-========================================================   ==============================================
-:ref:`viscous_heating <viscous_heating>`                              Compute viscous energy dissipation.
+========================================================   ============================================================================
+:ref:`migrate_and_reorder <migrate_and_reorder>`               Perform migration and reordering at the end of the polyhedra conversion.
 
-:ref:`low_pressure_slip <low_pressure_slip>`                    Enable/Disable Low Pressure Boundry Slip.
+:ref:`preserve_boundary_layer <preserve_boundary_layer>`                                                         0 = Decide at runtime.
 
-:ref:`curvature_correction <curvature_correction>`               Enable/disable the curvature correction.
+:ref:`preserve_interior_zones <preserve_interior_zones>`                                               'preserve_interior_zones' child.
 
-:ref:`corner_flow_correction <corner_flow_correction>`         Enable/disable the corner flow correction.
-
-:ref:`production_kato_launder <production_kato_launder>`                 'production_kato_launder' child.
-
-:ref:`production_limiter <production_limiter>`                                'production_limiter' child.
-
-========================================================   ==============================================
+========================================================   ============================================================================
 
 .. rubric:: Included in:
 
-========================   ====================
+============================   =============================
 
-Parent                                  Summary
+Parent                                               Summary
 
-========================   ====================
-:ref:`viscous <viscous>`       'viscous' child.
+============================   =============================
+:ref:`polyhedra <polyhedra>`       Enter the polyhedra menu.
 
-========================   ====================
+============================   =============================
 

@@ -5,7 +5,7 @@
 ni
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.ni
+.. currentmodule:: ansys.fluent.core.solver.settings_231.ni
 
 .. autoclass:: ni
     :show-inheritance:

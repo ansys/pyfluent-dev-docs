@@ -5,14 +5,14 @@
 droplet_particle
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.droplet_particle
+.. currentmodule:: ansys.fluent.core.solver.settings_231.droplet_particle
 
 .. autoclass:: droplet_particle
     :show-inheritance:
     :undoc-members:
 .. rubric:: Named object type
 
-:ref:`fluid_child <fluid_child>`
+:ref:`droplet_particle_child <droplet_particle_child>`
 
 
 .. rubric:: Included in:

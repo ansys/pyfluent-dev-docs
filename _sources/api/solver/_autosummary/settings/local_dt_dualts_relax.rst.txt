@@ -5,24 +5,24 @@
 local_dt_dualts_relax
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.local_dt_dualts_relax
+.. currentmodule:: ansys.fluent.core.solver.settings_231.local_dt_dualts_relax
 
 .. autoclass:: local_dt_dualts_relax
     :show-inheritance:
     :undoc-members:
 .. rubric:: Named object type
 
-:ref:`axis_direction_component_child <axis_direction_component_child>`
+:ref:`axis_direction_child <axis_direction_child>`
 
 
 .. rubric:: Included in:
 
-==============================================   ===============================
+======================================================================================   ===================================================
 
-Parent                                                                   Summary
+Parent                                                                                                                               Summary
 
-==============================================   ===============================
-:ref:`relaxation_factors <relaxation_factors>`       'relaxation_factors' child.
+======================================================================================   ===================================================
+:ref:`pseudo_time_explicit_relaxation_factor <pseudo_time_explicit_relaxation_factor>`       'pseudo_time_explicit_relaxation_factor' child.
 
-==============================================   ===============================
+======================================================================================   ===================================================
 

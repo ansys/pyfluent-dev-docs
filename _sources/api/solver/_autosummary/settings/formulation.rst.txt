@@ -5,7 +5,7 @@
 formulation
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.formulation
+.. currentmodule:: ansys.fluent.core.solver.settings_231.formulation
 
 .. autoclass:: formulation
     :show-inheritance:
@@ -27,12 +27,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-==============================================   ===============================
+==============================================   ======================================
 
-Parent                                                                   Summary
+Parent                                                                          Summary
 
-==============================================   ===============================
-:ref:`pseudo_time_method <pseudo_time_method>`       'pseudo_time_method' child.
+==============================================   ======================================
+:ref:`pseudo_time_method <pseudo_time_method>`       Enter the pseudo time method menu.
 
-==============================================   ===============================
+==============================================   ======================================
 

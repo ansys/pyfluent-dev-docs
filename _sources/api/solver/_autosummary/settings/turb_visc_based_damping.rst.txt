@@ -5,19 +5,19 @@
 turb_visc_based_damping
 =======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.turb_visc_based_damping
+.. currentmodule:: ansys.fluent.core.solver.settings_231.turb_visc_based_damping
 
 .. autoclass:: turb_visc_based_damping
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==================================   =========================
+==================================   ==================================================
 
-Parent                                                 Summary
+Parent                                                                          Summary
 
-==================================   =========================
-:ref:`viscous_flow <viscous_flow>`       'viscous_flow' child.
+==================================   ==================================================
+:ref:`viscous_flow <viscous_flow>`       Multiphase viscous flow numerics options menu.
 
-==================================   =========================
+==================================   ==================================================
 

@@ -5,7 +5,7 @@
 phase_child
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.phase_child_16
+.. currentmodule:: ansys.fluent.core.solver.settings_231.phase_child_16
 
 .. autoclass:: phase_child
     :show-inheritance:
@@ -31,7 +31,7 @@ Child                                                                           
 
 :ref:`geom_bgthread <geom_bgthread>`                                                             'geom_bgthread' child.
 
-:ref:`p <p>`                                                                                                 'p' child.
+:ref:`gauge_pressure <gauge_pressure>`                                                          'gauge_pressure' child.
 
 :ref:`m <m>`                                                                                                 'm' child.
 
@@ -49,11 +49,11 @@ Child                                                                           
 
 :ref:`nk <nk_1>`                                                                                            'nk' child.
 
-:ref:`flow_direction_component <flow_direction_component>`                            'flow_direction_component' child.
+:ref:`flow_direction <flow_direction>`                                                          'flow_direction' child.
 
-:ref:`axis_direction_component <axis_direction_component_1>`                          'axis_direction_component' child.
+:ref:`axis_direction <axis_direction_2>`                                                        'axis_direction' child.
 
-:ref:`axis_origin_component <axis_origin_component_1>`                                   'axis_origin_component' child.
+:ref:`axis_origin <axis_origin_2>`                                                                 'axis_origin' child.
 
 :ref:`ke_spec <ke_spec>`                                                                               'ke_spec' child.
 
@@ -103,7 +103,7 @@ Child                                                                           
 
 :ref:`radiation_bc <radiation_bc>`                                                                'radiation_bc' child.
 
-:ref:`radial_direction_component <radial_direction_component>`                      'radial_direction_component' child.
+:ref:`radial_direction <radial_direction>`                                                    'radial_direction' child.
 
 :ref:`coll_dtheta <coll_dtheta>`                                                                   'coll_dtheta' child.
 

@@ -5,7 +5,7 @@
 velocity_inlet_child
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.velocity_inlet_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.velocity_inlet_child
 
 .. autoclass:: velocity_inlet_child
     :show-inheritance:
@@ -51,13 +51,13 @@ Child                                                                           
 
 :ref:`ocw_ship_vmag <ocw_ship_vmag>`                                                                                                                                              'ocw_ship_vmag' child.
 
-:ref:`moving_object_direction_components <moving_object_direction_components>`                                                                               'moving_object_direction_components' child.
+:ref:`moving_object_direction <moving_object_direction>`                                                                                                                'moving_object_direction' child.
 
 :ref:`ocw_sp_vel_spec <ocw_sp_vel_spec>`                                                                                                                                        'ocw_sp_vel_spec' child.
 
 :ref:`ocw_sp_vmag <ocw_sp_vmag>`                                                                                                                                                    'ocw_sp_vmag' child.
 
-:ref:`secondary_phase_direction_components <secondary_phase_direction_components>`                                                                         'secondary_phase_direction_components' child.
+:ref:`secondary_phase_direction <secondary_phase_direction>`                                                                                                          'secondary_phase_direction' child.
 
 :ref:`ocw_pp_vel_spec <ocw_pp_vel_spec>`                                                                                                                                        'ocw_pp_vel_spec' child.
 
@@ -69,19 +69,19 @@ Child                                                                           
 
 :ref:`ocw_pp_vmag_ref <ocw_pp_vmag_ref>`                                                                                                                                        'ocw_pp_vmag_ref' child.
 
-:ref:`primary_phase_direction_components <primary_phase_direction_components>`                                                                               'primary_phase_direction_components' child.
+:ref:`primary_phase_direction <primary_phase_direction>`                                                                                                                'primary_phase_direction' child.
 
-:ref:`p_sup <p_sup>`                                                                                                                                                                      'p_sup' child.
+:ref:`initial_gauge_pressure <initial_gauge_pressure>`                                                                                                                   'initial_gauge_pressure' child.
 
 :ref:`coordinate_system <coordinate_system>`                                                                                                                                  'coordinate_system' child.
 
-:ref:`velocity_component <velocity_component>`                                                                                                                               'velocity_component' child.
+:ref:`velocity <velocity_1>`                                                                                                                                                           'velocity' child.
 
-:ref:`flow_direction_component <flow_direction_component>`                                                                                                             'flow_direction_component' child.
+:ref:`flow_direction <flow_direction>`                                                                                                                                           'flow_direction' child.
 
-:ref:`axis_direction_component <axis_direction_component_1>`                                                                                                           'axis_direction_component' child.
+:ref:`axis_direction <axis_direction_2>`                                                                                                                                         'axis_direction' child.
 
-:ref:`axis_origin_component <axis_origin_component_1>`                                                                                                                    'axis_origin_component' child.
+:ref:`axis_origin <axis_origin_2>`                                                                                                                                                  'axis_origin' child.
 
 :ref:`omega_swirl <omega_swirl>`                                                                                                                                                    'omega_swirl' child.
 
@@ -94,6 +94,8 @@ Child                                                                           
 :ref:`ht_bottom <ht_bottom>`                                                                                                                                                          'ht_bottom' child.
 
 :ref:`wave_dir_spec <wave_dir_spec>`                                                                                                                                              'wave_dir_spec' child.
+
+:ref:`reference_direction <reference_direction>`                                                                                                                            'reference_direction' child.
 
 :ref:`wave_modeling_type <wave_modeling_type>`                                                                                                                               'wave_modeling_type' child.
 
@@ -140,6 +142,14 @@ Child                                                                           
 :ref:`vm_streamwise_fluct <vm_streamwise_fluct>`                                                                                                                            'vm_streamwise_fluct' child.
 
 :ref:`vm_mass_conservation <vm_mass_conservation>`                                                                                                                         'vm_mass_conservation' child.
+
+:ref:`stg_scale_limiter_type <stg_scale_limiter_type>`                                                                                                                   'stg_scale_limiter_type' child.
+
+:ref:`stg_ti_limiter <stg_ti_limiter>`                                                                                                                                           'stg_ti_limiter' child.
+
+:ref:`stg_tvr_limiter <stg_tvr_limiter>`                                                                                                                                        'stg_tvr_limiter' child.
+
+:ref:`stg_dw_limiter <stg_dw_limiter>`                                                                                                                                           'stg_dw_limiter' child.
 
 :ref:`volumetric_synthetic_turbulence_generator <volumetric_synthetic_turbulence_generator>`                                                          'volumetric_synthetic_turbulence_generator' child.
 
@@ -253,7 +263,7 @@ Child                                                                           
 
 :ref:`pb_dqmom <pb_dqmom>`                                                                                                                                                             'pb_dqmom' child.
 
-:ref:`p <p>`                                                                                                                                                                                  'p' child.
+:ref:`gauge_pressure <gauge_pressure>`                                                                                                                                           'gauge_pressure' child.
 
 :ref:`premixc <premixc>`                                                                                                                                                                'premixc' child.
 
@@ -311,7 +321,7 @@ Child                                                                           
 
 :ref:`radiation_bc <radiation_bc>`                                                                                                                                                 'radiation_bc' child.
 
-:ref:`radial_direction_component <radial_direction_component>`                                                                                                       'radial_direction_component' child.
+:ref:`radial_direction <radial_direction>`                                                                                                                                     'radial_direction' child.
 
 :ref:`coll_dtheta <coll_dtheta>`                                                                                                                                                    'coll_dtheta' child.
 

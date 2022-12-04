@@ -219,7 +219,7 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_222.copy.copy">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_231.copy.copy">
    <code class="docutils literal notranslate">
     <span class="pre">
      copy
@@ -249,14 +249,28 @@
   <section id="copy">
 <span id="id1"></span><h1>copy<a class="headerlink" href="#copy" title="Permalink to this heading">#</a></h1>
 <dl class="py class">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_222.copy.copy">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_222.copy.</span></span><span class="sig-name descname"><span class="pre">copy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_222.copy.copy" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_231.copy.copy">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_231.copy.</span></span><span class="sig-name descname"><span class="pre">copy</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_231.copy.copy" title="Permalink to this definition">#</a></dt>
 <dd><p>Bases: <a class="reference internal" href="../ansys.fluent.core.solver.flobject.Command.html#ansys.fluent.core.solver.flobject.Command" title="ansys.fluent.core.solver.flobject.Command"><code class="xref py py-class docutils literal notranslate"><span class="pre">Command</span></code></a></p>
-<p>Create a new display state with settings copied from an existing display state.</p>
+<p>Copy optical beam grid.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><dl>
-<dt><strong>state_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>‘state_name’ child.</p>
+<dt><strong>orig_beam_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Choose the name for the optical beam to be copied.</p>
+</dd>
+<dt><strong>beam_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Set a unique name for each optical beam.</p>
+</dd>
+<dt><strong>ap_face_zone</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>Set the wall face zones to specify the optical aperture surface.</p>
+</dd>
+<dt><strong>beam_length</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">real</span></code></span></dt><dd><p>Set the length of optical beam propagation.</p>
+</dd>
+<dt><strong>ray_npoints</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/functions.html#int" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">int</span></code></a></span></dt><dd><p>Set the number of grid point in each ray of the optical beam.</p>
+</dd>
+<dt><strong>x_beam_vector</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">real</span></code></span></dt><dd><p>Set the x-component of the beam propagation vector.</p>
+</dd>
+<dt><strong>y_beam_vector</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">real</span></code></span></dt><dd><p>Set the y-component of the beam propagation vector.</p>
+</dd>
+<dt><strong>z_beam_vector</strong><span class="classifier"><code class="xref py py-obj docutils literal notranslate"><span class="pre">real</span></code></span></dt><dd><p>Set the z-component of the beam propagation vector.</p>
 </dd>
 </dl>
 </dd>
@@ -271,8 +285,29 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><a class="reference internal" href="state_name.html#state-name"><span class="std std-ref">state_name</span></a></p></td>
-<td><p>‘state_name’ child.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="orig_beam_name.html#orig-beam-name"><span class="std std-ref">orig_beam_name</span></a></p></td>
+<td><p>Choose the name for the optical beam to be copied.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="beam_name.html#beam-name"><span class="std std-ref">beam_name</span></a></p></td>
+<td><p>Set a unique name for each optical beam.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ap_face_zone.html#ap-face-zone"><span class="std std-ref">ap_face_zone</span></a></p></td>
+<td><p>Set the wall face zones to specify the optical aperture surface.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="beam_length.html#beam-length"><span class="std std-ref">beam_length</span></a></p></td>
+<td><p>Set the length of optical beam propagation.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="ray_npoints.html#ray-npoints"><span class="std std-ref">ray_npoints</span></a></p></td>
+<td><p>Set the number of grid point in each ray of the optical beam.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="x_beam_vector.html#x-beam-vector"><span class="std std-ref">x_beam_vector</span></a></p></td>
+<td><p>Set the x-component of the beam propagation vector.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="y_beam_vector.html#y-beam-vector"><span class="std std-ref">y_beam_vector</span></a></p></td>
+<td><p>Set the y-component of the beam propagation vector.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="z_beam_vector.html#z-beam-vector"><span class="std std-ref">z_beam_vector</span></a></p></td>
+<td><p>Set the z-component of the beam propagation vector.</p></td>
 </tr>
 </tbody>
 </table>
@@ -284,8 +319,8 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><a class="reference internal" href="display_states.html#display-states"><span class="std std-ref">display_states</span></a></p></td>
-<td><p>‘display_states’ child.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="beams.html#beams"><span class="std std-ref">beams</span></a></p></td>
+<td><p>Enter the optical beams menu.</p></td>
 </tr>
 </tbody>
 </table>

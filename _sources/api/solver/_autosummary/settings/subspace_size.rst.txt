@@ -5,19 +5,19 @@
 subspace_size
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.subspace_size
+.. currentmodule:: ansys.fluent.core.solver.settings_231.subspace_size
 
 .. autoclass:: subspace_size
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==============================================================================   ===============================================
+==============================================================================   =======================================
 
-Parent                                                                                                                   Summary
+Parent                                                                                                           Summary
 
-==============================================================================   ===============================================
-:ref:`reduced_rank_extrapolation_options <reduced_rank_extrapolation_options>`       'reduced_rank_extrapolation_options' child.
+==============================================================================   =======================================
+:ref:`reduced_rank_extrapolation_options <reduced_rank_extrapolation_options>`       Reduced Rank Extrapolation options.
 
-==============================================================================   ===============================================
+==============================================================================   =======================================
 

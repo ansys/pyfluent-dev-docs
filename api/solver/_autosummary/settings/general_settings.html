@@ -219,7 +219,7 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_222.general_settings.general_settings">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_231.general_settings.general_settings">
    <code class="docutils literal notranslate">
     <span class="pre">
      general_settings
@@ -249,10 +249,18 @@
   <section id="general-settings">
 <span id="id1"></span><h1>general_settings<a class="headerlink" href="#general-settings" title="Permalink to this heading">#</a></h1>
 <dl class="py class">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_222.general_settings.general_settings">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_222.general_settings.</span></span><span class="sig-name descname"><span class="pre">general_settings</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_222.general_settings.general_settings" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_231.general_settings.general_settings">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_231.general_settings.</span></span><span class="sig-name descname"><span class="pre">general_settings</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_231.general_settings.general_settings" title="Permalink to this definition">#</a></dt>
 <dd><p>Bases: <a class="reference internal" href="../ansys.fluent.core.solver.flobject.Group.html#ansys.fluent.core.solver.flobject.Group" title="ansys.fluent.core.solver.flobject.Group"><code class="xref py py-class docutils literal notranslate"><span class="pre">Group</span></code></a></p>
-<p>Enter the general settings menu.</p>
+<p>Main menu to allow users to set options controlling:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>the optional generation of averaged dpm variables on the fluid mesh to be used for post-processing,</p></li>
+<li><p>the interaction between the discrete particles and their carrier phase,</p></li>
+<li><p>the handling of unsteady particles.</p></li>
+</ul>
+</div></blockquote>
+<p>For more details please consult the help option of the corresponding menu or TUI command.</p>
 </dd></dl>
 
 <p class="rubric">Children</p>
@@ -263,23 +271,14 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><a class="reference internal" href="number_of_iterations.html#number-of-iterations"><span class="std std-ref">number_of_iterations</span></a></p></td>
-<td><p>Set the number of iterations.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="contour_plotting_option.html#contour-plotting-option"><span class="std std-ref">contour_plotting_option</span></a></p></td>
+<td><p>Enable/disable contour and vector plots of mean and rms particle data.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="explicit_urf.html#explicit-urf"><span class="std std-ref">explicit_urf</span></a></p></td>
-<td><p>Set Explicit URF for scalar equations.</p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="interaction.html#interaction"><span class="std std-ref">interaction</span></a></p></td>
+<td><p>‘interaction’ child.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="reference_frame_1.html#reference-frame-1"><span class="std std-ref">reference_frame</span></a></p></td>
-<td><p>Set reference frame absolute or relative.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="initial_pressure.html#initial-pressure"><span class="std std-ref">initial_pressure</span></a></p></td>
-<td><p>Enable/Disable specified initial pressure on inlets.</p></td>
-</tr>
-<tr class="row-even"><td><p><a class="reference internal" href="external_aero.html#external-aero"><span class="std std-ref">external_aero</span></a></p></td>
-<td><p>Enable/Disable external-aero favorable settings.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="const_velocity.html#const-velocity"><span class="std std-ref">const_velocity</span></a></p></td>
-<td><p>Enable/Disable constant velocity magnitude.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="unsteady_tracking.html#unsteady-tracking"><span class="std std-ref">unsteady_tracking</span></a></p></td>
+<td><p>‘unsteady_tracking’ child.</p></td>
 </tr>
 </tbody>
 </table>
@@ -291,8 +290,8 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><a class="reference internal" href="set_hybrid_init_options.html#set-hybrid-init-options"><span class="std std-ref">set_hybrid_init_options</span></a></p></td>
-<td><p>‘set_hybrid_init_options’ child.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="discrete_phase.html#discrete-phase"><span class="std std-ref">discrete_phase</span></a></p></td>
+<td><p>Toplevel menu of the Discrete Phase multiphase model. A discrete phase model (DPM) is used when the aim is to investigate the behavior of the particles from a Lagrangian view and a discrete perspective.</p></td>
 </tr>
 </tbody>
 </table>

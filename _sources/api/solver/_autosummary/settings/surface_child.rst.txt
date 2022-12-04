@@ -5,7 +5,7 @@
 surface_child
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.surface_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.surface_child
 
 .. autoclass:: surface_child
     :show-inheritance:
@@ -17,19 +17,19 @@ surface_child
 Child                                                                                               Summary
 
 ================================================================   ========================================
+:ref:`report_type <report_type>`                                                       'report_type' child.
+
 :ref:`custom_vector <custom_vector>`                                                 'custom_vector' child.
 
 :ref:`field <field>`                                                                         'field' child.
 
 :ref:`surfaces <surfaces>`                                                                'surfaces' child.
 
-:ref:`geometry <geometry_1>`                                                              'geometry' child.
+:ref:`geometry <geometry_3>`                                                              'geometry' child.
 
 :ref:`physics <physics>`                                                                   'physics' child.
 
 :ref:`retain_instantaneous_values <retain_instantaneous_values>`       'retain_instantaneous_values' child.
-
-:ref:`report_type <report_type>`                                                       'report_type' child.
 
 :ref:`phase <phase_25>`                                                                      'phase' child.
 
@@ -47,12 +47,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-========================   ====================
+==========================   ====================
 
-Parent                                  Summary
+Parent                                    Summary
 
-========================   ====================
-:ref:`surface <surface>`       'surface' child.
+==========================   ====================
+:ref:`surface <surface_1>`       'surface' child.
 
-========================   ====================
+==========================   ====================
 

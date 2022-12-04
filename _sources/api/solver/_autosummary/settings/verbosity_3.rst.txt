@@ -5,19 +5,19 @@
 verbosity
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.verbosity_3
+.. currentmodule:: ansys.fluent.core.solver.settings_231.verbosity_3
 
 .. autoclass:: verbosity
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==============================================   ===============================
+==========================   ====================
 
-Parent                                                                   Summary
+Parent                                    Summary
 
-==============================================   ===============================
-:ref:`pseudo_time_method <pseudo_time_method>`       'pseudo_time_method' child.
+==========================   ====================
+:ref:`options <options_2>`       'options' child.
 
-==============================================   ===============================
+==========================   ====================
 

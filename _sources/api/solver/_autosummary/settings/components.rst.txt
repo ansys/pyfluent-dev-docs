@@ -5,19 +5,19 @@
 components
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.components
+.. currentmodule:: ansys.fluent.core.solver.settings_231.components
 
 .. autoclass:: components
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==========================   ====================
+========================   ====================
 
-Parent                                    Summary
+Parent                                  Summary
 
-==========================   ====================
-:ref:`gravity <gravity_1>`       'gravity' child.
+========================   ====================
+:ref:`gravity <gravity>`       'gravity' child.
 
-==========================   ====================
+========================   ====================
 

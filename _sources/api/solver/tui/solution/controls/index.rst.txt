@@ -3,18 +3,18 @@
 solver.tui.solution.controls
 ============================
 
-.. currentmodule:: ansys.fluent.core.solver.tui_222
+.. currentmodule:: ansys.fluent.core.solver.tui_231
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.solver.tui_222::main_menu.solution.controls
-   :members: courant_number, equations, limits, p_v_controls, relaxation_factor, set_controls_to_default, under_relaxation
+.. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.solution.controls
+   :members: under_relaxation, set_controls_to_default, courant_number, equations, p_v_controls, relaxation_factor, limits
 
 .. toctree::
    :hidden:
 
+   query/index
    acoustics_wave_equation_controls/index
    advanced/index
    contact_solution_controls/index
-   query/index

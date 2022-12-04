@@ -5,14 +5,14 @@
 uds
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.uds
+.. currentmodule:: ansys.fluent.core.solver.settings_231.uds
 
 .. autoclass:: uds
     :show-inheritance:
     :undoc-members:
 .. rubric:: Named object type
 
-:ref:`child_object_type_child <child_object_type_child>`
+:ref:`child_object_type_child <child_object_type_child_1>`
 
 
 .. rubric:: Included in:

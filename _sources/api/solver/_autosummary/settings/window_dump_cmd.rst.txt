@@ -5,7 +5,7 @@
 window_dump_cmd
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.window_dump_cmd
+.. currentmodule:: ansys.fluent.core.solver.settings_231.window_dump_cmd
 
 .. autoclass:: window_dump_cmd
     :show-inheritance:

@@ -5,7 +5,7 @@
 expert
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.expert_1
+.. currentmodule:: ansys.fluent.core.solver.settings_231.expert_1
 
 .. autoclass:: expert
     :show-inheritance:
@@ -18,6 +18,8 @@ Child                                                                           
 
 ======================================================================   ===========================================
 :ref:`spatial_discretization_limiter <spatial_discretization_limiter>`       'spatial_discretization_limiter' child.
+
+:ref:`pseudo_time_method_usage <pseudo_time_method_usage>`                         'pseudo_time_method_usage' child.
 
 ======================================================================   ===========================================
 

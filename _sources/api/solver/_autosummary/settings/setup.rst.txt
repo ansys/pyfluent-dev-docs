@@ -5,7 +5,7 @@
 setup
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.setup
+.. currentmodule:: ansys.fluent.core.solver.settings_231.setup
 
 .. autoclass:: setup
     :show-inheritance:
@@ -28,6 +28,8 @@ Child                                                                          S
 :ref:`boundary_conditions <boundary_conditions>`          'boundary_conditions' child.
 
 :ref:`reference_values <reference_values>`                   'reference_values' child.
+
+:ref:`named_expressions <named_expressions>`                'named_expressions' child.
 
 ==================================================   =================================
 

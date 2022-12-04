@@ -5,30 +5,30 @@
 compute
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.compute_1
+.. currentmodule:: ansys.fluent.core.solver.settings_231.compute_1
 
 .. autoclass:: compute
     :show-inheritance:
     :undoc-members:
-.. rubric:: Children
+.. rubric:: Arguments
 
-========================   ====================
+================================   ========================
 
-Child                                   Summary
+Argument                                            Summary
 
-========================   ====================
-:ref:`compute <compute>`       'compute' child.
+================================   ========================
+:ref:`report_defs <report_defs>`       'report_defs' child.
 
-========================   ====================
+================================   ========================
 
 .. rubric:: Included in:
 
-==========================================   =============================
+==============================================   ===============================
 
-Parent                                                             Summary
+Parent                                                                   Summary
 
-==========================================   =============================
-:ref:`reference_values <reference_values>`       'reference_values' child.
+==============================================   ===============================
+:ref:`report_definitions <report_definitions>`       'report_definitions' child.
 
-==========================================   =============================
+==============================================   ===============================
 

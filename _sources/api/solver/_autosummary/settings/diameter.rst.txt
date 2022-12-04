@@ -5,7 +5,7 @@
 diameter
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.diameter
+.. currentmodule:: ansys.fluent.core.solver.settings_231.diameter
 
 .. autoclass:: diameter
     :show-inheritance:
@@ -17,6 +17,8 @@ diameter
 Parent                                       Summary
 
 ============================   =====================
+:ref:`diameter <diameter_1>`       'diameter' child.
+
 :ref:`constant <constant_1>`       'constant' child.
 
 ============================   =====================

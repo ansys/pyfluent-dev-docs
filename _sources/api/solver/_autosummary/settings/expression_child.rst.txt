@@ -5,7 +5,7 @@
 expression_child
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.expression_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.expression_child
 
 .. autoclass:: expression_child
     :show-inheritance:
@@ -31,12 +31,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-==============================   =======================
+================================   =======================
 
-Parent                                           Summary
+Parent                                             Summary
 
-==============================   =======================
-:ref:`expression <expression>`       'expression' child.
+================================   =======================
+:ref:`expression <expression_1>`       'expression' child.
 
-==============================   =======================
+================================   =======================
 

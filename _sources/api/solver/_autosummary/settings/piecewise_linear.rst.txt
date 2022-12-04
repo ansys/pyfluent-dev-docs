@@ -5,7 +5,7 @@
 piecewise_linear
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.piecewise_linear
+.. currentmodule:: ansys.fluent.core.solver.settings_231.piecewise_linear
 
 .. autoclass:: piecewise_linear
     :show-inheritance:
@@ -17,224 +17,136 @@ piecewise_linear
 
 .. rubric:: Included in:
 
-======================================================================================   ===================================================
+================================================================   =======================================
 
-Parent                                                                                                                               Summary
+Parent                                                                                             Summary
 
-======================================================================================   ===================================================
-:ref:`species <species>`                                                                                                    'species' child.
+================================================================   =======================================
+:ref:`density <density>`                                                                  'density' child.
 
-:ref:`conductivity <conductivity>`                                                                                     'conductivity' child.
+:ref:`viscosity <viscosity>`                                                            'viscosity' child.
 
-:ref:`conductivity_0 <conductivity_0>`                                                                               'conductivity_0' child.
+:ref:`specific_heat <specific_heat>`                                                'specific_heat' child.
 
-:ref:`conductivity_1 <conductivity_1>`                                                                               'conductivity_1' child.
+:ref:`thermal_conductivity <thermal_conductivity>`                           'thermal_conductivity' child.
 
-:ref:`conductivity_2 <conductivity_2>`                                                                               'conductivity_2' child.
+:ref:`absorption_coefficient <absorption_coefficient>`                     'absorption_coefficient' child.
 
-:ref:`reactions <reactions>`                                                                                              'reactions' child.
+:ref:`partition_coeff <partition_coeff>`                                          'partition_coeff' child.
 
-:ref:`reaction_mechs <reaction_mechs>`                                                                               'reaction_mechs' child.
+:ref:`scattering_coefficient <scattering_coefficient>`                     'scattering_coefficient' child.
 
-:ref:`density <density>`                                                                                                    'density' child.
+:ref:`diffusivity <diffusivity>`                                                      'diffusivity' child.
 
-:ref:`specific_heat <specific_heat>`                                                                                  'specific_heat' child.
+:ref:`diffusivity_0 <diffusivity_0>`                                                'diffusivity_0' child.
 
-:ref:`thermal_conductivity <thermal_conductivity>`                                                             'thermal_conductivity' child.
+:ref:`diffusivity_1 <diffusivity_1>`                                                'diffusivity_1' child.
 
-:ref:`viscosity <viscosity>`                                                                                              'viscosity' child.
+:ref:`diffusivity_2 <diffusivity_2>`                                                'diffusivity_2' child.
 
-:ref:`molecular_weight <molecular_weight>`                                                                         'molecular_weight' child.
+:ref:`radial_diffusivity <radial_diffusivity>`                                 'radial_diffusivity' child.
 
-:ref:`mass_diffusivity <mass_diffusivity>`                                                                         'mass_diffusivity' child.
+:ref:`tangential_diffusivity <tangential_diffusivity>`                     'tangential_diffusivity' child.
 
-:ref:`thermal_diffusivity <thermal_diffusivity>`                                                                'thermal_diffusivity' child.
+:ref:`axial_diffusivity <axial_diffusivity>`                                    'axial_diffusivity' child.
 
-:ref:`formation_enthalpy <formation_enthalpy>`                                                                   'formation_enthalpy' child.
+:ref:`electric_conductivity <electric_conductivity>`                        'electric_conductivity' child.
 
-:ref:`formation_entropy <formation_entropy>`                                                                      'formation_entropy' child.
+:ref:`dual_electric_conductivity <dual_electric_conductivity>`         'dual_electric_conductivity' child.
 
-:ref:`characteristic_vibrational_temperature <characteristic_vibrational_temperature>`       'characteristic_vibrational_temperature' child.
+:ref:`lithium_diffusivity <lithium_diffusivity>`                              'lithium_diffusivity' child.
 
-:ref:`reference_temperature <reference_temperature>`                                                          'reference_temperature' child.
+:ref:`speed_of_sound <speed_of_sound>`                                             'speed_of_sound' child.
 
-:ref:`lennard_jones_length <lennard_jones_length>`                                                             'lennard_jones_length' child.
+:ref:`saturation_pressure <saturation_pressure>`                              'saturation_pressure' child.
 
-:ref:`lennard_jones_energy <lennard_jones_energy>`                                                             'lennard_jones_energy' child.
+:ref:`specific_heat <specific_heat_1>`                                              'specific_heat' child.
 
-:ref:`thermal_accom_coefficient <thermal_accom_coefficient>`                                              'thermal_accom_coefficient' child.
+:ref:`thermal_conductivity <thermal_conductivity_1>`                         'thermal_conductivity' child.
 
-:ref:`velocity_accom_coefficient <velocity_accom_coefficient>`                                           'velocity_accom_coefficient' child.
+:ref:`planar_conductivity <planar_conductivity>`                              'planar_conductivity' child.
 
-:ref:`absorption_coefficient <absorption_coefficient>`                                                       'absorption_coefficient' child.
+:ref:`transverse_conductivity <transverse_conductivity>`                  'transverse_conductivity' child.
 
-:ref:`scattering_coefficient <scattering_coefficient>`                                                       'scattering_coefficient' child.
+:ref:`radial_conductivity <radial_conductivity>`                              'radial_conductivity' child.
 
-:ref:`scattering_phase_function <scattering_phase_function>`                                              'scattering_phase_function' child.
+:ref:`tangential_conductivity <tangential_conductivity>`                  'tangential_conductivity' child.
 
-:ref:`therm_exp_coeff <therm_exp_coeff>`                                                                            'therm_exp_coeff' child.
+:ref:`axial_conductivity <axial_conductivity>`                                 'axial_conductivity' child.
 
-:ref:`premix_unburnt_density <premix_unburnt_density>`                                                       'premix_unburnt_density' child.
+:ref:`conductivity_0 <conductivity_0>`                                             'conductivity_0' child.
 
-:ref:`premix_unburnt_temp <premix_unburnt_temp>`                                                                'premix_unburnt_temp' child.
+:ref:`conductivity_1 <conductivity_1>`                                             'conductivity_1' child.
 
-:ref:`premix_adiabatic_temp <premix_adiabatic_temp>`                                                          'premix_adiabatic_temp' child.
+:ref:`conductivity_2 <conductivity_2>`                                             'conductivity_2' child.
 
-:ref:`premix_unburnt_cp <premix_unburnt_cp>`                                                                      'premix_unburnt_cp' child.
+:ref:`conductivity <conductivity>`                                                   'conductivity' child.
 
-:ref:`premix_heat_trans_coeff <premix_heat_trans_coeff>`                                                    'premix_heat_trans_coeff' child.
+:ref:`scattering_coefficient <scattering_coefficient_1>`                   'scattering_coefficient' child.
 
-:ref:`premix_laminar_speed <premix_laminar_speed>`                                                             'premix_laminar_speed' child.
+:ref:`viscosity <viscosity_1>`                                                          'viscosity' child.
 
-:ref:`premix_laminar_thickness <premix_laminar_thickness>`                                                 'premix_laminar_thickness' child.
+:ref:`specific_heat <specific_heat_2>`                                              'specific_heat' child.
 
-:ref:`premix_critical_strain <premix_critical_strain>`                                                       'premix_critical_strain' child.
+:ref:`thermal_conductivity <thermal_conductivity_2>`                         'thermal_conductivity' child.
 
-:ref:`premix_heat_of_comb <premix_heat_of_comb>`                                                                'premix_heat_of_comb' child.
+:ref:`absorption_coefficient <absorption_coefficient_1>`                   'absorption_coefficient' child.
 
-:ref:`premix_unburnt_fuel_mf <premix_unburnt_fuel_mf>`                                                       'premix_unburnt_fuel_mf' child.
+:ref:`density <density_3>`                                                                'density' child.
 
-:ref:`refractive_index <refractive_index>`                                                                         'refractive_index' child.
+:ref:`specific_heat <specific_heat_3>`                                              'specific_heat' child.
 
-:ref:`latent_heat <latent_heat>`                                                                                        'latent_heat' child.
+:ref:`thermophoretic_co <thermophoretic_co>`                                    'thermophoretic_co' child.
 
-:ref:`thermophoretic_co <thermophoretic_co>`                                                                      'thermophoretic_co' child.
+:ref:`viscosity <viscosity_2>`                                                          'viscosity' child.
 
-:ref:`vaporization_temperature <vaporization_temperature>`                                                 'vaporization_temperature' child.
+:ref:`dpm_surften <dpm_surften>`                                                      'dpm_surften' child.
 
-:ref:`boiling_point <boiling_point>`                                                                                  'boiling_point' child.
+:ref:`electric_conductivity <electric_conductivity_1>`                      'electric_conductivity' child.
 
-:ref:`volatile_fraction <volatile_fraction>`                                                                      'volatile_fraction' child.
+:ref:`dual_electric_conductivity <dual_electric_conductivity_1>`       'dual_electric_conductivity' child.
 
-:ref:`binary_diffusivity <binary_diffusivity>`                                                                   'binary_diffusivity' child.
+:ref:`binary_diffusivity <binary_diffusivity_1>`                               'binary_diffusivity' child.
 
-:ref:`diffusivity_reference_pressure <diffusivity_reference_pressure>`                               'diffusivity_reference_pressure' child.
+:ref:`binary_diffusivity <binary_diffusivity>`                                 'binary_diffusivity' child.
 
-:ref:`vapor_pressure <vapor_pressure>`                                                                               'vapor_pressure' child.
+:ref:`vapor_pressure <vapor_pressure>`                                             'vapor_pressure' child.
 
-:ref:`degrees_of_freedom <degrees_of_freedom>`                                                                   'degrees_of_freedom' child.
+:ref:`scattering_factor <scattering_factor_1>`                                  'scattering_factor' child.
 
-:ref:`emissivity <emissivity>`                                                                                           'emissivity' child.
+:ref:`emissivity <emissivity_1>`                                                       'emissivity' child.
 
-:ref:`scattering_factor <scattering_factor>`                                                                      'scattering_factor' child.
+:ref:`dpm_surften <dpm_surften_1>`                                                    'dpm_surften' child.
 
-:ref:`heat_of_pyrolysis <heat_of_pyrolysis>`                                                                      'heat_of_pyrolysis' child.
+:ref:`density <density_4>`                                                                'density' child.
 
-:ref:`swelling_coefficient <swelling_coefficient>`                                                             'swelling_coefficient' child.
+:ref:`viscosity_ratio <viscosity_ratio>`                                          'viscosity_ratio' child.
 
-:ref:`burn_stoichiometry <burn_stoichiometry>`                                                                   'burn_stoichiometry' child.
+:ref:`capillary_pressure <capillary_pressure>`                                 'capillary_pressure' child.
 
-:ref:`combustible_fraction <combustible_fraction>`                                                             'combustible_fraction' child.
+:ref:`a <a_1>`                                                                                  'a' child.
 
-:ref:`burn_hreact <burn_hreact>`                                                                                        'burn_hreact' child.
+:ref:`c <c_1>`                                                                                  'c' child.
 
-:ref:`burn_hreact_fraction <burn_hreact_fraction>`                                                             'burn_hreact_fraction' child.
+:ref:`b <b_1>`                                                                                  'b' child.
 
-:ref:`devolatilization_model <devolatilization_model>`                                                       'devolatilization_model' child.
+:ref:`kc <kc>`                                                                                 'kc' child.
 
-:ref:`combustion_model <combustion_model>`                                                                         'combustion_model' child.
+:ref:`hc <hc>`                                                                                 'hc' child.
 
-:ref:`averaging_coefficient_t <averaging_coefficient_t>`                                                    'averaging_coefficient_t' child.
+:ref:`pid <pid>`                                                                              'pid' child.
 
-:ref:`averaging_coefficient_y <averaging_coefficient_y>`                                                    'averaging_coefficient_y' child.
+:ref:`dpm_bc_norm_coeff <dpm_bc_norm_coeff>`                                    'dpm_bc_norm_coeff' child.
 
-:ref:`vaporization_model <vaporization_model>`                                                                   'vaporization_model' child.
+:ref:`dpm_bc_tang_coeff <dpm_bc_tang_coeff>`                                    'dpm_bc_tang_coeff' child.
 
-:ref:`thermolysis_model <thermolysis_model>`                                                                      'thermolysis_model' child.
+:ref:`dpm_bc_frictn_coeff <dpm_bc_frictn_coeff>`                              'dpm_bc_frictn_coeff' child.
 
-:ref:`melting_heat <melting_heat>`                                                                                     'melting_heat' child.
+:ref:`dpm_bc_erosion <dpm_bc_erosion>`                                             'dpm_bc_erosion' child.
 
-:ref:`tsolidus <tsolidus>`                                                                                                 'tsolidus' child.
+:ref:`dpm_bc_erosion_c <dpm_bc_erosion_c>`                                       'dpm_bc_erosion_c' child.
 
-:ref:`tliqidus <tliqidus>`                                                                                                 'tliqidus' child.
+:ref:`dpm_bc_erosion_n <dpm_bc_erosion_n>`                                       'dpm_bc_erosion_n' child.
 
-:ref:`tmelt <tmelt>`                                                                                                          'tmelt' child.
-
-:ref:`liquidus_slope <liquidus_slope>`                                                                               'liquidus_slope' child.
-
-:ref:`partition_coeff <partition_coeff>`                                                                            'partition_coeff' child.
-
-:ref:`eutectic_mf <eutectic_mf>`                                                                                        'eutectic_mf' child.
-
-:ref:`eutectic_temp <eutectic_temp>`                                                                                  'eutectic_temp' child.
-
-:ref:`solut_exp_coeff <solut_exp_coeff>`                                                                            'solut_exp_coeff' child.
-
-:ref:`solid_diffusion <solid_diffusion>`                                                                            'solid_diffusion' child.
-
-:ref:`uds_diffusivity <uds_diffusivity>`                                                                            'uds_diffusivity' child.
-
-:ref:`dpm_surften <dpm_surften>`                                                                                        'dpm_surften' child.
-
-:ref:`electric_conductivity <electric_conductivity>`                                                          'electric_conductivity' child.
-
-:ref:`dual_electric_conductivity <dual_electric_conductivity>`                                           'dual_electric_conductivity' child.
-
-:ref:`lithium_diffusivity <lithium_diffusivity>`                                                                'lithium_diffusivity' child.
-
-:ref:`magnetic_permeability <magnetic_permeability>`                                                          'magnetic_permeability' child.
-
-:ref:`charge_density <charge_density>`                                                                               'charge_density' child.
-
-:ref:`charge <charge>`                                                                                                       'charge' child.
-
-:ref:`speed_of_sound <speed_of_sound>`                                                                               'speed_of_sound' child.
-
-:ref:`species_phase <species_phase>`                                                                                  'species_phase' child.
-
-:ref:`vp_equilib <vp_equilib>`                                                                                           'vp_equilib' child.
-
-:ref:`critical_temperature <critical_temperature>`                                                             'critical_temperature' child.
-
-:ref:`critical_pressure <critical_pressure>`                                                                      'critical_pressure' child.
-
-:ref:`critical_volume <critical_volume>`                                                                            'critical_volume' child.
-
-:ref:`acentric_factor <acentric_factor>`                                                                            'acentric_factor' child.
-
-:ref:`saturation_pressure <saturation_pressure>`                                                                'saturation_pressure' child.
-
-:ref:`struct_youngs_modulus <struct_youngs_modulus>`                                                          'struct_youngs_modulus' child.
-
-:ref:`struct_poisson_ratio <struct_poisson_ratio>`                                                             'struct_poisson_ratio' child.
-
-:ref:`struct_start_temperature <struct_start_temperature>`                                                 'struct_start_temperature' child.
-
-:ref:`struct_thermal_expansion <struct_thermal_expansion>`                                                 'struct_thermal_expansion' child.
-
-:ref:`atomic_number <atomic_number>`                                                                                  'atomic_number' child.
-
-:ref:`struct_damping_alpha <struct_damping_alpha>`                                                             'struct_damping_alpha' child.
-
-:ref:`struct_damping_beta <struct_damping_beta>`                                                                'struct_damping_beta' child.
-
-:ref:`viscosity_ratio <viscosity_ratio>`                                                                            'viscosity_ratio' child.
-
-:ref:`capillary_pressure <capillary_pressure>`                                                                   'capillary_pressure' child.
-
-:ref:`a <a>`                                                                                                                      'a' child.
-
-:ref:`c <c>`                                                                                                                      'c' child.
-
-:ref:`b <b>`                                                                                                                      'b' child.
-
-:ref:`kc <kc>`                                                                                                                   'kc' child.
-
-:ref:`hc <hc>`                                                                                                                   'hc' child.
-
-:ref:`pid <pid>`                                                                                                                'pid' child.
-
-:ref:`dpm_bc_norm_coeff <dpm_bc_norm_coeff>`                                                                      'dpm_bc_norm_coeff' child.
-
-:ref:`dpm_bc_tang_coeff <dpm_bc_tang_coeff>`                                                                      'dpm_bc_tang_coeff' child.
-
-:ref:`dpm_bc_frictn_coeff <dpm_bc_frictn_coeff>`                                                                'dpm_bc_frictn_coeff' child.
-
-:ref:`dpm_bc_erosion <dpm_bc_erosion>`                                                                               'dpm_bc_erosion' child.
-
-:ref:`dpm_bc_erosion_c <dpm_bc_erosion_c>`                                                                         'dpm_bc_erosion_c' child.
-
-:ref:`dpm_bc_erosion_n <dpm_bc_erosion_n>`                                                                         'dpm_bc_erosion_n' child.
-
-======================================================================================   ===================================================
+================================================================   =======================================
 

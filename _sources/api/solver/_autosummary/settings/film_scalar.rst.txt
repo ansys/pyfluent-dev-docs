@@ -5,7 +5,7 @@
 film_scalar
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.film_scalar
+.. currentmodule:: ansys.fluent.core.solver.settings_231.film_scalar
 
 .. autoclass:: film_scalar
     :show-inheritance:
@@ -17,9 +17,9 @@ film_scalar
 Child                                                  Summary
 
 ==================================   =========================
-:ref:`option <option>`                         'option' child.
+:ref:`option <option_2>`                       'option' child.
 
-:ref:`constant <constant>`                   'constant' child.
+:ref:`value <value>`                            'value' child.
 
 :ref:`profile_name <profile_name>`       'profile_name' child.
 

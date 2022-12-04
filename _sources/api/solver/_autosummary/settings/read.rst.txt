@@ -5,32 +5,32 @@
 read
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.read
+.. currentmodule:: ansys.fluent.core.solver.settings_231.read
 
 .. autoclass:: read
     :show-inheritance:
     :undoc-members:
 .. rubric:: Arguments
 
-============================   ======================
+==============================   ======================
 
-Argument                                      Summary
+Argument                                        Summary
 
-============================   ======================
-:ref:`file_type <file_type>`       'file_type' child.
+==============================   ======================
+:ref:`file_type <file_type>`         'file_type' child.
 
-:ref:`file_name <file_name>`       'file_name' child.
+:ref:`file_name <file_name_1>`       'file_name' child.
 
-============================   ======================
+==============================   ======================
 
 .. rubric:: Included in:
 
-==================   =================
+========================   ===================
 
-Parent                         Summary
+Parent                                 Summary
 
-==================   =================
-:ref:`file <file>`       'file' child.
+========================   ===================
+:ref:`import_ <import_>`       'import' child.
 
-==================   =================
+========================   ===================
 

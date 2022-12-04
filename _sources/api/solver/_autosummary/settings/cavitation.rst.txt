@@ -5,7 +5,7 @@
 cavitation
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.cavitation
+.. currentmodule:: ansys.fluent.core.solver.settings_231.cavitation
 
 .. autoclass:: cavitation
     :show-inheritance:
@@ -17,11 +17,11 @@ cavitation
 Child                                                                                                                                                                                             Summary
 
 ====================================================================================   ==================================================================================================================
-:ref:`schnerr_evap_coeff <schnerr_evap_coeff>`                                                                                                       Set evaporation coefficient for Schnerr-Sauer model.
+:ref:`schnerr_evap_coeff <schnerr_evap_coeff>`                                                                                                           Evaporation coefficient for Schnerr-Sauer model.
 
-:ref:`schnerr_cond_coeff <schnerr_cond_coeff>`                                                                                                      Set condensation coefficient for Schnerr-Sauer model.
+:ref:`schnerr_cond_coeff <schnerr_cond_coeff>`                                                                                                          Condensation coefficient for Schnerr-Sauer model.
 
-:ref:`max_vapor_pressure_ratio <max_vapor_pressure_ratio>`                                                                                          Set maximum ratio limit for corrected vapor pressure.
+:ref:`max_vapor_pressure_ratio <max_vapor_pressure_ratio>`                                                                       Maximum limit on vapor pressure after turbulence and thermal correction.
 
 :ref:`min_vapor_pressure <min_vapor_pressure>`                                                                                                         Minimum vapor pressure limit for cavitation model.
 
@@ -35,12 +35,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-==============================================   ===============================
+==============================================   =======================================================================
 
-Parent                                                                   Summary
+Parent                                                                                                           Summary
 
-==============================================   ===============================
-:ref:`heat_mass_transfer <heat_mass_transfer>`       'heat_mass_transfer' child.
+==============================================   =======================================================================
+:ref:`heat_mass_transfer <heat_mass_transfer>`       Multiphase interphase heat and mass transfer numerics options menu.
 
-==============================================   ===============================
+==============================================   =======================================================================
 

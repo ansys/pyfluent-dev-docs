@@ -5,7 +5,7 @@
 dbns_cases
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.dbns_cases
+.. currentmodule:: ansys.fluent.core.solver.settings_231.dbns_cases
 
 .. autoclass:: dbns_cases
     :show-inheritance:
@@ -23,12 +23,12 @@ Child                                     Summary
 
 .. rubric:: Included in:
 
-==============================   ======================
+==============================   ========================
 
-Parent                                          Summary
+Parent                                            Summary
 
-==============================   ======================
-:ref:`flux_type <flux_type_2>`       'flux_type' child.
+==============================   ========================
+:ref:`flux_type <flux_type_2>`       Enter the flux type.
 
-==============================   ======================
+==============================   ========================
 

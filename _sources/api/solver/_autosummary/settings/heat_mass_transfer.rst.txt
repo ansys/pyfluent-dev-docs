@@ -5,7 +5,7 @@
 heat_mass_transfer
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.heat_mass_transfer
+.. currentmodule:: ansys.fluent.core.solver.settings_231.heat_mass_transfer
 
 .. autoclass:: heat_mass_transfer
     :show-inheritance:
@@ -17,13 +17,13 @@ heat_mass_transfer
 Child                                                                                                                              Summary
 
 ==================================================================   =====================================================================
-:ref:`cavitation <cavitation>`                                                                                         'cavitation' child.
+:ref:`cavitation <cavitation>`                                                                           Cavitation numerics options menu.
 
-:ref:`evaporation_condensation <evaporation_condensation>`                                               'evaporation_condensation' child.
+:ref:`evaporation_condensation <evaporation_condensation>`                                 Evaporation-condensation advanced options menu.
 
-:ref:`boiling <boiling>`                                                                                                  'boiling' child.
+:ref:`boiling <boiling>`                                                                                    Boiling advanced options menu.
 
-:ref:`area_density <area_density_1>`                                                                                 'area_density' child.
+:ref:`area_density <area_density_1>`                                                                        Interfacial area density menu.
 
 :ref:`alternative_energy_treatment <alternative_energy_treatment>`       Alternative treatment of latent heat source due to mass transfer.
 

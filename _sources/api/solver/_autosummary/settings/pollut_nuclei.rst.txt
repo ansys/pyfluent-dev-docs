@@ -5,7 +5,7 @@
 pollut_nuclei
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.pollut_nuclei
+.. currentmodule:: ansys.fluent.core.solver.settings_231.pollut_nuclei
 
 .. autoclass:: pollut_nuclei
     :show-inheritance:
@@ -17,9 +17,9 @@ pollut_nuclei
 Child                                                  Summary
 
 ==================================   =========================
-:ref:`option <option>`                         'option' child.
+:ref:`option <option_2>`                       'option' child.
 
-:ref:`constant <constant>`                   'constant' child.
+:ref:`value <value>`                            'value' child.
 
 :ref:`profile_name <profile_name>`       'profile_name' child.
 

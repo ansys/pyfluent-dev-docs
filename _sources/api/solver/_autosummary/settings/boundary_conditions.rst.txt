@@ -5,7 +5,7 @@
 boundary_conditions
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.boundary_conditions
+.. currentmodule:: ansys.fluent.core.solver.settings_231.boundary_conditions
 
 .. autoclass:: boundary_conditions
     :show-inheritance:
@@ -25,7 +25,7 @@ Child                                                                          S
 
 :ref:`fan <fan>`                                                          'fan' child.
 
-:ref:`geometry <geometry>`                                           'geometry' child.
+:ref:`geometry <geometry_2>`                                         'geometry' child.
 
 :ref:`inlet_vent <inlet_vent>`                                     'inlet_vent' child.
 
@@ -76,6 +76,29 @@ Child                                                                          S
 :ref:`wall <wall>`                                                       'wall' child.
 
 ==================================================   =================================
+
+.. rubric:: Commands
+
+============================================================================   ==============================================================================================================
+
+Command                                                                                                                                                                               Summary
+
+============================================================================   ==============================================================================================================
+:ref:`change_type <change_type>`                                                                                                                                       'change_type' command.
+
+:ref:`slit_face_zone <slit_face_zone>`                                                                                                   Slit a two-sided wall into two connected wall zones.
+
+:ref:`slit_interior_between_diff_solids <slit_interior_between_diff_solids>`                                               Slit interior created between different solids into coupled walls.
+
+:ref:`create_all_shell_threads <create_all_shell_threads>`                         Mark all finite thickness wall for shell creation. Shell zones will be created at the start of iterations.
+
+:ref:`recreate_all_shells <recreate_all_shells>`                                                  Create shell on all the walls where which were deleted using the command delete-all-shells.
+
+:ref:`delete_all_shells <delete_all_shells>`                                                                                                                     'delete_all_shells' command.
+
+:ref:`orient_face_zone <orient_face_zone>`                                                                                                                              Orient the face zone.
+
+============================================================================   ==============================================================================================================
 
 .. rubric:: Included in:
 

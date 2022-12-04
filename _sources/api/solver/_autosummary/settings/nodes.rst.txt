@@ -5,7 +5,7 @@
 nodes
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.nodes
+.. currentmodule:: ansys.fluent.core.solver.settings_231.nodes
 
 .. autoclass:: nodes
     :show-inheritance:
@@ -17,7 +17,7 @@ nodes
 Parent                                    Summary
 
 ==========================   ====================
-:ref:`options <options_4>`       'options' child.
+:ref:`options <options_5>`       'options' child.
 
 ==========================   ====================
 

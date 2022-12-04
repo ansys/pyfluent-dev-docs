@@ -5,19 +5,21 @@
 matrix_component
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.matrix_component
+.. currentmodule:: ansys.fluent.core.solver.settings_231.matrix_component
 
 .. autoclass:: matrix_component
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-================================   ========================
+==================================   ========================
 
-Parent                                              Summary
+Parent                                                Summary
 
-================================   ========================
-:ref:`anisotropic <anisotropic>`       'anisotropic' child.
+==================================   ========================
+:ref:`anisotropic <anisotropic>`         'anisotropic' child.
 
-================================   ========================
+:ref:`anisotropic <anisotropic_1>`       'anisotropic' child.
+
+==================================   ========================
 

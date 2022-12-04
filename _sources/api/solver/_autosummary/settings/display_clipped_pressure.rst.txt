@@ -5,19 +5,19 @@
 display_clipped_pressure
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.display_clipped_pressure
+.. currentmodule:: ansys.fluent.core.solver.settings_231.display_clipped_pressure
 
 .. autoclass:: display_clipped_pressure
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==============================   =======================
+==============================   =====================================
 
-Parent                                           Summary
+Parent                                                         Summary
 
-==============================   =======================
-:ref:`cavitation <cavitation>`       'cavitation' child.
+==============================   =====================================
+:ref:`cavitation <cavitation>`       Cavitation numerics options menu.
 
-==============================   =======================
+==============================   =====================================
 

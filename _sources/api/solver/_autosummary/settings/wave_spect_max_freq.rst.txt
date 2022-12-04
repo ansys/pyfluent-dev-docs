@@ -5,7 +5,7 @@
 wave_spect_max_freq
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.wave_spect_max_freq
+.. currentmodule:: ansys.fluent.core.solver.settings_231.wave_spect_max_freq
 
 .. autoclass:: wave_spect_max_freq
     :show-inheritance:
@@ -17,9 +17,9 @@ wave_spect_max_freq
 Child                                                  Summary
 
 ==================================   =========================
-:ref:`option <option>`                         'option' child.
+:ref:`option <option_2>`                       'option' child.
 
-:ref:`constant <constant>`                   'constant' child.
+:ref:`value <value>`                            'value' child.
 
 :ref:`profile_name <profile_name>`       'profile_name' child.
 

@@ -5,7 +5,7 @@
 manual
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.manual
+.. currentmodule:: ansys.fluent.core.solver.settings_231.manual
 
 .. autoclass:: manual
     :show-inheritance:
@@ -29,12 +29,12 @@ Child                                                        Summary
 
 .. rubric:: Included in:
 
-==========================   =====================
+============================   =====================
 
-Parent                                     Summary
+Parent                                       Summary
 
-==========================   =====================
-:ref:`coloring <coloring>`       'coloring' child.
+============================   =====================
+:ref:`coloring <coloring_1>`       'coloring' child.
 
-==========================   =====================
+============================   =====================
 

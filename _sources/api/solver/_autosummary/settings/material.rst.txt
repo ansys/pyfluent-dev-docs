@@ -5,7 +5,7 @@
 material
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.material
+.. currentmodule:: ansys.fluent.core.solver.settings_231.material
 
 .. autoclass:: material
     :show-inheritance:
@@ -17,11 +17,13 @@ material
 Parent                                                                                        Summary
 
 ======================================================   ============================================
+:ref:`injections_child <injections_child>`                         'child_object_type' of injections.
+
 :ref:`fluid_child <fluid_child_1>`                                      'child_object_type' of fluid.
 
 :ref:`phase_child <phase_child>`                                        'child_object_type' of phase.
 
-:ref:`solid_child <solid_child>`                                        'child_object_type' of solid.
+:ref:`solid_child <solid_child_1>`                                      'child_object_type' of solid.
 
 :ref:`phase_child <phase_child_1>`                                      'child_object_type' of phase.
 

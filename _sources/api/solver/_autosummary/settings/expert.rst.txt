@@ -5,7 +5,7 @@
 expert
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.expert
+.. currentmodule:: ansys.fluent.core.solver.settings_231.expert
 
 .. autoclass:: expert
     :show-inheritance:
@@ -25,12 +25,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-==========================================================================   =============================================
+================================================================   ===========================================================
 
-Parent                                                                                                             Summary
+Parent                                                                                                                 Summary
 
-==========================================================================   =============================================
-:ref:`acoustics_wave_equation_controls <acoustics_wave_equation_controls>`       'acoustics_wave_equation_controls' child.
+================================================================   ===========================================================
+:ref:`acoustics_wave_eqn_controls <acoustics_wave_eqn_controls>`       Enter menu for acoustics wave equation solver controls.
 
-==========================================================================   =============================================
+================================================================   ===========================================================
 

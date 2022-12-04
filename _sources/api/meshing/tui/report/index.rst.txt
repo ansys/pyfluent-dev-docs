@@ -3,11 +3,11 @@
 meshing.tui.report
 ==================
 
-.. currentmodule:: ansys.fluent.core.meshing.tui_222
+.. currentmodule:: ansys.fluent.core.meshing.tui_231
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.meshing.tui_222::main_menu.report
-   :members: face_node_degree_distribution, boundary_cell_quality, cell_distribution, face_distribution, cell_zone_volume, cell_zone_at_location, face_zone_at_location, number_meshed, list_cell_quality, mesh_size, mesh_statistics, meshing_time, memory_usage, print_info, edge_size_limits, face_size_limits, face_quality_limits, face_zone_area, cell_size_limits, cell_quality_limits, neighborhood_quality, quality_method, enhanced_orthogonal_quality, unrefined_cells, update_bounding_box, verbosity_level, spy_level
+.. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.report
+   :members: neighborhood_quality, face_size_limits, unrefined_cells, cell_size_limits, face_node_degree_distribution, mesh_statistics, verbosity_level, cell_zone_at_location, face_zone_area, print_info, quality_method, enhanced_orthogonal_quality, cell_zone_volume, edge_size_limits, list_cell_quality, boundary_cell_quality, spy_level, update_bounding_box, number_meshed, face_quality_limits, cell_distribution, meshing_time, cell_quality_limits, mesh_size, face_distribution, face_zone_at_location, memory_usage
 

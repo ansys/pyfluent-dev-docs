@@ -5,19 +5,19 @@
 number_of_iterations
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.number_of_iterations
+.. currentmodule:: ansys.fluent.core.solver.settings_231.number_of_iterations
 
 .. autoclass:: number_of_iterations
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==========================================   ====================================
+================================   =====================================================================
 
-Parent                                                                    Summary
+Parent                                                                                           Summary
 
-==========================================   ====================================
-:ref:`general_settings <general_settings>`       Enter the general settings menu.
+================================   =====================================================================
+:ref:`smooth_mesh <smooth_mesh>`       Smooth the mesh using quality-based, Laplace or skewness methods.
 
-==========================================   ====================================
+================================   =====================================================================
 

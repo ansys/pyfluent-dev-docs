@@ -5,19 +5,19 @@
 max_vapor_pressure_ratio
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.max_vapor_pressure_ratio
+.. currentmodule:: ansys.fluent.core.solver.settings_231.max_vapor_pressure_ratio
 
 .. autoclass:: max_vapor_pressure_ratio
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==============================   =======================
+==============================   =====================================
 
-Parent                                           Summary
+Parent                                                         Summary
 
-==============================   =======================
-:ref:`cavitation <cavitation>`       'cavitation' child.
+==============================   =====================================
+:ref:`cavitation <cavitation>`       Cavitation numerics options menu.
 
-==============================   =======================
+==============================   =====================================
 

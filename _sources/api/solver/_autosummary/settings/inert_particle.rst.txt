@@ -5,14 +5,14 @@
 inert_particle
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.inert_particle
+.. currentmodule:: ansys.fluent.core.solver.settings_231.inert_particle
 
 .. autoclass:: inert_particle
     :show-inheritance:
     :undoc-members:
 .. rubric:: Named object type
 
-:ref:`fluid_child <fluid_child>`
+:ref:`inert_particle_child <inert_particle_child>`
 
 
 .. rubric:: Included in:

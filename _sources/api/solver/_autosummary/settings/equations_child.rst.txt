@@ -5,19 +5,21 @@
 equations_child
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.equations_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.equations_child
 
 .. autoclass:: equations_child
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-============================   ======================
+==================================================   =================================
 
-Parent                                        Summary
+Parent                                                                         Summary
 
-============================   ======================
-:ref:`equations <equations>`       'equations' child.
+==================================================   =================================
+:ref:`equations <equations>`                                        'equations' child.
 
-============================   ======================
+:ref:`extrapolate_eqn_vars <extrapolate_eqn_vars>`       Enter the extrapolation menu.
+
+==================================================   =================================
 

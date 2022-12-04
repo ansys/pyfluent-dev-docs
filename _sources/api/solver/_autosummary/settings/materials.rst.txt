@@ -5,7 +5,7 @@
 materials
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.materials
+.. currentmodule:: ansys.fluent.core.solver.settings_231.materials
 
 .. autoclass:: materials
     :show-inheritance:
@@ -17,6 +17,8 @@ materials
 Child                                                                       Summary
 
 ================================================   ================================
+:ref:`database <database>`                                        'database' child.
+
 :ref:`fluid <fluid>`                                                 'fluid' child.
 
 :ref:`solid <solid>`                                                 'solid' child.
@@ -35,18 +37,16 @@ Child                                                                       Summ
 
 .. rubric:: Commands
 
-============================================================================   ================================================
+==========================================   =====================================================
 
-Command                                                                                                                 Summary
+Command                                                                                    Summary
 
-============================================================================   ================================================
-:ref:`list_materials <list_materials>`                                                                'list_materials' command.
+==========================================   =====================================================
+:ref:`list_materials <list_materials_1>`                        List all locally-stored materials.
 
-:ref:`copy_database_material_by_name <copy_database_material_by_name>`                'copy_database_material_by_name' command.
+:ref:`list_properties <list_properties_1>`       List the properties of a locally-stored material.
 
-:ref:`copy_database_material_by_formula <copy_database_material_by_formula>`       'copy_database_material_by_formula' command.
-
-============================================================================   ================================================
+==========================================   =====================================================
 
 .. rubric:: Included in:
 

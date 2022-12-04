@@ -5,22 +5,11 @@
 wall
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.wall
+.. currentmodule:: ansys.fluent.core.solver.settings_231.wall
 
 .. autoclass:: wall
     :show-inheritance:
     :undoc-members:
-.. rubric:: Commands
-
-================================   ==========================
-
-Command                                               Summary
-
-================================   ==========================
-:ref:`change_type <change_type>`       'change_type' command.
-
-================================   ==========================
-
 .. rubric:: Named object type
 
 :ref:`wall_child <wall_child>`

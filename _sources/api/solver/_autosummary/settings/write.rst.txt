@@ -5,23 +5,23 @@
 write
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.write
+.. currentmodule:: ansys.fluent.core.solver.settings_231.write
 
 .. autoclass:: write
     :show-inheritance:
     :undoc-members:
 .. rubric:: Arguments
 
-============================   ======================
+==============================   ======================
 
-Argument                                      Summary
+Argument                                        Summary
 
-============================   ======================
-:ref:`file_type <file_type>`       'file_type' child.
+==============================   ======================
+:ref:`file_type <file_type>`         'file_type' child.
 
-:ref:`file_name <file_name>`       'file_name' child.
+:ref:`file_name <file_name_1>`       'file_name' child.
 
-============================   ======================
+==============================   ======================
 
 .. rubric:: Included in:
 

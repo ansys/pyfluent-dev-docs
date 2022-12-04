@@ -5,19 +5,19 @@
 force_treatment_of_unsteady_rc
 ==============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.force_treatment_of_unsteady_rc
+.. currentmodule:: ansys.fluent.core.solver.settings_231.force_treatment_of_unsteady_rc
 
 .. autoclass:: force_treatment_of_unsteady_rc
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==================================   =========================
+==================================   ============================
 
-Parent                                                 Summary
+Parent                                                    Summary
 
-==================================   =========================
-:ref:`vof_numerics <vof_numerics>`       'vof_numerics' child.
+==================================   ============================
+:ref:`vof_numerics <vof_numerics>`       Set VOF numeric options.
 
-==================================   =========================
+==================================   ============================
 

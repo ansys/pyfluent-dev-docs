@@ -5,7 +5,7 @@
 pcb_model
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.pcb_model
+.. currentmodule:: ansys.fluent.core.solver.settings_231.pcb_model
 
 .. autoclass:: pcb_model
     :show-inheritance:
@@ -17,7 +17,7 @@ pcb_model
 Parent                                                         Summary
 
 ==================================   =================================
-:ref:`solid_child <solid_child>`         'child_object_type' of solid.
+:ref:`solid_child <solid_child_1>`       'child_object_type' of solid.
 
 :ref:`phase_child <phase_child_1>`       'child_object_type' of phase.
 

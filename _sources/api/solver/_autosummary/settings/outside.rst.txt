@@ -5,7 +5,7 @@
 outside
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.outside
+.. currentmodule:: ansys.fluent.core.solver.settings_231.outside
 
 .. autoclass:: outside
     :show-inheritance:
@@ -17,7 +17,7 @@ outside
 Parent                                    Summary
 
 ==========================   ====================
-:ref:`options <options_7>`       'options' child.
+:ref:`options <options_8>`       'options' child.
 
 ==========================   ====================
 

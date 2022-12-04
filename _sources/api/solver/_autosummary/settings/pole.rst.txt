@@ -5,7 +5,7 @@
 pole
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.pole
+.. currentmodule:: ansys.fluent.core.solver.settings_231.pole
 
 .. autoclass:: pole
     :show-inheritance:

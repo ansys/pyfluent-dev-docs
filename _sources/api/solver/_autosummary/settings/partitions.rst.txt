@@ -5,7 +5,7 @@
 partitions
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.partitions
+.. currentmodule:: ansys.fluent.core.solver.settings_231.partitions
 
 .. autoclass:: partitions
     :show-inheritance:
@@ -17,7 +17,7 @@ partitions
 Parent                                    Summary
 
 ==========================   ====================
-:ref:`options <options_4>`       'options' child.
+:ref:`options <options_5>`       'options' child.
 
 ==========================   ====================
 

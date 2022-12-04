@@ -5,19 +5,23 @@
 inside
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.inside
+.. currentmodule:: ansys.fluent.core.solver.settings_231.inside
 
 .. autoclass:: inside
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==========================   ====================
+==============================   =======================
 
-Parent                                    Summary
+Parent                                           Summary
 
-==========================   ====================
-:ref:`options <options_7>`       'options' child.
+==============================   =======================
+:ref:`hexahedron <hexahedron>`       'hexahedron' child.
 
-==========================   ====================
+:ref:`sphere <sphere>`                   'sphere' child.
+
+:ref:`cylinder <cylinder>`             'cylinder' child.
+
+==============================   =======================
 

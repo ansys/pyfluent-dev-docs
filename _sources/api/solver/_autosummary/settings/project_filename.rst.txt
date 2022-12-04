@@ -5,7 +5,7 @@
 project_filename
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.project_filename
+.. currentmodule:: ansys.fluent.core.solver.settings_231.project_filename
 
 .. autoclass:: project_filename
     :show-inheritance:
@@ -25,7 +25,7 @@ Parent                                                   Summary
 
 :ref:`save_as_copy <save_as_copy>`              Save As Project.
 
-:ref:`initialize <initialize>`           Start Parametric Study.
+:ref:`initialize <initialize_1>`         Start Parametric Study.
 
 ==================================   ===========================
 

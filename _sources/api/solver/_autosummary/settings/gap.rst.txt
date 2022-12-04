@@ -5,7 +5,7 @@
 gap
 ===
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.gap
+.. currentmodule:: ansys.fluent.core.solver.settings_231.gap
 
 .. autoclass:: gap
     :show-inheritance:
@@ -17,7 +17,7 @@ gap
 Parent                                    Summary
 
 ==========================   ====================
-:ref:`options <options_4>`       'options' child.
+:ref:`options <options_5>`       'options' child.
 
 ==========================   ====================
 

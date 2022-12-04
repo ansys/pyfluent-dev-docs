@@ -5,7 +5,7 @@
 v2
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.v2
+.. currentmodule:: ansys.fluent.core.solver.settings_231.v2
 
 .. autoclass:: v2
     :show-inheritance:
@@ -17,9 +17,9 @@ v2
 Child                                                  Summary
 
 ==================================   =========================
-:ref:`option <option>`                         'option' child.
+:ref:`option <option_2>`                       'option' child.
 
-:ref:`constant <constant>`                   'constant' child.
+:ref:`value <value>`                            'value' child.
 
 :ref:`profile_name <profile_name>`       'profile_name' child.
 

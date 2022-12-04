@@ -5,7 +5,7 @@
 nk
 ==
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.nk
+.. currentmodule:: ansys.fluent.core.solver.settings_231.nk
 
 .. autoclass:: nk
     :show-inheritance:

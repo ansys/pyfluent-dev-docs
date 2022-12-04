@@ -5,55 +5,55 @@
 limits
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.limits
+.. currentmodule:: ansys.fluent.core.solver.settings_231.limits
 
 .. autoclass:: limits
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-================================================   ============================================================
+================================================================   ============================================================
 
-Child                                                                                                   Summary
+Child                                                                                                                   Summary
 
-================================================   ============================================================
-:ref:`pressure_max_lim <pressure_max_lim>`                             Set maximum allowable absolute pressure.
+================================================================   ============================================================
+:ref:`min_pressure <min_pressure>`                                           Minimum vapor pressure limit for cavitation model.
 
-:ref:`pressure_min_lim <pressure_min_lim>`                   Minimum vapor pressure limit for cavitation model.
+:ref:`max_pressure <max_pressure>`                                                     Set maximum allowable absolute pressure.
 
-:ref:`temperature_max_lim <temperature_max_lim>`                             Set maximum allowable temperature.
+:ref:`min_temperature <min_temperature>`                                                     Set minimum allowable temperature.
 
-:ref:`temperature_min_lim <temperature_min_lim>`                             Set minimum allowable temperature.
+:ref:`max_temperature <max_temperature>`                                                     Set maximum allowable temperature.
 
-:ref:`k_min_lim <k_min_lim>`                                                           Set minimum allowable k.
+:ref:`min_tke <min_tke>`                                                                               Set minimum allowable k.
 
-:ref:`k1_min_lim <k1_min_lim>`                                                        Set minimum allowable k1.
+:ref:`min_lam_tke <min_lam_tke>`                                                                      Set minimum allowable k1.
 
-:ref:`des_k_min_lim <des_k_min_lim>`                                                   Set minimum allowable k.
+:ref:`min_des_tke <min_des_tke>`                                                                       Set minimum allowable k.
 
-:ref:`epsilon_min_lim <epsilon_min_lim>`                                         Set minimum allowable epsilon.
+:ref:`min_epsilon <min_epsilon>`                                                                 Set minimum allowable epsilon.
 
-:ref:`des_epsilon_min_lim <des_epsilon_min_lim>`                                 Set minimum allowable epsilon.
+:ref:`min_des_epsilon <min_des_epsilon>`                                                         Set minimum allowable epsilon.
 
-:ref:`v2f_k_min_lim <v2f_k_min_lim>`                                                   Set minimum allowable k.
+:ref:`min_v2f_tke <min_v2f_tke>`                                                                       Set minimum allowable k.
 
-:ref:`v2f_epsilon_min_lim <v2f_epsilon_min_lim>`                                 Set minimum allowable epsilon.
+:ref:`min_v2f_epsilon <min_v2f_epsilon>`                                                         Set minimum allowable epsilon.
 
-:ref:`v2f_v2_min_lim <v2f_v2_min_lim>`                                                Set minimum allowable v2.
+:ref:`min_vel_var_scale <min_vel_var_scale>`                                                          Set minimum allowable v2.
 
-:ref:`v2f_f_min_lim <v2f_f_min_lim>`                                                   Set minimum allowable f.
+:ref:`min_elliptic_relax_func <min_elliptic_relax_func>`                                               Set minimum allowable f.
 
-:ref:`omega_min_lim <omega_min_lim>`                                               Set minimum allowable omega.
+:ref:`min_omega <min_omega>`                                                                       Set minimum allowable omega.
 
-:ref:`des_omega_min_lim <des_omega_min_lim>`                                       Set minimum allowable omega.
+:ref:`min_des_omega <min_des_omega>`                                                               Set minimum allowable omega.
 
-:ref:`turb_visc_max_lim <turb_visc_max_lim>`           Set maximum allowable turbulent/laminar viscosity ratio.
+:ref:`max_turb_visc_ratio <max_turb_visc_ratio>`                       Set maximum allowable turbulent/laminar viscosity ratio.
 
-:ref:`pos_lim <pos_lim>`                                                             Set positivity Rate Limit.
+:ref:`positivity_rate <positivity_rate>`                                                             Set positivity Rate Limit.
 
-:ref:`matrix_solv_min_lim <matrix_solv_min_lim>`                    Set Minimum Vol. Frac. for Matrix Solution.
+:ref:`min_vol_frac_for_matrix_sol <min_vol_frac_for_matrix_sol>`                    Set Minimum Vol. Frac. for Matrix Solution.
 
-================================================   ============================================================
+================================================================   ============================================================
 
 .. rubric:: Included in:
 

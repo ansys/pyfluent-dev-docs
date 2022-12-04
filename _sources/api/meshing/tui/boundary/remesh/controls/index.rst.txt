@@ -3,13 +3,13 @@
 meshing.tui.boundary.remesh.controls
 ====================================
 
-.. currentmodule:: ansys.fluent.core.meshing.tui_222
+.. currentmodule:: ansys.fluent.core.meshing.tui_231
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.meshing.tui_222::main_menu.boundary.remesh.controls
-   :members: remesh_method, quadratic_recon, spacing, delete_overlapped, tolerance, project_method, direction, proximity_local_search
+.. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.boundary.remesh.controls
+   :members: delete_overlapped, direction, remesh_method, project_method, proximity_local_search, spacing, tolerance, quadratic_recon
 
 .. toctree::
    :hidden:

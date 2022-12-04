@@ -3,11 +3,11 @@
 solver.tui.file.import\_.cgns
 =============================
 
-.. currentmodule:: ansys.fluent.core.solver.tui_222
+.. currentmodule:: ansys.fluent.core.solver.tui_231
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.solver.tui_222::main_menu.file.import_.cgns
-   :members: mesh, data, mesh_data
+.. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.file.import_.cgns
+   :members: mesh_data, mesh, data
 

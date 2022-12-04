@@ -5,19 +5,19 @@
 execute_smoothing
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.execute_smoothing
+.. currentmodule:: ansys.fluent.core.solver.settings_231.execute_smoothing
 
 .. autoclass:: execute_smoothing
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==============================================   ===============================
+==============================================   ============================================
 
-Parent                                                                   Summary
+Parent                                                                                Summary
 
-==============================================   ===============================
-:ref:`vof_smooth_options <vof_smooth_options>`       'vof_smooth_options' child.
+==============================================   ============================================
+:ref:`vof_smooth_options <vof_smooth_options>`       Enter the vof patch/smooth options menu.
 
-==============================================   ===============================
+==============================================   ============================================
 

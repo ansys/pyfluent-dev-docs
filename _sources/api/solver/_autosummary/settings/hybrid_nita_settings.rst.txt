@@ -5,7 +5,7 @@
 hybrid_nita_settings
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.hybrid_nita_settings
+.. currentmodule:: ansys.fluent.core.solver.settings_231.hybrid_nita_settings
 
 .. autoclass:: hybrid_nita_settings
     :show-inheritance:
@@ -25,12 +25,12 @@ Child                                                                         Su
 
 .. rubric:: Included in:
 
-==================================================   =================================
+==================================================   ========================================
 
-Parent                                                                         Summary
+Parent                                                                                Summary
 
-==================================================   =================================
-:ref:`nita_expert_controls <nita_expert_controls>`       'nita_expert_controls' child.
+==================================================   ========================================
+:ref:`nita_expert_controls <nita_expert_controls>`       Enter the nita expert controls menu.
 
-==================================================   =================================
+==================================================   ========================================
 

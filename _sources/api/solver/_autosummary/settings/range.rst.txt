@@ -5,7 +5,7 @@
 range
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.range
+.. currentmodule:: ansys.fluent.core.solver.settings_231.range
 
 .. autoclass:: range
     :show-inheritance:
@@ -17,7 +17,7 @@ range
 Child                                                       Summary
 
 ======================================   ==========================
-:ref:`option <option>`                              'option' child.
+:ref:`option <option_2>`                            'option' child.
 
 :ref:`auto_range <auto_range>`                  'auto_range' child.
 
@@ -27,16 +27,16 @@ Child                                                       Summary
 
 .. rubric:: Included in:
 
-====================================================   ===========================================
+==================================================   ==========================================
 
-Parent                                                                                     Summary
+Parent                                                                                  Summary
 
-====================================================   ===========================================
-:ref:`pathlines_child <pathlines_child>`                         'child_object_type' of pathlines.
+==================================================   ==========================================
+:ref:`pathline_child <pathline_child>`                         'child_object_type' of pathline.
 
-:ref:`particle_tracks_child <particle_tracks_child>`       'child_object_type' of particle_tracks.
+:ref:`particle_track_child <particle_track_child>`       'child_object_type' of particle_track.
 
-:ref:`variable <variable>`                                                       'variable' child.
+:ref:`variable <variable_1>`                                                  'variable' child.
 
-====================================================   ===========================================
+==================================================   ==========================================
 

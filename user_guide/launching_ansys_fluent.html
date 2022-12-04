@@ -444,7 +444,7 @@ scheduler using the <cite>sbatch</cite> command:</p>
 <span class="c1">#</span>
 <span class="c1"># Activate your favorite Python environment</span>
 <span class="c1">#</span>
-<span class="nb">export</span> <span class="nv">AWP_ROOT222</span><span class="o">=</span>/apps/ansys_inc/v222
+<span class="nb">export</span> <span class="nv">AWP_ROOT231</span><span class="o">=</span>/apps/ansys_inc/v231
 . ./venv/bin/activate
 <span class="c1">#</span>
 <span class="c1"># Run a PyFluent script</span>
@@ -456,7 +456,7 @@ python run.py
 <ul class="simple">
 <li><p>Eight machines with a total of 32 cores are requested. Fluent is started with
 the appropriate command line arguments passed to <code class="docutils literal notranslate"><span class="pre">-t</span></code> and <code class="docutils literal notranslate"><span class="pre">-cnf</span></code>.</p></li>
-<li><p>The variable AWP_ROOT222 is configured so that PyFluent knows where to find
+<li><p>The variable AWP_ROOT231 is configured so that PyFluent knows where to find
 the Fluent installation.</p></li>
 <li><p>The code assumes that a Python virtual environment was pre-configured with
 PyFluent installed before the job script is submitted to Slurm. You could

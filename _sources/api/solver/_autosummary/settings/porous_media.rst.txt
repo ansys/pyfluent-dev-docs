@@ -5,21 +5,23 @@
 porous_media
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.porous_media
+.. currentmodule:: ansys.fluent.core.solver.settings_231.porous_media
 
 .. autoclass:: porous_media
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-====================================================   ================================================
+========================================================================   ================================================
 
-Child                                                                                           Summary
+Child                                                                                                               Summary
 
-====================================================   ================================================
-:ref:`relative_permeability <relative_permeability>`       Multiphase relative permeability fix option.
+========================================================================   ================================================
+:ref:`relative_permeability <relative_permeability>`                           Multiphase relative permeability fix option.
 
-====================================================   ================================================
+:ref:`capillary_pressure_as_diffusion <capillary_pressure_as_diffusion>`             Model capillary pressure as diffusion.
+
+========================================================================   ================================================
 
 .. rubric:: Included in:
 

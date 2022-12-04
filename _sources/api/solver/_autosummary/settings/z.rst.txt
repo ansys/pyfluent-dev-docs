@@ -5,7 +5,7 @@
 z
 =
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.z
+.. currentmodule:: ansys.fluent.core.solver.settings_231.z
 
 .. autoclass:: z
     :show-inheritance:
@@ -17,6 +17,14 @@ z
 Parent                                                                               Summary
 
 ================================================   =========================================
+:ref:`location <location>`                                                 'location' child.
+
+:ref:`r <r>`                                                                      'r' child.
+
+:ref:`u <u>`                                                                      'u' child.
+
+:ref:`angular_velocity <angular_velocity>`                         'angular_velocity' child.
+
 :ref:`plane_surface_child <plane_surface_child>`       'child_object_type' of plane_surface.
 
 ================================================   =========================================

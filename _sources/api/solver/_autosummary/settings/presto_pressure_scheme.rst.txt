@@ -5,19 +5,19 @@
 presto_pressure_scheme
 ======================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.presto_pressure_scheme
+.. currentmodule:: ansys.fluent.core.solver.settings_231.presto_pressure_scheme
 
 .. autoclass:: presto_pressure_scheme
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==========================   =====================
+====================================   ========================
 
-Parent                                     Summary
+Parent                                                  Summary
 
-==========================   =====================
-:ref:`numerics <numerics>`       'numerics' child.
+====================================   ========================
+:ref:`numerics_pbns <numerics_pbns>`       Set numeric options.
 
-==========================   =====================
+====================================   ========================
 

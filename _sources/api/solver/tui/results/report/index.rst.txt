@@ -3,25 +3,24 @@
 solver.tui.results.report
 =========================
 
-.. currentmodule:: ansys.fluent.core.solver.tui_222
+.. currentmodule:: ansys.fluent.core.solver.tui_231
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.solver.tui_222::main_menu.results.report
-   :members: aero_optical_distortions, dpm_summary, dpm_extended_summary, dpm_zone_summaries_per_injection, dpm_sample, dpm_sample_output_udf, dpm_sample_sort_file, particle_summary, path_line_summary, print_histogram, write_histogram, projected_surface_area, species_mass_flow, element_mass_flow, summary, uds_flow, mphase_summary
+.. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.results.report
+   :members: aero_optical_distortions, summary, dpm_sample, surface_integrals, dpm_extended_summary, print_histogram, species_mass_flow, dpm_zone_summaries_per_injection, write_histogram, element_mass_flow, dpm_sample_output_udf, dpm_sample_sort_file, path_line_summary, mphase_summary, projected_surface_area, dpm_summary, volume_integrals, uds_flow, particle_summary
 
 .. toctree::
    :hidden:
 
-   dpm_histogram/index
-   fluxes/index
-   forces/index
-   reference_values/index
-   surface_integrals/index
-   volume_integrals/index
-   modified_setting/index
-   population_balance/index
-   heat_exchanger/index
    system/index
+   forces/index
+   dpm_histogram/index
+   heat_exchanger/index
+   population_balance/index
+   fluxes/index
+   modified_setting/index
    simulation_reports/index
+   reference_values/index
+   icing/index

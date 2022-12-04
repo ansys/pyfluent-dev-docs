@@ -5,32 +5,32 @@
 additional_stabilization_controls
 =================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.additional_stabilization_controls
+.. currentmodule:: ansys.fluent.core.solver.settings_231.additional_stabilization_controls
 
 .. autoclass:: additional_stabilization_controls
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-======================================================================   ===========================================================
+==============================================================   =========================================================================================
 
-Child                                                                                                                        Summary
+Child                                                                                                                                              Summary
 
-======================================================================   ===========================================================
-:ref:`blended_compressive_scheme <blended_compressive_scheme>`                    Blended Compressive discretization scheme for VOF.
+==============================================================   =========================================================================================
+:ref:`blended_compressive_scheme <blended_compressive_scheme>`                                          Blended Compressive discretization scheme for VOF.
 
-:ref:`pseudo_transient_stabilization <pseudo_transient_stabilization>`       Multiphase enhanced compressible flow numerics options.
+:ref:`pseudo_time_stabilization <pseudo_time_stabilization>`         Pseudo-Time Momentum stabilization and False Time Step Linearization methods for VOF.
 
-======================================================================   ===========================================================
+==============================================================   =========================================================================================
 
 .. rubric:: Included in:
 
-========================================================   ===================================
+========================================================   ====================================
 
-Parent                                                                                 Summary
+Parent                                                                                  Summary
 
-========================================================   ===================================
-:ref:`solution_stabilization <solution_stabilization_1>`       'solution_stabilization' child.
+========================================================   ====================================
+:ref:`solution_stabilization <solution_stabilization_1>`       VOF solution stabilization menu.
 
-========================================================   ===================================
+========================================================   ====================================
 

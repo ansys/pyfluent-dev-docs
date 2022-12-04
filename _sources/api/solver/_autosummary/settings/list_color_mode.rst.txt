@@ -5,19 +5,19 @@
 list_color_mode
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.list_color_mode
+.. currentmodule:: ansys.fluent.core.solver.settings_231.list_color_mode
 
 .. autoclass:: list_color_mode
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-========================================   ============================
+========================   =================================================
 
-Parent                                                          Summary
+Parent                                                               Summary
 
-========================================   ============================
-:ref:`picture_options <picture_options>`       'picture_options' child.
+========================   =================================================
+:ref:`picture <picture>`       Enter the hardcopy/save-picture options menu.
 
-========================================   ============================
+========================   =================================================
 

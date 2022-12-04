@@ -5,40 +5,40 @@
 conductivity_0
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.conductivity_0
+.. currentmodule:: ansys.fluent.core.solver.settings_231.conductivity_0
 
 .. autoclass:: conductivity_0
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-======================================================   ===================================
+====================================================   ====================================================
 
-Child                                                                                Summary
+Child                                                                                               Summary
 
-======================================================   ===================================
-:ref:`option <option>`                                                       'option' child.
+====================================================   ====================================================
+:ref:`option <option_9>`                                   Select method for calculating material property.
 
-:ref:`constant <constant>`                                                 'constant' child.
+:ref:`value <value>`                                                                         'value' child.
 
-:ref:`coefficients <coefficients>`                                     'coefficients' child.
+:ref:`piecewise_linear <piecewise_linear>`                                        'piecewise_linear' child.
 
-:ref:`number_of_coefficients <number_of_coefficients>`       'number_of_coefficients' child.
+:ref:`piecewise_polynomial <piecewise_polynomial>`                            'piecewise_polynomial' child.
 
-:ref:`piecewise_linear <piecewise_linear>`                         'piecewise_linear' child.
+:ref:`polynomial <polynomial>`                                                          'polynomial' child.
 
-:ref:`piecewise_polynomial <piecewise_polynomial>`             'piecewise_polynomial' child.
+:ref:`user_defined_function <user_defined_function>`                         'user_defined_function' child.
 
-======================================================   ===================================
+====================================================   ====================================================
 
 .. rubric:: Included in:
 
-================================   ========================
+==================================   ========================
 
-Parent                                              Summary
+Parent                                                Summary
 
-================================   ========================
-:ref:`orthotropic <orthotropic>`       'orthotropic' child.
+==================================   ========================
+:ref:`orthotropic <orthotropic_1>`       'orthotropic' child.
 
-================================   ========================
+==================================   ========================
 

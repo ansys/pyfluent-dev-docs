@@ -219,7 +219,7 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_222.old_props.old_props">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_231.old_props.old_props">
    <code class="docutils literal notranslate">
     <span class="pre">
      old_props
@@ -249,8 +249,8 @@
   <section id="old-props">
 <span id="id1"></span><h1>old_props<a class="headerlink" href="#old-props" title="Permalink to this heading">#</a></h1>
 <dl class="py class">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_222.old_props.old_props">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_222.old_props.</span></span><span class="sig-name descname"><span class="pre">old_props</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_222.old_props.old_props" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_231.old_props.old_props">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_231.old_props.</span></span><span class="sig-name descname"><span class="pre">old_props</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_231.old_props.old_props" title="Permalink to this definition">#</a></dt>
 <dd><p>Bases: <a class="reference internal" href="../ansys.fluent.core.solver.flobject.StringList.html#ansys.fluent.core.solver.flobject.StringList" title="ansys.fluent.core.solver.flobject.StringList"><code class="xref py py-class docutils literal notranslate"><span class="pre">StringList</span></code></a></p>
 <p>‘old_props’ child.</p>
 </dd></dl>
@@ -275,14 +275,14 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="force_child.html#force-child"><span class="std std-ref">force_child</span></a></p></td>
 <td><p>‘child_object_type’ of force.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="lift_child.html#lift-child"><span class="std std-ref">lift_child</span></a></p></td>
-<td><p>‘child_object_type’ of lift.</p></td>
-</tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="moment_child.html#moment-child"><span class="std std-ref">moment_child</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="moment_child.html#moment-child"><span class="std std-ref">moment_child</span></a></p></td>
 <td><p>‘child_object_type’ of moment.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="flux_child.html#flux-child"><span class="std std-ref">flux_child</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="flux_child.html#flux-child"><span class="std std-ref">flux_child</span></a></p></td>
 <td><p>‘child_object_type’ of flux.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="injection_child.html#injection-child"><span class="std std-ref">injection_child</span></a></p></td>
+<td><p>‘child_object_type’ of injection.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="user_defined_child.html#user-defined-child"><span class="std std-ref">user_defined_child</span></a></p></td>
 <td><p>‘child_object_type’ of user_defined.</p></td>
@@ -290,8 +290,23 @@
 <tr class="row-even"><td><p><a class="reference internal" href="aeromechanics_child.html#aeromechanics-child"><span class="std std-ref">aeromechanics_child</span></a></p></td>
 <td><p>‘child_object_type’ of aeromechanics.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="expression_child.html#expression-child"><span class="std std-ref">expression_child</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="icing_child.html#icing-child"><span class="std std-ref">icing_child</span></a></p></td>
+<td><p>‘child_object_type’ of icing.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="expression_child.html#expression-child"><span class="std std-ref">expression_child</span></a></p></td>
 <td><p>‘child_object_type’ of expression.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="single_val_expression_child.html#single-val-expression-child"><span class="std std-ref">single_val_expression_child</span></a></p></td>
+<td><p>‘child_object_type’ of single_val_expression.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="report_files_child.html#report-files-child"><span class="std std-ref">report_files_child</span></a></p></td>
+<td><p>‘child_object_type’ of report_files.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="report_plots_child.html#report-plots-child"><span class="std std-ref">report_plots_child</span></a></p></td>
+<td><p>‘child_object_type’ of report_plots.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="convergence_reports_child.html#convergence-reports-child"><span class="std std-ref">convergence_reports_child</span></a></p></td>
+<td><p>‘child_object_type’ of convergence_reports.</p></td>
 </tr>
 </tbody>
 </table>

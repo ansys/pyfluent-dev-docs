@@ -5,22 +5,11 @@
 axis
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.axis
+.. currentmodule:: ansys.fluent.core.solver.settings_231.axis
 
 .. autoclass:: axis
     :show-inheritance:
     :undoc-members:
-.. rubric:: Commands
-
-================================   ==========================
-
-Command                                               Summary
-
-================================   ==========================
-:ref:`change_type <change_type>`       'change_type' command.
-
-================================   ==========================
-
 .. rubric:: Named object type
 
 :ref:`axis_child <axis_child>`

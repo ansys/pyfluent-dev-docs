@@ -5,21 +5,21 @@
 iterate
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.iterate
+.. currentmodule:: ansys.fluent.core.solver.settings_231.iterate
 
 .. autoclass:: iterate
     :show-inheritance:
     :undoc-members:
 .. rubric:: Arguments
 
-====================================================   ========================================
+================================   =========================================
 
-Argument                                                                                Summary
+Argument                                                             Summary
 
-====================================================   ========================================
-:ref:`number_of_iterations <number_of_iterations_1>`       Set inceremtal number of Time steps.
+================================   =========================================
+:ref:`iter_count <iter_count_3>`       Set incremental number of time steps.
 
-====================================================   ========================================
+================================   =========================================
 
 .. rubric:: Included in:
 

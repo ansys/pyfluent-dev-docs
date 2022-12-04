@@ -5,7 +5,7 @@
 turbulent_setting
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.turbulent_setting
+.. currentmodule:: ansys.fluent.core.solver.settings_231.turbulent_setting
 
 .. autoclass:: turbulent_setting
     :show-inheritance:
@@ -27,12 +27,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-========================================================   ====================================
+================================================   ========================================================
 
-Parent                                                                                  Summary
+Parent                                                                                              Summary
 
-========================================================   ====================================
-:ref:`set_hybrid_init_options <set_hybrid_init_options>`       'set_hybrid_init_options' child.
+================================================   ========================================================
+:ref:`hybrid_init_options <hybrid_init_options>`       Enter the settings for hybrid initialization method.
 
-========================================================   ====================================
+================================================   ========================================================
 

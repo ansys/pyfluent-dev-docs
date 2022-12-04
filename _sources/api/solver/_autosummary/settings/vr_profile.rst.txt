@@ -5,7 +5,7 @@
 vr_profile
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.vr_profile
+.. currentmodule:: ansys.fluent.core.solver.settings_231.vr_profile
 
 .. autoclass:: vr_profile
     :show-inheritance:
@@ -17,9 +17,9 @@ vr_profile
 Child                                                  Summary
 
 ==================================   =========================
-:ref:`option <option>`                         'option' child.
+:ref:`option <option_2>`                       'option' child.
 
-:ref:`constant <constant>`                   'constant' child.
+:ref:`value <value>`                            'value' child.
 
 :ref:`profile_name <profile_name>`       'profile_name' child.
 

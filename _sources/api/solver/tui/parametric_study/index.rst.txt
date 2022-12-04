@@ -3,16 +3,17 @@
 solver.tui.parametric\_study
 ============================
 
-.. currentmodule:: ansys.fluent.core.solver.tui_222
+.. currentmodule:: ansys.fluent.core.solver.tui_231
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.solver.tui_222::main_menu.parametric_study
-   :members: initialize, duplicate_study, set_as_current_study, rename_study, delete_study, list_studies, use_base_data, export_design_table, import_design_table, case_settings_changed
+.. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.parametric_study
+   :members: delete_study, set_as_current_study, initialize, rename_study, case_settings_changed, list_studies, duplicate_study, import_design_table, use_base_data, export_design_table
 
 .. toctree::
    :hidden:
 
+   study/index
    design_points/index
    update/index

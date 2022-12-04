@@ -5,7 +5,7 @@
 force_child
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.force_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.force_child
 
 .. autoclass:: force_child
     :show-inheritance:
@@ -17,11 +17,15 @@ force_child
 Child                                                                                               Summary
 
 ================================================================   ========================================
+:ref:`report_type <report_type>`                                                       'report_type' child.
+
+:ref:`geometry <geometry_3>`                                                              'geometry' child.
+
+:ref:`physics <physics>`                                                                   'physics' child.
+
 :ref:`retain_instantaneous_values <retain_instantaneous_values>`       'retain_instantaneous_values' child.
 
 :ref:`scaled <scaled>`                                                                      'scaled' child.
-
-:ref:`report_type <report_type>`                                                       'report_type' child.
 
 :ref:`average_over <average_over>`                                                    'average_over' child.
 
@@ -47,6 +51,10 @@ Parent                            Summary
 
 ====================   ==================
 :ref:`force <force>`       'force' child.
+
+:ref:`lift <lift>`          'lift' child.
+
+:ref:`drag <drag>`          'drag' child.
 
 ====================   ==================
 

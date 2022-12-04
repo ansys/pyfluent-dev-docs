@@ -5,19 +5,19 @@
 enabled
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.enabled_1
+.. currentmodule:: ansys.fluent.core.solver.settings_231.enabled_1
 
 .. autoclass:: enabled
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-================================================   ================================
+================================================   ================================================================================================
 
-Parent                                                                      Summary
+Parent                                                                                                                                      Summary
 
-================================================   ================================
-:ref:`localized_turb_init <localized_turb_init>`       'localized_turb_init' child.
+================================================   ================================================================================================
+:ref:`localized_turb_init <localized_turb_init>`       Localized initialization of turbulent flow variables for VOF/Mixture multiphase flow models.
 
-================================================   ================================
+================================================   ================================================================================================
 

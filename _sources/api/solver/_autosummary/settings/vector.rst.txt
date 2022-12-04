@@ -5,21 +5,27 @@
 vector
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.vector
+.. currentmodule:: ansys.fluent.core.solver.settings_231.vector
 
 .. autoclass:: vector
     :show-inheritance:
     :undoc-members:
 .. rubric:: Commands
 
-========================   ======================
+========================================   =============================================
 
-Command                                   Summary
+Command                                                                          Summary
 
-========================   ======================
-:ref:`display <display>`       'display' command.
+========================================   =============================================
+:ref:`display <display_1>`                                      Display graphics object.
 
-========================   ======================
+:ref:`copy <copy_3>`                                               Copy graphics object.
+
+:ref:`add_to_graphics <add_to_graphics>`       Add graphics object to existing graphics.
+
+:ref:`clear_history <clear_history>`                               Clear object history.
+
+========================================   =============================================
 
 .. rubric:: Named object type
 

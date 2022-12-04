@@ -5,19 +5,19 @@
 iterations
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.iterations
+.. currentmodule:: ansys.fluent.core.solver.settings_231.iterations
 
 .. autoclass:: iterations
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==============================   =======================
+==============================   ==================================================================================================================
 
-Parent                                           Summary
+Parent                                                                                                                                      Summary
 
-==============================   =======================
-:ref:`parameters <parameters>`       'parameters' child.
+==============================   ==================================================================================================================
+:ref:`frequency <frequency_2>`       Define the frequency at which cells in the register are automatically marked for poor mesh numerics treatment.
 
-==============================   =======================
+==============================   ==================================================================================================================
 

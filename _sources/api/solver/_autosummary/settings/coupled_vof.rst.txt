@@ -5,7 +5,7 @@
 coupled_vof
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.coupled_vof
+.. currentmodule:: ansys.fluent.core.solver.settings_231.coupled_vof
 
 .. autoclass:: coupled_vof
     :show-inheritance:
@@ -25,12 +25,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-==================================   =========================
+==================================   ============================================================
 
-Parent                                                 Summary
+Parent                                                                                    Summary
 
-==================================   =========================
-:ref:`p_v_coupling <p_v_coupling>`       'p_v_coupling' child.
+==================================   ============================================================
+:ref:`p_v_coupling <p_v_coupling>`       Pressure velocity coupling controls for multiphase flow.
 
-==================================   =========================
+==================================   ============================================================
 

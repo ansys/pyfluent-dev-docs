@@ -5,19 +5,19 @@
 enable
 ======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.enable_1
+.. currentmodule:: ansys.fluent.core.solver.settings_231.enable_1
 
 .. autoclass:: enable
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-============================================================   ======================================
+========================   ====================================
 
-Parent                                                                                        Summary
+Parent                                                  Summary
 
-============================================================   ======================================
-:ref:`auto_dt_advanced_controls <auto_dt_advanced_controls>`       'auto_dt_advanced_controls' child.
+========================   ====================================
+:ref:`profile <profile>`       Enter the adaption profile menu.
 
-============================================================   ======================================
+========================   ====================================
 

@@ -5,19 +5,19 @@
 relative_permeability
 =====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.relative_permeability
+.. currentmodule:: ansys.fluent.core.solver.settings_231.relative_permeability
 
 .. autoclass:: relative_permeability
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==================================   =========================
+==================================   ========================================================
 
-Parent                                                 Summary
+Parent                                                                                Summary
 
-==================================   =========================
-:ref:`porous_media <porous_media>`       'porous_media' child.
+==================================   ========================================================
+:ref:`porous_media <porous_media>`       Multiphase miscellaneous porous media numerics menu.
 
-==================================   =========================
+==================================   ========================================================
 

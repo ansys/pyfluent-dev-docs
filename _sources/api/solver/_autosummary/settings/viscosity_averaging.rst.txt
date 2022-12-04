@@ -5,19 +5,19 @@
 viscosity_averaging
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.viscosity_averaging
+.. currentmodule:: ansys.fluent.core.solver.settings_231.viscosity_averaging
 
 .. autoclass:: viscosity_averaging
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==================================   =========================
+==================================   ==================================================
 
-Parent                                                 Summary
+Parent                                                                          Summary
 
-==================================   =========================
-:ref:`viscous_flow <viscous_flow>`       'viscous_flow' child.
+==================================   ==================================================
+:ref:`viscous_flow <viscous_flow>`       Multiphase viscous flow numerics options menu.
 
-==================================   =========================
+==================================   ==================================================
 

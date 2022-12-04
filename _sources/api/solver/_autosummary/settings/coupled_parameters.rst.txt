@@ -5,7 +5,7 @@
 coupled_parameters
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.coupled_parameters
+.. currentmodule:: ansys.fluent.core.solver.settings_231.coupled_parameters
 
 .. autoclass:: coupled_parameters
     :show-inheritance:
@@ -27,12 +27,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-==================================================   =================================
+==================================   =========================
 
-Parent                                                                         Summary
+Parent                                                 Summary
 
-==================================================   =================================
-:ref:`algebric_mg_controls <algebric_mg_controls>`       'algebric_mg_controls' child.
+==================================   =========================
+:ref:`amg_controls <amg_controls>`       'amg_controls' child.
 
-==================================================   =================================
+==================================   =========================
 

@@ -5,36 +5,23 @@
 convergence_acceleration_for_stretched_meshes
 =============================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.convergence_acceleration_for_stretched_meshes
+.. currentmodule:: ansys.fluent.core.solver.settings_231.convergence_acceleration_for_stretched_meshes
 
 .. autoclass:: convergence_acceleration_for_stretched_meshes
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-==============================================================   ===============================================================================
+====================================================================   ==========================================
 
-Child                                                                                                                                    Summary
+Child                                                                                                     Summary
 
-==============================================================   ===============================================================================
-:ref:`convergence_acc_std_meshes <convergence_acc_std_meshes>`       Enable/disable use of convergence acceleration for stretched meshes (CASM).
+====================================================================   ==========================================
+:ref:`convergence_acceleration_type <convergence_acceleration_type>`       'convergence_acceleration_type' child.
 
-:ref:`enhanced_casm_formulation <enhanced_casm_formulation>`                                    Enable/disable use of enhanced CASM formulation.
+:ref:`casm_cutoff_multiplier <casm_cutoff_multiplier>`                           Enter CASM cut-off multiplier :.
 
-:ref:`casm_cutoff_multiplier <casm_cutoff_multiplier>`                                                          Enter CASM cut-off multiplier :.
-
-==============================================================   ===============================================================================
-
-.. rubric:: Commands
-
-==================================   ===========================
-
-Command                                                  Summary
-
-==================================   ===========================
-:ref:`disable_casm <disable_casm>`       'disable_casm' command.
-
-==================================   ===========================
+====================================================================   ==========================================
 
 .. rubric:: Included in:
 

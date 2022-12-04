@@ -5,30 +5,30 @@
 save_picture
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.save_picture
+.. currentmodule:: ansys.fluent.core.solver.settings_231.save_picture
 
 .. autoclass:: save_picture
     :show-inheritance:
     :undoc-members:
 .. rubric:: Arguments
 
-============================   ======================
+==============================   ======================
 
-Argument                                      Summary
+Argument                                        Summary
 
-============================   ======================
-:ref:`file_name <file_name>`       'file_name' child.
+==============================   ======================
+:ref:`file_name <file_name_1>`       'file_name' child.
 
-============================   ======================
+==============================   ======================
 
 .. rubric:: Included in:
 
-====================   ==================
+========================   =================================================
 
-Parent                            Summary
+Parent                                                               Summary
 
-====================   ==================
-:ref:`views <views>`       'views' child.
+========================   =================================================
+:ref:`picture <picture>`       Enter the hardcopy/save-picture options menu.
 
-====================   ==================
+========================   =================================================
 

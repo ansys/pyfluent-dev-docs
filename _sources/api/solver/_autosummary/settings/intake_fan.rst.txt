@@ -5,22 +5,11 @@
 intake_fan
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.intake_fan
+.. currentmodule:: ansys.fluent.core.solver.settings_231.intake_fan
 
 .. autoclass:: intake_fan
     :show-inheritance:
     :undoc-members:
-.. rubric:: Commands
-
-================================   ==========================
-
-Command                                               Summary
-
-================================   ==========================
-:ref:`change_type <change_type>`       'change_type' command.
-
-================================   ==========================
-
 .. rubric:: Named object type
 
 :ref:`intake_fan_child <intake_fan_child>`

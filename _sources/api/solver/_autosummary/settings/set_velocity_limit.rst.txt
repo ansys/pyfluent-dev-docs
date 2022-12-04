@@ -5,19 +5,19 @@
 set_velocity_limit
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.set_velocity_limit
+.. currentmodule:: ansys.fluent.core.solver.settings_231.set_velocity_limit
 
 .. autoclass:: set_velocity_limit
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==================================================   =================================
+==================================================   ==================================================
 
-Parent                                                                         Summary
+Parent                                                                                          Summary
 
-==================================================   =================================
-:ref:`instability_detector <instability_detector>`       'instability_detector' child.
+==================================================   ==================================================
+:ref:`instability_detector <instability_detector>`       Set Hybrid NITA instability detector controls.
 
-==================================================   =================================
+==================================================   ==================================================
 

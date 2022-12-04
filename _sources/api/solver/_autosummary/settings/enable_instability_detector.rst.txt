@@ -5,19 +5,19 @@
 enable_instability_detector
 ===========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.enable_instability_detector
+.. currentmodule:: ansys.fluent.core.solver.settings_231.enable_instability_detector
 
 .. autoclass:: enable_instability_detector
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==================================================   =================================
+==================================================   ==================================================
 
-Parent                                                                         Summary
+Parent                                                                                          Summary
 
-==================================================   =================================
-:ref:`instability_detector <instability_detector>`       'instability_detector' child.
+==================================================   ==================================================
+:ref:`instability_detector <instability_detector>`       Set Hybrid NITA instability detector controls.
 
-==================================================   =================================
+==================================================   ==================================================
 

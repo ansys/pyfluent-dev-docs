@@ -5,42 +5,34 @@
 numerics
 ========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.numerics
+.. currentmodule:: ansys.fluent.core.solver.settings_231.numerics
 
 .. autoclass:: numerics
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-==================================================================================================   =========================================================================
+==================================   ==========================================================================================================
 
-Child                                                                                                                                                                  Summary
+Child                                                                                                                                   Summary
 
-==================================================================================================   =========================================================================
-:ref:`implicit_bodyforce_treatment <implicit_bodyforce_treatment>`                                                               Enable/disable implicit body force treatment.
+==================================   ==========================================================================================================
+:ref:`averaging <averaging>`             Menu containing options to enable/disable node-based averaging of DPM variables and DPM source terms. 
 
-:ref:`velocity_formulation <velocity_formulation>`                                                                                                   Set velocity formulation.
+:ref:`source_terms <source_terms>`                                                                                        'source_terms' child.
 
-:ref:`physical_velocity_formulation <physical_velocity_formulation>`                                     Enable/disable use of physical velocity formulation for porous media.
+:ref:`tracking <tracking>`                                                                                                    'tracking' child.
 
-:ref:`disable_rhie_chow_flux <disable_rhie_chow_flux>`                                                               Use low order velocity interpolation in flux calculation.
-
-:ref:`presto_pressure_scheme <presto_pressure_scheme>`                                                                     Limit high-order terms for PRESTO! pressure scheme.
-
-:ref:`first_to_second_order_blending <first_to_second_order_blending_1>`                                        1st-order to higher-order blending factor [min=0.0 - max=1.0].
-
-:ref:`alternate_diffusion_for_porous_region_solids <alternate_diffusion_for_porous_region_solids>`         Enable/disable use of alternate diffusion for porous region solids.
-
-==================================================================================================   =========================================================================
+==================================   ==========================================================================================================
 
 .. rubric:: Included in:
 
-========================   ===================
+======================================   ==============================================================================================================================================================================================================
 
-Parent                                 Summary
+Parent                                                                                                                                                                                                                                          Summary
 
-========================   ===================
-:ref:`expert <expert_2>`       'expert' child.
+======================================   ==============================================================================================================================================================================================================
+:ref:`discrete_phase <discrete_phase>`       Toplevel menu of the Discrete Phase multiphase model. A discrete phase model (DPM) is used when the aim is to investigate the behavior of the particles from a Lagrangian view and a discrete perspective.
 
-========================   ===================
+======================================   ==============================================================================================================================================================================================================
 

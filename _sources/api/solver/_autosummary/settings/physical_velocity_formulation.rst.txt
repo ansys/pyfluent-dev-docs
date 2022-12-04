@@ -5,19 +5,19 @@
 physical_velocity_formulation
 =============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.physical_velocity_formulation
+.. currentmodule:: ansys.fluent.core.solver.settings_231.physical_velocity_formulation
 
 .. autoclass:: physical_velocity_formulation
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==========================   =====================
+====================================   ========================
 
-Parent                                     Summary
+Parent                                                  Summary
 
-==========================   =====================
-:ref:`numerics <numerics>`       'numerics' child.
+====================================   ========================
+:ref:`numerics_pbns <numerics_pbns>`       Set numeric options.
 
-==========================   =====================
+====================================   ========================
 

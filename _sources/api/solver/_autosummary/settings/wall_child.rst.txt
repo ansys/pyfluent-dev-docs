@@ -5,7 +5,7 @@
 wall_child
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.wall_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.wall_child
 
 .. autoclass:: wall_child
     :show-inheritance:
@@ -69,17 +69,11 @@ Child                                                                           
 
 :ref:`vmag <vmag>`                                                                                                                                        'vmag' child.
 
-:ref:`component_of_wall_translation <component_of_wall_translation>`                                                             'component_of_wall_translation' child.
+:ref:`wall_translation <wall_translation>`                                                                                                    'wall_translation' child.
 
 :ref:`components <components_1>`                                                                                                                    'components' child.
 
-:ref:`x_velocity <x_velocity>`                                                                                                                      'x_velocity' child.
-
-:ref:`y_velocity <y_velocity>`                                                                                                                      'y_velocity' child.
-
-:ref:`z_velocity <z_velocity>`                                                                                                                      'z_velocity' child.
-
-:ref:`velocity_components <velocity_components>`                                                                                           'velocity_components' child.
+:ref:`velocity <velocity_1>`                                                                                                                          'velocity' child.
 
 :ref:`in_emiss <in_emiss>`                                                                                                                            'in_emiss' child.
 
@@ -293,7 +287,7 @@ Child                                                                           
 
 :ref:`pold_pair_list_rad <pold_pair_list_rad>`                                                                                              'pold_pair_list_rad' child.
 
-:ref:`component_of_radiation_direction <component_of_radiation_direction>`                                                    'component_of_radiation_direction' child.
+:ref:`radiation_direction <radiation_direction>`                                                                                           'radiation_direction' child.
 
 :ref:`coll_dtheta <coll_dtheta>`                                                                                                                   'coll_dtheta' child.
 
@@ -415,7 +409,7 @@ Child                                                                           
 
 :ref:`norm <norm>`                                                                                                                                        'norm' child.
 
-:ref:`method <method_1>`                                                                                                                                'method' child.
+:ref:`method <method_2>`                                                                                                                                'method' child.
 
 :ref:`uds_bc <uds_bc>`                                                                                                                                  'uds_bc' child.
 
@@ -431,19 +425,15 @@ Child                                                                           
 
 :ref:`omega <omega>`                                                                                                                                     'omega' child.
 
-:ref:`origin_position_of_rotation_axis <origin_position_of_rotation_axis>`                                                    'origin_position_of_rotation_axis' child.
+:ref:`rotation_axis_origin <rotation_axis_origin>`                                                                                        'rotation_axis_origin' child.
 
-:ref:`direction_component_of_rotation_axis <direction_component_of_rotation_axis>`                                        'direction_component_of_rotation_axis' child.
+:ref:`rotation_axis_direction <rotation_axis_direction>`                                                                               'rotation_axis_direction' child.
 
 :ref:`adhesion_angle <adhesion_angle>`                                                                                                          'adhesion_angle' child.
 
 :ref:`specified_shear <specified_shear>`                                                                                                       'specified_shear' child.
 
-:ref:`shear_y <shear_y>`                                                                                                                               'shear_y' child.
-
-:ref:`shear_z <shear_z>`                                                                                                                               'shear_z' child.
-
-:ref:`shear_stress_components <shear_stress_components>`                                                                               'shear_stress_components' child.
+:ref:`shear_stress <shear_stress>`                                                                                                                'shear_stress' child.
 
 :ref:`fslip <fslip>`                                                                                                                                     'fslip' child.
 
@@ -457,15 +447,19 @@ Child                                                                           
 
 :ref:`surf_washcoat_factor <surf_washcoat_factor>`                                                                                        'surf_washcoat_factor' child.
 
+:ref:`initial_deposition_height <initial_deposition_height>`                                                                         'initial_deposition_height' child.
+
+:ref:`solid_species_density <solid_species_density>`                                                                                     'solid_species_density' child.
+
 :ref:`ablation_select_model <ablation_select_model>`                                                                                     'ablation_select_model' child.
 
 :ref:`ablation_vielle_a <ablation_vielle_a>`                                                                                                 'ablation_vielle_a' child.
 
 :ref:`ablation_vielle_n <ablation_vielle_n>`                                                                                                 'ablation_vielle_n' child.
 
-:ref:`ablation_surfacerxn_density <ablation_surfacerxn_density>`                                                                   'ablation_surfacerxn_density' child.
-
 :ref:`ablation_flux <ablation_flux>`                                                                                                             'ablation_flux' child.
+
+:ref:`ablation_surfacerxn_density <ablation_surfacerxn_density>`                                                                   'ablation_surfacerxn_density' child.
 
 :ref:`ablation_species_mf <ablation_species_mf>`                                                                                           'ablation_species_mf' child.
 
@@ -483,7 +477,7 @@ Child                                                                           
 
 :ref:`film_height <film_height>`                                                                                                                   'film_height' child.
 
-:ref:`flux_momentum_components <flux_momentum_components>`                                                                            'flux_momentum_components' child.
+:ref:`flux_momentum <flux_momentum>`                                                                                                             'flux_momentum' child.
 
 :ref:`film_relative_vel <film_relative_vel>`                                                                                                 'film_relative_vel' child.
 
@@ -497,13 +491,7 @@ Child                                                                           
 
 :ref:`film_h_src <film_h_src>`                                                                                                                      'film_h_src' child.
 
-:ref:`film_u_src <film_u_src>`                                                                                                                      'film_u_src' child.
-
-:ref:`film_v_src <film_v_src>`                                                                                                                      'film_v_src' child.
-
-:ref:`film_w_src <film_w_src>`                                                                                                                      'film_w_src' child.
-
-:ref:`momentum_source_components <momentum_source_components>`                                                                      'momentum_source_components' child.
+:ref:`momentum_source <momentum_source>`                                                                                                       'momentum_source' child.
 
 :ref:`film_t_src <film_t_src>`                                                                                                                      'film_t_src' child.
 
@@ -572,6 +560,8 @@ Child                                                                           
 :ref:`scale_factor <scale_factor>`                                                                                                                'scale_factor' child.
 
 :ref:`stab_method <stab_method>`                                                                                                                   'stab_method' child.
+
+:ref:`fensapice_flow_bc_subtype <fensapice_flow_bc_subtype>`                                                                         'fensapice_flow_bc_subtype' child.
 
 :ref:`fensapice_ice_icing_mode <fensapice_ice_icing_mode>`                                                                            'fensapice_ice_icing_mode' child.
 

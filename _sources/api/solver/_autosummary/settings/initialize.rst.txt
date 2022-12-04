@@ -5,30 +5,30 @@
 initialize
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.initialize
+.. currentmodule:: ansys.fluent.core.solver.settings_231.initialize
 
 .. autoclass:: initialize
     :show-inheritance:
     :undoc-members:
 .. rubric:: Arguments
 
-==========================================   =============================
+============================   ======================
 
-Argument                                                           Summary
+Argument                                      Summary
 
-==========================================   =============================
-:ref:`project_filename <project_filename>`       'project_filename' child.
+============================   ======================
+:ref:`init_type <init_type>`       'init_type' child.
 
-==========================================   =============================
+============================   ======================
 
 .. rubric:: Included in:
 
-==============================================   ===============================
+======================================   ===========================
 
-Parent                                                                   Summary
+Parent                                                       Summary
 
-==============================================   ===============================
-:ref:`parametric_studies <parametric_studies>`       'parametric_studies' child.
+======================================   ===========================
+:ref:`initialization <initialization>`       'initialization' child.
 
-==============================================   ===============================
+======================================   ===========================
 

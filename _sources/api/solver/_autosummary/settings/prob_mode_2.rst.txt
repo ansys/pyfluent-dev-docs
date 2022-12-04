@@ -5,7 +5,7 @@
 prob_mode_2
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.prob_mode_2
+.. currentmodule:: ansys.fluent.core.solver.settings_231.prob_mode_2
 
 .. autoclass:: prob_mode_2
     :show-inheritance:
@@ -17,9 +17,9 @@ prob_mode_2
 Child                                                  Summary
 
 ==================================   =========================
-:ref:`option <option>`                         'option' child.
+:ref:`option <option_2>`                       'option' child.
 
-:ref:`constant <constant>`                   'constant' child.
+:ref:`value <value>`                            'value' child.
 
 :ref:`profile_name <profile_name>`       'profile_name' child.
 

@@ -5,7 +5,7 @@
 miscellaneous
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.miscellaneous
+.. currentmodule:: ansys.fluent.core.solver.settings_231.miscellaneous
 
 .. autoclass:: miscellaneous
     :show-inheritance:
@@ -25,12 +25,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-============================================================   ======================================
+============================================================   =============================================
 
-Parent                                                                                        Summary
+Parent                                                                                               Summary
 
-============================================================   ======================================
-:ref:`contact_solution_controls <contact_solution_controls>`       'contact_solution_controls' child.
+============================================================   =============================================
+:ref:`contact_solution_controls <contact_solution_controls>`       Solver controls for contact marks method.
 
-============================================================   ======================================
+============================================================   =============================================
 

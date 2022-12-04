@@ -5,7 +5,7 @@
 fanzone
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.fanzone
+.. currentmodule:: ansys.fluent.core.solver.settings_231.fanzone
 
 .. autoclass:: fanzone
     :show-inheritance:

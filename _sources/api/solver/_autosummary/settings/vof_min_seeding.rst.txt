@@ -5,19 +5,19 @@
 vof_min_seeding
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.vof_min_seeding
+.. currentmodule:: ansys.fluent.core.solver.settings_231.vof_min_seeding
 
 .. autoclass:: vof_min_seeding
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-====================================   =========================
+====================================   ==================================
 
-Parent                                                   Summary
+Parent                                                            Summary
 
-====================================   =========================
-:ref:`area_density <area_density_1>`       'area_density' child.
+====================================   ==================================
+:ref:`area_density <area_density_1>`       Interfacial area density menu.
 
-====================================   =========================
+====================================   ==================================
 

@@ -5,7 +5,7 @@
 solid_omega
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.solid_omega
+.. currentmodule:: ansys.fluent.core.solver.settings_231.solid_omega
 
 .. autoclass:: solid_omega
     :show-inheritance:
@@ -17,9 +17,9 @@ solid_omega
 Child                                                  Summary
 
 ==================================   =========================
-:ref:`option <option>`                         'option' child.
+:ref:`option <option_2>`                       'option' child.
 
-:ref:`constant <constant>`                   'constant' child.
+:ref:`value <value>`                            'value' child.
 
 :ref:`profile_name <profile_name>`       'profile_name' child.
 
@@ -40,7 +40,7 @@ Parent                                                         Summary
 
 :ref:`phase_child <phase_child>`         'child_object_type' of phase.
 
-:ref:`solid_child <solid_child>`         'child_object_type' of solid.
+:ref:`solid_child <solid_child_1>`       'child_object_type' of solid.
 
 :ref:`phase_child <phase_child_1>`       'child_object_type' of phase.
 

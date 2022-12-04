@@ -5,7 +5,7 @@
 phase_child
 ===========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.phase_child_21
+.. currentmodule:: ansys.fluent.core.solver.settings_231.phase_child_21
 
 .. autoclass:: phase_child
     :show-inheritance:
@@ -47,9 +47,9 @@ Child                                                                           
 
 :ref:`coordinate_system <coordinate_system>`                                        'coordinate_system' child.
 
-:ref:`flow_direction_component <flow_direction_component>`                   'flow_direction_component' child.
+:ref:`flow_direction <flow_direction>`                                                 'flow_direction' child.
 
-:ref:`direction_vector_components <direction_vector_components>`          'direction_vector_components' child.
+:ref:`direction_vector <direction_vector>`                                           'direction_vector' child.
 
 :ref:`ke_spec <ke_spec>`                                                                      'ke_spec' child.
 

@@ -219,7 +219,7 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_222.auto_dt_advanced_controls.auto_dt_advanced_controls">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_231.auto_dt_advanced_controls.auto_dt_advanced_controls">
    <code class="docutils literal notranslate">
     <span class="pre">
      auto_dt_advanced_controls
@@ -249,10 +249,10 @@
   <section id="auto-dt-advanced-controls">
 <span id="id1"></span><h1>auto_dt_advanced_controls<a class="headerlink" href="#auto-dt-advanced-controls" title="Permalink to this heading">#</a></h1>
 <dl class="py class">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_222.auto_dt_advanced_controls.auto_dt_advanced_controls">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_222.auto_dt_advanced_controls.</span></span><span class="sig-name descname"><span class="pre">auto_dt_advanced_controls</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_222.auto_dt_advanced_controls.auto_dt_advanced_controls" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_231.auto_dt_advanced_controls.auto_dt_advanced_controls">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_231.auto_dt_advanced_controls.</span></span><span class="sig-name descname"><span class="pre">auto_dt_advanced_controls</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_231.auto_dt_advanced_controls.auto_dt_advanced_controls" title="Permalink to this definition">#</a></dt>
 <dd><p>Bases: <a class="reference internal" href="../ansys.fluent.core.solver.flobject.Group.html#ansys.fluent.core.solver.flobject.Group" title="ansys.fluent.core.solver.flobject.Group"><code class="xref py py-class docutils literal notranslate"><span class="pre">Group</span></code></a></p>
-<p>‘auto_dt_advanced_controls’ child.</p>
+<p>Set automatic time-stepping controls for better solution stability.</p>
 </dd></dl>
 
 <p class="rubric">Children</p>
@@ -263,7 +263,7 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><a class="reference internal" href="enable_1.html#enable-1"><span class="std std-ref">enable</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="enable_6.html#enable-6"><span class="std std-ref">enable</span></a></p></td>
 <td><p>Enable advanced automatic time stepping for better stability.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="dt_init_limit.html#dt-init-limit"><span class="std std-ref">dt_init_limit</span></a></p></td>
@@ -273,13 +273,13 @@
 <td><p>Set maximum pseudo time step size.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="dt_factor_min.html#dt-factor-min"><span class="std std-ref">dt_factor_min</span></a></p></td>
-<td><p>Set minimum time step size change factor.</p></td>
+<td><p>Set minimum limit for reduction in pseudo time step size.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="dt_factor_max.html#dt-factor-max"><span class="std std-ref">dt_factor_max</span></a></p></td>
-<td><p>Set maximum time step size change factor.</p></td>
+<td><p>Set maximum limit for increase in pseudo time step size.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="max_velocity_ratio.html#max-velocity-ratio"><span class="std std-ref">max_velocity_ratio</span></a></p></td>
-<td><p>Set maximum to average velocity ratio to freeze the pseudo time-step size.</p></td>
+<td><p>Set velocity ratio to freeze the time step size for better solution stability.</p></td>
 </tr>
 </tbody>
 </table>
@@ -292,7 +292,7 @@
 </thead>
 <tbody>
 <tr class="row-even"><td><p><a class="reference internal" href="pseudo_transient.html#pseudo-transient"><span class="std std-ref">pseudo_transient</span></a></p></td>
-<td><p>‘pseudo_transient’ child.</p></td>
+<td><p>Pseudo-Time stability controls for multiphase flow.</p></td>
 </tr>
 </tbody>
 </table>

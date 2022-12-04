@@ -5,14 +5,14 @@
 injection
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.injection
+.. currentmodule:: ansys.fluent.core.solver.settings_231.injection
 
 .. autoclass:: injection
     :show-inheritance:
     :undoc-members:
 .. rubric:: Named object type
 
-:ref:`phase_child <phase_child_10>`
+:ref:`injection_child <injection_child>`
 
 
 .. rubric:: Included in:

@@ -219,7 +219,7 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_222.mesh.mesh">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_231.mesh.mesh">
    <code class="docutils literal notranslate">
     <span class="pre">
      mesh
@@ -249,14 +249,101 @@
   <section id="mesh">
 <span id="id1"></span><h1>mesh<a class="headerlink" href="#mesh" title="Permalink to this heading">#</a></h1>
 <dl class="py class">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_222.mesh.mesh">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_222.mesh.</span></span><span class="sig-name descname"><span class="pre">mesh</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_222.mesh.mesh" title="Permalink to this definition">#</a></dt>
-<dd><p>Bases: <a class="reference internal" href="../ansys.fluent.core.solver.flobject.NamedObject.html#ansys.fluent.core.solver.flobject.NamedObject" title="ansys.fluent.core.solver.flobject.NamedObject"><code class="xref py py-class docutils literal notranslate"><span class="pre">NamedObject</span></code></a>[<a class="reference internal" href="mesh_child.html#ansys.fluent.core.solver.settings_222.mesh_child.mesh_child" title="ansys.fluent.core.solver.settings_222.mesh_child.mesh_child"><code class="xref py py-class docutils literal notranslate"><span class="pre">mesh_child</span></code></a>], <code class="xref py py-class docutils literal notranslate"><span class="pre">_CreatableNamedObjectMixin</span></code>[<a class="reference internal" href="mesh_child.html#ansys.fluent.core.solver.settings_222.mesh_child.mesh_child" title="ansys.fluent.core.solver.settings_222.mesh_child.mesh_child"><code class="xref py py-class docutils literal notranslate"><span class="pre">mesh_child</span></code></a>]</p>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_231.mesh.mesh">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_231.mesh.</span></span><span class="sig-name descname"><span class="pre">mesh</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_231.mesh.mesh" title="Permalink to this definition">#</a></dt>
+<dd><p>Bases: <a class="reference internal" href="../ansys.fluent.core.solver.flobject.Group.html#ansys.fluent.core.solver.flobject.Group" title="ansys.fluent.core.solver.flobject.Group"><code class="xref py py-class docutils literal notranslate"><span class="pre">Group</span></code></a></p>
 <p>‘mesh’ child.</p>
 </dd></dl>
 
-<p class="rubric">Named object type</p>
-<p><a class="reference internal" href="mesh_child.html#mesh-child"><span class="std std-ref">mesh_child</span></a></p>
+<p class="rubric">Children</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Child</p></th>
+<th class="head"><p>Summary</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="adapt.html#adapt"><span class="std std-ref">adapt</span></a></p></td>
+<td><p>‘adapt’ child.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="check_before_solve.html#check-before-solve"><span class="std std-ref">check_before_solve</span></a></p></td>
+<td><p>Perform various mesh consistency checks before solve.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="check_verbosity.html#check-verbosity"><span class="std std-ref">check_verbosity</span></a></p></td>
+<td><p>Set verbosity output of mesh check and mesh quality. Higher verbosity corresponds to more detailed information.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="enhanced_orthogonal_quality.html#enhanced-orthogonal-quality"><span class="std std-ref">enhanced_orthogonal_quality</span></a></p></td>
+<td><p>Enable enhanced orthogonal quality method.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="matching_tolerance.html#matching-tolerance"><span class="std std-ref">matching_tolerance</span></a></p></td>
+<td><p>Set the normalized tolerance used for finding coincident nodes.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="show_periodic_shadow_zones.html#show-periodic-shadow-zones"><span class="std std-ref">show_periodic_shadow_zones</span></a></p></td>
+<td><p>Option to show periodic shadow zones in user interface.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="reorder.html#reorder"><span class="std std-ref">reorder</span></a></p></td>
+<td><p>Enter the reorder domain menu.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="repair_improve.html#repair-improve"><span class="std std-ref">repair_improve</span></a></p></td>
+<td><p>Enter the repair and improve quality menu.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="surface_mesh.html#surface-mesh"><span class="std std-ref">surface_mesh</span></a></p></td>
+<td><p>Enter the surface mesh menu.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="polyhedra.html#polyhedra"><span class="std std-ref">polyhedra</span></a></p></td>
+<td><p>Enter the polyhedra menu.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Commands</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Command</p></th>
+<th class="head"><p>Summary</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="adjacency.html#adjacency"><span class="std std-ref">adjacency</span></a></p></td>
+<td><p>View and rename face zones adjacent to selected cell zones.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="check.html#check"><span class="std std-ref">check</span></a></p></td>
+<td><p>Perform various mesh consistency checks.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="memory_usage.html#memory-usage"><span class="std std-ref">memory_usage</span></a></p></td>
+<td><p>Report solver memory use.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="mesh_info.html#mesh-info"><span class="std std-ref">mesh_info</span></a></p></td>
+<td><p>‘mesh_info’ command.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="quality.html#quality"><span class="std std-ref">quality</span></a></p></td>
+<td><p>Perform analysis of mesh quality.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="rotate.html#rotate"><span class="std std-ref">rotate</span></a></p></td>
+<td><p>Rotate the mesh.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="scale.html#scale"><span class="std std-ref">scale</span></a></p></td>
+<td><p>‘scale’ command.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="size_info.html#size-info"><span class="std std-ref">size_info</span></a></p></td>
+<td><p>Print mesh size.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="redistribute_boundary_layer.html#redistribute-boundary-layer"><span class="std std-ref">redistribute_boundary_layer</span></a></p></td>
+<td><p>Enforce growth rate in boundary layer.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="swap_mesh_faces.html#swap-mesh-faces"><span class="std std-ref">swap_mesh_faces</span></a></p></td>
+<td><p>Swap mesh faces.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="smooth_mesh.html#smooth-mesh"><span class="std std-ref">smooth_mesh</span></a></p></td>
+<td><p>Smooth the mesh using quality-based, Laplace or skewness methods.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="replace.html#replace"><span class="std std-ref">replace</span></a></p></td>
+<td><p>Replace mesh and interpolate data.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="translate.html#translate"><span class="std std-ref">translate</span></a></p></td>
+<td><p>Translate the mesh.</p></td>
+</tr>
+</tbody>
+</table>
 <p class="rubric">Included in:</p>
 <table class="table">
 <thead>
@@ -265,8 +352,8 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><a class="reference internal" href="report_definitions.html#report-definitions"><span class="std std-ref">report_definitions</span></a></p></td>
-<td><p>‘report_definitions’ child.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="root.html#root"><span class="std std-ref">root</span></a></p></td>
+<td><p>‘root’ object.</p></td>
 </tr>
 </tbody>
 </table>

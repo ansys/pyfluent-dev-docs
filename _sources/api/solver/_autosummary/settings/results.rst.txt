@@ -5,23 +5,31 @@
 results
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.results
+.. currentmodule:: ansys.fluent.core.solver.settings_231.results
 
 .. autoclass:: results
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-============================   =====================
+==============================   =======================
 
-Child                                        Summary
+Child                                            Summary
 
-============================   =====================
-:ref:`graphics <graphics>`         'graphics' child.
+==============================   =======================
+:ref:`graphics <graphics>`             'graphics' child.
 
-:ref:`surfaces <surfaces_1>`       'surfaces' child.
+:ref:`scene <scene>`                      'scene' child.
 
-============================   =====================
+:ref:`surfaces <surfaces_2>`           'surfaces' child.
+
+:ref:`animations <animations>`       'animations' child.
+
+:ref:`plot <plot_2>`                       'plot' child.
+
+:ref:`report <report_1>`                 'report' child.
+
+==============================   =======================
 
 .. rubric:: Included in:
 

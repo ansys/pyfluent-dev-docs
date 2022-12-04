@@ -5,7 +5,7 @@
 volume_child
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.volume_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.volume_child
 
 .. autoclass:: volume_child
     :show-inheritance:
@@ -17,15 +17,15 @@ volume_child
 Child                                                                                               Summary
 
 ================================================================   ========================================
-:ref:`geometry <geometry_1>`                                                              'geometry' child.
+:ref:`report_type <report_type>`                                                       'report_type' child.
+
+:ref:`geometry <geometry_3>`                                                              'geometry' child.
 
 :ref:`physics <physics>`                                                                   'physics' child.
 
 :ref:`field <field>`                                                                         'field' child.
 
 :ref:`retain_instantaneous_values <retain_instantaneous_values>`       'retain_instantaneous_values' child.
-
-:ref:`report_type <report_type>`                                                       'report_type' child.
 
 :ref:`phase <phase_25>`                                                                      'phase' child.
 

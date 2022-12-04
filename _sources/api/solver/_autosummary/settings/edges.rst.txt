@@ -5,7 +5,7 @@
 edges
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.edges
+.. currentmodule:: ansys.fluent.core.solver.settings_231.edges
 
 .. autoclass:: edges
     :show-inheritance:
@@ -17,7 +17,7 @@ edges
 Parent                                    Summary
 
 ==========================   ====================
-:ref:`options <options_4>`       'options' child.
+:ref:`options <options_5>`       'options' child.
 
 ==========================   ====================
 

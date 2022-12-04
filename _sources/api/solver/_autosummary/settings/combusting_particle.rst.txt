@@ -5,14 +5,14 @@
 combusting_particle
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.combusting_particle
+.. currentmodule:: ansys.fluent.core.solver.settings_231.combusting_particle
 
 .. autoclass:: combusting_particle
     :show-inheritance:
     :undoc-members:
 .. rubric:: Named object type
 
-:ref:`fluid_child <fluid_child>`
+:ref:`combusting_particle_child <combusting_particle_child>`
 
 
 .. rubric:: Included in:

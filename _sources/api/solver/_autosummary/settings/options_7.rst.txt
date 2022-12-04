@@ -5,34 +5,30 @@
 options
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.options_7
+.. currentmodule:: ansys.fluent.core.solver.settings_231.options_7
 
 .. autoclass:: options
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-========================   ====================
+==================================   ========================
 
-Child                                   Summary
+Child                                                 Summary
 
-========================   ====================
-:ref:`option <option>`          'option' child.
+==================================   ========================
+:ref:`node_values <node_values_1>`       'node_values' child.
 
-:ref:`inside <inside>`          'inside' child.
-
-:ref:`outside <outside>`       'outside' child.
-
-========================   ====================
+==================================   ========================
 
 .. rubric:: Included in:
 
-========================================   ============================
+==================================================   ==========================================
 
-Parent                                                          Summary
+Parent                                                                                  Summary
 
-========================================   ============================
-:ref:`filter_settings <filter_settings>`       'filter_settings' child.
+==================================================   ==========================================
+:ref:`particle_track_child <particle_track_child>`       'child_object_type' of particle_track.
 
-========================================   ============================
+==================================================   ==========================================
 

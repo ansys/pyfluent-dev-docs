@@ -5,7 +5,7 @@
 general
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.general
+.. currentmodule:: ansys.fluent.core.solver.settings_231.general
 
 .. autoclass:: general
     :show-inheritance:
@@ -21,7 +21,7 @@ Child                                                                           
 
 :ref:`adjust_solver_defaults_based_on_setup <adjust_solver_defaults_based_on_setup>`       Enable/disable adjustment of solver defaults based on setup.
 
-:ref:`gravity <gravity_1>`                                                                                                             'gravity' child.
+:ref:`gravity <gravity>`                                                                                                               'gravity' child.
 
 ====================================================================================   ================================================================
 

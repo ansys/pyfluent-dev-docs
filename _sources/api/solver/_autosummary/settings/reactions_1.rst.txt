@@ -5,19 +5,19 @@
 reactions
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.reactions_1
+.. currentmodule:: ansys.fluent.core.solver.settings_231.reactions_1
 
 .. autoclass:: reactions
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-========================   ===================
+========================   ======================
 
-Parent                                 Summary
+Parent                                    Summary
 
-========================   ===================
-:ref:`expert <expert_2>`       'expert' child.
+========================   ======================
+:ref:`expert <expert_2>`       Enter expert menu.
 
-========================   ===================
+========================   ======================
 

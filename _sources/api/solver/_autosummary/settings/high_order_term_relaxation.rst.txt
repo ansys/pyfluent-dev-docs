@@ -5,23 +5,23 @@
 high_order_term_relaxation
 ==========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.high_order_term_relaxation
+.. currentmodule:: ansys.fluent.core.solver.settings_231.high_order_term_relaxation
 
 .. autoclass:: high_order_term_relaxation
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-==========================   ====================
+==========================   ==============================================
 
-Child                                     Summary
+Child                                                               Summary
 
-==========================   ====================
-:ref:`enable <enable>`            Enable/Disable.
+==========================   ==============================================
+:ref:`enable <enable_5>`         Enable/Disable High Order Term Relaxation.
 
-:ref:`options <options_2>`       'options' child.
+:ref:`options <options_3>`              High Order Term Relaxation Options.
 
-==========================   ====================
+==========================   ==============================================
 
 .. rubric:: Included in:
 

@@ -5,22 +5,11 @@
 interface
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.interface
+.. currentmodule:: ansys.fluent.core.solver.settings_231.interface
 
 .. autoclass:: interface
     :show-inheritance:
     :undoc-members:
-.. rubric:: Commands
-
-================================   ==========================
-
-Command                                               Summary
-
-================================   ==========================
-:ref:`change_type <change_type>`       'change_type' command.
-
-================================   ==========================
-
 .. rubric:: Named object type
 
 :ref:`interface_child <interface_child>`

@@ -5,19 +5,19 @@
 viscous_heating
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.viscous_heating
+.. currentmodule:: ansys.fluent.core.solver.settings_231.viscous_heating
 
 .. autoclass:: viscous_heating
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-========================   ====================
+==========================   ====================
 
-Parent                                  Summary
+Parent                                    Summary
 
-========================   ====================
-:ref:`options <options>`       'options' child.
+==========================   ====================
+:ref:`options <options_1>`       'options' child.
 
-========================   ====================
+==========================   ====================
 

@@ -5,7 +5,7 @@
 radiator_child
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.radiator_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.radiator_child
 
 .. autoclass:: radiator_child
     :show-inheritance:

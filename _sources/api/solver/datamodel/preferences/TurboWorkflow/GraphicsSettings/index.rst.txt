@@ -3,12 +3,12 @@
 solver.datamodel.preferences.TurboWorkflow.GraphicsSettings
 ===========================================================
 
-.. currentmodule:: ansys.fluent.core.datamodel_222.preferences
+.. currentmodule:: ansys.fluent.core.datamodel_231.preferences
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.datamodel_222.preferences::Root.TurboWorkflow.GraphicsSettings
+.. autoclass:: ansys.fluent.core.datamodel_231.preferences::Root.TurboWorkflow.GraphicsSettings
    :members: AutoDraw
    :noindex:
 

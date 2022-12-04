@@ -5,19 +5,19 @@
 density_func_expo
 =================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.density_func_expo
+.. currentmodule:: ansys.fluent.core.solver.settings_231.density_func_expo
 
 .. autoclass:: density_func_expo
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==================================   =========================
+==================================   ==================================================
 
-Parent                                                 Summary
+Parent                                                                          Summary
 
-==================================   =========================
-:ref:`viscous_flow <viscous_flow>`       'viscous_flow' child.
+==================================   ==================================================
+:ref:`viscous_flow <viscous_flow>`       Multiphase viscous flow numerics options menu.
 
-==================================   =========================
+==================================   ==================================================
 

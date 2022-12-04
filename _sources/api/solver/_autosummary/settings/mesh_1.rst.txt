@@ -5,35 +5,24 @@
 mesh
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.mesh_1
+.. currentmodule:: ansys.fluent.core.solver.settings_231.mesh_1
 
 .. autoclass:: mesh
     :show-inheritance:
     :undoc-members:
-.. rubric:: Commands
-
-========================   ======================
-
-Command                                   Summary
-
-========================   ======================
-:ref:`display <display>`       'display' command.
-
-========================   ======================
-
 .. rubric:: Named object type
 
-:ref:`mesh_child <mesh_child_1>`
+:ref:`mesh_child <mesh_child>`
 
 
 .. rubric:: Included in:
 
-==========================   =====================
+==============================================   ===============================
 
-Parent                                     Summary
+Parent                                                                   Summary
 
-==========================   =====================
-:ref:`graphics <graphics>`       'graphics' child.
+==============================================   ===============================
+:ref:`report_definitions <report_definitions>`       'report_definitions' child.
 
-==========================   =====================
+==============================================   ===============================
 

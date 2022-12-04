@@ -5,7 +5,7 @@
 display_states_child
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.display_states_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.display_states_child
 
 .. autoclass:: display_states_child
     :show-inheritance:
@@ -21,7 +21,7 @@ Child                                                                           
 
 :ref:`projection <projection_1>`                                            'projection' child.
 
-:ref:`axes <axes>`                                                                'axes' child.
+:ref:`axes <axes_1>`                                                              'axes' child.
 
 :ref:`ruler <ruler>`                                                             'ruler' child.
 

@@ -5,19 +5,19 @@
 scale_f
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.scale_f
+.. currentmodule:: ansys.fluent.core.solver.settings_231.scale_f
 
 .. autoclass:: scale_f
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-====================   ==================
+======================   ==================
 
-Parent                            Summary
+Parent                              Summary
 
-====================   ==================
-:ref:`scale <scale>`       'scale' child.
+======================   ==================
+:ref:`scale <scale_1>`       'scale' child.
 
-====================   ==================
+======================   ==================
 

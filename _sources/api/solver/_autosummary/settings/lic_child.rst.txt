@@ -5,7 +5,7 @@
 lic_child
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.lic_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.lic_child
 
 .. autoclass:: lic_child
     :show-inheritance:
@@ -17,13 +17,15 @@ lic_child
 Child                                                                                   Summary
 
 ========================================================   ====================================
-:ref:`name <name>`                                                                'name' child.
+:ref:`name <name_1>`                                                              'name' child.
 
 :ref:`field <field>`                                                             'field' child.
 
 :ref:`vector_field <vector_field>`                                        'vector_field' child.
 
 :ref:`surfaces_list <surfaces_list>`                                     'surfaces_list' child.
+
+:ref:`surfaces <surfaces>`                                                    'surfaces' child.
 
 :ref:`lic_color_by_field <lic_color_by_field>`                      'lic_color_by_field' child.
 
@@ -72,18 +74,20 @@ Child                                                                           
 Command                                     Summary
 
 ==========================   ======================
-:ref:`display <display_1>`       'display' command.
+:ref:`display <display_2>`       'display' command.
 
 ==========================   ======================
 
 .. rubric:: Included in:
 
-================   ================
+==================   =================
 
-Parent                      Summary
+Parent                         Summary
 
-================   ================
-:ref:`lic <lic>`       'lic' child.
+==================   =================
+:ref:`lic <lic>`          'lic' child.
 
-================   ================
+:ref:`olic <olic>`       'olic' child.
+
+==================   =================
 

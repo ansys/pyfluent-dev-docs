@@ -5,7 +5,7 @@
 laminar
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.laminar
+.. currentmodule:: ansys.fluent.core.solver.settings_231.laminar
 
 .. autoclass:: laminar
     :show-inheritance:

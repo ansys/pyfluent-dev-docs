@@ -5,7 +5,7 @@
 pref
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.pref
+.. currentmodule:: ansys.fluent.core.solver.settings_231.pref
 
 .. autoclass:: pref
     :show-inheritance:

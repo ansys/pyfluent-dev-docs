@@ -5,19 +5,19 @@
 alternative_energy_treatment
 ============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.alternative_energy_treatment
+.. currentmodule:: ansys.fluent.core.solver.settings_231.alternative_energy_treatment
 
 .. autoclass:: alternative_energy_treatment
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==============================================   ===============================
+==============================================   =======================================================================
 
-Parent                                                                   Summary
+Parent                                                                                                           Summary
 
-==============================================   ===============================
-:ref:`heat_mass_transfer <heat_mass_transfer>`       'heat_mass_transfer' child.
+==============================================   =======================================================================
+:ref:`heat_mass_transfer <heat_mass_transfer>`       Multiphase interphase heat and mass transfer numerics options menu.
 
-==============================================   ===============================
+==============================================   =======================================================================
 

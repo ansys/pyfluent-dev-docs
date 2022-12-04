@@ -5,52 +5,46 @@
 thermal_conductivity
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.thermal_conductivity
+.. currentmodule:: ansys.fluent.core.solver.settings_231.thermal_conductivity
 
 .. autoclass:: thermal_conductivity
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-================================================================   ========================================
+====================================================   ====================================================
 
 Child                                                                                               Summary
 
-================================================================   ========================================
-:ref:`option <option>`                                                                      'option' child.
+====================================================   ====================================================
+:ref:`option <option_9>`                                   Select method for calculating material property.
 
-:ref:`constant <constant>`                                                                'constant' child.
-
-:ref:`boussinesq <boussinesq>`                                                          'boussinesq' child.
-
-:ref:`coefficients <coefficients>`                                                    'coefficients' child.
-
-:ref:`number_of_coefficients <number_of_coefficients>`                      'number_of_coefficients' child.
-
-:ref:`piecewise_polynomial <piecewise_polynomial>`                            'piecewise_polynomial' child.
-
-:ref:`nasa_9_piecewise_polynomial <nasa_9_piecewise_polynomial>`       'nasa_9_piecewise_polynomial' child.
+:ref:`value <value>`                                                                         'value' child.
 
 :ref:`piecewise_linear <piecewise_linear>`                                        'piecewise_linear' child.
 
-:ref:`anisotropic <anisotropic>`                                                       'anisotropic' child.
+:ref:`piecewise_polynomial <piecewise_polynomial>`                            'piecewise_polynomial' child.
 
-:ref:`orthotropic <orthotropic>`                                                       'orthotropic' child.
+:ref:`polynomial <polynomial>`                                                          'polynomial' child.
 
-:ref:`var_class <var_class>`                                                             'var_class' child.
+:ref:`expression <expression>`                                                          'expression' child.
 
-================================================================   ========================================
+:ref:`user_defined_function <user_defined_function>`                         'user_defined_function' child.
+
+:ref:`rgp_table <rgp_table>`                                                     Select RGP Table Data Set.
+
+:ref:`real_gas_nist <real_gas_nist>`                                                 'real_gas_nist' child.
+
+====================================================   ====================================================
 
 .. rubric:: Included in:
 
-====================================   ===================================
+================================   =================================
 
-Parent                                                             Summary
+Parent                                                       Summary
 
-====================================   ===================================
-:ref:`fluid_child <fluid_child>`             'child_object_type' of fluid.
+================================   =================================
+:ref:`fluid_child <fluid_child>`       'child_object_type' of fluid.
 
-:ref:`mixture_child <mixture_child>`       'child_object_type' of mixture.
-
-====================================   ===================================
+================================   =================================
 

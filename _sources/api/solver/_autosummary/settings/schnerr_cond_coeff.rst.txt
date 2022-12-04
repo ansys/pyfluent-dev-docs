@@ -5,19 +5,19 @@
 schnerr_cond_coeff
 ==================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.schnerr_cond_coeff
+.. currentmodule:: ansys.fluent.core.solver.settings_231.schnerr_cond_coeff
 
 .. autoclass:: schnerr_cond_coeff
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==============================   =======================
+==============================   =====================================
 
-Parent                                           Summary
+Parent                                                         Summary
 
-==============================   =======================
-:ref:`cavitation <cavitation>`       'cavitation' child.
+==============================   =====================================
+:ref:`cavitation <cavitation>`       Cavitation numerics options menu.
 
-==============================   =======================
+==============================   =====================================
 

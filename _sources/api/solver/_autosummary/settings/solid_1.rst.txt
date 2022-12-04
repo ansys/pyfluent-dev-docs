@@ -5,25 +5,14 @@
 solid
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.solid_1
+.. currentmodule:: ansys.fluent.core.solver.settings_231.solid_1
 
 .. autoclass:: solid
     :show-inheritance:
     :undoc-members:
-.. rubric:: Commands
-
-================================   ==========================
-
-Command                                               Summary
-
-================================   ==========================
-:ref:`change_type <change_type>`       'change_type' command.
-
-================================   ==========================
-
 .. rubric:: Named object type
 
-:ref:`solid_child <solid_child>`
+:ref:`solid_child <solid_child_1>`
 
 
 .. rubric:: Included in:

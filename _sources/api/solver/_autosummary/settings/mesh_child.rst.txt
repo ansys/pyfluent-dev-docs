@@ -5,7 +5,7 @@
 mesh_child
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.mesh_child
+.. currentmodule:: ansys.fluent.core.solver.settings_231.mesh_child
 
 .. autoclass:: mesh_child
     :show-inheritance:
@@ -35,12 +35,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-==================   =================
+====================   =================
 
-Parent                         Summary
+Parent                           Summary
 
-==================   =================
-:ref:`mesh <mesh>`       'mesh' child.
+====================   =================
+:ref:`mesh <mesh_1>`       'mesh' child.
 
-==================   =================
+====================   =================
 

@@ -5,7 +5,7 @@
 film_h_src
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.film_h_src
+.. currentmodule:: ansys.fluent.core.solver.settings_231.film_h_src
 
 .. autoclass:: film_h_src
     :show-inheritance:
@@ -17,9 +17,9 @@ film_h_src
 Child                                                  Summary
 
 ==================================   =========================
-:ref:`option <option>`                         'option' child.
+:ref:`option <option_2>`                       'option' child.
 
-:ref:`constant <constant>`                   'constant' child.
+:ref:`value <value>`                            'value' child.
 
 :ref:`profile_name <profile_name>`       'profile_name' child.
 

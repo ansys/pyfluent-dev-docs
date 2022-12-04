@@ -5,21 +5,33 @@
 file_type
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.file_type
+.. currentmodule:: ansys.fluent.core.solver.settings_231.file_type
 
 .. autoclass:: file_type
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-====================   ====================
+============================================   ================================
 
-Parent                              Summary
+Parent                                                                  Summary
 
-====================   ====================
-:ref:`read <read>`          'read' command.
+============================================   ================================
+:ref:`read <read>`                                              'read' command.
 
-:ref:`write <write>`       'write' command.
+:ref:`read <read_1>`                                            'read' command.
 
-====================   ====================
+:ref:`read_case <read_case>`                               'read_case' command.
+
+:ref:`read_case_data <read_case_data>`                'read_case_data' command.
+
+:ref:`read_case_setting <read_case_setting>`       'read_case_setting' command.
+
+:ref:`read_data <read_data>`                               'read_data' command.
+
+:ref:`read_mesh <read_mesh>`                               'read_mesh' command.
+
+:ref:`write <write>`                                           'write' command.
+
+============================================   ================================
 

@@ -5,14 +5,14 @@
 particle_mixture
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.particle_mixture
+.. currentmodule:: ansys.fluent.core.solver.settings_231.particle_mixture
 
 .. autoclass:: particle_mixture
     :show-inheritance:
     :undoc-members:
 .. rubric:: Named object type
 
-:ref:`mixture_child <mixture_child>`
+:ref:`particle_mixture_child <particle_mixture_child>`
 
 
 .. rubric:: Included in:

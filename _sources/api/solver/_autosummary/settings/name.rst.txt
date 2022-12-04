@@ -5,31 +5,37 @@
 name
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.name
+.. currentmodule:: ansys.fluent.core.solver.settings_231.name
 
 .. autoclass:: name
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-======================================================================   =============================================
+====================================================   ==========================================================
 
-Parent                                                                                                         Summary
+Parent                                                                                                    Summary
 
-======================================================================   =============================================
-:ref:`copy_database_material_by_name <copy_database_material_by_name>`       'copy_database_material_by_name' command.
+====================================================   ==========================================================
+:ref:`abaqus <abaqus>`                                                                      Write an ABAQUS file.
 
-:ref:`mesh_child <mesh_child_1>`                                                          'child_object_type' of mesh.
+:ref:`mechanical_apdl <mechanical_apdl>`                                           Write an Mechanical APDL file.
 
-:ref:`contour_child <contour_child>`                                                   'child_object_type' of contour.
+:ref:`mechanical_apdl_input <mechanical_apdl_input>`                         Write an Mechanical APDL Input file.
 
-:ref:`vector_child <vector_child>`                                                      'child_object_type' of vector.
+:ref:`custom_heat_flux <custom_heat_flux>`                                Write a generic file for heat transfer.
 
-:ref:`pathlines_child <pathlines_child>`                                             'child_object_type' of pathlines.
+:ref:`icemcfd_for_icepak <icemcfd_for_icepak>`                                Write a binary ICEMCFD domain file.
 
-:ref:`particle_tracks_child <particle_tracks_child>`                           'child_object_type' of particle_tracks.
+:ref:`fast_mesh <fast_mesh>`                                          Write a FAST/Plot3D unstructured mesh file.
 
-:ref:`lic_child <lic_child>`                                                               'child_object_type' of lic.
+:ref:`fast_solution <fast_solution>`                              Write a FAST/Plot3D unstructured solution file.
 
-======================================================================   =============================================
+:ref:`fast_velocity <fast_velocity>`                       Write a FAST/Plot3D unstructured vector function file.
+
+:ref:`taitherm <taitherm>`                                                                 Write a TAITherm file.
+
+:ref:`replace <replace>`                                                       Replace mesh and interpolate data.
+
+====================================================   ==========================================================
 

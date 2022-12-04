@@ -5,7 +5,7 @@
 mgrid_motion
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.mgrid_motion
+.. currentmodule:: ansys.fluent.core.solver.settings_231.mgrid_motion
 
 .. autoclass:: mgrid_motion
     :show-inheritance:
@@ -21,7 +21,7 @@ Parent                                                         Summary
 
 :ref:`phase_child <phase_child>`         'child_object_type' of phase.
 
-:ref:`solid_child <solid_child>`         'child_object_type' of solid.
+:ref:`solid_child <solid_child_1>`       'child_object_type' of solid.
 
 :ref:`phase_child <phase_child_1>`       'child_object_type' of phase.
 

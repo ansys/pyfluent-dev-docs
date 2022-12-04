@@ -5,19 +5,19 @@
 alternate_bc_formulation
 ========================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.alternate_bc_formulation
+.. currentmodule:: ansys.fluent.core.solver.settings_231.alternate_bc_formulation
 
 .. autoclass:: alternate_bc_formulation
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-============================================   ==============================
+============================================   ==================================================
 
-Parent                                                                Summary
+Parent                                                                                    Summary
 
-============================================   ==============================
-:ref:`compressible_flow <compressible_flow>`       'compressible_flow' child.
+============================================   ==================================================
+:ref:`compressible_flow <compressible_flow>`       Multiphase compressible numerics options menu.
 
-============================================   ==============================
+============================================   ==================================================
 

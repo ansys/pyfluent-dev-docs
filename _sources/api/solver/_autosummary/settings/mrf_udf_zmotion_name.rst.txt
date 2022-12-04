@@ -5,7 +5,7 @@
 mrf_udf_zmotion_name
 ====================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.mrf_udf_zmotion_name
+.. currentmodule:: ansys.fluent.core.solver.settings_231.mrf_udf_zmotion_name
 
 .. autoclass:: mrf_udf_zmotion_name
     :show-inheritance:
@@ -21,7 +21,7 @@ Parent                                                         Summary
 
 :ref:`phase_child <phase_child>`         'child_object_type' of phase.
 
-:ref:`solid_child <solid_child>`         'child_object_type' of solid.
+:ref:`solid_child <solid_child_1>`       'child_object_type' of solid.
 
 :ref:`phase_child <phase_child_1>`       'child_object_type' of phase.
 

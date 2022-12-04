@@ -5,7 +5,7 @@
 ac_wave
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.ac_wave
+.. currentmodule:: ansys.fluent.core.solver.settings_231.ac_wave
 
 .. autoclass:: ac_wave
     :show-inheritance:
@@ -17,9 +17,9 @@ ac_wave
 Child                                                  Summary
 
 ==================================   =========================
-:ref:`option <option>`                         'option' child.
+:ref:`option <option_2>`                       'option' child.
 
-:ref:`constant <constant>`                   'constant' child.
+:ref:`value <value>`                            'value' child.
 
 :ref:`profile_name <profile_name>`       'profile_name' child.
 

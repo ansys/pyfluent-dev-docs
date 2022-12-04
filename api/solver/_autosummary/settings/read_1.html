@@ -219,7 +219,7 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_222.read_1.read">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_231.read_1.read">
    <code class="docutils literal notranslate">
     <span class="pre">
      read
@@ -249,14 +249,20 @@
   <section id="read">
 <span id="read-1"></span><h1>read<a class="headerlink" href="#read" title="Permalink to this heading">#</a></h1>
 <dl class="py class">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_222.read_1.read">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_222.read_1.</span></span><span class="sig-name descname"><span class="pre">read</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_222.read_1.read" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_231.read_1.read">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_231.read_1.</span></span><span class="sig-name descname"><span class="pre">read</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_231.read_1.read" title="Permalink to this definition">#</a></dt>
 <dd><p>Bases: <a class="reference internal" href="../ansys.fluent.core.solver.flobject.Command.html#ansys.fluent.core.solver.flobject.Command" title="ansys.fluent.core.solver.flobject.Command"><code class="xref py py-class docutils literal notranslate"><span class="pre">Command</span></code></a></p>
-<p>Read display states from a file.</p>
+<p>‘read’ command.</p>
 <dl class="field-list">
 <dt class="field-odd">Parameters<span class="colon">:</span></dt>
 <dd class="field-odd"><dl>
+<dt><strong>file_type</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>‘file_type’ child.</p>
+</dd>
 <dt><strong>file_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>‘file_name’ child.</p>
+</dd>
+<dt><strong>pdf_file_name</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#str" title="(in Python v3.12)"><code class="docutils literal notranslate"><span class="pre">str</span></code></a></span></dt><dd><p>‘pdf_file_name’ child.</p>
+</dd>
+<dt><strong>lightweight_setup</strong><span class="classifier"><a class="reference external" href="https://docs.python.org/dev/library/stdtypes.html#bltin-boolean-values" title="(in Python v3.12)"><span class="xref std std-ref">bool</span></a></span></dt><dd><p>‘lightweight_setup’ child.</p>
 </dd>
 </dl>
 </dd>
@@ -271,8 +277,17 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><a class="reference internal" href="file_name.html#file-name"><span class="std std-ref">file_name</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="file_type.html#file-type"><span class="std std-ref">file_type</span></a></p></td>
+<td><p>‘file_type’ child.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="file_name_1.html#file-name-1"><span class="std std-ref">file_name</span></a></p></td>
 <td><p>‘file_name’ child.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="pdf_file_name.html#pdf-file-name"><span class="std std-ref">pdf_file_name</span></a></p></td>
+<td><p>‘pdf_file_name’ child.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="lightweight_setup.html#lightweight-setup"><span class="std std-ref">lightweight_setup</span></a></p></td>
+<td><p>‘lightweight_setup’ child.</p></td>
 </tr>
 </tbody>
 </table>
@@ -284,8 +299,8 @@
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td><p><a class="reference internal" href="display_states.html#display-states"><span class="std std-ref">display_states</span></a></p></td>
-<td><p>‘display_states’ child.</p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="file.html#file"><span class="std std-ref">file</span></a></p></td>
+<td><p>‘file’ child.</p></td>
 </tr>
 </tbody>
 </table>

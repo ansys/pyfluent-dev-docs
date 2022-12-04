@@ -5,7 +5,7 @@
 size
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.size
+.. currentmodule:: ansys.fluent.core.solver.settings_231.size
 
 .. autoclass:: size
     :show-inheritance:

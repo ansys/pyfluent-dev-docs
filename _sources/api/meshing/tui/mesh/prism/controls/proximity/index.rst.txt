@@ -3,11 +3,11 @@
 meshing.tui.mesh.prism.controls.proximity
 =========================================
 
-.. currentmodule:: ansys.fluent.core.meshing.tui_222
+.. currentmodule:: ansys.fluent.core.meshing.tui_231
 
 .. autosummary::
    :toctree: _autosummary
 
-.. autoclass:: ansys.fluent.core.meshing.tui_222::main_menu.mesh.prism.controls.proximity
-   :members: gap_factor, allow_ignore, max_shrink_factor, max_aspect_ratio, allow_shrinkage, keep_first_layer_offsets
+.. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.mesh.prism.controls.proximity
+   :members: keep_first_layer_offsets, gap_factor, max_shrink_factor, max_aspect_ratio, allow_shrinkage, allow_ignore
 

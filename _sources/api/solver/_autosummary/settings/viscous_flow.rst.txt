@@ -5,7 +5,7 @@
 viscous_flow
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.viscous_flow
+.. currentmodule:: ansys.fluent.core.solver.settings_231.viscous_flow
 
 .. autoclass:: viscous_flow
     :show-inheritance:
@@ -25,7 +25,7 @@ Child                                                                           
 
 :ref:`density_ratio_cutoff <density_ratio_cutoff>`                                                                        Density ratio cut-off.
 
-:ref:`interfacial_artificial_viscosity <interfacial_artificial_viscosity>`                             'interfacial_artificial_viscosity' child.
+:ref:`interfacial_artificial_viscosity <interfacial_artificial_viscosity>`                             Interfacial artifical viscosity controls.
 
 ==========================================================================   ===================================================================
 

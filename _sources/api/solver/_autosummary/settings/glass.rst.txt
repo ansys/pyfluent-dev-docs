@@ -5,7 +5,7 @@
 glass
 =====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.glass
+.. currentmodule:: ansys.fluent.core.solver.settings_231.glass
 
 .. autoclass:: glass
     :show-inheritance:

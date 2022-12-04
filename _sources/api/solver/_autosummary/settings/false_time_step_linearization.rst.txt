@@ -5,19 +5,19 @@
 false_time_step_linearization
 =============================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.false_time_step_linearization
+.. currentmodule:: ansys.fluent.core.solver.settings_231.false_time_step_linearization
 
 .. autoclass:: false_time_step_linearization
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==========================================   =============================
+==========================================   =======================================================
 
-Parent                                                             Summary
+Parent                                                                                       Summary
 
-==========================================   =============================
-:ref:`pseudo_transient <pseudo_transient>`       'pseudo_transient' child.
+==========================================   =======================================================
+:ref:`pseudo_transient <pseudo_transient>`       Pseudo-Time stability controls for multiphase flow.
 
-==========================================   =============================
+==========================================   =======================================================
 

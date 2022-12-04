@@ -5,19 +5,19 @@
 stabilization
 =============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.stabilization
+.. currentmodule:: ansys.fluent.core.solver.settings_231.stabilization
 
 .. autoclass:: stabilization
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-============================================================   ===============================================
+============================================   =======================================
 
-Parent                                                                                                 Summary
+Parent                                                                         Summary
 
-============================================================   ===============================================
-:ref:`multi_grid_controls_child <multi_grid_controls_child>`       'child_object_type' of multi_grid_controls.
+============================================   =======================================
+:ref:`mg_controls_child <mg_controls_child>`       'child_object_type' of mg_controls.
 
-============================================================   ===============================================
+============================================   =======================================
 

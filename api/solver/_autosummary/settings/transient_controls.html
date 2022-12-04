@@ -219,7 +219,7 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_222.transient_controls.transient_controls">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_231.transient_controls.transient_controls">
    <code class="docutils literal notranslate">
     <span class="pre">
      transient_controls
@@ -249,8 +249,8 @@
   <section id="transient-controls">
 <span id="id1"></span><h1>transient_controls<a class="headerlink" href="#transient-controls" title="Permalink to this heading">#</a></h1>
 <dl class="py class">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_222.transient_controls.transient_controls">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_222.transient_controls.</span></span><span class="sig-name descname"><span class="pre">transient_controls</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_222.transient_controls.transient_controls" title="Permalink to this definition">#</a></dt>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_231.transient_controls.transient_controls">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_231.transient_controls.</span></span><span class="sig-name descname"><span class="pre">transient_controls</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_231.transient_controls.transient_controls" title="Permalink to this definition">#</a></dt>
 <dd><p>Bases: <a class="reference internal" href="../ansys.fluent.core.solver.flobject.Group.html#ansys.fluent.core.solver.flobject.Group" title="ansys.fluent.core.solver.flobject.Group"><code class="xref py py-class docutils literal notranslate"><span class="pre">Group</span></code></a></p>
 <p>‘transient_controls’ child.</p>
 </dd></dl>
@@ -266,7 +266,7 @@
 <tr class="row-even"><td><p><a class="reference internal" href="type_1.html#type-1"><span class="std std-ref">type</span></a></p></td>
 <td><p>‘type’ child.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="method.html#method"><span class="std std-ref">method</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="method_1.html#method-1"><span class="std std-ref">method</span></a></p></td>
 <td><p>‘method’ child.</p></td>
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="specified_time_step.html#specified-time-step"><span class="std std-ref">specified_time_step</span></a></p></td>
@@ -275,13 +275,13 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="incremental_time.html#incremental-time"><span class="std std-ref">incremental_time</span></a></p></td>
 <td><p>Set Incremental Time.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="max_iterations_per_time_step.html#max-iterations-per-time-step"><span class="std std-ref">max_iterations_per_time_step</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="max_iter_per_time_step.html#max-iter-per-time-step"><span class="std std-ref">max_iter_per_time_step</span></a></p></td>
 <td><p>Set Max Iterations/Time Step.</p></td>
 </tr>
-<tr class="row-odd"><td><p><a class="reference internal" href="number_of_time_steps.html#number-of-time-steps"><span class="std std-ref">number_of_time_steps</span></a></p></td>
+<tr class="row-odd"><td><p><a class="reference internal" href="time_step_count_1.html#time-step-count-1"><span class="std std-ref">time_step_count</span></a></p></td>
 <td><p>Set inceremtal number of Time steps.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="total_number_of_time_steps.html#total-number-of-time-steps"><span class="std std-ref">total_number_of_time_steps</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="total_time_step_count.html#total-time-step-count"><span class="std std-ref">total_time_step_count</span></a></p></td>
 <td><p>Set total number of Time steps.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="total_time.html#total-time"><span class="std std-ref">total_time</span></a></p></td>
@@ -328,6 +328,24 @@
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="udf_hook.html#udf-hook"><span class="std std-ref">udf_hook</span></a></p></td>
 <td><p>‘udf_hook’ child.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="fixed_periodic_1.html#fixed-periodic-1"><span class="std std-ref">fixed_periodic</span></a></p></td>
+<td><p>‘fixed_periodic’ child.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="duration_specification_method.html#duration-specification-method"><span class="std std-ref">duration_specification_method</span></a></p></td>
+<td><p>‘duration_specification_method’ child.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="multiphase_specific_time_constraints.html#multiphase-specific-time-constraints"><span class="std std-ref">multiphase_specific_time_constraints</span></a></p></td>
+<td><p>‘multiphase_specific_time_constraints’ child.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="solid_time_step_size.html#solid-time-step-size"><span class="std std-ref">solid_time_step_size</span></a></p></td>
+<td><p>‘solid_time_step_size’ child.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="time_step_size_for_acoustic_export.html#time-step-size-for-acoustic-export"><span class="std std-ref">time_step_size_for_acoustic_export</span></a></p></td>
+<td><p>Set number of time step size for acoustic export.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="extrapolate_eqn_vars.html#extrapolate-eqn-vars"><span class="std std-ref">extrapolate_eqn_vars</span></a></p></td>
+<td><p>Enter the extrapolation menu.</p></td>
 </tr>
 </tbody>
 </table>

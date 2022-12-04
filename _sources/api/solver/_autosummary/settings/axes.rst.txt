@@ -5,11 +5,30 @@
 axes
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.axes
+.. currentmodule:: ansys.fluent.core.solver.settings_231.axes
 
 .. autoclass:: axes
     :show-inheritance:
     :undoc-members:
+.. rubric:: Children
+
+================================   =======================
+
+Child                                              Summary
+
+================================   =======================
+:ref:`numbers <numbers>`                  'numbers' child.
+
+:ref:`rules <rules>`                        'rules' child.
+
+:ref:`log_scale <log_scale_1>`          'log_scale' child.
+
+:ref:`auto_scale <auto_scale_1>`       'auto_scale' child.
+
+:ref:`labels <labels>`                     'labels' child.
+
+================================   =======================
+
 .. rubric:: Included in:
 
 ==================================================   ==========================================
@@ -17,7 +36,11 @@ axes
 Parent                                                                                  Summary
 
 ==================================================   ==========================================
-:ref:`display_states_child <display_states_child>`       'child_object_type' of display_states.
+:ref:`pathline_child <pathline_child>`                         'child_object_type' of pathline.
+
+:ref:`particle_track_child <particle_track_child>`       'child_object_type' of particle_track.
+
+:ref:`xy_plot_child <xy_plot_child>`                            'child_object_type' of xy_plot.
 
 ==================================================   ==========================================
 

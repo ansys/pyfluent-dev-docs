@@ -5,19 +5,21 @@
 x_axis_function
 ===============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.x_axis_function
+.. currentmodule:: ansys.fluent.core.solver.settings_231.x_axis_function
 
 .. autoclass:: x_axis_function
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==================   =================
+====================================   ===================================
 
-Parent                         Summary
+Parent                                                             Summary
 
-==================   =================
-:ref:`plot <plot>`       'plot' child.
+====================================   ===================================
+:ref:`plot <plot_1>`                                         'plot' child.
 
-==================   =================
+:ref:`xy_plot_child <xy_plot_child>`       'child_object_type' of xy_plot.
+
+====================================   ===================================
 

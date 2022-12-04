@@ -5,7 +5,7 @@
 area_density
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.area_density_1
+.. currentmodule:: ansys.fluent.core.solver.settings_231.area_density_1
 
 .. autoclass:: area_density
     :show-inheritance:
@@ -25,12 +25,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-==============================================   ===============================
+==============================================   =======================================================================
 
-Parent                                                                   Summary
+Parent                                                                                                           Summary
 
-==============================================   ===============================
-:ref:`heat_mass_transfer <heat_mass_transfer>`       'heat_mass_transfer' child.
+==============================================   =======================================================================
+:ref:`heat_mass_transfer <heat_mass_transfer>`       Multiphase interphase heat and mass transfer numerics options menu.
 
-==============================================   ===============================
+==============================================   =======================================================================
 

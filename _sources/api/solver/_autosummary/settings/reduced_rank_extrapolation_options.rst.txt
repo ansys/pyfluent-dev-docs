@@ -5,23 +5,23 @@
 reduced_rank_extrapolation_options
 ==================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.reduced_rank_extrapolation_options
+.. currentmodule:: ansys.fluent.core.solver.settings_231.reduced_rank_extrapolation_options
 
 .. autoclass:: reduced_rank_extrapolation_options
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-====================================   ============================
+========================================   ============================
 
-Child                                                       Summary
+Child                                                           Summary
 
-====================================   ============================
-:ref:`subspace_size <subspace_size>`             Set subspace size.
+========================================   ============================
+:ref:`subspace_size <subspace_size>`                 Set subspace size.
 
-:ref:`skip_itr <skip_itr>`                 Skip every n iterations.
+:ref:`skip_iter_count <skip_iter_count>`       Skip every n iterations.
 
-====================================   ============================
+========================================   ============================
 
 .. rubric:: Included in:
 

@@ -5,7 +5,7 @@
 ec_mass_flow
 ============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.ec_mass_flow
+.. currentmodule:: ansys.fluent.core.solver.settings_231.ec_mass_flow
 
 .. autoclass:: ec_mass_flow
     :show-inheritance:
@@ -17,9 +17,9 @@ ec_mass_flow
 Child                                                  Summary
 
 ==================================   =========================
-:ref:`option <option>`                         'option' child.
+:ref:`option <option_2>`                       'option' child.
 
-:ref:`constant <constant>`                   'constant' child.
+:ref:`value <value>`                            'value' child.
 
 :ref:`profile_name <profile_name>`       'profile_name' child.
 

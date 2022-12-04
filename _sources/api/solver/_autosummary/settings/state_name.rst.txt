@@ -5,7 +5,7 @@
 state_name
 ==========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.state_name
+.. currentmodule:: ansys.fluent.core.solver.settings_231.state_name
 
 .. autoclass:: state_name
     :show-inheritance:
@@ -21,7 +21,7 @@ Parent                                                                          
 
 :ref:`restore_state <restore_state>`                                           Apply a display state to the active window.
 
-:ref:`copy <copy>`                         Create a new display state with settings copied from an existing display state.
+:ref:`copy <copy_4>`                       Create a new display state with settings copied from an existing display state.
 
 ====================================   ===================================================================================
 

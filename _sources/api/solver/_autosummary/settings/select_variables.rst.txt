@@ -5,19 +5,19 @@
 select_variables
 ================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.select_variables
+.. currentmodule:: ansys.fluent.core.solver.settings_231.select_variables
 
 .. autoclass:: select_variables
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==========================   ====================
+==========================   =======================================
 
-Parent                                    Summary
+Parent                                                       Summary
 
-==========================   ====================
-:ref:`options <options_2>`       'options' child.
+==========================   =======================================
+:ref:`options <options_3>`       High Order Term Relaxation Options.
 
-==========================   ====================
+==========================   =======================================
 

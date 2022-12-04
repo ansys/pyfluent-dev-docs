@@ -5,19 +5,19 @@
 list_materials
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.list_materials
+.. currentmodule:: ansys.fluent.core.solver.settings_231.list_materials
 
 .. autoclass:: list_materials
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-============================   ======================
+==========================   =====================
 
-Parent                                        Summary
+Parent                                     Summary
 
-============================   ======================
-:ref:`materials <materials>`       'materials' child.
+==========================   =====================
+:ref:`database <database>`       'database' child.
 
-============================   ======================
+==========================   =====================
 

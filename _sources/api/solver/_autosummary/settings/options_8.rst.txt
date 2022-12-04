@@ -5,25 +5,25 @@
 options
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.options_8
+.. currentmodule:: ansys.fluent.core.solver.settings_231.options_8
 
 .. autoclass:: options
     :show-inheritance:
     :undoc-members:
 .. rubric:: Children
 
-============================   =====================
+========================   ====================
 
-Child                                        Summary
+Child                                   Summary
 
-============================   =====================
-:ref:`option <option>`               'option' child.
+========================   ====================
+:ref:`option <option_2>`        'option' child.
 
-:ref:`constant <constant_1>`       'constant' child.
+:ref:`inside <inside_1>`        'inside' child.
 
-:ref:`variable <variable>`         'variable' child.
+:ref:`outside <outside>`       'outside' child.
 
-============================   =====================
+========================   ====================
 
 .. rubric:: Included in:
 
@@ -32,7 +32,7 @@ Child                                        Summary
 Parent                                                          Summary
 
 ========================================   ============================
-:ref:`sphere_settings <sphere_settings>`       'sphere_settings' child.
+:ref:`filter_settings <filter_settings>`       'filter_settings' child.
 
 ========================================   ============================
 

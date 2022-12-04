@@ -5,19 +5,19 @@
 formula
 =======
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.formula
+.. currentmodule:: ansys.fluent.core.solver.settings_231.formula
 
 .. autoclass:: formula
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-============================================================================   ================================================
+========================================   ========================================================
 
-Parent                                                                                                                  Summary
+Parent                                                                                      Summary
 
-============================================================================   ================================================
-:ref:`copy_database_material_by_formula <copy_database_material_by_formula>`       'copy_database_material_by_formula' command.
+========================================   ========================================================
+:ref:`copy_by_formula <copy_by_formula>`       Copy a material from the database (pick by formula).
 
-============================================================================   ================================================
+========================================   ========================================================
 

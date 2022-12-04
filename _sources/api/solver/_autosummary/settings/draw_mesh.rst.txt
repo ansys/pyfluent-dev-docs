@@ -5,27 +5,29 @@
 draw_mesh
 =========
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.draw_mesh
+.. currentmodule:: ansys.fluent.core.solver.settings_231.draw_mesh
 
 .. autoclass:: draw_mesh
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-====================================================   ===========================================
+==================================================   ==========================================
 
-Parent                                                                                     Summary
+Parent                                                                                  Summary
 
-====================================================   ===========================================
-:ref:`contour_child <contour_child>`                               'child_object_type' of contour.
+==================================================   ==========================================
+:ref:`display_options <display_options>`                               'display_options' child.
 
-:ref:`vector_child <vector_child>`                                  'child_object_type' of vector.
+:ref:`contour_child <contour_child>`                            'child_object_type' of contour.
 
-:ref:`pathlines_child <pathlines_child>`                         'child_object_type' of pathlines.
+:ref:`vector_child <vector_child>`                               'child_object_type' of vector.
 
-:ref:`particle_tracks_child <particle_tracks_child>`       'child_object_type' of particle_tracks.
+:ref:`pathline_child <pathline_child>`                         'child_object_type' of pathline.
 
-:ref:`lic_child <lic_child>`                                           'child_object_type' of lic.
+:ref:`particle_track_child <particle_track_child>`       'child_object_type' of particle_track.
 
-====================================================   ===========================================
+:ref:`lic_child <lic_child>`                                        'child_object_type' of lic.
+
+==================================================   ==========================================
 

@@ -5,7 +5,7 @@
 revert_to_pre_r20_1_default_settings
 ====================================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.revert_to_pre_r20_1_default_settings
+.. currentmodule:: ansys.fluent.core.solver.settings_231.revert_to_pre_r20_1_default_settings
 
 .. autoclass:: revert_to_pre_r20_1_default_settings
     :show-inheritance:
@@ -27,12 +27,12 @@ Child                                                                           
 
 .. rubric:: Included in:
 
-==========================================   =============================
+==========================================   =====================================
 
-Parent                                                             Summary
+Parent                                                                     Summary
 
-==========================================   =============================
-:ref:`default_controls <default_controls>`       'default_controls' child.
+==========================================   =====================================
+:ref:`default_controls <default_controls>`       Multiphase default controls menu.
 
-==========================================   =============================
+==========================================   =====================================
 

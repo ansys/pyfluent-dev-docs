@@ -5,14 +5,14 @@
 drag
 ====
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.drag
+.. currentmodule:: ansys.fluent.core.solver.settings_231.drag
 
 .. autoclass:: drag
     :show-inheritance:
     :undoc-members:
 .. rubric:: Named object type
 
-:ref:`lift_child <lift_child>`
+:ref:`force_child <force_child>`
 
 
 .. rubric:: Included in:

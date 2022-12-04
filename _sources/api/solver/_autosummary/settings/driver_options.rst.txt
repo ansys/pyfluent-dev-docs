@@ -5,7 +5,7 @@
 driver_options
 ==============
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.driver_options
+.. currentmodule:: ansys.fluent.core.solver.settings_231.driver_options
 
 .. autoclass:: driver_options
     :show-inheritance:
@@ -40,12 +40,12 @@ Command                                                        Summary
 
 .. rubric:: Included in:
 
-========================================   ============================
+========================   =================================================
 
-Parent                                                          Summary
+Parent                                                               Summary
 
-========================================   ============================
-:ref:`picture_options <picture_options>`       'picture_options' child.
+========================   =================================================
+:ref:`picture <picture>`       Enter the hardcopy/save-picture options menu.
 
-========================================   ============================
+========================   =================================================
 

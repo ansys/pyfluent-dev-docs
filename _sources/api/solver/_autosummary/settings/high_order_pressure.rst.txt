@@ -5,19 +5,19 @@
 high_order_pressure
 ===================
 
-.. currentmodule:: ansys.fluent.core.solver.settings_222.high_order_pressure
+.. currentmodule:: ansys.fluent.core.solver.settings_231.high_order_pressure
 
 .. autoclass:: high_order_pressure
     :show-inheritance:
     :undoc-members:
 .. rubric:: Included in:
 
-==========================   ====================
+==========================   ======================================
 
-Parent                                    Summary
+Parent                                                      Summary
 
-==========================   ====================
-:ref:`overset <overset_1>`       'overset' child.
+==========================   ======================================
+:ref:`overset <overset_1>`       Enter overset solver options menu.
 
-==========================   ====================
+==========================   ======================================
 

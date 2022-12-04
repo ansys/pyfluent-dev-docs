@@ -219,7 +219,7 @@
 <nav id="bd-toc-nav">
     <ul class="visible nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_222.boundary_conditions.boundary_conditions">
+  <a class="reference internal nav-link" href="#ansys.fluent.core.solver.settings_231.boundary_conditions.boundary_conditions">
    <code class="docutils literal notranslate">
     <span class="pre">
      boundary_conditions
@@ -249,9 +249,9 @@
   <section id="boundary-conditions">
 <span id="id1"></span><h1>boundary_conditions<a class="headerlink" href="#boundary-conditions" title="Permalink to this heading">#</a></h1>
 <dl class="py class">
-<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_222.boundary_conditions.boundary_conditions">
-<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_222.boundary_conditions.</span></span><span class="sig-name descname"><span class="pre">boundary_conditions</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_222.boundary_conditions.boundary_conditions" title="Permalink to this definition">#</a></dt>
-<dd><p>Bases: <a class="reference internal" href="../ansys.fluent.core.solver.flobject.Group.html#ansys.fluent.core.solver.flobject.Group" title="ansys.fluent.core.solver.flobject.Group"><code class="xref py py-class docutils literal notranslate"><span class="pre">Group</span></code></a></p>
+<dt class="sig sig-object py" id="ansys.fluent.core.solver.settings_231.boundary_conditions.boundary_conditions">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">ansys.fluent.core.solver.settings_231.boundary_conditions.</span></span><span class="sig-name descname"><span class="pre">boundary_conditions</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">name</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">parent</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#ansys.fluent.core.solver.settings_231.boundary_conditions.boundary_conditions" title="Permalink to this definition">#</a></dt>
+<dd><p>Bases: <a class="reference internal" href="../ansys.fluent.core.solver.flobject.Group.html#ansys.fluent.core.solver.flobject.Group" title="ansys.fluent.core.solver.flobject.Group"><code class="xref py py-class docutils literal notranslate"><span class="pre">Group</span></code></a>, <code class="xref py py-class docutils literal notranslate"><span class="pre">_ChildNamedObjectAccessorMixin</span></code></p>
 <p>‘boundary_conditions’ child.</p>
 </dd></dl>
 
@@ -275,7 +275,7 @@
 <tr class="row-odd"><td><p><a class="reference internal" href="fan.html#fan"><span class="std std-ref">fan</span></a></p></td>
 <td><p>‘fan’ child.</p></td>
 </tr>
-<tr class="row-even"><td><p><a class="reference internal" href="geometry.html#geometry"><span class="std std-ref">geometry</span></a></p></td>
+<tr class="row-even"><td><p><a class="reference internal" href="geometry_2.html#geometry-2"><span class="std std-ref">geometry</span></a></p></td>
 <td><p>‘geometry’ child.</p></td>
 </tr>
 <tr class="row-odd"><td><p><a class="reference internal" href="inlet_vent.html#inlet-vent"><span class="std std-ref">inlet_vent</span></a></p></td>
@@ -349,6 +349,37 @@
 </tr>
 <tr class="row-even"><td><p><a class="reference internal" href="wall.html#wall"><span class="std std-ref">wall</span></a></p></td>
 <td><p>‘wall’ child.</p></td>
+</tr>
+</tbody>
+</table>
+<p class="rubric">Commands</p>
+<table class="table">
+<thead>
+<tr class="row-odd"><th class="head"><p>Command</p></th>
+<th class="head"><p>Summary</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><a class="reference internal" href="change_type.html#change-type"><span class="std std-ref">change_type</span></a></p></td>
+<td><p>‘change_type’ command.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="slit_face_zone.html#slit-face-zone"><span class="std std-ref">slit_face_zone</span></a></p></td>
+<td><p>Slit a two-sided wall into two connected wall zones.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="slit_interior_between_diff_solids.html#slit-interior-between-diff-solids"><span class="std std-ref">slit_interior_between_diff_solids</span></a></p></td>
+<td><p>Slit interior created between different solids into coupled walls.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="create_all_shell_threads.html#create-all-shell-threads"><span class="std std-ref">create_all_shell_threads</span></a></p></td>
+<td><p>Mark all finite thickness wall for shell creation. Shell zones will be created at the start of iterations.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="recreate_all_shells.html#recreate-all-shells"><span class="std std-ref">recreate_all_shells</span></a></p></td>
+<td><p>Create shell on all the walls where which were deleted using the command delete-all-shells.</p></td>
+</tr>
+<tr class="row-odd"><td><p><a class="reference internal" href="delete_all_shells.html#delete-all-shells"><span class="std std-ref">delete_all_shells</span></a></p></td>
+<td><p>‘delete_all_shells’ command.</p></td>
+</tr>
+<tr class="row-even"><td><p><a class="reference internal" href="orient_face_zone.html#orient-face-zone"><span class="std std-ref">orient_face_zone</span></a></p></td>
+<td><p>Orient the face zone.</p></td>
 </tr>
 </tbody>
 </table>
