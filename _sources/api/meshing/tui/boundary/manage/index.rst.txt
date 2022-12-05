@@ -9,7 +9,7 @@ meshing.tui.boundary.manage
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.boundary.manage
-   :members: id, rotate_model, merge, scale_model, auto_delete_nodes, translate_model, scale, origin, orient, remove_suffix, name, delete, type, copy, list, translate, rotate, change_prefix, create, flip, change_suffix
+   :members: auto_delete_nodes, list, copy, translate, rotate, translate_model, type, change_suffix, merge, rotate_model, create, change_prefix, scale, id, scale_model, origin, flip, delete, remove_suffix, orient, name
 
 .. toctree::
    :hidden:

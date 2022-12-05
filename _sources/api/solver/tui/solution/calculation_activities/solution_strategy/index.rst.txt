@@ -9,7 +9,7 @@ solver.tui.solution.calculation\_activities.solution\_strategy
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.solution.calculation_activities.solution_strategy
-   :members: enable_modification, add_edit_modification, execute_strategy, disable_modification, import_modifications, export_modifications, continue_strategy_execution, enable_strategy, automatic_initialization, delete_modification, copy_modification
+   :members: add_edit_modification, delete_modification, import_modifications, export_modifications, disable_modification, continue_strategy_execution, execute_strategy, automatic_initialization, copy_modification, enable_strategy, enable_modification
 
 .. toctree::
    :hidden:

@@ -9,5 +9,5 @@ solver.tui.setup.reference\_frames
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.setup.reference_frames
-   :members: list, list_properties, hide, delete, add, display_edit, display, edit
+   :members: hide, delete, display_edit, list_properties, display, list, add, edit
 

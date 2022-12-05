@@ -9,5 +9,5 @@ meshing.tui.scoped\_sizing
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.scoped_sizing
-   :members: compute, delete, list_zones_uncovered_by_controls, modify, validate, delete_size_field, create, list, delete_all, write, read
+   :members: list_zones_uncovered_by_controls, modify, delete_size_field, create, read, delete_all, write, delete, compute, list, validate
 

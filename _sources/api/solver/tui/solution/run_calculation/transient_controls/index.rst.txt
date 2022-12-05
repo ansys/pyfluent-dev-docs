@@ -9,7 +9,7 @@ solver.tui.solution.run\_calculation.transient\_controls
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.solution.run_calculation.transient_controls
-   :members: total_number_of_time_steps, max_iterations_per_time_step, udf_based_time_stepping, rotating_mesh_flow_predictor, time_step_size_for_acoustic_export, error_based_time_stepping, time_step_size, predict_next_time, solution_status, solid_time_step_size, cfl_based_time_stepping, extrapolate_eqn_vars, undo_timestep, specified_time_step, total_time, cfl_based_time_stepping_advanced_options, multiphase_specific_time_stepping, fixed_user_specified, incremental_time, max_flow_time, number_of_time_steps, duration_specification_method, fixed_periodic, extrapolate_vars
+   :members: solution_status, total_number_of_time_steps, error_based_time_stepping, predict_next_time, number_of_time_steps, solid_time_step_size, total_time, fixed_user_specified, max_iterations_per_time_step, rotating_mesh_flow_predictor, specified_time_step, extrapolate_eqn_vars, max_flow_time, time_step_size, duration_specification_method, time_step_size_for_acoustic_export, cfl_based_time_stepping, multiphase_specific_time_stepping, incremental_time, fixed_periodic, udf_based_time_stepping, undo_timestep, cfl_based_time_stepping_advanced_options, extrapolate_vars
 
 .. toctree::
    :hidden:

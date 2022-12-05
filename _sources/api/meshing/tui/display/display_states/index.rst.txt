@@ -9,5 +9,5 @@ meshing.tui.display.display\_states
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.display.display_states
-   :members: use_active, edit, create, read, copy, write, list, apply, delete
+   :members: delete, create, copy, write, read, apply, edit, use_active, list
 

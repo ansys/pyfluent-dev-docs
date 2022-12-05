@@ -9,7 +9,7 @@ solver.tui.solution.controls.query
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.solution.controls.query
-   :members: relaxation_factor, under_relaxation, p_v_controls, equations, courant_number, limits
+   :members: under_relaxation, relaxation_factor, limits, p_v_controls, equations, courant_number
 
 .. toctree::
    :hidden:

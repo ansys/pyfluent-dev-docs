@@ -9,10 +9,10 @@ meshing.tui.mesh.poly.controls
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.mesh.poly.controls
-   :members: feature_angle, face_size_ratio, cell_sizing, non_fluid_type, merge_skew, remesh_skew, edge_size_ratio, sliver_cell_area_fraction, improve
+   :members: edge_size_ratio, face_size_ratio, cell_sizing, sliver_cell_area_fraction, merge_skew, improve, feature_angle, remesh_skew, non_fluid_type
 
 .. toctree::
    :hidden:
 
-   smooth_controls/index
    prism/index
+   smooth_controls/index

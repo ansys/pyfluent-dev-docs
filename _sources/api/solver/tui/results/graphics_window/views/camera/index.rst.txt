@@ -9,5 +9,5 @@ solver.tui.results.graphics\_window.views.camera
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.results.graphics_window.views.camera
-   :members: dolly_camera, projection, pan_camera, field, up_vector, position, zoom_camera, roll_camera, target, orbit_camera
+   :members: dolly_camera, projection, position, field, pan_camera, zoom_camera, orbit_camera, target, roll_camera, up_vector
 
