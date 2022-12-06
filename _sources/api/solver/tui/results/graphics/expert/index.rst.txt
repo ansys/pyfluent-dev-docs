@@ -9,13 +9,13 @@ solver.tui.results.graphics.expert
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.results.graphics.expert
-   :members: display_custom_vector, mesh_outline, mesh_partition_boundary, surface_cells, set_list_tree_separator, multigrid_coarsening, re_render, surface_mesh, mesh, vector, graphics_window_layout, profile, re_scale, zone_mesh, velocity_vector, add_custom_vector, reacting_channel_curves, contour
+   :members: mesh, display_custom_vector, mesh_partition_boundary, zone_mesh, set_list_tree_separator, re_scale, profile, surface_cells, add_custom_vector, contour, vector, multigrid_coarsening, graphics_window_layout, velocity_vector, reacting_channel_curves, mesh_outline, surface_mesh, re_render
 
 .. toctree::
    :hidden:
 
-   set/index
+   path_lines/index
    particle_tracks/index
    pdf_data/index
-   path_lines/index
    flamelet_data/index
+   set/index

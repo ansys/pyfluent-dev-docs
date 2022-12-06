@@ -9,5 +9,5 @@ solver.tui.preferences.turbo\_workflow.face\_zone\_settings
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.preferences.turbo_workflow.face_zone_settings
-   :members: tip1_region, tip2_region, symmetry_region, fzsearch_order, interior_region, outlet_region, periodic1_region, shroud_region, periodic2_region, inlet_region, hub_region, blade_region
+   :members: interior_region, blade_region, periodic2_region, inlet_region, fzsearch_order, shroud_region, symmetry_region, outlet_region, tip2_region, tip1_region, hub_region, periodic1_region
 

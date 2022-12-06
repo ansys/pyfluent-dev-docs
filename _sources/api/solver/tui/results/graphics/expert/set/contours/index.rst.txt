@@ -9,5 +9,5 @@ solver.tui.results.graphics.expert.set.contours
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.results.graphics.expert.set.contours
-   :members: clip_to_range, line_contours, surfaces, n_contour, filled_contours, auto_range, node_values, render_mesh, coloring, log_scale, global_range
+   :members: coloring, n_contour, log_scale, filled_contours, line_contours, global_range, auto_range, clip_to_range, render_mesh, node_values, surfaces
 

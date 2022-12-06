@@ -9,21 +9,21 @@ solver.tui.preferences.graphics
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.preferences.graphics
-   :members: remove_partition_lines_tolerance, switch_to_open_glfor_remote_visualization, marker_drawing_mode, scroll_wheel_event_end_timer, double_buffering, higher_resolution_graphics_window_line_width, enable_non_object_based_workflow, show_hidden_surfaces, set_camera_normal_to_surface_increments, hidden_surface_removal_method, rotation_centerpoint_visible, plot_legend_margin, max_graphics_text_size, graphics_window_line_width, graphics_window_point_symbol, lower_resolution_graphics_window_line_width, event_poll_timeout, event_poll_interval, test_use_external_function, force_key_frame_animation_markers_to_off, point_tool_size, min_graphics_text_size, animation_option, remove_partition_lines, text_window_line_width, show_hidden_lines
+   :members: marker_drawing_mode, min_graphics_text_size, switch_to_open_glfor_remote_visualization, text_window_line_width, set_camera_normal_to_surface_increments, show_hidden_lines, higher_resolution_graphics_window_line_width, test_use_external_function, scroll_wheel_event_end_timer, graphics_window_line_width, lower_resolution_graphics_window_line_width, event_poll_interval, remove_partition_lines_tolerance, graphics_window_point_symbol, hidden_surface_removal_method, event_poll_timeout, point_tool_size, max_graphics_text_size, remove_partition_lines, animation_option, plot_legend_margin, show_hidden_surfaces, force_key_frame_animation_markers_to_off, rotation_centerpoint_visible, double_buffering, enable_non_object_based_workflow
 
 .. toctree::
    :hidden:
 
-   performance/index
-   boundary_markers/index
-   vector_settings/index
-   transparency/index
    colormap_settings/index
-   hardcopy_settings/index
-   manage_hoops_memory/index
-   lighting/index
-   meshing_mode/index
-   embedded_windows/index
    export_video_settings/index
-   graphics_effects/index
+   embedded_windows/index
+   meshing_mode/index
+   hardcopy_settings/index
    material_effects/index
+   lighting/index
+   transparency/index
+   boundary_markers/index
+   manage_hoops_memory/index
+   graphics_effects/index
+   vector_settings/index
+   performance/index

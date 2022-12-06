@@ -9,20 +9,20 @@ solver.tui.file
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.file
-   :members: read_rays, write_circumferential_averaged_profile, read_transient_table, read_case_info, start_journal, write_pdat, binary_legacy_files, read_isat_table, execute_macro, stop_macro, set_idle_timeout, export_to_cfd_post, write_flamelet, write_fan_profile, start_transcript, set_tui_version, read_journal, read_pdf, read_macros, read_data, read_case_data, replace_mesh, write_settings, sync_workbench, set_err_on_inval_cmd, write_isat_table, write_merge_profiles, stop_journal, close_without_save, confirm_overwrite, write_selected_defined_profiles, write_macros, write_cleanup_script, read_injections, load_act_tool, read_case_settings, define_macro, show_configuration, write_boundary_mesh, cff_files, read_case, write_field_functions, read_profile, single_precision_coordinates, read_field_functions, read_settings, write_injections, set_target_reference_frame_for_write_profiles, write_case_data, data_file_options, set_batch_options, write_data, async_optimize, write_pdf, read_surface_clusters, reload_setup, write_currently_defined_profiles, write_profile, read_viewfactors, stop_transcript, write_case
+   :members: stop_macro, write_circumferential_averaged_profile, show_configuration, read_pdf, set_batch_options, set_idle_timeout, set_tui_version, read_case, read_surface_clusters, load_act_tool, read_injections, sync_workbench, read_rays, write_currently_defined_profiles, define_macro, write_injections, export_to_cfd_post, write_fan_profile, close_without_save, write_profile, single_precision_coordinates, write_isat_table, write_data, read_settings, binary_legacy_files, async_optimize, write_case, read_case_info, replace_mesh, read_profile, read_journal, write_case_data, start_journal, confirm_overwrite, write_settings, stop_transcript, write_boundary_mesh, read_case_settings, write_pdf, reload_setup, write_macros, write_cleanup_script, read_data, write_selected_defined_profiles, cff_files, set_err_on_inval_cmd, start_transcript, write_merge_profiles, set_target_reference_frame_for_write_profiles, read_field_functions, data_file_options, read_case_data, read_isat_table, read_transient_table, read_macros, stop_journal, write_flamelet, write_pdat, read_viewfactors, execute_macro, write_field_functions
 
 .. toctree::
    :hidden:
 
-   cffio_options/index
-   export/index
    table_manager/index
    transient_export/index
-   parametric_project/index
-   project/index
-   fsi/index
+   cffio_options/index
+   em_mapping/index
+   import_/index
    interpolate/index
    solution_files/index
-   import_/index
-   em_mapping/index
+   export/index
+   parametric_project/index
    auto_save/index
+   project/index
+   fsi/index

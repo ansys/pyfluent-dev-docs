@@ -13,16 +13,16 @@ solver.tui.setup
    :hidden:
 
    gap_model/index
-   boundary_conditions/index
-   operating_conditions/index
-   dynamic_mesh/index
-   reference_frames/index
-   expert/index
-   materials/index
-   named_expressions/index
-   turbo_model/index
-   overset_interfaces/index
-   reference_values/index
    mesh_interfaces/index
    models/index
+   named_expressions/index
+   reference_frames/index
+   turbo_model/index
+   materials/index
+   boundary_conditions/index
+   dynamic_mesh/index
+   operating_conditions/index
+   expert/index
+   overset_interfaces/index
+   reference_values/index
    mixing_planes/index
