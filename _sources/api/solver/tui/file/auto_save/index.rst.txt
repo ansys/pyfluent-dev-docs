@@ -9,5 +9,5 @@ solver.tui.file.auto\_save
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.file.auto_save
-   :members: data_frequency, root_name, save_data_file_every, retain_most_recent_files, case_frequency, append_file_name_with, max_files
+   :members: save_data_file_every, append_file_name_with, root_name, max_files, retain_most_recent_files, data_frequency, case_frequency
 

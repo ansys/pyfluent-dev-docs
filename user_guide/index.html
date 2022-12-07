@@ -55,8 +55,8 @@
     <link rel="shortcut icon" href="../_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Launching Fluent locally" href="launching_ansys_fluent.html" />
-    <link rel="prev" title="Getting started" href="../getting_started/index.html" />
+    <link rel="next" title="Launch Fluent locally" href="launching_ansys_fluent.html" />
+    <link rel="prev" title="Frequently asked questions" href="../getting_started/faqs.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="docsearch:language" content="en">
   </head>
@@ -200,7 +200,7 @@
     <ul class="nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="launching_ansys_fluent.html">
-   Launching Fluent locally
+   Launch Fluent locally
   </a>
  </li>
  <li class="toctree-l1">
@@ -210,42 +210,42 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="meshing_workflows.html">
-   Using meshing workflows
+   Use meshing workflows
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="general_settings.html">
-   Applying general settings
+   Apply general settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="solver_settings.html">
-   Specifying solver settings
+   Specify solver settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="models.html">
-   Defining models
+   Define models
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="materials.html">
-   Defining materials
+   Define materials
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="boundary_conditions.html">
-   Defining boundary conditions
+   Define boundary conditions
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="solution.html">
-   Applying solution settings
+   Apply solution settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="case_reader.html">
-   Case reader
+   Use case reader
   </a>
  </li>
  <li class="toctree-l1">
@@ -389,19 +389,19 @@ Python code to control and monitor Ansys Fluent.</p>
 <h2>Overview<a class="headerlink" href="#overview" title="Permalink to this heading">#</a></h2>
 <p>You use the <a class="reference internal" href="../api/_autosummary/ansys.fluent.core.launcher.launcher.launch_fluent.html#ansys.fluent.core.launcher.launcher.launch_fluent" title="ansys.fluent.core.launcher.launcher.launch_fluent"><code class="xref py py-func docutils literal notranslate"><span class="pre">launch_fluent()</span></code></a> method
 to launch an instance of Fluent that runs as a server in the background.</p>
-<p>You can launch Fluent in solution mode with:</p>
+<p>You can launch Fluent in solution mode with this code:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">launch_fluent</span>
 
 <span class="n">solver</span> <span class="o">=</span> <span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;solver&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>You can launch Fluent in meshing mode with:</p>
+<p>You can launch Fluent in meshing mode with this code:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">launch_fluent</span>
 
 <span class="n">meshing</span> <span class="o">=</span> <span class="n">launch_fluent</span><span class="p">(</span><span class="n">mode</span><span class="o">=</span><span class="s2">&quot;meshing&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>For more information, see <a class="reference internal" href="launching_ansys_fluent.html#ref-user-guide-launch"><span class="std std-ref">Launching Fluent locally</span></a>
+<p>For more information, see <a class="reference internal" href="launching_ansys_fluent.html#ref-user-guide-launch"><span class="std std-ref">Launch Fluent locally</span></a>
 and <a class="reference internal" href="../api/launcher.html#ref-launcher-launcher"><span class="std std-ref">Launching Fluent</span></a>.</p>
 <p>You can use PyFluent to create and initialize multiple, independent session
 objects. Each session object provides full access to the Fluent components
@@ -416,7 +416,7 @@ distinct interfaces to the solver:</p>
 <li><p><code class="docutils literal notranslate"><span class="pre">root</span></code> object</p></li>
 </ul>
 <p>For general guidance on using these two objects, see
-<a class="reference internal" href="solver_settings.html#ref-user-guide-solver-settings"><span class="std std-ref">Specifying solver settings</span></a>.</p>
+<a class="reference internal" href="solver_settings.html#ref-user-guide-solver-settings"><span class="std std-ref">Specify solver settings</span></a>.</p>
 <section id="solver-tui-object">
 <h3>Solver <code class="docutils literal notranslate"><span class="pre">tui</span></code> object<a class="headerlink" href="#solver-tui-object" title="Permalink to this heading">#</a></h3>
 <p>The solver <code class="docutils literal notranslate"><span class="pre">tui</span></code> object is a complete Python exposure of the Fluent solver TUI
@@ -495,7 +495,7 @@ the Python meshing workflow interface that Fluent meshing exposes directly:</p>
 <span class="n">meshing</span><span class="o">.</span><span class="n">GlobalSettings</span><span class="o">.</span><span class="n">LengthUnit</span><span class="o">.</span><span class="n">set_state</span><span class="p">(</span><span class="s2">&quot;mm&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>For additional examples, see <a class="reference internal" href="meshing_workflows.html#ref-user-guide-meshing-workflows"><span class="std std-ref">Using meshing workflows</span></a>.
+<p>For additional examples, see <a class="reference internal" href="meshing_workflows.html#ref-user-guide-meshing-workflows"><span class="std std-ref">Use meshing workflows</span></a>.
 For information on the full interface, see <a class="reference internal" href="../api/meshing/datamodel/index.html#ref-meshing-datamodel"><span class="std std-ref">meshing.datamodel</span></a>.</p>
 </section>
 </section>
@@ -506,8 +506,8 @@ more direct interaction via its <code class="docutils literal notranslate"><span
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">unsteady</span> <span class="o">=</span> <span class="n">solver</span><span class="o">.</span><span class="n">scheme_eval</span><span class="o">.</span><span class="n">scheme_eval</span><span class="p">(</span><span class="s2">&quot;(rp-unsteady?)&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-<p>The argument to <code class="docutils literal notranslate"><span class="pre">scheme_eval</span></code> is a string that contains any scheme code that
-can be executed in Fluent for the current mode.</p>
+<p>The argument to the <code class="docutils literal notranslate"><span class="pre">scheme_eval</span></code> attribute is a string that contains any
+scheme code that can be executed in Fluent for the current mode.</p>
 <p>Surface field and mesh data services are available in solution mode only via the
 <code class="docutils literal notranslate"><span class="pre">field_data</span></code> object attribute of the session object:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">surface_data</span> <span class="o">=</span> <span class="n">solver</span><span class="o">.</span><span class="n">field_data</span><span class="o">.</span><span class="n">get_fields</span><span class="p">()</span>

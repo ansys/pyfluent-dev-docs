@@ -9,5 +9,5 @@ solver.tui.preferences.navigation.mouse\_mapping.additional
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.preferences.navigation.mouse_mapping.additional
-   :members: shiftrmbclick, ctrllmbclick, shiftrmbdrag, reversewheeldirection, ctrlmmbdrag, mouseprobe, shiftlmbclick, ctrlrmbdrag, shiftmmbdrag, mousewheel, shiftmmbclick, ctrlrmbclick, mousewheelsensitivity, ctrlmmbclick, ctrllmbdrag, shiftlmbdrag
+   :members: shiftrmbdrag, shiftmmbclick, ctrlmmbclick, shiftmmbdrag, ctrlrmbclick, shiftlmbclick, shiftlmbdrag, reversewheeldirection, ctrlmmbdrag, mousewheelsensitivity, ctrlrmbdrag, ctrllmbclick, mouseprobe, ctrllmbdrag, shiftrmbclick, mousewheel
 

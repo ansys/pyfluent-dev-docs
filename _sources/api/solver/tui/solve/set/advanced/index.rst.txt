@@ -9,11 +9,11 @@ solver.tui.solve.set.advanced
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.solve.set.advanced
-   :members: linearized_mass_transfer_udf, singhal_et_al_cavitation_model, skewness_correction_enhanced, retain_temporary_solver_mem, explicit_under_relaxation_value, show_all_discretization_schemes, energy_reconstruction_gradient_limiting, energy_numerical_noise_filter, bcd_weights_freeze, anisotropic_solid_heat_transfer, correction_form, bcd_boundedness, alternate_wall_temp_formulation, retain_cell_residuals
+   :members: anisotropic_solid_heat_transfer, alternate_wall_temp_formulation, explicit_under_relaxation_value, linearized_mass_transfer_udf, skewness_correction_enhanced, bcd_weights_freeze, show_all_discretization_schemes, energy_reconstruction_gradient_limiting, retain_temporary_solver_mem, bcd_boundedness, singhal_et_al_cavitation_model, correction_form, energy_numerical_noise_filter, retain_cell_residuals
 
 .. toctree::
    :hidden:
 
+   secondary_gradient_limiting/index
    turbomachinery_specific_numerics/index
    non_reflecting_boundary_treatment/index
-   secondary_gradient_limiting/index

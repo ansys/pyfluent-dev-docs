@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Case reader &#8212; PyFluent</title>
+    <title>Use case reader &#8212; PyFluent</title>
     
 <script>
   document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
@@ -56,7 +56,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Data transfer" href="data_transfer.html" />
-    <link rel="prev" title="Applying solution settings" href="solution.html" />
+    <link rel="prev" title="Apply solution settings" href="solution.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="docsearch:language" content="en">
   </head>
@@ -178,7 +178,7 @@
     
 
           <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User guide</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">Case reader</a></li> 
+        <li class="nav-item nav-item-this"><a href="">Use case reader</a></li> 
       </ul>
     </div>
         </div>
@@ -201,7 +201,7 @@
     <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="launching_ansys_fluent.html">
-   Launching Fluent locally
+   Launch Fluent locally
   </a>
  </li>
  <li class="toctree-l1">
@@ -211,42 +211,42 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="meshing_workflows.html">
-   Using meshing workflows
+   Use meshing workflows
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="general_settings.html">
-   Applying general settings
+   Apply general settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="solver_settings.html">
-   Specifying solver settings
+   Specify solver settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="models.html">
-   Defining models
+   Define models
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="materials.html">
-   Defining materials
+   Define materials
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="boundary_conditions.html">
-   Defining boundary conditions
+   Define boundary conditions
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="solution.html">
-   Applying solution settings
+   Apply solution settings
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Case reader
+   Use case reader
   </a>
  </li>
  <li class="toctree-l1">
@@ -299,8 +299,20 @@
     </a>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#capability-to-read-rp-and-config-vars">
-     Capability to read rp and config vars
+    <a class="reference internal nav-link" href="#reads-rp-vars-and-config-vars-variables">
+     Reads
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       rp_vars
+      </span>
+     </code>
+     and
+     <code class="docutils literal notranslate">
+      <span class="pre">
+       config_vars
+      </span>
+     </code>
+     variables
     </a>
    </li>
   </ul>
@@ -324,14 +336,14 @@
               
               <article class="bd-article" role="main">
                 
-  <section id="case-reader">
-<span id="ref-case-reader"></span><h1>Case reader<a class="headerlink" href="#case-reader" title="Permalink to this heading">#</a></h1>
-<p>Case reader provides a reader for fluent case files.</p>
+  <section id="use-case-reader">
+<span id="ref-case-reader"></span><h1>Use case reader<a class="headerlink" href="#use-case-reader" title="Permalink to this heading">#</a></h1>
+<p>The case reader provides a reader for Fluent case files.</p>
 <section id="sample-usage">
 <h2>Sample usage<a class="headerlink" href="#sample-usage" title="Permalink to this heading">#</a></h2>
 <p>You can use the case reader by importing it and passing a case file path.
-The following example show the usage of case reader with a case file (.cas.h5)
-read from examples repository as shown:</p>
+This example shows how to have case reader read a case file (.cas.h5)
+from the <code class="docutils literal notranslate"><span class="pre">examples</span></code> repository:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">ansys.fluent.core</span> <span class="kn">import</span> <span class="n">examples</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">ansys.fluent.core.filereader.casereader</span> <span class="kn">import</span> <span class="n">CaseReader</span>
 
@@ -350,7 +362,7 @@ read from examples repository as shown:</p>
 </section>
 <section id="additional-features">
 <h2>Additional features<a class="headerlink" href="#additional-features" title="Permalink to this heading">#</a></h2>
-<p>Along with the basic functionality, case reader also has a bunch of useful features, like:</p>
+<p>Along with the basic functionality, the case reader has many useful features:</p>
 <section id="supports-multiple-file-formats">
 <h3>Supports multiple file formats<a class="headerlink" href="#supports-multiple-file-formats" title="Permalink to this heading">#</a></h3>
 <p>The case reader can read fluent case files in .cas, .cas.h5 and .cas.gz in both text and binary formats.</p>
@@ -363,9 +375,9 @@ case file path.</p>
 </pre></div>
 </div>
 </section>
-<section id="capability-to-read-rp-and-config-vars">
-<h3>Capability to read rp and config vars<a class="headerlink" href="#capability-to-read-rp-and-config-vars" title="Permalink to this heading">#</a></h3>
-<p>Case reader can provide the rp and config vars as well.</p>
+<section id="reads-rp-vars-and-config-vars-variables">
+<h3>Reads <code class="docutils literal notranslate"><span class="pre">rp_vars</span></code> and <code class="docutils literal notranslate"><span class="pre">config_vars</span></code> variables<a class="headerlink" href="#reads-rp-vars-and-config-vars-variables" title="Permalink to this heading">#</a></h3>
+<p>Case reader can provide the <code class="docutils literal notranslate"><span class="pre">rp_vars</span></code> and <code class="docutils literal notranslate"><span class="pre">config_vars</span></code>:</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">reader</span><span class="o">.</span><span class="n">rp_vars</span><span class="p">()</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="n">reader</span><span class="o">.</span><span class="n">config_vars</span><span class="p">()</span>
 </pre></div>

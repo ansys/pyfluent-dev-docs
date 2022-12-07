@@ -9,12 +9,12 @@ meshing.tui.mesh.rapid\_octree
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.mesh.rapid_octree
-   :members: distribute_geometry, undo_last_meshing_operation, delete_poor_quality_cells, flow_volume, dry_run, is_manifold_geo, boundary_mesh_optimization, create_stair_step_mesh, create, bounding_box, geometry, reset_bounding_box, boundary_treatment, verbosity, improve_geometry_resolution, estimate_cell_count
+   :members: verbosity, undo_last_meshing_operation, bounding_box, flow_volume, create_stair_step_mesh, boundary_mesh_optimization, create, estimate_cell_count, delete_poor_quality_cells, reset_bounding_box, is_manifold_geo, boundary_treatment, improve_geometry_resolution, geometry, distribute_geometry, dry_run
 
 .. toctree::
    :hidden:
 
-   mesh_sizing/index
    advanced_meshing_options/index
-   refinement_regions/index
+   mesh_sizing/index
    boundary_layer_mesh_configuration/index
+   refinement_regions/index

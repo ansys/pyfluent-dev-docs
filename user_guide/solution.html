@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
-    <title>Applying solution settings &#8212; PyFluent</title>
+    <title>Apply solution settings &#8212; PyFluent</title>
     
 <script>
   document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
@@ -55,8 +55,8 @@
     <link rel="shortcut icon" href="../_static/ansys-favicon.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Case reader" href="case_reader.html" />
-    <link rel="prev" title="Defining boundary conditions" href="boundary_conditions.html" />
+    <link rel="next" title="Use case reader" href="case_reader.html" />
+    <link rel="prev" title="Define boundary conditions" href="boundary_conditions.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="docsearch:language" content="en">
   </head>
@@ -178,7 +178,7 @@
     
 
           <li class="nav-item nav-item-1"><a href="index.html" accesskey="U">User guide</a> » </li>
-        <li class="nav-item nav-item-this"><a href="">Applying solution settings</a></li> 
+        <li class="nav-item nav-item-this"><a href="">Apply solution settings</a></li> 
       </ul>
     </div>
         </div>
@@ -201,7 +201,7 @@
     <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="launching_ansys_fluent.html">
-   Launching Fluent locally
+   Launch Fluent locally
   </a>
  </li>
  <li class="toctree-l1">
@@ -211,42 +211,42 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="meshing_workflows.html">
-   Using meshing workflows
+   Use meshing workflows
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="general_settings.html">
-   Applying general settings
+   Apply general settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="solver_settings.html">
-   Specifying solver settings
+   Specify solver settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="models.html">
-   Defining models
+   Define models
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="materials.html">
-   Defining materials
+   Define materials
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="boundary_conditions.html">
-   Defining boundary conditions
+   Define boundary conditions
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Applying solution settings
+   Apply solution settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="case_reader.html">
-   Case reader
+   Use case reader
   </a>
  </li>
  <li class="toctree-l1">
@@ -329,13 +329,13 @@
               
               <article class="bd-article" role="main">
                 
-  <section id="applying-solution-settings">
-<h1>Applying solution settings<a class="headerlink" href="#applying-solution-settings" title="Permalink to this heading">#</a></h1>
+  <section id="apply-solution-settings">
+<h1>Apply solution settings<a class="headerlink" href="#apply-solution-settings" title="Permalink to this heading">#</a></h1>
 <p>PyFluent allows you to use <a class="reference internal" href="../api/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> and
 <a class="reference internal" href="../api/solver/settings.html#ref-settings"><span class="std std-ref">Solver settings objects</span></a> to apply solution settings, initialize, and solve.</p>
 <section id="use-solver-tui-commands">
 <h2>Use solver TUI commands<a class="headerlink" href="#use-solver-tui-commands" title="Permalink to this heading">#</a></h2>
-<p>The examples in this section show how you use <a class="reference internal" href="../api/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> to
+<p>The examples on this page show how to use <a class="reference internal" href="../api/solver/tuicommands.html#ref-solver-tui-commands"><span class="std std-ref">Solver TUI commands</span></a> to
 apply solution settings.</p>
 <section id="select-solution-method">
 <h3>Select solution method<a class="headerlink" href="#select-solution-method" title="Permalink to this heading">#</a></h3>
@@ -413,7 +413,7 @@ initializing and performing a specified number of iterations.</p>
 </section>
 <section id="use-settings-objects">
 <h2>Use settings objects<a class="headerlink" href="#use-settings-objects" title="Permalink to this heading">#</a></h2>
-<p>This example shows how you use <a class="reference internal" href="../api/solver/settings.html#ref-settings"><span class="std std-ref">Solver settings objects</span></a> to apply solution settings.</p>
+<p>This example shows how to use <a class="reference internal" href="../api/solver/settings.html#ref-settings"><span class="std std-ref">Solver settings objects</span></a> to apply solution settings.</p>
 <p><strong>Python code</strong></p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">solver</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">initialization</span><span class="o">.</span><span class="n">hybrid_initialize</span><span class="p">()</span>
 <span class="n">solver</span><span class="o">.</span><span class="n">solution</span><span class="o">.</span><span class="n">run_calculation</span><span class="o">.</span><span class="n">iterate</span><span class="p">(</span><span class="n">number_of_iterations</span><span class="o">=</span><span class="mi">150</span><span class="p">)</span>

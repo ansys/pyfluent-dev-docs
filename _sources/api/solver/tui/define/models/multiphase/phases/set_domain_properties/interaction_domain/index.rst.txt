@@ -13,7 +13,7 @@ solver.tui.define.models.multiphase.phases.set\_domain\_properties.interaction\_
    :hidden:
 
    model_transition/index
-   heat_mass_reactions/index
-   interfacial_area/index
-   forces/index
    numerics/index
+   heat_mass_reactions/index
+   forces/index
+   interfacial_area/index

@@ -56,7 +56,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="API reference" href="../api/index.html" />
-    <link rel="prev" title="Case reader" href="case_reader.html" />
+    <link rel="prev" title="Use case reader" href="case_reader.html" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <meta name="docsearch:language" content="en">
   </head>
@@ -201,7 +201,7 @@
     <ul class="current nav bd-sidenav">
  <li class="toctree-l1">
   <a class="reference internal" href="launching_ansys_fluent.html">
-   Launching Fluent locally
+   Launch Fluent locally
   </a>
  </li>
  <li class="toctree-l1">
@@ -211,42 +211,42 @@
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="meshing_workflows.html">
-   Using meshing workflows
+   Use meshing workflows
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="general_settings.html">
-   Applying general settings
+   Apply general settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="solver_settings.html">
-   Specifying solver settings
+   Specify solver settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="models.html">
-   Defining models
+   Define models
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="materials.html">
-   Defining materials
+   Define materials
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="boundary_conditions.html">
-   Defining boundary conditions
+   Define boundary conditions
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="solution.html">
-   Applying solution settings
+   Apply solution settings
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="case_reader.html">
-   Case reader
+   Use case reader
   </a>
  </li>
  <li class="toctree-l1 current active">
@@ -304,14 +304,14 @@
                 
   <section id="data-transfer">
 <span id="ref-data-transfer"></span><h1>Data transfer<a class="headerlink" href="#data-transfer" title="Permalink to this heading">#</a></h1>
-<p>Data transfer helps in transferring a case or a mesh file between instances of fluent.
-We need to specify a source instance and one or multiple destination instances.</p>
+<p>Data transfer helps in transferring a case or a mesh file between instances of Fluent.
+You must specify a source instance and one or multiple destination instances.</p>
 <section id="sample-usage">
 <h2>Sample usage<a class="headerlink" href="#sample-usage" title="Permalink to this heading">#</a></h2>
-<p>You can use the ‘transfer_case’ to transfer either a mesh or a case file by importing it
+<p>You can use the <cite>‘transfer_case`</cite> method to transfer either a mesh or a case file by importing it
 and passing the source and destination instances along with the file type. You can either
 generate the files in the parent instance or just read it.</p>
-<p>The following example show the usage of ‘transfer_case’ by reading a mesh file in a
+<p>This example shows how to use the `` use the <code class="docutils literal notranslate"><span class="pre">transfer_case</span></code> by reading a mesh file in a
 pure meshing session and transferring it to a solver session.</p>
 <div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">ansys.fluent.core</span> <span class="k">as</span> <span class="nn">pyfluent</span>
 <span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">ansys.fluent.core.examples</span> <span class="kn">import</span> <span class="n">download_file</span>
@@ -334,7 +334,7 @@ pure meshing session and transferring it to a solver session.</p>
 <span class="gp">&gt;&gt;&gt; </span><span class="p">)</span>
 </pre></div>
 </div>
-<p>Similarly, ‘transfer_case’ can also be used to transfer a case file from one instance of fluent
+<p>Similarly, you can also use the <code class="docutils literal notranslate"><span class="pre">transfer_case</span></code> method to transfer a case file from one instance of Fluent
 to another.</p>
 </section>
 </section>

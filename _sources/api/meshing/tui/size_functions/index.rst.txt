@@ -9,10 +9,10 @@ meshing.tui.size\_functions
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.size_functions
-   :members: delete_all, set_scaling_filter, set_prox_gap_tolerance, use_cad_imported_curvature, list_periodicity_filter, reset_global_controls, triangulate_quad_faces, enable_periodicity_filter, compute, list, create_defaults, disable_periodicity_filter, create, delete, set_global_controls
+   :members: delete, triangulate_quad_faces, create, delete_all, use_cad_imported_curvature, set_prox_gap_tolerance, set_scaling_filter, reset_global_controls, compute, set_global_controls, list_periodicity_filter, disable_periodicity_filter, enable_periodicity_filter, list, create_defaults
 
 .. toctree::
    :hidden:
 
-   contours/index
    controls/index
+   contours/index
