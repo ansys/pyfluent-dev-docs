@@ -9,5 +9,5 @@ solver.tui.define.phases.set\_domain\_properties.interaction\_domain.heat\_mass\
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.define.phases.set_domain_properties.interaction_domain.heat_mass_reactions.cavitation
-   :members: jump_adhesion, virtual_mass, interphase_discr, vmass_coeff, interphase_visc_disp, lift_shaver_podowski, sfc_modeling, visc_disp_factor, wall_adhesion, cavitation, sfc_tension_coeff, lift, sfc_model_type, lift_montoya, vmass_implicit_options, vmass_implicit, slope_limiter
+   :members: lift_shaver_podowski, vmass_coeff, slope_limiter, vmass_implicit, cavitation, interphase_visc_disp, wall_adhesion, interphase_discr, jump_adhesion, sfc_tension_coeff, visc_disp_factor, virtual_mass, vmass_implicit_options, sfc_model_type, lift, sfc_modeling, lift_montoya
 

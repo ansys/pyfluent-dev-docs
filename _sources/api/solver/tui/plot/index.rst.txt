@@ -9,7 +9,7 @@ solver.tui.plot
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.plot
-   :members: datasources, change_fft_ref_pressure, residuals_set, circum_avg_radial, residuals, file_list, solution, fft, plot_direction, label_alignment, solution_set, file_set, histogram, circum_avg_axial, histogram_set, set_boundary_val_off, file, display_profile_data, fft_set, plot
+   :members: display_profile_data, circum_avg_radial, histogram, plot, fft, histogram_set, file_set, plot_direction, label_alignment, residuals_set, file, fft_set, circum_avg_axial, solution_set, datasources, solution, residuals, change_fft_ref_pressure, file_list, set_boundary_val_off
 
 .. toctree::
    :hidden:

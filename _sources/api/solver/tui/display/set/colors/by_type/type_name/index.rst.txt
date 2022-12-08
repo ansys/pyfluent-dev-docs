@@ -9,5 +9,5 @@ solver.tui.display.set.colors.by\_type.type\_name
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.display.set.colors.by_type.type_name
-   :members: rans_les_interface, overset, axis, periodic, traction, inlet, internal, far_field, wall, interface, symmetry, surface, outlet, interior, free_surface
+   :members: axis, far_field, wall, interior, internal, inlet, surface, outlet, rans_les_interface, overset, periodic, interface, free_surface, symmetry, traction
 

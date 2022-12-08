@@ -9,5 +9,5 @@ solver.tui.display.embedded\_windows
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.display.embedded_windows
-   :members: move_out_all, close_all, close, embed_in, move_out
+   :members: embed_in, close, close_all, move_out_all, move_out
 

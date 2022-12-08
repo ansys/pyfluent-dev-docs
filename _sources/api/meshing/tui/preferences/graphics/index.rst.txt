@@ -9,21 +9,21 @@ meshing.tui.preferences.graphics
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.preferences.graphics
-   :members: event_poll_timeout, point_tool_size, show_hidden_surfaces, enable_non_object_based_workflow, rotation_centerpoint_visible, graphics_window_point_symbol, animation_option, graphics_window_line_width, force_key_frame_animation_markers_to_off, remove_partition_lines, remove_partition_lines_tolerance, min_graphics_text_size, hidden_surface_removal_method, marker_drawing_mode, plot_legend_margin, higher_resolution_graphics_window_line_width, test_use_external_function, switch_to_open_glfor_remote_visualization, text_window_line_width, show_hidden_lines, max_graphics_text_size, lower_resolution_graphics_window_line_width, double_buffering, event_poll_interval, set_camera_normal_to_surface_increments, scroll_wheel_event_end_timer
+   :members: lower_resolution_graphics_window_line_width, plot_legend_margin, rotation_centerpoint_visible, double_buffering, max_graphics_text_size, hidden_surface_removal_method, switch_to_open_glfor_remote_visualization, remove_partition_lines, higher_resolution_graphics_window_line_width, enable_non_object_based_workflow, remove_partition_lines_tolerance, show_hidden_lines, force_key_frame_animation_markers_to_off, text_window_line_width, test_use_external_function, graphics_window_point_symbol, animation_option, marker_drawing_mode, show_hidden_surfaces, point_tool_size, set_camera_normal_to_surface_increments, graphics_window_line_width, event_poll_interval, event_poll_timeout, min_graphics_text_size, scroll_wheel_event_end_timer
 
 .. toctree::
    :hidden:
 
-   export_video_settings/index
    performance/index
-   graphics_effects/index
-   manage_hoops_memory/index
-   vector_settings/index
-   meshing_mode/index
    colormap_settings/index
-   embedded_windows/index
-   material_effects/index
-   boundary_markers/index
-   hardcopy_settings/index
+   meshing_mode/index
    transparency/index
+   boundary_markers/index
+   manage_hoops_memory/index
+   export_video_settings/index
+   material_effects/index
+   hardcopy_settings/index
+   graphics_effects/index
+   embedded_windows/index
    lighting/index
+   vector_settings/index

@@ -9,11 +9,11 @@ solver.tui.results.graphics.expert.set.particle\_tracks
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.results.graphics.expert.set.particle_tracks
-   :members: report_to, twist_factor, particle_skip, coarsen_factor, style, track_single_particle_stream, arrow_space, history_filename, report_default_variables, report_type, report_variables, sphere_attrib, line_width, display, marker_size, arrow_scale, radius
+   :members: sphere_attrib, style, radius, arrow_space, line_width, arrow_scale, report_variables, report_default_variables, marker_size, report_type, history_filename, particle_skip, twist_factor, coarsen_factor, display, track_single_particle_stream, report_to
 
 .. toctree::
    :hidden:
 
-   sphere_settings/index
    filter_settings/index
+   sphere_settings/index
    vector_settings/index

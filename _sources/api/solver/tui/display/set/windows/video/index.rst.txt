@@ -9,5 +9,5 @@ solver.tui.display.set.windows.video
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.display.set.windows.video
-   :members: foreground, background, on, color_filter, pixel_size
+   :members: pixel_size, background, foreground, on, color_filter
 

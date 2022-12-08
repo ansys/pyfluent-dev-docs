@@ -9,17 +9,17 @@ meshing.tui.boundary
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.boundary
-   :members: fix_mconnected_edges, face_skewness, print_info, delete_duplicate_faces, count_unused_nodes, improve_surface_mesh, create_revolved_surface, delete_unused_nodes, mark_bad_quality_faces, check_duplicate_geom, delete_free_edge_faces, make_periodic, resolve_face_intersection, create_plane_surface, merge_small_face_zones, set_periodicity, jiggle_boundary_nodes, merge_nodes, mark_face_proximity, auto_slit_faces, compute_bounding_box, orient_faces_by_point, delete_unused_faces, edge_limits, coarsen_boundary_faces, delete_all_dup_faces, delete_unconnected_faces, mark_face_intersection, recover_periodic_surfaces, face_distribution, count_free_nodes, reset_element_type, check_boundary_mesh, count_unused_bound_node, wrapper, mark_faces_in_region, count_marked_faces, mark_duplicate_nodes, smooth_marked_faces, create_swept_surface, delete_island_faces, slit_boundary_face, unmark_faces_in_zones, count_unused_faces, project_face_zone, clear_marked_faces, create_bounding_box, clear_marked_nodes, create_cylinder, expand_marked_faces_by_rings, scale_nodes, unmark_selected_faces
+   :members: project_face_zone, recover_periodic_surfaces, fix_mconnected_edges, resolve_face_intersection, merge_small_face_zones, create_revolved_surface, wrapper, orient_faces_by_point, smooth_marked_faces, create_plane_surface, mark_duplicate_nodes, set_periodicity, delete_unused_nodes, delete_unconnected_faces, compute_bounding_box, mark_face_proximity, unmark_faces_in_zones, reset_element_type, clear_marked_nodes, mark_faces_in_region, count_unused_bound_node, count_free_nodes, delete_duplicate_faces, merge_nodes, create_bounding_box, unmark_selected_faces, check_duplicate_geom, delete_unused_faces, jiggle_boundary_nodes, improve_surface_mesh, create_cylinder, expand_marked_faces_by_rings, count_unused_nodes, make_periodic, coarsen_boundary_faces, delete_island_faces, mark_bad_quality_faces, delete_all_dup_faces, check_boundary_mesh, count_marked_faces, mark_face_intersection, print_info, auto_slit_faces, clear_marked_faces, scale_nodes, slit_boundary_face, edge_limits, count_unused_faces, face_distribution, face_skewness, delete_free_edge_faces, create_swept_surface
 
 .. toctree::
    :hidden:
 
-   modify/index
+   improve/index
+   separate/index
+   boundary_conditions/index
+   shell_boundary_layer/index
    refine/index
    remesh/index
-   shell_boundary_layer/index
-   separate/index
-   improve/index
-   boundary_conditions/index
-   manage/index
+   modify/index
    feature/index
+   manage/index

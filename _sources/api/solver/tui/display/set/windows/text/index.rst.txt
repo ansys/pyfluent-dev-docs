@@ -9,5 +9,5 @@ solver.tui.display.set.windows.text
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.display.set.windows.text
-   :members: border, visible, application, clear, bottom, alignment, top, date, right, company, left
+   :members: company, right, visible, alignment, date, bottom, clear, left, application, border, top
 

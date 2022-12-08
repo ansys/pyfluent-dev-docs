@@ -9,5 +9,5 @@ solver.tui.results.graphics.update\_scene
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.results.graphics.update_scene
-   :members: iso_sweep, set_frame, select_geometry, overlays, draw_frame, transform, delete, pathline, time, display
+   :members: pathline, iso_sweep, draw_frame, display, transform, delete, set_frame, time, select_geometry, overlays
 

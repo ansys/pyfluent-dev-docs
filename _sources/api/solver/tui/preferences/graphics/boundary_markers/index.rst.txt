@@ -9,5 +9,5 @@ solver.tui.preferences.graphics.boundary\_markers
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.preferences.graphics.boundary_markers
-   :members: marker_size_limiting_scale_multiplier, show_inlet_markers, outlet_color, enabled, marker_fraction, markers_limit, exclude_from_bounding, inlet_color, show_outlet_markers, color_option, scale_marker
+   :members: show_outlet_markers, marker_fraction, enabled, show_inlet_markers, outlet_color, scale_marker, marker_size_limiting_scale_multiplier, color_option, exclude_from_bounding, markers_limit, inlet_color
 

@@ -9,5 +9,5 @@ meshing.tui.mesh.modify
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.mesh.modify
-   :members: mesh_node, clear_selections, auto_node_move, repair_negative_volume_cells, mesh_nodes_on_zone, list_skewed_cells, refine_cell, extract_unused_nodes, deselect_last, auto_improve_warp, list_selections, smooth_node, neighborhood_skew, select_entity, delete_isolated_cells
+   :members: list_selections, list_skewed_cells, select_entity, smooth_node, delete_isolated_cells, refine_cell, mesh_nodes_on_zone, extract_unused_nodes, clear_selections, auto_improve_warp, neighborhood_skew, repair_negative_volume_cells, mesh_node, deselect_last, auto_node_move
 

@@ -9,26 +9,26 @@ meshing.tui.mesh
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.mesh
-   :members: create_frustrum, auto_prefix_cell_zones, repair_face_handedness, create_heat_exchanger, clear_undo_stack, reset_mesh_parameter, check_mesh, selective_mesh_check, prepare_for_solve, auto_mesh, deactivate_lean_datastructures, check_quality_level, list_mesh_parameter, check_quality, reset_mesh, activate_lean_datastructures, zone_names_clean_up, auto_mesh_multiple_objects, laplace_smooth_nodes, clear_mesh, cutcell
+   :members: check_quality, laplace_smooth_nodes, activate_lean_datastructures, check_quality_level, selective_mesh_check, prepare_for_solve, auto_mesh_multiple_objects, check_mesh, cutcell, zone_names_clean_up, reset_mesh, reset_mesh_parameter, repair_face_handedness, clear_undo_stack, create_heat_exchanger, auto_prefix_cell_zones, deactivate_lean_datastructures, auto_mesh, create_frustrum, clear_mesh, list_mesh_parameter
 
 .. toctree::
    :hidden:
 
-   cell_zone_conditions/index
-   tet/index
-   auto_mesh_controls/index
    poly_hexcore/index
+   cell_zone_conditions/index
+   domains/index
+   cavity/index
    prism/index
    non_conformals/index
-   separate/index
-   manage/index
-   cavity/index
-   cartesian/index
-   thin_volume_mesh/index
    modify/index
    hexcore/index
-   domains/index
-   rapid_octree/index
-   poly/index
+   separate/index
    scoped_prisms/index
+   rapid_octree/index
+   tet/index
+   auto_mesh_controls/index
+   manage/index
+   poly/index
+   cartesian/index
    pyramid/index
+   thin_volume_mesh/index

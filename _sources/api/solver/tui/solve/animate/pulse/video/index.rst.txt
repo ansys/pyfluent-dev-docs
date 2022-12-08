@@ -9,7 +9,7 @@ solver.tui.solve.animate.pulse.video
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.solve.animate.pulse.video
-   :members: use_original_resolution, format, quality, fps, scale, width, set_standard_resolution, height, name
+   :members: scale, format, use_original_resolution, set_standard_resolution, fps, height, width, name, quality
 
 .. toctree::
    :hidden:

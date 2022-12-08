@@ -9,15 +9,15 @@ solver.tui.setup.boundary\_conditions
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.setup.boundary_conditions
-   :members: pressure_outlet, axis, network_end, porous_jump, mass_flow_outlet, wall, copy_bc, outlet_vent, outflow, radiator, geometry, fluid, zone_name, exhaust_fan, degassing, periodic, inlet_vent, rans_les_interface, pressure_far_field, mass_flow_inlet, interface, pressure_inlet, overset, solid, list_zones, velocity_inlet, recirculation_outlet, symmetry, interior, intake_fan, network, recirculation_inlet, zone_type, shadow, fan
+   :members: wall, intake_fan, exhaust_fan, zone_name, pressure_outlet, degassing, pressure_far_field, inlet_vent, radiator, interface, fluid, fan, copy_bc, axis, interior, mass_flow_outlet, rans_les_interface, outlet_vent, solid, network, shadow, recirculation_inlet, porous_jump, outflow, list_zones, recirculation_outlet, mass_flow_inlet, pressure_inlet, zone_type, overset, velocity_inlet, periodic, network_end, symmetry, geometry
 
 .. toctree::
    :hidden:
 
    set/index
+   query/index
    expert/index
-   modify_zones/index
+   bc_settings/index
    profiles/index
    rename_zone/index
-   query/index
-   bc_settings/index
+   modify_zones/index
