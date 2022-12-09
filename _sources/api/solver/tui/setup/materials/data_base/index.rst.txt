@@ -9,5 +9,5 @@ solver.tui.setup.materials.data\_base
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.setup.materials.data_base
-   :members: list_properties, save, database_type, new, edit, list_materials
+   :members: list_materials, list_properties, new, save, edit, database_type
 

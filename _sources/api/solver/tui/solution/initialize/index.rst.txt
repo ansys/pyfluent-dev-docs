@@ -9,12 +9,12 @@ solver.tui.solution.initialize
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.solution.initialize
-   :members: set_hyb_initialization, initialize_flow, patch, dpm_reset, show_iterations_sampled, set_defaults, fmg_initialization, init_acoustics_options, open_channel_auto_init, init_flow_statistics, reference_frame, init_turb_vel_fluctuations, list_defaults, show_time_sampled, repair_wall_distance, lwf_initialization, hyb_initialization, set_fmg_initialization, levelset_auto_init
+   :members: repair_wall_distance, init_turb_vel_fluctuations, init_flow_statistics, show_iterations_sampled, dpm_reset, set_fmg_initialization, levelset_auto_init, set_hyb_initialization, open_channel_auto_init, initialize_flow, show_time_sampled, reference_frame, hyb_initialization, lwf_initialization, set_defaults, init_acoustics_options, list_defaults, patch, fmg_initialization
 
 .. toctree::
    :hidden:
 
-   mp_localized_turb_init/index
    vof_patch_smooth_options/index
-   set_fmg_options/index
    compute_defaults/index
+   mp_localized_turb_init/index
+   set_fmg_options/index

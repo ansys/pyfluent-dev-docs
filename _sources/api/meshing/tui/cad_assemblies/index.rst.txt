@@ -9,12 +9,12 @@ meshing.tui.cad\_assemblies
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.cad_assemblies
-   :members: delete_cad_assemblies, replace_object, rename, add_to_object, create_objects, update_cad_assemblies, add_prefix, extract_edges_zones, draw
+   :members: draw, delete_cad_assemblies, add_prefix, extract_edges_zones, add_to_object, replace_object, rename, update_cad_assemblies, create_objects
 
 .. toctree::
    :hidden:
 
-   draw_options/index
    update_options/index
    labels/index
    manage_state/index
+   draw_options/index

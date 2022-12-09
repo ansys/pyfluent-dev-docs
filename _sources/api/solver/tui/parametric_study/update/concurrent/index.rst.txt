@@ -15,5 +15,5 @@ solver.tui.parametric\_study.update.concurrent
    :hidden:
 
    set/index
-   print_to_console/index
    licensing/index
+   print_to_console/index

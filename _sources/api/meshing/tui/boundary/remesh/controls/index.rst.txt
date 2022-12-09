@@ -9,7 +9,7 @@ meshing.tui.boundary.remesh.controls
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.boundary.remesh.controls
-   :members: spacing, quadratic_recon, project_method, tolerance, direction, proximity_local_search, remesh_method, delete_overlapped
+   :members: delete_overlapped, direction, proximity_local_search, tolerance, remesh_method, quadratic_recon, spacing, project_method
 
 .. toctree::
    :hidden:

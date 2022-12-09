@@ -14,7 +14,7 @@ solver.tui.results
 
    animate/index
    plot/index
-   surface/index
    report/index
    graphics_window/index
    graphics/index
+   surface/index

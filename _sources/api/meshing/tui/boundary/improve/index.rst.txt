@@ -9,5 +9,5 @@ meshing.tui.boundary.improve
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.boundary.improve
-   :members: smooth, improve, swap, degree_swap, collapse_bad_faces
+   :members: smooth, collapse_bad_faces, improve, degree_swap, swap
 

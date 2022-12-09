@@ -9,10 +9,10 @@ solver.tui.setup.models.optics
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.setup.models.optics
-   :members: index_of_refraction, verbosity, enable, sampling_iterations, report
+   :members: verbosity, report, enable, index_of_refraction, sampling_iterations
 
 .. toctree::
    :hidden:
 
-   statistics/index
    beams/index
+   statistics/index
