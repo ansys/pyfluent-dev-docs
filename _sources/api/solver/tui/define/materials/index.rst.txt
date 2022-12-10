@@ -9,7 +9,7 @@ solver.tui.define.materials
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.define.materials
-   :members: change_create, list_properties, list_materials, delete, copy_by_formula, copy
+   :members: copy, list_materials, copy_by_formula, change_create, delete, list_properties
 
 .. toctree::
    :hidden:

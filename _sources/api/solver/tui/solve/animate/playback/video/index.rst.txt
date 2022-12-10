@@ -9,7 +9,7 @@ solver.tui.solve.animate.playback.video
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.solve.animate.playback.video
-   :members: height, scale, fps, format, set_standard_resolution, name, use_original_resolution, quality, width
+   :members: use_original_resolution, fps, format, scale, set_standard_resolution, width, name, height, quality
 
 .. toctree::
    :hidden:

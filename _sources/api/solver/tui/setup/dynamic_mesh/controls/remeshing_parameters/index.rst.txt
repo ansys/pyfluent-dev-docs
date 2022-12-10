@@ -9,11 +9,11 @@ solver.tui.setup.dynamic\_mesh.controls.remeshing\_parameters
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.setup.dynamic_mesh.controls.remeshing_parameters
-   :members: poly_remeshing, retain_size_distribution, sizing_function, size_remesh_interval, parallel_remeshing, length_min, sizing_funct_variation, sizing_funct_defaults, remeshing_after_moving, sizing_funct_resolution, face_skew_max, unified_remeshing, cell_skew_max, zone_remeshing, length_max, sizing_funct_rate, remeshing_methods
+   :members: remeshing_after_moving, sizing_funct_resolution, length_min, remeshing_methods, size_remesh_interval, zone_remeshing, length_max, sizing_funct_rate, unified_remeshing, parallel_remeshing, cell_skew_max, sizing_funct_defaults, sizing_funct_variation, face_skew_max, poly_remeshing, sizing_function, retain_size_distribution
 
 .. toctree::
    :hidden:
 
    sizing_controls/index
-   prism_layer_parameters/index
    prism_controls/index
+   prism_layer_parameters/index

@@ -9,5 +9,5 @@ meshing.tui.mesh.prism.controls.proximity
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.mesh.prism.controls.proximity
-   :members: max_shrink_factor, allow_shrinkage, max_aspect_ratio, allow_ignore, gap_factor, keep_first_layer_offsets
+   :members: gap_factor, max_shrink_factor, max_aspect_ratio, allow_ignore, allow_shrinkage, keep_first_layer_offsets
 
