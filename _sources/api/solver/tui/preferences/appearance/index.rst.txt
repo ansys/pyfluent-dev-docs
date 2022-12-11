@@ -9,11 +9,11 @@ solver.tui.preferences.appearance
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.preferences.appearance
-   :members: show_enabled_models, graphics_default_manual_face_color, surface_emissivity, custom_title_bar, titles, model_color_scheme, axis_triad, show_interface_children_zone, titles_border_offset, graphics_foreground_color, graphics_wall_face_color, graphics_view, number_of_pastel_colors, color_theme, surface_specularity_for_contours, show_model_edges, group_by_tree_view, graphics_background_color1, completer, pastel_color_saturation, graphics_background_color2, application_font_size, graphics_partition_boundary_color, graphics_title_window_framecolor, surface_specularity, graphics_default_manual_node_color, graphics_surface_color, default_view, graphics_edge_color, graphics_color_theme, quick_property_view, number_of_files_recently_used, solution_mode_edge_color_in_meshing_mode, pastel_color_value, ruler, graphics_background_style
+   :members: pastel_color_saturation, default_view, pastel_color_value, ruler, model_color_scheme, number_of_pastel_colors, graphics_background_color1, show_model_edges, surface_specularity_for_contours, color_theme, graphics_color_theme, graphics_background_color2, graphics_view, graphics_edge_color, titles_border_offset, surface_emissivity, graphics_default_manual_node_color, graphics_foreground_color, graphics_background_style, graphics_wall_face_color, graphics_title_window_framecolor, graphics_surface_color, show_enabled_models, graphics_partition_boundary_color, show_interface_children_zone, completer, graphics_default_manual_face_color, group_by_tree_view, surface_specularity, quick_property_view, application_font_size, solution_mode_edge_color_in_meshing_mode, number_of_files_recently_used, custom_title_bar, axis_triad, titles
 
 .. toctree::
    :hidden:
 
-   selections/index
-   charts/index
    ansys_logo/index
+   charts/index
+   selections/index

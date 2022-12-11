@@ -9,5 +9,5 @@ meshing.tui.objects.volumetric\_regions.scoped\_prism.set
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.objects.volumetric_regions.scoped_prism.set
-   :members: set_no_imprint_zones, list, write, growth_options, modify, read, set_overset_prism_controls, poly_keep_nlayer_prism_characteristics, create, set_advanced_controls, delete
+   :members: create, set_overset_prism_controls, delete, poly_keep_nlayer_prism_characteristics, write, set_advanced_controls, modify, list, growth_options, set_no_imprint_zones, read
 

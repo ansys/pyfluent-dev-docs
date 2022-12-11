@@ -9,5 +9,5 @@ meshing.tui.objects.volumetric\_regions.hexcore.set.outer\_domain\_params
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.objects.volumetric_regions.hexcore.set.outer_domain_params
-   :members: delete_old_face_zones, list, auto_align, auto_align_tolerance, coordinates, specify_coordinates, auto_align_boundaries, boundaries, specify_boundaries
+   :members: boundaries, coordinates, specify_boundaries, list, delete_old_face_zones, auto_align_boundaries, auto_align, specify_coordinates, auto_align_tolerance
 

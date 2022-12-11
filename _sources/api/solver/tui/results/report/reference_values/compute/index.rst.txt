@@ -9,5 +9,5 @@ solver.tui.results.report.reference\_values.compute
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.results.report.reference_values.compute
-   :members: mass_flow_outlet, intake_fan, velocity_inlet, geometry, mass_flow_inlet, porous_jump, outflow, solid, fan, fluid, recirculation_inlet, pressure_far_field, dummy_entry, periodic, network, interior, interface, outlet_vent, radiator, degassing, overset, shadow, recirculation_outlet, inlet_vent, pressure_inlet, exhaust_fan, axis, pressure_outlet, symmetry, network_end, wall, rans_les_interface
+   :members: outlet_vent, network_end, wall, symmetry, pressure_far_field, rans_les_interface, fluid, mass_flow_outlet, recirculation_inlet, recirculation_outlet, outflow, solid, axis, porous_jump, degassing, network, inlet_vent, dummy_entry, velocity_inlet, mass_flow_inlet, interior, overset, periodic, radiator, pressure_inlet, shadow, interface, fan, exhaust_fan, geometry, intake_fan, pressure_outlet
 

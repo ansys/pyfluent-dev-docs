@@ -9,30 +9,30 @@ solver.tui.define
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.define
-   :members: injections, beta_feature_access, physics, set_unit_system, enable_mesh_morpher_optimizer, units
+   :members: injections, set_unit_system, units, physics, beta_feature_access, enable_mesh_morpher_optimizer
 
 .. toctree::
    :hidden:
 
-   boundary_conditions/index
-   parameters/index
-   phases/index
-   custom_field_functions/index
-   materials/index
-   operating_conditions/index
-   overset_interfaces/index
-   curvilinear_coordinate_system/index
-   spectral/index
-   reference_frames/index
-   user_defined/index
-   models/index
-   named_expressions/index
-   dynamic_mesh/index
-   mesh_interfaces/index
-   virtual_boundary/index
-   profiles/index
-   solution_strategy/index
    gap_model/index
    mixing_planes/index
+   named_expressions/index
+   user_defined/index
+   overset_interfaces/index
+   operating_conditions/index
+   dynamic_mesh/index
+   curvilinear_coordinate_system/index
    periodic_conditions/index
+   mesh_interfaces/index
+   spectral/index
+   materials/index
+   profiles/index
+   virtual_boundary/index
+   parameters/index
+   custom_field_functions/index
    turbo_model/index
+   phases/index
+   reference_frames/index
+   boundary_conditions/index
+   models/index
+   solution_strategy/index

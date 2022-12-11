@@ -9,5 +9,5 @@ solver.tui.display.set.velocity\_vectors
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.display.set.velocity_vectors
-   :members: log_scale, component_z, color, color_levels, relative, component_x, render_mesh, global_range, auto_scale, constant_length, scale, component_y, style, node_values, scale_head, surfaces, in_plane
+   :members: render_mesh, node_values, auto_scale, surfaces, relative, constant_length, color_levels, component_z, component_x, in_plane, log_scale, global_range, color, style, component_y, scale, scale_head
 

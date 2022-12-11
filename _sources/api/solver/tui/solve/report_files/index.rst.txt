@@ -9,5 +9,5 @@ solver.tui.solve.report\_files
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.solve.report_files
-   :members: add, list_properties, clear_data, edit, list, delete_all, delete
+   :members: add, list_properties, edit, delete, clear_data, list, delete_all
 

@@ -9,21 +9,21 @@ meshing.tui.preferences.graphics
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.preferences.graphics
-   :members: animation_option, remove_partition_lines, marker_drawing_mode, switch_to_open_glfor_remote_visualization, point_tool_size, hidden_surface_removal_method, show_hidden_surfaces, enable_non_object_based_workflow, remove_partition_lines_tolerance, test_use_external_function, graphics_window_line_width, plot_legend_margin, event_poll_timeout, show_hidden_lines, double_buffering, event_poll_interval, max_graphics_text_size, higher_resolution_graphics_window_line_width, min_graphics_text_size, rotation_centerpoint_visible, text_window_line_width, lower_resolution_graphics_window_line_width, set_camera_normal_to_surface_increments, force_key_frame_animation_markers_to_off, scroll_wheel_event_end_timer, graphics_window_point_symbol
+   :members: force_key_frame_animation_markers_to_off, marker_drawing_mode, enable_non_object_based_workflow, test_use_external_function, plot_legend_margin, lower_resolution_graphics_window_line_width, graphics_window_line_width, scroll_wheel_event_end_timer, rotation_centerpoint_visible, hidden_surface_removal_method, show_hidden_surfaces, event_poll_interval, text_window_line_width, double_buffering, switch_to_open_glfor_remote_visualization, event_poll_timeout, higher_resolution_graphics_window_line_width, animation_option, min_graphics_text_size, set_camera_normal_to_surface_increments, graphics_window_point_symbol, max_graphics_text_size, point_tool_size, remove_partition_lines, show_hidden_lines, remove_partition_lines_tolerance
 
 .. toctree::
    :hidden:
 
-   meshing_mode/index
-   lighting/index
-   colormap_settings/index
-   transparency/index
-   vector_settings/index
-   graphics_effects/index
-   performance/index
-   material_effects/index
    boundary_markers/index
    export_video_settings/index
-   hardcopy_settings/index
+   colormap_settings/index
+   transparency/index
    manage_hoops_memory/index
+   lighting/index
+   hardcopy_settings/index
+   vector_settings/index
+   material_effects/index
    embedded_windows/index
+   performance/index
+   meshing_mode/index
+   graphics_effects/index

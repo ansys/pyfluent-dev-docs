@@ -9,5 +9,5 @@ meshing.tui.mesh.scoped\_prisms
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.mesh.scoped_prisms
-   :members: create, write, list, set_no_imprint_zones, set_overset_prism_controls, delete, modify, read, growth_options, poly_keep_nlayer_prism_characteristics, set_advanced_controls
+   :members: read, modify, poly_keep_nlayer_prism_characteristics, set_overset_prism_controls, delete, create, growth_options, set_no_imprint_zones, list, write, set_advanced_controls
 

@@ -9,5 +9,5 @@ solver.tui.solution.report\_definitions
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.solution.report_definitions
-   :members: add, copy, list_properties, delete, list, compute, delete_all, rename, edit
+   :members: delete, compute, list_properties, list, delete_all, rename, edit, add, copy
 

@@ -9,12 +9,12 @@ solver.tui.solution.controls
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.solution.controls
-   :members: courant_number, p_v_controls, equations, set_controls_to_default, relaxation_factor, under_relaxation, limits
+   :members: limits, p_v_controls, courant_number, equations, relaxation_factor, set_controls_to_default, under_relaxation
 
 .. toctree::
    :hidden:
 
-   query/index
    advanced/index
-   acoustics_wave_equation_controls/index
    contact_solution_controls/index
+   acoustics_wave_equation_controls/index
+   query/index
