@@ -9,21 +9,21 @@ solver.tui.preferences.graphics
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.preferences.graphics
-   :members: force_key_frame_animation_markers_to_off, higher_resolution_graphics_window_line_width, test_use_external_function, min_graphics_text_size, max_graphics_text_size, lower_resolution_graphics_window_line_width, point_tool_size, remove_partition_lines, graphics_window_point_symbol, double_buffering, text_window_line_width, plot_legend_margin, event_poll_timeout, enable_non_object_based_workflow, graphics_window_line_width, set_camera_normal_to_surface_increments, switch_to_open_glfor_remote_visualization, scroll_wheel_event_end_timer, remove_partition_lines_tolerance, marker_drawing_mode, show_hidden_lines, event_poll_interval, show_hidden_surfaces, rotation_centerpoint_visible, hidden_surface_removal_method, animation_option
+   :members: lower_resolution_graphics_window_line_width, animation_option, enable_non_object_based_workflow, text_window_line_width, point_tool_size, min_graphics_text_size, switch_to_open_glfor_remote_visualization, show_hidden_surfaces, graphics_window_point_symbol, plot_legend_margin, double_buffering, event_poll_timeout, test_use_external_function, force_key_frame_animation_markers_to_off, set_camera_normal_to_surface_increments, rotation_centerpoint_visible, hidden_surface_removal_method, event_poll_interval, max_graphics_text_size, remove_partition_lines_tolerance, scroll_wheel_event_end_timer, show_hidden_lines, marker_drawing_mode, higher_resolution_graphics_window_line_width, graphics_window_line_width, remove_partition_lines
 
 .. toctree::
    :hidden:
 
    meshing_mode/index
-   embedded_windows/index
    vector_settings/index
-   lighting/index
-   export_video_settings/index
-   graphics_effects/index
    hardcopy_settings/index
    colormap_settings/index
-   boundary_markers/index
-   material_effects/index
-   manage_hoops_memory/index
-   performance/index
+   export_video_settings/index
    transparency/index
+   boundary_markers/index
+   manage_hoops_memory/index
+   embedded_windows/index
+   lighting/index
+   material_effects/index
+   performance/index
+   graphics_effects/index

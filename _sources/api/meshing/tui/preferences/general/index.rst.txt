@@ -9,5 +9,5 @@ meshing.tui.preferences.general
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.preferences.general
-   :members: laplace_auto_partition_default, qaservice_message, utlcreate_physics_on_mode_change, enable_parametric_study, utlmode, automatic_transcript, initial_physics_volume_definitions, default_ioformat, advanced_partition, key_behavioral_changes_message, dock_editor, flow_model, idle_timeout
+   :members: enable_parametric_study, idle_timeout, utlmode, advanced_partition, utlcreate_physics_on_mode_change, dock_editor, automatic_transcript, qaservice_message, initial_physics_volume_definitions, key_behavioral_changes_message, flow_model, laplace_auto_partition_default, default_ioformat
 

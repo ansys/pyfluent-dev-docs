@@ -9,7 +9,7 @@ solver.tui.setup.models.dpm.parallel
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.setup.models.dpm.parallel
-   :members: use_message_passing, hybrid_collision_variant, use_hybrid, hybrid_2domain, report, hybrid_workpile, use_shared_memory, enable_workpile, hybrid_collision_unidirectional, fix_source_term_accumulation_order, n_threads, hybrid_collision_model
+   :members: hybrid_collision_unidirectional, n_threads, use_message_passing, use_shared_memory, use_hybrid, fix_source_term_accumulation_order, hybrid_2domain, hybrid_workpile, enable_workpile, hybrid_collision_variant, hybrid_collision_model, report
 
 .. toctree::
    :hidden:

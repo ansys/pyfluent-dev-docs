@@ -9,5 +9,5 @@ solver.tui.preferences.appearance.charts.font
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.preferences.appearance.charts.font
-   :members: title, legend, axes_titles, axes
+   :members: axes_titles, title, legend, axes
 

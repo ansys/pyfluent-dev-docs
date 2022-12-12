@@ -9,13 +9,13 @@ solver.tui.setup.models.viscous
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.setup.models.viscous
-   :members: sa_enhanced_wall_treatment, ke_standard, kw_low_re_correction, les_subgrid_wale, reynolds_stress_model, low_pressure_boundary_slip, rsm_solve_tke, rng_swirl_model, rsm_or_earsm_geko_option, user_defined_transition, kw_shear_correction, ke_easm, les_dynamic_energy_flux, turb_buoyancy_effects, kw_easm, sas, les_subgrid_wmles_s_minus_omega, rsm_ssg_pressure_strain, les_subgrid_smagorinsky, laminar, rng_differential_visc, user_defined, k_kl_w, kw_wj_bsl_earsm, kw_bsl, rsm_bsl_based, les_subgrid_dynamic_fvar, inviscid, ke_rng, ke_realizable, curvature_correction, v2f, add_transition_model, des_limiter_option, kw_standard, detached_eddy_simulation, sa_alternate_prod, mixing_length, corner_flow_correction, les_dynamic_scalar_flux, corner_flow_correction_ccorner, curvature_correction_ccurv, trans_sst_roughness_correlation, les_subgrid_tke, transition_sst, ke1e, zero_equation_hvac, les_subgrid_wmles, rsm_wall_echo, rsm_omega_based, large_eddy_simulation, spalart_allmaras, kw_sst, kw_geko, rsm_linear_pressure_strain, sa_damping, turb_compressibility, les_subgrid_rng
+   :members: les_subgrid_wmles_s_minus_omega, kw_easm, user_defined, k_kl_w, rng_swirl_model, kw_bsl, spalart_allmaras, large_eddy_simulation, rsm_bsl_based, detached_eddy_simulation, les_subgrid_dynamic_fvar, des_limiter_option, v2f, les_dynamic_scalar_flux, les_subgrid_smagorinsky, sas, turb_buoyancy_effects, kw_low_re_correction, les_subgrid_rng, les_subgrid_tke, ke_standard, rsm_solve_tke, ke_rng, turb_compressibility, kw_geko, trans_sst_roughness_correlation, sa_enhanced_wall_treatment, ke_easm, add_transition_model, mixing_length, corner_flow_correction, curvature_correction_ccurv, rng_differential_visc, rsm_ssg_pressure_strain, transition_sst, rsm_linear_pressure_strain, corner_flow_correction_ccorner, kw_sst, rsm_omega_based, inviscid, laminar, kw_shear_correction, sa_alternate_prod, les_subgrid_wale, les_subgrid_wmles, user_defined_transition, sa_damping, reynolds_stress_model, rsm_wall_echo, ke_realizable, low_pressure_boundary_slip, les_dynamic_energy_flux, curvature_correction, rsm_or_earsm_geko_option, kw_wj_bsl_earsm, zero_equation_hvac, kw_standard, ke1e
 
 .. toctree::
    :hidden:
 
    multiphase_turbulence/index
+   transition_model_options/index
    turbulence_expert/index
    near_wall_treatment/index
    geko_options/index
-   transition_model_options/index
