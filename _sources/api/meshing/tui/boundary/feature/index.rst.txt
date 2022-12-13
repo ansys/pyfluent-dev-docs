@@ -9,5 +9,5 @@ meshing.tui.boundary.feature
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.boundary.feature
-   :members: remesh_edge_zones, delete_edge_zones, ungroup, toggle_edge_type, group, delete_degenerated_edges, separate_edge_zones, merge_edge_zones, list_edge_zones, reverse_edge_direction, edge_size_limits, separate_edge_zones_by_seed, create_edge_zones, orient_edge_direction, copy_edge_zones, project_edge_zones, separate_delete_small_edges, intersect_edge_zones
+   :members: create_edge_zones, separate_edge_zones, orient_edge_direction, copy_edge_zones, list_edge_zones, remesh_edge_zones, merge_edge_zones, separate_edge_zones_by_seed, delete_degenerated_edges, edge_size_limits, ungroup, group, separate_delete_small_edges, reverse_edge_direction, delete_edge_zones, intersect_edge_zones, project_edge_zones, toggle_edge_type
 

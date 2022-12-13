@@ -9,15 +9,15 @@ solver.tui.define.models.multiphase
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.define.models.multiphase
-   :members: volume_fraction_parameters, regime_transition_modeling, model, number_of_phases, mixture_parameters, interface_modeling_options, coupled_level_set, body_force_formulation, vof_sub_models
+   :members: volume_fraction_parameters, vof_sub_models, number_of_phases, regime_transition_modeling, coupled_level_set, interface_modeling_options, model, body_force_formulation, mixture_parameters
 
 .. toctree::
    :hidden:
 
-   wet_steam/index
-   explicit_expert_options/index
-   hybrid_models/index
-   population_balance/index
    phases/index
-   flow_regime_modeling/index
+   wet_steam/index
+   hybrid_models/index
    sub_models/index
+   explicit_expert_options/index
+   flow_regime_modeling/index
+   population_balance/index

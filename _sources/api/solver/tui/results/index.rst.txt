@@ -12,9 +12,9 @@ solver.tui.results
 .. toctree::
    :hidden:
 
-   report/index
-   graphics_window/index
    plot/index
-   animate/index
    surface/index
+   animate/index
+   report/index
    graphics/index
+   graphics_window/index

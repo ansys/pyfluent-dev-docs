@@ -9,5 +9,5 @@ meshing.tui.mesh.cavity
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.mesh.cavity
-   :members: remesh_hexcore_cavity, add_zones, merge_cavity, replace_zones, create_hexcore_cavity_by_scale, region, create_hexcore_cavity_by_region, remove_zones
+   :members: create_hexcore_cavity_by_region, add_zones, region, remesh_hexcore_cavity, remove_zones, replace_zones, create_hexcore_cavity_by_scale, merge_cavity
 

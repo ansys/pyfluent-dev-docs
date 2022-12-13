@@ -9,15 +9,15 @@ solver.tui.solution.controls.contact\_solution\_controls
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.solution.controls.contact_solution_controls
-   :members: solution_stabilization, verbosity, set_settings_to_default
+   :members: verbosity, solution_stabilization, set_settings_to_default
 
 .. toctree::
    :hidden:
 
    transient/index
+   parameters/index
+   miscellaneous/index
    amg/index
+   methods/index
    spatial/index
    models/index
-   miscellaneous/index
-   methods/index
-   parameters/index

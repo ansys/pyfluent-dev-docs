@@ -14,5 +14,5 @@ solver.tui.solve.animate
 
    pulse/index
    objects/index
-   playback/index
    define/index
+   playback/index

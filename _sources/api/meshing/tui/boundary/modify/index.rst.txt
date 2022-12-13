@@ -9,5 +9,5 @@ meshing.tui.boundary.modify
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.boundary.modify
-   :members: create, move, split_face, select_zone, select_visible_entities, smooth, local_remesh, deselect_last, swap, mark_skew_face, show_filter, patch_options, undo, hole_feature_angle, list_selections, collapse, delete, clear_selections, create_mid_node, skew, analyze_bnd_connectvty, merge, auto_patch_holes, skew_report_zone, next_skew, delta_move, rezone, select_entity, select_filter, show_probe, select_probe, select_position, clear_skew_faces
+   :members: skew, merge, collapse, delete, hole_feature_angle, select_filter, move, analyze_bnd_connectvty, swap, delta_move, create, select_entity, show_filter, select_visible_entities, select_probe, select_position, local_remesh, list_selections, deselect_last, auto_patch_holes, skew_report_zone, smooth, patch_options, clear_selections, select_zone, rezone, undo, show_probe, next_skew, create_mid_node, split_face, mark_skew_face, clear_skew_faces
 

@@ -9,7 +9,7 @@ meshing.tui.objects.volumetric\_regions.hexcore.set
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.objects.volumetric_regions.hexcore.set
-   :members: print_region_based_sizing, delete_dead_zones, peel_layers, avoid_1_by_8_cell_jump_in_hexcore, octree_hexcore, merge_tets_to_pyramids, buffer_layers, maximum_initial_cells, set_region_based_sizing, define_hexcore_extents, maximum_cell_length, compute_max_cell_length, non_fluid_type, skip_tet_refinement
+   :members: compute_max_cell_length, merge_tets_to_pyramids, skip_tet_refinement, avoid_1_by_8_cell_jump_in_hexcore, octree_hexcore, maximum_initial_cells, delete_dead_zones, define_hexcore_extents, buffer_layers, non_fluid_type, peel_layers, set_region_based_sizing, maximum_cell_length, print_region_based_sizing
 
 .. toctree::
    :hidden:

@@ -9,7 +9,7 @@ solver.tui.file.export
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.file.export
-   :members: fieldview_unstruct_data, particle_history_data, mechanical_apdl, common_fluids_format_post, cdat_for_cfd_post__and__ensight, custom_heat_flux, avs, tecplot, fieldview_unstruct_surfaces, patran_nodal, gambit, system_coupling_definition_file_settings, nastran, taitherm, ensight_gold_parallel_volume, ideas, ascii, fast_mesh, ensight_dvs_surfaces, fieldview_data, fieldview, patran_neutral, fast_scalar, ensight_gold, abaqus, mechanical_apdl_input, cgns, icemcfd_for_icepak, dx, ensight, ensight_dvs_volume, fast_velocity, fieldview_unstruct, fast_solution, ensight_gold_parallel_surfaces, fieldview_unstruct_mesh, fieldview_xdb
+   :members: fast_solution, fieldview_unstruct_data, cdat_for_cfd_post__and__ensight, gambit, ideas, mechanical_apdl, icemcfd_for_icepak, patran_neutral, fieldview_unstruct_mesh, ascii, dx, cgns, abaqus, system_coupling_definition_file_settings, ensight, fieldview, fast_velocity, ensight_dvs_volume, patran_nodal, mechanical_apdl_input, tecplot, ensight_gold, fieldview_unstruct_surfaces, ensight_dvs_surfaces, fast_mesh, avs, fast_scalar, fieldview_unstruct, ensight_gold_parallel_surfaces, particle_history_data, ensight_gold_parallel_volume, common_fluids_format_post, nastran, taitherm, fieldview_data, custom_heat_flux, fieldview_xdb
 
 .. toctree::
    :hidden:

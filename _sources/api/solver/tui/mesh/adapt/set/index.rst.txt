@@ -9,5 +9,5 @@ solver.tui.mesh.adapt.set
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.mesh.adapt.set
-   :members: encapsulate_children, minimum_edge_length, cell_zones, anisotropic_boundary_zones, minimum_cell_quality, anisotropic_split_ratio, display_settings, dynamic_adaption_frequency, dynamic_adaption, maximum_cell_count, maximum_refinement_level, anisotropic_adaption, verbosity, method, overset_adapt_dead_cells, additional_refinement_layers
+   :members: minimum_cell_quality, additional_refinement_layers, dynamic_adaption, minimum_edge_length, anisotropic_split_ratio, encapsulate_children, display_settings, maximum_refinement_level, maximum_cell_count, cell_zones, overset_adapt_dead_cells, anisotropic_adaption, method, anisotropic_boundary_zones, verbosity, dynamic_adaption_frequency
 

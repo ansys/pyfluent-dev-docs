@@ -9,7 +9,7 @@ solver.tui.define.models.dpm.numerics.high\_resolution\_tracking
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.define.models.dpm.numerics.high_resolution_tracking
-   :members: sliding_interface_crossover_fraction, check_subtet_validity, enable_automatic_intersection_tolerance, remove_stuck_particles, use_quad_face_centroid, enable_barycentric_intersections, set_subtet_intersection_tolerance, use_barycentric_sampling, boundary_layer_tracking, enable_high_resolution_tracking, use_particle_timestep_for_intersection_tolerance, use_velocity_based_error_control, set_film_spreading_parameter, always_use_face_centroid_with_periodics, project_wall_film_particles_to_film
+   :members: set_subtet_intersection_tolerance, enable_automatic_intersection_tolerance, always_use_face_centroid_with_periodics, enable_high_resolution_tracking, use_particle_timestep_for_intersection_tolerance, use_velocity_based_error_control, sliding_interface_crossover_fraction, project_wall_film_particles_to_film, check_subtet_validity, use_barycentric_sampling, remove_stuck_particles, enable_barycentric_intersections, use_quad_face_centroid, boundary_layer_tracking, set_film_spreading_parameter
 
 .. toctree::
    :hidden:

@@ -9,5 +9,5 @@ meshing.tui.boundary.remesh.controls.intersect
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.boundary.remesh.controls.intersect
-   :members: retri_improve, absolute_tolerance, refine_region, delete_overlap, within_tolerance, join_project_angle, stitch_preserve, feature_angle, remesh_post_intersection, tolerance, separate, join_match_angle, ignore_parallel_faces
+   :members: stitch_preserve, tolerance, refine_region, remesh_post_intersection, delete_overlap, retri_improve, feature_angle, absolute_tolerance, ignore_parallel_faces, join_project_angle, separate, join_match_angle, within_tolerance
 

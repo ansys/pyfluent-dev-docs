@@ -9,7 +9,7 @@ meshing.tui.objects.volumetric\_regions
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.meshing.tui_231::main_menu.objects.volumetric_regions
-   :members: fill_empty_volume, rename, compute, delete_cells, update, auto_fill_volume, list, merge_cells, change_type, merge, delete
+   :members: fill_empty_volume, merge_cells, compute, update, list, delete, auto_fill_volume, change_type, merge, delete_cells, rename
 
 .. toctree::
    :hidden:

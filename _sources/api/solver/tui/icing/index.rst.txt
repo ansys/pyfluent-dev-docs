@@ -9,5 +9,5 @@ solver.tui.icing
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.icing
-   :members: multishot, drop, flow, ice, settings, file
+   :members: drop, ice, file, settings, multishot, flow
 

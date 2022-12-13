@@ -9,30 +9,30 @@ solver.tui
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu
-   :members: print_license_usage, close_fluent, switch_to_meshing_mode, exit
+   :members: switch_to_meshing_mode, close_fluent, print_license_usage, exit
 
 .. toctree::
    :hidden:
 
-   display/index
-   surface/index
-   turbo_workflow/index
-   parametric_study/index
-   adjoint/index
-   plot/index
-   mesh/index
-   icing/index
-   preferences/index
-   file/index
-   report/index
-   parameters__and__customization/index
-   simulation_reports/index
-   define/index
-   results/index
-   solution/index
-   solve/index
    setup/index
    parallel/index
+   define/index
+   solve/index
    turbo_post/index
-   server/index
    views/index
+   server/index
+   turbo_workflow/index
+   mesh/index
+   icing/index
+   simulation_reports/index
+   display/index
+   plot/index
+   parametric_study/index
+   report/index
+   preferences/index
+   parameters__and__customization/index
+   solution/index
+   adjoint/index
+   file/index
+   results/index
+   surface/index

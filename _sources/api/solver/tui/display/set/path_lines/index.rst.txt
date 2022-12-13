@@ -9,5 +9,5 @@ solver.tui.display.set.path\_lines
    :toctree: _autosummary
 
 .. autoclass:: ansys.fluent.core.solver.tui_231::main_menu.display.set.path_lines
-   :members: arrow_space, reverse, relative_pathlines, display_steps, arrow_scale, radius, sphere_attrib, twist_factor, style, marker_size, maximum_steps, error_control, step_size, track_in_phase, maximum_error, line_width
+   :members: maximum_error, line_width, sphere_attrib, maximum_steps, style, display_steps, track_in_phase, arrow_space, arrow_scale, relative_pathlines, error_control, step_size, radius, twist_factor, reverse, marker_size
 
